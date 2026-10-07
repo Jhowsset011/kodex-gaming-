@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111413">
+  <meta name="description" content="Consulta las características de tu próximo upgrade en Kodex Gaming y haz tu pedido por WhatsApp.">
+  <title>Producto | Kodex Gaming</title>
+  <link rel="stylesheet" href="css/kodex.css">
+  <script src="js/producto.js" defer></script>
+  <script src="js/kodex.js" defer></script>
+</head>
+<body>
+  <div class="topbar"><div class="container"><span>Tecnología para jugar a tu manera.</span><a href="https://wa.me/18098796463" target="_blank" rel="noopener noreferrer">Asesoría por WhatsApp <span aria-hidden="true"><svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></div></div>
+  <header class="header">
+    <div class="container header-main">
+      <a class="brand" href="index.html" aria-label="Kodex Gaming, inicio"><img class="brand-logo" src="img/logo/kodex-gaming.png" alt="Kodex Gaming" width="170" height="65"></a>
+      <form class="search" role="search" id="search-form"><label class="sr-only" for="search">Buscar productos</label><input id="search" type="search" placeholder="¿Qué necesita tu setup?" autocomplete="off"><button aria-label="Buscar productos"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button></form>
+      <button class="cart-button" id="open-cart"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l3 12h11l2-8H6M10 20h.01M18 20h.01"/></svg><span>Tu carrito<small id="header-total">RD$0.00</small></span><b id="cart-count">0</b></button>
+    </div>
+    <nav class="store-nav" aria-label="Navegación principal"><div class="container"><a class="nav-home" href="index.html#catalogo"><span>La tienda</span></a><a href="index.html#catalogo">Todos los productos</a><a href="index.html?categoria=Componentes#catalogo">Componentes</a><a href="index.html?categoria=Periféricos#catalogo">Periféricos</a><a href="index.html?categoria=Monitores#catalogo">Monitores</a><a class="nav-offer" href="index.html?categoria=ofertas#catalogo">Ofertas <span>Selección</span></a></div></nav>
+  </header>
+  <main class="container product-page" id="product-page">
+    <nav class="breadcrumb" aria-label="Ubicación"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><a href="index.html#catalogo">Tienda</a><span aria-hidden="true">/</span><span id="product-breadcrumb">Producto</span></nav>
+    <p id="catalog-loading" class="catalog-loading" role="status">Cargando producto…</p>
+    <div id="catalog-error" class="empty" hidden><strong>No se pudo cargar el producto.</strong><p>Comprueba tu conexión e inténtalo de nuevo.</p><button class="button" id="retry-catalog">Reintentar</button></div>
+    <div id="product-view"></div>
+    <section class="related-section" id="related-section" hidden><div class="section-heading"><div><span class="eyebrow">COMPLETA TU SETUP</span><h2>También te puede gustar</h2></div><a class="text-link" href="index.html#catalogo">Ver la tienda <svg class="arrow-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a></div><div id="related-products" class="product-grid"></div></section>
+  </main>
+  <footer><div class="container footer-main"><a class="brand" href="index.html" aria-label="Kodex Gaming, inicio"><img class="brand-logo" src="img/logo/kodex-gaming.png" alt="Kodex Gaming" width="150" height="57"></a><div><h2>Explora la tienda</h2><a href="index.html?categoria=Componentes#catalogo">Componentes</a><a href="index.html?categoria=Periféricos#catalogo">Periféricos</a><a href="index.html?categoria=Monitores#catalogo">Monitores</a></div><div><h2>Kodex Gaming</h2><a href="index.html#nosotros">Sobre nosotros</a><a href="index.html?categoria=ofertas#catalogo">Ofertas</a><button class="footer-cart" id="footer-cart">Tu carrito</button></div><div class="footer-message"><span>READY FOR YOUR<br><em>NEXT LEVEL.</em></span><p>De gamers, para gamers.</p></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Kodex Gaming</span><span>Pedidos y asesoría por WhatsApp · 809 879 6463</span></div></footer>
+  <dialog id="cart" class="cart-drawer" aria-labelledby="cart-title">
+    <div class="dialog-heading"><div><span class="eyebrow">TU SELECCIÓN</span><h2 id="cart-title">Tu carrito<span id="cart-item-count"></span></h2></div><button id="close-cart" class="close-dialog" aria-label="Cerrar carrito">×</button></div>
+    <div id="cart-items"></div>
+    <div id="cart-checkout" hidden>
+      <div class="cart-summary"><span>Subtotal <small id="cart-summary-count"></small></span><strong id="cart-total"></strong></div>
+      <p class="checkout-note">Confirmamos disponibilidad y entrega por WhatsApp.</p>
+      <a class="button cart-order" id="cart-order" target="_blank" rel="noopener noreferrer">Hacer pedido por WhatsApp <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg></a>
+      <p class="order-hint">Se abrirá tu pedido listo para enviar.</p>
+    </div>
+    <button class="continue-shopping" id="continue-shopping">Seguir comprando</button>
+  </dialog>
+  <div id="toast" role="status" aria-live="polite" hidden><span id="toast-message"></span><button id="toast-cart">Ver carrito</button></div>
+</body>
+</html>

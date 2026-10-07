@@ -18,6 +18,14 @@ Se conservan los precios del archivo sin margen adicional. Las 407 referencias a
 
 La importación es una copia del archivo, sin conexión ni actualización automática con Omega o Nexcom. Las instrucciones y el flujo de sincronización incluidos en el ZIP no se activaron; ese flujo consulta la API de Nexcom con una lista fija de IDs y no una API de Omega. Para actualizar el catálogo se debe importar un archivo nuevo y validar sus imágenes y precios.
 
+## Páginas de producto
+
+La imagen y el nombre de cada tarjeta enlazan a `producto.html?id=ID`. Cada ficha tiene una URL que se puede compartir, fotografía, referencia, descripción completa, características, pedido por WhatsApp y productos de la misma categoría. El carrito se conserva entre páginas; al volver al catálogo se recuperan búsqueda, filtros, orden y página.
+
+Las características de los 408 productos se recuperaron por sus IDs exactos de la API pública de Nexcom (`/wp-json/wc/store/v1/products`), comprobando el nombre de cada producto antes de incorporarlas. Hay 397 fichas con características estructuradas y 11 con características en texto. El JSON conserva `reference`, `description`, `specifications`, `features`, `specificationSources` y `specificationsUpdated`. Esta consulta no modifica precios ni disponibilidad del archivo original. Dos publicaciones del Dell E2318H discrepan en los puertos: esas conexiones se muestran pendientes de confirmación para la unidad, conservando el valor original en `sourceValue`.
+
+Omega no se pudo consultar por un fallo de validación del certificado en el proxy del entorno. Las consultas de especificaciones a MSI y Lenovo fueron bloqueadas por la política de acceso; por tanto, estas fichas todavía no tienen verificación independiente con fabricantes oficiales. Se añadieron `www.msi.com`, `psref.lenovo.com` y `www.samsung.com` al borrador de configuración de red, conservando los dominios existentes. Ese borrador requiere revisar, guardar y publicar la configuración del entorno para aplicarse; no cambia el acceso de esta sesión.
+
 ## GitHub Pages
 
 En Settings → Pages, selecciona Deploy from a branch, main y / (root).
