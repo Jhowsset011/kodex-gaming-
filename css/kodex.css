@@ -94,9 +94,15 @@ legend { padding: 0; font-size: 13px; font-weight: 500; margin-bottom: 15px; col
 .brand-filters input { accent-color: var(--green); width: 13px; height: 13px; margin: 0; }
 .brand-filters label span { margin-left: auto; font-size: 11px; color: #79897d; }
 #brand-options { max-height: 290px; overflow-y: auto; padding-right: 6px; scrollbar-width: thin; scrollbar-color: #3d4b3c transparent; }
-.subcategory-filters label { display: block; font-size: 13px; color: var(--muted); margin: 14px 0 7px; }
-.subcategory-filters select { width: 100%; min-width: 0; min-height: 42px; padding: 9px 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); color: var(--white); font: inherit; font-size: 14px; }
-.subcategory-filters select:disabled { opacity: .55; }
+.category-filters .category-parent { display: grid; grid-template-columns: minmax(0, 1fr) auto 14px; gap: 7px; min-height: 43px; }
+.category-filters .category-name { font-size: 14px; line-height: 1.45; color: inherit; overflow-wrap: anywhere; }
+.category-filters .category-count { font-size: 12px; color: var(--muted); }
+.category-filters .category-chevron { font-size: 20px; line-height: 1; color: var(--muted); text-align: center; transition: transform .15s; }
+.category-parent[aria-expanded="true"] .category-chevron { transform: rotate(90deg); }
+.category-children { list-style: none; margin: 7px 0 12px 14px; padding: 0 0 0 9px; border-left: 1px solid var(--line); }
+.category-children button { gap: 9px; min-height: 40px; }
+.category-children .category-name { font-size: 13px; }
+.category-children button.active { background: var(--panel-light); color: var(--green); }
 .product-category-path { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); margin: 14px 0; }
 .product-category-path a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
 .product-category-path a:hover { color: var(--green); }

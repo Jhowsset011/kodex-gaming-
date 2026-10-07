@@ -45,7 +45,7 @@ CATEGORY_RULES = [
     (r"^(?:computadora|mini pc|desktop)\b", "Computadoras"),
     (r"^(?:silla|escritorio)\b", "Mobiliario"),
     (r"^(?:disco|ssd|hdd|dvd|cd|pack \d+ dvd|caja (?:para disco|usb))\b|^memoria\s+(?:usb|micro|sd)\b", "Almacenamiento"),
-    (r"^(?:smart tv|televisor|bocina|bocinas|audifono|audifonos|soundbar|sound bar|subwoofer|barra de sonido|streaming|soporte tv|consola (?:streamer|de control))\b", "Audio y Video"),
+    (r"^(?:smart tv|televisor|bocina|bocinas|audifono|audifonos|microfono|microfonos|soundbar|sound bar|subwoofer|barra de sonido|streaming|soporte tv|consola (?:streamer|de control))\b", "Audio y Video"),
     (r"^(?:case|gabinete|power supply|fuente|placa madre|motherboard|mb|memoria|procesador|tarjeta (?:de video|msi|grafica)|abanico|ventilador|ventiladores|disipador|cooler|cpu liquid cooler|refrigeracion|enfriamiento|sistema enfriamiento|controladora)\b", "Componentes"),
     (r"^(?:mouse|teclado|combo|camara web|gamepad|control gamer|puntero|funda|candado|pedales|volante)\b", "Periféricos"),
 ]
@@ -69,145 +69,77 @@ def brand_of(name, fallback="Genérico"):
     return ALIASES.get(fallback.casefold(), fallback) or "Genérico"
 
 
-def subcategory_path(product):
-    """Three child levels, inferred only from the name and supplied specifications.
-
-    Model numbers alone never establish screen sizes, capacities or sockets.
-    Missing characteristics remain explicit rather than being guessed.
-    """
+def subcategory_of(product):
+    """One product-type subcategory beneath the main category, like Nexcom's menu."""
     name = normalized(product["name"])
-    facts = product.get("specifications", [])
-
-    def evidence(labels):
-        values = [row.get("value", "") for row in facts
-                  if re.search(labels, normalized(row.get("label", ""))) and not row.get("sourceValue")]
-        return name + " " + normalized(" ".join(values))
-
-    def find(pattern, text, suffix="", fallback="Por confirmar"):
-        match = re.search(pattern, text)
-        return match.group(1).upper().replace(",", ".") + suffix if match else fallback
-
-    def size():
-        return find(r"\b(\d{1,2}(?:[.,]\d)?)\s*(?:[\"″”]|pulg|inch)", evidence(r"pantalla|tamano|diagonal"), " pulgadas", "Tamaño por confirmar")
-
-    def capacity():
-        value = find(r"\b(\d+(?:[.,]\d+)?\s*(?:tb|gb|mb))(?!\w|\s*/)", evidence(r"capacidad|almacenamiento|memoria de video"), fallback="Capacidad por confirmar")
-        return value.replace(" ", "") if value != "Capacidad por confirmar" else value
-
-    def connection():
-        text = evidence(r"conectividad|conexion|interfaz|tipo de conexion")
-        if re.search(r"\bbluetooth\b|\bbt\b", text):
-            return "Bluetooth"
-        if re.search(r"inalambr|wireless|\b2[.,]4\s*g", text):
-            return "Inalámbricos"
-        if re.search(r"\busb\b|alambrico|wired|con cable", text):
-            return "Con cable"
-        return "Conexión por confirmar"
-
-    def color():
-        text = evidence(r"^color$")
-        for pattern, label in [(r"blanco|white", "Blanco"), (r"negro|black", "Negro"), (r"rosado|rosa|pink", "Rosado"), (r"azul|blue", "Azul"), (r"gris|gray|grey|grafito|graphite", "Gris / grafito"), (r"rojo|red", "Rojo")]:
-            if re.search(r"\b(?:" + pattern + r")\b", text):
-                return label
-        return "Color por confirmar"
-
-    def processor():
-        text = evidence(r"procesador|cpu")
-        if "xeon" in text:
-            return "Intel Xeon"
-        if "ryzen" in text:
-            return "AMD Ryzen"
-        if re.search(r"intel|core|\bi[3579]\b|j4125", text):
-            return "Intel"
-        if re.search(r"\bamd\b", text):
-            return "AMD"
-        return "Procesador por confirmar"
-
     cat = product["category"]
-    if cat == "Monitores":
-        kind = "Interactivos" if "pantalla interactiva" in name else "Portátiles" if "portatil" in name else "Táctiles" if re.search(r"touch|tactil", evidence(r"pantalla|tipo")) else "Curvos" if re.search(r"curv", evidence(r"pantalla|curvatura|diseno")) else "De escritorio"
-        text = evidence(r"panel|tecnologia de pantalla|tipo de pantalla")
-        panel = next((label for token, label in [("oled", "OLED"), ("ips", "IPS"), ("va", "VA"), ("tn", "TN")] if re.search(r"\b" + token + r"\b", text)), "Panel por confirmar")
-        return [kind, panel, size()]
-    if cat == "Almacenamiento":
-        if re.search(r"^caja\b", name):
-            return ["Cajas para discos", find(r"\b([23][.,]5)\b", name, " pulgadas", "Formato por confirmar"), find(r"\b(usb\s*[234](?:[.,]\d)?)\b", name, fallback="Interfaz por confirmar")]
-        if re.search(r"\bdvd|^cd|^pack", name):
-            return ["Discos ópticos", "DVD" if "dvd" in name else "CD", capacity()]
-        if re.search(r"^memoria\s+(?:micro|sd)", name):
-            return ["Tarjetas de memoria", "MicroSD" if "microsd" in name or "micro sd" in name else "Micro M2" if "m2" in name else "SD", capacity()]
-        if re.search(r"^memoria usb", name):
-            return ["Memorias USB", find(r"\b(usb\s*[234](?:[.,]\d)?)\b", name, fallback="USB"), capacity()]
-        ssd = bool(re.search(r"\bssd\b|estado solido", name))
-        if ssd:
-            text = evidence(r"interfaz|conexion|tipo de disco")
-            interface = "NVMe" if "nvme" in text else "SATA" if "sata" in text else "USB" if "usb" in text else "Interfaz por confirmar"
-        else:
-            text = evidence(r"tipo de disco|ubicacion|formato")
-            interface = "Externos" if "extern" in text else "Internos" if "intern" in text else "Ubicación por confirmar"
-        return ["SSD" if ssd else "Discos duros", interface, capacity()]
-    if cat == "Componentes":
-        if re.search(r"^(?:abanico|ventilador|disipador|cooler|cpu liquid cooler|refrigeracion|enfriamiento|sistema enfriamiento|controladora)", name):
-            kind = "Líquida" if re.search(r"liquid|liquid[ao]|\baio\b", name) else "Ventiladores" if re.search(r"^(?:abanico|ventilador)", name) else "Controladoras" if "controladora" in name else "Disipadores"
-            return ["Refrigeración", kind, find(r"\b(\d{2,3})\s*mm\b", evidence(r"tamano|radiador|dimension"), " mm", "Tamaño por confirmar")]
-        if re.search(r"^(?:case|gabinete)", name):
-            text = evidence(r"formato|tipo de gabinete|tamano")
-            kind = "Mini Tower" if re.search(r"mini[- ]tower", text) else "Mid Tower" if re.search(r"mid[- ]tower", text) else "Full Tower" if re.search(r"full[- ]tower", text) else "Micro-ATX" if re.search(r"micro[- ]?atx", text) else "Formato por confirmar"
-            return ["Gabinetes", kind, color()]
-        if re.search(r"^(?:power supply|fuente)", name):
-            text = evidence(r"certificacion|eficiencia")
-            certificate = next(("80 Plus " + v.title() for v in ("titanium", "platinum", "gold", "silver", "bronze") if re.search(r"\b"+v+r"\b", text)), "80 Plus Bronze" if "80 plus bronce" in text else "80 Plus" if "80 plus" in text else "Certificación por confirmar")
-            return ["Fuentes de poder", certificate, find(r"\b(\d{3,4})\s*(?:w\b|watts?\b)", evidence(r"potencia"), " W", "Potencia por confirmar")]
-        if re.search(r"^(?:mb|motherboard|placa madre)", name):
-            socket = find(r"\b(lga\s*\d{3,4}|am[345]|fm[12])\b", evidence(r"socket|zócalo|plataforma"), fallback="Socket por confirmar")
-            platform = "Intel" if "intel" in name or socket.startswith("LGA") else "AMD" if "amd" in name or re.match(r"[AF]M", socket) else "Plataforma por confirmar"
-            return ["Placas madre", platform, socket]
-        if name.startswith("memoria"):
-            technology = find(r"\b(ddr\s*[2345])\b", evidence(r"tipo|tecnologia"), fallback="Tecnología por confirmar")
-            return ["Memoria RAM", technology.replace(" ", "") if technology != "Tecnología por confirmar" else technology, capacity()]
-        if name.startswith("procesador"):
-            return ["Procesadores", processor(), find(r"\b(core\s+(?:i[3579]|ultra\s*[579])|ryzen\s*[3579]|xeon)\b", name, fallback="Familia por confirmar")]
-        if name.startswith("tarjeta"):
-            family = "NVIDIA GeForce" if re.search(r"geforce|\brtx\b|\bgtx\b", name) else "AMD Radeon" if "radeon" in name else "Familia por confirmar"
-            return ["Tarjetas de video", family, capacity()]
-        return ["Otros componentes", "Accesorios", "Características por confirmar"]
-    if cat == "Periféricos":
-        if re.search(r"^mouse pad", name):
-            kind = "Con gel" if "gel" in name else "Extendidos" if re.search(r"extended|extendid|desk mat", name) else "Superficies para mouse"
-            return ["Mouse pads", kind, color()]
-        if name.startswith("mouse"):
-            kind = "Verticales" if "vertical" in name else "Ergonómicos" if "ergonom" in name else "Ópticos" if re.search(r"optic", name) else "Mouse"
-            return ["Mouse", connection(), kind]
-        if name.startswith(("teclado", "combo")):
-            combo = name.startswith("combo") or "mouse" in name
-            kind = "Español" if "espanol" in name else "Inglés" if re.search(r"ingles|english", name) else "Idioma por confirmar"
-            return ["Combos de teclado y mouse" if combo else "Teclados", connection(), kind]
-        if name.startswith("camara web"):
-            resolution = next((label for pattern, label in [(r"4k|2160p", "4K"), (r"2k|qhd|1440p", "2K / QHD"), (r"fhd|full hd|1080p", "Full HD"), (r"\bhd\b|720p", "HD")] if re.search(pattern, evidence(r"resolucion"))), "Resolución por confirmar")
-            return ["Cámaras web", resolution, connection()]
-        kind = "Pedales" if name.startswith("pedales") else "Volantes" if name.startswith("volante") else "Controles" if re.search(r"^gamepad|^control", name) else "Fundas para laptop" if name.startswith("funda") else "Candados" if name.startswith("candado") else "Presentadores"
-        return ["Accesorios", kind, size() if name.startswith("funda") else connection()]
     if cat == "Audio y Video":
-        if re.search(r"^audifono", name):
-            return ["Audífonos", "In-ear" if "in-ear" in name else "Audífonos con micrófono" if "microfono" in name else "Audífonos", connection()]
-        if re.search(r"^sound ?bar|^barra de sonido", name):
-            return ["Barras de sonido", find(r"\b([2357][.,][012])\b", name, " canales", "Canales por confirmar"), connection()]
-        if name.startswith("subwoofer"):
-            return ["Subwoofers", connection(), color()]
-        if name.startswith("bocina"):
-            kind = "Portátiles" if re.search(r"portatil|recargable", name) else "Bluetooth" if "bluetooth" in name else "Para escritorio"
-            return ["Bocinas", kind, find(r"\b([25][.,][01])\b", name, " canales", "Canales por confirmar")]
-        if re.search(r"^smart tv|^televisor", name):
-            text = evidence(r"resolucion")
-            return ["Televisores", "4K" if re.search(r"4k|uhd", text) else "Full HD" if re.search(r"fhd|full hd|1080", text) else "Resolución por confirmar", size()]
-        kind = "Streaming" if name.startswith("streaming") else "Soportes para TV" if name.startswith("soporte") else "Consolas para streaming"
-        return ["Accesorios de audio y video", kind, connection()]
-    if cat in ("Laptops", "Computadoras"):
-        kind = "Convertibles 2 en 1" if re.search(r"2 en 1|2-in-1", name) else "Portátiles" if cat == "Laptops" else "Terminales" if re.search(r"terminal|wyse|thin client", name) else "Mini PC" if "mini pc" in name else "De escritorio"
-        return [kind, processor(), size() if cat == "Laptops" else capacity()]
+        rules = [
+            (r"^audifono", "Audífonos"),
+            (r"^bocina", "Bocinas"),
+            (r"^sound ?bar|^barra de sonido|^subwoofer", "Equipos de sonido"),
+            (r"^soporte", "Soportes para TV"),
+            (r"^streaming", "Streaming y TV Smart"),
+            (r"^smart tv|^televisor", "Televisores"),
+            (r"^microfono", "Micrófonos"),
+            (r"^iluminacion|^luz|^luces", "Iluminación"),
+        ]
+        return next((label for pattern, label in rules if re.search(pattern, name)), "Accesorios de audio")
+    if cat == "Almacenamiento":
+        rules = [
+            (r"^caja", "Gabinetes para discos"),
+            (r"^memoria usb", "Memorias USB"),
+            (r"^memoria\s+(?:micro|sd)", "Tarjetas de memoria"),
+            (r"\bdvd|^cd|^pack", "Unidades ópticas"),
+            (r"\bssd\b|estado solido", "Discos SSD"),
+        ]
+        return next((label for pattern, label in rules if re.search(pattern, name)), "Discos HDD")
+    if cat == "Componentes":
+        rules = [
+            (r"^controladora", "Controladores RGB"),
+            (r"^(?:abanico|ventilador|disipador|cooler|cpu liquid cooler|refrigeracion|enfriamiento|sistema enfriamiento)", "Refrigeración"),
+            (r"^(?:case|gabinete)", "Gabinetes / Case"),
+            (r"^(?:power supply|fuente)", "Fuentes de poder"),
+            (r"^(?:mb|motherboard|placa madre)", "Tarjetas madre"),
+            (r"^memoria", "Memorias RAM"),
+            (r"^procesador", "Procesadores"),
+            (r"^tarjeta", "Tarjetas gráficas"),
+        ]
+        return next((label for pattern, label in rules if re.search(pattern, name)), "Otros componentes")
+    if cat == "Periféricos":
+        if name.startswith("mouse pad"):
+            return "Mouse pads"
+        if name.startswith("mouse"):
+            return "Mouse"
+        if name.startswith(("teclado", "combo")):
+            return "Combos de teclado y mouse" if name.startswith("combo") or "mouse" in name else "Teclados"
+        if name.startswith("camara web"):
+            return "Cámaras web"
+        if name.startswith(("gamepad", "control")):
+            return "Controles de juego"
+        if name.startswith(("pedales", "volante")):
+            return "Volantes y pedales"
+        if name.startswith(("funda", "candado")):
+            return "Accesorios para laptop"
+        return "Presentadores" if name.startswith("puntero") else "Otros accesorios"
+    if cat == "Monitores":
+        facts = " ".join(row.get("value", "") for row in product.get("specifications", [])
+                         if re.search(r"pantalla|tipo|curvatura|diseno", normalized(row.get("label", ""))))
+        text = name + " " + normalized(facts)
+        if name.startswith("pantalla interactiva"):
+            return "Pantallas interactivas"
+        if "portatil" in name:
+            return "Portátiles"
+        if re.search(r"touch|tactil", text):
+            return "Táctiles"
+        return "Curvos" if "curv" in text else "De escritorio"
+    if cat == "Laptops":
+        return "Convertibles 2 en 1" if re.search(r"2 en 1|2-in-1", name) else "Gaming" if re.search(r"gamer|gaming", name) else "Portátiles"
+    if cat == "Computadoras":
+        return "Terminales" if re.search(r"terminal|wyse|thin client", name) else "Mini PC" if "mini pc" in name else "De escritorio"
     if cat == "Mobiliario":
-        return ["Sillas" if name.startswith("silla") else "Escritorios", "Gaming" if re.search(r"gamer|gaming", name) else "Para oficina", color()]
-    return ["Otros productos", "Accesorios", "Características por confirmar"]
+        return "Sillas" if name.startswith("silla") else "Escritorios"
+    return "Otros productos"
 
 
 def classify(product):
@@ -220,8 +152,8 @@ def classify(product):
     if previous == "Zona Gamer" or re.search(r"\b(?:gamer|gaming)\b", name):
         collections.add("Zona Gamer")
     product["collections"] = sorted(collections)
-    product["subcategoryPath"] = subcategory_path(product)
-    product.pop("subcategory", None)
+    product["subcategory"] = subcategory_of(product)
+    product.pop("subcategoryPath", None)
     product.pop("subsubcategory", None)
     return product
 
@@ -351,9 +283,9 @@ def validate(products):
         if p.get("old") is not None and not p["old"] > p["price"]:
             raise ValueError("Oferta inválida")
         reference = p.get("reference")
-        path = p.get("subcategoryPath")
-        if path is not None and (not isinstance(path, list) or len(path) != 3 or not all(isinstance(item, str) and item.strip() for item in path)):
-            raise ValueError("Jerarquía de subcategorías inválida")
+        subcategory = p.get("subcategory")
+        if subcategory is not None and (not isinstance(subcategory, str) or not subcategory.strip()):
+            raise ValueError("Subcategoría inválida")
         if reference and reference in references:
             raise ValueError("Referencia de suplidor repetida")
         if reference:

@@ -11,7 +11,7 @@ const grid = $('#products'), cartDialog = $('#cart');
 const isProductPage = Boolean($('#product-page'));
 const productURL = product => `producto.html?id=${encodeURIComponent(product.id)}`;
 let filter = 'Todos', cart = {};
-let subcategories = ['', '', ''];
+let subcategory = '';
 try {
   const saved = JSON.parse(localStorage.getItem('kodex-cart') || '{}');
   if (saved && typeof saved === 'object' && !Array.isArray(saved)) cart = saved;
@@ -43,43 +43,51 @@ function offerCount() { return products.filter(p => p.old && p.old > p.price).le
 function matchesCategory(product) {
   return filter === 'Todos' || (filter === 'ofertas' ? product.old > product.price : productInCategory(product, filter));
 }
-function pathForCategory(product, category = filter) {
-  const path = Array.isArray(product.subcategoryPath) ? product.subcategoryPath : [];
-  return category === product.category ? path : [product.category, ...path.slice(0, 2)];
+function subcategoryForCategory(product, category = filter) {
+  if (category === 'Zona Gamer') {
+    if (product.category === 'Monitores' || product.category === 'Laptops') return product.category;
+    if (product.category === 'Audio y Video') return product.subcategory === 'Audífonos' ? 'Audífonos' : 'Audio';
+  }
+  return product.subcategory || '';
 }
-function renderSubcategoryUI() {
-  const panel = $('#subcategory-filters');
-  if (!panel) return;
-  panel.hidden = filter === 'Todos';
-  if (filter === 'Todos') subcategories.fill('');
-  for (let level = 0; level < 3; level++) {
-    const select = $(`#subcategory-${level + 1}`);
+function selectSubcategory(value) {
+  const aliases = {'SSD':'Discos SSD', 'Discos duros':'Discos HDD', 'Cajas para discos':'Gabinetes para discos', 'Discos ópticos':'Unidades ópticas', 'Gabinetes':'Gabinetes / Case', 'Placas madre':'Tarjetas madre', 'Memoria RAM':'Memorias RAM', 'Tarjetas de video':'Tarjetas gráficas', 'Barras de sonido':'Equipos de sonido', 'Subwoofers':'Equipos de sonido', 'Accesorios de audio y video':'Accesorios de audio', 'Interactivos':'Pantallas interactivas'};
+  const candidate = aliases[value] || value;
+  subcategory = filter !== 'Todos' && products.some(p => matchesCategory(p) && subcategoryForCategory(p) === candidate) ? candidate : '';
+  renderCategoryUI();
+  renderProducts();
+}
+function renderCategoryUI() {
+  const catBox = $('#category-buttons');
+  if (catBox) {
+    const focused = catBox.contains(document.activeElement) ? document.activeElement : null;
+    const focusedCategory = focused?.dataset.filter;
+    const focusedSubcategory = focused?.dataset.subcategory;
     const counts = new Map();
-    for (const p of products) {
-      const path = pathForCategory(p);
-      if (matchesCategory(p) && subcategories.slice(0, level).every((value, index) => !value || path[index] === value) && path[level]) {
-        counts.set(path[level], (counts.get(path[level]) || 0) + 1);
+    if (filter !== 'Todos') for (const p of products) {
+      if (matchesCategory(p)) {
+        const name = subcategoryForCategory(p);
+        if (name) counts.set(name, (counts.get(name) || 0) + 1);
       }
     }
-    if (!counts.has(subcategories[level])) subcategories.fill('', level);
-    const enabled = filter !== 'Todos' && (level === 0 || Boolean(subcategories[level - 1]));
-    select.disabled = !enabled;
-    const placeholder = enabled ? 'Todas las opciones' : 'Elige la opción anterior';
-    select.innerHTML = `<option value="">${placeholder}</option>` + [...counts].sort((a,b)=>a[0].localeCompare(b[0],'es')).map(([name,count]) => `<option value="${escapeHTML(name)}">${escapeHTML(name)} (${count})</option>`).join('');
-    select.value = subcategories[level];
+    const categoryItem = (category, count, label = category) => {
+      const expanded = filter === category;
+      const children = expanded && counts.size ? `<ul class="category-children" id="category-children" aria-label="Subcategorías de ${escapeHTML(label)}">${[...counts].sort((a,b)=>a[0].localeCompare(b[0],'es')).map(([name,number]) => `<li><button type="button" class="${subcategory === name ? 'active' : ''}" data-subcategory="${escapeHTML(name)}" aria-pressed="${subcategory === name}"><span class="category-name">${escapeHTML(name)}</span><span class="category-count">${number}</span></button></li>`).join('')}</ul>` : '';
+      return `<div class="category-group"><button type="button" class="category-parent ${expanded ? 'active' : ''}" data-filter="${escapeHTML(category)}" aria-pressed="${expanded}" aria-expanded="${expanded}"${expanded && counts.size ? ' aria-controls="category-children"' : ''}><span class="category-name">${escapeHTML(label)}</span><span class="category-count">${count}</span><span class="category-chevron" aria-hidden="true">›</span></button>${children}</div>`;
+    };
+    catBox.innerHTML = `<button type="button" class="category-all ${filter === 'Todos' ? 'active' : ''}" data-filter="Todos" aria-pressed="${filter === 'Todos'}"><span class="category-name">Todos los productos</span><span class="category-count">${products.length}</span></button>` +
+      countBy('category').map(([category,count])=>categoryItem(category,count)).join('') + categoryItem('ofertas',offerCount(),'Ofertas');
+    catBox.querySelectorAll('[data-filter]').forEach(button =>
+      button.addEventListener('click', () => selectFilter(button.dataset.filter)));
+    catBox.querySelectorAll('[data-subcategory]').forEach(button =>
+      button.addEventListener('click', () => selectSubcategory(button.dataset.subcategory)));
+    if (focused) [...catBox.querySelectorAll('button')].find(button =>
+      (focusedCategory && button.dataset.filter === focusedCategory) ||
+      (focusedSubcategory && button.dataset.subcategory === focusedSubcategory))?.focus({preventScroll:true});
   }
 }
 function renderFilterUI() {
-  const catBox = $('#category-buttons');
-  if (catBox) {
-    const cats = countBy('category');
-    catBox.innerHTML =
-      `<button class="${filter === 'Todos' ? 'active' : ''}" data-filter="Todos" aria-pressed="${filter === 'Todos'}">Todos los productos <span>${products.length}</span></button>` +
-      cats.map(([c, n]) => `<button class="${filter === c ? 'active' : ''}" data-filter="${escapeHTML(c)}" aria-pressed="${filter === c}">${escapeHTML(c)} <span>${n}</span></button>`).join('') +
-      `<button class="${filter === 'ofertas' ? 'active' : ''}" data-filter="ofertas" aria-pressed="${filter === 'ofertas'}">Ofertas <span>${offerCount()}</span></button>`;
-    catBox.querySelectorAll('[data-filter]').forEach(button =>
-      button.addEventListener('click', () => selectFilter(button.dataset.filter)));
-  }
+  renderCategoryUI();
   const brandBox = $('#brand-options');
   if (brandBox) {
     brandBox.innerHTML = countBy('brand').map(([b, n]) =>
@@ -126,8 +134,8 @@ function renderProducts(resetPage = true) {
   minInput.setAttribute('aria-invalid', String(invalid));
   maxInput.setAttribute('aria-invalid', String(invalid));
   const list = invalid ? [] : products.filter(p =>
-    matchesCategory(p) && subcategories.every((value, index) => !value || pathForCategory(p)[index] === value) &&
-    `${p.name} ${p.spec || ''} ${p.category || ''} ${p.brand || ''} ${p.reference || ''} ${p.model || ''} ${(p.collections || []).join(' ')} ${(p.subcategoryPath || []).join(' ')}`.toLocaleLowerCase('es').includes(query) &&
+    matchesCategory(p) && (!subcategory || subcategoryForCategory(p) === subcategory) &&
+    `${p.name} ${p.spec || ''} ${p.category || ''} ${p.brand || ''} ${p.reference || ''} ${p.model || ''} ${(p.collections || []).join(' ')} ${p.subcategory || ''}`.toLocaleLowerCase('es').includes(query) &&
     (!brands.length || brands.includes(p.brand)) && p.price >= min && p.price <= max
   );
   const sort = $('#sort').value;
@@ -146,10 +154,10 @@ function renderProducts(resetPage = true) {
   $('#next-page').disabled = currentPage === totalPages;
   $('#total-pages').textContent = totalPages;
   $('#page-select').innerHTML = Array.from({length:totalPages}, (_, i) => `<option value="${i + 1}" ${currentPage === i + 1 ? 'selected' : ''}>${i + 1}</option>`).join('');
-  $('#catalog-title').textContent = filter === 'Todos' ? 'Todos los productos' : filter === 'ofertas' ? 'Ofertas gaming' : filter;
+  $('#catalog-title').textContent = subcategory || (filter === 'Todos' ? 'Todos los productos' : filter === 'ofertas' ? 'Ofertas gaming' : filter);
   const chips = [];
   if (filter !== 'Todos') chips.push({type:'category', text:filter === 'ofertas' ? 'Ofertas' : filter});
-  subcategories.forEach((value, index) => { if (value) chips.push({type:'subcategory', value:String(index), text:value}); });
+  if (subcategory) chips.push({type:'subcategory', text:subcategory});
   if (query) chips.push({type:'search', text:`Búsqueda: ${$('#search').value.trim()}`});
   if (minInput.value !== '') chips.push({type:'min', text:`Desde ${money(min)}`});
   if (maxInput.value !== '') chips.push({type:'max', text:`Hasta ${money(max)}`});
@@ -158,13 +166,8 @@ function renderProducts(resetPage = true) {
 }
 function selectFilter(value) {
   filter = value;
-  subcategories = ['', '', ''];
-  document.querySelectorAll('[data-filter]').forEach(button => {
-    const selected = button.dataset.filter === value;
-    button.classList.toggle('active', selected);
-    button.setAttribute('aria-pressed', String(selected));
-  });
-  renderSubcategoryUI();
+  subcategory = '';
+  renderCategoryUI();
   renderProducts();
 }
 function resetFilters() {
@@ -233,7 +236,7 @@ function scrollToCatalog() {
 }
 
 function rememberCatalog() {
-  try { sessionStorage.setItem('kodex-catalog-state', JSON.stringify({url:location.pathname + location.search, filter, subcategories, query:$('#search').value, min:$('#min-price').value, max:$('#max-price').value, sort:$('#sort').value, brands:Array.from(document.querySelectorAll('[name="brand"]:checked'), input=>input.value), page:currentPage, scroll:window.scrollY})); } catch {}
+  try { sessionStorage.setItem('kodex-catalog-state', JSON.stringify({url:location.pathname + location.search, filter, subcategory, query:$('#search').value, min:$('#min-price').value, max:$('#max-price').value, sort:$('#sort').value, brands:Array.from(document.querySelectorAll('[name="brand"]:checked'), input=>input.value), page:currentPage, scroll:window.scrollY})); } catch {}
 }
 function restoreCatalog() {
   let state;
@@ -244,9 +247,7 @@ function restoreCatalog() {
     $('#search').value = params.get('buscar') || '';
     const category = params.get('categoria');
     selectFilter(category === 'ofertas' || products.some(p=>productInCategory(p, category)) ? category : 'Todos');
-    subcategories = [1,2,3].map(level=>params.get(`sub${level}`) || '');
-    renderSubcategoryUI();
-    renderProducts();
+    selectSubcategory(params.get('subcategoria') || params.get('sub1') || '');
     return;
   }
   if (!state) { renderProducts(); return; }
@@ -256,19 +257,12 @@ function restoreCatalog() {
   $('#sort').value = ['featured','price-asc','price-desc','name'].includes(state.sort) ? state.sort : 'featured';
   document.querySelectorAll('[name="brand"]').forEach(input => input.checked = Array.isArray(state.brands) && state.brands.includes(input.value));
   selectFilter(state.filter === 'ofertas' || products.some(p=>productInCategory(p, state.filter)) ? state.filter : 'Todos');
-  subcategories = Array.from({length:3}, (_, index) => typeof state.subcategories?.[index] === 'string' ? state.subcategories[index] : '');
-  renderSubcategoryUI();
+  selectSubcategory(typeof state.subcategory === 'string' ? state.subcategory : typeof state.subcategories?.[0] === 'string' ? state.subcategories[0] : '');
   currentPage = Number.isInteger(state.page) && state.page > 0 ? state.page : 1;
   renderProducts(false);
   if (Number.isFinite(state.scroll)) requestAnimationFrame(()=>scrollTo(0,state.scroll));
 }
 if (grid) {
-  [1,2,3].forEach(level => $(`#subcategory-${level}`).addEventListener('change', event => {
-    subcategories[level - 1] = event.target.value;
-    subcategories.fill('', level);
-    renderSubcategoryUI();
-    renderProducts();
-  }));
   document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click', () => {
     resetFilters();
     selectFilter(button.dataset.category);
@@ -285,8 +279,7 @@ if (grid) {
     if (!button) return;
     if (button.dataset.clear === 'category') { selectFilter('Todos'); return; }
     if (button.dataset.clear === 'subcategory') {
-      subcategories.fill('', Number(button.dataset.value));
-      renderSubcategoryUI();
+      selectSubcategory('');
     }
     if (button.dataset.clear === 'search') $('#search').value = '';
     if (button.dataset.clear === 'min') $('#min-price').value = '';
@@ -365,7 +358,7 @@ function validateCatalog(data) {
         typeof p.stock !== 'boolean' || typeof p.image !== 'string') throw new Error('Producto inválido');
     if (p.image && !p.image.startsWith('img/catalogo/') && !p.image.startsWith('https://nexcomtienda.com.do/')) throw new Error('Imagen inválida');
     if (p.old !== undefined && (!Number.isFinite(p.old) || p.old <= p.price)) throw new Error('Oferta inválida');
-    if (p.subcategoryPath !== undefined && (!Array.isArray(p.subcategoryPath) || p.subcategoryPath.length !== 3 || !p.subcategoryPath.every(value => typeof value === 'string' && value.trim()))) throw new Error('Subcategorías inválidas');
+    if (typeof p.subcategory !== 'string' || !p.subcategory.trim()) throw new Error('Subcategoría inválida');
     ids.add(p.id);
   }
   return data.products;

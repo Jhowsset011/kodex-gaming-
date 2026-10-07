@@ -17,16 +17,13 @@ function renderProductPage() {
   const description = product.description || product.spec || '';
   const paragraphs = description.split(/\n+/).filter(Boolean).map(text => `<p>${escapeHTML(text)}</p>`).join('');
   const rows = specifications.map(row => `<div class="spec-row"><dt>${escapeHTML(row.label)}</dt><dd>${escapeHTML(row.value)}</dd></div>`).join('');
-  const categoryPath = (product.subcategoryPath || []).map((name, index, path) => {
-    const params = new URLSearchParams({categoria:product.category});
-    path.slice(0, index + 1).forEach((value, level) => params.set(`sub${level + 1}`, value));
-    return `<a href="index.html?${escapeHTML(params.toString())}#catalogo">${escapeHTML(name)}</a>`;
-  }).join('<span aria-hidden="true">›</span>');
+  const categoryParams = new URLSearchParams({categoria:product.category, subcategoria:product.subcategory});
+  const categoryPath = `<a href="index.html?${escapeHTML(categoryParams.toString())}#catalogo">${escapeHTML(product.subcategory)}</a>`;
   view.innerHTML = `<div class="product-overview">
     <div class="product-photo"><img src="${escapeHTML(product.image || 'img/catalogo/sin-imagen.svg')}" alt="${escapeHTML(product.name)}" width="520" height="440" fetchpriority="high"></div>
     <div class="product-information">
       <a class="eyebrow" href="index.html?categoria=${encodeURIComponent(product.category)}#catalogo">${escapeHTML(product.brand)} · ${escapeHTML(product.category)}</a>
-      ${categoryPath ? `<nav class="product-category-path" aria-label="Subcategorías del producto">${categoryPath}</nav>` : ''}
+      <nav class="product-category-path" aria-label="Subcategoría del producto">${categoryPath}</nav>
       <h1>${escapeHTML(product.name)}</h1>
       <p class="product-reference">Referencia: <span>${escapeHTML(product.reference || product.id)}</span>${product.model ? ` · Modelo: <span>${escapeHTML(product.model)}</span>` : ''}</p>
       <div class="product-description">${paragraphs}</div>
