@@ -146,7 +146,7 @@ function addProduct(id) {
 function showDetail(id) {
   const p = products.find(p => p.id === id);
   if (!p) return;
-  $('#detail-content').innerHTML = `${p.image ? `<img class="detail-image" src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}">` : ''}<span class="product-type">${escapeHTML(p.category || '')} · ${escapeHTML(p.brand || '')}</span><h2 id="detail-title">${escapeHTML(p.name)}</h2><p>${escapeHTML(p.spec || '')}</p><p class="detail-price">${money(p.price)}</p><p>Precio de Nexcom según la selección del archivo para Omega. Aún no se procesan pedidos ni pagos.</p><button class="button" data-add="${p.id}" ${p.stock ? '' : 'disabled'}>${p.stock ? 'Añadir al carrito' : 'Agotado'} <span aria-hidden="true">+</span></button>`;
+  $('#detail-content').innerHTML = `${p.image ? `<img class="detail-image" src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}">` : ''}<span class="product-type">${escapeHTML(p.category || '')} · ${escapeHTML(p.brand || '')}</span><h2 id="detail-title">${escapeHTML(p.name)}</h2><p>${escapeHTML(p.spec || '')}</p><p class="detail-price">${money(p.price)}</p><button class="button" data-add="${p.id}" ${p.stock ? '' : 'disabled'}>${p.stock ? 'Añadir al carrito' : 'Agotado'} <span aria-hidden="true">+</span></button>`;
   detailDialog.showModal();
 }
 function scrollToCatalog() {
