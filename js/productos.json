@@ -26067,7 +26067,7 @@
       "category": "Laptops",
       "price": 69250.0,
       "image": "img/catalogo/7e31c577813728a39998.png",
-      "stock": true,
+      "stock": false,
       "brand": "Lenovo",
       "reference": "111414",
       "description": "Laptop Lenovo ThinkPad T14 Gen 4 equipada con procesador Intel Core i5-1335U, 16GB de memoria RAM, almacenamiento de 512GB SSD y sistema operativo Windows 11 Pro.",
@@ -26110,7 +26110,8 @@
         "Portátiles",
         "Intel",
         "Tamaño por confirmar"
-      ]
+      ],
+      "sourceUnavailable": true
     },
     {
       "id": "21632",
@@ -34039,8 +34040,9 @@
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/05/MAG-A850GL-PCIE5.webp"
     }
   ],
-  "updated": "2026-10-07T15:26:17+00:00",
+  "updated": "2026-10-07T15:41:23+00:00",
   "sourceMissingIds": [
+    "29516",
     "21308"
   ]
 }
