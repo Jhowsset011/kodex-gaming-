@@ -7,6 +7,11 @@ on:
   push:
     branches: [main]
     paths:
+      - index.html
+      - producto.html
+      - css/**
+      - js/**
+      - img/**
       - scripts/**
       - tests/test_sync_nexcom.py
       - .github/workflows/sync-catalogo.yml
@@ -56,6 +61,9 @@ jobs:
           path: _site
 
   deploy:
+    # Pages publishes main automatically on human pushes. Bot commits do not
+    # trigger that build, so scheduled/manual syncs deploy their own artifact.
+    if: github.event_name != 'push'
     needs: sync
     runs-on: ubuntu-latest
     timeout-minutes: 10

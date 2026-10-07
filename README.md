@@ -30,7 +30,7 @@ Se incorporaron y adaptaron los tres archivos solicitados: `scripts/sync_nexcom.
 
 La selección se limita a los 572 IDs de `omega_ids.txt`: nuevos productos del suplidor se incorporan únicamente al añadir sus IDs a esa lista. El script consulta directamente esas referencias, incluyendo laptops; actualiza precios sin margen, disponibilidad, descuentos, imágenes y características; y reaplica las reglas de categoría, marca y los tres niveles de subcategorías. Lee el catálogo del checkout, no la copia publicada, para conservar enriquecimiento y archivos locales. Un fallo de red o validación no sustituye el catálogo. Las publicaciones que desaparecen del origen se conservan como no disponibles; una pérdida extensa de fichas detiene la actualización. No se generan commits cuando los datos son iguales.
 
-El flujo guarda los cambios y despliega explícitamente un artefacto de la web mediante GitHub Pages. Esto evita depender de que un commit hecho con GITHUB_TOKEN inicie otro flujo. No requiere contraseñas de Nexcom ni Omega. GitHub debe permitir Actions, la escritura del token en main y el despliegue al entorno github-pages; si una protección lo impide, la ejecución muestra el motivo en Actions. La ejecución publicada para el lote de 481 productos se verificó en GitHub Actions con resultado correcto, incluyendo el despliegue. Las ejecuciones posteriores pueden consultarse en Actions.
+El flujo guarda los cambios y, en las ejecuciones programadas o manuales, despliega explícitamente un artefacto mediante GitHub Pages. Esto evita depender de que un commit hecho con GITHUB_TOKEN inicie otro flujo. En los pushes del propietario, la publicación automática de la rama main se encarga del despliegue y el job deploy del catálogo se omite para evitar que dos publicaciones se cancelen entre sí. No requiere contraseñas de Nexcom ni Omega. GitHub debe permitir Actions, la escritura del token en main y el despliegue al entorno github-pages; si una protección lo impide, la ejecución muestra el motivo en Actions. El despliegue mediante artefacto del lote de 481 productos se verificó con resultado correcto. Las ejecuciones posteriores pueden consultarse en Actions.
 
 Para verificar sin escribir:
 
@@ -55,7 +55,7 @@ Las fichas todavía no tienen verificación independiente con fabricantes oficia
 
 ## GitHub Pages
 
-En Settings → Pages, selecciona Deploy from a branch, main y / (root).
+En Settings → Pages, mantén Deploy from a branch, main y / (root). Los pushes del propietario se publican desde la rama. La sincronización diaria y las ejecuciones manuales publican su artefacto mediante `sync-catalogo.yml`; sus commits hechos con GITHUB_TOKEN no disparan una segunda publicación desde la rama. El despliegue del catálogo se omite en eventos push para evitar duplicarlo. Cambiar el origen a GitHub Actions requiere quitar esa condición y usar el workflow para todos los eventos.
 
 ## Pedidos por WhatsApp
 
