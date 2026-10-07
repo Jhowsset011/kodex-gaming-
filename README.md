@@ -10,6 +10,10 @@ python3 -m http.server 8000 --bind 127.0.0.1
 
 No requiere instalación ni compilación. Los pedidos se preparan en WhatsApp; la web no procesa pagos.
 
+## Apariencia
+
+El interruptor de sol/luna en la barra superior cambia entre modo claro y oscuro en la tienda y las fichas de producto. El modo oscuro es el inicial y conserva la paleta existente. El modo claro tiene fondos suaves, texto oscuro y un logo preparado para fondo claro. La elección se guarda en `localStorage` (`kodex-theme`), se aplica antes de cargar los estilos y se sincroniza entre pestañas. Si el navegador bloquea el almacenamiento, el interruptor sigue funcionando durante la visita. Los estilos del tema claro están en `css/tema.css`; `js/tema.js` controla la selección.
+
 ## Catálogo
 
 `js/productos.json` contiene 408 productos del archivo `kodex-tienda-omega-408.zip` proporcionado por el propietario. El archivo declara que son productos comunes a Nexcom y Omega; sus precios, imágenes, descripciones y disponibilidad provienen de Nexcom. Esta coincidencia no se ha verificado en vivo contra Omega y no representa los precios especiales de una cuenta de Omega.
