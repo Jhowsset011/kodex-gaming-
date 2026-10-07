@@ -1,6 +1,7 @@
 let products = [];
 let currentPage = 1;
 const PAGE_SIZE = 24;
+const WHATSAPP_NUMBER = '18098796463';
 let catalogLoading = true;
 
 const money = value => 'RD$' + Number(value).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
@@ -54,6 +55,18 @@ function badgeFor(p) {
   if (p.old && p.old > p.price) return `−${Math.round((1 - p.price / p.old) * 100)}%`;
   return '';
 }
+const cartIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l3 12h11l2-8H6M10 20h.01M18 20h.01"/></svg>';
+const arrowIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg>';
+function orderURL(items) {
+  const total = items.reduce((sum, {product, quantity}) => sum + product.price * quantity, 0);
+  const lines = items.map(({product, quantity}) => `${quantity} × ${product.name}\nCódigo: ${product.id} · Precio unitario: ${money(product.price)}\nSubtotal: ${money(product.price * quantity)}`);
+  const text = `Hola, Kodex Gaming. Quiero hacer este pedido:\n\n${lines.join('\n\n')}\n\nTotal de productos: ${money(total)}\n¿Me confirman disponibilidad y costo de entrega?`;
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+}
+function productActions(p, detail = false) {
+  if (!p.stock) return '<button class="order-product" disabled>Agotado</button>';
+  return `<div class="product-actions ${detail ? 'detail-actions' : ''}"><a class="order-product" href="${escapeHTML(orderURL([{product:p, quantity:1}]))}" target="_blank" rel="noopener noreferrer" aria-label="Hacer pedido de ${escapeHTML(p.name)} por WhatsApp">Hacer pedido ${arrowIcon}</a><button class="add" data-add="${p.id}" aria-label="Añadir ${escapeHTML(p.name)} al carrito" title="Añadir al carrito">${cartIcon}${detail ? '<span>Añadir al carrito</span>' : ''}</button></div>`;
+}
 function renderProducts(resetPage = true) {
   if (catalogLoading) return;
   if (resetPage) currentPage = 1;
@@ -82,12 +95,9 @@ function renderProducts(resetPage = true) {
   grid.innerHTML = visible.map(p => {
     const badge = badgeFor(p);
     const art = p.image ? `<img src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}" loading="lazy">` : '';
-    const addBtn = p.stock
-      ? `<button class="add" data-add="${p.id}" aria-label="Añadir ${escapeHTML(p.name)} al carrito"><span aria-hidden="true">+</span> Añadir al carrito</button>`
-      : `<button class="add" disabled aria-label="${escapeHTML(p.name)} agotado">Agotado</button>`;
     return `<article class="product" data-product="${p.id}">
-    <div class="product-art">${badge ? `<span class="badge ${p.old && p.stock ? 'sale' : ''}">${escapeHTML(badge)}</span>` : ''}<button class="product-image-button" data-detail="${p.id}" aria-label="Ver detalles de ${escapeHTML(p.name)}">${art}</button></div>
-    <div class="product-copy"><span class="product-type">${escapeHTML(p.category || '')} · ${escapeHTML(p.brand || '')}</span><h3><button class="product-title" data-detail="${p.id}">${escapeHTML(p.name)}</button></h3><p class="product-spec">${escapeHTML(p.spec || '')}</p><div class="product-price"><strong>${money(p.price)}</strong>${p.old ? `<del>${money(p.old)}</del>` : ''}</div>${addBtn}</div></article>`;
+    <div class="product-art">${badge ? `<span class="badge ${p.old && p.stock ? 'sale' : ''}">${escapeHTML(badge)}</span>` : ''}<button class="product-image-button" data-detail="${p.id}" aria-label="Ver detalles de ${escapeHTML(p.name)}">${art}</button><span class="view-product">Ver detalles ${arrowIcon}</span></div>
+    <div class="product-copy"><span class="product-type"><span>${escapeHTML(p.brand || '')}</span> ${escapeHTML(p.category || '')}</span><h3><button class="product-title" data-detail="${p.id}">${escapeHTML(p.name)}</button></h3><div class="product-price"><strong>${money(p.price)}</strong>${p.old ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p)}</div></article>`;
   }).join('');
   $('#empty').hidden = list.length > 0;
   $('#result-count').textContent = list.length ? `Mostrando ${start + 1}–${Math.min(start + PAGE_SIZE, list.length)} de ${list.length} productos` : 'No hay productos con estos filtros';
@@ -122,31 +132,62 @@ function resetFilters() {
   document.querySelectorAll('[name="brand"]').forEach(input => input.checked = false);
   selectFilter('Todos');
 }
-function renderCart() {
+function updateCartSummary() {
   const items = products.filter(p => cart[p.id]);
   const total = items.reduce((sum, p) => sum + p.price * cart[p.id], 0);
-  $('#cart-count').textContent = Object.values(cart).reduce((a,b) => a+b, 0);
+  const quantity = items.reduce((sum, p) => sum + cart[p.id], 0);
+  $('#cart-count').textContent = quantity;
+  $('#cart-item-count').textContent = quantity;
   $('#header-total').textContent = money(total);
   $('#cart-total').textContent = money(total);
-  $('#cart-items').innerHTML = items.length ? items.map(p => `<div class="cart-line">${p.image ? `<img src="${escapeHTML(p.image)}" alt="">` : ''}<div><h3>${escapeHTML(p.name)}</h3><p>${money(p.price)}</p><div class="quantity"><button data-change="${p.id}" data-step="-1" aria-label="Quitar una unidad de ${escapeHTML(p.name)}">−</button><span>${cart[p.id]}</span><button data-change="${p.id}" data-step="1" aria-label="Añadir una unidad de ${escapeHTML(p.name)}" ${cart[p.id] >= 99 ? 'disabled' : ''}>+</button></div></div><button class="remove" data-remove="${p.id}" aria-label="Eliminar ${escapeHTML(p.name)}">Eliminar</button></div>`).join('') : '<div class="empty"><strong>Tu próximo upgrade te espera.</strong><p>Explora el catálogo y añade tus favoritos.</p></div>';
+  $('#cart-summary-count').textContent = `${quantity} artículo${quantity === 1 ? '' : 's'}`;
+  $('#cart-checkout').hidden = !items.length;
+  const orderLink = $('#cart-order');
+  if (items.length) orderLink.href = orderURL(items.map(product => ({product, quantity:cart[product.id]})));
+  else orderLink.removeAttribute('href');
+  return items;
+}
+function renderCart() {
+  const items = updateCartSummary();
+  $('#cart-items').innerHTML = items.length ? items.map(p => `<div class="cart-line" data-cart-product="${p.id}"><img src="${escapeHTML(p.image || 'img/catalogo/sin-imagen.svg')}" alt=""><div class="cart-line-info"><div class="cart-line-heading"><h3>${escapeHTML(p.name)}</h3><button class="remove" data-remove="${p.id}" aria-label="Eliminar ${escapeHTML(p.name)}" title="Eliminar producto"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13M10 10v7M14 10v7"/></svg></button></div><p>${money(p.price)} <span>/ unidad</span></p><div class="cart-line-bottom"><div class="quantity"><button data-change="${p.id}" data-step="-1" aria-label="Quitar una unidad de ${escapeHTML(p.name)}" ${cart[p.id] <= 1 ? 'disabled' : ''}>−</button><input type="number" min="1" max="99" step="1" value="${cart[p.id]}" data-quantity="${p.id}" aria-label="Cantidad de ${escapeHTML(p.name)}"><button data-change="${p.id}" data-step="1" aria-label="Añadir una unidad de ${escapeHTML(p.name)}" ${cart[p.id] >= 99 ? 'disabled' : ''}>+</button></div><strong>${money(p.price * cart[p.id])}</strong></div></div></div>`).join('') : `<div class="cart-empty">${cartIcon}<h3>Tu próximo upgrade te espera.</h3><p>Añade tus favoritos para preparar tu pedido.</p><button class="button" data-browse>Explorar la tienda ${arrowIcon}</button></div>`;
+  try { localStorage.setItem('kodex-cart', JSON.stringify(cart)); } catch {}
+}
+function updateQuantity(id, quantity) {
+  const product = products.find(p => p.id === id && p.stock);
+  if (!product || !cart[id] || !Number.isInteger(quantity) || quantity < 1 || quantity > 99) return;
+  cart[id] = quantity;
+  const line = document.querySelector(`[data-cart-product="${id}"]`);
+  if (line) {
+    line.querySelector('[data-quantity]').value = quantity;
+    line.querySelector('[data-step="-1"]').disabled = quantity === 1;
+    line.querySelector('[data-step="1"]').disabled = quantity === 99;
+    line.querySelector('.cart-line-bottom > strong').textContent = money(product.price * quantity);
+  }
+  updateCartSummary();
   try { localStorage.setItem('kodex-cart', JSON.stringify(cart)); } catch {}
 }
 let toastTimer;
+function hideToast() {
+  clearTimeout(toastTimer);
+  $('#toast').hidden = true;
+  $('#toast').classList.remove('show');
+}
 function addProduct(id) {
   const p = products.find(x => x.id === id);
   if (!p || !p.stock) return;
-  cart[id] = Math.min((cart[id] || 0) + 1, 99);
+  if (cart[id] >= 99) return;
+  cart[id] = (cart[id] || 0) + 1;
   renderCart();
-  const toast = $('#toast');
-  toast.textContent = 'Producto añadido a tu carrito';
-  toast.classList.add('show');
+  $('#toast-message').textContent = 'Añadido a tu carrito';
+  $('#toast').hidden = false;
+  $('#toast').classList.add('show');
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => toast.classList.remove('show'), 2400);
+  toastTimer = setTimeout(hideToast, 5000);
 }
 function showDetail(id) {
   const p = products.find(p => p.id === id);
   if (!p) return;
-  $('#detail-content').innerHTML = `${p.image ? `<img class="detail-image" src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}">` : ''}<span class="product-type">${escapeHTML(p.category || '')} · ${escapeHTML(p.brand || '')}</span><h2 id="detail-title">${escapeHTML(p.name)}</h2><p>${escapeHTML(p.spec || '')}</p><p class="detail-price">${money(p.price)}</p><button class="button" data-add="${p.id}" ${p.stock ? '' : 'disabled'}>${p.stock ? 'Añadir al carrito' : 'Agotado'} <span aria-hidden="true">+</span></button>`;
+  $('#detail-content').innerHTML = `<div class="detail-layout"><div class="detail-media"><img class="detail-image" src="${escapeHTML(p.image || 'img/catalogo/sin-imagen.svg')}" alt="${escapeHTML(p.name)}"></div><div class="detail-info"><span class="product-type">${escapeHTML(p.brand || '')} · ${escapeHTML(p.category || '')}</span><h2 id="detail-title">${escapeHTML(p.name)}</h2><p class="detail-spec">${escapeHTML(p.spec || '')}</p><div class="detail-pricing"><p class="detail-price">${money(p.price)}</p>${p.old ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p, true)}</div></div>`;
   detailDialog.showModal();
 }
 function scrollToCatalog() {
@@ -183,9 +224,10 @@ $('#detail-content').addEventListener('click', event => {
   const add = event.target.closest('[data-add]');
   if (add) { addProduct(add.dataset.add); detailDialog.close(); }
 });
-function openCart() { if (catalogLoading) return; renderCart(); cartDialog.showModal(); }
+function openCart() { if (catalogLoading) return; hideToast(); renderCart(); cartDialog.showModal(); }
 $('#open-cart').addEventListener('click', openCart);
 $('#footer-cart').addEventListener('click', openCart);
+$('#toast-cart').addEventListener('click', openCart);
 $('#close-cart').addEventListener('click', () => cartDialog.close());
 $('#continue-shopping').addEventListener('click', () => cartDialog.close());
 $('#close-detail').addEventListener('click', () => detailDialog.close());
@@ -195,15 +237,28 @@ $('#close-detail').addEventListener('click', () => detailDialog.close());
   if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close();
 }));
 $('#cart-items').addEventListener('click', event => {
+  if (event.target.closest('[data-browse]')) { cartDialog.close(); scrollToCatalog(); return; }
   const change = event.target.closest('[data-change]'), remove = event.target.closest('[data-remove]');
   if (change) {
     const id = change.dataset.change;
-    if (!products.some(p => p.id === id && p.stock)) return;
-    cart[id] = Math.min(99, (cart[id] || 0) + Number(change.dataset.step));
-    if (cart[id] <= 0) delete cart[id];
-    renderCart();
+    if (!products.some(p => p.id === id && p.stock) || !cart[id]) return;
+    updateQuantity(id, Math.max(1, Math.min(99, cart[id] + Number(change.dataset.step))));
+    const replacement = document.querySelector(`[data-change="${id}"][data-step="${change.dataset.step}"]`);
+    if (replacement && !replacement.disabled) replacement.focus({preventScroll:true});
+    else document.querySelector(`[data-quantity="${id}"]`)?.focus({preventScroll:true});
   }
-  if (remove) { delete cart[remove.dataset.remove]; renderCart(); }
+  if (remove) {
+    delete cart[remove.dataset.remove];
+    renderCart();
+    ($('#cart-items .remove') || $('#cart-items [data-browse]') || $('#continue-shopping')).focus({preventScroll:true});
+  }
+});
+$('#cart-items').addEventListener('change', event => {
+  const input = event.target.closest('[data-quantity]');
+  if (!input || !cart[input.dataset.quantity]) return;
+  const value = input.valueAsNumber;
+  if (!Number.isInteger(value) || value < 1 || value > 99) { input.value = cart[input.dataset.quantity]; return; }
+  updateQuantity(input.dataset.quantity, value);
 });
 const mobileQuery = matchMedia('(max-width: 640px)');
 function adaptFilters() { $('#filter-panel').open = !mobileQuery.matches; }

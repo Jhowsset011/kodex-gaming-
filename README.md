@@ -8,7 +8,7 @@ Tienda gaming estática con catálogo, búsqueda, filtros y carrito local.
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-No requiere instalación ni compilación. No procesa pedidos o pagos.
+No requiere instalación ni compilación. Los pedidos se preparan en WhatsApp; la web no procesa pagos.
 
 ## Catálogo
 
@@ -21,3 +21,7 @@ La importación es una copia del archivo, sin conexión ni actualización autom�
 ## GitHub Pages
 
 En Settings → Pages, selecciona Deploy from a branch, main y / (root).
+
+## Pedidos por WhatsApp
+
+Los botones «Hacer pedido» de las tarjetas y los detalles preparan un mensaje al número de negocio +1 809 879 6463, con el producto, código, cantidad y precio. El carrito permite ajustar cantidades (1–99), quitar productos y preparar un pedido conjunto con subtotales y total. Abrir WhatsApp no envía el mensaje automáticamente; el cliente revisa y envía el pedido. Disponibilidad y entrega se confirman por WhatsApp.
