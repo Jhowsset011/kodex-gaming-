@@ -8,8 +8,6 @@
 .theme-moon { right: 4px; color: #20341b; }
 .theme-logo { display: block; }
 .logo-light { display: none; }
-.header-theme { display: flex; align-items: center; gap: 10px; flex-shrink: 0; color: var(--muted); font-size: 12px; }
-.header-theme > span { white-space: nowrap; }
 
 :root[data-theme="light"] {
   --bg: #f7f8f5;
@@ -98,7 +96,6 @@
 @media (max-width: 640px) {
   .topbar-actions { gap: 8px; }
   .theme-toggle { padding-inline: 0; }
-  .header-theme { order: 4; flex-basis: 100%; justify-content: space-between; padding: 4px 15px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .theme-thumb { transition: none; }

@@ -12,7 +12,7 @@ No requiere instalación ni compilación. Los pedidos se preparan en WhatsApp; l
 
 ## Apariencia
 
-El interruptor de sol/luna cambia entre modo claro y oscuro en la tienda y las fichas de producto. En el inicio aparece en el encabezado con la etiqueta «Claro / Oscuro»; en las fichas está en la barra superior. El modo oscuro es el inicial y conserva la paleta existente. El modo claro tiene fondos suaves, texto oscuro y un logo preparado para fondo claro. La elección se guarda en `localStorage` (`kodex-theme`), se aplica antes de cargar los estilos y se sincroniza entre pestañas. Si el navegador bloquea el almacenamiento, el interruptor sigue funcionando durante la visita. Los estilos del tema claro están en `css/tema.css`; `js/tema.js` controla la selección. Las referencias a estilos y scripts llevan una versión para invalidar copias antiguas al publicar cambios.
+El interruptor de sol/luna cambia entre modo claro y oscuro en la tienda y las fichas de producto. En el inicio y en las fichas aparece en la barra superior, junto a «Asesoría por WhatsApp». El modo oscuro es el inicial y conserva la paleta existente. El modo claro tiene fondos suaves, texto oscuro y un logo preparado para fondo claro. La elección se guarda en `localStorage` (`kodex-theme`), se aplica antes de cargar los estilos y se sincroniza entre pestañas. Si el navegador bloquea el almacenamiento, el interruptor sigue funcionando durante la visita. Los estilos del tema claro están en `css/tema.css`; `js/tema.js` controla la selección. Las referencias a estilos y scripts llevan una versión para invalidar copias antiguas al publicar cambios.
 
 ## Catálogo
 
