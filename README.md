@@ -12,11 +12,11 @@ No requiere instalación ni compilación. No procesa pedidos o pagos.
 
 ## Catálogo
 
-El catálogo de `js/productos.json` contiene 1,025 productos importados del archivo proporcionado por el propietario, cuya fuente declarada es Nexcom. Se conservan los precios del archivo sin margen adicional y la disponibilidad es la indicada en esa exportación. No son precios de una cuenta de Omega.
+`js/productos.json` contiene 408 productos del archivo `kodex-tienda-omega-408.zip` proporcionado por el propietario. El archivo declara que son productos comunes a Nexcom y Omega; sus precios, imágenes, descripciones y disponibilidad provienen de Nexcom. Esta coincidencia no se ha verificado en vivo contra Omega y no representa los precios especiales de una cuenta de Omega.
 
-Las imágenes descargadas se guardan en `img/catalogo`; los productos sin fotografía usan un marcador. La tienda muestra 24 productos por página y genera sus categorías, marcas y ofertas desde el JSON.
+Se conservan los precios del archivo sin margen adicional. Las 407 referencias a fotografías usan los archivos locales ya descargados en `img/catalogo`; el producto sin fotografía usa un marcador. La tienda muestra 24 productos por página, con categorías, marcas y ofertas generadas desde el JSON. Al cambiar el catálogo se eliminan del carrito los artículos que ya no aparecen en él.
 
-Esta importación es una copia del catálogo, no una conexión o actualización automática con Nexcom. Para actualizarlo se debe importar un catálogo nuevo y validar sus imágenes y precios.
+La importación es una copia del archivo, sin conexión ni actualización automática con Omega o Nexcom. Las instrucciones y el flujo de sincronización incluidos en el ZIP no se activaron; ese flujo consulta la API de Nexcom con una lista fija de IDs y no una API de Omega. Para actualizar el catálogo se debe importar un archivo nuevo y validar sus imágenes y precios.
 
 ## GitHub Pages
 
