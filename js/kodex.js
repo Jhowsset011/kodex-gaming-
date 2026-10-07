@@ -24,11 +24,17 @@ function sanitizeCart() {
   }
   cart = cleaned;
 }
+function productInCategory(product, category) {
+  return product.category === category || (Array.isArray(product.collections) && product.collections.includes(category));
+}
 function countBy(key) {
   const map = new Map();
   for (const p of products) {
     const k = p[key] || 'Otros';
     map.set(k, (map.get(k) || 0) + 1);
+    if (key === 'category') for (const collection of p.collections || []) {
+      if (collection !== k) map.set(collection, (map.get(collection) || 0) + 1);
+    }
   }
   return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], 'es'));
 }
@@ -74,7 +80,7 @@ function productCard(p) {
     const art = p.image ? `<img src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}" loading="lazy">` : '';
     return `<article class="product" data-product="${p.id}">
     <div class="product-art">${badge ? `<span class="badge ${p.old && p.stock ? 'sale' : ''}">${escapeHTML(badge)}</span>` : ''}<a class="product-image-button" href="${productURL(p)}" data-detail="${p.id}" aria-label="Ver detalles de ${escapeHTML(p.name)}">${art}</a><span class="view-product">Ver detalles ${arrowIcon}</span></div>
-    <div class="product-copy"><span class="product-type"><span>${escapeHTML(p.brand || '')}</span> ${escapeHTML(p.category || '')}</span><h3><a class="product-title" href="${productURL(p)}" data-detail="${p.id}">${escapeHTML(p.name)}</a></h3><div class="product-price"><strong>${money(p.price)}</strong>${p.old ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p)}</div></article>`;
+    <div class="product-copy"><span class="product-type"><span>${escapeHTML(p.brand || '')}</span> ${escapeHTML(p.category || '')}</span>${p.reference ? `<span class="product-reference-card">Ref. ${escapeHTML(p.reference)}</span>` : ''}<h3><a class="product-title" href="${productURL(p)}" data-detail="${p.id}">${escapeHTML(p.name)}</a></h3><div class="product-price"><strong>${money(p.price)}</strong>${p.old ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p)}</div></article>`;
 }
 
 function renderProducts(resetPage = true) {
@@ -90,8 +96,8 @@ function renderProducts(resetPage = true) {
   minInput.setAttribute('aria-invalid', String(invalid));
   maxInput.setAttribute('aria-invalid', String(invalid));
   const list = invalid ? [] : products.filter(p =>
-    (filter === 'Todos' || (filter === 'ofertas' ? p.old > p.price : p.category === filter)) &&
-    `${p.name} ${p.spec || ''} ${p.category || ''} ${p.brand || ''} ${p.reference || ''} ${p.model || ''}`.toLocaleLowerCase('es').includes(query) &&
+    (filter === 'Todos' || (filter === 'ofertas' ? p.old > p.price : productInCategory(p, filter))) &&
+    `${p.name} ${p.spec || ''} ${p.category || ''} ${p.brand || ''} ${p.reference || ''} ${p.model || ''} ${(p.collections || []).join(' ')}`.toLocaleLowerCase('es').includes(query) &&
     (!brands.length || brands.includes(p.brand)) && p.price >= min && p.price <= max
   );
   const sort = $('#sort').value;
@@ -204,7 +210,7 @@ function restoreCatalog() {
   if (!state && (params.has('buscar') || params.has('categoria'))) {
     $('#search').value = params.get('buscar') || '';
     const category = params.get('categoria');
-    selectFilter(category === 'ofertas' || products.some(p=>p.category === category) ? category : 'Todos');
+    selectFilter(category === 'ofertas' || products.some(p=>productInCategory(p, category)) ? category : 'Todos');
     return;
   }
   if (!state) { renderProducts(); return; }
@@ -213,7 +219,7 @@ function restoreCatalog() {
   $('#max-price').value = state.max || '';
   $('#sort').value = ['featured','price-asc','price-desc','name'].includes(state.sort) ? state.sort : 'featured';
   document.querySelectorAll('[name="brand"]').forEach(input => input.checked = Array.isArray(state.brands) && state.brands.includes(input.value));
-  selectFilter(state.filter === 'ofertas' || products.some(p=>p.category === state.filter) ? state.filter : 'Todos');
+  selectFilter(state.filter === 'ofertas' || products.some(p=>productInCategory(p, state.filter)) ? state.filter : 'Todos');
   currentPage = Number.isInteger(state.page) && state.page > 0 ? state.page : 1;
   renderProducts(false);
   if (Number.isFinite(state.scroll)) requestAnimationFrame(()=>scrollTo(0,state.scroll));

@@ -16,17 +16,38 @@ El interruptor de sol/luna cambia entre modo claro y oscuro en la tienda y las f
 
 ## Catálogo
 
-`js/productos.json` contiene 408 productos del archivo `kodex-tienda-omega-408.zip` proporcionado por el propietario. El archivo declara que son productos comunes a Nexcom y Omega; sus precios, imágenes, descripciones y disponibilidad provienen de Nexcom. Esta coincidencia no se ha verificado en vivo contra Omega y no representa los precios especiales de una cuenta de Omega.
+`js/productos.json` contiene 481 referencias únicas: las 408 existentes y 73 nuevas de `kodex-tienda-omega-481.zip`. La importación conserva los precios y la disponibilidad anteriores y añade solo los IDs ausentes. Todos los productos tienen una referencia de suplidor distinta; los nombres iguales con referencias distintas se mantienen como publicaciones diferentes del suplidor.
 
-Se conservan los precios del archivo sin margen adicional. Las 407 referencias a fotografías usan los archivos locales ya descargados en `img/catalogo`; el producto sin fotografía usa un marcador. La tienda muestra 24 productos por página, con categorías, marcas y ofertas generadas desde el JSON. Al cambiar el catálogo se eliminan del carrito los artículos que ya no aparecen en él.
+El archivo declara que son productos comunes a Nexcom y Omega. Los precios, fotografías y características proceden de Nexcom; esta sincronización no consulta la cuenta privada de Omega ni verifica en vivo esa coincidencia. Hay 480 productos con fotografías locales y uno con marcador. La tienda muestra 24 productos por página, con categorías, marcas y ofertas generadas desde el JSON.
 
-La importación es una copia del archivo, sin conexión ni actualización automática con Omega o Nexcom. Las instrucciones y el flujo de sincronización incluidos en el ZIP no se activaron; ese flujo consulta la API de Nexcom con una lista fija de IDs y no una API de Omega. Para actualizar el catálogo se debe importar un archivo nuevo y validar sus imágenes y precios.
+Se revisaron las 481 fichas: 136 categorías y 37 marcas se corrigieron respecto al lote recibido. El tipo de producto tiene prioridad sobre la categoría comercial del suplidor: todos los monitores están en Monitores; los SSD en Almacenamiento; las televisiones en Audio y Video; y las computadoras, laptops y sillas en sus categorías correspondientes. ThinkPad y ThinkVision se agrupan bajo Lenovo, y las licencias Disney/Marvel de productos Xtech bajo Xtech. Seis referencias sin fabricante identificable quedan como Genérico. Zona Gamer es una selección adicional, de modo que sus productos también aparecen en su categoría real. Las tarjetas muestran la referencia para distinguir publicaciones con nombres parecidos.
+
+## Actualización automática
+
+Se incorporaron y adaptaron los tres archivos solicitados: `scripts/sync_nexcom.py`, `scripts/omega_ids.txt` y `.github/workflows/sync-catalogo.yml`. El flujo se programa todos los días a las **6:00 a. m. de República Dominicana** (10:00 UTC), puede ejecutarse manualmente desde Actions y se inicia al cambiar sus scripts o configuración en main. El horario de GitHub Actions puede sufrir demoras.
+
+La selección se limita a los 481 IDs de `omega_ids.txt`: nuevos productos del suplidor se incorporan únicamente al añadir sus IDs a esa lista. El script consulta directamente esas referencias, incluyendo laptops; actualiza precios sin margen, disponibilidad, descuentos, imágenes y características; y reaplica las reglas de categoría y marca. Lee el catálogo del checkout, no la copia publicada, para conservar enriquecimiento y archivos locales. Un fallo de red o validación no sustituye el catálogo. Las publicaciones que desaparecen del origen se conservan como no disponibles; una pérdida extensa de fichas detiene la actualización. No se generan commits cuando los datos son iguales.
+
+El flujo guarda los cambios y despliega explícitamente un artefacto de la web mediante GitHub Pages. Esto evita depender de que un commit hecho con GITHUB_TOKEN inicie otro flujo. No requiere contraseñas de Nexcom ni Omega. GitHub debe permitir Actions, la escritura del token en main y el despliegue al entorno github-pages; si una protección lo impide, la ejecución muestra el motivo en Actions. La primera ejecución remota no se puede comprobar desde este entorno porque el acceso a la API de GitHub está bloqueado.
+
+Para verificar sin escribir:
+
+```sh
+python3 scripts/sync_nexcom.py --dry-run
+python3 -m unittest discover -s tests -v
+```
+
+Para sincronizar manualmente desde un checkout con conexión:
+
+```sh
+python3 scripts/sync_nexcom.py
+```
 
 ## Páginas de producto
 
 La imagen y el nombre de cada tarjeta enlazan a `producto.html?id=ID`. Cada ficha tiene una URL que se puede compartir, fotografía, referencia, descripción completa, características, pedido por WhatsApp y productos de la misma categoría. El carrito se conserva entre páginas; al volver al catálogo se recuperan búsqueda, filtros, orden y página.
 
-Las características de los 408 productos se recuperaron por sus IDs exactos de la API pública de Nexcom (`/wp-json/wc/store/v1/products`), comprobando el nombre de cada producto antes de incorporarlas. Hay 397 fichas con características estructuradas y 11 con características en texto. El JSON conserva `reference`, `description`, `specifications`, `features`, `specificationSources` y `specificationsUpdated`. Esta consulta no modifica precios ni disponibilidad del archivo original. Dos publicaciones del Dell E2318H discrepan en los puertos: esas conexiones se muestran pendientes de confirmación para la unidad, conservando el valor original en `sourceValue`.
+Las características de los 481 productos se recuperaron por sus IDs exactos de la API pública de Nexcom (`/wp-json/wc/store/v1/products`), comprobando el nombre de cada producto antes de incorporarlas. Hay 468 fichas con características estructuradas y 13 con características en texto. El JSON conserva `reference`, `description`, `specifications`, `features`, `specificationSources` y `specificationsUpdated`. La importación inicial conserva precios y disponibilidad; las sincronizaciones posteriores actualizan ambos desde Nexcom. Dos publicaciones del Dell E2318H discrepan en los puertos: esas conexiones se muestran pendientes de confirmación para la unidad, conservando el valor original en `sourceValue`.
 
 Omega no se pudo consultar por un fallo de validación del certificado en el proxy del entorno. Las consultas de especificaciones a MSI y Lenovo fueron bloqueadas por la política de acceso; por tanto, estas fichas todavía no tienen verificación independiente con fabricantes oficiales. Se añadieron `www.msi.com`, `psref.lenovo.com` y `www.samsung.com` al borrador de configuración de red, conservando los dominios existentes. Ese borrador requiere revisar, guardar y publicar la configuración del entorno para aplicarse; no cambia el acceso de esta sesión.
 

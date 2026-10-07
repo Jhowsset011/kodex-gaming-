@@ -120,6 +120,7 @@ legend { padding: 0; font-size: 13px; font-weight: 500; margin-bottom: 15px; col
 .product-copy { display: flex; flex-direction: column; flex: 1; padding: 18px 7px 7px; }
 .product-type { display: flex; justify-content: space-between; align-items: center; gap: 8px; color: #8c9b90; font-size: 10px; }
 .product-type > span { font-size: 11px; color: #b2c0b6; }
+.product-reference-card { color: var(--muted); font-size: 11px; margin-top: 8px; }
 .product h3 { font-size: 14px; font-weight: 500; line-height: 1.6; min-height: 67px; margin: 10px 0 16px; }
 .product-title { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; border: 0; padding: 0; background: none; text-align: left; width: 100%; font-size: inherit; font-weight: inherit; line-height: inherit; color: #eef2ec; }
 .product-title:hover { color: var(--green); }
