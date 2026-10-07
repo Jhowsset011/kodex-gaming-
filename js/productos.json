@@ -1,6 +1,6 @@
 {
   "source": "nexcomtienda.com.do (selección del propietario; no consulta precios privados de Omega)",
-  "count": 572,
+  "count": 571,
   "products": [
     {
       "id": "19182",
@@ -27056,53 +27056,6 @@
       "subcategory": "Gabinetes / Case"
     },
     {
-      "id": "21890",
-      "name": "Disco Duro Interno Mixto 80Gb Sata 3.5″ Grado A Usado",
-      "spec": "Disco duro interno mixto de 80GB con interfaz SATA y tamaño de 3.5 pulgadas. Condición grado A, usado.",
-      "category": "Almacenamiento",
-      "brand": "Genérico",
-      "price": 600.0,
-      "image": "img/catalogo/a11f44731f2f48273a6b.png",
-      "stock": true,
-      "reference": "62635",
-      "description": "Disco duro interno mixto de 80GB con interfaz SATA y tamaño de 3.5 pulgadas. Condición grado A, usado.",
-      "specifications": [
-        {
-          "label": "Capacidad",
-          "value": "80GB"
-        },
-        {
-          "label": "Interfaz",
-          "value": "SATA"
-        },
-        {
-          "label": "Tamaño",
-          "value": "3.5 pulgadas"
-        },
-        {
-          "label": "Tipo",
-          "value": "Mixto"
-        },
-        {
-          "label": "Condición",
-          "value": "Grado A, usado"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        {
-          "name": "Nexcom",
-          "url": "https://nexcomtienda.com.do/item/62635/",
-          "reference": "62635"
-        }
-      ],
-      "specificationsUpdated": "2026-10-07T15:24:23+00:00",
-      "sourceCategory": "Almacenamiento",
-      "collections": [],
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/08/62635.png",
-      "subcategory": "Discos HDD"
-    },
-    {
       "id": "23093",
       "name": "Disco Duro Refurbished 250 Gb 3.5 Para Desktop",
       "spec": "Disco duro refurbished de 250 GB en formato 3.5 para desktop. Compatible con sistemas de escritorio.",
@@ -31752,7 +31705,7 @@
       "subcategory": "Fuentes de poder"
     }
   ],
-  "updated": "2026-10-07T15:58:55+00:00",
+  "updated": "2026-10-07T18:54:58+00:00",
   "sourceMissingIds": [
     "29516",
     "21308"
