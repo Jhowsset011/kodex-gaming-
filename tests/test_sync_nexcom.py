@@ -19,6 +19,45 @@ def source(pid=1, sku="110001"):
 
 
 class ClassificationTests(unittest.TestCase):
+    def test_three_child_levels_use_product_evidence(self):
+        examples = [
+            ("Monitor Curvo Samsung 57″ 240Hz VA", ["Curvos", "VA", "57 pulgadas"]),
+            ("Pantalla Interactiva Hikvision 65 pulgadas 4K", ["Interactivos", "Panel por confirmar", "65 pulgadas"]),
+            ("Disco SSD Kingston NVMe 1TB", ["SSD", "NVMe", "1TB"]),
+            ("Memoria Markvision DDR3 4GB", ["Memoria RAM", "DDR3", "4GB"]),
+            ("Abanico Corsair 120mm RGB", ["Refrigeración", "Ventiladores", "120 mm"]),
+            ("Power Supply MSI 650W 80 Plus Bronce", ["Fuentes de poder", "80 Plus Bronze", "650 W"]),
+            ("Case Antec Full-Tower Negro", ["Gabinetes", "Full Tower", "Negro"]),
+            ("Mouse Logitech Bluetooth Óptico", ["Mouse", "Bluetooth", "Ópticos"]),
+        ]
+        for name, path in examples:
+            with self.subTest(name=name):
+                self.assertEqual(sync.classify(product(name=name))["subcategoryPath"], path)
+
+    def test_model_numbers_are_not_screen_sizes_or_capacities(self):
+        p = sync.classify(product(name="Monitor MSI MAG 272F"))
+        self.assertEqual(p["subcategoryPath"], ["De escritorio", "Panel por confirmar", "Tamaño por confirmar"])
+        p["specifications"] = [{"label":"Tamaño de pantalla", "value":"27″"}, {"label":"Tipo de panel", "value":"Rapid IPS"}]
+        self.assertEqual(sync.classify(p)["subcategoryPath"], ["De escritorio", "IPS", "27 pulgadas"])
+        ssd = sync.classify(product(name="Disco SSD Kingston SXS2000 USB-C"))
+        self.assertEqual(ssd["subcategoryPath"], ["SSD", "USB", "Capacidad por confirmar"])
+
+    def test_new_product_categories_and_brands(self):
+        for name, cat, brand in [("Pantalla Interactiva Hikvision 86″", "Monitores", "Hikvision"), ("Motherboard ECS AMD FM1", "Componentes", "ECS"), ("Power Supply Huawei 500W", "Componentes", "Huawei"), ("Monitor Haier 65″", "Monitores", "Haier"), ("Disco Titan Wireless 32GB", "Almacenamiento", "Titan")]:
+            with self.subTest(name=name):
+                p = sync.classify(product(name=name))
+                self.assertEqual((p["category"],p["brand"]), (cat,brand))
+        self.assertEqual(sync.classify(product(name="Pedales De Carreras Modulares"))["category"], "Periféricos")
+
+    def test_hierarchy_reclassified_after_source_changes(self):
+        p = product(name="Monitor Samsung 27″ IPS")
+        p.update(subcategory="Vieja", subsubcategory="Samsung", subcategoryPath=["Vieja"])
+        sync.classify(p)
+        self.assertNotIn("subcategory",p)
+        self.assertNotIn("subsubcategory",p)
+        p["name"] = "Monitor Curvo Samsung 32″ VA"
+        self.assertEqual(sync.classify(p)["subcategoryPath"], ["Curvos", "VA", "32 pulgadas"])
+
     def test_monitors_move_from_gamer_and_peripherals(self):
         for old in ("Zona Gamer", "Periféricos"):
             p = product(name="Monitor portátil AOC 15.6 pulgadas")
@@ -43,6 +82,22 @@ class ClassificationTests(unittest.TestCase):
 
 
 class MergeTests(unittest.TestCase):
+    def test_import_preserves_disappeared_existing_listing_but_rejects_missing_new(self):
+        old = product()
+        result, missing = sync.build_catalog([old], {}, {"1"}, [old])
+        self.assertEqual(missing,["1"])
+        self.assertFalse(result[0]["stock"])
+        self.assertTrue(result[0]["sourceUnavailable"])
+        self.assertEqual(len(result[0]["subcategoryPath"]),3)
+        with self.assertRaises(ValueError):
+            sync.build_catalog([old], {}, {"1","2"}, [old,product("2")])
+
+    def test_invalid_hierarchy_rejected(self):
+        for path in (["Uno"], ["Uno", "Dos", ""], "Uno / Dos / Tres"):
+            p = product()
+            p["subcategoryPath"] = path
+            with self.assertRaises(ValueError):
+                sync.validate([p])
     def test_import_adds_only_missing_ids_preserving_existing_prices(self):
         old = product()
         incoming = product()

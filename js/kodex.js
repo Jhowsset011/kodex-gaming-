@@ -11,6 +11,7 @@ const grid = $('#products'), cartDialog = $('#cart');
 const isProductPage = Boolean($('#product-page'));
 const productURL = product => `producto.html?id=${encodeURIComponent(product.id)}`;
 let filter = 'Todos', cart = {};
+let subcategories = ['', '', ''];
 try {
   const saved = JSON.parse(localStorage.getItem('kodex-cart') || '{}');
   if (saved && typeof saved === 'object' && !Array.isArray(saved)) cart = saved;
@@ -39,6 +40,35 @@ function countBy(key) {
   return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], 'es'));
 }
 function offerCount() { return products.filter(p => p.old && p.old > p.price).length; }
+function matchesCategory(product) {
+  return filter === 'Todos' || (filter === 'ofertas' ? product.old > product.price : productInCategory(product, filter));
+}
+function pathForCategory(product, category = filter) {
+  const path = Array.isArray(product.subcategoryPath) ? product.subcategoryPath : [];
+  return category === product.category ? path : [product.category, ...path.slice(0, 2)];
+}
+function renderSubcategoryUI() {
+  const panel = $('#subcategory-filters');
+  if (!panel) return;
+  panel.hidden = filter === 'Todos';
+  if (filter === 'Todos') subcategories.fill('');
+  for (let level = 0; level < 3; level++) {
+    const select = $(`#subcategory-${level + 1}`);
+    const counts = new Map();
+    for (const p of products) {
+      const path = pathForCategory(p);
+      if (matchesCategory(p) && subcategories.slice(0, level).every((value, index) => !value || path[index] === value) && path[level]) {
+        counts.set(path[level], (counts.get(path[level]) || 0) + 1);
+      }
+    }
+    if (!counts.has(subcategories[level])) subcategories.fill('', level);
+    const enabled = filter !== 'Todos' && (level === 0 || Boolean(subcategories[level - 1]));
+    select.disabled = !enabled;
+    const placeholder = enabled ? 'Todas las opciones' : 'Elige la opción anterior';
+    select.innerHTML = `<option value="">${placeholder}</option>` + [...counts].sort((a,b)=>a[0].localeCompare(b[0],'es')).map(([name,count]) => `<option value="${escapeHTML(name)}">${escapeHTML(name)} (${count})</option>`).join('');
+    select.value = subcategories[level];
+  }
+}
 function renderFilterUI() {
   const catBox = $('#category-buttons');
   if (catBox) {
@@ -96,8 +126,8 @@ function renderProducts(resetPage = true) {
   minInput.setAttribute('aria-invalid', String(invalid));
   maxInput.setAttribute('aria-invalid', String(invalid));
   const list = invalid ? [] : products.filter(p =>
-    (filter === 'Todos' || (filter === 'ofertas' ? p.old > p.price : productInCategory(p, filter))) &&
-    `${p.name} ${p.spec || ''} ${p.category || ''} ${p.brand || ''} ${p.reference || ''} ${p.model || ''} ${(p.collections || []).join(' ')}`.toLocaleLowerCase('es').includes(query) &&
+    matchesCategory(p) && subcategories.every((value, index) => !value || pathForCategory(p)[index] === value) &&
+    `${p.name} ${p.spec || ''} ${p.category || ''} ${p.brand || ''} ${p.reference || ''} ${p.model || ''} ${(p.collections || []).join(' ')} ${(p.subcategoryPath || []).join(' ')}`.toLocaleLowerCase('es').includes(query) &&
     (!brands.length || brands.includes(p.brand)) && p.price >= min && p.price <= max
   );
   const sort = $('#sort').value;
@@ -119,6 +149,7 @@ function renderProducts(resetPage = true) {
   $('#catalog-title').textContent = filter === 'Todos' ? 'Todos los productos' : filter === 'ofertas' ? 'Ofertas gaming' : filter;
   const chips = [];
   if (filter !== 'Todos') chips.push({type:'category', text:filter === 'ofertas' ? 'Ofertas' : filter});
+  subcategories.forEach((value, index) => { if (value) chips.push({type:'subcategory', value:String(index), text:value}); });
   if (query) chips.push({type:'search', text:`Búsqueda: ${$('#search').value.trim()}`});
   if (minInput.value !== '') chips.push({type:'min', text:`Desde ${money(min)}`});
   if (maxInput.value !== '') chips.push({type:'max', text:`Hasta ${money(max)}`});
@@ -127,11 +158,13 @@ function renderProducts(resetPage = true) {
 }
 function selectFilter(value) {
   filter = value;
+  subcategories = ['', '', ''];
   document.querySelectorAll('[data-filter]').forEach(button => {
     const selected = button.dataset.filter === value;
     button.classList.toggle('active', selected);
     button.setAttribute('aria-pressed', String(selected));
   });
+  renderSubcategoryUI();
   renderProducts();
 }
 function resetFilters() {
@@ -200,7 +233,7 @@ function scrollToCatalog() {
 }
 
 function rememberCatalog() {
-  try { sessionStorage.setItem('kodex-catalog-state', JSON.stringify({url:location.pathname + location.search, filter, query:$('#search').value, min:$('#min-price').value, max:$('#max-price').value, sort:$('#sort').value, brands:Array.from(document.querySelectorAll('[name="brand"]:checked'), input=>input.value), page:currentPage, scroll:window.scrollY})); } catch {}
+  try { sessionStorage.setItem('kodex-catalog-state', JSON.stringify({url:location.pathname + location.search, filter, subcategories, query:$('#search').value, min:$('#min-price').value, max:$('#max-price').value, sort:$('#sort').value, brands:Array.from(document.querySelectorAll('[name="brand"]:checked'), input=>input.value), page:currentPage, scroll:window.scrollY})); } catch {}
 }
 function restoreCatalog() {
   let state;
@@ -211,6 +244,9 @@ function restoreCatalog() {
     $('#search').value = params.get('buscar') || '';
     const category = params.get('categoria');
     selectFilter(category === 'ofertas' || products.some(p=>productInCategory(p, category)) ? category : 'Todos');
+    subcategories = [1,2,3].map(level=>params.get(`sub${level}`) || '');
+    renderSubcategoryUI();
+    renderProducts();
     return;
   }
   if (!state) { renderProducts(); return; }
@@ -220,11 +256,19 @@ function restoreCatalog() {
   $('#sort').value = ['featured','price-asc','price-desc','name'].includes(state.sort) ? state.sort : 'featured';
   document.querySelectorAll('[name="brand"]').forEach(input => input.checked = Array.isArray(state.brands) && state.brands.includes(input.value));
   selectFilter(state.filter === 'ofertas' || products.some(p=>productInCategory(p, state.filter)) ? state.filter : 'Todos');
+  subcategories = Array.from({length:3}, (_, index) => typeof state.subcategories?.[index] === 'string' ? state.subcategories[index] : '');
+  renderSubcategoryUI();
   currentPage = Number.isInteger(state.page) && state.page > 0 ? state.page : 1;
   renderProducts(false);
   if (Number.isFinite(state.scroll)) requestAnimationFrame(()=>scrollTo(0,state.scroll));
 }
 if (grid) {
+  [1,2,3].forEach(level => $(`#subcategory-${level}`).addEventListener('change', event => {
+    subcategories[level - 1] = event.target.value;
+    subcategories.fill('', level);
+    renderSubcategoryUI();
+    renderProducts();
+  }));
   document.querySelectorAll('[data-category]').forEach(button => button.addEventListener('click', () => {
     resetFilters();
     selectFilter(button.dataset.category);
@@ -240,6 +284,10 @@ if (grid) {
     const button = event.target.closest('[data-clear]');
     if (!button) return;
     if (button.dataset.clear === 'category') { selectFilter('Todos'); return; }
+    if (button.dataset.clear === 'subcategory') {
+      subcategories.fill('', Number(button.dataset.value));
+      renderSubcategoryUI();
+    }
     if (button.dataset.clear === 'search') $('#search').value = '';
     if (button.dataset.clear === 'min') $('#min-price').value = '';
     if (button.dataset.clear === 'max') $('#max-price').value = '';
@@ -317,6 +365,7 @@ function validateCatalog(data) {
         typeof p.stock !== 'boolean' || typeof p.image !== 'string') throw new Error('Producto inválido');
     if (p.image && !p.image.startsWith('img/catalogo/') && !p.image.startsWith('https://nexcomtienda.com.do/')) throw new Error('Imagen inválida');
     if (p.old !== undefined && (!Number.isFinite(p.old) || p.old <= p.price)) throw new Error('Oferta inválida');
+    if (p.subcategoryPath !== undefined && (!Array.isArray(p.subcategoryPath) || p.subcategoryPath.length !== 3 || !p.subcategoryPath.every(value => typeof value === 'string' && value.trim()))) throw new Error('Subcategorías inválidas');
     ids.add(p.id);
   }
   return data.products;

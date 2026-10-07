@@ -94,6 +94,12 @@ legend { padding: 0; font-size: 13px; font-weight: 500; margin-bottom: 15px; col
 .brand-filters input { accent-color: var(--green); width: 13px; height: 13px; margin: 0; }
 .brand-filters label span { margin-left: auto; font-size: 11px; color: #79897d; }
 #brand-options { max-height: 290px; overflow-y: auto; padding-right: 6px; scrollbar-width: thin; scrollbar-color: #3d4b3c transparent; }
+.subcategory-filters label { display: block; font-size: 13px; color: var(--muted); margin: 14px 0 7px; }
+.subcategory-filters select { width: 100%; min-width: 0; min-height: 42px; padding: 9px 8px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); color: var(--white); font: inherit; font-size: 14px; }
+.subcategory-filters select:disabled { opacity: .55; }
+.product-category-path { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); margin: 14px 0; }
+.product-category-path a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--line); overflow-wrap: anywhere; }
+.product-category-path a:hover { color: var(--green); }
 .catalog-title { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
 .catalog-title h2 { font-size: 28px; font-weight: 500; letter-spacing: -1px; margin: 10px 0 0; }
 .catalog-label { font-size: 10px; color: #7f9183; letter-spacing: 1.5px; }
