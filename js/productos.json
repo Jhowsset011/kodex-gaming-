@@ -14302,7 +14302,7 @@
       "brand": "MSI",
       "price": 1150.0,
       "image": "img/catalogo/c0dc301f13643456c60f.webp",
-      "stock": true,
+      "stock": false,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/01/teclado-msi-forge-gk110-gamer-rgb-usb-c-negro.webp",
       "reference": "108754",
       "description": "Teclado gamer MSI Forge GK110 con LED RGB, rueda de volumen dedicada y 26 teclas anti-ghosting para control preciso y experiencia inmersiva. Compatible con Windows 11 y conexión USB-C de 1.5 m para rendimiento confiable. Compra ahora y mejora tu setup.",
@@ -14370,7 +14370,8 @@
       "collections": [
         "Zona Gamer"
       ],
-      "subcategory": "Teclados"
+      "subcategory": "Teclados",
+      "sourceUnavailable": true
     },
     {
       "id": "2009",
@@ -16508,7 +16509,7 @@
       "brand": "Corsair",
       "price": 5000.0,
       "image": "img/catalogo/181f7f03ea5896c6571a.jpg",
-      "stock": true,
+      "stock": false,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/438149c7-2e5c-41dd-895f-5bd0a762d77c.png",
       "reference": "95542",
       "description": "Chasis de PC tipo torre intermedia en color negro con lateral de vidrio templado. Soporta radiadores de hasta 360 mm, GPUs de hasta 360 mm y cuenta con conectividad frontal USB 3.2 Gen 1.",
@@ -16571,7 +16572,8 @@
       "collections": [
         "Zona Gamer"
       ],
-      "subcategory": "Gabinetes / Case"
+      "subcategory": "Gabinetes / Case",
+      "sourceUnavailable": true
     },
     {
       "id": "29173",
@@ -17549,7 +17551,7 @@
       "brand": "MSI",
       "price": 6850.0,
       "image": "img/catalogo/fdbcff0edd120fd01889.webp",
-      "stock": true,
+      "stock": false,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/07/MAG-PANO-110R-PZ-WHITE-1.webp",
       "reference": "107656",
       "description": "Case MSI MAG PANO 110R PZ blanco con panel de vidrio templado, soporte ATX/Micro-ATX/Mini-ITX, puertos USB-C y A, ideal para armados elegantes y eficientes.",
@@ -17593,7 +17595,8 @@
       "collections": [
         "Zona Gamer"
       ],
-      "subcategory": "Gabinetes / Case"
+      "subcategory": "Gabinetes / Case",
+      "sourceUnavailable": true
     },
     {
       "id": "8922",
@@ -20243,7 +20246,7 @@
       "brand": "MSI",
       "price": 7250.0,
       "image": "img/catalogo/a0731e5e9166ea887a93.webp",
-      "stock": true,
+      "stock": false,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/04/monitor-msi-pro-mp243w-e14-24-ips-fhd-144hz-blanco-hdr-adaptive-sync.webp",
       "reference": "109649",
       "description": "Monitor MSI de 24” con panel IPS, 144Hz y Adaptive-Sync que ofrece imágenes fluidas, colores precisos y mejor experiencia visual para trabajo y entretenimiento. Optimiza tu productividad y comodidad visual con tecnología avanzada, ¡adquiérelo ahora!",
@@ -20306,7 +20309,8 @@
       "collections": [
         "Zona Gamer"
       ],
-      "subcategory": "De escritorio"
+      "subcategory": "De escritorio",
+      "sourceUnavailable": true
     },
     {
       "id": "9735",
@@ -31705,8 +31709,12 @@
       "subcategory": "Fuentes de poder"
     }
   ],
-  "updated": "2026-10-07T18:54:58+00:00",
+  "updated": "2026-10-08T17:14:43+00:00",
   "sourceMissingIds": [
+    "13144",
+    "8027",
+    "11910",
+    "13519",
     "29516",
     "21308"
   ]
