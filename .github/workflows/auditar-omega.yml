@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   auditar:
@@ -23,19 +24,14 @@ jobs:
           python-version: '3.12'
       - name: Probar lector público
         run: python3 -m unittest discover -s tests -p test_omega_public.py -v
-      - name: Verificar respuesta de una referencia retirada
-        run: |
-          python3 - <<'PY'
-          import sys, urllib.request, re
-          sys.path.insert(0, 'scripts')
-          from omega_public import make_tls_context, product_url
-          context = make_tls_context('omega-migration-audit')
-          with urllib.request.urlopen(product_url('74026'), context=context, timeout=25) as response:
-              print('Referencia 74026:', response.status, response.url)
-              print(re.findall(r'<title>(.*?)</title>', response.read().decode('utf-8')))
-          PY
+      - uses: actions/download-artifact@v4
+        with:
+          name: omega-migration-audit
+          path: omega-previous-audit
+          run-id: 38092297410
+          github-token: ${{ github.token }}
       - name: Consultar las referencias seleccionadas
-        run: python3 scripts/collect_omega.py --output omega-migration-audit
+        run: python3 scripts/collect_omega.py --output omega-migration-audit --resume-dir omega-previous-audit/omega-pages
       - name: Guardar datos públicos para revisión
         if: always()
         uses: actions/upload-artifact@v4

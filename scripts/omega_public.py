@@ -339,7 +339,8 @@ def _title_conflicts(title, part_number):
         if model in actual:
             continue
         stem = re.match(r"[A-Z]+\d+", model)
-        if stem and any(candidate != model and candidate.startswith(stem.group(0)) for candidate in actual):
+        if stem and any(candidate != model and not model.startswith(candidate + "-")
+                        and candidate.startswith(stem.group(0)) for candidate in actual):
             conflicts.append(f"El título contradice el número de parte: {model}")
     return conflicts
 
@@ -356,6 +357,11 @@ def parse_product(html, reference, source_url=None):
     summaries = tree.all(lambda n: n.has_class("entry-summary"))
     if not summaries:
         text = _normalized(tree.text())
+        titles = tree.all(lambda n: n.tag == "title")
+        error_headings = tree.all(lambda n: n.tag in {"h1", "h2"} and n.text() == "404")
+        if (len(titles) == 1 and titles[0].text() == "OMEGA TECH S.A. - 404"
+                and error_headings and "parece que esta pagina no existe" in text):
+            raise OmegaProductMissing(f"Omega muestra su página 404 para la referencia {reference}")
         if re.search(r"(?:producto|articulo)\s+(?:(?:no\s+(?:fue\s+)?encontrado)|(?:no\s+existe)|(?:no\s+disponible))|404\s*(?:not found|pagina no encontrada)", text):
             raise OmegaProductMissing(f"Omega indica que no existe la referencia {reference}")
         raise OmegaParseError(f"Respuesta sin ficha de producto para {reference}")

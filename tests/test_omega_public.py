@@ -82,6 +82,19 @@ class PublicParserTests(unittest.TestCase):
             with self.subTest(source=source[:50]), self.assertRaises(omega.OmegaParseError):
                 omega.parse_product(source, "109640")
 
+    def test_omega_branded_soft_404_requires_its_body_signature(self):
+        branded = '<html><head><title>OMEGA TECH S.A. - 404</title></head><body><h2>404 <i class="fa fa-file"></i></h2><p>Parece que esta p&#225;gina no existe.</p></body></html>'
+        with self.assertRaises(omega.OmegaProductMissing):
+            omega.parse_product(branded, "106122")
+        for broken in (branded.replace('Parece que esta p&#225;gina no existe.', 'Mantenimiento'), branded.replace('<h2>404 <i class="fa fa-file"></i></h2>', ''), '<html><title>OMEGA TECH S.A. - 404</title></html>'):
+            with self.subTest(source=broken), self.assertRaises(omega.OmegaParseError):
+                omega.parse_product(broken, "106122")
+
+    def test_abbreviated_model_does_not_conflict_with_part_number_suffix(self):
+        for title, part in [('Antec - CASE ANTEC C6 CURVE AIR BLACK', 'C6-CURVE-AIR-BLACK'), ('Antec - CASE ANTEC VCX10M RGB', 'VCX10M-RGB')]:
+            self.assertFalse(omega._title_conflicts(title, part))
+        self.assertTrue(omega._title_conflicts('Antec - ABANICO C120 ARGB', 'C120R.ARGB-3PK'))
+
     def test_features_use_explicit_omega_description_without_invented_enrichment(self):
         product = omega.parse_product(fixture(description="<ul><li>Panel: Rapid IPS</li><li>2X HDMI, 1X DISPLAYPORT 1.2A</li></ul>"), "109640")
         self.assertEqual(product["descriptionLines"], ["Panel: Rapid IPS", "2X HDMI, 1X DISPLAYPORT 1.2A"])
