@@ -28,9 +28,9 @@ function renderProductPage() {
       <p class="product-reference">Referencia: <span>${escapeHTML(product.reference || product.id)}</span>${product.model ? ` · Modelo: <span>${escapeHTML(product.model)}</span>` : ''}</p>
       <div class="product-description">${paragraphs}</div>
       <a class="text-link specifications-link" href="#caracteristicas">Ver características principales <span aria-hidden="true">↓</span></a>
-      <div class="page-pricing"><strong>${money(product.price)}</strong>${product.old ? `<del>${money(product.old)}</del>` : ''}</div>
+      <div class="page-pricing"><strong>${money(product.price)}</strong>${hasPrice(product) && product.old > product.price ? `<del>${money(product.old)}</del>` : ''}</div>
       ${productActions(product, true)}
-      <p class="purchase-hint">${product.stock ? 'Pedidos y asesoría por WhatsApp.' : 'Consulta alternativas con nuestro equipo por WhatsApp.'}</p>
+      <p class="purchase-hint">${canOrder(product) ? 'Pedidos y asesoría por WhatsApp.' : 'Consulta alternativas con nuestro equipo por WhatsApp.'}</p>
     </div>
   </div>
   <section class="specifications-section" id="caracteristicas" aria-labelledby="specifications-title">

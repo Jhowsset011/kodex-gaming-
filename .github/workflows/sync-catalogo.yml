@@ -1,4 +1,4 @@
-name: Sincronizar catálogo Nexcom
+name: Sincronizar catálogo Omega
 
 on:
   schedule:
@@ -13,11 +13,11 @@ on:
       - js/**
       - img/**
       - scripts/**
-      - tests/test_sync_nexcom.py
+      - tests/**
       - .github/workflows/sync-catalogo.yml
 
 concurrency:
-  group: catalogo-nexcom
+  group: catalogo-omega
   cancel-in-progress: false
 
 permissions:
@@ -26,7 +26,7 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
@@ -38,9 +38,25 @@ jobs:
           python-version: '3.12'
       - name: Probar sincronización y clasificación
         run: python3 -m unittest discover -s tests -v
+      - name: Comprobar reglas privadas de venta
+        id: pricing
+        env:
+          OMEGA_PRICING_RULES: ${{ secrets.OMEGA_PRICING_RULES }}
+        run: |
+          if [ -z "${OMEGA_PRICING_RULES:-}" ]; then
+            echo 'enabled=false' >> "$GITHUB_OUTPUT"
+            echo '::notice::Falta OMEGA_PRICING_RULES en los secrets de Actions. El catálogo publicado se conserva; la actualización automática queda pendiente.'
+          else
+            python3 -c "import sys; sys.path.insert(0, 'scripts'); from omega_pricing import PricingPolicy; PricingPolicy.from_env()"
+            echo 'enabled=true' >> "$GITHUB_OUTPUT"
+          fi
       - name: Actualizar precios, disponibilidad, fichas e imágenes
-        run: python3 scripts/sync_nexcom.py
+        if: steps.pricing.outputs.enabled == 'true'
+        env:
+          OMEGA_PRICING_RULES: ${{ secrets.OMEGA_PRICING_RULES }}
+        run: python3 scripts/sync_omega.py
       - name: Guardar catálogo
+        if: steps.pricing.outputs.enabled == 'true'
         run: |
           git config user.name 'kodex-sync'
           git config user.email 'kodex-sync@users.noreply.github.com'
@@ -48,7 +64,7 @@ jobs:
           if git diff --cached --quiet; then
             echo 'Sin cambios en el catálogo.'
           else
-            git commit -m 'Actualizar catálogo seleccionado desde Nexcom'
+            git commit -m 'Actualizar catálogo seleccionado desde Omega'
             git push origin HEAD:main
           fi
       - name: Preparar sitio actualizado
@@ -62,8 +78,8 @@ jobs:
           path: _site
 
   deploy:
-    # Pages publishes main automatically on human pushes. Bot commits do not
-    # trigger that build, so scheduled/manual syncs deploy their own artifact.
+    # Human pushes use the existing main/root Pages deployment. Scheduled and
+    # manual executions publish their own complete artifact, including CNAME.
     if: github.event_name != 'push'
     needs: sync
     runs-on: ubuntu-latest

@@ -4,7 +4,9 @@ const PAGE_SIZE = 24;
 const WHATSAPP_NUMBER = '18098796463';
 let catalogLoading = true;
 
-const money = value => 'RD$' + Number(value).toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2});
+const money = value => Number.isFinite(value) ? 'RD$' + value.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2}) : 'Consultar precio';
+const hasPrice = product => Number.isFinite(product.price) && product.price > 0;
+const canOrder = product => product.stock && hasPrice(product);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const $ = selector => document.querySelector(selector);
 const grid = $('#products'), cartDialog = $('#cart');
@@ -21,7 +23,7 @@ function sanitizeCart() {
   const cleaned = {};
   for (const p of products) {
     const quantity = cart[p.id];
-    if (p.stock && Number.isInteger(quantity) && quantity > 0) cleaned[p.id] = Math.min(quantity, 99);
+    if (canOrder(p) && Number.isInteger(quantity) && quantity > 0) cleaned[p.id] = Math.min(quantity, 99);
   }
   cart = cleaned;
 }
@@ -39,9 +41,9 @@ function countBy(key) {
   }
   return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], 'es'));
 }
-function offerCount() { return products.filter(p => p.old && p.old > p.price).length; }
+function offerCount() { return products.filter(p => hasPrice(p) && p.old > p.price).length; }
 function matchesCategory(product) {
-  return filter === 'Todos' || (filter === 'ofertas' ? product.old > product.price : productInCategory(product, filter));
+  return filter === 'Todos' || (filter === 'ofertas' ? hasPrice(product) && product.old > product.price : productInCategory(product, filter));
 }
 function subcategoryForCategory(product, category = filter) {
   if (category === 'Zona Gamer') {
@@ -97,20 +99,21 @@ function renderFilterUI() {
   }
 }
 function badgeFor(p) {
-  if (!p.stock) return 'AGOTADO';
+  if (!canOrder(p)) return 'No disponible';
   if (p.old && p.old > p.price) return `−${Math.round((1 - p.price / p.old) * 100)}%`;
   return '';
 }
 const cartIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l3 12h11l2-8H6M10 20h.01M18 20h.01"/></svg>';
 const arrowIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg>';
 function orderURL(items) {
+  if (!items.length || items.some(({product, quantity}) => !canOrder(product) || !Number.isInteger(quantity) || quantity < 1 || quantity > 99)) return '';
   const total = items.reduce((sum, {product, quantity}) => sum + product.price * quantity, 0);
   const lines = items.map(({product, quantity}) => `${quantity} × ${product.name}\nCódigo: ${product.reference || product.id} · Precio unitario: ${money(product.price)}\nSubtotal: ${money(product.price * quantity)}`);
   const text = `Hola, Kodex Gaming. Quiero hacer este pedido:\n\n${lines.join('\n\n')}\n\nTotal de productos: ${money(total)}\n¿Me confirman disponibilidad y costo de entrega?`;
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 }
 function productActions(p, detail = false) {
-  if (!p.stock) return '<button class="order-product" disabled>Agotado</button>';
+  if (!canOrder(p)) return '<button class="order-product" disabled>No disponible</button>';
   return `<div class="product-actions ${detail ? 'detail-actions' : ''}"><a class="order-product" href="${escapeHTML(orderURL([{product:p, quantity:1}]))}" target="_blank" rel="noopener noreferrer" aria-label="Hacer pedido de ${escapeHTML(p.name)} por WhatsApp">Hacer pedido ${arrowIcon}</a><button class="add" data-add="${p.id}" aria-label="Añadir ${escapeHTML(p.name)} al carrito" title="Añadir al carrito">${cartIcon}${detail ? '<span>Añadir al carrito</span>' : ''}</button></div>`;
 }
 function productCard(p) {
@@ -118,7 +121,7 @@ function productCard(p) {
     const art = p.image ? `<img src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}" loading="lazy">` : '';
     return `<article class="product" data-product="${p.id}">
     <div class="product-art">${badge ? `<span class="badge ${p.old && p.stock ? 'sale' : ''}">${escapeHTML(badge)}</span>` : ''}<a class="product-image-button" href="${productURL(p)}" data-detail="${p.id}" aria-label="Ver detalles de ${escapeHTML(p.name)}">${art}</a><span class="view-product">Ver detalles ${arrowIcon}</span></div>
-    <div class="product-copy"><span class="product-type"><span>${escapeHTML(p.brand || '')}</span> ${escapeHTML(p.category || '')}</span>${p.reference ? `<span class="product-reference-card">Ref. ${escapeHTML(p.reference)}</span>` : ''}<h3><a class="product-title" href="${productURL(p)}" data-detail="${p.id}">${escapeHTML(p.name)}</a></h3><div class="product-price"><strong>${money(p.price)}</strong>${p.old ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p)}</div></article>`;
+    <div class="product-copy"><span class="product-type"><span>${escapeHTML(p.brand || '')}</span> ${escapeHTML(p.category || '')}</span>${p.reference ? `<span class="product-reference-card">Ref. ${escapeHTML(p.reference)}</span>` : ''}<h3><a class="product-title" href="${productURL(p)}" data-detail="${p.id}">${escapeHTML(p.name)}</a></h3><div class="product-price"><strong>${money(p.price)}</strong>${hasPrice(p) && p.old > p.price ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p)}</div></article>`;
 }
 
 function renderProducts(resetPage = true) {
@@ -129,6 +132,7 @@ function renderProducts(resetPage = true) {
   const minInput = $('#min-price'), maxInput = $('#max-price');
   const min = minInput.value === '' ? 0 : minInput.valueAsNumber;
   const max = maxInput.value === '' ? Infinity : maxInput.valueAsNumber;
+  const hasPriceRange = minInput.value !== '' || maxInput.value !== '';
   const invalid = !minInput.validity.valid || !maxInput.validity.valid || min < 0 || max < 0 || min > max;
   $('#price-error').hidden = !invalid;
   minInput.setAttribute('aria-invalid', String(invalid));
@@ -136,11 +140,14 @@ function renderProducts(resetPage = true) {
   const list = invalid ? [] : products.filter(p =>
     matchesCategory(p) && (!subcategory || subcategoryForCategory(p) === subcategory) &&
     `${p.name} ${p.spec || ''} ${p.category || ''} ${p.brand || ''} ${p.reference || ''} ${p.model || ''} ${(p.collections || []).join(' ')} ${p.subcategory || ''}`.toLocaleLowerCase('es').includes(query) &&
-    (!brands.length || brands.includes(p.brand)) && p.price >= min && p.price <= max
+    (!brands.length || brands.includes(p.brand)) &&
+    (!hasPriceRange || (hasPrice(p) && p.price >= min && p.price <= max))
   );
   const sort = $('#sort').value;
-  if (sort === 'price-asc') list.sort((a,b) => a.price - b.price);
-  if (sort === 'price-desc') list.sort((a,b) => b.price - a.price);
+  if (sort === 'price-asc' || sort === 'price-desc') list.sort((a,b) => {
+    if (!hasPrice(a) || !hasPrice(b)) return Number(hasPrice(b)) - Number(hasPrice(a));
+    return sort === 'price-asc' ? a.price - b.price : b.price - a.price;
+  });
   if (sort === 'name') list.sort((a,b) => a.name.localeCompare(b.name, 'es'));
   const totalPages = Math.max(1, Math.ceil(list.length / PAGE_SIZE));
   currentPage = Math.min(currentPage, totalPages);
@@ -179,7 +186,8 @@ function resetFilters() {
   selectFilter('Todos');
 }
 function updateCartSummary() {
-  const items = products.filter(p => cart[p.id]);
+  sanitizeCart();
+  const items = products.filter(p => canOrder(p) && cart[p.id]);
   const total = items.reduce((sum, p) => sum + p.price * cart[p.id], 0);
   const quantity = items.reduce((sum, p) => sum + cart[p.id], 0);
   $('#cart-count').textContent = quantity;
@@ -199,7 +207,7 @@ function renderCart() {
   try { localStorage.setItem('kodex-cart', JSON.stringify(cart)); } catch {}
 }
 function updateQuantity(id, quantity) {
-  const product = products.find(p => p.id === id && p.stock);
+  const product = products.find(p => p.id === id && canOrder(p));
   if (!product || !cart[id] || !Number.isInteger(quantity) || quantity < 1 || quantity > 99) return;
   cart[id] = quantity;
   const line = document.querySelector(`[data-cart-product="${id}"]`);
@@ -220,7 +228,7 @@ function hideToast() {
 }
 function addProduct(id) {
   const p = products.find(x => x.id === id);
-  if (!p || !p.stock) return;
+  if (!p || !canOrder(p)) return;
   if (cart[id] >= 99) return;
   cart[id] = (cart[id] || 0) + 1;
   renderCart();
@@ -323,7 +331,7 @@ $('#cart-items').addEventListener('click', event => {
   const change = event.target.closest('[data-change]'), remove = event.target.closest('[data-remove]');
   if (change) {
     const id = change.dataset.change;
-    if (!products.some(p => p.id === id && p.stock) || !cart[id]) return;
+    if (!products.some(p => p.id === id && canOrder(p)) || !cart[id]) return;
     updateQuantity(id, Math.max(1, Math.min(99, cart[id] + Number(change.dataset.step))));
     const replacement = document.querySelector(`[data-change="${id}"][data-step="${change.dataset.step}"]`);
     if (replacement && !replacement.disabled) replacement.focus({preventScroll:true});
@@ -352,12 +360,14 @@ function validateCatalog(data) {
   if (!data || !Array.isArray(data.products) || !data.products.length) throw new Error('Catálogo vacío o inválido');
   const ids = new Set();
   for (const p of data.products) {
+    const unavailablePrice = p.price === null && p.stock === false &&
+      (p.sourceUnavailable === true || p.priceUnavailable === true);
     if (typeof p.id !== 'string' || !/^[a-zA-Z0-9_-]+$/.test(p.id) || ids.has(p.id) ||
         typeof p.name !== 'string' || !p.name.trim() || typeof p.category !== 'string' ||
-        typeof p.brand !== 'string' || !Number.isFinite(p.price) || p.price <= 0 ||
+        typeof p.brand !== 'string' || (!hasPrice(p) && !unavailablePrice) ||
         typeof p.stock !== 'boolean' || typeof p.image !== 'string') throw new Error('Producto inválido');
-    if (p.image && !p.image.startsWith('img/catalogo/') && !p.image.startsWith('https://nexcomtienda.com.do/')) throw new Error('Imagen inválida');
-    if (p.old !== undefined && (!Number.isFinite(p.old) || p.old <= p.price)) throw new Error('Oferta inválida');
+    if (p.image && !/^img\/catalogo\/[a-zA-Z0-9_-]+\.(?:avif|webp|png|jpe?g|gif|svg)$/.test(p.image)) throw new Error('Imagen inválida');
+    if (p.old !== undefined && (!hasPrice(p) || !Number.isFinite(p.old) || p.old <= p.price)) throw new Error('Oferta inválida');
     if (typeof p.subcategory !== 'string' || !p.subcategory.trim()) throw new Error('Subcategoría inválida');
     ids.add(p.id);
   }

@@ -1,66 +1,60 @@
 # Kodex Gaming
 
-Tienda gaming estática con catálogo, búsqueda, filtros y carrito local.
+Tienda gaming estática con búsqueda, filtros, fichas de producto y carrito local.
 
 ## Desarrollo
 
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1
-```
-
-No requiere instalación ni compilación. Los pedidos se preparan en WhatsApp; la web no procesa pagos.
-
-## Apariencia
-
-El interruptor de sol/luna cambia entre modo claro y oscuro en la tienda y las fichas de producto. En el inicio y en las fichas aparece en la barra superior, junto a «Asesoría por WhatsApp». El modo oscuro es el inicial y conserva la paleta existente. El modo claro tiene fondos suaves, texto oscuro y un logo preparado para fondo claro. La elección se guarda en `localStorage` (`kodex-theme`), se aplica antes de cargar los estilos y se sincroniza entre pestañas. Si el navegador bloquea el almacenamiento, el interruptor sigue funcionando durante la visita. Los estilos del tema claro están en `css/tema.css`; `js/tema.js` controla la selección. Las referencias a estilos y scripts llevan una versión para invalidar copias antiguas al publicar cambios.
-
-## Catálogo
-
-`js/productos.json` contiene 589 referencias únicas. El lote `nuevos-oct10.zip` añadió 18 a las 571 existentes: nueve monitores, cinco fuentes de poder, dos tarjetas gráficas, un disco externo y un combo de teclado y mouse. Se consultaron sus IDs exactos en Nexcom para incorporar precios, fotografías y características. La importación añade solo los IDs ausentes y conserva las fichas anteriores. El disco duro usado de 80GB (referencia 62635, ID 21890), retirado a petición del propietario, permanece fuera del catálogo y de la selección de sincronización. Los nombres iguales con referencias distintas se mantienen como publicaciones diferentes del suplidor; las tarjetas muestran la referencia para distinguirlas.
-
-Los precios, fotografías y características proceden de Nexcom y del lote seleccionado por el propietario. Esta sincronización no consulta la cuenta privada de Omega ni verifica en vivo la coincidencia con su catálogo. Hay 587 productos con fotografías locales y dos con marcador. La tienda muestra 24 productos por página. Una publicación anterior (ID 21308, Lenovo ThinkPad E16) ya no aparece en la API: conserva su ficha, pero se marca como no disponible.
-
-Todos los productos tienen su categoría principal y **un solo nivel de subcategorías**, guardado en `subcategory`. La navegación lateral sigue la referencia de Nexcom: lista de categorías con cantidades y flechas; la categoría seleccionada despliega debajo sus subcategorías con sangría y cantidades. No hay selectores encadenados. Solo se muestran grupos con productos. En Audio y Video se usan Audífonos, Bocinas, Equipos de sonido, Accesorios de audio, Soportes para TV, Streaming y TV Smart y Televisores, según el catálogo disponible.
-
-La selección de categoría muestra todos sus productos; elegir una subcategoría restringe el listado. Los filtros se pueden quitar por separado y se conservan al volver de una ficha. Cada ficha enlaza a su única subcategoría mediante `categoria` y `subcategoria` en la URL. Los enlaces anteriores con `sub1` se aceptan y las selecciones antiguas se adaptan a los nuevos nombres de grupo; `sub2` y `sub3` se ignoran.
-
-La clasificación prioriza el tipo real del producto sobre la categoría comercial: 86 monitores, 158 componentes, 184 periféricos, 68 productos de almacenamiento, 44 de audio y video, 44 laptops, tres muebles y dos computadoras. Zona Gamer es una selección adicional; sus subcategorías agrupan el tipo de producto, como Monitores, Mouse o Audio. Ofertas también permite esa navegación. ThinkPad y ThinkVision se agrupan bajo Lenovo; las licencias Disney y Marvel de Xtech bajo Xtech. Las marcas sin evidencia se mantienen como Genérico. Las subcategorías proceden del tipo de producto identificado por el nombre y las especificaciones disponibles. Las tecnologías, tamaños y capacidades se consultan en la ficha, sin crear niveles adicionales.
-
-## Actualización automática
-
-Se incorporaron y adaptaron los tres archivos solicitados: `scripts/sync_nexcom.py`, `scripts/omega_ids.txt` y `.github/workflows/sync-catalogo.yml`. El flujo se programa todos los días a las **6:00 a. m. de República Dominicana** (10:00 UTC), puede ejecutarse manualmente desde Actions y se inicia al cambiar sus scripts o configuración en main. El horario de GitHub Actions puede sufrir demoras.
-
-La selección se limita a los 589 IDs de `omega_ids.txt`: nuevos productos del suplidor se incorporan únicamente al añadir sus IDs a esa lista. El script consulta directamente esas referencias, incluyendo laptops; actualiza precios sin margen, disponibilidad, descuentos, imágenes y características; y reaplica las reglas de categoría, marca y la única subcategoría de cada producto. Lee el catálogo del checkout, no la copia publicada, para conservar enriquecimiento y archivos locales. Un fallo de red o validación no sustituye el catálogo. Las publicaciones que desaparecen del origen se conservan como no disponibles; una pérdida extensa de fichas detiene la actualización. No se generan commits cuando los datos son iguales.
-
-El flujo guarda los cambios y, en las ejecuciones programadas o manuales, despliega explícitamente un artefacto mediante GitHub Pages. Esto evita depender de que un commit hecho con GITHUB_TOKEN inicie otro flujo. En los pushes del propietario, la publicación automática de la rama main se encarga del despliegue y el job deploy del catálogo se omite para evitar que dos publicaciones se cancelen entre sí. No requiere contraseñas de Nexcom ni Omega. GitHub debe permitir Actions, la escritura del token en main y el despliegue al entorno github-pages; si una protección lo impide, la ejecución muestra el motivo en Actions. El despliegue mediante artefacto del lote de 481 productos se verificó con resultado correcto. Las ejecuciones posteriores pueden consultarse en Actions.
-
-Para verificar sin escribir:
-
-```sh
-python3 scripts/sync_nexcom.py --dry-run
 python3 -m unittest discover -s tests -v
 ```
 
-Para sincronizar manualmente desde un checkout con conexión:
+Python 3, OpenSSL y el navegador son suficientes. No requiere paquetes, instalación ni compilación. La tienda prepara pedidos por WhatsApp y no procesa pagos. No enviar mensajes durante las pruebas.
+
+## Catálogo y fuente
+
+La selección del propietario está en `js/productos.json`: 589 referencias únicas. La migración del 10 de octubre verificó 533 fichas públicas de Omega y 56 referencias retiradas. Se conservaron todos los enlaces; 526 productos permiten pedidos, cuatro presentan inventario cero y tres quedaron con modelo pendiente de confirmación por contradicciones internas del suplidor. Cada producto conserva su ID y la dirección `producto.html?id=ID`; `reference` identifica su ficha pública exacta de Omega Tech en `/es/product/consul/REFERENCIA`. `scripts/omega_ids.txt` conserva los **IDs internos de Kodex**, no las referencias de las rutas de Omega. Ambos conjuntos se validan antes de sincronizar. El producto retirado (ID 21890, referencia 62635) sigue excluido.
+
+La sincronización activa consulta exclusivamente el catálogo público de **tienda.omega.com.do**: precio en DOP, inventario publicado por sucursal, número de parte, título, descripción, características y fotografía. No inicia sesión ni consulta precios especiales de una cuenta. Los archivos anteriores de Nexcom se conservan como herramientas históricas; el workflow activo no los ejecuta ni consulta su API.
+
+La clasificación usa el tipo de producto y la información de Omega, con categoría principal y **un solo nivel de subcategorías**. Zona Gamer es una selección adicional. Los filtros conservan su estado al volver de una ficha. La marca procede del fabricante informado por Omega, no de una marca de procesador encontrada dentro del nombre de una laptop.
+
+Las fotografías se descargan con HTTPS verificado desde Omega, se comprueba el formato y se guardan en `img/catalogo` con nombres derivados del contenido. El manifiesto relaciona únicamente URLs públicas y archivos locales. Fotografías idénticas se comparten. Una fotografía inexistente muestra el marcador de imagen pendiente.
+
+Una referencia que Omega confirma retirada conserva su enlace y clasificación, pero queda sin precio ni características antiguas y no permite pedidos. Un precio explícito cero o a consultar también impide pedidos. La web muestra «Consultar precio» y «No disponible». Una respuesta incompleta, un fallo de red, una referencia contradictoria o un problema de TLS detiene la actualización y conserva el último catálogo válido; no se interpreta como agotamiento.
+
+## Precios de venta y configuración privada
+
+`scripts/omega_pricing.py` calcula el costo descontado, selecciona el tramo sobre ese costo y aplica el incremento correspondiente. El costo se redondea a centavos antes de elegir el tramo; el precio final se redondea a centavos con HALF_UP. Por encima del último tramo puede conservarse el precio público del suplidor. Se trata de un incremento sobre costo, no de margen bruto sobre la venta.
+
+Los porcentajes y límites se suministran mediante **OMEGA_PRICING_RULES**, un objeto JSON con `discountPercent`, `bands` (objetos `maxCost` y `markupPercent`) y `aboveMax: "public"`. Los límites deben crecer, sin huecos; cada banda incluye su límite superior. El JSON público contiene solamente el precio final de venta. No contiene el costo descontado, las reglas privadas ni el precio base usado para calcularlo. No guardar el archivo privado en este repositorio, artefactos públicos, instrucciones de configuración o logs.
+
+Para ejecutar en GitHub, añadir **OMEGA_PRICING_RULES** en **Settings → Secrets and variables → Actions → New repository secret**. Los valores se introducen en GitHub, no en el chat. Sin ese secret, el workflow conserva y publica el catálogo existente, informa que la actualización está pendiente y no vuelve a Nexcom. Un secret inválido detiene el flujo antes de consultar al suplidor.
+
+Para validar localmente con un archivo de reglas fuera del checkout:
 
 ```sh
-python3 scripts/sync_nexcom.py
+python3 scripts/sync_omega.py --policy-file /ruta/privada/reglas.json --dry-run
 ```
 
-## Páginas de producto
+Para sincronizar, quitar `--dry-run`. También puede usarse la variable de entorno, pero no simultáneamente con el archivo. La captura pública revisada de una migración puntual puede suministrarse con `--source-file`; las fotografías verificadas de esa captura, con `--image-cache`. Las ejecuciones diarias siempre consultan fichas actuales. Una captura inicial con muchas referencias ya retiradas exige `--accept-missing-baseline`; este parámetro solo funciona con `--source-file`, tras revisar sus ausencias confirmadas. El control diario de desapariciones extensas cuenta nuevas ausencias respecto al último catálogo válido.
 
-La imagen y el nombre de cada tarjeta enlazan a `producto.html?id=ID`. Cada ficha tiene una URL que se puede compartir, fotografía, referencia, descripción completa, características, pedido por WhatsApp y productos de la misma categoría. El carrito se conserva entre páginas; al volver al catálogo se recuperan búsqueda, filtros, orden y página.
+## Actualización automática
 
-Las fichas se consultan por sus IDs exactos en la API pública de Nexcom. La consulta usa `/wp-json/wc/store/v1/products`, validando IDs y referencias antes de incorporar los datos. Las 18 referencias del lote de octubre se recuperaron completas; en total hay 572 fichas con características estructuradas y 17 con características en texto. El JSON conserva `reference`, `description`, `specifications`, `features`, `specificationSources` y `specificationsUpdated`. Las importaciones conservan las fichas existentes; las sincronizaciones posteriores actualizan precios y disponibilidad desde Nexcom. Dos publicaciones del Dell E2318H discrepan en los puertos: esas conexiones se muestran pendientes de confirmación para la unidad, conservando el valor original en `sourceValue`.
+`.github/workflows/sync-catalogo.yml` consulta la selección a las **6:00 a. m. de República Dominicana** (10:00 UTC), manualmente desde Actions y tras cambios relevantes en main. GitHub puede demorar las ejecuciones programadas. La actualización automática requiere el secret privado de precios.
 
-Las fichas todavía no tienen verificación independiente con fabricantes oficiales. Las consultas anteriores a Omega fallaron al validar su certificado en el proxy, y las consultas a MSI y Lenovo fueron bloqueadas por la política de acceso de ese entorno. La importación de este lote consulta Nexcom; no usa credenciales privadas de Omega.
+El flujo prueba lector, reglas, clasificación, imágenes y escritura. Limita la consulta a dos conexiones simultáneas y dos inicios de petición por segundo. Valida la moneda y la referencia dentro de la ficha; suma el inventario publicado de todas las sucursales. Una desaparición extensa de fichas detiene el proceso para su revisión. No se añaden productos ajenos a la selección ni se duplican referencias.
 
-## GitHub Pages
+La escritura del catálogo es atómica y solo se generan commits cuando cambia el contenido. Las ejecuciones programadas o manuales preparan y despliegan un artefacto completo mediante Pages, incluyendo `CNAME`. Los pushes a main también mantienen la publicación habitual desde la rama. Se requieren permisos de escritura del token en main y de despliegue al entorno github-pages.
 
-La dirección pública es **https://kodexgaming.com/**, con HTTPS. El archivo `CNAME` conserva ese dominio y también se incluye en el artefacto de las sincronizaciones programadas y manuales.
+Omega actualmente omite certificados intermedios en su conexión. El lector obtiene la cadena oficial de Let's Encrypt, la verifica contra las raíces del sistema, con caducidad, propósito y nombre del servidor, y completa la cadena sin desactivar TLS ni confiar en certificados hoja.
 
-En Settings → Pages, mantén Deploy from a branch, main y / (root). Los pushes del propietario se publican desde la rama. La sincronización diaria y las ejecuciones manuales publican su artefacto mediante `sync-catalogo.yml`; sus commits hechos con GITHUB_TOKEN no disparan una segunda publicación desde la rama. El despliegue del catálogo se omite en eventos push para evitar duplicarlo. Cambiar el origen a GitHub Actions requiere quitar esa condición y usar el workflow para todos los eventos.
+## Apariencia y pedidos
 
-## Pedidos por WhatsApp
+El interruptor junto a «Asesoría por WhatsApp» cambia entre modo claro y oscuro en el inicio y las fichas. La elección persiste en `localStorage` (`kodex-theme`); el modo oscuro es el inicial. El carrito (`kodex-cart`) conserva cantidades de 1 a 99 y elimina productos que dejan de estar disponibles o carecen de precio confirmado.
 
-Los botones «Hacer pedido» de las tarjetas y los detalles preparan un mensaje al número de negocio +1 809 879 6463, con el producto, código, cantidad y precio. El carrito permite ajustar cantidades (1–99), quitar productos y preparar un pedido conjunto con subtotales y total. Abrir WhatsApp no envía el mensaje automáticamente; el cliente revisa y envía el pedido. Disponibilidad y entrega se confirman por WhatsApp.
+Los botones «Hacer pedido» preparan un mensaje al negocio **+1 809 879 6463** con referencia, cantidad, precio, subtotales y total. Abrir WhatsApp no envía el mensaje: el cliente revisa y confirma disponibilidad y entrega.
+
+## Publicación
+
+La dirección pública es **https://kodexgaming.com/**. Conservar `CNAME`, DNS y Settings → Pages → Deploy from a branch → main → / (root). Comprobar el catálogo realmente servido después de cada publicación; un push o un artefacto creado no demuestra que el dominio haya recibido la nueva versión.
