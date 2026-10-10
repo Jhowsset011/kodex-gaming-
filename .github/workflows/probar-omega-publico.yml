@@ -1,0 +1,31 @@
+name: Comprobar catálogo público de Omega
+
+on:
+  push:
+    branches: [codex/probar-omega-publico]
+    paths:
+      - .github/workflows/probar-omega-publico.yml
+      - .github/diagnostics/probe_omega_public.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  comprobar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar páginas y datos públicos con HTTPS validado
+        run: python3 .github/diagnostics/probe_omega_public.py
+      - name: Conservar respuestas públicas para revisión
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: omega-public-probe
+          path: omega-public-probe/
+          retention-days: 3
