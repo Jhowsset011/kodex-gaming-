@@ -14304,7 +14304,7 @@
       "brand": "MSI",
       "price": 1150.0,
       "image": "img/catalogo/c0dc301f13643456c60f.webp",
-      "stock": false,
+      "stock": true,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/01/teclado-msi-forge-gk110-gamer-rgb-usb-c-negro.webp",
       "reference": "108754",
       "description": "Teclado gamer MSI Forge GK110 con LED RGB, rueda de volumen dedicada y 26 teclas anti-ghosting para control preciso y experiencia inmersiva. Compatible con Windows 11 y conexión USB-C de 1.5 m para rendimiento confiable. Compra ahora y mejora tu setup.",
@@ -14372,8 +14372,7 @@
       "collections": [
         "Zona Gamer"
       ],
-      "subcategory": "Teclados",
-      "sourceUnavailable": true
+      "subcategory": "Teclados"
     },
     {
       "id": "2009",
@@ -20248,7 +20247,7 @@
       "brand": "MSI",
       "price": 7250.0,
       "image": "img/catalogo/a0731e5e9166ea887a93.webp",
-      "stock": false,
+      "stock": true,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/04/monitor-msi-pro-mp243w-e14-24-ips-fhd-144hz-blanco-hdr-adaptive-sync.webp",
       "reference": "109649",
       "description": "Monitor MSI de 24” con panel IPS, 144Hz y Adaptive-Sync que ofrece imágenes fluidas, colores precisos y mejor experiencia visual para trabajo y entretenimiento. Optimiza tu productividad y comodidad visual con tecnología avanzada, ¡adquiérelo ahora!",
@@ -20311,8 +20310,7 @@
       "collections": [
         "Zona Gamer"
       ],
-      "subcategory": "De escritorio",
-      "sourceUnavailable": true
+      "subcategory": "De escritorio"
     },
     {
       "id": "9735",
@@ -20484,7 +20482,7 @@
       "spec": "Fuente de poder MSI de 550W con certificación 80 Plus Bronce y PFC activo para energía estable y eficiente. Ideal para equipos de alto rendi",
       "category": "Componentes",
       "brand": "MSI",
-      "price": 3600.0,
+      "price": 3150.0,
       "image": "img/catalogo/ad1aa13b47c830026d96.jpg",
       "stock": true,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/36206b30-531f-4200-b8a4-88e620a2dc8d.png",
@@ -30155,7 +30153,7 @@
       "brand": "AOC",
       "price": 8050.0,
       "image": "img/catalogo/8c0c3a4103ed91ca53bf.webp",
-      "stock": true,
+      "stock": false,
       "reference": "96931",
       "description": "Aumenta tu productividad en cualquier lugar con el monitor portátil AOC 16T3E, ideal como segunda pantalla táctil Full HD gracias a su diseño ultraligero, conectividad USB-C y configuración plug-and-play. Lleva tu trabajo y presentaciones al siguiente nivel hoy mismo.",
       "specifications": [
@@ -30217,7 +30215,8 @@
       "sourceCategory": "Monitores",
       "collections": [],
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2024/11/16T3E_F.webp",
-      "subcategory": "Portátiles"
+      "subcategory": "Portátiles",
+      "sourceUnavailable": true
     },
     {
       "id": "16747",
@@ -32843,17 +32842,16 @@
       "image": "img/catalogo/6afec8d3ff7e19f17dcb.png"
     }
   ],
-  "updated": "2026-10-10T21:42:39+00:00",
+  "updated": "2026-10-10T21:47:44+00:00",
   "sourceMissingIds": [
     "29669",
     "12870",
-    "13144",
     "8027",
     "11910",
-    "13519",
     "23775",
     "21308",
     "28723",
-    "20662"
+    "20662",
+    "9443"
   ]
 }
