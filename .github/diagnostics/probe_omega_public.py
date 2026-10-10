@@ -13,7 +13,9 @@ from urllib.request import HTTPRedirectHandler, HTTPSHandler, Request, build_ope
 BASE = 'https://tienda.omega.com.do/'
 OUTPUT = Path('omega-public-probe')
 MAX_BYTES = 2_000_000
-TLS = ssl.create_default_context()
+TLS = ssl.create_default_context(cafile=os.environ.get('OMEGA_CA_BUNDLE'))
+if hasattr(ssl, 'VERIFY_X509_PARTIAL_CHAIN'):
+    TLS.verify_flags &= ~ssl.VERIFY_X509_PARTIAL_CHAIN
 
 
 class SecureRedirect(HTTPRedirectHandler):
@@ -29,7 +31,7 @@ class SecureRedirect(HTTPRedirectHandler):
 class Page(HTMLParser):
     def __init__(self):
         super().__init__(convert_charrefs=True)
-        self.links, self.metadata, self.schemas = [], {}, []
+        self.links, self.metadata, self.schemas, self.scripts = [], {}, [], []
         self.in_schema = False
         self.buffer = []
 
@@ -37,6 +39,8 @@ class Page(HTMLParser):
         values = dict(attrs)
         if tag == 'a' and values.get('href'):
             self.links.append(values['href'])
+        if tag == 'script' and values.get('src'):
+            self.scripts.append(values['src'])
         if tag == 'meta' and values.get('content'):
             key = values.get('property') or values.get('name') or values.get('itemprop')
             if key:
@@ -97,7 +101,7 @@ def get(url, index):
         elif 'html' in record.get('content_type', ''):
             page = Page()
             page.feed(text)
-            record.update(metadata=page.metadata, schemas=page.schemas,
+            record.update(metadata=page.metadata, schemas=page.schemas, scripts=page.scripts,
                           links=page.links[:250])
             hints = ['wp-content', 'woocommerce', 'shopify', 'prestashop', 'magento', 'opencart']
             record['platform_hints'] = [hint for hint in hints if hint in text.lower()]
@@ -108,9 +112,7 @@ def get(url, index):
 
 def main():
     OUTPUT.mkdir(exist_ok=True)
-    paths = ['', 'robots.txt', 'sitemap.xml', 'wp-json/',
-             'wp-json/wc/store/v1/products?per_page=1',
-             'wp-json/wc/v3/products?per_page=1']
+    paths = ['', 'robots.txt', 'sitemap.xml', 'es', 'es/home/index', 'es/home/contact']
     with ThreadPoolExecutor(max_workers=3) as pool:
         reports = list(pool.map(lambda pair: get(urljoin(BASE, pair[1]), pair[0]), enumerate(paths)))
     home = reports[0]
@@ -122,7 +124,7 @@ def main():
             continue
         if re.search(r'cart|checkout|logout|wishlist|add-to|remove|account|login', url, re.I):
             continue
-        if re.search(r'/(?:item|product|producto|productos)/|\.html(?:\?|$)', parsed.path, re.I):
+        if re.search(r'/(?:item|products?|productos?)/|(?:product|producto)details?|/detail/|\.html(?:\?|$)', parsed.path, re.I):
             if url not in candidates:
                 candidates.append(url)
     for index, url in enumerate(candidates[:2], len(reports)):

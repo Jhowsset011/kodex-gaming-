@@ -26,7 +26,19 @@ jobs:
           timeout 25 openssl s_client -connect tienda.omega.com.do:443 -servername tienda.omega.com.do -showcerts -verify_return_error </dev/null > omega-public-probe/tls-handshake.txt 2>&1 || true
           openssl x509 -in omega-public-probe/tls-handshake.txt -noout -subject -issuer -dates -ext authorityInfoAccess > omega-public-probe/certificate-info.txt 2>&1 || true
           cat omega-public-probe/certificate-info.txt
+      - name: Completar cadena oficial y comprobar confianza existente
+        run: |
+          set -euo pipefail
+          for certificate in int-ye2 root-ye-by-x2 root-x2-by-x1; do
+            curl --fail --silent --show-error --location --proto '=https' --proto-redir '=https' --max-time 30 "https://letsencrypt.org/certs/gen-y/${certificate}.pem" --output "omega-public-probe/${certificate}.pem"
+          done
+          cat omega-public-probe/int-ye2.pem omega-public-probe/root-ye-by-x2.pem omega-public-probe/root-x2-by-x1.pem > omega-public-probe/intermediates.pem
+          openssl x509 -in omega-public-probe/tls-handshake.txt -out omega-public-probe/leaf.pem
+          openssl verify -CAfile /etc/ssl/certs/ca-certificates.crt -untrusted omega-public-probe/intermediates.pem -purpose sslserver -verify_hostname tienda.omega.com.do omega-public-probe/leaf.pem | tee omega-public-probe/chain-verification.txt
+          cat /etc/ssl/certs/ca-certificates.crt omega-public-probe/intermediates.pem > /tmp/omega-validated-ca.pem
       - name: Consultar páginas y datos públicos con HTTPS validado
+        env:
+          OMEGA_CA_BUNDLE: /tmp/omega-validated-ca.pem
         run: python3 .github/diagnostics/probe_omega_public.py
       - name: Conservar respuestas públicas para revisión
         if: always()
