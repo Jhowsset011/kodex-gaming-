@@ -56,6 +56,7 @@ jobs:
           mkdir _site
           cp index.html producto.html _site/
           cp -R css js img _site/
+          if [ -f CNAME ]; then cp CNAME _site/; fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

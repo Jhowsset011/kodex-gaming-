@@ -1,6 +1,6 @@
 {
   "source": "nexcomtienda.com.do (selección del propietario; no consulta precios privados de Omega)",
-  "count": 571,
+  "count": 589,
   "products": [
     {
       "id": "19182",
@@ -31711,9 +31711,1139 @@
       "collections": [],
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/05/MAG-A850GL-PCIE5.webp",
       "subcategory": "Fuentes de poder"
+    },
+    {
+      "id": "8187",
+      "name": "Monitor Gamer AOC C32G3E 31.5 Pulgadas Curvo FHD 165Hz 1ms VA",
+      "spec": "Disfruta una experiencia gamer inmersiva con el monitor AOC C32G3E de 31.5”, curvatura 1000R, 165Hz y respuesta de 1ms, ideal para juegos co",
+      "price": 15200.0,
+      "stock": true,
+      "reference": "96329",
+      "description": "Disfruta una experiencia gamer inmersiva con el monitor AOC C32G3E de 31.5”, curvatura 1000R, 165Hz y respuesta de 1ms, ideal para juegos competitivos con colores precisos y alto contraste. Lleva tu rendimiento al siguiente nivel hoy mismo.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "AOC"
+        },
+        {
+          "label": "Modelo",
+          "value": "C32G3E"
+        },
+        {
+          "label": "Tamaño de pantalla",
+          "value": "31.5 pulgadas"
+        },
+        {
+          "label": "Tipo de panel",
+          "value": "VA"
+        },
+        {
+          "label": "Tipo de pantalla",
+          "value": "Curva"
+        },
+        {
+          "label": "Curvatura",
+          "value": "1000R"
+        },
+        {
+          "label": "Resolución",
+          "value": "1920 × 1080 (FHD)"
+        },
+        {
+          "label": "Frecuencia de actualización",
+          "value": "165 Hz (DP) / 144 Hz (HDMI)"
+        },
+        {
+          "label": "Ángulo de visión",
+          "value": "178° horizontal / 178° vertical"
+        },
+        {
+          "label": "Brillo",
+          "value": "250 cd/m²"
+        },
+        {
+          "label": "Contraste",
+          "value": "3000:1 (típico) / 80M:1 (DCR)"
+        },
+        {
+          "label": "Gama de colores",
+          "value": "NTSC 101 %, sRGB 120 %, DCI-P3 93 %"
+        },
+        {
+          "label": "Precisión de color",
+          "value": "Delta E < 2"
+        },
+        {
+          "label": "Colores",
+          "value": "16.7 millones"
+        },
+        {
+          "label": "Tiempo de respuesta",
+          "value": "1 ms MPRT / 4 ms GtG"
+        },
+        {
+          "label": "Paso de píxeles",
+          "value": "0.36375 mm × 0.36375 mm"
+        },
+        {
+          "label": "Entradas de video",
+          "value": "2 × HDMI 1.4, 1 × DisplayPort 1.2"
+        },
+        {
+          "label": "HDCP",
+          "value": "HDMI 2.2 / DisplayPort 2.2"
+        },
+        {
+          "label": "Audio",
+          "value": "Salida para auriculares 3.5 mm"
+        },
+        {
+          "label": "Montaje",
+          "value": "VESA 100 × 100 mm"
+        },
+        {
+          "label": "Ajuste del soporte",
+          "value": "Inclinación de -5° a 23°"
+        },
+        {
+          "label": "Color",
+          "value": "Negro y rojo"
+        },
+        {
+          "label": "Dimensiones sin soporte",
+          "value": "700.5 × 424.2 × 111.2 mm"
+        },
+        {
+          "label": "Dimensiones con soporte",
+          "value": "700.5 × 523.7 × 263.8 mm"
+        },
+        {
+          "label": "Peso",
+          "value": "6.02 kg (sin soporte) / 6.75 kg (con soporte)"
+        },
+        {
+          "label": "Consumo energético",
+          "value": "38 W típico"
+        },
+        {
+          "label": "Fuente de alimentación",
+          "value": "100–240 V ~ 1.5 A, 50/60 Hz"
+        },
+        {
+          "label": "Altavoces",
+          "value": "No incluidos"
+        },
+        {
+          "label": "Certificaciones",
+          "value": "RCM, MEPS, CE, CB, FCC, KC, KCC, e-Standby, BSMI"
+        }
+      ],
+      "features": [],
+      "model": "C32G3E",
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/96329/",
+          "reference": "96329"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "AOC",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "Curvos",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2024/06/Diseno-sin-titulo-6-3.webp",
+      "image": "img/catalogo/357678a28689fc1228d5.webp"
+    },
+    {
+      "id": "12121",
+      "name": "Monitor MSI MAG 32C6X 31.5″ Curvo FHD 250Hz Rapid VA 1ms con HDMI y DisplayPort",
+      "spec": "Monitor MSI MAG 32C6X curvo de 31.5″ Full HD con panel Rapid VA, 250Hz, 1ms, AMD Adaptive-Sync, conectividad HDMI y DisplayPort, diseñado pa",
+      "price": 15650.0,
+      "stock": true,
+      "reference": "106719",
+      "description": "Monitor MSI MAG 32C6X curvo de 31.5″ Full HD con panel Rapid VA, 250Hz, 1ms, AMD Adaptive-Sync, conectividad HDMI y DisplayPort, diseñado para gaming competitivo e inmersivo.",
+      "specifications": [],
+      "features": [
+        "Resolución y calidad:",
+        "Pantalla curva de 31.5″ con resolución Full HD (1920 x 1080)",
+        "Frecuencia de actualización de hasta 250Hz (compatible 180Hz)",
+        "Tiempo de respuesta ultrarrápido de 1 ms",
+        "Panel Rapid VA con alto contraste y colores vivos",
+        "Tecnología AMD Adaptive-Sync para juego fluido sin cortes",
+        "Conectividad y puertos:",
+        "2x HDMI 2.0b",
+        "1x DisplayPort 1.4",
+        "Diseño y materiales:",
+        "Curvatura 1500R para mayor inmersión",
+        "Estilo gamer con acabado premium y marcos delgados",
+        "Dimensiones y peso:",
+        "Formato 31.5″ ideal para juegos inmersivos y multitarea",
+        "Tipo y aplicación:",
+        "Monitor gaming curvo de alto rendimiento optimizado para eSports y títulos AAA",
+        "Compatible con PC de alto rendimiento y consolas modernas"
+      ],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/106719/",
+          "reference": "106719"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Curvos",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/09/MAG-32C6X.webp",
+      "image": "img/catalogo/6b620fbca83a2a501ed3.webp"
+    },
+    {
+      "id": "12868",
+      "name": "Tarjeta De Video MSI GeForce RTX 5050 Ventus 2X OC 8GB GDDR6",
+      "spec": "Alto rendimiento y eficiencia con la arquitectura RTX 5050, ideal para experiencias fluidas en altas resoluciones y frecuencias extremas. Po",
+      "price": 38000.0,
+      "stock": true,
+      "reference": "108728",
+      "description": "Alto rendimiento y eficiencia con la arquitectura RTX 5050, ideal para experiencias fluidas en altas resoluciones y frecuencias extremas. Potencia tu equipo con una tarjeta diseñada para cargas exigentes. ¡Llévala ahora!",
+      "specifications": [
+        {
+          "label": "Interfaz",
+          "value": "PCI Express Gen 5"
+        },
+        {
+          "label": "Frecuencia del reloj",
+          "value": "2617 MHz"
+        },
+        {
+          "label": "Velocidad de memoria",
+          "value": "20 Gbps"
+        },
+        {
+          "label": "Memoria",
+          "value": "8GB GDDR6"
+        },
+        {
+          "label": "Bus de memoria",
+          "value": "128-bit"
+        },
+        {
+          "label": "Conector de energía",
+          "value": "8 pin"
+        },
+        {
+          "label": "DisplayPort",
+          "value": "3 × DisplayPort v2.1b"
+        },
+        {
+          "label": "HDMI",
+          "value": "1 × HDMI (4K @ 480Hz, 8K @ 120Hz DSC, Gaming VRR, HDR)"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/108728/",
+          "reference": "108728"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Tarjetas gráficas",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/11/GEFORCE-RTX-5050-8G-VENTUS-2X-OC.webp",
+      "image": "img/catalogo/18efe8e1654a2480a081.webp"
+    },
+    {
+      "id": "13425",
+      "name": "Combo Teclado Mouse MSI Forge GK320 Red US Mecánico RGB Negro",
+      "spec": "Mejora tu rendimiento gamer con el MSI Forge GK320 Combo Red US, equipado con interruptores mecánicos Red, iluminación RGB de 13 modos y sen",
+      "price": 2750.0,
+      "stock": true,
+      "reference": "109657",
+      "description": "Mejora tu rendimiento gamer con el MSI Forge GK320 Combo Red US, equipado con interruptores mecánicos Red, iluminación RGB de 13 modos y sensor óptico de hasta 12800 DPI para máxima precisión. Potencia tu setup y cómpralo ahora.",
+      "specifications": [
+        {
+          "label": "Tipo de producto",
+          "value": "Teclado y Mouse"
+        },
+        {
+          "label": "Marca",
+          "value": "MSI"
+        },
+        {
+          "label": "Modelo",
+          "value": "Forge GK320 Combo Red US"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Alámbrico USB 2.0"
+        },
+        {
+          "label": "Interruptores",
+          "value": "Mecánicos Red"
+        },
+        {
+          "label": "Iluminación",
+          "value": "LED RGB 13 modos"
+        },
+        {
+          "label": "Anti-Ghosting",
+          "value": "Teclado"
+        },
+        {
+          "label": "Sensor del mouse",
+          "value": "Óptico"
+        },
+        {
+          "label": "DPI",
+          "value": "800-12800 DPI"
+        },
+        {
+          "label": "Botones del mouse",
+          "value": "7 botones"
+        },
+        {
+          "label": "Control adicional",
+          "value": "Percance de volumen"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Windows 10 y mayores"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "features": [],
+      "model": "Forge GK320 Combo Red US",
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/109657/",
+          "reference": "109657"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Combos de teclado y mouse",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/02/combo-teclado-mouse-msi-forge-gk320-red-us-mecanico-rgb-negro.webp",
+      "image": "img/catalogo/f43f44d7984e5f94ea23.webp"
+    },
+    {
+      "id": "13501",
+      "name": "Power Supply MSI MAG A750GLS 750W ATX 80 Plus Gold Modular PCIe5 16 Pines",
+      "spec": "Power Supply MSI de 750W con certificación 80 Plus Gold que garantiza alta eficiencia energética y rendimiento estable para sistemas exigent",
+      "price": 6950.0,
+      "stock": true,
+      "reference": "109640",
+      "description": "Power Supply MSI de 750W con certificación 80 Plus Gold que garantiza alta eficiencia energética y rendimiento estable para sistemas exigentes. Optimiza tu PC con conectividad PCIe5 y diseño modular, ¡cómprala ahora!",
+      "specifications": [
+        {
+          "label": "Potencia",
+          "value": "750W"
+        },
+        {
+          "label": "Formato",
+          "value": "ATX"
+        },
+        {
+          "label": "Certificación",
+          "value": "80 PLUS Gold"
+        },
+        {
+          "label": "Tipo de cableado",
+          "value": "Modular"
+        },
+        {
+          "label": "Conector PCIe",
+          "value": "1x PCIe5 16 pines"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/109640/",
+          "reference": "109640"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Fuentes de poder",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/04/fuente-de-poder-msi-mag-a750gls-750w-atx-80-plus-gold-modular-pcie5-16-pines.webp",
+      "image": "img/catalogo/ef60d65c9b68d993d63b.webp"
+    },
+    {
+      "id": "13521",
+      "name": "Monitor MSI PRO MP273W E14A 27″ IPS FHD 144Hz Blanco FreeSync EyeErgo",
+      "spec": "Monitor MSI de 27” con panel IPS y 144Hz que brinda imágenes fluidas, mayor comodidad visual con tecnología EyeErgo y sincronización FreeSyn",
+      "price": 8950.0,
+      "stock": true,
+      "reference": "110067",
+      "description": "Monitor MSI de 27” con panel IPS y 144Hz que brinda imágenes fluidas, mayor comodidad visual con tecnología EyeErgo y sincronización FreeSync para una experiencia sin interrupciones. Mejora tu espacio de trabajo o entretenimiento, ¡compra ahora!",
+      "specifications": [
+        {
+          "label": "Tamaño de pantalla",
+          "value": "27″"
+        },
+        {
+          "label": "Tipo de panel",
+          "value": "IPS Flat"
+        },
+        {
+          "label": "Resolución",
+          "value": "1920 x 1080"
+        },
+        {
+          "label": "Frecuencia de actualización",
+          "value": "144 Hz"
+        },
+        {
+          "label": "Tecnología visual",
+          "value": "EyeErgo"
+        },
+        {
+          "label": "Tecnología",
+          "value": "AMD FreeSync"
+        },
+        {
+          "label": "Conectividad",
+          "value": "1x HDMI, 1x DisplayPort 1.2a, 1x VGA, 1x DC Jack"
+        },
+        {
+          "label": "Color",
+          "value": "Blanco"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/110067/",
+          "reference": "110067"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "De escritorio",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/04/monitor-msi-pro-mp273w-e14a-27-ips-fhd-144hz-blanco-freesync-eyeergo.webp",
+      "image": "img/catalogo/1ba22b44150574cda6fd.webp"
+    },
+    {
+      "id": "18769",
+      "name": "Disco Duro Seagate 5TB Externo USB 3.0 2.5″ Portable Black",
+      "spec": "Disco duro externo de 5TB con conexión USB 3.0 y tamaño portátil de 2.5 pulgadas",
+      "price": 24150.0,
+      "stock": true,
+      "reference": "96851",
+      "description": "Disco duro externo de 5TB con conexión USB 3.0 y tamaño portátil de 2.5 pulgadas",
+      "specifications": [
+        {
+          "label": "Capacidad",
+          "value": "5TB"
+        },
+        {
+          "label": "Interfaz",
+          "value": "USB 3.0"
+        },
+        {
+          "label": "Tamaño",
+          "value": "2.5 pulgadas"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        },
+        {
+          "label": "Servicio",
+          "value": "Recuperación de datos"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/96851/",
+          "reference": "96851"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Almacenamiento",
+      "brand": "Seagate",
+      "collections": [],
+      "subcategory": "Discos HDD",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/496597de-e519-4d89-b1b4-ae621a6e8cfb.png",
+      "image": "img/catalogo/b2f8a91b9dc27c1aedb3.jpg"
+    },
+    {
+      "id": "20490",
+      "name": "Monitor Msi Pro Mp275Pg E14 27″ IPS FHD 144Hz",
+      "spec": "Monitor Ips 27 Pulgadas Fhd 144hz Con Adaptive-Sync Y Altavoces",
+      "price": 9850.0,
+      "stock": true,
+      "reference": "109653",
+      "description": "Monitor Ips 27 Pulgadas Fhd 144hz Con Adaptive-Sync Y Altavoces",
+      "specifications": [
+        {
+          "label": "Pantalla",
+          "value": "27 pulgadas IPS"
+        },
+        {
+          "label": "Resolución",
+          "value": "Full HD"
+        },
+        {
+          "label": "Frecuencia",
+          "value": "144Hz"
+        },
+        {
+          "label": "Entradas",
+          "value": "1x HDMI 2.0, 1x DisplayPort 1.2a, 1x D-Sub (VGA)"
+        },
+        {
+          "label": "Tiempo de respuesta",
+          "value": "1ms (MPRT) / 4ms (GTG)"
+        },
+        {
+          "label": "Tecnología",
+          "value": "Adaptive-Sync, HDR Ready"
+        },
+        {
+          "label": "Audio",
+          "value": "Altavoces integrados, jack de audio"
+        },
+        {
+          "label": "Soporte",
+          "value": "Ergonómico ajustable"
+        },
+        {
+          "label": "Acabado",
+          "value": "Anti-glare"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/109653/",
+          "reference": "109653"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "De escritorio",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/e534d716-67f3-4de1-a49d-d5c34223c0ef.png",
+      "image": "img/catalogo/2c6715f304ee1988b336.jpg"
+    },
+    {
+      "id": "21374",
+      "name": "Tarjeta De Video Geforce Rtx 5060 8Gb Msi Shadow 2X Oc Pcie Gen 5",
+      "spec": "Tarjeta gráfica MSI GeForce RTX 5060 con 8GB GDDR7 y PCIe Gen 5. Soporta resoluciones 4K y 8K con múltiples salidas de video.",
+      "price": 42200.0,
+      "stock": true,
+      "reference": "108729",
+      "description": "Tarjeta gráfica MSI GeForce RTX 5060 con 8GB GDDR7 y PCIe Gen 5. Soporta resoluciones 4K y 8K con múltiples salidas de video.",
+      "specifications": [
+        {
+          "label": "Marca y modelo",
+          "value": "MSI GeForce RTX 5060 Shadow 2X OC"
+        },
+        {
+          "label": "Memoria",
+          "value": "8GB GDDR7"
+        },
+        {
+          "label": "Frecuencia",
+          "value": "2535 MHz"
+        },
+        {
+          "label": "Interfaz",
+          "value": "PCI Express Gen 5"
+        },
+        {
+          "label": "Bus de memoria",
+          "value": "128-bit"
+        },
+        {
+          "label": "Conector de energía",
+          "value": "8 pin"
+        },
+        {
+          "label": "Salidas de video",
+          "value": "3x DisplayPort v2.1b, 1x HDMI"
+        },
+        {
+          "label": "Resolución soportada",
+          "value": "4K @ 480Hz, 8K @ 120Hz DSC"
+        },
+        {
+          "label": "Funciones",
+          "value": "VRR gamer, HDR"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/108729/",
+          "reference": "108729"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Tarjetas gráficas",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/a0474728-2b41-430a-bda5-e5171c5def95.png",
+      "image": "img/catalogo/4482f361236a1faa21ea.jpg"
+    },
+    {
+      "id": "21380",
+      "name": "Power Supply 750W Msi Mag A750Bn Atx 80 Plus Bronze No Modular",
+      "spec": "Fuente de poder MSI MAG A750BN con 750W y certificación 80 Plus Bronze. Formato ATX y conector PCIe 5 de 16 pines.",
+      "price": 4450.0,
+      "stock": true,
+      "reference": "110510",
+      "description": "Fuente de poder MSI MAG A750BN con 750W y certificación 80 Plus Bronze. Formato ATX y conector PCIe 5 de 16 pines.",
+      "specifications": [
+        {
+          "label": "Potencia",
+          "value": "750W"
+        },
+        {
+          "label": "Conectores",
+          "value": "1x PCIe 5 de 16 pines"
+        },
+        {
+          "label": "Formato",
+          "value": "ATX"
+        },
+        {
+          "label": "Eficiencia",
+          "value": "80 Plus Bronze"
+        },
+        {
+          "label": "Modularidad",
+          "value": "No modular"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/110510/",
+          "reference": "110510"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Fuentes de poder",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/aaf57eba-d215-430c-a91a-a70df2db6279.png",
+      "image": "img/catalogo/9f4b7e3ffbce3c76d926.jpg"
+    },
+    {
+      "id": "21382",
+      "name": "Power Supply 650W Msi Mag A650Gn Ii 80 Plus Gold Atx No Modular",
+      "spec": "Fuente de poder MSI MAG A650GN II con potencia de 650W y certificación 80 Plus Gold. Formato ATX no modular.",
+      "price": 3650.0,
+      "stock": true,
+      "reference": "110511",
+      "description": "Fuente de poder MSI MAG A650GN II con potencia de 650W y certificación 80 Plus Gold. Formato ATX no modular.",
+      "specifications": [
+        {
+          "label": "Potencia",
+          "value": "650W"
+        },
+        {
+          "label": "Eficiencia",
+          "value": "80 Plus Gold"
+        },
+        {
+          "label": "Formato",
+          "value": "ATX"
+        },
+        {
+          "label": "Modularidad",
+          "value": "No modular"
+        },
+        {
+          "label": "Marca",
+          "value": "MSI"
+        },
+        {
+          "label": "Modelo",
+          "value": "MAG A650GN II"
+        }
+      ],
+      "features": [],
+      "model": "MAG A650GN II",
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/110511/",
+          "reference": "110511"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Fuentes de poder",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/6150e0a4-5cc2-4996-a504-72d2f792e497.png",
+      "image": "img/catalogo/fb940bc5e56521b51033.jpg"
+    },
+    {
+      "id": "24631",
+      "name": "Power Supply Msi Pro A850Pl 850W 80 Plus Platinum Atx 3.1",
+      "spec": "Fuente de poder ATX 3.1 de 850W con certificación 80 Plus Platinum, diseño completamente modular y soporte nativo PCIe 5.0.",
+      "price": 8550.0,
+      "stock": true,
+      "reference": "110837",
+      "description": "Fuente de poder ATX 3.1 de 850W con certificación 80 Plus Platinum, diseño completamente modular y soporte nativo PCIe 5.0.",
+      "specifications": [
+        {
+          "label": "Tipo",
+          "value": "Fuente de alimentación interna"
+        },
+        {
+          "label": "Marca",
+          "value": "MSI"
+        },
+        {
+          "label": "Modelo",
+          "value": "PRO A850PL PCIE5"
+        },
+        {
+          "label": "Potencia",
+          "value": "850W"
+        },
+        {
+          "label": "Certificación",
+          "value": "80 Plus Platinum"
+        },
+        {
+          "label": "Modularidad",
+          "value": "Completamente modular"
+        },
+        {
+          "label": "Factor de forma",
+          "value": "ATX 3.1"
+        },
+        {
+          "label": "Compatibilidad PCIe",
+          "value": "PCIe 5.0"
+        }
+      ],
+      "features": [],
+      "model": "PRO A850PL PCIE5",
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/110837/",
+          "reference": "110837"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Fuentes de poder",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/PRO-A850PL-PCIE5.avif",
+      "image": "img/catalogo/966bf7ccda8976fc5c2a.avif"
+    },
+    {
+      "id": "28349",
+      "name": "Monitor Aoc 34″ Curvo Gamer Wqhd 200Hz Cu34G4H",
+      "spec": "Monitor gamer curvo AOC de 34 pulgadas con resolución WQHD (3440×1440), panel Fast VA y tasa de refresco de 200 Hz. Incluye puertos HDMI 2.0",
+      "price": 20400.0,
+      "stock": true,
+      "reference": "110576",
+      "description": "Monitor gamer curvo AOC de 34 pulgadas con resolución WQHD (3440×1440), panel Fast VA y tasa de refresco de 200 Hz. Incluye puertos HDMI 2.0, DisplayPort 1.4 y tecnología Adaptive-Sync.",
+      "specifications": [
+        {
+          "label": "Pantalla",
+          "value": "34″ Curva"
+        },
+        {
+          "label": "Resolución",
+          "value": "WQHD (3440 x 1440)"
+        },
+        {
+          "label": "Tipo de panel",
+          "value": "Fast VA"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "200 Hz"
+        },
+        {
+          "label": "Tecnología de sincronización",
+          "value": "Adaptive-Sync"
+        },
+        {
+          "label": "Conectividad",
+          "value": "2x HDMI 2.0, 1x DisplayPort 1.4"
+        },
+        {
+          "label": "Montaje",
+          "value": "Soporte VESA"
+        },
+        {
+          "label": "Modelo",
+          "value": "CU34G4H"
+        }
+      ],
+      "features": [],
+      "model": "CU34G4H",
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/110576/",
+          "reference": "110576"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "AOC",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "Curvos",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/eedbca37-12d7-4ad3-b27f-9612f7ac1b37.png",
+      "image": "img/catalogo/6af5a05e9465f2f4340a.png"
+    },
+    {
+      "id": "29127",
+      "name": "Fuente De Poder Msi Mag A600Dn Ii 600W 80 Plus No Modular",
+      "spec": "Fuente de poder MSI MAG A600DN II de 600W con certificación 80 Plus y diseño de cableado no modular.",
+      "price": 2750.0,
+      "stock": true,
+      "reference": "111329",
+      "description": "Fuente de poder MSI MAG A600DN II de 600W con certificación 80 Plus y diseño de cableado no modular.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "MSI"
+        },
+        {
+          "label": "Modelo",
+          "value": "MAG A600DN II"
+        },
+        {
+          "label": "Potencia",
+          "value": "600W"
+        },
+        {
+          "label": "Certificación",
+          "value": "80 Plus"
+        },
+        {
+          "label": "Tipo de cableado",
+          "value": "No modular"
+        },
+        {
+          "label": "SKU",
+          "value": "111329"
+        }
+      ],
+      "features": [],
+      "model": "MAG A600DN II",
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/111329/",
+          "reference": "111329"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "MSI",
+      "collections": [],
+      "subcategory": "Fuentes de poder",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/08/105af198-f7bc-4c87-816e-ab2b7ada1ac1.png",
+      "image": "img/catalogo/93fcb7ab1dca2e8c7e5f.png"
+    },
+    {
+      "id": "30204",
+      "name": "Monitor Gamer Curvo Aoc C27G2 27″ Fhd 165Hz",
+      "spec": "Monitor gamer curvo AOC C27G2 de 27 pulgadas con resolución FHD (1920×1080) y tasa de refresco de 165Hz. Dispone de conectividad VGA, dos pu",
+      "price": 10950.0,
+      "stock": true,
+      "reference": "91023",
+      "description": "Monitor gamer curvo AOC C27G2 de 27 pulgadas con resolución FHD (1920×1080) y tasa de refresco de 165Hz. Dispone de conectividad VGA, dos puertos HDMI 1.4, DisplayPort 1.2 y salida de audio.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "AOC"
+        },
+        {
+          "label": "Modelo",
+          "value": "C27G2"
+        },
+        {
+          "label": "Tamaño de pantalla",
+          "value": "27″"
+        },
+        {
+          "label": "Tipo de pantalla",
+          "value": "Curva"
+        },
+        {
+          "label": "Resolución",
+          "value": "FHD (1920×1080)"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "165Hz"
+        },
+        {
+          "label": "Entradas de video",
+          "value": "VGA, 2x HDMI 1.4, DisplayPort 1.2"
+        },
+        {
+          "label": "Salida de audio",
+          "value": "Audio Output"
+        }
+      ],
+      "features": [],
+      "model": "C27G2",
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/91023/",
+          "reference": "91023"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "AOC",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "Curvos",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/ba5a720e-1f9f-44e2-b04b-9bc54632631b.png",
+      "image": "img/catalogo/8555be48d16d4f178feb.png"
+    },
+    {
+      "id": "30206",
+      "name": "Monitor Gamer Curvo Aoc 31.5″ Cq32G4Ve Qhd 180Hz",
+      "spec": "Monitor gamer curvo de 31.5 pulgadas con resolución QHD (2560×1440), panel VA y tasa de refresco de 180Hz. Incluye tiempo de respuesta de 0.",
+      "price": 18750.0,
+      "stock": true,
+      "reference": "105751",
+      "description": "Monitor gamer curvo de 31.5 pulgadas con resolución QHD (2560×1440), panel VA y tasa de refresco de 180Hz. Incluye tiempo de respuesta de 0.5ms, conectividad HDMI, DisplayPort, Adaptive Sync, HDR 10 y compatibilidad VESA.",
+      "specifications": [
+        {
+          "label": "Tamaño de pantalla",
+          "value": "31.5″ (32″)"
+        },
+        {
+          "label": "Curvatura",
+          "value": "1500R"
+        },
+        {
+          "label": "Resolución",
+          "value": "QHD (2560×1440)"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "180Hz"
+        },
+        {
+          "label": "Tipo de panel",
+          "value": "VA"
+        },
+        {
+          "label": "Tiempo de respuesta",
+          "value": "0.5ms"
+        },
+        {
+          "label": "Conectividad",
+          "value": "HDMI, DisplayPort"
+        },
+        {
+          "label": "Tecnologías",
+          "value": "Adaptive Sync, HDR 10"
+        },
+        {
+          "label": "Diseño",
+          "value": "Sin marco en 3 lados"
+        },
+        {
+          "label": "Montaje",
+          "value": "VESA"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/105751/",
+          "reference": "105751"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "AOC",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "Curvos",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/18586fd2-9521-4fde-bfe7-6e30f7ce727c.png",
+      "image": "img/catalogo/a407b9bc7f8ac6e9de1e.png"
+    },
+    {
+      "id": "30220",
+      "name": "Monitor Gamer Msi Mag 274Qpf X32 27″ Wqhd 320Hz Rapid IPS",
+      "spec": "Monitor gamer MSI MAG 274QPF X32 de 27 pulgadas con resolución WQHD de 2560 x 1440, panel Rapid IPS plano y tasa de refresco de 320 Hz. Incl",
+      "price": 19300.0,
+      "stock": true,
+      "reference": "111232",
+      "description": "Monitor gamer MSI MAG 274QPF X32 de 27 pulgadas con resolución WQHD de 2560 x 1440, panel Rapid IPS plano y tasa de refresco de 320 Hz. Incluye conectividad DisplayPort 1.4a, HDMI 2.1 y compatibilidad con Adaptive-Sync.",
+      "specifications": [
+        {
+          "label": "Tamaño de pantalla",
+          "value": "27″"
+        },
+        {
+          "label": "Resolución",
+          "value": "2560 x 1440 (WQHD)"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "320 Hz"
+        },
+        {
+          "label": "Tipo de panel",
+          "value": "Rapid IPS"
+        },
+        {
+          "label": "Diseño",
+          "value": "Plano"
+        },
+        {
+          "label": "Sincronización",
+          "value": "Adaptive-Sync"
+        },
+        {
+          "label": "Conectividad",
+          "value": "1 x DisplayPort 1.4a, 2 x HDMI 2.1"
+        },
+        {
+          "label": "Salida de audio",
+          "value": "1 x Earphone Out"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/111232/",
+          "reference": "111232"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "MSI",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "De escritorio",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/c89c8be5-8b9d-4af3-9e36-e86a8239b39f.png",
+      "image": "img/catalogo/65ef8df0c8c198c73d01.png"
+    },
+    {
+      "id": "30226",
+      "name": "Monitor Gamer Curvo Msi 34″ Mag 346Cqdf E20 Uwqhd 200Hz",
+      "spec": "Monitor gamer curvo de 34 pulgadas con resolución UWQHD de 3440 x 1440, panel Rapid VA y tasa de refresco de 200 Hz con modo dual hasta 400 ",
+      "price": 23100.0,
+      "stock": true,
+      "reference": "111698",
+      "description": "Monitor gamer curvo de 34 pulgadas con resolución UWQHD de 3440 x 1440, panel Rapid VA y tasa de refresco de 200 Hz con modo dual hasta 400 Hz en HD. Incluye puertos HDMI 2.0b y DisplayPort 1.4a.",
+      "specifications": [
+        {
+          "label": "Tamaño de pantalla",
+          "value": "34″"
+        },
+        {
+          "label": "Resolución",
+          "value": "3440 x 1440 (UWQHD)"
+        },
+        {
+          "label": "Curvatura",
+          "value": "1500R"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "200 Hz (Modo dual hasta 400 Hz en HD 1720×720)"
+        },
+        {
+          "label": "Tipo de panel",
+          "value": "Rapid VA"
+        },
+        {
+          "label": "Conectividad",
+          "value": "2x HDMI 2.0b, 1x DisplayPort 1.4a"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        {
+          "name": "Nexcom",
+          "url": "https://nexcomtienda.com.do/item/111698/",
+          "reference": "111698"
+        }
+      ],
+      "specificationsUpdated": "2026-10-10T21:41:41+00:00",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "MSI",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "Curvos",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/8a3e500e-9514-4129-954b-9b3009730d9d.png",
+      "image": "img/catalogo/6afec8d3ff7e19f17dcb.png"
     }
   ],
-  "updated": "2026-10-10T15:45:51+00:00",
+  "updated": "2026-10-10T21:42:39+00:00",
   "sourceMissingIds": [
     "29669",
     "12870",
