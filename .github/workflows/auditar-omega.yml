@@ -1,0 +1,34 @@
+name: Auditar selección pública de Omega
+
+on:
+  push:
+    branches: [codex/migrar-omega]
+    paths:
+      - scripts/omega_public.py
+      - scripts/collect_omega.py
+      - .github/workflows/auditar-omega.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Probar lector público
+        run: python3 -m unittest discover -s tests -p test_omega_public.py -v
+      - name: Consultar las referencias seleccionadas
+        run: python3 scripts/collect_omega.py --output omega-migration-audit
+      - name: Guardar datos públicos para revisión
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: omega-migration-audit
+          path: omega-migration-audit/
+          retention-days: 3
