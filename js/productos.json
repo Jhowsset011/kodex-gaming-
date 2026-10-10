@@ -13560,7 +13560,7 @@
       "spec": "Disfruta imágenes fluidas y nítidas con este monitor AOC Full HD de 120Hz, ideal para trabajo y entretenimiento prolongado con protección vi",
       "category": "Monitores",
       "brand": "AOC",
-      "price": 6200.0,
+      "price": 6500.0,
       "image": "img/catalogo/fcabed9aac277532b8ad.webp",
       "stock": true,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/01/monitor-aoc-24-pulgadas-fhd-120hz-hdmi-vesa.webp",
@@ -16239,7 +16239,7 @@
       "spec": "Monitor gamer lcd 27″ con resolucion qhd 2560×1440 y frecuencia de 180hz",
       "category": "Monitores",
       "brand": "AOC",
-      "price": 13200.0,
+      "price": 13850.0,
       "image": "img/catalogo/a4712d86f86e00330a6f.webp",
       "stock": true,
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/monitor-aoc-q27g4xn-27e280b3-gamer-lcd-qhd-2560x1440-180hz-g-sync-freesync-800x800-1.webp",
@@ -29971,7 +29971,7 @@
       "spec": "Monitor AOC Full HD de 120 Hz que ofrece imágenes fluidas, mayor comodidad visual y compatibilidad HDR para una experiencia clara y eficient",
       "category": "Monitores",
       "brand": "AOC",
-      "price": 5350.0,
+      "price": 5650.0,
       "image": "img/catalogo/241750969dcea7229463.webp",
       "stock": true,
       "reference": "109298",
@@ -30155,7 +30155,7 @@
       "brand": "AOC",
       "price": 8050.0,
       "image": "img/catalogo/8c0c3a4103ed91ca53bf.webp",
-      "stock": false,
+      "stock": true,
       "reference": "96931",
       "description": "Aumenta tu productividad en cualquier lugar con el monitor portátil AOC 16T3E, ideal como segunda pantalla táctil Full HD gracias a su diseño ultraligero, conectividad USB-C y configuración plug-and-play. Lleva tu trabajo y presentaciones al siguiente nivel hoy mismo.",
       "specifications": [
@@ -30217,8 +30217,7 @@
       "sourceCategory": "Monitores",
       "collections": [],
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2024/11/16T3E_F.webp",
-      "subcategory": "Portátiles",
-      "sourceUnavailable": true
+      "subcategory": "Portátiles"
     },
     {
       "id": "16747",
@@ -31714,7 +31713,7 @@
       "subcategory": "Fuentes de poder"
     }
   ],
-  "updated": "2026-10-09T16:50:43+00:00",
+  "updated": "2026-10-10T15:45:51+00:00",
   "sourceMissingIds": [
     "29669",
     "12870",
@@ -31725,7 +31724,6 @@
     "23775",
     "21308",
     "28723",
-    "20662",
-    "9443"
+    "20662"
   ]
 }
