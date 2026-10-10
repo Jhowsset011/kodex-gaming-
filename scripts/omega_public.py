@@ -182,6 +182,7 @@ def read_public_url(url, context=None, max_bytes=4_000_000, timeout=25, limiter=
                     raise OmegaFetchError(f"Respuesta pública supera {max_bytes} bytes")
                 if not body:
                     raise OmegaFetchError("Respuesta pública vacía")
+                _check_product_response_url(url, response.url, body)
                 return body
         except HTTPError as error:
             if error.code in (404, 410):
@@ -270,6 +271,38 @@ def _same_product_url(url, reference):
             and parts.path.rstrip("/") == f"/es/product/consul/{reference}"
             and not parts.query and not parts.fragment and not parts.username
             and not parts.password and parts.port in (None, 443))
+
+
+def _check_product_response_url(requested_url, final_url, body):
+    """A supplier redirect to its verified home marks a removed listing.
+
+    Home HTML returned at the original product URL is ambiguous and still
+    fails parsing. This distinction avoids treating proxy/cache failures as
+    supplier removals.
+    """
+    requested = urlparse(requested_url)
+    match = re.fullmatch(r"/es/product/consul/([1-9]\d{0,11})/?", requested.path)
+    if requested.hostname != "tienda.omega.com.do" or not match:
+        return
+    reference = match.group(1)
+    if _same_product_url(final_url, reference):
+        return
+    final = urlparse(final_url)
+    home = (final.scheme == "https" and final.hostname == "tienda.omega.com.do"
+            and final.path.rstrip("/").lower() in {"", "/es", "/es/home/index"}
+            and not final.query and not final.fragment)
+    if home:
+        try:
+            tree = _Document(body.decode("utf-8-sig")).root
+        except UnicodeError as error:
+            raise OmegaParseError(f"Redirección con HTML no UTF-8 para {reference}") from error
+        titles = tree.all(lambda n: n.tag == "title")
+        summaries = tree.all(lambda n: n.has_class("entry-summary"))
+        currencies = tree.all(lambda n: n.tag == "select" and n.attrs.get("id") == "select-currency")
+        if (len(titles) == 1 and re.fullmatch(r"OMEGA\s+TECH\s+S\.?A\.?\s*-\s*Inicio", titles[0].text(), re.I)
+                and not summaries and len(currencies) == 1):
+            raise OmegaProductMissing(f"Omega redirigió la referencia {reference} a su inicio: {requested_url} -> {final_url}")
+    raise OmegaParseError(f"Redirección de producto inesperada para {reference}: {requested_url} -> {final_url}")
 
 
 def _description_lines(node):
@@ -437,7 +470,8 @@ def fetch_selected_references(references, context=None, cache_dir=None, workers=
             if snapshots:
                 (snapshots / f"{reference}.html").write_text(text, encoding="utf-8")
             return reference, parse_product(text, reference), False
-        except OmegaProductMissing:
+        except OmegaProductMissing as error:
+            print(f"Referencia ausente confirmada: {error}", flush=True)
             return reference, None, True
 
     sources, missing = {}, []

@@ -3,7 +3,7 @@ from decimal import Decimal
 from pathlib import Path
 import ssl
 import unittest
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 
 SPEC = importlib.util.spec_from_file_location("omega_public", Path(__file__).parents[1] / "scripts/omega_public.py")
@@ -105,6 +105,29 @@ class PublicParserTests(unittest.TestCase):
 
 
 class PublicTransportTests(unittest.TestCase):
+    def test_redirect_to_verified_home_is_missing_but_home_at_product_url_is_not(self):
+        home = b'<html><head><title>OMEGA TECH S.A. - Inicio</title></head><body><select id="select-currency"></select></body></html>'
+        context = omega._default_context()
+        response = MagicMock()
+        response.__enter__.return_value = response
+        response.read.return_value = home
+        response.url = "https://tienda.omega.com.do/es"
+        opener = MagicMock()
+        opener.open.return_value = response
+        with patch.object(omega, "build_opener", return_value=opener):
+            with self.assertRaisesRegex(omega.OmegaProductMissing, "74026.*inicio"):
+                omega.read_public_url(omega.product_url("74026"), context)
+            response.url = omega.product_url("74026")
+            body = omega.read_public_url(omega.product_url("74026"), context)
+            with self.assertRaises(omega.OmegaParseError):
+                omega.parse_product(body.decode(), "74026")
+
+    def test_redirect_to_another_product_or_unverified_home_is_rejected(self):
+        home = b'<html><title>Proxy error</title></html>'
+        for final_url in ("https://tienda.omega.com.do/es", omega.product_url("111698")):
+            with self.subTest(url=final_url), self.assertRaises(omega.OmegaParseError):
+                omega._check_product_response_url(omega.product_url("74026"), final_url, home)
+
     def test_https_host_and_context_checks_are_required(self):
         for url in ("http://tienda.omega.com.do/es/product/consul/1", "https://evil.example/image.png", "https://user:secret@tienda.omega.com.do/"):
             with self.assertRaises(omega.OmegaFetchError):
