@@ -20,6 +20,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Revisar cadena pública del certificado
+        run: |
+          mkdir -p omega-public-probe
+          timeout 25 openssl s_client -connect tienda.omega.com.do:443 -servername tienda.omega.com.do -showcerts -verify_return_error </dev/null > omega-public-probe/tls-handshake.txt 2>&1 || true
+          openssl x509 -in omega-public-probe/tls-handshake.txt -noout -subject -issuer -dates -ext authorityInfoAccess > omega-public-probe/certificate-info.txt 2>&1 || true
+          cat omega-public-probe/certificate-info.txt
       - name: Consultar páginas y datos públicos con HTTPS validado
         run: python3 .github/diagnostics/probe_omega_public.py
       - name: Conservar respuestas públicas para revisión
