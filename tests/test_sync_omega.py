@@ -343,6 +343,47 @@ class CommandTests(unittest.TestCase):
                 operation.assert_not_called()
         self.assertEqual(self.path.read_bytes(), self.before)
 
+    def test_required_rounding_rejects_legacy_policy_before_any_catalog_or_supplier_work(self):
+        for source_args in ([], ["--source-file", "unused-reviewed-snapshot.json"]):
+            with self.subTest(source_args=source_args), \
+                    patch.object(sys, "argv", ["sync_omega.py", "--require-rounding", *source_args]), \
+                    patch.object(sync, "ROOT", self.root), \
+                    patch.object(sync.PricingPolicy, "from_env", return_value=self.policy), \
+                    patch.object(sync, "read_selection") as selection, \
+                    patch.object(sync, "read_snapshot") as snapshot, \
+                    patch.object(sync, "make_tls_context") as context, \
+                    patch.object(sync, "fetch_selected_references") as fetch, \
+                    patch.object(sync, "build_catalog") as build, \
+                    patch.object(sync, "localize_images") as images, \
+                    patch.object(sync, "write_catalog_outputs") as outputs, \
+                    patch.object(sync, "write_catalog") as write:
+                with self.assertRaisesRegex(ValueError, "deben incluir el redondeo"):
+                    sync.main()
+                for operation in (selection, snapshot, context, fetch, build, images, outputs, write):
+                    operation.assert_not_called()
+            self.assertEqual(self.path.read_bytes(), self.before)
+            self.assertFalse((self.root / "js/productos-v2.json").exists())
+
+    def test_required_rounding_allows_configured_policy_to_reach_selection(self):
+        policy = sync.PricingPolicy.from_dict({
+            "discountPercent": "20", "bands": [{"maxCost": "500", "markupPercent": "10"}],
+            "aboveMax": "public", "rounding": {"step": 10, "downThrough": 3},
+        })
+        with patch.object(sys, "argv", ["sync_omega.py", "--require-rounding"]), \
+                patch.object(sync, "ROOT", self.root), \
+                patch.object(sync.PricingPolicy, "from_env", return_value=policy), \
+                patch.object(sync, "read_selection", side_effect=ValueError("selection probe")) as selection, \
+                patch.object(sync, "make_tls_context") as context, \
+                patch.object(sync, "fetch_selected_references") as fetch, \
+                patch.object(sync, "localize_images") as images, \
+                patch.object(sync, "write_catalog_outputs") as outputs:
+            with self.assertRaisesRegex(ValueError, "selection probe"):
+                sync.main()
+            selection.assert_called_once_with(self.root)
+            for operation in (context, fetch, images, outputs):
+                operation.assert_not_called()
+        self.assertEqual(self.path.read_bytes(), self.before)
+
     def test_empty_selection_aborts_before_tls_or_supplier_requests(self):
         self.path = write_fixture(self.root, [])
         self.before = self.path.read_bytes()

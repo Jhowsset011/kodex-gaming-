@@ -13,6 +13,7 @@ on:
       - js/**
       - img/**
       - scripts/**
+      - data/**
       - tests/**
       - .github/workflows/sync-catalogo.yml
 
@@ -47,14 +48,23 @@ jobs:
             echo 'enabled=false' >> "$GITHUB_OUTPUT"
             echo '::notice::Falta OMEGA_PRICING_RULES en los secrets de Actions. El catálogo publicado se conserva; la actualización automática queda pendiente.'
           else
-            python3 -c "import sys; sys.path.insert(0, 'scripts'); from omega_pricing import PricingPolicy; PricingPolicy.from_env()"
-            echo 'enabled=true' >> "$GITHUB_OUTPUT"
+            python3 - <<'PY'
+          import os
+          import sys
+          sys.path.insert(0, 'scripts')
+          from omega_pricing import PricingPolicy
+          policy = PricingPolicy.from_env()
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              print('enabled=' + str(policy.rounding_enabled).lower(), file=output)
+          if not policy.rounding_enabled:
+              print('::notice::Las reglas privadas requieren rounding. Se conservan los precios redondeados publicados hasta actualizar OMEGA_PRICING_RULES.')
+          PY
           fi
       - name: Actualizar precios, disponibilidad, fichas e imágenes
         if: steps.pricing.outputs.enabled == 'true'
         env:
           OMEGA_PRICING_RULES: ${{ secrets.OMEGA_PRICING_RULES }}
-        run: python3 scripts/sync_omega.py
+        run: python3 scripts/sync_omega.py --require-rounding
       - name: Guardar catálogo
         if: steps.pricing.outputs.enabled == 'true'
         run: |

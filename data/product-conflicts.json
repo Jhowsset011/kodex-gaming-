@@ -1,0 +1,18 @@
+{
+  "products": {
+    "9768": {
+      "reference": "106177",
+      "model": "LS24DG300ENXZA",
+      "brand": "Samsung",
+      "supplierModel": "G30A",
+      "manufacturerModel": "G30D"
+    },
+    "24325": {
+      "reference": "110707",
+      "model": "JBLBAR300M2BLKAM",
+      "brand": "JBL",
+      "supplierModel": "SB580",
+      "manufacturerModel": "Bar 300MK2"
+    }
+  }
+}

@@ -14,6 +14,8 @@ from omega_catalog import build_catalog, validate_catalog
 from omega_images import localize_images
 from omega_pricing import PricingPolicy
 from omega_public import fetch_selected_references, make_tls_context
+from product_details import enrich_catalog
+from product_conflicts import apply_reviewed_conflicts
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -93,6 +95,7 @@ def write_catalog_outputs(root, catalog):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--dry-run', action='store_true', help='Validar sin cambiar catálogo ni imágenes')
+    parser.add_argument('--require-rounding', action='store_true', help='Conservar el catálogo si las reglas privadas no incluyen redondeo')
     parser.add_argument('--policy-file', type=Path, help='Reglas privadas externas al repositorio')
     parser.add_argument('--source-file', type=Path, help='Captura pública revisada para una migración puntual')
     parser.add_argument('--image-cache', type=Path, help='Imágenes verificadas de esa captura, sin conexión')
@@ -105,6 +108,8 @@ def main():
     if args.policy_file and args.policy_file.resolve().is_relative_to(ROOT.resolve()):
         parser.error('El archivo de reglas privadas debe estar fuera del repositorio')
     policy = PricingPolicy.from_env(file_path=args.policy_file)
+    if args.require_rounding and not policy.rounding_enabled:
+        raise ValueError('Las reglas privadas deben incluir el redondeo antes de actualizar precios')
     current, references = read_selection(ROOT)
     context = None
     if args.source_file:
@@ -116,6 +121,16 @@ def main():
     if len(newly_missing) > max(3, len(references) // 20) and not args.accept_missing_baseline:
         raise ValueError('Omega no confirma demasiadas fichas: se conserva el catálogo anterior')
     catalog = build_catalog(current['products'], sources, policy, missing_confirmed=missing)
+    apply_reviewed_conflicts(catalog, ROOT / 'data/product-conflicts.json')
+    details_path = ROOT / 'data/product-details.json'
+    enrich_catalog(catalog, details_path if details_path.exists() else None)
+    previous_by_id = {product['id']: product for product in current['products']}
+    detail_fields = ('description', 'model', 'specifications', 'features', 'specificationSources')
+    for product in catalog['products']:
+        previous = previous_by_id[product['id']]
+        if ('specificationsUpdated' in product and previous.get('specificationsUpdated')
+                and all(previous.get(field) == product.get(field) for field in detail_fields)):
+            product['specificationsUpdated'] = previous['specificationsUpdated']
     if args.dry_run:
         validate_catalog(catalog)
         print(f"Validado: {catalog['count']} productos, {len(missing)} referencias retiradas. Sin escribir.")

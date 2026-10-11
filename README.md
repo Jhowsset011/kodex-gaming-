@@ -13,11 +13,11 @@ Python 3, OpenSSL y el navegador son suficientes. No requiere paquetes, instalac
 
 ## Catálogo y fuente
 
-La selección del propietario está en `js/productos-v2.json`: 589 referencias únicas. La migración del 10 de octubre verificó 533 fichas públicas de Omega y 56 referencias retiradas. Se conservaron todos los enlaces; 526 productos permiten pedidos, cuatro presentan inventario cero y tres quedaron con modelo pendiente de confirmación por contradicciones internas del suplidor. Cada producto conserva su ID y la dirección `producto.html?id=ID`; `reference` identifica su ficha pública exacta de Omega Tech en `/es/product/consul/REFERENCIA`. `scripts/omega_ids.txt` conserva los **IDs internos de Kodex**, no las referencias de las rutas de Omega. Ambos conjuntos se validan antes de sincronizar. El producto retirado (ID 21890, referencia 62635) sigue excluido.
+La selección del propietario está en `js/productos-v2.json`: 589 referencias únicas, con 533 fichas públicas de Omega y 56 referencias retiradas. Se conservaron todos los enlaces; 523 productos permiten pedidos, cuatro presentan inventario cero y seis quedaron con modelo pendiente de confirmación por contradicciones del suplidor. Cada producto conserva su ID y la dirección `producto.html?id=ID`; `reference` identifica su ficha pública exacta de Omega Tech en `/es/product/consul/REFERENCIA`. `scripts/omega_ids.txt` conserva los **IDs internos de Kodex**, no las referencias de las rutas de Omega. Ambos conjuntos se validan antes de sincronizar. El producto retirado (ID 21890, referencia 62635) sigue excluido.
 
 La web actual solicita ese catálogo completo sin guardarlo en la caché del navegador. El sincronizador también genera `js/productos.json` con los 533 productos que tienen precio positivo confirmado, incluidos los agotados. Este archivo mantiene funcionando las versiones anteriores de la web que no admiten precios nulos. No se asignan precios ficticios a referencias retiradas ni se eliminan de la selección completa. Ambos archivos se validan antes de escribir y se publican en el mismo commit.
 
-La sincronización activa consulta exclusivamente el catálogo público de **tienda.omega.com.do**: precio en DOP, inventario publicado por sucursal, número de parte, título, descripción, características y fotografía. No inicia sesión ni consulta precios especiales de una cuenta. Los archivos anteriores de Nexcom se conservan como herramientas históricas; el workflow activo no los ejecuta ni consulta su API.
+La sincronización de precios e inventario consulta exclusivamente el catálogo público de **tienda.omega.com.do**: precio en DOP, inventario publicado por sucursal, número de parte, título, descripción, características y fotografía. Las fichas técnicas pueden completarse con páginas oficiales del fabricante, vinculadas al mismo número de parte. No inicia sesión ni consulta precios especiales de una cuenta. Los archivos anteriores de Nexcom se conservan como herramientas históricas; el workflow activo no los ejecuta ni consulta su API.
 
 La clasificación usa el tipo de producto y la información de Omega, con categoría principal y **un solo nivel de subcategorías**. Zona Gamer es una selección adicional. Los filtros conservan su estado al volver de una ficha. La marca procede del fabricante informado por Omega, no de una marca de procesador encontrada dentro del nombre de una laptop.
 
@@ -28,6 +28,10 @@ Una referencia que Omega confirma retirada conserva su enlace y clasificación, 
 ## Precios de venta y configuración privada
 
 `scripts/omega_pricing.py` calcula el costo descontado, selecciona el tramo sobre ese costo y aplica el incremento correspondiente. El costo se redondea a centavos antes de elegir el tramo; el precio final se redondea a centavos con HALF_UP. Por encima del último tramo puede conservarse el precio público del suplidor. Se trata de un incremento sobre costo, no de margen bruto sobre la venta.
+
+El objeto privado admite `rounding`, con `step` y `downThrough`, para redondear el precio final después del descuento, la selección de tramo y la ganancia. El remanente menor o igual al límite baja al múltiplo anterior; un remanente mayor sube al siguiente. También se aplica al precio público usado por encima del último tramo. La ausencia de `rounding` conserva el cálculo anterior. Un precio positivo que acabaría en cero detiene la sincronización para su revisión.
+
+El workflow exige que las reglas privadas incluyan ese redondeo. Si el secret sigue usando el formato anterior, conserva los precios publicados e informa que requiere actualización. El CLI ofrece `--require-rounding` para aplicar la misma protección localmente.
 
 Los porcentajes y límites se suministran mediante **OMEGA_PRICING_RULES**, un objeto JSON con `discountPercent`, `bands` (objetos `maxCost` y `markupPercent`) y `aboveMax: "public"`. Los límites deben crecer, sin huecos; cada banda incluye su límite superior. El JSON público contiene solamente el precio final de venta. No contiene el costo descontado, las reglas privadas ni el precio base usado para calcularlo. No guardar el archivo privado en este repositorio, artefactos públicos, instrucciones de configuración o logs.
 
@@ -50,6 +54,16 @@ El flujo prueba lector, reglas, clasificación, imágenes y escritura. Limita la
 La escritura del catálogo es atómica y solo se generan commits cuando cambia el contenido. Las ejecuciones programadas o manuales preparan y despliegan un artefacto completo mediante Pages, incluyendo `CNAME`. Los pushes a main también mantienen la publicación habitual desde la rama. Se requieren permisos de escritura del token en main y de despliegue al entorno github-pages.
 
 Omega actualmente omite certificados intermedios en su conexión. El lector obtiene la cadena oficial de Let's Encrypt, la verifica contra las raíces del sistema, con caducidad, propósito y nombre del servidor, y completa la cadena sin desactivar TLS ni confiar en certificados hoja.
+
+## Fichas técnicas
+
+`scripts/product_details.py` organiza los datos explícitos de Omega en características por tipo de producto y genera una descripción legible. Hay 527 fichas organizadas, de las cuales 316 incorporan datos revisados del fabricante. No completa datos técnicos a partir de modelos parecidos. Las referencias retiradas y los modelos contradictorios siguen pendientes, sin características inventadas.
+
+`data/product-details.json` conserva características revisadas en fuentes oficiales. Cada entrada se vincula por ID, referencia de Omega, marca y número de parte exacto. La limpieza del identificador solo elimina anotaciones del distribuidor; conserva variantes, códigos de región y sufijos de fabricante. Una discrepancia de identidad detiene la publicación. Los enlaces técnicos se validan contra los dominios oficiales de la marca.
+
+Cada sincronización reconstruye los precios e inventario desde Omega y vuelve a aplicar esas fichas, conservando las características verificadas. Las páginas públicas del fabricante están enlazadas desde la ficha de producto; los enlaces a servicios de datos se conservan en el catálogo técnico. La fecha técnica solo cambia cuando cambian los datos de la ficha. La actualización de una fuente oficial requiere revisar y actualizar su entrada; el flujo diario no realiza búsquedas generales en la web.
+
+`data/product-conflicts.json` mantiene las contradicciones de identidad detectadas al contrastar fuentes. Mientras Omega siga usando el modelo contradictorio, el producto conserva su enlace y precio, pero queda pendiente y no permite pedidos. Una corrección del nombre y descripción de Omega permite retirar automáticamente ese bloqueo; un cambio de número de parte requiere revisión.
 
 ## Apariencia y pedidos
 

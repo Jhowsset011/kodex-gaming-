@@ -43,23 +43,33 @@ def _invalid_constant(_value):
 class PricingPolicy:
     """A policy that keeps its private inputs out of its representation."""
 
-    __slots__ = ("_discount", "_bands", "_precision")
+    __slots__ = ("_discount", "_bands", "_rounding", "_precision")
 
-    def __init__(self, discount, bands):
+    def __init__(self, discount, bands, rounding=None):
         # Callers use from_dict() or from_env() to validate private configuration.
         self._discount = discount
         self._bands = tuple(bands)
+        self._rounding = rounding
         numbers = [discount] + [value for band in bands for value in band]
         self._precision = (sum(len(number.as_tuple().digits) for number in numbers)
                            + max(max(0, markup.adjusted()) for _, markup in bands))
+        if rounding is not None:
+            self._precision += (sum(len(number.as_tuple().digits) for number in rounding)
+                                + max(max(0, number.adjusted()) for number in rounding))
 
     def __repr__(self):
         return "<PricingPolicy private>"
 
+    @property
+    def rounding_enabled(self):
+        return self._rounding is not None
+
     @classmethod
     def from_dict(cls, data):
         """Validate ordered maxCost/markupPercent bands and a public-price fallback."""
-        if not isinstance(data, dict) or set(data) != {"discountPercent", "bands", "aboveMax"}:
+        required = {"discountPercent", "bands", "aboveMax"}
+        if (not isinstance(data, dict) or not required.issubset(data)
+                or set(data) - required - {"rounding"}):
             raise ValueError("Invalid pricing configuration fields.")
         if data["aboveMax"] != "public":
             raise ValueError("Invalid aboveMax behavior.")
@@ -78,7 +88,17 @@ class PricingPolicy:
             if bands and maximum <= bands[-1][0]:
                 raise ValueError("Pricing band maxima must be strictly increasing.")
             bands.append((maximum, markup))
-        return cls(discount, bands)
+        rounding = None
+        if "rounding" in data:
+            raw_rounding = data["rounding"]
+            if not isinstance(raw_rounding, dict) or set(raw_rounding) != {"step", "downThrough"}:
+                raise ValueError("Invalid price rounding fields.")
+            step = _decimal(raw_rounding["step"], "rounding step")
+            down_through = _decimal(raw_rounding["downThrough"], "rounding threshold")
+            if step < 1 or step != step.to_integral_value() or down_through >= step:
+                raise ValueError("Invalid price rounding rule.")
+            rounding = (step, down_through)
+        return cls(discount, bands, rounding)
 
     @classmethod
     def from_env(cls, environ=None, file_path=None):
@@ -106,10 +126,11 @@ class PricingPolicy:
         return cls.from_dict(data)
 
     def sale_price(self, public_price):
-        """Return the final public sale price, rounded to cents with HALF_UP.
+        """Return the final public sale price, optionally rounded to a configured step.
 
         The discounted purchase cost is rounded to cents before band selection.
         Above the last band, use the supplier's public price instead of the cost.
+        Optional step rounding runs last, after the sale price rounds to cents.
         """
         public = _decimal(public_price, "public price")
         try:
@@ -121,8 +142,20 @@ class PricingPolicy:
                     CENT, rounding=ROUND_HALF_UP)
                 for maximum, markup in self._bands:
                     if cost <= maximum:
-                        return (cost * (Decimal(1) + markup / HUNDRED)).quantize(
+                        sale = (cost * (Decimal(1) + markup / HUNDRED)).quantize(
                             CENT, rounding=ROUND_HALF_UP)
-                return public.quantize(CENT, rounding=ROUND_HALF_UP)
+                        break
+                else:
+                    sale = public.quantize(CENT, rounding=ROUND_HALF_UP)
+                if self._rounding is None:
+                    return sale
+                step, down_through = self._rounding
+                remainder = sale % step
+                rounded = sale - remainder
+                if remainder > down_through:
+                    rounded += step
+                if public > 0 and rounded == 0:
+                    raise ValueError("Price rounding cannot produce a zero sale price.")
+                return rounded.quantize(CENT, rounding=ROUND_HALF_UP)
         except (DecimalException, OverflowError):
             raise ValueError("Cannot calculate sale price.") from None

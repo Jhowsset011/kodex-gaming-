@@ -93,6 +93,7 @@
 [data-theme="light"] .product-reference span,
 [data-theme="light"] .product-description,
 [data-theme="light"] .product-features { color: #4a6141; }
+[data-theme="light"] .specifications-card { box-shadow: 0 4px 24px #2c462106; }
 @media (max-width: 640px) {
   .topbar-actions { gap: 8px; }
   .theme-toggle { padding-inline: 0; }

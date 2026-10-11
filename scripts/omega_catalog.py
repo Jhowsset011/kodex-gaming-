@@ -14,6 +14,8 @@ import re
 import unicodedata
 from urllib.parse import urlparse
 
+from manufacturer_sources import validate_manufacturer_url
+
 
 PLACEHOLDER = "img/catalogo/sin-imagen.svg"
 EXCLUDED_IDS = {"21890"}
@@ -160,6 +162,15 @@ def _model_conflict(name, part_number):
                         and candidate.startswith(stem.group(0))
                         for candidate in actual):
             return True
+        # Some monitor models begin with the screen-size digits rather than
+        # letters (276CXF vs 27C6X). Ignore bare sizes/resolutions, but flag a
+        # different explicit model in the same numbered display family.
+        if re.fullmatch(r"\d{2,}[A-Z][A-Z0-9-]+", model):
+            family = model[:2]
+            if any(re.fullmatch(r"\d{2,}[A-Z][A-Z0-9-]+", candidate)
+                   and candidate.startswith(family) and candidate != model
+                   and not model.startswith(candidate + "-") for candidate in actual):
+                return True
     return False
 
 
@@ -565,7 +576,10 @@ def validate_catalog(catalog):
                 raise ValueError("Un modelo contradictorio debe quedar pendiente de confirmación")
         _image_url(product.get("sourceImage", ""))
         for url in product.get("specificationSources", []):
-            _source_url(url, reference)
+            if isinstance(url, str) and urlparse(url).hostname == 'tienda.omega.com.do':
+                _source_url(url, reference)
+            else:
+                validate_manufacturer_url(url, product['brand'])
     missing = catalog.get("sourceMissingReferences", [])
     if (not isinstance(missing, list) or len(missing) != len(set(missing))
             or any(reference not in references for reference in missing)):
