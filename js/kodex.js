@@ -383,7 +383,7 @@ async function loadCatalog() {
   $('#footer-cart').disabled = true;
   if ($('#result-count')) $('#result-count').textContent = 'Cargando productos…';
   try {
-    const response = await fetch('js/productos.json', {cache:'no-cache'});
+    const response = await fetch('js/productos-v2.json', {cache:'no-store'});
     if (!response.ok) throw new Error('HTTP ' + response.status);
     const data = await response.json();
     products = validateCatalog(data);

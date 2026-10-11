@@ -19,7 +19,10 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def read_selection(root):
-    current = json.loads((root / 'js/productos.json').read_text(encoding='utf-8'))
+    path = root / 'js/productos-v2.json'
+    if not path.exists():
+        path = root / 'js/productos.json'
+    current = json.loads(path.read_text(encoding='utf-8'))
     products = current['products']
     ids = [p['id'] for p in products]
     references = [p['reference'] for p in products]
@@ -66,6 +69,27 @@ def write_catalog(path, catalog):
             temporary.unlink()
 
 
+def write_catalog_outputs(root, catalog):
+    """Publish the full selection and a catalog readable by cached older clients.
+
+    Older clients require every price to be positive. Keep those clients usable
+    without inventing prices for unavailable products or losing selected IDs
+    from the canonical catalog used by the current storefront and synchronizer.
+    Both outputs must validate, and any write failure stops the caller before
+    the workflow can commit or deploy the update.
+    """
+    validate_catalog(catalog)
+    priced = [product for product in catalog['products']
+              if isinstance(product['price'], (int, float)) and product['price'] > 0]
+    legacy = {key: value for key, value in catalog.items()
+              if key != 'sourceMissingReferences'}
+    legacy.update(products=priced, count=len(priced))
+    validate_catalog(legacy)
+    canonical_changed = write_catalog(root / 'js/productos-v2.json', catalog)
+    legacy_changed = write_catalog(root / 'js/productos.json', legacy)
+    return canonical_changed or legacy_changed
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--dry-run', action='store_true', help='Validar sin cambiar catálogo ni imágenes')
@@ -97,7 +121,7 @@ def main():
         print(f"Validado: {catalog['count']} productos, {len(missing)} referencias retiradas. Sin escribir.")
         return
     localize_images(catalog['products'], ROOT / 'img/catalogo', context=context, offline_dir=args.image_cache)
-    changed = write_catalog(ROOT / 'js/productos.json', catalog)
+    changed = write_catalog_outputs(ROOT, catalog)
     print(f"Omega: {catalog['count']} productos; catálogo {'actualizado' if changed else 'sin cambios'}.")
 
 

@@ -24,7 +24,10 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--resume-dir', type=Path, help='HTML de la misma auditoría puntual; no usar para sincronizaciones diarias')
     args = parser.parse_args()
-    current = json.loads((ROOT / 'js/productos.json').read_text(encoding='utf-8'))['products']
+    catalog_path = ROOT / 'js/productos-v2.json'
+    if not catalog_path.exists():
+        catalog_path = ROOT / 'js/productos.json'
+    current = json.loads(catalog_path.read_text(encoding='utf-8'))['products']
     references = [product['reference'] for product in current]
     assert len(references) == len(set(references)) and all(ref.isdigit() for ref in references)
     assert '62635' not in references, 'La referencia retirada no debe consultarse'

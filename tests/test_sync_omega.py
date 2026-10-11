@@ -100,6 +100,25 @@ class SelectionTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Selección inválida"):
             sync.read_selection(self.root)
 
+    def test_canonical_catalog_preserves_full_selection_when_legacy_has_only_priced_subset(self):
+        products = [listing(str(1000 + index), str(900000 + index)) for index in range(589)]
+        for product in products[533:]:
+            product.update(price=None, stock=False, priceUnavailable=True)
+        write_fixture(self.root, products[:533], [item["id"] for item in products])
+        (self.root / "js/productos-v2.json").write_text(
+            json.dumps(catalog(products), ensure_ascii=False), encoding="utf-8")
+        current, references = sync.read_selection(self.root)
+        self.assertEqual(current["products"], products)
+        self.assertEqual(len(references), 589)
+        self.assertEqual(references[-1], products[-1]["reference"])
+
+    def test_invalid_canonical_selection_does_not_silently_fall_back_to_legacy(self):
+        write_fixture(self.root, [listing()])
+        (self.root / "js/productos-v2.json").write_text(
+            json.dumps(catalog([listing("21890", "900040")])), encoding="utf-8")
+        with self.assertRaises(ValueError):
+            sync.read_selection(self.root)
+
 
 class SnapshotTests(unittest.TestCase):
     def setUp(self):
@@ -205,6 +224,95 @@ class PublicationTests(unittest.TestCase):
             with self.assertRaises(OSError):
                 sync.write_catalog(self.path, new)
         self.assert_untouched()
+
+
+class CompatibilityPublicationTests(unittest.TestCase):
+    def setUp(self):
+        self.temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temporary.cleanup)
+        self.root = Path(self.temporary.name)
+        self.legacy_path = write_fixture(self.root, [listing()])
+        self.canonical_path = self.root / "js/productos-v2.json"
+
+    def migration_catalog(self):
+        products = [listing(str(1000 + index), str(900000 + index)) for index in range(589)]
+        for product in products[533:]:
+            product.update(price=None, stock=False, sourceUnavailable=True, priceUnavailable=True)
+        data = catalog(products)
+        data["sourceMissingReferences"] = [item["reference"] for item in products[533:]]
+        return data
+
+    def test_full_canonical_and_positive_price_legacy_are_written_together(self):
+        data = self.migration_catalog()
+        self.assertTrue(sync.write_catalog_outputs(self.root, data))
+        canonical = json.loads(self.canonical_path.read_text(encoding="utf-8"))
+        legacy = json.loads(self.legacy_path.read_text(encoding="utf-8"))
+        self.assertEqual(canonical, data)
+        self.assertEqual(canonical["count"], 589)
+        self.assertEqual(sum(item["price"] is None for item in canonical["products"]), 56)
+        self.assertEqual(legacy["count"], 533)
+        self.assertEqual(legacy["products"], data["products"][:533])
+        self.assertTrue(all(isinstance(item["price"], (float, int)) and item["price"] > 0
+                            for item in legacy["products"]))
+        self.assertNotIn("sourceMissingReferences", legacy)
+        self.assertEqual(sorted(path.name for path in self.root.joinpath("js").iterdir()),
+                         ["productos-v2.json", "productos.json"])
+
+    def test_unavailable_stock_with_real_price_remains_in_legacy_catalog(self):
+        products = [listing("40", "900040"), listing("41", "900041")]
+        products[0]["stock"] = False
+        products[1].update(price=None, stock=False, priceUnavailable=True)
+        sync.write_catalog_outputs(self.root, catalog(products))
+        legacy = json.loads(self.legacy_path.read_text(encoding="utf-8"))
+        self.assertEqual(legacy["count"], 1)
+        self.assertEqual(legacy["products"], [products[0]])
+
+    def test_timestamp_only_change_rewrites_neither_published_output(self):
+        data = self.migration_catalog()
+        sync.write_catalog_outputs(self.root, data)
+        before = {path: (path.read_bytes(), path.stat().st_mtime_ns)
+                  for path in (self.canonical_path, self.legacy_path)}
+        data["updated"] = "2026-01-02T00:00:00+00:00"
+        with patch.object(sync.tempfile, "NamedTemporaryFile") as create_temporary:
+            self.assertFalse(sync.write_catalog_outputs(self.root, data))
+            create_temporary.assert_not_called()
+        for path, (encoded, modified) in before.items():
+            self.assertEqual(path.read_bytes(), encoded)
+            self.assertEqual(path.stat().st_mtime_ns, modified)
+
+    def test_invalid_full_catalog_is_rejected_before_either_output_changes(self):
+        data = self.migration_catalog()
+        sync.write_catalog_outputs(self.root, data)
+        before = {path: path.read_bytes() for path in (self.canonical_path, self.legacy_path)}
+        data["products"][-1]["stock"] = True
+        with patch.object(sync.tempfile, "NamedTemporaryFile") as create_temporary:
+            with self.assertRaises(ValueError):
+                sync.write_catalog_outputs(self.root, data)
+            create_temporary.assert_not_called()
+        for path, encoded in before.items():
+            self.assertEqual(path.read_bytes(), encoded)
+
+    def test_second_output_failure_propagates_and_keeps_its_previous_valid_bytes(self):
+        data = self.migration_catalog()
+        sync.write_catalog_outputs(self.root, data)
+        legacy_before = self.legacy_path.read_bytes()
+        data["products"][0]["price"] = 135.25
+        original_replace = sync.Path.replace
+
+        def fail_legacy_replace(temporary, destination):
+            if destination == self.legacy_path:
+                raise OSError("simulated compatibility output failure")
+            return original_replace(temporary, destination)
+
+        with patch.object(sync.Path, "replace", autospec=True, side_effect=fail_legacy_replace):
+            with self.assertRaisesRegex(OSError, "compatibility output failure"):
+                sync.write_catalog_outputs(self.root, data)
+        self.assertEqual(self.legacy_path.read_bytes(), legacy_before)
+        # Publication must stop after the raised exception; both local JSON files
+        # remain parseable and any partial temporary file is cleaned up.
+        json.loads(self.canonical_path.read_text(encoding="utf-8"))
+        self.assertEqual(sorted(path.name for path in self.root.joinpath("js").iterdir()),
+                         ["productos-v2.json", "productos.json"])
 
 
 class CommandTests(unittest.TestCase):
@@ -458,6 +566,36 @@ class CommandTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError, "Invalid supplier image"):
                 sync.main()
             write.assert_not_called()
+        self.assertEqual(self.path.read_bytes(), self.before)
+
+    def test_command_publishes_through_canonical_and_compatibility_writer(self):
+        built = catalog()
+        with patch.object(sys, "argv", ["sync_omega.py"]), \
+                patch.object(sync, "ROOT", self.root), \
+                patch.object(sync.PricingPolicy, "from_env", return_value=self.policy), \
+                patch.object(sync, "make_tls_context", return_value=object()), \
+                patch.object(sync, "fetch_selected_references", return_value=({"900040": {}}, [])), \
+                patch.object(sync, "build_catalog", return_value=built), \
+                patch.object(sync, "localize_images"), \
+                patch.object(sync, "write_catalog_outputs", return_value=True) as publish, \
+                patch.object(sync, "write_catalog") as legacy_only, redirect_stdout(io.StringIO()):
+            sync.main()
+            publish.assert_called_once_with(self.root, built)
+            legacy_only.assert_not_called()
+
+    def test_command_does_not_report_success_when_compatibility_publication_fails(self):
+        with patch.object(sys, "argv", ["sync_omega.py"]), \
+                patch.object(sync, "ROOT", self.root), \
+                patch.object(sync.PricingPolicy, "from_env", return_value=self.policy), \
+                patch.object(sync, "make_tls_context", return_value=object()), \
+                patch.object(sync, "fetch_selected_references", return_value=({"900040": {}}, [])), \
+                patch.object(sync, "build_catalog", return_value=catalog()), \
+                patch.object(sync, "localize_images"), \
+                patch.object(sync, "write_catalog_outputs", side_effect=OSError("compatibility write failed")), \
+                redirect_stdout(io.StringIO()) as output:
+            with self.assertRaisesRegex(OSError, "compatibility write failed"):
+                sync.main()
+        self.assertNotIn("actualizado", output.getvalue())
         self.assertEqual(self.path.read_bytes(), self.before)
 
 
