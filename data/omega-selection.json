@@ -1,0 +1,5485 @@
+{
+  "version": 1,
+  "minimumInventory": 2,
+  "inventoryBranches": [
+    "PRINCIPAL SD",
+    "La Nave"
+  ],
+  "excludeRefurbished": true,
+  "knownMissingReferences": [
+    "10331",
+    "60078",
+    "69661",
+    "70145",
+    "71251",
+    "73916",
+    "73917",
+    "73918",
+    "74026",
+    "75276",
+    "75665",
+    "75973",
+    "78300",
+    "78301",
+    "78743",
+    "79274",
+    "83144",
+    "84651",
+    "85533",
+    "85539",
+    "85861",
+    "86660",
+    "86904",
+    "87440",
+    "89099",
+    "89126",
+    "89505",
+    "89827",
+    "91019",
+    "91022",
+    "91790",
+    "91791",
+    "92658",
+    "92733",
+    "93590",
+    "94099",
+    "95071",
+    "96561",
+    "96562",
+    "96784",
+    "106038",
+    "106042",
+    "106122",
+    "106383",
+    "106402",
+    "106566",
+    "106943",
+    "107008",
+    "107410",
+    "107573",
+    "108016",
+    "108927",
+    "110140",
+    "110836",
+    "110837",
+    "111554"
+  ],
+  "products": [
+    {
+      "brand": "Xtech",
+      "category": "Audio y Video",
+      "id": "19182",
+      "name": "Bocinas Xtech FIRESHOT 2.0, AUDIO JACK 3.5 + USB PARA LUCES LED, NEGRO",
+      "reference": "106019",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "18680",
+      "name": "Gabinete Corsair 2500D AIRFLOW MID TOWER DUAL CHAMBER, SOPORTA MOTHERBOARD MATX & MITX, NEGRO, USB-A 3.2 GEN 1 X2, USB-C GEN 2 AUDIO IN / OUT, 2X 2.5\" SSDS - 2X 3.5\" HDDS, PANEL LATERAL CRISTAL TEMPLADO, SOPORTA POWER SUPPLY ATX",
+      "reference": "96462",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "16984",
+      "name": "Gabinete Corsair CRISTAL 280X RGB MICRO ATX, NEGRO, USB 3.0 X2, AUDIO IN / OUT, 7 EXPANSION SLOT, 3X 2.5\", 2X 3.5\", PANEL LATERAL, TOPE Y FRENTE EN CRISTAL TEMPLADO, 2 ABANICOS RGB (CC-9011135-WW)",
+      "reference": "88400",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24242",
+      "name": "Gabinete Corsair FRAME 4000D RS, ARGB COMPLETAMENTE MODULAR, MID TOWER, 7 EXPANSION SLOT, 3X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, INCLUYE 3 ABANICOS RS120 ARGB - BLANCO - CASI TODAS LAS PARTES SE PUEDEN DESARMAR",
+      "reference": "108137",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "29199",
+      "name": "Gabinete Antec C6 CURVE AIR BLACK - MID TOWER - CONSTELLATION SERIES - PANEL DE VIDRIO CURVO - 3 FANS PWM PRE-INSTALADOS - TYPE-C 10GBPS - SOPORTE RTX 5090.",
+      "reference": "110623",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "29193",
+      "name": "Gabinete Antec VCX10M RGB - MINI TOWER - DISEÑO DUAL CHAMBER - VISTA PANORÁMICA 270° - 3 FANS 120MM RGB PRE-INSTALADOS - USB 3.0 - SOPORTE GPU HASTA 260MM",
+      "reference": "110619",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "29195",
+      "name": "Gabinete Antec VX510 ARGB - MID TOWER - PANEL FRONTAL DE ALTO FLUJO - LATERAL VIDRIO TEMPLADO - 4 FANS 120MM ARGB PRE-INSTALADOS - SOPORTE GPU HASTA 325MM.",
+      "reference": "110621",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "29138",
+      "name": "Gabinete MSI PRO PANO M120L WHITE, MINI TOWER",
+      "reference": "111325",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "7197",
+      "name": "Gabinete Corsair ICUE 5000X QL EDITION, MID TOWER, WHITE, 7 EXPANSION SLOT, 4X 2.5\", 2X 3.5\", CRISTAL TEMPLADO EN TOPE, LATERAL Y FRENTE, INCLUYE 4 ABANICOS 120MM QL",
+      "reference": "94367",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "12989",
+      "name": "Gabinete MSI MAG PANO 130R PZ WHITE, MID-TOWER, GLASS, COLOR BLANCO, 4 ABANICOS PRE INSTALADOS",
+      "reference": "108770",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "29139",
+      "name": "Gabinete MSI PRO FORGE M051A, MINI TOWER, COMPATIBLE MICRO-ATX Y MINI ITX",
+      "reference": "111327",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "1834",
+      "name": "Cámara web Logitech HD PRO C920S",
+      "reference": "87886",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "17042",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 2048GB, (2TB) 2.5\", SATA REV. 3.0",
+      "reference": "88858",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "16974",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 256GB, 2.5\", SATA3",
+      "reference": "88265",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "16976",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 512GB, 2.5\", SATA3",
+      "reference": "88266",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "16649",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 960GB, 2.5\", SATA3, 3D NAND",
+      "reference": "85231",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "16599",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 960GB, 2.5\"",
+      "reference": "84774",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Western Digital",
+      "category": "Almacenamiento",
+      "id": "15261",
+      "name": "Disco DURO 1.5TB INTERNO Western Digital SATA 3.0GB/S 3.5\" 64MB. INTELLIPOWER, AHORRO DE ENERGIA.",
+      "reference": "66156",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Dell",
+      "category": "Almacenamiento",
+      "id": "17191",
+      "name": "Disco DURO Dell 2TB 7.2K RPM SATA 6GB/S 512N 3.5\" CON CABLE DISCO DURO.",
+      "reference": "89693",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "16880",
+      "name": "Disco DURO 500GB INTERNO Seagate SATA 3.0GB/S 3.5\", PULL OUT",
+      "reference": "87602",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Western Digital",
+      "category": "Almacenamiento",
+      "id": "29669",
+      "name": "Disco DURO 6TB P/VIDEOVIGILANCIA Western Digital SATA 6GB/S 3.5\" 5400 RPM/256MB. WD64PURZ",
+      "reference": "107208",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "BenQ",
+      "category": "Almacenamiento",
+      "id": "15139",
+      "name": "DVD-R BenQ 4.7GB 16X 50PK LOGO",
+      "reference": "63355",
+      "subcategory": "Unidades ópticas"
+    },
+    {
+      "brand": "Verbatim",
+      "category": "Almacenamiento",
+      "id": "17016",
+      "name": "DVD-R Verbatim 16X, 4.7GB, SPINDLE",
+      "reference": "88696",
+      "subcategory": "Unidades ópticas"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "29205",
+      "name": "Gabinete Antec P6 NEO ARGB - MID TOWER - PANEL FRONTAL MESH - 4 FANS 120MM ARGB PRE-INSTALADOS - TYPE-C 10GBPS - SOPORTE GPU HASTA 325MM.",
+      "reference": "110626",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "29197",
+      "name": "Gabinete Antec AX67 ARGB - MID TOWER - PANEL FRONTAL GEOMÉTRICO MESH - 4 FANS 120MM ARGB PRE-INSTALADOS - USB 3.0, USB 2.0 - SOPORTE GPU HASTA 345MM",
+      "reference": "110622",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "29201",
+      "name": "Gabinete Antec C6 CURVE AIR WHITE- MID TOWER - CONSTELLATION SERIES - PANEL DE VIDRIO CURVO - 3 FANS PWM PRE-INSTALADOS - TYPE-C 10GBPS - SOPORTE RTX 5090.",
+      "reference": "110624",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "15744",
+      "name": "Gamepad Agiler USB 10 Botones (Agi-4010)",
+      "reference": "74026",
+      "subcategory": "Controles de juego"
+    },
+    {
+      "brand": "Lexar",
+      "category": "Almacenamiento",
+      "id": "15199",
+      "name": "Memoria MICRO M2 2GB Lexar (TRM19BDJ20D)",
+      "reference": "64914",
+      "subcategory": "Tarjetas de memoria"
+    },
+    {
+      "brand": "Lexar",
+      "category": "Almacenamiento",
+      "id": "15209",
+      "name": "Memoria MICRO M2 4GB Lexar (LMSM4GBACLAT)",
+      "reference": "65046",
+      "subcategory": "Tarjetas de memoria"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "21325",
+      "name": "Memoria USB 128GB Kingston, (DTXG2/128GB)",
+      "reference": "110526",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "21327",
+      "name": "Memoria USB 256GB Kingston, (DTXG2/256GB)",
+      "reference": "110527",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "21329",
+      "name": "Memoria USB 64GB Kingston, (DTXG2/64GB)",
+      "reference": "110528",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18178",
+      "name": "Memoria USB Kingston 64GB, DATA TRAVELER EXODIA USB 3.2 (AZUL)",
+      "reference": "94521",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18176",
+      "name": "Memoria USB Kingston 64GB, DATA TRAVELER EXODIA USB 3.2 (BLANCO CON ANILLO AZUL TRANSPARENTE)",
+      "reference": "94520",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18180",
+      "name": "Memoria USB Kingston 64GB, DATA TRAVELER EXODIA 3.2 (ROJO)",
+      "reference": "94522",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18382",
+      "name": "Memoria USB 64GB Kingston, 3.2 GEN.1 DATATRAVELER EXODIA (AZUL NEON)",
+      "reference": "95301",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18384",
+      "name": "Memoria USB 64GB Kingston, 3.2 GEN.1 DATATRAVELER EXODIA (MORADO NEON)",
+      "reference": "95302",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18378",
+      "name": "Memoria USB 64GB Kingston, 3.2 GEN.1 DATATRAVELER EXODIA (ROSA NEON)",
+      "reference": "95254",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18380",
+      "name": "Memoria USB 64GB Kingston, 3.2 GEN.1 DATATRAVELER EXODIA (VERDE NEON)",
+      "reference": "95262",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "17710",
+      "name": "Memoria USB Kingston 64GB, DATA TRAVELER EXODIA (DTXM/64GB) USB3.2 GEN 1",
+      "reference": "92621",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "HP",
+      "category": "Monitores",
+      "id": "16056",
+      "name": "Monitor HP PRO DISPLAY P19A 19\"",
+      "reference": "76923",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "20668",
+      "name": "Monitor MSI MAG 272F X24, 27\", 240 HZ, RAPID IPS, FLAT, FHD",
+      "reference": "110069",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "20666",
+      "name": "Monitor MSI MAG 274CF X24, 27\", 240 HZ, RAPID VA, CURVO 1500R, FHD",
+      "reference": "110068",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "28739",
+      "name": "Monitor Samsung 32\" VIEWFINITY S8 (S80UD) 4K",
+      "reference": "110421",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "15722",
+      "name": "Mouse Agiler 3D Optical Alambrico, USB Azul",
+      "reference": "73917",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "15720",
+      "name": "Mouse Agiler 3D Optical Alambrico, USB Rojo",
+      "reference": "73916",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "16336",
+      "name": "Mouse Agiler GAMING RUBBER OPTICAL SCROLL USB NEGRO (AGI-2100)",
+      "reference": "79408",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "18777",
+      "name": "Mouse Agiler WIRELESS, RECEPTOR USB, TRANSPARENTE, BATERIA RECARGABLE",
+      "reference": "96901",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "18892",
+      "name": "Mouse Argom USB 3D AZUL",
+      "reference": "104590",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "18184",
+      "name": "Mouse Argom USB, RESOLUCIÓN 1000 DPI, PLUG & PLAY.",
+      "reference": "94535",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "18182",
+      "name": "Mouse Argom USB, RESOLUCIÓN 1000 DPI, PLUG & PLAY.",
+      "reference": "94534",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Periféricos",
+      "id": "17225",
+      "name": "Mouse Corsair KATAR PRO GAMING, OPTICO USB, 6 BOTONES PROGRAMABLE, 12400 DPI (CH-930C011-NA)",
+      "reference": "90011",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "10194",
+      "name": "Mouse Logitech G203 LIGHTSYNC GAMING BLANCO",
+      "reference": "89107",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "10192",
+      "name": "Mouse Logitech G203 LIGHTSYNC GAMING LILA",
+      "reference": "89852",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "6309",
+      "name": "Mouse Logitech G203 LIGHTSYNC GAMING NEGRO",
+      "reference": "89106",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Myo",
+      "category": "Periféricos",
+      "id": "16761",
+      "name": "Mouse Myo GAMING SERIE 6, SENSOR ÓPTICO 6 BOTONES, VELOCIDAD DEL MOUSE AJUSTABLE ENTRE 800 A 2400 DPI, 4 COLORES, RGB LIGHTING.",
+      "reference": "86694",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "19208",
+      "name": "Mouse Klip Xtreme WIRELESS KLIPX SLIMSURFER OPTICO, 4 BOTONES, 1600 DPI, USB, NEGRO",
+      "reference": "106045",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "16136",
+      "name": "Mouse Logitech M100 OPTICO USB (NEGRO)",
+      "reference": "77657",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17639",
+      "name": "Mouse Logitech M650 LARGE BLUETOOTH NEGRO GRAFITO PARA ZURDOS",
+      "reference": "92085",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Microsoft",
+      "category": "Periféricos",
+      "id": "15814",
+      "name": "Mouse Microsoft WIRELESS MOBILE 1850 FLAME RED",
+      "reference": "74813",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Microsoft",
+      "category": "Periféricos",
+      "id": "16330",
+      "name": "Mouse Microsoft WIRELESS MOBILE 3500 MAC/WIN USB GRAY",
+      "reference": "79318",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Myo",
+      "category": "Periféricos",
+      "id": "20841",
+      "name": "Mouse USB, AZUL (Myo-3005 BLUE)",
+      "reference": "95170",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Rippa",
+      "category": "Periféricos",
+      "id": "18531",
+      "name": "Mouse OPTICO Rippa MODELO M811, CONEXION USB, 2 BOTONES, NEGRO",
+      "reference": "95768",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "15798",
+      "name": "Mouse pad Argom 360 EN GEL NEGRO.",
+      "reference": "74700",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Periféricos",
+      "id": "17705",
+      "name": "Mouse pad Corsair GAMING MM300 PRO PRIMIUM MEDIUM, TELA A PRUEBA DE DERRAMES, (360MM X 300MM X 3MM), NEGRO",
+      "reference": "92593",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "19449",
+      "name": "Mouse pad Xtech DISNEY STICH, SUPERFICIE DE TELA, AMARILLO, DIMENSIONES 22X18X0.2CM",
+      "reference": "106859",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "19451",
+      "name": "Mouse pad Xtech DISNEY STICH, SUPERFICIE DE TELA, AZUL, DIMENSIONES 22X18X0.2CM",
+      "reference": "106860",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "20419",
+      "name": "Mouse pad Xtech MARVEL FANTASTIC 4, SUPERFICIE DE TELA",
+      "reference": "109477",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "19186",
+      "name": "Mouse pad Xtech GAMING STRATEGA, SUPERFICIE POLIESTER Y BASE DE GOMA",
+      "reference": "106021",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "19453",
+      "name": "Mouse Xtech DISNEY STICH, USB, OPTICAL, SCROLL, 3 BOTONES, 1200 DPI, YELLOW",
+      "reference": "106861",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "19455",
+      "name": "Mouse Xtech DISNEY STICH, USB, OPTICAL, SCROLL, 3 BOTONES, 1200 DPI, AZUL",
+      "reference": "106862",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "19445",
+      "name": "Mouse Xtech MARVEL SPIDER-GWEN, USB, 7 BOTONES, 2400DPI, LUCES ROJAS - 4 MODOS",
+      "reference": "106854",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "18242",
+      "name": "Mouse Xtech GAMING OPHIDIAN, USB, 3600DPI, 6 BOTONES, NEGRO, 7 LUCES LED, (XTM-411)",
+      "reference": "94825",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "20405",
+      "name": "Mouse Xtech WIRELESS OPTICAL, 3 BOTONES, ADAPTADOR USB, NEGRO",
+      "reference": "109469",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "19808",
+      "name": "Tarjeta madre MSI · referencia 107667",
+      "reference": "107667",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Componentes",
+      "id": "16148",
+      "name": "Fuente de poder Xtech 500W, P4 2.0V 20+4 PIN (CS850XTK09)",
+      "reference": "77861",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Componentes",
+      "id": "16246",
+      "name": "Fuente de poder Agiler 600W - 80MM FAN 20+4 PIN + 2 SATA (AGI-PS600)",
+      "reference": "78498",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Componentes",
+      "id": "15926",
+      "name": "Fuente de poder Xtech 600W, P4 2.0V 20+4 PIN (CS850XTK11)",
+      "reference": "76040",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Componentes",
+      "id": "16050",
+      "name": "Fuente de poder Xtech 700W, P4 2.0V 20+4 PIN (CS850XTK08)",
+      "reference": "76799",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21114",
+      "name": "Fuente de poder Antec GSK750 V2 US, 750W, 80 PLUS GOLD, FULL MODULAR",
+      "reference": "108987",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13468",
+      "name": "Fuente de poder Antec GSK850 V2 US WHITE, 850W, 80 PLUS GOLD, FULL MODULAR",
+      "reference": "108988",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13470",
+      "name": "Fuente de poder Antec GSK850 V2 US, 850W, 80 PLUS GOLD, FULL MODULAR",
+      "reference": "108989",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "12870",
+      "name": "Tarjeta gráfica MSI GEFORCE RTX 5060 8G CYCLONE OC, PCI EXPRESS GEN 5, 3840 MHZ, 8GB GDDR7",
+      "reference": "108730",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "15882",
+      "name": "Teclado Agiler USB Español, Black, (Agi-9828)",
+      "reference": "75276",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "16190",
+      "name": "Teclado Agiler USB INGLES, BLACK, (AGI-9832)",
+      "reference": "78139",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Hikvision",
+      "category": "Periféricos",
+      "id": "19110",
+      "name": "Teclado INALAMBRICO Hikvision AX-HOME",
+      "reference": "105766",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "21609",
+      "name": "Teclado Agiler INALÁMBRICO, MULTIMEDIA 2.4 GHZ, BLACK, (AGI-9836)",
+      "reference": "79409",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "20195",
+      "name": "Teclado Logitech K250 COMPACT BLUETOOTH WIRELESS COLOR BLANCO",
+      "reference": "108740",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Microsoft",
+      "category": "Periféricos",
+      "id": "15838",
+      "name": "Teclado Microsoft ALL-IN-ONE MEDIA (ENGLISH)",
+      "reference": "74988",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "20838",
+      "name": "Teclado Mouse Agiler Inalambrico Español 2.4Ghz Nano Receiver",
+      "reference": "95071",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "15918",
+      "name": "Teclado Mouse Bocina Combo Agiler, USB, Black, (Agi-9880)",
+      "reference": "75973",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "16158",
+      "name": "Teclado Klip Xtreme MOUSE, INALAMBRICO, INSPIRE, INGLES (KCK-265E)",
+      "reference": "77937",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17408",
+      "name": "Teclado Logitech MOUSE MK120 USB COMBO ESPAÑOL",
+      "reference": "91140",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "20790",
+      "name": "Teclado MOUSE Logitech MK345 USB WIRELESS RECEIVER 2.4GHZ WIRELESS",
+      "reference": "78303",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "17124",
+      "name": "Teclado Xtech USB ESTANDAR NEGRO, ESPAÑOL (XTK-092S)",
+      "reference": "89412",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "16451",
+      "name": "Teclado Xtech USB ESTANDAR, NEGRO, INGLES (XTK-160E)",
+      "reference": "81445",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "16453",
+      "name": "Teclado Xtech USB ESTANDAR NEGRO, ESPAÑOL (XTK-160S)",
+      "reference": "82591",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "20674",
+      "name": "Cámara web Klip Xtreme CAMCOM 2K, QHD, CON MICROFONO INTEGRADO, 80 GRADOS DE VISION, IMAGEN DE 3.7 MP. COMPATIBLE CON WINDOWS, MAC OS Y CHROME OS",
+      "reference": "110141",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "15872",
+      "name": "Mouse pad Argom EMERALD VERDE.",
+      "reference": "75209",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "15874",
+      "name": "Mouse pad Argom SAPPHIRE AZUL.",
+      "reference": "75210",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "16641",
+      "name": "Mouse Logitech M187 INALAMBRICO MINI OPTICO, PALACE BLUE",
+      "reference": "85082",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "18114",
+      "name": "Mouse Xtech GAMING SWARM, USB, 6 BOTONES, HONEYCOMB 6400 DPI, RGB LED COLORS, BLACK (XTM-910)",
+      "reference": "94391",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "21502",
+      "name": "Disco Seagate DURO 8TB P/VIDEOVIGILANCIA SKYHAWK INTERNO SATA 6 GB/S, 3.5\", 7200RPM, .",
+      "reference": "96571",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "23714",
+      "name": "Case Msi Mag Pano 100R Pz White Media Tower Micro-Atx Mini-Itx",
+      "reference": "107573",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17637",
+      "name": "Mouse Logitech M650 MEDIUM BLUETOOTH BLANCO",
+      "reference": "92081",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Dell",
+      "category": "Componentes",
+      "id": "16695",
+      "name": "Memoria 16GB Dell (1X16GB), 2RX8, ECC UDIMM 2133MHZ",
+      "reference": "86028",
+      "subcategory": "Memorias RAM"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "20185",
+      "name": "Teclado Logitech K250 COMPACT BLUETOOTH WIRELESS COLOR ROSADO",
+      "reference": "108665",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18400",
+      "name": "Teclado Logitech MOUSE MK370 BUSINESS USB-BLUETOOTH COMBO ESPAÑOL",
+      "reference": "95365",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Grandstream",
+      "category": "Componentes",
+      "id": "17402",
+      "name": "Fuente de poder Grandstream (FUENTE) 5V/0.6A",
+      "reference": "91109",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18398",
+      "name": "Teclado Logitech MOUSE MK370 BUSINESS USB-BLUETOOTH COMBO INGLES",
+      "reference": "95364",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Maxtor",
+      "category": "Almacenamiento",
+      "id": "15079",
+      "name": "Disco Maxtor DURO 7.3 GB P/SERVER 3.5\" 10000RPM.",
+      "reference": "61745",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "18368",
+      "name": "Mouse Xtech DISNEY PRINCES, USB, OPTICAL, SCROLL, 3 BOTONES, 1200 DPI, (XTM-D406PS)",
+      "reference": "95116",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "15876",
+      "name": "Mouse pad Argom RUBY ROJO.",
+      "reference": "75211",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24246",
+      "name": "Gabinete Corsair FRAME 4000D RS, COMPLETAMENTE MODULAR, MID TOWER, 7 EXPANSION SLOT, 3X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, INCLUYE 3 ABANICOS RS120 ARGB - BLANCO - CASI TODAS LAS PARTES SE PUEDEN DESARMAR.",
+      "reference": "108139",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "16427",
+      "name": "Mouse pad Argom GAMING COMBAT, NEGRO.",
+      "reference": "81258",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Naruto",
+      "category": "Periféricos",
+      "id": "18682",
+      "name": "Mouse Naruto AKATSUKI MX-200 GAMING, USB, OPTICAL, SCROLL, RGB 7 BOTONES, 10000 DPI, (NA-MS-1002)",
+      "reference": "96544",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "16663",
+      "name": "Mouse Agiler 3D Optical Alambrico USB Negro",
+      "reference": "85533",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "15724",
+      "name": "Mouse Agiler 3D Optical Alambrico, USB Negro",
+      "reference": "73918",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "16643",
+      "name": "Mouse Logitech M187 INALAMBRICO MINI OPTICO, CORAL",
+      "reference": "85083",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "13066",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 512GB, NVME PCIE 4.0 M.2",
+      "reference": "91997",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "18688",
+      "name": "Disco DURO 1TB EXTERNO Seagate, USB 3.0",
+      "reference": "96560",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "18882",
+      "name": "Disco DURO 2TB EXTERNO Seagate, USB 3.0",
+      "reference": "104576",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "19206",
+      "name": "Mouse Klip Xtreme WIRELESS EASIHAND OPTICO, INALAMBRICA 4 BOTONES, 1600 DPI, AMBIDIESTRO, USB, NEGRO",
+      "reference": "106044",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "16499",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 240GB, 2.5\", SATA3",
+      "reference": "83196",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "16501",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 480GB, 2.5\", SATA3",
+      "reference": "83197",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "HPE",
+      "category": "Componentes",
+      "id": "19413",
+      "name": "VENTILADOR HPE PROLIANT DL36X GEN10 PLUS STANDARD",
+      "reference": "106761",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "29141",
+      "name": "Gabinete MSI MSIPRO FORGE M050A, MINI TOWER, COMPATIBLE MICRO-ATX Y MINI ITX",
+      "reference": "111328",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "24627",
+      "name": "Teclado Y MOUSE MSI FORGE K210 W COMBO LS ESPAÑOL",
+      "reference": "110863",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Audio y Video",
+      "id": "17144",
+      "name": "Bocinas Xtech 2.0, USB, XTS-115BK NEGRO(MM221XTK12)",
+      "reference": "89510",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "16373",
+      "name": "Mouse Klip Xtreme INALAMBRICO VORTEX, 6 BOTONES, 2.4 GHZ, ERGONÓMICO, NEGRO, (KMW-355BK)",
+      "reference": "79657",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "6248",
+      "name": "Cámara web Logitech BRIO 500 NEGRO",
+      "reference": "93348",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21027",
+      "name": "Mouse Logitech M650 LARGE BLUETOOTH BLANCO PARA DERECHOS",
+      "reference": "92084",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "18364",
+      "name": "Mouse pad Xtech DISNEY MINNIE MOUSE, SUPERFICIE DE TELA, DIMENSIONES 22X18X0,2CM (XTA-D100MM)",
+      "reference": "95112",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24266",
+      "name": "Ventilador Corsair PARA CPU, NAUTILUS 240 RS ARGB (LIQUID COOLING) 240MM BLANCO, 2X 120MM FAN COOLER, RGB LED, DEISY CHAIN CONECTOR, COMPATIBLE CON LOS SOCKET INTEL 1700, 1851, SOCKET AMD AM5, AM4",
+      "reference": "110283",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17848",
+      "name": "Teclado Logitech MOUSE MK470 ROSADO SLIM WIRELESS COMBO ESPAÑOL",
+      "reference": "93351",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "20494",
+      "name": "Teclado Y MOUSE MSI FORGE K210 W COMBO US, INGLES",
+      "reference": "109661",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "20407",
+      "name": "Mouse Xtech WIRELESS OPTICAL, 4 BOTONES, LUCES LED, 3200 DPI, ADAPTADOR USB, NEGRO",
+      "reference": "109470",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Hiksemi",
+      "category": "Almacenamiento",
+      "id": "18174",
+      "name": "Disco Hiksemi DE ESTADO SOLIDO (SSD) 960GB, 2.5\", 3D NAND/SATA III 6 GB/S SATA II 3 GB/S ,",
+      "reference": "94511",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "16058",
+      "name": "Mouse Logitech M317 INALAMBRICO OPTICO, NEGRO",
+      "reference": "76952",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Audio y Video",
+      "id": "6040",
+      "name": "Bocinas Argom BLUETOOTH, 5W, BOOGIEBOOM+ SPEAKER, TWS, HIFI INDOOR/OUTDOOR WIRELESS, NEGRO.",
+      "reference": "91423",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "29671",
+      "name": "Teclado Logitech G316 X 98",
+      "reference": "111268",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "18692",
+      "name": "Disco Seagate DURO 4TB HDD EXTERNO EXPANSION, NEGRO",
+      "reference": "96566",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "16371",
+      "name": "Teclado Klip Xtreme MOUSE, INALÁMBRICO, ESPAÑOL, (KCK-265S)",
+      "reference": "79640",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "16084",
+      "name": "Teclado Logitech Y TOUCHPAD K400 PLUS WIRELESS INGLES",
+      "reference": "77322",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "15422",
+      "name": "Teclado Logitech MOUSE MK200, MEDIA COMBO ESPAÑOL",
+      "reference": "69406",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "19180",
+      "name": "Mouse Xtech GAMING COMBATIVE, USB, 8 BOTONES, 7200DPI, BLACK, CON LUCES LED (XTM-720)",
+      "reference": "106016",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Elo",
+      "category": "Monitores",
+      "id": "18186",
+      "name": "Monitor Elo 1593L , 15.6\", TOUCHSCREEN, 720P, 12MS, 60HZ, 500:1. PUERTOS: 1 VGA. TECNOLOGIA INTELLITOUCH, CAPACIDAD PARA FIJARSE EN LA PARED.",
+      "reference": "94536",
+      "subcategory": "Táctiles"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18565",
+      "name": "Teclado Logitech PEBBLE KEYS 2 K380S WIRELESS",
+      "reference": "96042",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Argom",
+      "category": "Audio y Video",
+      "id": "6047",
+      "name": "Bocinas Argom BLUETOOTH, 10W, BOOGIEBOOM+ SPEAKER, TWS, HIFI INDOOR/OUTDOOR WIRELESS, NEGRO.",
+      "reference": "91424",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "29103",
+      "name": "Monitor Samsung VIEWFINITY S7 S70H",
+      "reference": "111284",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Western Digital",
+      "category": "Almacenamiento",
+      "id": "29214",
+      "name": "Disco DURO 4TB P/VIDEOVIGILANCIA Western Digital SATA 6GB/S 3.5\" 7200RPM/256MB. WD44PURZ",
+      "reference": "109829",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "20403",
+      "name": "Mouse Xtech OPTICAL, SCROLL, 3 BOTONES, USB, NEGRO",
+      "reference": "109468",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21047",
+      "name": "Mouse Logitech M240 EMPRESARIAL INALAMBRICO SILENCIOSO, NEGRO, BLUETOOTH,",
+      "reference": "105907",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21037",
+      "name": "Mouse Logitech M240 INALAMBRICO SILENCIOSO, NEGRO, BLUETOOTH,",
+      "reference": "95363",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "29337",
+      "name": "Teclado Logitech G316 X 98",
+      "reference": "111269",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11003",
+      "name": "Gabinete MSI MAG PANO M100R PZ BLANCO",
+      "reference": "104846",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "16214",
+      "name": "Mouse Agiler Wireless, Nano Receptor, Ultra Compacto. Negro (AGI-2095BK) Bateria No Incluida",
+      "reference": "78300",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "13206",
+      "name": "Teclado Agiler MOUSE INALÁMBRICO, ESPAÑOL, NEGRO, RECEPTOR NANO, (AGI-9895)",
+      "reference": "80939",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "21703",
+      "name": "Gabinete Corsair CRISTAL 280X RGB MICRO ATX, BLANCO, USB 3.0 X2, AUDIO IN / OUT, 7 EXPANSION SLOT, 3X 2.5\", 2X 3.5\", PANEL LATERAL, TOPE Y FRENTE EN CRISTAL TEMPLADO, 2 ABANICOS RGB",
+      "reference": "92571",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "20269",
+      "name": "Gabinete GAMING Antec AX1000 ARGB MID-TOWER",
+      "reference": "108970",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Componentes",
+      "id": "12718",
+      "name": "Fuente de poder Agiler 700W - 120MM FAN 24 PIN + 2X IDE + 4X SATA + 2*P8 (4+4) (CPU) + 2*P8 (6+2) (VIDEO CARD)",
+      "reference": "107685",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Componentes",
+      "id": "12714",
+      "name": "Fuente de poder Agiler 800W - 120MM FAN 24 PIN + 2X IDE + 4X SATA + 2*P8 (4+4) (CPU) + 2*P8 (6+2) (VIDEO CARD)",
+      "reference": "107686",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24258",
+      "name": "Gabinete Corsair 3200D ARGB, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, INCLUYE 3 ABANICOS RS ARGB 120MM FRONTAL, SOPORTA 3 120MM EN EL TOPE, 2 120MM ABAJO, 1 120MM ATRAS, PUERTOS 1X USB-A 3.2 GEN1, 1X USB-C, 1X HEADPHONE/MIC COMBO 3.5\"",
+      "reference": "110273",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "17350",
+      "name": "Mouse Argom USB DISEÑO ERGONÓMICO, RESOLUCIÓN 800 DPI, PLUG & PLAY, AHORRO DE ESPACIO, RODILLO DE ALTA PRECISIÓN, DIMENSIONES 95 X 50 X 33 MM",
+      "reference": "90812",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "21787",
+      "name": "Teclado Xtech MOUSE COMBO WIRELESS, MULTIMEDIA, OPTICAL MOUSE, ESPAÑOL. NEGRO",
+      "reference": "109876",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "15862",
+      "name": "Mouse Logitech M280 INALAMBRICO OPTICO, NEGRO",
+      "reference": "75163",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "29323",
+      "name": "Televisor Samsung 50\" 2026",
+      "reference": "111288",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24262",
+      "name": "Gabinete Corsair 3200D RS, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, INCLUYE 3 ABANICOS RS 120MM FRONTAL, SOPORTA 3 120MM EN EL TOPE, 2 120MM ABAJO, 1 120MM ATRAS, PUERTOS 1X USB-A 3.2 GEN1, 1X USB-C, 1X HEADPHONE/MIC COMBO 3.5\"",
+      "reference": "110278",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "16593",
+      "name": "Mouse pad Xtech GEL, NEGRO (XTA-526)",
+      "reference": "84723",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "17812",
+      "name": "Mouse Xtech MARVEL AVENGERS (IRON MAN), WIRELESS, OPTICAL SCROLL USB, 4 BOTONES, 800/1200/1600 DPI, BATERIAS X2 AAA (NO INCUIDAS)",
+      "reference": "93207",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17786",
+      "name": "Teclado Logitech K650 WIRELESS Y BLUETOOH INGLES COLOR GRAFITO",
+      "reference": "93012",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "20284",
+      "name": "Ventilador Antec VISION 120R ARGB 3PK",
+      "reference": "108986",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12309",
+      "name": "Ventilador Antec · referencia 107921",
+      "reference": "107921",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18214",
+      "name": "Mouse Logitech M170 INALAMBRICO ROSADO",
+      "reference": "94646",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "20555",
+      "name": "Cámara web Klip Xtreme SPIEGEL, ULTRA HD 4K, IMPULSADA POR IA CON SEGUIMIENTO AUTOMATICO Y CONTROL POR GESTOS",
+      "reference": "109862",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "29430",
+      "name": "Mouse Logitech G305 X",
+      "reference": "111266",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11192",
+      "name": "Gabinete MSI MAG FORGE 321R AIRFLOW MID-TOWER, VIDRIO TEMPLADO 4MM, COMPATIBLE CON: ATX / M-ATX / ITX, PUERTOS: 1X USB-C 3.2, 2 X USB 3.2 GEN1, TYPE-A (5 GBPS), 1 X AUDIO-OUT, 1 X MIC-IN, 1X LED ON/OFF BUTTON - INCLUYE 4 ABANICOS ARGB, FILTRO DE AIRE MAGNETICO",
+      "reference": "106951",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "16485",
+      "name": "Mouse Logitech M170 INALAMBRICO ROJO",
+      "reference": "82885",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12311",
+      "name": "Ventilador Antec C120R.ARGB-3PK",
+      "reference": "107920",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "20280",
+      "name": "Ventilador Antec VISION 120 ARGB 3PK",
+      "reference": "108984",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Monitores",
+      "id": "21347",
+      "name": "Monitor Agiler TOUCH SCREEN 15.6\" AGI-TMP1550",
+      "reference": "108491",
+      "subcategory": "Táctiles"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "18362",
+      "name": "Mouse Xtech DISNEY MINNIE MOUSE, WIRELESS, OPTICAL SCROLL USB, 4 BOTONES, 800/1200/1600 DPI, BATERIAS X2 AAA (NO INCUIDAS) (XTM-D340MM)",
+      "reference": "95111",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21384",
+      "name": "Fuente de poder MSI MAG A750GN PCIE5",
+      "reference": "110512",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "21023",
+      "name": "Audífonos Logitech CON MICROFONO GAMING G335 NEGRO STEREO GAMING HEADSET",
+      "reference": "91336",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "7898",
+      "name": "Disco EXTERNO SOLIDO Kingston 2TB (SSD) PORTÁTIL, USB-C, TAMAÑO DE BOLSILLO, USB 3.2, GEN 2",
+      "reference": "96832",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "20816",
+      "name": "Teclado Logitech MOUSE MK295 SILENCIOSO WIRELESS COMBO NEGRO INGLES",
+      "reference": "89547",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "12862",
+      "name": "Control de juego MSI FORCE GC300 W, WIRELESS 2.4 GHZ, BATERIA 600 MAH, COLOR NEGRO",
+      "reference": "108736",
+      "subcategory": "Controles de juego"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "18868",
+      "name": "Memoria USB Kingston EXODIA 3.2 DTXM/128GB",
+      "reference": "99714",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Monitores",
+      "id": "20514",
+      "name": "Monitor Lenovo THINKVISION S22-4E 22\"",
+      "reference": "109678",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Monitores",
+      "id": "29382",
+      "name": "Monitor Lenovo THINKVISION S24-4E 24\"",
+      "reference": "111418",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "21483",
+      "name": "Mouse Wireless Ultra Compacto Agiler Agi-2095Bl Azul Nano Receptor",
+      "reference": "78301",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "21462",
+      "name": "Mouse pad Xtech GAMING VOYAGER, SUPERFICIE POLIESTER Y BASE DE GOMA (XTA-180)",
+      "reference": "88229",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "18894",
+      "name": "Mouse Argom INALAMBRICO,2,4 GHZ",
+      "reference": "104592",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "9818",
+      "name": "Gabinete ASE MSI MAG FORGE 120A AIRFLOW MID-TOWER, VIDRIO TTEMPLADO, COMPATIBLE CON: ATX / M-ATX / ITX",
+      "reference": "104839",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "19495",
+      "name": "Mouse Klip Xtreme OPTICO ARROW, BT 5.1, 4 BOTONES, 2400 DPI, GRIS, NO INCLUYE ADAPTADOR BT USB",
+      "reference": "106932",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24248",
+      "name": "Fuente de poder Corsair CX550, 550W 80 PLUS BLACK, NO MODULAR, CONECTORES PCI-E X2, SATA X3, PATA X2, COLOR NEGRO",
+      "reference": "108143",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Computadoras",
+      "id": "20480",
+      "name": "Computadora Lenovo THINKCENTRE M70Q",
+      "reference": "109618",
+      "subcategory": "Mini PC"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18563",
+      "name": "Teclado Logitech PEBBLE KEYS 2 K380S WIRELESS",
+      "reference": "96041",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17988",
+      "name": "Teclado Logitech POP KEYS WIRELESS MECHANICAL CON TECLAS EMOJIS COLOR HEARTBREAKER ROSE (ROSADO)",
+      "reference": "93740",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21035",
+      "name": "Mouse Logitech M170 INALAMBRICO GRIS AZULADO",
+      "reference": "94647",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Hikvision",
+      "category": "Monitores",
+      "id": "18006",
+      "name": "Monitor Hikvision SIN BORDES FHD DE 27\", 1 HDMI,1 VGA, VESA STAND BRACKET, TRABAJO 24/7",
+      "reference": "93798",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21031",
+      "name": "Mouse Logitech M170 INALAMBRICO BLANCO",
+      "reference": "93953",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "16288",
+      "name": "Mouse Logitech M185 INALAMBRICO MINI OPTICO NEGRO",
+      "reference": "78880",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "17838",
+      "name": "Memoria USB Kingston 128GB USB-C DATA TRAVELER 70 (DT70/128GB)",
+      "reference": "93315",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "20737",
+      "name": "Teclado Klip Xtreme PLEGABLE WIRELESS FLEXPLIT, TECLAS BAJO PERFIL, TOUCHPAD, USB-C + BLUETOOTH, ESPAÑOL",
+      "reference": "110224",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Myo",
+      "category": "Componentes",
+      "id": "24633",
+      "name": "Gabinete Myo GAMING MID TOWER, 3 VENTILADORES RGB, 1 DELANTERO, 1 TRASERO Y 1 LATERAL, Myo-Z300, RAINBOW RGB HUB, PANEL LATERAL DE CRISTAL TEMPLADO, SOPORTE PARA VGA, SIN SUMINISTRO DE ENERGÍA. NEGRO/GRIS",
+      "reference": "107179",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "21387",
+      "name": "Teclado MSI FORGE GK600 TKL W VIOLET US, WIRELESS 2.4 GHZ, SWITCHES MECANICO LINEAL, CABLE 1.8M (USB 2.0), BLUETOOTH, LED RGB, COLOR BLANCO/VIOLETA",
+      "reference": "110515",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "6315",
+      "name": "Mouse Logitech G305 LIGHTSPEED WIRELESS GAMING NEGRO",
+      "reference": "89361",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "20422",
+      "name": "Mouse Xtech OPTICAL, SCROLL, 3 BOTONES, USB, CON LUCES LED, NEGRO",
+      "reference": "109480",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "21063",
+      "name": "Monitor Samsung 27\" GAMING ODYSSEY G4 FHD",
+      "reference": "110420",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21128",
+      "name": "Fuente de poder Antec HCG1000 PRO PLATINUM - FULL MODULAR - ATX 3.1 (0-761345-20012-7)",
+      "reference": "109744",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "15291",
+      "name": "Mouse pad Klip Xtreme DE GEL NEGRO, (AC260KLX01) TRM2BDJ12",
+      "reference": "66880",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17982",
+      "name": "Mouse pad Logitech DESK MAT STUDIO SERIES COLOR MID GREY (GRIS)",
+      "reference": "93735",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "24588",
+      "name": "Mouse Logitech M350S PEBBLE INALAMBRICO OPTICO,",
+      "reference": "96037",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "19204",
+      "name": "Teclado Mouse Klipx Keyglider Inalámbrico Teclas Bajo Perfil Touchpad",
+      "reference": "106042",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "7195",
+      "name": "Gabinete Corsair ICUE 4000D AIRFLOW RGB, MID TOWER, WHITE, 7 EXPANSION SLOT, 3X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, SOPORTA 3 ABANICOS 120MM FRONTAL - BLANCO (CC-9011241-WW)",
+      "reference": "93618",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "28662",
+      "name": "Mouse Logitech M350S PEBBLE INALAMBRICO OPTICO,",
+      "reference": "96035",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Periféricos",
+      "id": "12925",
+      "name": "Mouse pad Corsair GAMING MM300 PRO PRIMIUM EXTENDED, TELA A PRUEBA DE DERRAMES, (930MM X 300MM X 3MM), NEGRO",
+      "reference": "92594",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Audio y Video",
+      "id": "18360",
+      "name": "Audífonos Xtech CON MICROFONO WIRELESS DISNEY MINNIE MOUSE, BT Y AUDIO JACK 3.5\", 8 HORAS DE REPRODUCCION (XTH-D660MM)",
+      "reference": "95110",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21132",
+      "name": "Fuente de poder Antec MEGA850 GOLD - FULL MODULAR - ATX 3.1",
+      "reference": "109748",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21130",
+      "name": "Fuente de poder Antec MEGA1000 GOLD - FULL MODULAR - ATX 3.1",
+      "reference": "109747",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21223",
+      "name": "Ventilador PARA CPU MSI SERIE MAG CORELIQUID A13 240 WHITE ALL-IN-ONE LIQUID CPU COOLER, 3*120MM ARGB, BLANCO, COMPATIBLE CON INTEL LGA 1700 / 1851, AMD AM5 / AM4.",
+      "reference": "110516",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17746",
+      "name": "Mouse Logitech LIFT VERTICAL ERGONOMICO INALAMBRICO BLANCO",
+      "reference": "92756",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21057",
+      "name": "Teclado Logitech MOUSE MK250 COMPACT WIRILESS BLUETOOTH COMBO ESPAÑOL",
+      "reference": "108741",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "17586",
+      "name": "Mouse pad Argom OVERSIZE GAMING COMBAT, NEGRO. (ARG-AC-1227BK)",
+      "reference": "91893",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21460",
+      "name": "Teclado Logitech MOUSE MK345 WIRELESS COMBO INGLES",
+      "reference": "78115",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "21514",
+      "name": "Teclado MOUSE Xtech COMBO CON MOUSE PAD Y HUB USB 4 PUERTOS, WIRELESS, OPTICAL MOUSE, ESPAÑOL. NEGRO",
+      "reference": "108470",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "11195",
+      "name": "Monitor MSI · referencia 106376",
+      "reference": "106376",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "21774",
+      "name": "Monitor Samsung 37\" VIEWFINITY S7 S70D",
+      "reference": "108705",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "29191",
+      "name": "Gabinete GAMING Antec VCX300 ARGB BLACK MID-TOWER (0-761345-10024-3)",
+      "reference": "109745",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "7894",
+      "name": "Disco EXTERNO SOLIDO Kingston 1TB (SSD) PORTÁTIL, USB-C, TAMAÑO DE BOLSILLO",
+      "reference": "94618",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "15910",
+      "name": "Mouse Xtech OPTICO, USB, CON SCROLL, NEGRO (XTM-185)",
+      "reference": "75921",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "15904",
+      "name": "Mouse Xtech ÓPTICO, USB, CON SCROLL, NEGRO (XTM-195)",
+      "reference": "75884",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Monitores",
+      "id": "19644",
+      "name": "Monitor Lenovo THINKVISION T22I-30 22\"",
+      "reference": "107190",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11725",
+      "name": "Gabinete MSI MAG PANO 100R PZ WHITE, MEDIA TOWER, MICRO-ATX / MINI-ITX, 2X USB 5 GBPS TYPE-A, 1X USB 20 GBPS TYPE-C, 1X AUDIO/MIC, 1X INTERRUPTOR LED",
+      "reference": "107251",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "1919",
+      "name": "Gabinete Corsair ICUE 5000T , MID TOWER, WHITE, 7 EXPANSION SLOT, 4X 2.5\", 2X 3.5\", CRISTAL TEMPLADO LATERAL, SOPORTA 3 ABANICOS 120MM FRONTAL, TOPE Y LATERAL, PUERTAS LATERALES CON BISAGRAS",
+      "reference": "92564",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "7182",
+      "name": "Gabinete Corsair 3000D AIRFLOW, MID TOWER, WHITE, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, SOPORTA 3 ABANICOS 120MM FRONTAL, 2 120MM EN EL TOPE, 2 120MM ABAJO, 1 120MM ATRAS, PUERTOS 2X USB 3.2 GEN1, HEADPHONE/MIC COMBO 3.5\" (CC-9011252-WW)",
+      "reference": "95544",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "6584",
+      "name": "Audífonos Logitech CON MICROFONO H390 PC BLANCO",
+      "reference": "93954",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Hiksemi",
+      "category": "Almacenamiento",
+      "id": "8628",
+      "name": "Disco Hiksemi DE ESTADO SOLIDO (SSD) 480GB, 2.5\", 3D NAND/SATA III 6 GB/S SATA II 3 GB/S",
+      "reference": "94514",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17980",
+      "name": "Mouse pad Logitech STUDIO SERIES COLOR GRAFICO (NEGRO)",
+      "reference": "93733",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "16511",
+      "name": "Mouse Klip Xtreme INALÁMBRICO VECTOR, ÓPTICO, 5 BOTONES, 1,600 DPI, 2.4 GHZ, NEGRO, (KMW-330BK)",
+      "reference": "83303",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18218",
+      "name": "Mouse Logitech LIFT VERTICAL ERGONOMICO INALAMBRICO NEGRO",
+      "reference": "94651",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "17836",
+      "name": "Memoria USB Kingston C - 64GB DATA TRAVELER 70 (DT70/64GB)",
+      "reference": "93314",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "15828",
+      "name": "Mouse Xtech OPTICO, USB, NEGRO, CON SCROLL, (XTM-175)",
+      "reference": "74947",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "16669",
+      "name": "Mouse Agiler Agi-2068Bl Wireless 2.4Ghz Nano Recertop USB Azul",
+      "reference": "85539",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "13068",
+      "name": "Ventilador PARA CPU MSI SERIE MAG CORELIQUID A12 240 ALL-IN-ONE LIQUID CPU COOLER, 2*120MM ARGB GEN 2",
+      "reference": "108772",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21015",
+      "name": "Mouse Logitech M170 INALAMBRICO GRIS",
+      "reference": "82884",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "18448",
+      "name": "CONTROLADORA Corsair ICUE LINK SYSTEM HUB PRO, PARA SINCRONIZAR Y CONTROLAR HASTA 14 DISPOSITIVOS COMPATIBLES CON ICUE",
+      "reference": "95525",
+      "subcategory": "Controladores RGB"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "17310",
+      "name": "Mouse Klip Xtreme INALAMBRICO LIGHTFLEX, PLEGABLE 3 BOTONES 2.4 GHZ, GRIS",
+      "reference": "90664",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "24586",
+      "name": "Mouse Logitech M350S PEBBLE INALAMBRICO OPTICO,",
+      "reference": "96036",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21033",
+      "name": "Mouse Logitech M110 SILENT OPTICO USB (NEGRO)",
+      "reference": "94372",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17155",
+      "name": "Mouse Logitech M190 INALAMBRICO ROJO",
+      "reference": "89546",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Myo",
+      "category": "Audio y Video",
+      "id": "7695",
+      "name": "Bocinas USB Myo MINI-SPEAKER 2.0, LED, 3.5MM CONEXIÓN DE AUDIO, CONTROL DE LUZ & VOLUMEN, COLOR NEGRO, REEMPLAZA Myo-U24",
+      "reference": "95620",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "HP",
+      "category": "Monitores",
+      "id": "28682",
+      "name": "Monitor HP REFURBISHED E241I",
+      "reference": "111252",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "24623",
+      "name": "Tarjeta gráfica MSI GEFORCE RTX 5070 TI",
+      "reference": "110835",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "13313",
+      "name": "Monitor AOC 24\" FHD 120HZ.",
+      "reference": "109299",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "1209",
+      "name": "Mouse Xtech MARVEL SPIDER-MAN, USB, 7 BOTONES, 2400DPI, LUCES ROJAS - 4 MODOS",
+      "reference": "93214",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Monitores",
+      "id": "20136",
+      "name": "Monitor Lenovo THINKVISION S27-4E 27\"",
+      "reference": "108474",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "1377",
+      "name": "Teclado Xtech MARVEL IRON MAN, USB MULTIMEDIA, ESPAÑOL",
+      "reference": "93203",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "17392",
+      "name": "Monitor DELL REFURBISHED P2314HC",
+      "reference": "91058",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "10997",
+      "name": "Ventilador PARA CPU MSI SERIE MAG CORELIQUID A13 240 ALL-IN-ONE LIQUID CPU COOLER, 3*120MM ARGB, NEGRO, COMPATIBLE CON INTEL LGA 1700 / 1851, AMD AM5 / AM4.",
+      "reference": "106733",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Primus",
+      "category": "Audio y Video",
+      "id": "28090",
+      "name": "CONSOLA DE CONTROL PARA STREAMER Primus IMPERIUM15T - 15 TECLAS LCD PROGRAMABLES - USB 2.0 A USB-C - COMPATIBLE CON WINDOWS Y MACOS",
+      "reference": "111012",
+      "subcategory": "Accesorios de audio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "1383",
+      "name": "Teclado Logitech Y TOUCHPAD K400 PLUS USB WIRELESS ESPAÑOL",
+      "reference": "77665",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "15064",
+      "name": "Disco Seagate DURO 73GB P/SERVER TRAMO 5 JAULA",
+      "reference": "61147",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "7521",
+      "name": "Mouse Logitech M170 INALAMBRICO AZUL",
+      "reference": "82883",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21017",
+      "name": "Teclado Logitech MOUSE MK235 COMBO USB WIRELESS ESPAÑOL",
+      "reference": "87672",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Componentes",
+      "id": "12720",
+      "name": "Fuente de poder Agiler 1000W - 120MM FAN 20+4 PIN + 2 SATA (AGI-PS1000)",
+      "reference": "78501",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "13144",
+      "name": "Teclado MSI FORGE GK110 US, GAMING, SWITCHES MENBRANA, USB 2.0, CABLE 1.5M (USB-A TO C), IDIOMA INGLES",
+      "reference": "108754",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "2009",
+      "name": "Mouse Logitech G502 GAMING HERO COLOR NEGRO",
+      "reference": "86551",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "20565",
+      "name": "Teclado Xtech USB MULTIMEDIA NEGRO, ESPAÑOL",
+      "reference": "109869",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Myo",
+      "category": "Componentes",
+      "id": "11235",
+      "name": "Gabinete Myo GAMING MID TOWER, 4 VENTILADORES ARGB, 3 DELANTERO Y 1 TRASERO, Myo-Y200, VENTILADOR DE ARCO IRIS, 2X USB 3.0, 1X 3.5\" AUDIO, PUERTO DE AUDIO, PANEL LATERAL DE CRISTAL TEMPLADO, SIN SUMINISTRO DE ENERGÍA.",
+      "reference": "107178",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Periféricos",
+      "id": "17163",
+      "name": "Teclado USB, BLACK, INGLES, (Lenovo-RB-BK)",
+      "reference": "89578",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "1836",
+      "name": "Cámara web Logitech C922",
+      "reference": "82636",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "21470",
+      "name": "Teclado Xtech MOUSE COMBO USB, MULTIMEDIA, OPTICAL MOUSE, ESPAÑOL. NEGRO",
+      "reference": "109875",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21118",
+      "name": "Ventilador ENFRIAMIENTO LÍQUIDO Antec LUNA 360 ARGB BLANCO",
+      "reference": "109459",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "11395",
+      "name": "Teclado Klip Xtreme MOUSE KEYROLL, WIRELESS, MULTIMEDIA, MOUSE CON 3 BOTONES, 1200 DPI, OPTICAL MOUSE, ESPAÑOL",
+      "reference": "106931",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Elo",
+      "category": "Monitores",
+      "id": "19321",
+      "name": "Monitor Elo 1509L 15.6\", TOUCHSCREEN, 720P, 16MS, 60HZ, 300:1. PUERTOS: 1 VGA. TECNOLOGIA INTELLITOUCH, CAPACIDAD PARA FIJARSE EN LA PARED.",
+      "reference": "106519",
+      "subcategory": "Táctiles"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "13004",
+      "name": "Ventilador Corsair PARA CPU NAUTILUS 240 RS ARGB (LIQUID COOLING) 240MM NEGRO, 2X 120MM FAN COOLER, RGB LED, DEISY CHAIN CONECTOR, COMPATIBLE CON LOS SOCKET INTEL 1700, 1851, SOCKET AMD AM5, AM4",
+      "reference": "108140",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "20714",
+      "name": "Monitor Samsung 37\" GAMING ODYSSEY G7",
+      "reference": "110190",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Monitores",
+      "id": "21342",
+      "name": "Monitor Lenovo THINKVISION C24-40 24\"",
+      "reference": "108454",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Componentes",
+      "id": "12582",
+      "name": "Gabinete Agiler GAMING MICRO ATX / ITX NEGRO, CON DOBLE ESQUINA DE CRISTAL",
+      "reference": "107687",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21013",
+      "name": "Teclado Logitech K120 USB ESPAÑOL",
+      "reference": "73927",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "1265",
+      "name": "Cámara web Logitech HD PRO C920",
+      "reference": "70343",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "21738",
+      "name": "Monitor AOC PORSCHE 34\" GAMING 240HZ (PD34)",
+      "reference": "105815",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "7792",
+      "name": "Monitor Samsung 27\" GAMING ODYSSEY G4 FHD (1,920 X 1,080), IPS, GAMING BEZEL LESS, 240 HZ, 1MS, G-SYNC / FREESYNC COMPATIBLE, PUERTOS: 2 HDMI VERSION 2.0, 1 DISPLAYPORT V 1.2, JACK 3.5\" PARA AUDIFONOS",
+      "reference": "94299",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Almacenamiento",
+      "id": "22255",
+      "name": "Disco Duro Interno Mixto 500Gb Sata 3.0Gb/S 3.5″ Usado",
+      "reference": "70145",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21116",
+      "name": "Ventilador ENFRIAMIENTO LÍQUIDO Antec LUNA 360 ARGB",
+      "reference": "109458",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21756",
+      "name": "Gabinete GAMING Antec C7 ARGB WHITE",
+      "reference": "107886",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "7380",
+      "name": "Tarjeta madre MSI PRO H610M-G DDR4",
+      "reference": "93706",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "Intel",
+      "category": "Componentes",
+      "id": "9684",
+      "name": "Procesador Intel CORE I5-11600K",
+      "reference": "91822",
+      "subcategory": "Procesadores"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "12894",
+      "name": "Disco Seagate DURO 1TB P/VIDEOVIGILANCIA SKYHAWK",
+      "reference": "95548",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Mobiliario",
+      "id": "16713",
+      "name": "Silla Xtech GAMING, DE TELA, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ALTURA AJUSTABLE Y BASE CON RUEDAS ROBUSTAS (XTF-EC129)",
+      "reference": "86365",
+      "subcategory": "Sillas"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21124",
+      "name": "Fuente de poder Antec CSK 750W DC - PCIE 5.1 READY (0-761345-20115-5)",
+      "reference": "109742",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Myo",
+      "category": "Periféricos",
+      "id": "16972",
+      "name": "Combo Myo TECLADO & MOUS INALAMBRICO ESPAÑOL .",
+      "reference": "88257",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "21444",
+      "name": "Teclado Logitech K250 COMPACT BLUETOOTH WIRELESS COLOR GRAPHITE",
+      "reference": "108739",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12304",
+      "name": "Ventilador Antec C120 ARGB 3PK WHITE.",
+      "reference": "107919",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Hikvision",
+      "category": "Monitores",
+      "id": "19595",
+      "name": "Monitor Hikvision SIN BORDES FHD DE 24, 1 HDMI,1 VGA, VESA STAND BRACKET, TRABAJO 24/7, (1920 × 1080), 100HZ",
+      "reference": "107108",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "18896",
+      "name": "Mouse Argom INALAMBRICO,2,4 GHZ, AZUL",
+      "reference": "104593",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "18898",
+      "name": "Mouse Argom INALAMBRICO,2,4 GHZ,ROJO",
+      "reference": "104594",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Sonos",
+      "category": "Audio y Video",
+      "id": "19254",
+      "name": "Barra de sonido (BARRA DE SONIDO) WIRELESS Sonos ARC ULTRA W BLANCO, CON PUERTO ETHERNET, WIFI, BLUETOOH, HDMI, SONIDO SURROUND, COMPATIBLE CON APPLE AIRPLAY 2, SONIDO NOCTURNO.",
+      "reference": "106233",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "20877",
+      "name": "Monitor AOC 27\" GAMING QHD 180HZ",
+      "reference": "109615",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18561",
+      "name": "Teclado Logitech WAVE KEYS,WIRELESS ESPAÑOL",
+      "reference": "96038",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12373",
+      "name": "Gabinete GAMING Antec C5 CURVE ARGB BLACK",
+      "reference": "107891",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "13002",
+      "name": "Ventilador Corsair PARA CPU NAUTILUS 240 RS (LIQUID COOLING) 240MM, 2X 120MM FAN COOLER, DEISY CHAIN CONECTOR, COMPATIBLE CON LOS SOCKET INTEL 1700, 1851, SOCKET AMD AM5, AM4",
+      "reference": "108141",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12371",
+      "name": "Gabinete GAMING Antec C5 CURVE ARGB WHITE",
+      "reference": "107892",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "8027",
+      "name": "Gabinete Corsair 3000D AIRFLOW, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, SOPORTA 3 ABANICOS 120MM FRONTAL, 2 120MM EN EL TOPE, 2 120MM ABAJO, 1 120MM ATRAS, PUERTOS 2X USB 3.2 GEN1, HEADPHONE/MIC COMBO 3.5\" (CC-9011251-WW)",
+      "reference": "95542",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "29173",
+      "name": "Televisor Samsung 43\" 2026",
+      "reference": "111287",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "21029",
+      "name": "Audífonos Logitech CON MICROFONO GAMING G535 LIGHTSPEED WIRELESS NEGRO",
+      "reference": "92754",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13541",
+      "name": "Ventilador Antec ORBIT 120 ARGB 3PK",
+      "reference": "108983",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "20325",
+      "name": "Monitor DELL REFURBISHED MODEL E2220H",
+      "reference": "109274",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "17446",
+      "name": "Audífonos Logitech CON MICROFONO GAMING G335 BLANCO STEREO GAMING HEADSET",
+      "reference": "91337",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "29175",
+      "name": "Televisor Samsung 32\" LED HD",
+      "reference": "111289",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "16860",
+      "name": "Mouse Argom USB GAMING COMBAT BLACK .",
+      "reference": "87287",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "17546",
+      "name": "Mouse Argom USB GAMING COMBAT BLACK .",
+      "reference": "91866",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Dell",
+      "category": "Computadoras",
+      "id": "21581",
+      "name": "Computadora Dell WYSE 3050-T50",
+      "reference": "74880",
+      "subcategory": "Terminales"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "24479",
+      "name": "Mouse + MOUSE PAD Xtech DISNEY TOY STORY WIRELESS, OPTICAL MOUSE",
+      "reference": "110309",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11297",
+      "name": "Gabinete MSI MAG PANO M100R PZ",
+      "reference": "107249",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Monitores",
+      "id": "22972",
+      "name": "Monitor Lenovo Thinkvision T24I-20 24 Pulgadas Vga HDMI Displayport",
+      "reference": "89099",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "20945",
+      "name": "Mouse Logitech M190 INALAMBRICO NEGRO (CARBON)",
+      "reference": "89544",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "28495",
+      "name": "Monitor Dell 22\" (21.5\"), E2216HV",
+      "reference": "91065",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13539",
+      "name": "Ventilador PARA CPU Antec SKELETON-360 WHITE ARGB (LIQUID COOLING) 360MM, INCLUYE TRES ABANICOS ARGB PWM DE 120MM HASTA 2000 RPM, DISEÑO DE LA BOMBA SKELETON-FRAME CON BASE DE COBRE PARA MÁXIMA DISIPACIÓN, COMPATIBLE CON SOCKETS INTEL LGA 1700, 1200, 115X, SOCKET AMD AM5, AM4.",
+      "reference": "109175",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "15906",
+      "name": "Disco Seagate DURO 3TB INTERNO",
+      "reference": "75897",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11916",
+      "name": "Gabinete MSI MAG PANO 110R PZ",
+      "reference": "107657",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "12901",
+      "name": "Disco Seagate DURO 2TB P/VIDEOVIGILANCIA SKYHAWK",
+      "reference": "95245",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11910",
+      "name": "Gabinete MSI MAG PANO 110R PZ WHITE",
+      "reference": "107656",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "8922",
+      "name": "Gabinete MSI MAG FORGE M100A",
+      "reference": "94159",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Almacenamiento",
+      "id": "18782",
+      "name": "DVD-R VERB-95101",
+      "reference": "96927",
+      "subcategory": "Unidades ópticas"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13535",
+      "name": "Ventilador PARA CPU Antec SKELETON-240 ARGB (LIQUID COOLING) 240MM, INCLUYE DOS ABANICOS ARGB PWM DE 120MM HASTA 2000 RPM, DISEÑO DE LA BOMBA SKELETON-FRAME CON BASE DE COBRE, COMPATIBLE CON SOCKETS INTEL LGA 1700, 1200, 115X, SOCKET AMD AM5, AM4.",
+      "reference": "108977",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13537",
+      "name": "Ventilador PARA CPU Antec SKELETON-360 ARGB (LIQUID COOLING) 360MM, INCLUYE TRES ABANICOS ARGB PWM DE 120MM HASTA 2000 RPM, DISEÑO DE LA BOMBA SKELETON-FRAME CON BASE DE COBRE PARA MÁXIMA DISIPACIÓN, COMPATIBLE CON SOCKETS INTEL LGA 1700, 1200, 115X, SOCKET AMD AM5, AM4.",
+      "reference": "108981",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "ViewSonic",
+      "category": "Monitores",
+      "id": "28688",
+      "name": "Monitor VIEWSONIC REFURBISHED VG2732M",
+      "reference": "111260",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11991",
+      "name": "Gabinete MSI PRO SHIELD M100P",
+      "reference": "107665",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "29097",
+      "name": "Monitor Samsung 27\" GAMING ODYSSEY OLED G6",
+      "reference": "111281",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "2001",
+      "name": "Teclado Logitech MOUSE MK540 WIRELESS COMBO ESPAÑOL",
+      "reference": "87673",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13055",
+      "name": "Ventilador Antec VORTEX LUM 240 ARGB",
+      "reference": "107929",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Audio y Video",
+      "id": "17806",
+      "name": "Audífonos CON MICROFONO WIRELESS Xtech DISNEY MICKEY MOUSE, BT Y AUDIO JACK 3.5\", 8 HORAS DE REPRODUCCION (XTH-D660MK)",
+      "reference": "93188",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "16429",
+      "name": "Mouse Argom USB GAMING COMBAT NEGRO .",
+      "reference": "81259",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Monitores",
+      "id": "21350",
+      "name": "Monitor Agiler TOUCH SCREEN 15.6\" AGI-TMP1575",
+      "reference": "108492",
+      "subcategory": "Táctiles"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "17352",
+      "name": "Mouse Argom USB RATÓN ÓPTICO CON CABLE DE 3 TECLAS, RESOLUCIÓN 800 DPI, RUEDA DE ABS DE DESPLAZAMIENTO, DIMENSIÓN 115X50X32 MM. 100MA MÁXIMO-5V. NEGRO",
+      "reference": "90813",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "20273",
+      "name": "Gabinete GAMING Antec TORQUE MID-TOWER WHITE",
+      "reference": "108974",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "28684",
+      "name": "Monitor DELL REFURBISHED P2414H",
+      "reference": "111253",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21372",
+      "name": "Tarjeta gráfica MSI GEFORCE RTX 3050 LP 6G OC",
+      "reference": "107650",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Periféricos",
+      "id": "1359",
+      "name": "Mouse Corsair HARPOON PRO GAMING, OPTICO USB, 6 BOTONES PROGRAMABLE, VELOCIDAD 12000 DPI (CH-9301111-NA)",
+      "reference": "88188",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "20487",
+      "name": "Monitor MSI PRO MP242",
+      "reference": "109651",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Intel",
+      "category": "Componentes",
+      "id": "29274",
+      "name": "Procesador Intel CORE I3-12100",
+      "reference": "92423",
+      "subcategory": "Procesadores"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12369",
+      "name": "Gabinete GAMING Antec C5 ARGB BLACK",
+      "reference": "107887",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Argom",
+      "category": "Audio y Video",
+      "id": "6129",
+      "name": "Bocinas Argom BLUETOOTH, 10W, DRUMBEATS SPEAKER, TWS HIFI INDOOR/OUTDOOR WIRELESS, NEGRO.",
+      "reference": "91422",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Verbatim",
+      "category": "Almacenamiento",
+      "id": "28281",
+      "name": "DVD-R Verbatim 16X DATA LIFE PLUS 16X, 4.7GB, BLANCO INKJET PRINTIABLE SPINDLE",
+      "reference": "93462",
+      "subcategory": "Unidades ópticas"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12367",
+      "name": "Gabinete GAMING Antec C5 ARGB WHITE",
+      "reference": "107888",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "1434",
+      "name": "Bocinas Logitech Z313 2.1",
+      "reference": "66096",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Verbatim",
+      "category": "Almacenamiento",
+      "id": "21436",
+      "name": "CD-R Verbatim 80MIN 700MB 52X",
+      "reference": "89485",
+      "subcategory": "Unidades ópticas"
+    },
+    {
+      "brand": "Hiksemi",
+      "category": "Almacenamiento",
+      "id": "8623",
+      "name": "Disco Hiksemi DE ESTADO SOLIDO (SSD) 240GB, 2.5\", 3D NAND/SATA III 6 GB/S SATA II 3 GB/S",
+      "reference": "94512",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "24220",
+      "name": "Audífonos Logitech CON MICROFONO GAMING PRO X NEGRO (PREMIUM)",
+      "reference": "89370",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Hikvision",
+      "category": "Monitores",
+      "id": "19216",
+      "name": "Monitor Hikvision SIN BORDES FHD IPS DE 27\", 1 HDMI,1 VGA, VESA STAND BRACKET, TRABAJO 24/7, 100 HZ",
+      "reference": "106088",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "24584",
+      "name": "Teclado Logitech GAMING G213 (ENG LAYOUT/ SPA PACKAGE)",
+      "reference": "79310",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "19202",
+      "name": "Mouse Klip Xtreme WIRELESS ERGOLAST, 6 BOTONES, 2.4 GHZ, SEMI VERTICAL, ADAPATDOR USB",
+      "reference": "106040",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Roku",
+      "category": "Audio y Video",
+      "id": "18022",
+      "name": "Roku 4K+ STREAMING - HDR/DOLBY",
+      "reference": "93854",
+      "subcategory": "Streaming y TV Smart"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "21356",
+      "name": "Monitor MSI PRO MP245PG",
+      "reference": "109652",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "22389",
+      "name": "Teclado USB Negro Español Xtech Id221Gnk17 Usado",
+      "reference": "75665",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "24624",
+      "name": "Combo MOUSE TECLADO MSI GAMING GEAR BUNDLE FRIEREN EDITION",
+      "reference": "110838",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "20271",
+      "name": "Gabinete GAMING Antec TORQUE MID-TOWER",
+      "reference": "108973",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "17611",
+      "name": "Memoria USB Kingston 64GB DATA TRAVELER KYSON METAL (DTKN/128GB)",
+      "reference": "92022",
+      "subcategory": "Memorias USB"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Componentes",
+      "id": "15352",
+      "name": "Memoria 1GB (1X1GB) GENERICA P/DESKTOP",
+      "reference": "68036",
+      "subcategory": "Memorias RAM"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13053",
+      "name": "Ventilador Antec VORTEX LUM 360 ARGB WHITE",
+      "reference": "107903",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11785",
+      "name": "Ventilador PARA CPU MSI SERIE MAG CORELIQUID A15 240MM ALL-IN-ONE LIQUID CPU COOLER, 2*120MM ARGB GEN 2, NEGRO, COMPATIBLE CON INTEL LGA 1700 / 1851, AMD AM5 / AM4",
+      "reference": "107468",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11788",
+      "name": "Ventilador PARA CPU MSI SERIE MAG CORELIQUID A15 360MM ALL-IN-ONE LIQUID CPU COOLER, 3*120MM ARGB GEN 2, NEGRO, COMPATIBLE CON INTEL LGA 1700 / 1851, AMD AM5 / AM4",
+      "reference": "107467",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Componentes",
+      "id": "12579",
+      "name": "Gabinete Agiler GAMING MICRO ATX / ITX NEGRO, LATERALES EN CRISTAL",
+      "reference": "107689",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "22854",
+      "name": "Mouse Wireless Vertical Ergonómico Klipx 2.4 Ghz 800-1600 Dpi",
+      "reference": "84651",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Sonos",
+      "category": "Audio y Video",
+      "id": "19690",
+      "name": "Barra de sonido (BARRA DE SONIDO MINI) WIRELESS Sonos RAY W BLANCO, CON PUERTO ETHERNET, WIFI, BLUETOOH, HDMI, SONIDO SURROUND, COMPATIBLE CON APPLE AIRPLAY 2, SPOTIFY CONNECT SONIDO NOCTURNO, MEJORA DEL HABLA.",
+      "reference": "107391",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "MSI",
+      "category": "Audio y Video",
+      "id": "29132",
+      "name": "Audífonos CON MICROFONO MSI MAESTRO 500 W BLACK, GAMING HEADSET, COLOR NEGRO",
+      "reference": "111322",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Audio y Video",
+      "id": "29134",
+      "name": "Audífonos CON MICROFONO MSI MAESTRO 500 W NAVY, GAMING HEADSET, COLOR NAVY",
+      "reference": "111323",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "13519",
+      "name": "Monitor MSI PRO MP243W",
+      "reference": "109649",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "9735",
+      "name": "Audífonos In-Ear Jbl Endurance Race Tws Bluetooth Ip67",
+      "reference": "106122",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "24534",
+      "name": "Mouse + MOUSE PAD GEL Xtech DISNEY TOY STORY WIRELESS, OPTICAL MOUSE",
+      "reference": "110308",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Sonos",
+      "category": "Audio y Video",
+      "id": "19688",
+      "name": "Barra de sonido (BARRA DE SONIDO MINI) WIRELESS Sonos RAY B NEGRO",
+      "reference": "107390",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "6799",
+      "name": "Fuente de poder MSI MAG A550BN",
+      "reference": "94580",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "19296",
+      "name": "Monitor Dell · referencia 106456",
+      "reference": "106456",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Verbatim",
+      "category": "Almacenamiento",
+      "id": "21442",
+      "name": "CD-R Verbatim 80M/700, 52X",
+      "reference": "91540",
+      "subcategory": "Unidades ópticas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "9739",
+      "name": "Audífonos JBL LIVE BEAMS 3 AZUL",
+      "reference": "97025",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18404",
+      "name": "Cámara web Logitech BRIO 100 GRAFITO",
+      "reference": "95367",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "18944",
+      "name": "Disco Seagate DURO 6TB P/VIDEOVIGILANCIA",
+      "reference": "104714",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Sonos",
+      "category": "Audio y Video",
+      "id": "19252",
+      "name": "Barra de sonido (BARRA DE SONIDO) WIRELESS Sonos BEAM G2 NEGRO, INTERFAZ: ETHERNET, WIFI, HDMI, SONIDO SURROUND, COMPATIBLE CON APPLE AIRPLAY 2, CONTROLES TACTILES, CONTROL POR VOZ",
+      "reference": "106230",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12377",
+      "name": "Gabinete GAMING Antec C8 ARGB BLACK",
+      "reference": "107831",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12375",
+      "name": "Gabinete GAMING Antec C8 ARGB WHITE",
+      "reference": "107832",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Argom",
+      "category": "Periféricos",
+      "id": "20818",
+      "name": "Mouse Argom INALAMBRICO, RECEPTOR NANO USB, DISTANCIA DE TRABAJO DE HASTA 10 METROS, RESOLUCIONES DE 800/1200/1600 DPI, DIMENSIONES: 111 X 80 X 30 MM, 2 PILAS AAA (NO INCLUIDAS)",
+      "reference": "90814",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "24532",
+      "name": "Mouse pad Xtech MARVEL TOY STORY, SUPERFICIE DE TELA, DIMENSIONES 25.59\" X 14.56\" X 0.15\"",
+      "reference": "110307",
+      "subcategory": "Mouse pads"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Periféricos",
+      "id": "11108",
+      "name": "Cámara Web 2K con Micrófono Integrado USB Plug-and-Play",
+      "reference": "10331",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "1379",
+      "name": "Teclado Xtech MARVEL CAPTAIN AMERICA, USB MULTIMEDIA, ESPAÑOL",
+      "reference": "93204",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "22818",
+      "name": "Mouse Óptico Scroll USB Xtech Xtm-165 Negro",
+      "reference": "83144",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12385",
+      "name": "Gabinete GAMING Antec PERFORMANCE 1 FT ARGB BLACK",
+      "reference": "107902",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Verbatim",
+      "category": "Almacenamiento",
+      "id": "21450",
+      "name": "CD-R Verbatim 52X",
+      "reference": "91676",
+      "subcategory": "Unidades ópticas"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "22988",
+      "name": "Monitor Dell Refurbished E2318H 23 Pulgadas Vga HDMI",
+      "reference": "89827",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "28725",
+      "name": "Monitor DELL REFURBISHED U2412M",
+      "reference": "111254",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "1389",
+      "name": "Teclado Logitech K650 WIRELESS Y BLUETOOH ESPAÑOL",
+      "reference": "93011",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "21207",
+      "name": "Bocinas JBL CINEMA SB580, NEGRO",
+      "reference": "107304",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Audio y Video",
+      "id": "11482",
+      "name": "SOPORTE PARA TV Xtech SIZE: 32-70\", INCLINABLE, MOVIMIENTO A LOS LADOS",
+      "reference": "86373",
+      "subcategory": "Soportes para TV"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12119",
+      "name": "Monitor MSI MAG 276CF E20",
+      "reference": "107247",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "18402",
+      "name": "Cámara web Logitech BRIO 100 BLANCO",
+      "reference": "95366",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "SanDisk",
+      "category": "Almacenamiento",
+      "id": "15211",
+      "name": "Memoria SanDisk 8GB MEMORY STICK MICRO",
+      "reference": "65047",
+      "subcategory": "Tarjetas de memoria"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "20319",
+      "name": "Monitor Samsung 32\" GAMING SMART M8",
+      "reference": "109249",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "17986",
+      "name": "Mouse Logitech POP MOUSE WITH EMOJI COLOR HEARTBREAKER ROSE (ROSADO)",
+      "reference": "93738",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Primus",
+      "category": "Audio y Video",
+      "id": "28088",
+      "name": "CONSOLA DE CONTROL PARA STREAMER Primus IMPERIUM6T - 6 TECLAS LCD PROGRAMABLES - 3 PERILLAS DE CONTROL GIRATORIOS Y FUNCION DE CLICK - USB 2.0 A USB-C - COMPATIBLE CON WINDOWS Y MACOS",
+      "reference": "111011",
+      "subcategory": "Accesorios de audio"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "1211",
+      "name": "Mouse Xtech MARVEL AVENGERS (CAPTAIN AMERICA), WIRELESS, OPTICAL SCROLL USB, 4 BOTONES, 800/1200/1600 DPI, BATERIAS X2 AAA (NO INCUIDAS)",
+      "reference": "93205",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "24168",
+      "name": "Gabinete Antec 900 - FULL TOWER - HERITAGE SERIES - EDGE AI & WORKSTATION READY - 6 FANS PWM PRE-INSTALADOS - TYPE-C 10GBPS - SOPORTE GPU HASTA 495MM",
+      "reference": "110131",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Periféricos",
+      "id": "12678",
+      "name": "Teclado MOUSE Xtech DISNEY WIRELESS, STITCH, OPTICAL MOUSE, ESPAÑOL. AZUL / AMARILLO / MAGENTA",
+      "reference": "107879",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "21227",
+      "name": "Mouse MSI VERSA PRO W, WIRELESS 2.4 GHZ, USB 2.0, BLUETOOTH 5.3, COLOR NEGRO",
+      "reference": "110518",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "13571",
+      "name": "Monitor AOC (15.6\") PORTATIL FHD 60HZ",
+      "reference": "108126",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Argom",
+      "category": "Audio y Video",
+      "id": "9481",
+      "name": "Bocinas Argom COMBAT GAMING, USB, HI-FI AUDIO, AUX(3.5MM), 5 WATTS. (SP68)",
+      "reference": "91421",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Dell",
+      "category": "Monitores",
+      "id": "21290",
+      "name": "Monitor DELL REFURBISHED 23\"",
+      "reference": "90498",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29424",
+      "name": "Laptop Dell 15.6\" FHD TOUCH DISPLAY, CORE I7-1355U, 16GB DDR4, 512GB SSD, WINDOWS 11 HOME",
+      "reference": "111165",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "28075",
+      "name": "BULTO PARA LAPTOP Klip Xtreme NOVA 14\" TIPO SLEEVE, SILVER (KNS-425SV)",
+      "reference": "110927",
+      "subcategory": "Accesorios para laptop"
+    },
+    {
+      "brand": "HP",
+      "category": "Laptops",
+      "id": "28701",
+      "name": "Laptop HP PROBOOK 4 G2I 14\", INTEL CORE ULTRA 7",
+      "reference": "111022",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "29130",
+      "name": "Monitor MSI MAG 274QRFW X32, GAMING, 27\", FLAT, WQHD (2560 X 1440) , 320 HZ, RAPID IPS, COLOR BLANCO",
+      "reference": "108765",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "20207",
+      "name": "Monitor MSI PRO MP271 E14A, 27\", FLAT, FHD (1920 X 1080) , 144 HZ, IPS, COLOR NERO",
+      "reference": "108768",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Periféricos",
+      "id": "16134",
+      "name": "Agiler CANDADO DE SEGURIDAD PARA LAPTOP, 6 PIES, CON CLAVE, BLANCO, (AGI-4007)",
+      "reference": "77650",
+      "subcategory": "Accesorios para laptop"
+    },
+    {
+      "brand": "HP",
+      "category": "Laptops",
+      "id": "28655",
+      "name": "Laptop HP PROBOOK 4 G2I 16\", INTEL CORE ULTRA 5 325",
+      "reference": "111023",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "29058",
+      "name": "Laptop Lenovo REFURBISHED THINKPAD L13 GEN2 | 13.3 PULGADAS | INTEL CORE I5-1135G7 @2.4GHZ | 256GB SSD | 16GB DDR4 RAM |",
+      "reference": "111139",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "8072",
+      "name": "Fuente de poder Corsair 750 WATTS, 80 PLUS BRONZE (CX750), NO MODULAR, CONECTORES PCI-E X2, SATA X5, PATA X4, COLOR NEGRO",
+      "reference": "96474",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "29129",
+      "name": "Monitor MSI, 24\", MAG 245C X24, GAMING, 1920 X1080, FHD, 240 HZ, CURVO 1500R",
+      "reference": "111335",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12832",
+      "name": "Monitor MSI PRO MP273L E14, 27\", FLAT, FHD (1920 X 1080) , 144 HZ, IPS, COLOR NEGRO",
+      "reference": "108727",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12830",
+      "name": "Monitor MSI PRO MP243L E14, 23.8\", FLAT, FHD (1920 X 1080) , 144 HZ, IPS, COLOR NERO",
+      "reference": "108769",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12828",
+      "name": "Monitor MSI MAG 245F X24, GAMING, 23.8\", FLAT, FHD (1920 X 1080) , 240 HZ, RAPID IPS, COLOR NERO",
+      "reference": "108767",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "23040",
+      "name": "Laptop Dell Latitude 7420 Xcto 14″ Fhd I5-1135G7 8Gb 256Gb W10 Pro",
+      "reference": "91019",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "29136",
+      "name": "Monitor MSI, 27\", MAG 274CQPDF X32, GAMING, 2560 X 1440, WQHD, 320 HZ, CURVO 1500R, RAPID VA, 1 X DISPLAYPORT 1.4A, 2 X HDMI 2.1, 1X HEADPHONE OUT, COLOR NEGRO",
+      "reference": "111324",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Markvision",
+      "category": "Componentes",
+      "id": "15786",
+      "name": "Memoria Markvision 4GB SODIMM 1333 PARA LAPTOP",
+      "reference": "74519",
+      "subcategory": "Memorias RAM"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "23775",
+      "name": "Laptop Lenovo Thinkpad E14 G5 Intel Core I5 14″ Wuxga Touch 16Gb 512Gb SSD",
+      "reference": "108016",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "HP",
+      "category": "Laptops",
+      "id": "21672",
+      "name": "Laptop HP PROBOOK 445 G7 14\"",
+      "reference": "90227",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "20921",
+      "name": "Laptop Dell LATITUDE 5450 14\" FHD, INTEL CORE ULTRA 7 155U, RAM 16GB, DISCO 256GB SSD. WIN 11 PRO INGLES, BACKLIT KEYBOARD, LECTOR DE HUELLAS, 2X USB-A 3.2, 2X USB-C, 1X HDMI 2.11, TITAN GRAY",
+      "reference": "109796",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "HP",
+      "category": "Laptops",
+      "id": "29163",
+      "name": "Laptop HP 15-FD0215 15.6\" FHD TOUCH, INTEL CORE I5-1334U, 16GB, 512GB SSD, WINDOWS 11 HOME INGLES, 2X USB-A 3.0, 1X USB-C 3.2, 1X HDMI 1.4B, NATURAL SILVER",
+      "reference": "111305",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "9650",
+      "name": "Tarjeta madre MSI B760M PROJECT ZERO LGA, DDR5, INTEL, SATA 6GBPS, MICRO ATX",
+      "reference": "106053",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "19804",
+      "name": "Tarjeta madre MSI PRO H810M-B",
+      "reference": "107662",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "29884",
+      "name": "Laptop Lenovo V14 G5 IRL 14\" FHD, I7-13620H, 16GB, 512GB M.2 SSD, WIN 11 HOME, BT 5.0, WIFI 6, CARD READER, HDMI 1.4, USB 2.0, USB 3.2 X2, GIGABIT LAN, BLACK",
+      "reference": "111555",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Markvision",
+      "category": "Componentes",
+      "id": "15922",
+      "name": "Memoria 4GB (1X4GB) Markvision P/LAPTOP",
+      "reference": "76008",
+      "subcategory": "Memorias RAM"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "20502",
+      "name": "Tarjeta madre MSI PRO H610M-A DDR4",
+      "reference": "109664",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "HP",
+      "category": "Laptops",
+      "id": "20879",
+      "name": "Laptop HP PROBOOK 4 GLI 14\", CORE ULTRA 7",
+      "reference": "109834",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21225",
+      "name": "Ventilador PARA CPU MSI SERIE MAG CORELIQUID A12 360 ALL-IN-ONE LIQUID CPU COOLER, 3*120MM ARGB GEN 2",
+      "reference": "110517",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "24596",
+      "name": "Laptop Lenovo THINKPAD E14 GEN 5, 14\" IPS WUXGA TOUCH.",
+      "reference": "109935",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "16675",
+      "name": "Laptop Lenovo THINKPAD T480 14\"",
+      "reference": "85671",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "28568",
+      "name": "Laptop Dell LATITUDE 5320",
+      "reference": "91332",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21221",
+      "name": "Ventilador PARA CPU MSI MAG COREFROZR AA13",
+      "reference": "109660",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Componentes",
+      "id": "15145",
+      "name": "Memoria 256MB (1X256MB) GENERICA, P/LAPTOP",
+      "reference": "63509",
+      "subcategory": "Memorias RAM"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "29516",
+      "name": "Laptop Lenovo THINKPAD T14 G4",
+      "reference": "111414",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "HP",
+      "category": "Laptops",
+      "id": "21632",
+      "name": "Laptop HP EB820 G3 12.5”",
+      "reference": "85928",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "20820",
+      "name": "Laptop Dell LATITUDE 7420 XCTO, 14\" FHD",
+      "reference": "90835",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "29518",
+      "name": "Laptop Lenovo THINKPAD T14 G5",
+      "reference": "111415",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "28127",
+      "name": "Laptop Dell LATITUDE 3440",
+      "reference": "96356",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "8068",
+      "name": "Fuente de poder Corsair 650 WATTS, 80 PLUS BRONZE (CX650), NO MODULAR, CONECTORES PCI-E X2, SATA X5, PATA X4, COLOR NEGRO",
+      "reference": "96473",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "20265",
+      "name": "Laptop Dell LATITUDE 5450 14\" FHD TOUCH, INTEL CORE ULTRA 5 135U VPRO, RAM 16GB, DISCO 256GB SSD. WIN 11 PRO INGLES, BACKLIT KEYBOARD, LECTOR DE HUELLAS, 2X USB-A 3.2, 2X USB-C, 1X HDMI 2.11, TITAN GRAY",
+      "reference": "108944",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "28886",
+      "name": "Laptop Dell Latitude 7410 14″ Core I7-10610U 16Gb 256Gb SSD Refurbished",
+      "reference": "96784",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "24612",
+      "name": "Laptop Lenovo V14 G4 IRU 14\" FHD, I7-13620H, 8GB DDR4, 256GB M.2 SSD, WIN 11 HOME, BT 5.0, WIFI 6, CARD READER, HDMI 1.4, USB 2.0, USB 3.2 X2, GIGABIT LAN, BLACK",
+      "reference": "110719",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "23515",
+      "name": "Laptop 2 En 1 Dell Latitude 5330 Intel I5-1245U 16Gb 256Gb SSD",
+      "reference": "106383",
+      "subcategory": "Convertibles 2 en 1"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29479",
+      "name": "Laptop Dell Latitude 7420 14″ I7-1185G7 16Gb 256Gb SSD Win 11 Pro",
+      "reference": "106402",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29042",
+      "name": "Laptop Dell REFURBISHED LATITUDE 7420",
+      "reference": "110970",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Periféricos",
+      "id": "16052",
+      "name": "Klip Xtreme CANDADO DE SEGURIDAD PARA LAPTOP, CON LLAVE, ACERO, 150CM, (KSD-330)",
+      "reference": "76875",
+      "subcategory": "Accesorios para laptop"
+    },
+    {
+      "brand": "HP",
+      "category": "Laptops",
+      "id": "24608",
+      "name": "Laptop HP 15-FD0183 15.6\" FHD, I7-1355U, 16GB DDR4, 1TB SSD, TECLADO BACKLIT, WIFI 6E, BT 5.3, WIN 11 HOME, 1X USB-C, 2X USB-A 3.2, 1X HDMI 2.1, FINGER PRINT READER, NATURAL SILVER",
+      "reference": "110717",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11000",
+      "name": "Ventilador PARA CPU MSI SERIE MAG CORELIQUID A13 360MM ALL-IN-ONE LIQUID CPU COOLER, 3*120MM ARGB, NEGRO, COMPATIBLE CON INTEL LGA 1700 / 1851, AMD AM5 / AM4.",
+      "reference": "106732",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Lenovo",
+      "category": "Laptops",
+      "id": "21308",
+      "name": "Laptop Lenovo THINKPAD E16 GEN 2, 16\" IPS WUXGA, AMD RYZEN 5 7535U, 8GB DDR5, 256GB SSD NVME, WINDOWS 11 PRO, WI-FI, BLUETOOTH 5.0, 2X USB 3.1, 1X USB TYPE C (PARA DISPLAYPORT Y CARGA), 1X RJ45, 1X HDMI 1.4B, 1X USB 2.0 (OCULTO), BACKLIT KEYBOARD, BT 5.1, AUDIO JACK 3.5\", FINGER PRINT READER, GRAPHITE BLACK",
+      "reference": "110375",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29305",
+      "name": "Laptop Dell REFURBISHED LATITUDE 5430",
+      "reference": "111390",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "28888",
+      "name": "Laptop DELL REFURBISHED LATITUDE 7410",
+      "reference": "106267",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29491",
+      "name": "Laptop Dell LATITUDE REFURBISHED 5430",
+      "reference": "111374",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29050",
+      "name": "Laptop DELL LATITUDE REFURBISHED 5420",
+      "reference": "96780",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "23531",
+      "name": "Laptop Dell Latitude 7410 Intel Core I5-10310U 16Gb 256Gb SSD 14″",
+      "reference": "106566",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "23577",
+      "name": "Laptop Dell Latitude 5420 Intel Core I7-11850H 16Gb 256Gb SSD 14″",
+      "reference": "107008",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "23722",
+      "name": "Laptop DELL REFURBISHED LATITUDE 5430",
+      "reference": "107641",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "28723",
+      "name": "Laptop DELL REFURBISHED LATITUDE 5430",
+      "reference": "111123",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "20306",
+      "name": "Tarjeta madre MSI PRO B760M-E",
+      "reference": "109123",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "9275",
+      "name": "Laptop Dell Latitude 5410 14″ FHD Intel Core i5 16GB RAM 256GB SSD",
+      "reference": "60078",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29882",
+      "name": "Laptop Dell Latitude 3440 Intel Core I5-1235U 8Gb Ram 512Gb SSD 14″",
+      "reference": "111554",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29317",
+      "name": "Laptop DELL REFURBISHED LATITUDE 5410",
+      "reference": "107563",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29043",
+      "name": "Laptop Dell REFURBISHED LATITUDE 7430",
+      "reference": "110971",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "29041",
+      "name": "Laptop Dell REFURBISHED LATITUDE 5420",
+      "reference": "110969",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Dell",
+      "category": "Laptops",
+      "id": "19740",
+      "name": "Laptop DELL REFURBISHED LATITUDE 5330",
+      "reference": "107576",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12111",
+      "name": "Monitor MSI MAG 255F E20",
+      "reference": "107248",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Vitek",
+      "category": "Laptops",
+      "id": "21678",
+      "name": "Laptop Vitek 14.1\" INTEL I5-8259U / 16GB + 512 GB SSD",
+      "reference": "90927",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Vitek",
+      "category": "Laptops",
+      "id": "21682",
+      "name": "Laptop Vitek 15.6\" INTEL J4125, 16GB + 512 GB SSD",
+      "reference": "90929",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12115",
+      "name": "Monitor MSI MAG 272F",
+      "reference": "107472",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "21205",
+      "name": "Bocinas JBL 550 CHANNEL, NEGRO",
+      "reference": "97011",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "19938",
+      "name": "Gabinete MSI PAG PANO M110A",
+      "reference": "107995",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "9759",
+      "name": "Logitech CONTROL PRESENTADOR R400",
+      "reference": "63353",
+      "subcategory": "Presentadores"
+    },
+    {
+      "brand": "Primus",
+      "category": "Mobiliario",
+      "id": "13231",
+      "name": "Silla Primus GAMING THRONOS BOBA FETT, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ESPALDA Y CABEZA, ALTURA AJUSTABLE Y BASE CON RUEDAS ROBUSTAS, VERDE / GRIS / AMARILLO / ROJO",
+      "reference": "109434",
+      "subcategory": "Sillas"
+    },
+    {
+      "brand": "Vitek",
+      "category": "Laptops",
+      "id": "21680",
+      "name": "Laptop Vitek 15.6\" INTEL I5-8259U / 16GB + 512 GB SSD",
+      "reference": "90928",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "11931",
+      "name": "Monitor MSI MAG 242C",
+      "reference": "107245",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24250",
+      "name": "Ventilador Corsair RS120 ARGB PARA CASE 120MM BLANCO, PAQUETE 3 UNIDADES, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "108158",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "18106",
+      "name": "Ventilador Corsair SP140 140MM (DUAL PACK) RGB ELITE PERFORMANCE, PARA CASE, BLANCO, INCLUYE ICUE HUB",
+      "reference": "94363",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "18104",
+      "name": "Ventilador Corsair SP140 140MM (DUAL PACK) RGB ELITE PERFORMANCE, PARA CASE, NEGRO",
+      "reference": "94362",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "18100",
+      "name": "Ventilador Corsair SP140 RGB ELITE PERFORMANCE, 140MM SINGLE PACK, PARA CASE NEGRO (CO-9050110-WW)",
+      "reference": "94357",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Componentes",
+      "id": "15448",
+      "name": "Ventilador Agiler DE CASE, 120MM, NEGRO (AGI-8055)",
+      "reference": "70350",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Audio y Video",
+      "id": "22985",
+      "name": "Bocinas 2.0 USB Xtech Xts-115Bl Azul",
+      "reference": "89505",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "24158",
+      "name": "Gabinete Antec VCX100M RGB ELITE - MINI TOWER - PANORAMIC 270 VIEW - TEMPERED GLASS FRONT & SIDE - 5 FANS 120MM FIXED MODE RGB PRE-INSTALADOS - USB 3.0, USB 2.0 - SOPORTE GPU HASTA 275MM",
+      "reference": "110126",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Almacenamiento",
+      "id": "23093",
+      "name": "Disco Duro Refurbished 250 Gb 3.5 Para Desktop",
+      "reference": "91790",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Almacenamiento",
+      "id": "23131",
+      "name": "Disco Duro Refurbished 320Gb Hdd 2.5″",
+      "reference": "92658",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Almacenamiento",
+      "id": "23183",
+      "name": "Disco Duro SSD Nvme Refurbished 120Gb",
+      "reference": "93590",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11489",
+      "name": "Fuente de poder MSI MAG A650BN",
+      "reference": "94581",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Almacenamiento",
+      "id": "23095",
+      "name": "Disco Duro Refurbished 250 Gb 2.5 Para Laptop",
+      "reference": "91791",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Myo",
+      "category": "Componentes",
+      "id": "17994",
+      "name": "Fuente de poder 1200W - 22A/18A 115V/240V, VENTILADOR SILENCIOSO(Myo-1200W).",
+      "reference": "93744",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "18102",
+      "name": "Ventilador Corsair SP140 RGB ELITE PERFORMANCE, 140MM SINGLE PACK, PARA CASE BLANCO (CO-9050138-WW)",
+      "reference": "94358",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "13523",
+      "name": "Gabinete GAMING Antec VX310 ARGB MID-TOWER",
+      "reference": "108971",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Western Digital",
+      "category": "Almacenamiento",
+      "id": "22911",
+      "name": "Disco Duro Interno 320Gb Western Digital Sata 2.5″ Pull Out",
+      "reference": "86904",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Huawei",
+      "category": "Componentes",
+      "id": "22887",
+      "name": "Power Supply Módulo Huawei 02311Bxv 500 Watts",
+      "reference": "85861",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Hikvision",
+      "category": "Almacenamiento",
+      "id": "28002",
+      "name": "Hikvision CAJA PARA DISCO DURO SDD-HDD 2.5”, MHC201, USB 3.0, SATA III, BLACK.",
+      "reference": "95455",
+      "subcategory": "Gabinetes para discos"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "17388",
+      "name": "Monitor Aoc 22 21.5 Pulgadas FHD 1920X1080 Vesa HDMI 60Hz",
+      "reference": "91022",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "12813",
+      "name": "Gabinete MSI MAG PANO 130R PZ, MID-TOWER, GLASS, COLOR NEGRO, 4 ABANICOS PRE INSTALADOS",
+      "reference": "108771",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "27981",
+      "name": "Pantalla interactiva Samsung 13\" TOUCH QBR-T",
+      "reference": "107882",
+      "subcategory": "Pantallas interactivas"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "24160",
+      "name": "Gabinete Antec VX330 ARGB - MID TOWER - PANEL FRONTAL MESH ESTILIZADO - LATERAL VIDRIO TEMPLADO - 4 FANS 120MM ARGB PRE-INSTALADOS - USB 3.1, USB 2.0 - SOPORTE GPU HASTA 320MM",
+      "reference": "110127",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Kingston",
+      "category": "Almacenamiento",
+      "id": "17030",
+      "name": "Disco DE ESTADO SOLIDO Kingston SSD 1024GB (1TB), 2.5\"",
+      "reference": "88800",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "20030",
+      "name": "Ventilador Corsair RS120 PARA CASE 120MM NEGRO, PAQUETE 3 UNIDADES, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "108173",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "23670",
+      "name": "Disco Duro Externo 20Tb Seagate Expansion USB 3.0 Para Desktop",
+      "reference": "107410",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "23573",
+      "name": "Disco Duro Externo 24Tb Seagate Expansion USB 3.0 Para Desktop",
+      "reference": "106943",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Western Digital",
+      "category": "Almacenamiento",
+      "id": "23141",
+      "name": "Disco Estado Sólido Interno Western Digital Sa510 1Tb Blue Sata Iii",
+      "reference": "92733",
+      "subcategory": "Discos SSD"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "20028",
+      "name": "Ventilador Corsair RS120 PARA CASE 120MM NEGRO, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "108171",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24256",
+      "name": "Ventilador Corsair RS140 ARGB PARA CASE 140MM NEGRO, KIT 2 UNIDADES, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "110272",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24254",
+      "name": "Ventilador Corsair RS140 ARGB PARA CASE 140MM NEGRO, 1 UNIDAD, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "110271",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "20026",
+      "name": "Ventilador Corsair RS120 ARGB PARA CASE 120MM BLANCO, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "108170",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24264",
+      "name": "Ventilador Corsair RS140 ARGB PARA CASE 140MM BLANCO, PACK 2 UNIDAD, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "110282",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "20024",
+      "name": "Ventilador Corsair RS120 ARGB PARA CASE 120MM NEGRO, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "108169",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "24630",
+      "name": "Power Supply Msi Mag A1000Pls 1000W 80 Plus Platinum",
+      "reference": "110836",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "20020",
+      "name": "Ventilador Corsair RS120 ARGB PARA CASE 120MM NEGRO, PAQUETE 3 UNIDADES, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "108153",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Hikvision",
+      "category": "Monitores",
+      "id": "28442",
+      "name": "Pantalla Interactiva Touch Hikvision De 86″ 4K Android 13",
+      "reference": "110140",
+      "subcategory": "Pantallas interactivas"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "24260",
+      "name": "Ventilador Corsair RS140 ARGB PARA CASE 140MM NEGRO, 1 UNIDAD, RODAMIENTO MAGNETICO, CONECTOR PWM 4 PINES EN CADENA",
+      "reference": "110276",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "9780",
+      "name": "Ventilador Corsair ICUE QX120 RGB MAGNETICO PARA CASE 120MM, SE INTERCONECTAN ENTRE SI, LUCES EN LOS LADOS, NEGRO (CO-9051001-WW)",
+      "reference": "95564",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Hikvision",
+      "category": "Monitores",
+      "id": "28272",
+      "name": "Pantalla interactiva Hikvision TOUCH DE 65’’, RESOLUCIÓN 4K",
+      "reference": "95763",
+      "subcategory": "Pantallas interactivas"
+    },
+    {
+      "brand": "Western Digital",
+      "category": "Almacenamiento",
+      "id": "12904",
+      "name": "Disco Western Digital DURO 2TB P/VIDEOVIGILANCIA SATA 6GB/S 3.5\" 5640 RPM/256MB.",
+      "reference": "96323",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "20670",
+      "name": "Monitor MSI PRO MP225 E12VL",
+      "reference": "110070",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "ECS",
+      "category": "Componentes",
+      "id": "22229",
+      "name": "Motherboard Ecs Amd Fm1 Socket A Series Dual-Channel Ddr3 1333/1600/1866",
+      "reference": "69661",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "24156",
+      "name": "Gabinete Antec ST10M - MINI TOWER - M-ATX CASE - SMART SERIES - 1 FAN 80MM PRE-INSTALADO - USB 3.0, USB 2.0 - SOPORTE GPU HASTA 265MM",
+      "reference": "110125",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "20943",
+      "name": "Monitor Samsung 32\" S3 CURVO",
+      "reference": "107333",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "ViewSonic",
+      "category": "Monitores",
+      "id": "21593",
+      "name": "Monitor ViewSonic SD-Z225",
+      "reference": "77231",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "20662",
+      "name": "Tarjeta gráfica MSI GEFORCE RTX 5050 8G GAMING OC",
+      "reference": "110064",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "24325",
+      "name": "Equipos de sonido JBL · referencia 110707",
+      "reference": "110707",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "20853",
+      "name": "Monitor AOC 49\" (48.8\") GAMING CURVO DQHD 165HZ",
+      "reference": "105753",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "20298",
+      "name": "Monitor Samsung 32\" SMART M7, 4K (3840 × 2160), 4 MS (GTG), 60 HZ.",
+      "reference": "109109",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Argom",
+      "category": "Audio y Video",
+      "id": "22904",
+      "name": "Bocinas Bluetooth Argom Slambox Plus Beats Arg-Sp-3350Bk 2.0 Hi-Fi",
+      "reference": "86660",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12109",
+      "name": "Monitor MSI MAG 244F",
+      "reference": "107246",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "29426",
+      "name": "Monitor Samsung 57\" GAMING ODYSSEY NEO G9 G95NC",
+      "reference": "110191",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Agiler",
+      "category": "Almacenamiento",
+      "id": "6507",
+      "name": "Agiler CAJA USB 3.0 2.5'' PARA DISCO DURO O SSD SATA PLASTICO NEGRO PIANO (AGI-6845).",
+      "reference": "76906",
+      "subcategory": "Gabinetes para discos"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "17072",
+      "name": "Monitor Aoc 24″ Gamer IPS FHD 75Hz LED Baja Luz Azul",
+      "reference": "89126",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12327",
+      "name": "Gabinete Antec AX20 ELITE RGB BLACK MESH",
+      "reference": "107755",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "24164",
+      "name": "Gabinete Antec FLUX REAR - MID TOWER - F-LUX PLATFORM - PANEL FRONTAL DE MADERA Y MALLA - 5 FANS PWM PRE-INSTALADOS - TYPE-C 10GBPS - SOPORTE GPU HASTA 400MM",
+      "reference": "110129",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "20711",
+      "name": "Monitor Samsung 22\" S3 ESSENTIAL PLANO S32GF",
+      "reference": "110184",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Titan",
+      "category": "Almacenamiento",
+      "id": "22272",
+      "name": "Disco Wireless 32Gb Titan Ad0002 150N 2.4Ghz Con Batería Recargable",
+      "reference": "71251",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "Xtech",
+      "category": "Mobiliario",
+      "id": "27994",
+      "name": "Silla Xtech GAMING MARVEL SPIDER-MAN, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ALTURA AJUSTABLE Y BASE CON RUEDAS ROBUSTAS",
+      "reference": "93212",
+      "subcategory": "Sillas"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "21354",
+      "name": "Monitor MSI MAG 321CQF E18 CURVO 1500R, 31.5\",WQHD (2560X1440)",
+      "reference": "109641",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "10814",
+      "name": "Monitor AOC 27\" (26.5) GAMING, QHD OLED AGON PRO",
+      "reference": "105749",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "13310",
+      "name": "Monitor AOC 22\" FHD 1920X 1080 120HZ.",
+      "reference": "109298",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Myo",
+      "category": "Audio y Video",
+      "id": "8206",
+      "name": "Bocina Portátil MYO MYO-15SPBAT 15″ Con Tripode y 2 Micrófonos 120W",
+      "reference": "78743",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Audio y Video",
+      "id": "23469",
+      "name": "Soundbar 2.1 Bluetooth Klipx Thunder Zound Ksb-050 120W Rms",
+      "reference": "106038",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "9443",
+      "name": "Monitor AOC 15.6\" PORTATIL IPS FHD 60HZ",
+      "reference": "96931",
+      "subcategory": "Portátiles"
+    },
+    {
+      "brand": "Argom",
+      "category": "Audio y Video",
+      "id": "16747",
+      "name": "Bocinas Argom SLAMBOX METRO BLUETOOTH, HI-FI BT, MICROSD, AUX(3.5MM), 900 WATTS, RECARGABLE(LITHIUM-ION 1500 MAH).",
+      "reference": "86664",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Sonos",
+      "category": "Audio y Video",
+      "id": "20857",
+      "name": "Subwoofer WIRELESS Sonos SUB W, BLANCO, CON PUERTO ETHERNET, WIFI, FRECUENCIA DE RESPUESTA DESDE 25HZ.",
+      "reference": "106228",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12316",
+      "name": "Ventilador Antec F12 RACING ARGB 3PK",
+      "reference": "107923",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Klipsch",
+      "category": "Audio y Video",
+      "id": "19399",
+      "name": "Barra de sonido Klipsch FLEXUS CORE 100, DOLBY ATMOS VIRTUALIZAD DE 2.1 CANAL, DIMENSION 76MM X 711MM X 127MM",
+      "reference": "106695",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Audio y Video",
+      "id": "23383",
+      "name": "Barra De Sonido 2.0 Bluetooth Klipx Ksb-00A 60W",
+      "reference": "96561",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12349",
+      "name": "Gabinete GAMING Antec AX65 ARGB BLACK MESH",
+      "reference": "107760",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "23771",
+      "name": "Gabinete GAMING Antec FLUX WHITE",
+      "reference": "107898",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "21734",
+      "name": "Monitor Samsung 27\" PLANO IPS, 4K HDR, 5MS, 3840X2160",
+      "reference": "105633",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12351",
+      "name": "Gabinete GAMING Antec AX61 ELITE BLACK MESH",
+      "reference": "107758",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21120",
+      "name": "Fuente de poder Antec G750 GOLD - SEMI-MODULAR (0-761345-20042-4)",
+      "reference": "109740",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21122",
+      "name": "Fuente de poder Antec G850 GOLD - SEMI-MODULAR (0-761345-20043-1)",
+      "reference": "109741",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "12313",
+      "name": "Ventilador Antec F12 RACING ARGB",
+      "reference": "107922",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Intel",
+      "category": "Componentes",
+      "id": "21561",
+      "name": "Procesador Intel XEON E5530",
+      "reference": "67321",
+      "subcategory": "Procesadores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "9768",
+      "name": "Monitor Samsung · referencia 106177",
+      "reference": "106177",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "21100",
+      "name": "Gabinete GAMING Antec CX60M ARGB BLACK",
+      "reference": "107762",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Audio y Video",
+      "id": "8936",
+      "name": "Barra De Sonido 2.0 Klipx Ksb-001 100W",
+      "reference": "94099",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "7800",
+      "name": "Monitor Samsung 32\" FHD (1,920 X 1,080) S30B.",
+      "reference": "94656",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "12996",
+      "name": "Monitor Samsung 27\" S3 ESSENTIAL PLANO S32GF",
+      "reference": "109069",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Myo",
+      "category": "Audio y Video",
+      "id": "11405",
+      "name": "Bocina Myo 8″ Portátil con Subwoofer y Luces LED",
+      "reference": "79274",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Haier",
+      "category": "Monitores",
+      "id": "22925",
+      "name": "Monitor 65 Pulgadas Haier 87440",
+      "reference": "87440",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "13012",
+      "name": "Monitor Samsung 24\" S3 ESSENTIAL PLANO S32GF",
+      "reference": "109068",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Klip Xtreme",
+      "category": "Audio y Video",
+      "id": "7980",
+      "name": "Barra De Sonido KlipX KSB-230 160W RMS Bluetooth 2.1",
+      "reference": "96562",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "28351",
+      "name": "Monitor AOC 22\" FHD 1920X1080 100HZ",
+      "reference": "110990",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Genérico",
+      "category": "Periféricos",
+      "id": "23981",
+      "name": "Pedales De Carreras Modulares Con Freno Célula De Carga Y Acelerador Hall",
+      "reference": "108927",
+      "subcategory": "Volantes y pedales"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "11273",
+      "name": "Fuente de poder MSI MAG A850GL PCIE5",
+      "reference": "106966",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "8187",
+      "name": "Monitor AOC 32\" (31.5) GAMING 1000R FULL HD 1920 X 1080 (C32G3E)",
+      "reference": "96329",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "12121",
+      "name": "Monitor MSI MAG 32C6X",
+      "reference": "106719",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "12868",
+      "name": "Tarjeta gráfica MSI GEFORCE RTX 5050 8G VENTUS 2X OC, PCI EXPRESS GEN 5, 2617 MHZ, 20 GBPS, 8GB GDDR6",
+      "reference": "108728",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "13425",
+      "name": "Teclado Y MOUSE MSI FORGE GK320 COMBO RED US",
+      "reference": "109657",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "13501",
+      "name": "Fuente de poder MSI MAG A750GLS PCIE5",
+      "reference": "109640",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "13521",
+      "name": "Monitor MSI PRO MP273W E14A, 27\", 144 HZ, IPS FLAT, HD",
+      "reference": "110067",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Seagate",
+      "category": "Almacenamiento",
+      "id": "18769",
+      "name": "Disco Seagate DURO 5TB HD EXTERNO, USB 3.0, 2.5” PORTABLE BLACK CON SERVICIO DE RECUPERACION DE DATOS",
+      "reference": "96851",
+      "subcategory": "Discos HDD"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "20490",
+      "name": "Monitor MSI PRO MP275PG",
+      "reference": "109653",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21374",
+      "name": "Tarjeta gráfica MSI GEFORCE RTX 5060 8G SHADOW 2X OC, PCI EXPRESS GEN 5, 2535 MHZ, 8GB GDDR7",
+      "reference": "108729",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21380",
+      "name": "Fuente de poder MSI MAG A750BN PCIE5 III",
+      "reference": "110510",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "21382",
+      "name": "Fuente de poder MSI MAG A650GN II",
+      "reference": "110511",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "24631",
+      "name": "Power Supply Msi Pro A850Pl 850W 80 Plus Platinum Atx 3.1",
+      "reference": "110837",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "28349",
+      "name": "Monitor AOC 34\" GAMING CURVO WQHD 200HZ",
+      "reference": "110576",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "29127",
+      "name": "Fuente de poder MSI MAG A600DN II 80+, NO MODULAR, 600W",
+      "reference": "111329",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "30204",
+      "name": "Monitor AOC 27\", GAMING CURVO 1920X1080 165HZ MI C27G2",
+      "reference": "91023",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "30206",
+      "name": "Monitor AOC 32\" (31.5\") GAMING CURVO QHD 180HZ",
+      "reference": "105751",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "30220",
+      "name": "Monitor MSI, 27\", MAG 274QPF X32, GAMING, 2560 X 1440, WQHD, 320 HZ, PLANO, IPS RAPID, 1 X DISPLAYPORT 1.4A, 2 X HDMI 2.1, 1X EARPHONE OUT, ADAPTIVE-SYNC",
+      "reference": "111232",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "30226",
+      "name": "Monitor MSI, 34\", MAG 346CQDF E20, GAMING, 3440 X 1440, UWQHD, 200 HZ",
+      "reference": "111698",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "90000061640",
+      "name": "Tarjeta gráfica MSI MX4000 64MB",
+      "reference": "61640",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "90000072742",
+      "name": "Funda Samsung",
+      "reference": "72742",
+      "subcategory": "Accesorios para celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "90000083438",
+      "name": "Televisor Samsung 48\"",
+      "reference": "83438",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "90000087052",
+      "name": "Televisor Samsung 43\"",
+      "reference": "87052",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "90000088430",
+      "name": "Tablet Samsung GALAXY TAB E LITE 7\"",
+      "reference": "88430",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "90000088850",
+      "name": "Monitor AOC 20\" HD+ 60HZ",
+      "reference": "88850",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Periféricos",
+      "id": "90000088894",
+      "name": "Docking station Samsung · referencia 88894",
+      "reference": "88894",
+      "subcategory": "Docking stations"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "90000095232",
+      "name": "Fuente de poder MSI MPG A1000G PCIE5",
+      "reference": "95232",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "90000095659",
+      "name": "Televisor Samsung SMART CRYSTAL 50\" UDH 4K",
+      "reference": "95659",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "90000096104",
+      "name": "Tarjeta gráfica MSI GEFORCE GT 1030 4GD4 LP OC",
+      "reference": "96104",
+      "subcategory": "Tarjetas gráficas"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "90000096367",
+      "name": "Televisor Samsung SMART HOSPITALITY CRYSTAL 55\" UDH 4K",
+      "reference": "96367",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "90000097027",
+      "name": "Monitor Samsung 27\" GAMING ODYSSEY",
+      "reference": "97027",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "900000104727",
+      "name": "Televisor Samsung 50\" CRYSTAL UHD 4K",
+      "reference": "104727",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "900000104842",
+      "name": "Tarjeta madre MSI PRO B760M-E",
+      "reference": "104842",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "900000105816",
+      "name": "Monitor AOC PORSCHE 49” GAMING CURVO 1800R QD-OLED 240HZ (PD49)",
+      "reference": "105816",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000105890",
+      "name": "Monitor Samsung 32\" VA, 4K HDR10, 5MS, 3840X2160",
+      "reference": "105890",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "900000106054",
+      "name": "Tarjeta madre MSI MPG X870E CARBON WIFI",
+      "reference": "106054",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "900000106067",
+      "name": "Tarjeta madre MSI B760M GAMING PLUS WIFI, DDR5 LGA 1700, INTEL, MICRO ATX",
+      "reference": "106067",
+      "subcategory": "Tarjetas madre"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000106734",
+      "name": "Soporte para monitor MSI CON MOVIMIENTO, DESDE 17\" HASTA 45\", CON ANCLAJE AL ESCRITORIO (MAG MT201D)",
+      "reference": "106734",
+      "subcategory": "Soportes para monitores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000106836",
+      "name": "Monitor Samsung 32\" GAMING",
+      "reference": "106836",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Componentes",
+      "id": "900000106968",
+      "name": "Fuente de poder MSI MAG A1250GL PCIE5",
+      "reference": "106968",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000107185",
+      "name": "Monitor Samsung GAMING MONITOR 24\" CURVO",
+      "reference": "107185",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000107186",
+      "name": "Monitor Samsung GAMING MONITOR 27\" ESSENTIAL S3 (S36GD) CURVO",
+      "reference": "107186",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000107202",
+      "name": "Monitor Samsung 27\" IPS, 4K HDR, 5MS, 3840X2160",
+      "reference": "107202",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000107250",
+      "name": "Soporte para monitor MSI CON MOVIMIENTO, DESDE 17\" HASTA 32\", CON ANCLAJE AL ESCRITORIO (PRO MT81D)",
+      "reference": "107250",
+      "subcategory": "Soportes para monitores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "900000107265",
+      "name": "Bocinas Samsung SOUNDBAR HW-C400",
+      "reference": "107265",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000107417",
+      "name": "Monitor Samsung 32\"GAMING",
+      "reference": "107417",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000107433",
+      "name": "Tablet Samsung",
+      "reference": "107433",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000107434",
+      "name": "Tablet Samsung GALAXY TAB ACTIVE 5",
+      "reference": "107434",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "900000107473",
+      "name": "Monitor MSI G242L E14",
+      "reference": "107473",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107765",
+      "name": "Gabinete GAMING Antec CX200M RGB ELITE BLACK",
+      "reference": "107765",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107766",
+      "name": "Gabinete GAMING Antec CX200M RGB ELITE WHITE",
+      "reference": "107766",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000107790",
+      "name": "Monitor Samsung 34”",
+      "reference": "107790",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107895",
+      "name": "Gabinete GAMING Antec C3 ARGB BLACK",
+      "reference": "107895",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107897",
+      "name": "Gabinete GAMING Antec FLUX BLACK",
+      "reference": "107897",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107900",
+      "name": "Gabinete GAMING Antec FLUX PRO WHITE",
+      "reference": "107900",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107918",
+      "name": "Ventilador Antec C120 ARGB 3PK BLACK",
+      "reference": "107918",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107924",
+      "name": "Cable de extensión Antec CABLE EXTENSIÓN AT-ECAB-BK300-C1P4-W",
+      "reference": "107924",
+      "subcategory": "Cables de alimentación"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000107925",
+      "name": "Soporte para GPU Antec AT-IGPUH-L100-PRSM-BK",
+      "reference": "107925",
+      "subcategory": "Accesorios para GPU"
+    },
+    {
+      "brand": "MSI",
+      "category": "Monitores",
+      "id": "900000107996",
+      "name": "Monitor MSI MAG 274F, 27\" FHD (1920 X 1080)",
+      "reference": "107996",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "900000108174",
+      "name": "Televisor Samsung SMART CRYSTAL 43\" 2025",
+      "reference": "108174",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "900000108175",
+      "name": "Televisor Samsung SMART CRYSTAL 55\" 2025",
+      "reference": "108175",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "900000108176",
+      "name": "Televisor Samsung SMART CRYSTAL 65\" 2025",
+      "reference": "108176",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "900000108177",
+      "name": "Televisor Samsung 55\" UHD QLED, 4K 2025",
+      "reference": "108177",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000108434",
+      "name": "Tablet Samsung GALAXY TAB S10 LITE",
+      "reference": "108434",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000108735",
+      "name": "Control de juego MSI FORCE GC300 W WHITE, WIRELESS 2.4 GHZ, BATERIA 600 MAH, COLOR BLANCO",
+      "reference": "108735",
+      "subcategory": "Controles de juego"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000108751",
+      "name": "Mouse MSI VERSA 300 W WHITE, WIRELESS 2.4 GHZ, USB 2.0 (USB-C TO A), BLUETOOTH 5.3, COLOR BLANCO",
+      "reference": "108751",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000108753",
+      "name": "Mouse MSI VERSA 300 W BLACK, WIRELESS 2.4 GHZ, USB 2.0 (USB-C TO A), BLUETOOTH 5.3, COLOR NEGRO",
+      "reference": "108753",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000108758",
+      "name": "Teclado MSI FORGE GK600 TKL W SKY US, WIRELESS 2.4 GHZ, SWITCHES MECANICO LINEAL, CABLE 1.8M (USB 2.0), LED RGB, IDIOMA INGLES, COLOR GRIS/AZUL",
+      "reference": "108758",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000108760",
+      "name": "Teclado MSI STRIKE 600 SILENT US, GAMING, SWITCHES MECANICOS SILENCIOSOS, USB 2.0, CABLE 1.8M, LED RGB, COLOR GRIS/NEGRO",
+      "reference": "108760",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000108762",
+      "name": "Combo MOUSE TECLADO MSI FORGE GK100 COMBO US, USB 2.0, CABLE 1.5M, LED RGB, IDIOMA INGLES, COLOR NEGRO",
+      "reference": "108762",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000108763",
+      "name": "Combo MOUSE TECLADO MSI FORGE GK100 COMBO LS, USB 2.0, CABLE 1.5M, LED RGB, IDIOMA ESPAÑOL,, COLOR NEGRO",
+      "reference": "108763",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000109248",
+      "name": "Monitor Samsung 27\" ODYSSEY OLED G6",
+      "reference": "109248",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "900000109300",
+      "name": "Monitor AOC 27\", 1920 X 1080 1MS 120HZ",
+      "reference": "109300",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000109308",
+      "name": "Monitor Samsung 27\" GAMING ODYSSEY G7 4K",
+      "reference": "109308",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000109350",
+      "name": "Tablet Samsung GALAXY TAB A11",
+      "reference": "109350",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000109353",
+      "name": "Tablet Samsung GALAXY TAB A11 LTE",
+      "reference": "109353",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000109419",
+      "name": "Tablet Samsung GALAXY TAB A11",
+      "reference": "109419",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "900000109613",
+      "name": "Monitor AOC 27\" GAMING 27G50Z LCD , 1920X1080 FULL HD, G-SYNC/FREESYNC, 260HZ, HDMI/DISPLAYPORT, NEGRO(HIGH DYNAMIC RANGE) (27G50Z)",
+      "reference": "109613",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "900000109636",
+      "name": "Monitor AOC 24\" GAMING FHD 200HZ",
+      "reference": "109636",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000109656",
+      "name": "Teclado Y MOUSE MSI FORGE GK110 COMBO US,",
+      "reference": "109656",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000109743",
+      "name": "Fuente de poder Antec CSK 750W DC WHITE - PCIE 5.1 READY (0-761345-20115-5)",
+      "reference": "109743",
+      "subcategory": "Fuentes de poder"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000109961",
+      "name": "Tablet Samsung GALAXY TAB A11 8.7\" LTE",
+      "reference": "109961",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000110189",
+      "name": "Monitor Samsung 27\" ODYSSEY G5",
+      "reference": "110189",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Audio y Video",
+      "id": "900000110196",
+      "name": "Televisor Samsung SMART HOSPITALITY CRYSTAL 55\" UDH 4K",
+      "reference": "110196",
+      "subcategory": "Televisores"
+    },
+    {
+      "brand": "Antec",
+      "category": "Componentes",
+      "id": "900000110625",
+      "name": "Gabinete Antec C6 CURVE ARGB - MID TOWER - CONSTELLATION SERIES - PANEL DE VIDRIO CURVO - 3 FANS ARGB PWM PRE-INSTALADOS - TYPE-C 10GBPS - SOPORTE RTX 5090.",
+      "reference": "110625",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000110657",
+      "name": "Tablet Samsung GALAXY TAB S10 LITE, LTE",
+      "reference": "110657",
+      "subcategory": "Tablets"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000110855",
+      "name": "Soporte para monitor MSI CON MOVIMIENTO, DESDE 17\" HASTA 32\", CON ANCLAJE AL ESCRITORIO (MAG MT101DG)",
+      "reference": "110855",
+      "subcategory": "Soportes para monitores"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000110856",
+      "name": "Soporte para monitor MSI CON MOVIMIENTO, DESDE 17\" HASTA 32\", CON ANCLAJE AL ESCRITORIO (MAG MT101G)",
+      "reference": "110856",
+      "subcategory": "Soportes para monitores"
+    },
+    {
+      "brand": "AOC",
+      "category": "Monitores",
+      "id": "900000110893",
+      "name": "Monitor AOC 27\" GAMING CURVO QHD 2K 180HZ",
+      "reference": "110893",
+      "subcategory": "Curvos"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000111014",
+      "name": "Soporte para monitor MSI CON MOVIMIENTO, DESDE 17\" HASTA 45\", CON ANCLAJE AL ESCRITORIO, COLOR BLANCO (MAG MT201DW)",
+      "reference": "111014",
+      "subcategory": "Soportes para monitores"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000111282",
+      "name": "Monitor Samsung 32\" GAMING ODYSSEY OLED G8 G80SH",
+      "reference": "111282",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Monitores",
+      "id": "900000111286",
+      "name": "Monitor Samsung 27\" PLANO GAMING ODYSSEY OLED G8",
+      "reference": "111286",
+      "subcategory": "De escritorio"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000111696",
+      "name": "Teclado Y MOUSE MSI FORGE K210 W COMBO WHITE LS, ESPAÑOL",
+      "reference": "111696",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "MSI",
+      "category": "Periféricos",
+      "id": "900000111697",
+      "name": "Teclado Y MOUSE MSI FORGE K210 W COMBO WHITE US, INGLES",
+      "reference": "111697",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111767",
+      "name": "Celular GALAXY A16 4GB+128GB LTE BLACK",
+      "reference": "111767",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111768",
+      "name": "Celular Samsung SMARTPHONE GALAXY A27 5G 8GB +256GB",
+      "reference": "111768",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111769",
+      "name": "Celular SMARTPHONE Samsung GALAXY S26 ULTRA 12GB+512GB, PANTALLA 6.9\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE GEN 5, 200MP+50MP+10MP+50MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, SKY BLUE (SM-S948B/DS)",
+      "reference": "111769",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111770",
+      "name": "Celular Samsung SMARTPHONE GALAXY A27 5G 8GB +256GB",
+      "reference": "111770",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111771",
+      "name": "Celular SMARTPHONE Samsung GALAXY S25 ULTRA 12GB+512GB, PANTALLA 6.9\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 200MP+50MP+50MP+10MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, COLOR NEGRO TITANIO",
+      "reference": "111771",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111774",
+      "name": "Celular GALAXY A16 4GB+128GB LTE GRIS",
+      "reference": "111774",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111775",
+      "name": "Celular SMARTPHONE Samsung GALAXY S26 ULTRA 12GB+512GB, PANTALLA 6.9\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE GEN 5, 200MP+50MP+10MP+50MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, BLACK (SM-S948B/DS)",
+      "reference": "111775",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111784",
+      "name": "Celular SMARTPHONE Samsung GALAXY S25 ULTRA 12GB+512GB, PANTALLA 6.9\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 200MP+50MP+50MP+10MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, COLOR GRIS TITANIO",
+      "reference": "111784",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111789",
+      "name": "Celular Samsung SMARTPHONE GALAXY A37 5G GRAYGREEN",
+      "reference": "111789",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111791",
+      "name": "Celular Samsung SMARTPHONE GALAXY A37 5G WHITE",
+      "reference": "111791",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111793",
+      "name": "Celular Samsung SMARTPHONE GALAXY A37 5G LAVANDER",
+      "reference": "111793",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111794",
+      "name": "Celular Samsung SMARTPHONE GALAXY A57 5G 8GB+256GB, PANTALLA 6.7\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 50MP+12MP+2MP+10MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, COLOR AWESOME GRAY",
+      "reference": "111794",
+      "subcategory": "Celulares"
+    },
+    {
+      "brand": "Samsung",
+      "category": "Celulares y tablets",
+      "id": "900000111795",
+      "name": "Celular Samsung SMARTPHONE GALAXY A57 5G 8GB+256GB, PANTALLA 6.7\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 50MP+12MP+2MP+10MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, COLOR AWESOME NAVY",
+      "reference": "111795",
+      "subcategory": "Celulares"
+    }
+  ]
+}

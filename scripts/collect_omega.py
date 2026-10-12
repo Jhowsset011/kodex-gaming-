@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 
 from omega_public import fetch_selected_references, parse_product, OmegaProductMissing
+from sync_omega import read_selection
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,11 +25,7 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--resume-dir', type=Path, help='HTML de la misma auditoría puntual; no usar para sincronizaciones diarias')
     args = parser.parse_args()
-    catalog_path = ROOT / 'js/productos-v2.json'
-    if not catalog_path.exists():
-        catalog_path = ROOT / 'js/productos.json'
-    current = json.loads(catalog_path.read_text(encoding='utf-8'))['products']
-    references = [product['reference'] for product in current]
+    current, references = read_selection(ROOT)
     assert len(references) == len(set(references)) and all(ref.isdigit() for ref in references)
     assert '62635' not in references, 'La referencia retirada no debe consultarse'
     args.output.mkdir(parents=True, exist_ok=True)

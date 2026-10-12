@@ -160,7 +160,7 @@ def _technical_rows(product: dict, text: str) -> list[dict]:
         add("Número de parte", clean_part_number(product["model"]))
     add("Tipo", product.get("subcategory") or product["category"])
     upper = text.upper()
-    screen = product["category"] in {"Monitores", "Laptops"} or bool(re.search(r"\bTELEVISOR\b", upper))
+    screen = product["category"] in {"Monitores", "Laptops", "Celulares y tablets"} or bool(re.search(r"\bTELEVISOR\b", upper))
     if screen:
         size = re.search(r'\b(\d{1,2}(?:[.,]\d)?)\s*(?:["”]|PULGADAS?\b|INCH(?:ES)?\b)', upper)
         if size and 5 <= float(_number(size[1])) <= 99:
@@ -217,7 +217,7 @@ def _technical_rows(product: dict, text: str) -> list[dict]:
     if wireless:
         add("Wi-Fi", wireless[1] or "Indicado por el proveedor")
 
-    computing = product["category"] in {"Laptops", "Computadoras"}
+    computing = product["category"] in {"Laptops", "Computadoras", "Celulares y tablets"}
     if computing:
         processor = re.search(r"\b(?:INTEL\s+)?CORE\s+(?:ULTRA\s+[3579](?:\s+\d+[A-Z0-9]*)?|I[3579](?:[- ]\d+[A-Z0-9]*)?)|"
                               r"\bAMD\s+RYZEN\s+[3579](?:\s+\d+[A-Z0-9]*)?|\b(?:INTEL\s+)?(?:CELERON|PENTIUM)(?:\s+[A-Z]?\d+[A-Z0-9]*)?", upper)

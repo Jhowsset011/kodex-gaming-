@@ -13,9 +13,9 @@ Python 3, OpenSSL y el navegador son suficientes. No requiere paquetes, instalac
 
 ## Catálogo y fuente
 
-La selección del propietario está en `js/productos-v2.json`: 589 referencias únicas, con 533 fichas públicas de Omega y 56 referencias retiradas. Se conservaron todos los enlaces; 523 productos permiten pedidos, cuatro presentan inventario cero y seis quedaron con modelo pendiente de confirmación por contradicciones del suplidor. Cada producto conserva su ID y la dirección `producto.html?id=ID`; `reference` identifica su ficha pública exacta de Omega Tech en `/es/product/consul/REFERENCIA`. `scripts/omega_ids.txt` conserva los **IDs internos de Kodex**, no las referencias de las rutas de Omega. Ambos conjuntos se validan antes de sincronizar. El producto retirado (ID 21890, referencia 62635) sigue excluido.
+La selección completa del propietario está en `data/omega-selection.json`; conserva identidades y clasificación incluso de los productos excluidos de la tienda. `js/productos-v2.json` contiene el catálogo visible tras aplicar las reglas de inventario y condición. Cada producto conserva su ID y la dirección `producto.html?id=ID`; `reference` identifica su ficha pública exacta de Omega Tech en `/es/product/consul/REFERENCIA`. `scripts/omega_ids.txt` conserva los **IDs internos de Kodex**, no las referencias de las rutas de Omega. Ambos conjuntos se validan antes de sincronizar. El producto retirado (ID 21890, referencia 62635) sigue excluido.
 
-La web actual solicita ese catálogo completo sin guardarlo en la caché del navegador. El sincronizador también genera `js/productos.json` con los 533 productos que tienen precio positivo confirmado, incluidos los agotados. Este archivo mantiene funcionando las versiones anteriores de la web que no admiten precios nulos. No se asignan precios ficticios a referencias retiradas ni se eliminan de la selección completa. Ambos archivos se validan antes de escribir y se publican en el mismo commit.
+La web actual solicita ese catálogo visible sin guardarlo en la caché del navegador. El sincronizador también genera `js/productos.json` con los productos visibles que tienen precio positivo confirmado. Este archivo mantiene funcionando las versiones anteriores de la web que no admiten precios nulos. No se asignan precios ficticios a referencias retiradas ni se eliminan sus identidades de la selección completa. Ambos archivos y la selección se publican en el mismo commit.
 
 La sincronización de precios e inventario consulta exclusivamente el catálogo público de **tienda.omega.com.do**: precio en DOP, inventario publicado por sucursal, número de parte, título, descripción, características y fotografía. Las fichas técnicas pueden completarse con páginas oficiales del fabricante, vinculadas al mismo número de parte. No inicia sesión ni consulta precios especiales de una cuenta. Los archivos anteriores de Nexcom se conservan como herramientas históricas; el workflow activo no los ejecuta ni consulta su API.
 
@@ -23,7 +23,9 @@ La clasificación usa el tipo de producto y la información de Omega, con catego
 
 Las fotografías se descargan con HTTPS verificado desde Omega, se comprueba el formato y se guardan en `img/catalogo` con nombres derivados del contenido. El manifiesto relaciona únicamente URLs públicas y archivos locales. Fotografías idénticas se comparten. Una fotografía inexistente muestra el marcador de imagen pendiente.
 
-Una referencia que Omega confirma retirada conserva su enlace y clasificación, pero queda sin precio ni características antiguas y no permite pedidos. Un precio explícito cero o a consultar también impide pedidos. La web muestra «Consultar precio» y «No disponible». Una respuesta incompleta, un fallo de red, una referencia contradictoria o un problema de TLS detiene la actualización y conserva el último catálogo válido; no se interpreta como agotamiento.
+El catálogo visible exige al menos **dos unidades sumando únicamente PRINCIPAL SD y La Nave**. No cuenta las demás sucursales. Se excluye cualquier ficha cuyo título original, marca, descripción, número de parte o características incluyan `refurbish` o `refurbished`, sin distinguir mayúsculas. Los filtros se aplican a todas las marcas de la tienda. Una referencia confirmada retirada también se excluye. Las identidades se conservan en la selección: si un producto vuelve a tener inventario suficiente y cumple la condición, recupera el mismo enlace al sincronizar. La referencia 62635 continúa excluida permanentemente.
+
+Una respuesta incompleta, un fallo de red, la ausencia de las sucursales requeridas o un problema de TLS detiene la actualización y conserva el último catálogo válido; no se interpreta como inventario cero. Un modelo contradictorio sigue pendiente de confirmación y no permite pedidos. Un precio explícito cero o a consultar también impide pedidos; cuando hay inventario suficiente, la web muestra «Consultar precio» y «No disponible».
 
 ## Precios de venta y configuración privada
 
@@ -49,7 +51,17 @@ Para sincronizar, quitar `--dry-run`. También puede usarse la variable de entor
 
 `.github/workflows/sync-catalogo.yml` consulta la selección a las **6:00 a. m. de República Dominicana** (10:00 UTC), manualmente desde Actions y tras cambios relevantes en main. GitHub puede demorar las ejecuciones programadas. La actualización automática requiere el secret privado de precios.
 
-El flujo prueba lector, reglas, clasificación, imágenes y escritura. Limita la consulta a dos conexiones simultáneas y dos inicios de petición por segundo. Valida la moneda y la referencia dentro de la ficha; suma el inventario publicado de todas las sucursales. Una desaparición extensa de fichas detiene el proceso para su revisión. No se añaden productos ajenos a la selección ni se duplican referencias.
+El flujo prueba lector, reglas, clasificación, selección, imágenes y escritura. Limita la consulta a dos conexiones simultáneas y dos inicios de petición por segundo. Valida la moneda y la referencia dentro de la ficha y aplica el filtro de Principal SD + La Nave. Una desaparición extensa de fichas detiene el proceso para su revisión. No se añaden productos ajenos a la selección ni se duplican referencias.
+
+`scripts/collect_omega_brands.py` y el workflow manual `auditar-marcas-omega.yml` permiten auditar MSI, AOC, Antec y Samsung desde las búsquedas públicas de Omega, usando sus filtros de fabricante, orden por nombre y todas las páginas. La auditoría consulta también el inventario actual de la selección existente y recopila fotografías verificadas. No lee reglas privadas ni publica productos por sí sola. `omega_selection.extend_selection` añade una referencia nueva una sola vez y conserva los IDs existentes. Las nuevas referencias usan un espacio de IDs numéricos separado, validado contra colisiones.
+
+Para importar las referencias nuevas desde una auditoría completa revisada:
+
+```sh
+python3 scripts/sync_omega.py --policy-file /ruta/privada/reglas.json --require-rounding --source-file /ruta/auditoria/sources.json --image-cache /ruta/auditoria/images --import-brands --dry-run
+```
+
+Quitar `--dry-run` después de revisar la captura. La importación aplica los mismos precios y filtros a toda la selección y escribe catálogo visible, compatibilidad, selección completa e IDs juntos para su publicación. Repetir la misma auditoría no duplica productos. El filtro de inventario y condición se repite en las sincronizaciones diarias; la búsqueda de referencias nuevas de marca es una auditoría manual.
 
 La escritura del catálogo es atómica y solo se generan commits cuando cambia el contenido. Las ejecuciones programadas o manuales preparan y despliegan un artefacto completo mediante Pages, incluyendo `CNAME`. Los pushes a main también mantienen la publicación habitual desde la rama. Se requieren permisos de escritura del token en main y de despliegue al entorno github-pages.
 
@@ -57,7 +69,7 @@ Omega actualmente omite certificados intermedios en su conexión. El lector obti
 
 ## Fichas técnicas
 
-`scripts/product_details.py` organiza los datos explícitos de Omega en características por tipo de producto y genera una descripción legible. Hay 527 fichas organizadas, de las cuales 316 incorporan datos revisados del fabricante. No completa datos técnicos a partir de modelos parecidos. Las referencias retiradas y los modelos contradictorios siguen pendientes, sin características inventadas.
+`scripts/product_details.py` organiza los datos explícitos de Omega en características por tipo de producto y genera una descripción legible. Las fichas existentes cuentan con 316 entradas revisadas del fabricante; la selección visible cambia según inventario y condición. No completa datos técnicos a partir de modelos parecidos. Las referencias retiradas y los modelos contradictorios siguen pendientes, sin características inventadas.
 
 `data/product-details.json` conserva características revisadas en fuentes oficiales. Cada entrada se vincula por ID, referencia de Omega, marca y número de parte exacto. La limpieza del identificador solo elimina anotaciones del distribuidor; conserva variantes, códigos de región y sufijos de fabricante. Una discrepancia de identidad detiene la publicación. Los enlaces técnicos se validan contra los dominios oficiales de la marca.
 

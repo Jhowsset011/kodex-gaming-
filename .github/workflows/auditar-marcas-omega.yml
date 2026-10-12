@@ -2,11 +2,6 @@ name: Auditar marcas públicas de Omega
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - scripts/collect_omega_brands.py
-      - .github/workflows/auditar-marcas-omega.yml
 
 permissions:
   contents: read

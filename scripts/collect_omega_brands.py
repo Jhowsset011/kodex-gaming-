@@ -11,6 +11,7 @@ from urllib.parse import urlencode
 
 from omega_catalog import _brand
 from omega_images import download_source_images
+from omega_selection import read_full_selection
 from omega_public import (BASE_URL, _Document, _RateLimiter, _normalized,
                           fetch_selected_references, make_tls_context, read_public_url)
 
@@ -88,6 +89,7 @@ def main():
     limiter = _RateLimiter()
     discovered = {brand: discover_brand(brand, context, args.output, limiter) for brand in BRANDS}
     catalog = json.loads((ROOT / 'js/productos-v2.json').read_text(encoding='utf-8'))
+    catalog = read_full_selection(ROOT, catalog)
     references = [product['reference'] for product in catalog['products']]
     references.extend(reference for results in discovered.values() for reference in results)
     references = list(dict.fromkeys(reference for reference in references if reference != '62635'))

@@ -70,7 +70,8 @@ jobs:
         run: |
           git config user.name 'kodex-sync'
           git config user.email 'kodex-sync@users.noreply.github.com'
-          git add js/productos-v2.json js/productos.json img/catalogo
+          git add js/productos-v2.json js/productos.json scripts/omega_ids.txt img/catalogo
+          if [ -f data/omega-selection.json ]; then git add data/omega-selection.json; fi
           if git diff --cached --quiet; then
             echo 'Sin cambios en el catálogo.'
           else

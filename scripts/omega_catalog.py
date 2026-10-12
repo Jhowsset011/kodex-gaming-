@@ -34,6 +34,7 @@ PUBLIC_CATALOG_FIELDS = frozenset({
 MAIN_CATEGORIES = {
     "Almacenamiento", "Audio y Video", "Componentes", "Computadoras",
     "Laptops", "Mobiliario", "Monitores", "Periféricos",
+    "Celulares y tablets",
 }
 BRAND_ALIASES = {
     "msi": "MSI", "aoc": "AOC", "hp": "HP", "hpe": "HPE",
@@ -194,6 +195,14 @@ def _unresolved_conflict(source, part_number, description):
 
 
 TYPE_PREFIXES = (
+    (r"^soporte(?: para)? (?:dual )?monitor\b", "Soporte para monitor"),
+    (r"^soporte(?: vertical)? (?:de gpu|para tarjeta grafica)\b", "Soporte para GPU"),
+    (r"^docking station\b", "Docking station"),
+    (r"^cover\b", "Funda"),
+    (r"^cable de extension\b", "Cable de extensión"),
+    (r"^game\s*pad\b|^joystick\b|^control gamer\b", "Control de juego"),
+    (r"^(?:tableta|tablet)\b", "Tablet"),
+    (r"^telefono(?: celular| movil)? samsung\b|^celular\b|^smartphone\b", "Celular"),
     (r"^pantalla interactiva\b", "Pantalla interactiva"),
     (r"^power supply\b|^fuente(?: de poder)?\b", "Fuente de poder"),
     (r"^mouse\s*pad\b", "Mouse pad"),
@@ -289,6 +298,9 @@ def _classification_text(source, description):
 def _category(source, description, previous):
     text, title = _classification_text(source, description)
     patterns = (
+        (r"^(?:tableta|tablet|celular|smartphone)\b|^telefono\b.*\b(?:galaxy|android)\b|^cover\b.*\bsamsung\b|^funda\b.*\bsamsung\b", "Celulares y tablets"),
+        (r"^soporte\b.*\b(?:gpu|tarjeta grafica)\b|^cable de extension\b.*\balimentacion\b", "Componentes"),
+        (r"^soporte\b.*\bmonitor\b|^docking station\b", "Periféricos"),
         (r"^(?:monitor|pantalla interactiva|smart monitor)\b", "Monitores"),
         (r"^(?:laptop|notebook|portatil)\b|^lenovo thinkpad\b", "Laptops"),
         (r"^(?:computadora|mini pc|desktop|terminal)\b", "Computadoras"),
@@ -296,7 +308,7 @@ def _category(source, description, previous):
         (r"^(?:disco|ssd|hdd|dvd|cd|pack \d+ dvd|caja (?:para disco|usb))\b|^memoria\s+(?:usb|micro|sd)\b", "Almacenamiento"),
         (r"^(?:smart tv|televisor|bocina|bocinas|speaker|audifono|audifonos|headset|microfono|microfonos|soundbar|sound bar|subwoofer|barra de sonido|streaming|soporte tv|consola (?:streamer|de control))\b", "Audio y Video"),
         (r"^(?:case|gabinete|power supply|fuente|placa madre|motherboard|mb|memoria|procesador|tarjeta (?:de video|msi|grafica)|abanico|ventilador|ventiladores|disipador|cooler|cpu liquid cooler|refrigeracion|enfriamiento|sistema enfriamiento|controladora)\b", "Componentes"),
-        (r"^(?:mouse|teclado|combo|camara web|webcam|gamepad|joystick|control gamer|puntero|funda|candado|pedales|volante)\b", "Periféricos"),
+        (r"^(?:mouse|teclado|combo|camara web|webcam|game\s*pad|joystick|control gamer|puntero|funda|candado|pedales|volante)\b", "Periféricos"),
     )
     for candidate in (text, title):
         for pattern, category in patterns:
@@ -343,6 +355,8 @@ def _subcategory(category, source, description, previous):
             (r"^disco|^hdd", "Discos HDD"),
         ],
         "Componentes": [
+            (r"^soporte\b.*\b(?:gpu|tarjeta grafica)\b", "Accesorios para GPU"),
+            (r"^cable de extension\b.*\balimentacion\b", "Cables de alimentación"),
             (r"^controladora", "Controladores RGB"),
             (r"^(?:abanico|ventilador|disipador|cooler|cpu liquid cooler|refrigeracion|enfriamiento|sistema enfriamiento)", "Refrigeración"),
             (r"^(?:case|gabinete)", "Gabinetes / Case"),
@@ -353,13 +367,15 @@ def _subcategory(category, source, description, previous):
             (r"^tarjeta", "Tarjetas gráficas"),
         ],
         "Periféricos": [
+            (r"^soporte\b.*\bmonitor\b", "Soportes para monitores"),
+            (r"^docking station\b", "Docking stations"),
             (r"^mouse\s*pad", "Mouse pads"),
             (r"^mouse", "Mouse"),
             (r"^combo|^teclado.*\bmouse\b", "Combos de teclado y mouse"),
             (r"^teclado", "Teclados"),
             (r"^camara web|^webcam", "Cámaras web"),
             (r"\bpresentador\b|\bpuntero\b", "Presentadores"),
-            (r"^gamepad|^joystick|^control", "Controles de juego"),
+            (r"^game\s*pad|^joystick|^control", "Controles de juego"),
             (r"^pedales|^volante", "Volantes y pedales"),
             (r"^funda|^candado", "Accesorios para laptop"),
             (r"^puntero", "Presentadores"),
@@ -367,6 +383,9 @@ def _subcategory(category, source, description, previous):
     }
     if category == "Laptops":
         return "Convertibles 2 en 1" if re.search(r"2 en 1|2-in-1|2 in 1", text) else "Gaming" if re.search(r"gamer|gaming", text) else "Portátiles"
+    if category == "Celulares y tablets":
+        return ("Tablets" if re.search(r"^(?:tableta|tablet)\b", text)
+                else "Accesorios para celulares" if re.search(r"^(?:cover|funda)\b", text) else "Celulares")
     if category == "Computadoras":
         return "Terminales" if re.search(r"terminal|wyse|thin client", text) else "Mini PC" if "mini pc" in text or "tiny" in text else "De escritorio"
     if category == "Mobiliario":
