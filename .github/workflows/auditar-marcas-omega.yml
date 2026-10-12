@@ -1,0 +1,31 @@
+name: Auditar marcas públicas de Omega
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/collect_omega_brands.py
+      - .github/workflows/auditar-marcas-omega.yml
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Consultar las cuatro marcas con HTTPS verificado
+        run: python3 scripts/collect_omega_brands.py --output omega-brand-audit
+      - name: Guardar auditoría pública para revisión
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: omega-brand-audit
+          path: omega-brand-audit/
+          retention-days: 3
