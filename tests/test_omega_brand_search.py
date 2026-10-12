@@ -25,6 +25,12 @@ class SearchTests(unittest.TestCase):
         self.assertEqual(len(result['references']), 19)
         self.assertEqual(result['last'], 19)
 
+    def test_supported_large_page_keeps_complete_brand_without_sort_boundary_duplicates(self):
+        result = parse_search_page(page_html(1, 63, 1, 1, range(100, 163)), 1, page_size=100)
+        self.assertEqual(len(result['references']), 63)
+        final = parse_search_page(page_html(101, 101, 101, 2, [300]), 2, page_size=100)
+        self.assertEqual(final['references'], ['300'])
+
     def test_truncated_repeated_wrong_page_and_ambiguous_rows_fail(self):
         cases = [(page_html(1, 20, 21, 2, range(100, 119)), 1),
                  (page_html(1, 2, 2, 1, [100, 100]), 1),

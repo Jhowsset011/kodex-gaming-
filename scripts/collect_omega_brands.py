@@ -15,10 +15,11 @@ from omega_public import (BASE_URL, _Document, _RateLimiter, _normalized,
                           fetch_selected_references, make_tls_context, read_public_url)
 
 BRANDS = ('MSI', 'AOC', 'ANTEC', 'SAMSUNG')
+BRAND_FILTERS = {'MSI': '7', 'AOC': '143', 'ANTEC': '822', 'SAMSUNG': '20'}
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def parse_search_page(body, page):
+def parse_search_page(body, page, page_size=20):
     """Validate the actual product rows and contiguous pagination, not menus."""
     tree = _Document(body.decode('utf-8-sig')).root
     lists = tree.all(lambda node: node.attrs.get('id') == 'product-list')
@@ -31,9 +32,10 @@ def parse_search_page(body, page):
         raise ValueError('Omega no confirma la paginación de la marca')
     first, last, total, pages = map(int, report.groups())
     cards = listing.all(lambda node: node.tag == 'li' and node.has_class('product'))
-    if (not 1 <= pages <= 50 or not 1 <= page <= pages or first != (page - 1) * 20 + 1
-            or last < first or last - first + 1 != len(cards) or len(cards) > 20
-            or (page < pages and len(cards) != 20)):
+    if (page_size not in (20, 50, 100) or not 1 <= pages <= 50 or not 1 <= page <= pages
+            or first != (page - 1) * page_size + 1
+            or last < first or last - first + 1 != len(cards) or len(cards) > page_size
+            or (page < pages and len(cards) != page_size)):
         raise ValueError('Omega devolvió una página incompleta o fuera de orden')
     references = []
     for card in cards:
@@ -60,10 +62,12 @@ def discover_brand(brand, context, output, limiter):
     page = 1
     reported_total = None
     while pages is None or page <= pages:
-        url = BASE_URL + '/es/product/search?' + urlencode({'Terms': brand, 'page': page, 'type': 'grid'})
+        url = BASE_URL + '/es/product/search?' + urlencode({
+            'Terms': brand, 'page': page, 'type': 'grid', 'sort': 'NAS',
+            'show': '100', 'brands': BRAND_FILTERS[brand]})
         body = read_public_url(url, context=context, limiter=limiter)
         (output / f'{brand}-{page}.html').write_bytes(body)
-        parsed = parse_search_page(body, page)
+        parsed = parse_search_page(body, page, page_size=100)
         if pages is not None and (parsed['pages'] != pages or parsed['reportedTotal'] != reported_total):
             raise ValueError('La búsqueda cambió durante la auditoría; requiere una captura completa nueva')
         pages, reported_total = parsed['pages'], parsed['reportedTotal']
