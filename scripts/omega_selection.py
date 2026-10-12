@@ -11,6 +11,7 @@ from omega_catalog import (EXCLUDED_IDS, EXCLUDED_REFERENCES, MAIN_CATEGORIES,
 
 IDENTITY_FIELDS = {'id', 'reference', 'name', 'brand', 'category', 'subcategory'}
 BRANDS = {'MSI', 'AOC', 'ANTEC', 'SAMSUNG'}
+SUPPORTED_BRANDS = BRANDS | {'PRIMUS', 'CORSAIR', 'JBL', 'LOGITECH'}
 BRANCHES = ('PRINCIPAL SD', 'La Nave')
 MANIFEST_FIELDS = {'version', 'minimumInventory', 'inventoryBranches',
                    'excludeRefurbished', 'knownMissingReferences', 'products'}
@@ -72,14 +73,17 @@ def read_full_selection(root, current):
             'sourceMissingReferences': document['knownMissingReferences']}
 
 
-def extend_selection(existing, sources):
+def extend_selection(existing, sources, brands=None):
     """Append actual requested-brand references once, preserving previous URLs."""
     selected = list(existing)
+    requested = BRANDS if brands is None else set(brands)
+    if not requested or not requested <= SUPPORTED_BRANDS:
+        raise ValueError('Marcas solicitadas inválidas')
     references = {product['reference'] for product in existing}
     ids = {product['id'] for product in existing}
     added = []
     for reference, source in sorted(sources.items(), key=lambda pair: int(pair[0])):
-        if reference in references or reference in EXCLUDED_REFERENCES or _brand(source).upper() not in BRANDS:
+        if reference in references or reference in EXCLUDED_REFERENCES or _brand(source).upper() not in requested:
             continue
         if source.get('reference') != reference:
             raise ValueError('La nueva ficha no confirma su referencia de Omega')

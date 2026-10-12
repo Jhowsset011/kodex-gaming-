@@ -17,7 +17,7 @@ from omega_public import fetch_selected_references, make_tls_context
 from product_details import enrich_catalog
 from product_conflicts import apply_reviewed_conflicts
 from omega_selection import (extend_selection, filter_visible_catalog, read_full_selection,
-                             selection_document, write_selection, write_selection_ids)
+                             selection_document, write_selection, write_selection_ids, SUPPORTED_BRANDS)
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -51,7 +51,7 @@ def read_snapshot(path, references):
     return sources, missing
 
 
-def read_brand_import_snapshot(path, current):
+def read_brand_import_snapshot(path, current, brands=None):
     snapshot = json.loads(path.read_text(encoding='utf-8'))
     sources, missing = snapshot['sources'], snapshot['missingReferences']
     if (not isinstance(sources, dict) or not isinstance(missing, list)
@@ -63,7 +63,7 @@ def read_brand_import_snapshot(path, current):
                    for ref, source in sources.items())
             or not {p['reference'] for p in current['products']} <= set(sources) | set(missing)):
         raise ValueError('La auditoría de marcas no cubre toda la selección actual')
-    products, added = extend_selection(current['products'], sources)
+    products, added = extend_selection(current['products'], sources, brands=brands)
     selected = {p['reference'] for p in products}
     return ({**current, 'products': products, 'count': len(products)},
             {ref: source for ref, source in sources.items() if ref in selected},
@@ -120,7 +120,9 @@ def main():
     parser.add_argument('--require-rounding', action='store_true', help='Conservar el catálogo si las reglas privadas no incluyen redondeo')
     parser.add_argument('--policy-file', type=Path, help='Reglas privadas externas al repositorio')
     parser.add_argument('--source-file', type=Path, help='Captura pública revisada para una migración puntual')
-    parser.add_argument('--import-brands', action='store_true', help='Añadir MSI, AOC, Antec y Samsung desde una auditoría pública completa')
+    parser.add_argument('--import-brands', action='store_true', help='Añadir las marcas solicitadas desde una auditoría pública completa')
+    parser.add_argument('--brands', nargs='+', type=str.upper, choices=sorted(SUPPORTED_BRANDS),
+                        help='Marcas de la auditoría que se permite añadir; por defecto MSI, AOC, Antec y Samsung')
     parser.add_argument('--image-cache', type=Path, help='Imágenes verificadas de esa captura, sin conexión')
     parser.add_argument('--accept-missing-baseline', action='store_true', help='Aceptar las ausencias confirmadas de una captura inicial revisada')
     args = parser.parse_args()
@@ -139,7 +141,7 @@ def main():
     context = None
     if args.source_file:
         if args.import_brands:
-            current, sources, missing, added = read_brand_import_snapshot(args.source_file, current)
+            current, sources, missing, added = read_brand_import_snapshot(args.source_file, current, brands=args.brands)
             references = [p['reference'] for p in current['products']]
             print(f"Marcas Omega: {len(added)} referencias nuevas, sin repetir las existentes.")
         else:

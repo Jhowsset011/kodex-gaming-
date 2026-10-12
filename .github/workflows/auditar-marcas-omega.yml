@@ -2,6 +2,10 @@ name: Auditar marcas públicas de Omega
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/omega-brand-audit-request.json
 
 permissions:
   contents: read
@@ -16,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Consultar las cuatro marcas con HTTPS verificado
-        run: python3 scripts/collect_omega_brands.py --output omega-brand-audit
+        run: python3 scripts/collect_omega_brands.py --output omega-brand-audit --request-file data/omega-brand-audit-request.json
       - name: Guardar auditoría pública para revisión
         if: always()
         uses: actions/upload-artifact@v4

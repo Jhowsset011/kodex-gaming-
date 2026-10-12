@@ -105,6 +105,20 @@ class SelectionTests(unittest.TestCase):
         self.assertEqual(added_again, [])
         self.assertEqual(repeated, selected)
 
+    def test_requested_brand_scope_adds_new_four_brands_without_adding_unrequested_brand(self):
+        sources = {}
+        for i, maker in enumerate(['Primus', 'Corsair', 'JBL', 'Logitech', 'MSI']):
+            ref = str(900041 + i)
+            item = source(ref)
+            item.update(brand=maker, name=maker + ' - TECLADO DE PRUEBA',
+                        rawTitle=maker + ' - TECLADO DE PRUEBA', description='TECLADO ' + maker)
+            sources[ref] = item
+        selected, added = extend_selection([identity()], sources, brands={'PRIMUS','CORSAIR','JBL','LOGITECH'})
+        self.assertEqual(added, ['900041','900042','900043','900044'])
+        self.assertEqual(len(selected), 5)
+        with self.assertRaises(ValueError):
+            extend_selection([identity()], sources, brands={'UNKNOWN'})
+
     def test_new_reference_collision_and_changed_source_identity_fail(self):
         for old, item in [(identity('900000900041'), source('900041')),
                           (identity(), source('900042'))]:

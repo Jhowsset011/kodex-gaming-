@@ -11,12 +11,11 @@ from urllib.parse import urlencode
 
 from omega_catalog import _brand
 from omega_images import download_source_images
-from omega_selection import read_full_selection
+from omega_selection import read_full_selection, SUPPORTED_BRANDS
 from omega_public import (BASE_URL, _Document, _RateLimiter, _normalized,
                           fetch_selected_references, make_tls_context, read_public_url)
 
 BRANDS = ('MSI', 'AOC', 'ANTEC', 'SAMSUNG')
-BRAND_FILTERS = {'MSI': '7', 'AOC': '143', 'ANTEC': '822', 'SAMSUNG': '20'}
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -57,7 +56,29 @@ def parse_search_page(body, page, page_size=20):
     return {'references': references, 'pages': pages, 'last': last, 'reportedTotal': total}
 
 
+def resolve_brand_filter(body, brand):
+    tree = _Document(body.decode('utf-8-sig')).root
+    aliases = {'PRIMUS': {'primus', 'primus gaming'}, 'LOGITECH': {'logitech', 'logitech g'}}
+    labels = aliases.get(brand, {_normalized(brand)})
+    values = set()
+    for label in tree.all(lambda node: node.tag == 'label'):
+        if _normalized(label.text()).strip() not in labels:
+            continue
+        for field in label.all(lambda node: node.tag == 'input' and node.attrs.get('name') == 'brand'):
+            value = field.attrs.get('value', '')
+            if not re.fullmatch(r'[1-9]\d*', value):
+                raise ValueError('Omega publicó un filtro de marca inválido')
+            values.add(value)
+    if not values:
+        raise ValueError('Omega no confirma el filtro de fabricante: ' + brand)
+    return sorted(values, key=int)
+
+
 def discover_brand(brand, context, output, limiter):
+    first_url = BASE_URL + '/es/product/search?' + urlencode({'Terms': brand})
+    first_body = read_public_url(first_url, context=context, limiter=limiter)
+    (output / f'{brand}-filter.html').write_bytes(first_body)
+    brand_filters = resolve_brand_filter(first_body, brand)
     references = []
     pages = None
     page = 1
@@ -65,7 +86,7 @@ def discover_brand(brand, context, output, limiter):
     while pages is None or page <= pages:
         url = BASE_URL + '/es/product/search?' + urlencode({
             'Terms': brand, 'page': page, 'type': 'grid', 'sort': 'NAS',
-            'show': '100', 'brands': BRAND_FILTERS[brand]})
+            'show': '100', 'brands': brand_filters}, doseq=True)
         body = read_public_url(url, context=context, limiter=limiter)
         (output / f'{brand}-{page}.html').write_bytes(body)
         parsed = parse_search_page(body, page, page_size=100)
@@ -83,25 +104,38 @@ def discover_brand(brand, context, output, limiter):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, required=True)
+    selection = parser.add_mutually_exclusive_group()
+    selection.add_argument('--brands', nargs='+', type=str.upper, choices=sorted(SUPPORTED_BRANDS))
+    selection.add_argument('--request-file', type=Path, help='Lista revisada de marcas públicas a consultar')
     args = parser.parse_args()
+    brands = args.brands or list(BRANDS)
+    if args.request_file:
+        request = json.loads(args.request_file.read_text(encoding='utf-8'))
+        if (not isinstance(request, dict) or set(request) != {'brands'}
+                or not isinstance(request['brands'], list)
+                or any(not isinstance(brand, str) for brand in request['brands'])):
+            raise ValueError('Solicitud de auditoría inválida')
+        brands = [brand.upper() for brand in request['brands']]
+    if not brands or len(set(brands)) != len(brands) or not set(brands) <= SUPPORTED_BRANDS:
+        raise ValueError('La auditoría debe seleccionar marcas válidas sin repetir')
     args.output.mkdir(parents=True, exist_ok=True)
     context = make_tls_context(args.output / 'tls')
     limiter = _RateLimiter()
-    discovered = {brand: discover_brand(brand, context, args.output, limiter) for brand in BRANDS}
+    discovered = {brand: discover_brand(brand, context, args.output, limiter) for brand in brands}
     catalog = json.loads((ROOT / 'js/productos-v2.json').read_text(encoding='utf-8'))
     catalog = read_full_selection(ROOT, catalog)
     references = [product['reference'] for product in catalog['products']]
     references.extend(reference for results in discovered.values() for reference in results)
     references = list(dict.fromkeys(reference for reference in references if reference != '62635'))
     sources, missing = fetch_selected_references(references, context=context, cache_dir=args.output, workers=2)
-    targets = {reference: source for reference, source in sources.items() if _brand(source).upper() in BRANDS}
+    targets = {reference: source for reference, source in sources.items() if _brand(source).upper() in brands}
     snapshot = {'sources': sources, 'missingReferences': missing, 'selectedCount': len(references)}
     (args.output / 'sources.json').write_text(json.dumps(
         snapshot, ensure_ascii=False, indent=2,
         default=lambda value: str(value) if isinstance(value, Decimal) else None) + '\n', encoding='utf-8')
     report = {'brandSearchReferences': discovered,
               'verifiedBrandReferences': {brand: [ref for ref, source in targets.items()
-                                                  if _brand(source).upper() == brand] for brand in BRANDS}}
+                                                  if _brand(source).upper() == brand] for brand in brands}}
     (args.output / 'brands.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     images = args.output / 'images'
     images.mkdir(exist_ok=True)
