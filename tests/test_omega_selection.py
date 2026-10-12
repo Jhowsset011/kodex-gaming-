@@ -155,6 +155,21 @@ class SelectionTests(unittest.TestCase):
                 products, _ = extend_selection([identity()], {'900041': item})
                 self.assertEqual((products[1]['category'], products[1]['subcategory']), (category, subcategory))
 
+    def test_requested_gaming_brand_accessories_have_correct_categories(self):
+        cases = [
+            ('Primus', 'BULTO PARA LAPTOP PRIMUS VIATORGB1', 'Periféricos', 'Bultos y mochilas'),
+            ('Primus', 'CONTROL ADAPTADOR PRIMUS PARA SMARTPHONE', 'Periféricos', 'Controles de juego'),
+            ('Corsair', 'PASTA TERMICA CORSAIR TM30', 'Componentes', 'Refrigeración'),
+            ('Logitech', 'ADAPTADOR BLUETOOTH AUX/RL LOGITECH PARA BOCINAS', 'Audio y Video', 'Accesorios de audio'),
+            ('Logitech', 'RECEPTOR USB UNIFYING LOGITECH PARA TECLADO', 'Periféricos', 'Receptores USB'),
+        ]
+        for maker, description, category, subcategory in cases:
+            item=source('900041')
+            item.update(brand=maker, name=maker+' - '+description, rawTitle=maker+' - '+description, description=description)
+            with self.subTest(description=description):
+                products,_=extend_selection([identity()],{'900041':item},brands={maker.upper()})
+                self.assertEqual((products[1]['category'],products[1]['subcategory']),(category,subcategory))
+
     def test_manifest_keeps_hidden_identity_for_restock_and_prevents_refurbish_return(self):
         products = [identity('40', '900040'), identity('41', '900041')]
         with tempfile.TemporaryDirectory() as directory:

@@ -195,6 +195,11 @@ def _unresolved_conflict(source, part_number, description):
 
 
 TYPE_PREFIXES = (
+    (r"^bulto\b|^mochila\b", "Mochila"),
+    (r"^mando gaming\b|^control adaptador\b", "Control de juego"),
+    (r"^pasta termica\b", "Pasta térmica"),
+    (r"^receptor usb\b", "Receptor USB"),
+    (r"^adaptador bluetooth\b", "Adaptador Bluetooth"),
     (r"^soporte(?: para)? (?:dual )?monitor\b", "Soporte para monitor"),
     (r"^soporte(?: vertical)? (?:de gpu|para tarjeta grafica)\b", "Soporte para GPU"),
     (r"^docking station\b", "Docking station"),
@@ -298,6 +303,9 @@ def _classification_text(source, description):
 def _category(source, description, previous):
     text, title = _classification_text(source, description)
     patterns = (
+        (r"^pasta termica\b", "Componentes"),
+        (r"^adaptador bluetooth\b.*\bbocinas?\b", "Audio y Video"),
+        (r"^(?:bulto|mochila|mando gaming|control adaptador|receptor usb)\b", "Periféricos"),
         (r"^(?:tableta|tablet|celular|smartphone)\b|^telefono\b.*\b(?:galaxy|android)\b|^cover\b.*\bsamsung\b|^funda\b.*\bsamsung\b", "Celulares y tablets"),
         (r"^soporte\b.*\b(?:gpu|tarjeta grafica)\b|^cable de extension\b.*\balimentacion\b", "Componentes"),
         (r"^soporte\b.*\bmonitor\b|^docking station\b", "Periféricos"),
@@ -355,6 +363,7 @@ def _subcategory(category, source, description, previous):
             (r"^disco|^hdd", "Discos HDD"),
         ],
         "Componentes": [
+            (r"^pasta termica\b", "Refrigeración"),
             (r"^soporte\b.*\b(?:gpu|tarjeta grafica)\b", "Accesorios para GPU"),
             (r"^cable de extension\b.*\balimentacion\b", "Cables de alimentación"),
             (r"^controladora", "Controladores RGB"),
@@ -367,6 +376,9 @@ def _subcategory(category, source, description, previous):
             (r"^tarjeta", "Tarjetas gráficas"),
         ],
         "Periféricos": [
+            (r"^(?:bulto|mochila)\b", "Bultos y mochilas"),
+            (r"^receptor usb\b", "Receptores USB"),
+            (r"^mando gaming|^control adaptador", "Controles de juego"),
             (r"^soporte\b.*\bmonitor\b", "Soportes para monitores"),
             (r"^docking station\b", "Docking stations"),
             (r"^mouse\s*pad", "Mouse pads"),

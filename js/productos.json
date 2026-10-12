@@ -1,6 +1,6 @@
 {
   "source": "Omega Tech — catálogo público",
-  "count": 472,
+  "count": 552,
   "products": [
     {
       "id": "19182",
@@ -17440,72 +17440,6 @@
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
-      "id": "20714",
-      "reference": "110190",
-      "name": "Monitor Samsung 37\" GAMING ODYSSEY G7",
-      "spec": "MONITOR SAMSUNG 37\" GAMING ODYSSEY G7, CURVO, 4K (3,840 X 2,160),16:9, MAX 165HZ,1MS,VA,DISPLAY PORT, HDMI,USB.",
-      "category": "Monitores",
-      "subcategory": "Curvos",
-      "brand": "Samsung",
-      "price": 36200.0,
-      "stock": true,
-      "image": "img/catalogo/3ed3312fd92bb959484b.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/aa03c2dd-b600-4d44-b65e-5c74dab73d64.png",
-      "description": "Monitor Samsung 37\" gaming odyssey G7, curvo, 4k (3,840 x 2,160),16:9, max 165Hz,1ms,VA,display port, HDMI,USB.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Samsung"
-        },
-        {
-          "label": "Número de parte",
-          "value": "LS37FG756ENXZA"
-        },
-        {
-          "label": "Tipo",
-          "value": "Curvos"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "37\""
-        },
-        {
-          "label": "Resolución",
-          "value": "3840 × 2160"
-        },
-        {
-          "label": "Panel",
-          "value": "VA"
-        },
-        {
-          "label": "Diseño",
-          "value": "Curvo"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "165 Hz"
-        },
-        {
-          "label": "Tiempo de respuesta",
-          "value": "1 ms"
-        },
-        {
-          "label": "Conectividad",
-          "value": "HDMI; USB"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/110190"
-      ],
-      "collections": [
-        "Zona Gamer"
-      ],
-      "model": "LS37FG756ENXZA",
-      "sourceCategory": "Gaming",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
-    },
-    {
       "id": "21342",
       "reference": "108454",
       "name": "Monitor Lenovo THINKVISION C24-40 24\"",
@@ -24749,10 +24683,10 @@
     {
       "id": "28075",
       "reference": "110927",
-      "name": "BULTO PARA LAPTOP Klip Xtreme NOVA 14\" TIPO SLEEVE, SILVER (KNS-425SV)",
+      "name": "Mochila PARA LAPTOP Klip Xtreme NOVA 14\" TIPO SLEEVE, SILVER (KNS-425SV)",
       "spec": "BULTO PARA LAPTOP KLIP XTREME NOVA 14\" TIPO SLEEVE, SILVER (KNS-425SV)",
       "category": "Periféricos",
-      "subcategory": "Accesorios para laptop",
+      "subcategory": "Bultos y mochilas",
       "brand": "Klip Xtreme",
       "price": 900.0,
       "stock": true,
@@ -24770,7 +24704,7 @@
         },
         {
           "label": "Tipo",
-          "value": "Accesorios para laptop"
+          "value": "Bultos y mochilas"
         }
       ],
       "features": [],
@@ -24780,7 +24714,7 @@
       "collections": [],
       "model": "KNS-425SV",
       "sourceCategory": "Bultos Y Mochilas",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     },
     {
       "id": "28701",
@@ -32305,62 +32239,6 @@
       "specificationsUpdated": "2026-10-12T15:19:59+00:00"
     },
     {
-      "id": "90000088850",
-      "reference": "88850",
-      "name": "Monitor AOC 20\" HD+ 60HZ",
-      "spec": "MONITOR AOC 20\" (19.5\") 20E1H, HD+ (1600X900) 60HZ, PANEL TN, HDMI, VGA, VESA.",
-      "category": "Monitores",
-      "subcategory": "De escritorio",
-      "brand": "AOC",
-      "price": 25400.0,
-      "stock": true,
-      "image": "img/catalogo/aeb0cac245b9885e6c50.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/8bd462ae-27c2-4ce8-a997-7fee2ca04894.png",
-      "description": "Monitor AOC 20\" (19.5\") 20E1H, hd+ (1600x900) 60Hz, panel TN, HDMI, VGA, vesa.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "AOC"
-        },
-        {
-          "label": "Número de parte",
-          "value": "20E1H"
-        },
-        {
-          "label": "Tipo",
-          "value": "De escritorio"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "20\""
-        },
-        {
-          "label": "Resolución",
-          "value": "1600 × 900"
-        },
-        {
-          "label": "Panel",
-          "value": "TN"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "60 Hz"
-        },
-        {
-          "label": "Conectividad",
-          "value": "HDMI; VGA"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/88850"
-      ],
-      "collections": [],
-      "model": "20E1H",
-      "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
-    },
-    {
       "id": "90000088894",
       "reference": "88894",
       "name": "Docking station Samsung · referencia 88894",
@@ -34842,7 +34720,3442 @@
       "model": "SM-A576B/DS - GRIS",
       "sourceCategory": "Celulares Y Accesorios",
       "specificationsUpdated": "2026-10-12T15:19:59+00:00"
+    },
+    {
+      "id": "90000066967",
+      "reference": "66967",
+      "name": "Audífonos Logitech CON MICROFONO H390 PC",
+      "spec": "AUDIFONO CON MICROFONO LOGITECH H390 PC NEGRO, INTERNET CLEAR CHAT CONFORT USB, CON NOISE CANCELATION (HEADSET).",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Logitech",
+      "price": 2200.0,
+      "stock": true,
+      "image": "img/catalogo/911f3d6021e79f46a038.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/4b34483f-add6-4932-b0d8-587ac6e63f81.png",
+      "description": "Audifono con microfono Logitech H390 pc negro, internet clear chat confort USB, con noise cancelation (headset).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "981-000014"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/66967"
+      ],
+      "collections": [],
+      "model": "981-000014",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000072213",
+      "reference": "72213",
+      "name": "Teclado Logitech MOUSE MK270 WIRELESS COMO ESPAÑO",
+      "spec": "TECLADO MOUSE LOGITECH MK270, EN ESPAÑOL (SPA) USB WIRELESS RECEIVER 2.4GHZ (10 METROS), NEGRO, 2 PILAS AA MOUSE/ 2 PILAS AAA TECLADO.",
+      "category": "Periféricos",
+      "subcategory": "Combos de teclado y mouse",
+      "brand": "Logitech",
+      "price": 2500.0,
+      "stock": true,
+      "image": "img/catalogo/3b934ae61cd224478036.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/172a2193-f620-4a40-ad96-977ff0a5b7e2.png",
+      "description": "Teclado mouse Logitech MK270, en español (spa) USB wireless receiver 2.4GHz (10 metros), negro, 2 pilas aa mouse/ 2 pilas aaa teclado.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "920-004432"
+        },
+        {
+          "label": "Tipo",
+          "value": "Combos de teclado y mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/72213"
+      ],
+      "collections": [],
+      "model": "920-004432",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000077312",
+      "reference": "77312",
+      "name": "Adaptador Bluetooth Logitech AUX/RL PARA BOCINAS.",
+      "spec": "ADAPTADOR BLUETOOTH AUX/RL LOGITECH. PARA BOCINAS.",
+      "category": "Audio y Video",
+      "subcategory": "Accesorios de audio",
+      "brand": "Logitech",
+      "price": 3100.0,
+      "stock": true,
+      "image": "img/catalogo/555319c03d179859fb69.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/77312.png",
+      "description": "Adaptador Bluetooth AUX/RL Logitech. Para bocinas.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "980-000910"
+        },
+        {
+          "label": "Tipo",
+          "value": "Accesorios de audio"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/77312"
+      ],
+      "collections": [],
+      "model": "980-000910",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000078539",
+      "reference": "78539",
+      "name": "Cámara web Logitech C270",
+      "spec": "CAMARA WEB LOGITECH C270 - HD 720P MICRÓFONO INTEGRADO, FOTOS DE 3MPX, USB, IDEAL PARA VIDEO CONFERENCIAS, CLIP PARA MONITOR PLANO.",
+      "category": "Periféricos",
+      "subcategory": "Cámaras web",
+      "brand": "Logitech",
+      "price": 2200.0,
+      "stock": true,
+      "image": "img/catalogo/361b37e6a8ddc2233a1c.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/6560c147-c1d8-41ee-aaf1-a17cc1b5350d.png",
+      "description": "Camara web Logitech C270 - hd 720P micrófono integrado, fotos de 3mpx, USB, ideal para video conferencias, clip para monitor plano.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "960-000694"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámaras web"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/78539"
+      ],
+      "collections": [],
+      "model": "960-000694",
+      "sourceCategory": "Camara Web",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000079309",
+      "reference": "79309",
+      "name": "Audífonos Logitech CON MICROFONO H111 STEREO",
+      "spec": "AUDIFONO CON MICROFONO LOGITECH H111 STEREO, 3.5\" INPUT.",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Logitech",
+      "price": 1600.0,
+      "stock": true,
+      "image": "img/catalogo/ff620d8d71dd7a022f19.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/fb3eb0dc-f50c-4add-965e-4797a9dbc87a.png",
+      "description": "Audifono con microfono Logitech H111 stereo, 3.5\" input.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "981-000612"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/79309"
+      ],
+      "collections": [],
+      "model": "981-000612",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000079454",
+      "reference": "79454",
+      "name": "Bocinas Logitech Z625 THX",
+      "spec": "BOCINA LOGITECH Z625 THX, 200 WATTS RMS. RCA AND 3.5MM INPUTS OPTICS, HEADPHONE JACK CON SUBWOOFER.",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "Logitech",
+      "price": 14500.0,
+      "stock": true,
+      "image": "img/catalogo/24e8c234f7b389b87751.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/af9d959a-8a35-461d-93a3-492f96addd09.png",
+      "description": "Bocina Logitech Z625 thx, 200 watts rms. Rca and 3.5mm inputs optics, headphone jack con subwoofer.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "980-001258"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "200 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/79454"
+      ],
+      "collections": [],
+      "model": "980-001258",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000085478",
+      "reference": "85478",
+      "name": "Receptor USB Logitech UNIFYING",
+      "spec": "RECEPTOR USB UNIFYING LOGITECH, PARA TECLADO, MOUSE. CONECTA HASTA 6 TECLADOS COMPATIBLES CON UN SOLO RECEPTOR, REQUIERE SOFTWARE DE LOGITEC",
+      "category": "Periféricos",
+      "subcategory": "Receptores USB",
+      "brand": "Logitech",
+      "price": 1000.0,
+      "stock": true,
+      "image": "img/catalogo/285bad1d914345d67c14.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/42cf080a-36e8-4335-b479-b0ed9346c471.png",
+      "description": "Receptor USB unifying Logitech, para teclado, mouse. Conecta hasta 6 teclados compatibles con un solo receptor, requiere software de Logitech (910-005235).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-005235"
+        },
+        {
+          "label": "Tipo",
+          "value": "Receptores USB"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/85478"
+      ],
+      "collections": [],
+      "model": "910-005235",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000088407",
+      "reference": "88407",
+      "name": "Pasta térmica Corsair TM30, JERINGA 2.5G.",
+      "spec": "PASTA TERMICA CORSAIR TM30, JERINGA 2.5G.",
+      "category": "Componentes",
+      "subcategory": "Refrigeración",
+      "brand": "Corsair",
+      "price": 500.0,
+      "stock": true,
+      "image": "img/catalogo/16640b3d5ea7c729f017.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/962a515f-951b-4c49-b4bd-5336831e3323.png",
+      "description": "Pasta termica Corsair TM30, jeringa 2.5g.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Corsair"
+        },
+        {
+          "label": "Número de parte",
+          "value": "CT-9010001-WW"
+        },
+        {
+          "label": "Tipo",
+          "value": "Refrigeración"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/88407"
+      ],
+      "collections": [],
+      "model": "CT-9010001-WW",
+      "sourceCategory": "Electros",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000089545",
+      "reference": "89545",
+      "name": "Mouse Logitech M190 INALAMBRICO AZUL",
+      "spec": "MOUSE LOGITECH M190 INALAMBRICO OPTICO, RECEPTOR USB, SENSOR 1000 DPI, AZUL.",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 1000.0,
+      "stock": true,
+      "image": "img/catalogo/f44e74529460db5a428c.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/728cf9fb-df5f-49b3-98c6-282496ce5d3b.png",
+      "description": "Mouse Logitech M190 inalambrico optico, receptor USB, sensor 1000 DPI, azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-005903"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        },
+        {
+          "label": "Resolución del sensor",
+          "value": "1000 DPI"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/89545"
+      ],
+      "collections": [],
+      "model": "910-005903",
+      "sourceCategory": "Mouse",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000090945",
+      "reference": "90945",
+      "name": "Bocinas Logitech Z407 2.1 BT BLUETOOH CON SUBWOOFER Y CONTROL WIRELESS",
+      "spec": "BOCINA LOGITECH Z407 BT BLUETOOH 2.1 CHANNEL 80 WATTS, 40W RMS, SPEAKER SYSTEM CON SUBWOOFER Y CONTROL REMOTO WIRELESS, BLACK.",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "Logitech",
+      "price": 9600.0,
+      "stock": true,
+      "image": "img/catalogo/cd158ae14e1440f21451.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/72d1913f-e51a-4656-a38d-e5f101aa413e.png",
+      "description": "Bocina Logitech Z407 bt bluetooh 2.1 channel 80 watts, 40W rms, speaker system con subwoofer y control remoto wireless, black.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "980-001347"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "80 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/90945"
+      ],
+      "collections": [],
+      "model": "980-001347",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000092080",
+      "reference": "92080",
+      "name": "Mouse Logitech M650 MEDIUM BLUETOOTH NEGRO GRAFITO.",
+      "spec": "MOUSE LOGITECH M650 MEDIUM BLUETOOTH NEGRO GRAFITO, (NO INCLUYE EL DONGLE BT).",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 2000.0,
+      "stock": true,
+      "image": "img/catalogo/ebea3ce04e18f3bb15cd.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/0855dfc2-22c0-4863-9bcb-022c3c2f88e2.png",
+      "description": "Mouse Logitech M650 medium Bluetooth negro grafito, (no incluye el dongle bt).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-006250"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [
+        "No incluye el dongle bt)."
+      ],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/92080"
+      ],
+      "collections": [],
+      "model": "910-006250",
+      "sourceCategory": "Mouse",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000092083",
+      "reference": "92083",
+      "name": "Mouse Logitech M650 LARGE BLUETOOTH NEGRO GRAFITO PARA DERECHOS",
+      "spec": "MOUSE LOGITECH M650 LARGE BLUETOOTH NEGRO GRAFITO, PARA DERECHOS (NO INCLUYE EL DONGLE BT).",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 3100.0,
+      "stock": true,
+      "image": "img/catalogo/ac28e96616cb5c8ba699.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/e82fef69-c7b4-4926-9e19-a2290c8876bb.png",
+      "description": "Mouse Logitech M650 large Bluetooth negro grafito, para derechos (no incluye el dongle bt).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-006231"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [
+        "No incluye el dongle bt)."
+      ],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/92083"
+      ],
+      "collections": [],
+      "model": "910-006231",
+      "sourceCategory": "Mouse",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000093349",
+      "reference": "93349",
+      "name": "Cámara web Logitech BRIO 500 ROSADO",
+      "spec": "CAMARA WEB LOGITECH BRIO 500 COLOR ROSADO (ROSE), FHD HASTA 1080P 30FPS, ZOOM 4X, RIGHTLIGHT 4, CONEXION USB-C, CAMPO VISUAL 90 GRADOS, PARA",
+      "category": "Periféricos",
+      "subcategory": "Cámaras web",
+      "brand": "Logitech",
+      "price": 6900.0,
+      "stock": true,
+      "image": "img/catalogo/868dcc5d33acbb046992.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/d8ccc7ea-c0d9-4c0e-9d85-dc0ed61340be.png",
+      "description": "Camara web Logitech brio 500 color rosado (rose), FHD hasta 1080P 30fps, zoom 4x, rightlight 4, conexion USB-C, campo visual 90 grados, para video conferencias, streaming y grabacion.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "960-001418"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámaras web"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/93349"
+      ],
+      "collections": [],
+      "model": "960-001418****",
+      "sourceCategory": "Camara Web",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000093350",
+      "reference": "93350",
+      "name": "Cámara web Logitech BRIO 500 BLANCO",
+      "spec": "CAMARA WEB LOGITECH BRIO 500 COLOR BLANCO, FHD HASTA 1080P 30FPS, ZOOM 4X, RIGHTLIGHT 4, CONEXION USB-C, CAMPO VISUAL 90 GRADOS, PARA VIDEO ",
+      "category": "Periféricos",
+      "subcategory": "Cámaras web",
+      "brand": "Logitech",
+      "price": 6800.0,
+      "stock": true,
+      "image": "img/catalogo/ce0dae2e751d9a6bce44.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/21b83725-944c-48cd-bc92-a772c81e6268.png",
+      "description": "Camara web Logitech brio 500 color blanco, FHD hasta 1080P 30fps, zoom 4x, rightlight 4, conexion USB-C, campo visual 90 grados, para video conferencias, streaming y grabacion.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "960-001426"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámaras web"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/93350"
+      ],
+      "collections": [],
+      "model": "960-001426",
+      "sourceCategory": "Camara Web",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000093736",
+      "reference": "93736",
+      "name": "Mouse Logitech POP MOUSE WITH EMOJI COLOR BLAST YELLOW (AMARILLO)",
+      "spec": "MOUSE LOGITECH MOUSE POP MOUSE WITH EMOJI COLOR BLAST YELLOW (AMARILLO), OPTICO BLUETOOTH, COMPATIBLE CON RECEPTOR USB LOGI BOLT, 4 BOTONES,",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 2600.0,
+      "stock": true,
+      "image": "img/catalogo/b33d06dcafd2e34d0c7a.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/2d716618-8a11-4b14-bcda-98e106297866.png",
+      "description": "Mouse Logitech mouse pop mouse with emoji color blast yellow (amarillo), optico Bluetooth, compatible con receptor USB logi bolt, 4 botones, 1 personalizable software emojis, velocidad del mouse ajustable entre 1000 a 4000 DPI, duracion hasta 24 meses bateria, peso 82 gramos, compatible con macos 10.15, win 10 y posteriores.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-006543"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        },
+        {
+          "label": "Resolución del sensor",
+          "value": "4000 DPI"
+        },
+        {
+          "label": "Botones",
+          "value": "4"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/93736"
+      ],
+      "collections": [],
+      "model": "910-006543",
+      "sourceCategory": "Mouse",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000093958",
+      "reference": "93958",
+      "name": "Cámara web Logitech BRIO 300 NEGRO",
+      "spec": "CAMARA WEB LOGITECH BRIO 300 COLOR NEGRO, FHD HASTA 1080P 30FPS, ZOOM 1X, RIGHTLIGHT 2, CONEXION USB-C, CAMPO VISUAL 70 GRADOS, TAPA DE PRIV",
+      "category": "Periféricos",
+      "subcategory": "Cámaras web",
+      "brand": "Logitech",
+      "price": 3800.0,
+      "stock": true,
+      "image": "img/catalogo/54614617ab893501fe49.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/178e1a75-5ce0-4c7b-b991-bd685ff51a63.png",
+      "description": "Camara web Logitech brio 300 color negro, FHD hasta 1080P 30fps, zoom 1x, rightlight 2, conexion USB-C, campo visual 70 grados, tapa de privacidad, para video conferencias, streaming y grabacion.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "960-001413"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámaras web"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/93958"
+      ],
+      "collections": [],
+      "model": "960-001413",
+      "sourceCategory": "Camara Web",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000094202",
+      "reference": "94202",
+      "name": "Audífonos JBL TUNE 520 BT NEGRO",
+      "spec": "AUDIFONO JBL TUNE 520, BLUETOOTH 5.0, 57 HORAS PARA JUEGO, USB-C.ON- EAR, JBL PURE BASS, CONNEXION MULTIPUNTO, HANDFREE, MICROFONO INTEGRADO",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 3300.0,
+      "stock": true,
+      "image": "img/catalogo/2c0546be316a76571fe9.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/6f98144c-fe70-436e-aa61-8a943cc6f7ae.png",
+      "description": "Audifono JBL tune 520, Bluetooth 5.0, 57 horas para juego, USB-C.on- ear, JBL pure bass, connexion multipunto, handfree, microfono integrado, 30 ohms, color negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT520BTBLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.0"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/94202"
+      ],
+      "collections": [],
+      "model": "JBLT520BTBLKAM***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000094457",
+      "reference": "94457",
+      "name": "Audífonos JBL TUNE 520 BT AZUL",
+      "spec": "AUDIFONO JBL TUNE 520, BLUETOOTH, 5.0, 57 HORAS PARA JUEGO, USB-C.ON- EAR, JBL PURE BASS, CONNEXION MULTIPUNTO, HANDFREE, MICROFONO INTEGRAD",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 3100.0,
+      "stock": true,
+      "image": "img/catalogo/a43e0649fc7646183fb2.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/7d2e925e-c46c-4c52-a668-fe6cbae6dc8e.png",
+      "description": "Audifono JBL tune 520, Bluetooth, 5.0, 57 horas para juego, USB-C.on- ear, JBL pure bass, connexion multipunto, handfree, microfono integrado, 30 ohms, color azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT520BTBLUAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/94457"
+      ],
+      "collections": [],
+      "model": "JBLT520BTBLUAM***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000094643",
+      "reference": "94643",
+      "name": "Bocinas Logitech PORTABLE WONDERBOOM 3, AZUL",
+      "spec": "BOCINA LOGITECH PORTABLE WONDERBOOM 3, AZUL, IP67 SUMERGIBLE HASTA 30MIN EN EL AGUA, CONECCION BT.",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "Logitech",
+      "price": 6200.0,
+      "stock": true,
+      "image": "img/catalogo/2efbd37eb60ddc4a9eb5.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/13530c74-f513-4982-a580-dac4b0b9e1b3.png",
+      "description": "Bocina Logitech portable wonderboom 3, azul, IP67 sumergible hasta 30min en el agua, coneccion bt.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "984-001814"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/94643"
+      ],
+      "collections": [],
+      "model": "984-001814***",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000094644",
+      "reference": "94644",
+      "name": "Cámara web Logitech BRIO 300 BLANCO",
+      "spec": "CAMARA WEB LOGITECH BRIO 300 COLOR BLANCO, FHD HASTA 1080P 30FPS, ZOOM 1X, RIGHTLIGHT 2, CONEXION USB-C, CAMPO VISUAL 70 GRADOS, TAPA DE PRI",
+      "category": "Periféricos",
+      "subcategory": "Cámaras web",
+      "brand": "Logitech",
+      "price": 4400.0,
+      "stock": true,
+      "image": "img/catalogo/96fbf77b6825c3743baa.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/943492c7-7b23-496e-952d-f6587bb6b4d8.png",
+      "description": "Camara web Logitech brio 300 color blanco, FHD hasta 1080P 30fps, zoom 1x, rightlight 2, conexion USB-C, campo visual 70 grados, tapa de privacidad, para video conferencias, streaming y grabacion.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "960-001440"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámaras web"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/94644"
+      ],
+      "collections": [],
+      "model": "960-001440",
+      "sourceCategory": "Camara Web",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000094645",
+      "reference": "94645",
+      "name": "Audífonos Logitech CON MICROFONO H390 PC ROSADO",
+      "spec": "AUDIFONO CON MICROFONO LOGITECH H390 PC ROSADO, INTERNET CLEAR CHAT CONFORT USB, CON NOISE CANCELATION (HEADSET).",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Logitech",
+      "price": 2600.0,
+      "stock": true,
+      "image": "img/catalogo/45d145082118ff154b68.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/65426c79-00a1-4155-bd5a-6bba33fc1af0.png",
+      "description": "Audifono con microfono Logitech H390 pc rosado, internet clear chat confort USB, con noise cancelation (headset).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "981-001280"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/94645"
+      ],
+      "collections": [],
+      "model": "981-001280",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000095069",
+      "reference": "95069",
+      "name": "Bocinas JBL PULSE 5 NEGRO",
+      "spec": "BOCINA JBL PULSE 5 BLUETOOTH 5.3, A PRUEBA DE AGUA (IP67), 30W, 10 DBM EIRP, JBL PARTYBOOST, LUCES RGB 360, 12 HRS AUTONOMIA, NEGRO (JBLPULS",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 14000.0,
+      "stock": true,
+      "image": "img/catalogo/bb4b4eb40f2631b36362.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/f61fbee8-321f-42fb-8c9b-e79ea6c60419.png",
+      "description": "Bocina JBL pulse 5 Bluetooth 5.3, a prueba de agua (IP67), 30W, 10 dbm eirp, JBL partyboost, luces RGB 360, 12 hrs autonomia, negro (JBLPULSE5BLKAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLPULSE5BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "30 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/95069"
+      ],
+      "collections": [],
+      "model": "JBLPULSE5BLKAM***",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000096997",
+      "reference": "96997",
+      "name": "Bocinas JBL GO4 CAMO",
+      "spec": "BOCINA JBL GO4 BLUETOOTH 5.3, A PRUEBA DE AGUA (IP67), 4.2W DE PONTENCIA , 7 HRS DE REPRODUCCION, COLOR CAMO, REPRODUCCION INALAMBRICA BLUET",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 3300.0,
+      "stock": true,
+      "image": "img/catalogo/9e0cd2ffe9d5f94560a9.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/b5f07b28-8d1d-4665-9427-f8a172214c3d.png",
+      "description": "Bocina JBL GO4 Bluetooth 5.3, a prueba de agua (IP67), 4.2W de pontencia , 7 hrs de reproduccion, color camo, reproduccion inalambrica Bluetooth,bateria recargable (JBLGO4SQUADAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLGO4SQUADAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "4.2 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/96997"
+      ],
+      "collections": [],
+      "model": "JBLGO4SQUADAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000096998",
+      "reference": "96998",
+      "name": "Bocinas JBL AUTHENTICS 200, NEGRO",
+      "spec": "BOCINA JBL AUTHENTICS 200, BLUETOOTH, WI-FI, ETHERNET, USB, ALTAVOZ INTELIGENTE, DISEÑO RETRO CON WIFI, ASISTENTES DE VOZ, BLUETOOTH, CONTRO",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 15100.0,
+      "stock": true,
+      "image": "img/catalogo/f56a652ee819609f4d82.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/7c93cbad-3623-44d1-8383-080b8e5b1c32.png",
+      "description": "Bocina JBL authentics 200, Bluetooth, WI-FI, ethernet, USB, altavoz inteligente, diseño retro con wifi, asistentes de voz, Bluetooth, controles intuitivos, aplicacion JBL one, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLAUTH200BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "ETHERNET; USB"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        },
+        {
+          "label": "Wi-Fi",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/96998"
+      ],
+      "collections": [],
+      "model": "JBLAUTH200BLKAM***",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097004",
+      "reference": "97004",
+      "name": "Audífonos JBL TOUR PRO 2 NEGRO",
+      "spec": "AUDIFONO JBL TOUR PRO 2 NEGRO,BLUETOOTH, INTEGRACION CON ASISTENTE DE VOZ, CANCELACION ACTIVA DE RUIDO, CANCELACION ADAPTATIVA DE RUIDO, MIC",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 12900.0,
+      "stock": true,
+      "image": "img/catalogo/c6a8b6cd6de1c6fe738a.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/bac6ef59-b3f5-4d6b-96b7-0585214a142b.png",
+      "description": "Audifono JBL tour pro 2 negro,Bluetooth, integracion con asistente de voz, cancelacion activa de ruido, cancelacion adaptativa de ruido, microfono integrado, bateria recargable, control tactil, resistente al agua, estuche de carga, color negro (JBLTOURPRO2BLKAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLTOURPRO2BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97004"
+      ],
+      "collections": [],
+      "model": "JBLTOURPRO2BLKAM***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097005",
+      "reference": "97005",
+      "name": "Audífonos JBL TOUR PRO 2 CHAMPAGNE",
+      "spec": "AUDIFONO JBL TOUR PRO 2 CHAMPAGNE ,BLUETOOTH, INTEGRACION CON ASISTENTE DE VOZ, CANCELACION ACTIVA DE RUIDO, CANCELACION ADAPTATIVA DE RUIDO",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 12900.0,
+      "stock": true,
+      "image": "img/catalogo/3b3554f8c64f95558042.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/d923bc0a-b1cc-41a9-8d0c-0bcde972e23f.png",
+      "description": "Audifono JBL tour pro 2 champagne ,Bluetooth, integracion con asistente de voz, cancelacion activa de ruido, cancelacion adaptativa de ruido, microfono integrado, bateria recargable, control tactil, resistente al agua, estuche de carga, color chanmpagne (JBLTOURPRO2CPGAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLTOURPRO2CPGAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97005"
+      ],
+      "collections": [],
+      "model": "JBLTOURPRO2CPGAM***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097006",
+      "reference": "97006",
+      "name": "Bocinas JBL CLIP 5, NEGRO",
+      "spec": "BOCINA JBL CLIP 5 BLUETOOTH 5.3, A PRUEBA DE AGUA (IP67), CLIP DE AGARRE,12 HRS TIEMPO DE REPRODUCCION MAS 3 HRS EXTRA CON PLAYTIME BOOTS, N",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 4400.0,
+      "stock": true,
+      "image": "img/catalogo/cdd9b3f86201e03219a3.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/5cfafa71-d9b1-43c8-8282-b4afdf15c24b.png",
+      "description": "Bocina JBL clip 5 Bluetooth 5.3, a prueba de agua (IP67), clip de agarre,12 hrs tiempo de reproduccion mas 3 hrs extra con playtime boots, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLCLIP5BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97006"
+      ],
+      "collections": [],
+      "model": "JBLCLIP5BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097007",
+      "reference": "97007",
+      "name": "Bocinas JBL CLIP 5, AZUL",
+      "spec": "BOCINA JBL CLIP 5 BLUETOOTH 5.3, A PRUEBA DE AGUA (IP67), CLIP DE AGARRE,12 HRS TIEMPO DE REPRODUCCION MAS 3 HRS EXTRA CON PLAYTIME BOOTS, A",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 4400.0,
+      "stock": true,
+      "image": "img/catalogo/4fba60d47199d430dac4.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/82783c77-e8a1-4b88-ba13-c1f87355bc91.png",
+      "description": "Bocina JBL clip 5 Bluetooth 5.3, a prueba de agua (IP67), clip de agarre,12 hrs tiempo de reproduccion mas 3 hrs extra con playtime boots, azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLCLIP5BLUAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97007"
+      ],
+      "collections": [],
+      "model": "JBLCLIP5BLUAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097009",
+      "reference": "97009",
+      "name": "Bocinas JBL 510 CHANNEL, NEGRO",
+      "spec": "BOCINA JBL 510 CHANNEL BARRA DE SONIDO, SUBWOOFER,SU CANAL CENTRAL ESPECIFICO PROPORCIONA UNA CLARIDAD DE VOZ SUPERIOR , SUBWOOFER INTEGRADO",
+      "category": "Audio y Video",
+      "subcategory": "Equipos de sonido",
+      "brand": "JBL",
+      "price": 10100.0,
+      "stock": true,
+      "image": "img/catalogo/a26adb5757b822d8ee79.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/b41e3c8b-dd58-4c70-8ec9-241cfeb5da24.png",
+      "description": "Bocina JBL 510 channel barra de sonido, subwoofer,su canal central especifico proporciona una claridad de voz superior , subwoofer integrado ,conexion de un solo cable con HDMI arc, Bluetooth ,dolby audio integrado, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLSB510BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Equipos de sonido"
+        },
+        {
+          "label": "Conectividad",
+          "value": "HDMI"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97009"
+      ],
+      "collections": [],
+      "model": "JBLSB510BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097014",
+      "reference": "97014",
+      "name": "Audífonos JBL TUNE 310C",
+      "spec": "AUDIFONO JBL TUNE 310C INTRAUDITIVOS CON CABLE DE ALTA RESOLUCION, CON CONTROL REMOTO DE 3 BOTONES, CON MICROFONO, COLOR NEGRO, COMPATIBLE C",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 1100.0,
+      "stock": true,
+      "image": "img/catalogo/41c4c0f080624967a29a.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/79dcbb2e-29cd-4858-b016-52bd66ce65ee.png",
+      "description": "Audifono JBL tune 310C intrauditivos con cable de alta resolucion, con control remoto de 3 botones, con microfono, color negro, compatible con dispositivos USB-C (JBLT310CBLKAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT310CBLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Botones",
+          "value": "3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97014"
+      ],
+      "collections": [],
+      "model": "JBLT310CBLKAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097015",
+      "reference": "97015",
+      "name": "Audífonos JBL TUNE 310C BLANCO",
+      "spec": "AUDIFONO JBL TUNE 310C INTRAUDITIVOS CON CABLE DE ALTA RESOLUCION, CON CONTROL REMOTO DE 3 BOTONES, CON MICROFONO, COLOR BLANCO, COMPATIBLE ",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 1200.0,
+      "stock": true,
+      "image": "img/catalogo/35740f6beae1d7aca5b0.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/128b6306-4d17-48d5-866d-cb19a58b4ac5.png",
+      "description": "Audifono JBL tune 310C intrauditivos con cable de alta resolucion, con control remoto de 3 botones, con microfono, color blanco, compatible con dispositivos USB-C (JBLT310CBLKAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT310CWHTAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Botones",
+          "value": "3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97015"
+      ],
+      "collections": [],
+      "model": "JBLT310CWHTAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097023",
+      "reference": "97023",
+      "name": "Audífonos JBL LIVE BUDS 3 NEGRO",
+      "spec": "AUDIFONO INALAMBRICO JBL LIVE BUDS 3 CON MICROFONO, BLUETOOTH 5.3, CONEXION MULTIPUNTO, CANCELACION ACTIVA DE RUIDO, BATERIA RECARGABLE, CON",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 11500.0,
+      "stock": true,
+      "image": "img/catalogo/1f90edcd711baa536b7f.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/85b6da38-896e-4894-8aac-3ac7c8dad721.png",
+      "description": "Audifono inalambrico JBL live buds 3 con microfono, Bluetooth 5.3, conexion multipunto, cancelacion activa de ruido, bateria recargable, control tactil, resistente al agua, estuche de carga smart, color negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLLIVEBUDS3BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97023"
+      ],
+      "collections": [],
+      "model": "JBLLIVEBUDS3BLKAM***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "90000097024",
+      "reference": "97024",
+      "name": "Audífonos JBL LIVE FLEX 3 SILVER",
+      "spec": "AUDIFONO INALAMBRICO JBL LIVE FLEX 3 CON MICROFONO, BLUETOOTH 5.3, CONEXION MULTIPUNTO, CANCELACION ACTIVA DE RUIDO, BATERIA RECARGABLE, CON",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 11500.0,
+      "stock": true,
+      "image": "img/catalogo/b68ed1088110f1a13376.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/edf8e355-78ea-4504-9ab7-7d87cce61460.png",
+      "description": "Audifono inalambrico JBL live flex 3 con microfono, Bluetooth 5.3, conexion multipunto, cancelacion activa de ruido, bateria recargable, control tactil, resistente al agua, estuche de carga smart, PERSONI-FI 3.0, color negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLLIVEFLEX3SIL"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97024"
+      ],
+      "collections": [],
+      "model": "JBLLIVEFLEX3SIL***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000104582",
+      "reference": "104582",
+      "name": "Audífonos Logitech INALAMBRICOS CON MICROFONO ZONE 300 PC GRAPHITE",
+      "spec": "AUDIFONO INALAMBRICOS CON MICROFONO LOGITECH ZONE 300 , NEGRO, 20 HORAS DE CARGAS, BLUETOOTH MULTIPUNTO, HASTA 30 METROS DE DISTANCIA, CANCE",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Logitech",
+      "price": 4600.0,
+      "stock": true,
+      "image": "img/catalogo/a822f0d9f19d30e2491d.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/48ab4136-1599-4f3c-9dcc-37c91bc2aa49.png",
+      "description": "Audifono inalambricos con microfono Logitech zone 300 , negro, 20 horas de cargas, Bluetooth multipunto, hasta 30 metros de distancia, cancelacion de ruido.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "981-001406"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/104582"
+      ],
+      "collections": [],
+      "model": "981-001406",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000106119",
+      "reference": "106119",
+      "name": "Audífonos JBL CON MICROFONO ENDURANCE RUN INALAMBRICOS",
+      "spec": "AUDIFONO INALAMBRICO JBL ENDURANCE RUN 2 CON MICROFONO, IN-EAR, 3.5MM, CONTROL BLUETOOTH, TWISTLOCK, SIRI /GOOGLE, 8.2 MM DRIVER, NEGRO",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 2600.0,
+      "stock": true,
+      "image": "img/catalogo/a2c1f1a2ba44705e4d6b.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/44810c6e-b268-4dd9-95d1-8bb15f50b7cf.png",
+      "description": "Audifono inalambrico JBL endurance run 2 con microfono, IN-EAR, 3.5mm, control Bluetooth, twistlock, siri /google, 8.2 mm driver, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLENDURRUN2BTBLK"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/106119"
+      ],
+      "collections": [],
+      "model": "JBLENDURRUN2BTBLK***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000106529",
+      "reference": "106529",
+      "name": "Silla GAMING Primus THRONO, DE PVC TIPO PIEL, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ESPALDA Y CABEZA, ALTURA AJUSTABLE Y BASE CON RUEDAS ROBUSTAS, NEGRO/AZUL (PCH-103BL)",
+      "spec": "SILLA GAMING PRIMUS THRONO, DE PVC TIPO PIEL, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ESPALDA Y CABEZA, ALTURA AJUSTABLE Y BASE CON RUEDA",
+      "category": "Mobiliario",
+      "subcategory": "Sillas",
+      "brand": "Primus",
+      "price": 10600.0,
+      "stock": true,
+      "image": "img/catalogo/8c1a5af467b0880fa68a.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/263b7bb6-af46-48e4-84cf-944d3481484e.png",
+      "description": "Silla gaming Primus throno, de pvc tipo piel, espaldar alto ajustable, reposo de brazos, espalda y cabeza, altura ajustable y base con ruedas robustas, NEGRO/AZUL (PCH-103BL).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Primus"
+        },
+        {
+          "label": "Número de parte",
+          "value": "PCH-103BL"
+        },
+        {
+          "label": "Tipo",
+          "value": "Sillas"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/106529"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "PCH-103BL",
+      "sourceCategory": "Gaming",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000106530",
+      "reference": "106530",
+      "name": "Silla GAMING Primus THRONO, DE PVC TIPO PIEL, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ESPALDA Y CABEZA, ALTURA AJUSTABLE Y BASE CON RUEDAS ROBUSTAS, VERDE / MARRON",
+      "spec": "SILLA GAMING PRIMUS THRONO, DE PVC TIPO PIEL, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ESPALDA Y CABEZA, ALTURA AJUSTABLE Y BASE CON RUEDA",
+      "category": "Mobiliario",
+      "subcategory": "Sillas",
+      "brand": "Primus",
+      "price": 11700.0,
+      "stock": true,
+      "image": "img/catalogo/cac50761d0fdb810aaf8.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/db7d7f19-4087-4938-a7be-7e65bba7a7ca.png",
+      "description": "Silla gaming Primus throno, de pvc tipo piel, espaldar alto ajustable, reposo de brazos, espalda y cabeza, altura ajustable y base con ruedas robustas, verde / marron (PCH-103GB).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Primus"
+        },
+        {
+          "label": "Número de parte",
+          "value": "PCH-103GB"
+        },
+        {
+          "label": "Tipo",
+          "value": "Sillas"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/106530"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "PCH-103GB",
+      "sourceCategory": "Gaming",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000106556",
+      "reference": "106556",
+      "name": "Bocinas JBL XTREME4 NEGRO",
+      "spec": "BOCINA JBL XTREME 4 BLUETOOTH 5.1, A PRUEBA DE AGUA (IP67), 2X 25W RMS WOOFER + 2 X 25W RMS TWEETER, 3.5 MM IMPUT, POWER BANK INCLUIDO, 12DB",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 19000.0,
+      "stock": true,
+      "image": "img/catalogo/f11d5aee0d4eb2d86505.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/85e54f9d-d30a-4535-baf3-e42dd2f25803.png",
+      "description": "Bocina JBL xtreme 4 Bluetooth 5.1, a prueba de agua (IP67), 2x 25W rms woofer + 2 x 25W rms tweeter, 3.5 mm imput, power bank incluido, 12dbm, partyboost, 15 hrs autonomia, color negro (JBLXTREME4BLKAM) .",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLXTREME4BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "25 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/106556"
+      ],
+      "collections": [],
+      "model": "JBLXTREME4BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000106709",
+      "reference": "106709",
+      "name": "Mouse Logitech M196 BLUETOOTH GRAPHITE",
+      "spec": "MOUSE LOGITECH M196 BLUETOOTH, , SENSOR 1000 DPI, GRAPHITE.",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 800.0,
+      "stock": true,
+      "image": "img/catalogo/a6cb9cbb9507a46adc1f.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/50a91cde-95ef-4af7-a11c-a29496ec3148.png",
+      "description": "Mouse Logitech M196 Bluetooth, , sensor 1000 DPI, graphite.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007456."
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        },
+        {
+          "label": "Resolución del sensor",
+          "value": "1000 DPI"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/106709"
+      ],
+      "collections": [],
+      "model": "910-007456.",
+      "sourceCategory": "Mouse",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000106710",
+      "reference": "106710",
+      "name": "Mouse Logitech M196 BLUETOOTH BLANCO",
+      "spec": "MOUSE LOGITECH M196 BLUETOOTH, , SENSOR 1000 DPI, BLANCO.",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 900.0,
+      "stock": true,
+      "image": "img/catalogo/ea36cd974c0ee02949f2.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/d2355e75-0019-4f53-bb37-2efaea74317a.png",
+      "description": "Mouse Logitech M196 Bluetooth, , sensor 1000 DPI, blanco.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007457"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        },
+        {
+          "label": "Resolución del sensor",
+          "value": "1000 DPI"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/106710"
+      ],
+      "collections": [],
+      "model": "910-007457",
+      "sourceCategory": "Mouse",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000106711",
+      "reference": "106711",
+      "name": "Mouse Logitech M196 BLUETOOTH ROSADO",
+      "spec": "MOUSE LOGITECH M196 BLUETOOTH, , SENSOR 1000 DPI, ROSADO.",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 900.0,
+      "stock": true,
+      "image": "img/catalogo/effe120754fd5836dd2d.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/de964db1-09ce-4789-bac3-3da5171502e2.png",
+      "description": "Mouse Logitech M196 Bluetooth, , sensor 1000 DPI, rosado.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007458"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        },
+        {
+          "label": "Resolución del sensor",
+          "value": "1000 DPI"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/106711"
+      ],
+      "collections": [],
+      "model": "910-007458",
+      "sourceCategory": "Mouse",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107002",
+      "reference": "107002",
+      "name": "Audífonos JBL VIBE BUDS 2 BLANCO",
+      "spec": "AUDIFONO JBL VIBE BUDS 2, BLUETOOTH 5.2, CON 4 MICROFONOS, RESISTENTE AL POLVO, PERSONALIZABLE CON LA APP, COMPATIBILIDAD CON FAST PAIR DE G",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 3900.0,
+      "stock": true,
+      "image": "img/catalogo/f23ce3deda290124f65a.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/df560e66-e572-43cd-8175-1e78313a0551.png",
+      "description": "Audifono JBL vibe buds 2, Bluetooth 5.2, con 4 microfonos, resistente al polvo, personalizable con la app, compatibilidad con fast pair de google y swift pair de microsoft, cancelacion de ruido, carga rapida, color blanco.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLVBUDS2WHTAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.2"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107002"
+      ],
+      "collections": [],
+      "model": "JBLVBUDS2WHTAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107299",
+      "reference": "107299",
+      "name": "Bocinas JBL CHARGE 6, AZUL",
+      "spec": "BOCINA JBL CHARGE 6 BLUETOOTH 5.1, A PRUEBA DE AGUA (IP67), 45W, SONIDO PRO CON AI SOUND BOOTS, HASTA 28 HRS DE REPRODUCCION,CONEXION DE VAR",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 11800.0,
+      "stock": true,
+      "image": "img/catalogo/26285b4fa3d2ec344356.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/2845e74f-fc0b-4afe-8c3c-7e08516a30d4.png",
+      "description": "Bocina JBL charge 6 Bluetooth 5.1, a prueba de agua (IP67), 45W, sonido pro con ai sound boots, hasta 28 hrs de reproduccion,conexion de varios altavoces con auracast, azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLCHARGE6BLUAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "45 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107299"
+      ],
+      "collections": [],
+      "model": "JBLCHARGE6BLUAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107300",
+      "reference": "107300",
+      "name": "Bocinas JBL CHARGE 6, NEGRO",
+      "spec": "BOCINA JBL CHARGE 6 BLUETOOTH 5.1, A PRUEBA DE AGUA (IP67), 45W, SONIDO PRO CON AI SOUND BOOTS, 28 HRS DE REPRODUCCION,CONEXION DE VARIOS AL",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 11900.0,
+      "stock": true,
+      "image": "img/catalogo/902888ab3f4bb6d0a7a8.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/368fe601-1e52-4cef-a233-1a20fb9fbcfc.png",
+      "description": "Bocina JBL charge 6 Bluetooth 5.1, a prueba de agua (IP67), 45W, sonido pro con ai sound boots, 28 hrs de reproduccion,conexion de varios altavoces con auracast, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLCHARGE6BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "45 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107300"
+      ],
+      "collections": [],
+      "model": "JBLCHARGE6BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107301",
+      "reference": "107301",
+      "name": "Bocinas JBL FLIP 7, NEGRO",
+      "spec": "BOCINA JBL FLIP 7 BLUETOOTH 5.1, A PRUEBA DE AGUA (IP67) , SONIDO PRO DE JBL CON AI SOUND BOOTS,HASTA 16 HORAS DE REPRODUCCION, CONEXION DE ",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 7700.0,
+      "stock": true,
+      "image": "img/catalogo/642413f67934fc1e73ca.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/993bd1e7-1ac9-45b4-9a9d-a28f5420946c.png",
+      "description": "Bocina JBL flip 7 Bluetooth 5.1, a prueba de agua (IP67) , sonido pro de JBL con ai sound boots,hasta 16 horas de reproduccion, conexion de varios altavoces con auracast, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLFLIP7BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107301"
+      ],
+      "collections": [],
+      "model": "JBLFLIP7BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107303",
+      "reference": "107303",
+      "name": "Audífonos JBL TUNE 720 BT BLANCO",
+      "spec": "AUDIFONO JBL TUNE 720, BLUETOOTH 5.3, CONEXION MULTIPUNTO, CARGA RAPIDA, LLAMADAS CON MANOS LIBRES, PLEGABLE, HASTA 76 HORAS DE PURO PLACER ",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 4000.0,
+      "stock": true,
+      "image": "img/catalogo/44e698ff5e19bbd74ab5.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/8d35994d-c65b-4bcb-b9a4-96088f3cb804.png",
+      "description": "Audifono JBL tune 720, Bluetooth 5.3, conexion multipunto, carga rapida, llamadas con manos libres, plegable, hasta 76 horas de puro placer auditivo y 3 horas adicionales de batería, color blanco.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT720BTWHTAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107303"
+      ],
+      "collections": [],
+      "model": "JBLT720BTWHTAM***",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107599",
+      "reference": "107599",
+      "name": "Control de juego Primus PMC-01BT VICTOR01BT – INALÁMBRICO BLUETOOTH, COMPATIBLE CON PS4/NINTENDO SWITCH/PC/ANDROID/IOS, BATERÍA 600MAH, RETROILUMINACIÓN RGB, EFECTO HALL 3D",
+      "spec": "CONTROL ADAPTADOR PRIMUS PARA SMARTPHONE INALÁMBRICO CON CONECTIVIDAD BLUETOOTH 5.0 Y BATERÍA DE LITIO RECARGABLE DE 600MAH, OFRECIENDO HAST",
+      "category": "Periféricos",
+      "subcategory": "Controles de juego",
+      "brand": "Primus",
+      "price": 2600.0,
+      "stock": true,
+      "image": "img/catalogo/7a9ed2d7056553724c12.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/2a956b03-d312-4f71-a2c1-75477f4f22f5.png",
+      "description": "Control adaptador Primus para smartphone inalámbrico con conectividad Bluetooth 5.0 y batería de litio recargable de 600mAh, ofreciendo hasta 10 horas de juego continuo. Compatible con PS4, nintendo switch, Windows pc, android y ios, ideal para pantallas de hasta 6.8”. Incorpora joystick con tecnología de efecto hall 3d, retroiluminación RGB (ACTIVABLE/DESACTIVABLE), modo turbo y función clear. Vibración ajustable y puerto de carga USB-C.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Primus"
+        },
+        {
+          "label": "Número de parte",
+          "value": "PMC-01BT"
+        },
+        {
+          "label": "Tipo",
+          "value": "Controles de juego"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.0"
+        },
+        {
+          "label": "Capacidad de batería",
+          "value": "600 mAh"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107599"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "PMC-01BT",
+      "sourceCategory": "Joystick Y Game Pad",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107604",
+      "reference": "107604",
+      "name": "Micrófono INALÁMBRICO Primus – JUEGO DE SOLAPA CON ESTUCHE DE CARGA, COMPATIBLE CON ANDROID E IOS, USB-C, 2.4GHZ, HASTA 16H DE USO",
+      "spec": "JUEGO DE MICROFONOS PRIMUS INALAMBRICOS CON CONEXION DE 2.4GHZ, IDEAL PARA SMARTPHONES, TABLETAS Y LAPTOPS CON USB-C. OFRECE UN ALCANCE DE H",
+      "category": "Audio y Video",
+      "subcategory": "Accesorios de audio",
+      "brand": "Primus",
+      "price": 1700.0,
+      "stock": true,
+      "image": "img/catalogo/02f0e3057b4826fe80db.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/afcc926b-180e-4fbb-9be7-26d015aa9ebe.png",
+      "description": "Juego de microfonos Primus inalambricos con conexion de 2.4GHz, ideal para smartphones, tabletas y laptops con USB-C. Ofrece un alcance de hasta 20 metros y una transmisión con retardo mínimo de 30 ms. Cada micrófono cuenta con una batería de 60mAh para hasta 4 horas de uso, mientras que el estuche de carga de 600mAh permite 4 ciclos adicionales, alcanzando hasta 16 horas de funcionamiento total. Tiempo de carga: 1.5 h para los micrófonos y 2.5 h para el estuche. Incluye cable USB-C, compatible con android e ios. Micrófono digital de silicona con sensibilidad de -42db, rango de frecuencia de 20Hz–20khz y relación señal/ruido de 64dbm. Diseño compacto en material abs.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Primus"
+        },
+        {
+          "label": "Número de parte",
+          "value": "PMI-L10BT"
+        },
+        {
+          "label": "Tipo",
+          "value": "Accesorios de audio"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Capacidad de batería",
+          "value": "60 mAh"
+        }
+      ],
+      "features": [
+        "Incluye cable USB-C, compatible con android e ios."
+      ],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107604"
+      ],
+      "collections": [],
+      "model": "PMI-L10BT",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107661",
+      "reference": "107661",
+      "name": "Audífonos JBL INALAMBRICOS VIBE BEAM 2, AZUL",
+      "spec": "AUDIFONO INALAMBRICO JBL VIBE BEAM 2 CON MICROFONO, BLUETOOTH 5.3, INTEGRACION CON ASISTENTE DE VOZ, CANCELACION DE RUIDO, CONTROL TACTIL, R",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 3400.0,
+      "stock": true,
+      "image": "img/catalogo/a96a854ee6202c758b47.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/3c459206-a2c1-4bdc-9912-ff06d887ab1d.png",
+      "description": "Audifono inalambrico JBL vibe beam 2 con microfono, Bluetooth 5.3, integracion con asistente de voz, cancelacion de ruido, control tactil, rendimiento bateria del estuche 30 horas, azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLVBEAM2BLUAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107661"
+      ],
+      "collections": [],
+      "model": "JBLVBEAM2BLUAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000107663",
+      "reference": "107663",
+      "name": "Audífonos CON MICROFONO JBL ENDURANCE PEAK 3",
+      "spec": "AUDIFONO INALAMBRICO JBL ENDURANCE PEAK CON MICROFONO DEPORTIVO 3, BLUETOOTH 5.2, A PRUEBA DE AGUA , IDEALES PARA ENTRENAMIENTOS INTENSOS, T",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 6800.0,
+      "stock": true,
+      "image": "img/catalogo/3ccc768ff4885a2c4a1f.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/f6d3feae-d16b-45fa-9a31-fc7f0ee4a44e.png",
+      "description": "Audifono inalambrico JBL endurance peak con microfono deportivo 3, Bluetooth 5.2, a prueba de agua , ideales para entrenamientos intensos, tecnologia powerhoo, control tactil, 50 horas de reproduccion (10 horas en los auriculares + 40 horas adicionales con el estuche ), 1 hora de uso con solo 10 minutos de carga. Su diseño ergonomico y ligero, junto a la tecnologia twistlock.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLENDURPEAK3BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.2"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/107663"
+      ],
+      "collections": [],
+      "model": "JBLENDURPEAK3BLKAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000108132",
+      "reference": "108132",
+      "name": "Gabinete Corsair 3500X, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA Y FRENTE DE CRISTAL TEMPLADO, NO INCLUYE ABANICOS, PUERTOS 2X USB 3.2 GEN1, 1X USB-C 3.2 GEN2 , HEADPHONE/MIC COMBO 3.5\" AUDIO JACK",
+      "spec": "CASE CORSAIR 3500X, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA Y FRENTE DE CRISTAL TEMPLADO, NO INCLUYE ABANICOS, PUERTOS 2X",
+      "category": "Componentes",
+      "subcategory": "Gabinetes / Case",
+      "brand": "Corsair",
+      "price": 5700.0,
+      "stock": true,
+      "image": "img/catalogo/1a4cb1f6ad35d25e8477.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/977f060f-1dae-4488-995c-abfa1c876206.png",
+      "description": "Case Corsair 3500X, mid tower, black, 7 expansion slot, 2x 2.5\", 2x 3.5\", tapa y frente de cristal templado, no incluye abanicos, puertos 2x USB 3.2 GEN1, 1x USB-C 3.2 GEN2 , HEADPHONE/MIC combo 3.5\" audio jack (CC-9011276-WW).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Corsair"
+        },
+        {
+          "label": "Número de parte",
+          "value": "CC-9011276-WW"
+        },
+        {
+          "label": "Tipo",
+          "value": "Gabinetes / Case"
+        },
+        {
+          "label": "Conectividad",
+          "value": "2 × USB 3.2 GEN1; 1 × USB-C 3.2 GEN2"
+        },
+        {
+          "label": "Formato indicado",
+          "value": "MID TOWER"
+        }
+      ],
+      "features": [
+        "No incluye abanicos, puertos 2x USB 3."
+      ],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/108132"
+      ],
+      "collections": [],
+      "model": "CC-9011276-WW",
+      "sourceCategory": "Cases",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000108142",
+      "reference": "108142",
+      "name": "Pasta térmica Corsair TM60 DE ALTA CONDUCTIVIDAD, JERINGA 3G. (3 GRAMOS)",
+      "spec": "PASTA TERMICA CORSAIR TM60 DE ALTA CONDUCTIVIDAD, JERINGA 3G. (3 GRAMOS)",
+      "category": "Componentes",
+      "subcategory": "Refrigeración",
+      "brand": "Corsair",
+      "price": 1100.0,
+      "stock": true,
+      "image": "img/catalogo/8f3986ed9e563fd2cdb0.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/46cf4296-4baa-4759-aa84-d413ac122891.png",
+      "description": "Pasta termica Corsair TM60 de alta conductividad, jeringa 3g. (3 gramos).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Corsair"
+        },
+        {
+          "label": "Número de parte",
+          "value": "CT-9010015-WW"
+        },
+        {
+          "label": "Tipo",
+          "value": "Refrigeración"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/108142"
+      ],
+      "collections": [],
+      "model": "CT-9010015-WW",
+      "sourceCategory": "Electros",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000108297",
+      "reference": "108297",
+      "name": "Bocinas JBL FLIP 7, AZUL",
+      "spec": "BOCINA JBL FLIP 7 BLUETOOTH 5.1, A PRUEBA DE AGUA (IP67), SONIDO PRO DE JBL CON AI SOUND BOOTS,HASTA 16 HORAS DE REPRODUCCION, CONEXION DE V",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 7700.0,
+      "stock": true,
+      "image": "img/catalogo/f692dc539192f5b3a57f.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/f4838843-89e5-4876-8e42-93c24c17cf76.png",
+      "description": "Bocina JBL flip 7 Bluetooth 5.1, a prueba de agua (IP67), sonido pro de JBL con ai sound boots,hasta 16 horas de reproduccion, conexion de varios altavoces con auracast, azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLFLIP7BLUAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/108297"
+      ],
+      "collections": [],
+      "model": "JBLFLIP7BLUAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000108917",
+      "reference": "108917",
+      "name": "Audífonos CON MICRÓFONO Logitech H390 USB-C",
+      "spec": "AUDÍFONO CON MICRÓFONO LOGITECH H390 USB-C MIDNIGHT BLACK, CONFORTABLE, CON CONTROL DE VOLUMEN EN CABLE, MICRÓFONO CON CANCELACIÓN DE RUIDO,",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Logitech",
+      "price": 1800.0,
+      "stock": true,
+      "image": "img/catalogo/368ff9e7c7b2f2933e03.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/38d7cba8-a653-4dae-a85a-472c15f48e1b.png",
+      "description": "Audífono con micrófono Logitech H390 USB-C midnight black, confortable, con control de volumen en cable, micrófono con cancelación de ruido, conexión USB-C (headset).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "981-001575"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "90 × USB-C; USB-C"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/108917"
+      ],
+      "collections": [],
+      "model": "981-001575",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000108918",
+      "reference": "108918",
+      "name": "Mouse INALÁMBRICO Logitech MX MASTER 3S - SENSOR ÓPTICO 8K",
+      "spec": "MOUSE INALÁMBRICO LOGITECH MX MASTER 3S PERFORMANCE GRAPHITE, CONECTIVIDAD BLUETOOTH Y RECEPTOR USB, SENSOR DE ALTA PRECISIÓN 8,000 DPI, SCR",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 6800.0,
+      "stock": true,
+      "image": "img/catalogo/4b92445b56095ed503a8.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/bac242be-84ca-4040-a07b-c9f3535c9b7a.png",
+      "description": "Mouse inalámbrico Logitech mx master 3s performance graphite, conectividad Bluetooth y receptor USB, sensor de alta precisión 8,000 DPI, scroll magspeed silencioso, recargable por USB-C, diseño ergonómico.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007502"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB; USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        },
+        {
+          "label": "Resolución del sensor",
+          "value": "000 DPI"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/108918"
+      ],
+      "collections": [],
+      "model": "910-007502",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000108921",
+      "reference": "108921",
+      "name": "Mouse INALÁMBRICO Logitech MX MASTER 4 PERFORMANCE GRAPHITE",
+      "spec": "MOUSE INALÁMBRICO LOGITECH MX MASTER 4 PERFORMANCE GRAPHITE, CONECTIVIDAD BLUETOOTH Y RECEPTOR USB, SENSOR ÓPTICO DE ALTA PRECISIÓN 8K DPI, ",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 9000.0,
+      "stock": true,
+      "image": "img/catalogo/88f4a69a631c27feb821.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/a0186dc4-50eb-4b4e-9241-7f7974f9ed50.png",
+      "description": "Mouse inalámbrico Logitech mx master 4 performance graphite, conectividad Bluetooth y receptor USB, sensor óptico de alta precisión 8k DPI, scroll magspeed silencioso, recargable por USB-C, diseño ergonómico (mouse).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007565"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB; USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/108921"
+      ],
+      "collections": [],
+      "model": "910-007565",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000108978",
+      "reference": "108978",
+      "name": "Bocinas JBL PARTYBOX ENCORE ESSENTIAL 2, NEGRO",
+      "spec": "BOCINA JBL PARTYBOX ENCORE ESSENTIAL 2, BLUETOOTH 5.1, 100 W RMS, LIGHT SHOW, DISEÑO PORTATIL CON ASA, HASTA 15 HRS DE AUTONOMIA, NEGRO",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 14700.0,
+      "stock": true,
+      "image": "img/catalogo/247adde8eacfd43840c2.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/c0c7da66-5848-41d2-958b-ed6332342454.png",
+      "description": "Bocina JBL partybox encore essential 2, Bluetooth 5.1, 100 W rms, light show, diseño portatil con asa, hasta 15 hrs de autonomia, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLPBENCOREESS2AM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "100 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/108978"
+      ],
+      "collections": [],
+      "model": "JBLPBENCOREESS2AM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000109116",
+      "reference": "109116",
+      "name": "Bocinas JBL FLIP 7, ROJO",
+      "spec": "BOCINA JBL FLIP 7 BLUETOOTH 5.1, A PRUEBA DE AGUA (IP67), SONIDO PRO DE JBL CON AI SOUND BOOTS,HASTA 16 HORAS DE REPRODUCCION, CONEXION DE V",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 7900.0,
+      "stock": true,
+      "image": "img/catalogo/c90fd7e789abcd66c09b.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/213af383-9993-486f-9a59-ad13b791d789.png",
+      "description": "Bocina JBL flip 7 Bluetooth 5.1, a prueba de agua (IP67), sonido pro de JBL con ai sound boots,hasta 16 horas de reproduccion, conexion de varios altavoces con auracast, rojo.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLFLIP7REDAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109116"
+      ],
+      "collections": [],
+      "model": "JBLFLIP7REDAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000109581",
+      "reference": "109581",
+      "name": "Bocinas JBL GRIP, AZUL",
+      "spec": "BOCINA JBL GRIP BLUETOOTH 5.4, A PRUEBA DE AGUA (IP68) AMBIENT LIGHT, PRO SOUND, 14 HRS AUTONOMIA (CON PLAYTIME BOOST), AURACAST, AZUL",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 4500.0,
+      "stock": true,
+      "image": "img/catalogo/da46a007cf38874c35a6.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/b85cde28-e549-4083-8c31-df6cd62a5add.png",
+      "description": "Bocina JBL grip Bluetooth 5.4, a prueba de agua (IP68) ambient light, pro sound, 14 hrs autonomia (con playtime boost), auracast, azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLGRIPBLUAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.4"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109581"
+      ],
+      "collections": [],
+      "model": "JBLGRIPBLUAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000109648",
+      "reference": "109648",
+      "name": "Audífonos JBL TUNE BEAM 2 NEGRO",
+      "spec": "AUDIFONO JBL TUNE BEAM CON MICROFONO, BLUETOOTH, INTEGRACION CON ASISTENTE DE VOZ, CANCELACION ACTIVA DE RUIDO ADAPTIVA SMART AMBIENT, BATER",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 5300.0,
+      "stock": true,
+      "image": "img/catalogo/303b1452bbeb24b2fd46.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/e517685c-81cd-4cb3-a5ff-3c87c2f5d57f.png",
+      "description": "Audifono JBL tune beam con microfono, Bluetooth, integracion con asistente de voz, cancelacion activa de ruido adaptiva smart ambient, bateria recargable, control tactil, resistente al agua, estuche de carga, color negro (JBLTBEAM2GBLKAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLTBEAM2GBLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109648"
+      ],
+      "collections": [],
+      "model": "JBLTBEAM2GBLKAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000109778",
+      "reference": "109778",
+      "name": "Bocinas JBL GRIP, NEGRO",
+      "spec": "BOCINA JBL GRIP BLUETOOTH 5.4, A PRUEBA DE AGUA (IP68), AMBIENT LIGHT, PRO SOUND, 14 HRS AUTONOMIA (CON PLAYTIME BOOST), AURACAST, APLICACIÓ",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 4500.0,
+      "stock": true,
+      "image": "img/catalogo/fd432c3ba02763b6f9ca.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/25722104-facb-4f7c-bd12-642a818b84dd.png",
+      "description": "Bocina JBL grip Bluetooth 5.4, a prueba de agua (IP68), ambient light, pro sound, 14 hrs autonomia (con playtime boost), auracast, aplicación JBL portable app, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLGRIPBLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.4"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109778"
+      ],
+      "collections": [],
+      "model": "JBLGRIPBLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000109779",
+      "reference": "109779",
+      "name": "Bocinas JBL GRIP, NARANJA",
+      "spec": "BOCINA JBL GRIP BLUETOOTH 5.4, A PRUEBA DE AGUA (IP68), SONIDO PRO, LUZ AMBIENTAL, 14 HRS AUTONOMIA (INCLUYE CARGA USB-C), SOPORTE MULTI-ALT",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 4400.0,
+      "stock": true,
+      "image": "img/catalogo/da7459f3f966b9c94da4.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/024afa02-b56c-4e8c-921c-59cc08934a9d.png",
+      "description": "Bocina JBL grip Bluetooth 5.4, a prueba de agua (IP68), sonido pro, luz ambiental, 14 hrs autonomia (incluye carga USB-C), soporte MULTI-ALTAVOCES auracast, color naranja.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLGRIPORGAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.4"
+        }
+      ],
+      "features": [
+        "Incluye carga USB-C), soporte MULTI-ALTAVOCES auracast, color naranja."
+      ],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109779"
+      ],
+      "collections": [],
+      "model": "JBLGRIPORGAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000109780",
+      "reference": "109780",
+      "name": "Bocinas ALTAVOZ JBL GRIP PORTÁTIL IMPERMEABLE BLUETOOTH – ROSADO",
+      "spec": "BOCINA JBL GRIP BLUETOOTH 5.4, SONIDO JBL PRO, LUZ AMBIENTAL, IMPERMEABLE/DUSTPROOF/DROP-PROOF IP68, HASTA 14 HRS AUTONOMIA, SOPORTE AURACAS",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 4400.0,
+      "stock": true,
+      "image": "img/catalogo/0e4985adeba359e973b6.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/e7dc415a-5ed9-4a08-92e3-cf825ed33c11.png",
+      "description": "Bocina JBL grip Bluetooth 5.4, sonido JBL pro, luz ambiental, IMPERMEABLE/DUSTPROOF/DROP-PROOF IP68, hasta 14 hrs autonomia, soporte auracast y JBL portable app, color rosado (JBLGRIPPIKAM).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLGRIPPIKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.4"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109780"
+      ],
+      "collections": [],
+      "model": "JBLGRIPPIKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000109923",
+      "reference": "109923",
+      "name": "Mochila PARA LAPTOP Primus VIATORGB1 PARA GAMERS 17\", TIPO MOCHILA, BOLSILLO DE SEGURIDAD, 2X USB (1X USB-C / 1X USB-A) PARA RESPALDO DE BATERIA (NO INCLUIDO), RESISTENTE AL AGUA, CANDADO DE COMBINACION, SOPORTE DE PESO HASTA 15 KG (31 LIBRAS - UTILIZANDO AMBOS TIRANTES) COLOR NEGRO",
+      "spec": "BULTO PARA LAPTOP PRIMUS VIATORGB1 PARA GAMERS 17\", TIPO MOCHILA, BOLSILLO DE SEGURIDAD, 2X USB (1X USB-C / 1X USB-A) PARA RESPALDO DE BATER",
+      "category": "Periféricos",
+      "subcategory": "Bultos y mochilas",
+      "brand": "Primus",
+      "price": 3700.0,
+      "stock": true,
+      "image": "img/catalogo/84d30f380b11018e67a8.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/cdedb75f-8fb0-4b2e-a1e3-49941b601284.png",
+      "description": "Bulto para laptop Primus viatorgb1 para gamers 17\", tipo mochila, bolsillo de seguridad, 2x USB (1x USB-C / 1x USB-A) para respaldo de bateria (no incluido), resistente al agua, candado de combinacion, soporte de peso hasta 15 kg (31 libras - utilizando ambos tirantes) color negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Primus"
+        },
+        {
+          "label": "Número de parte",
+          "value": "PGB-300"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bultos y mochilas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "2 × USB; 1 × USB-C; 1 × USB-A"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109923"
+      ],
+      "collections": [],
+      "model": "PGB-300",
+      "sourceCategory": "Bultos Y Mochilas",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110252",
+      "reference": "110252",
+      "name": "Mouse Logitech MX ANYWHERE 3S NEGRO USB 910-006932",
+      "spec": "MOUSE LOGITECH MX ANYWHERE 3S NEGRO USB 910-006932",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 6500.0,
+      "stock": true,
+      "image": "img/catalogo/155bd7e9cfb59fee51fa.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/443062fa-1514-40ef-bfa5-1f1975eedc7f.png",
+      "description": "Mouse Logitech mx anywhere 3s negro USB 910-006932.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-006932"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110252"
+      ],
+      "collections": [],
+      "model": "910-006932",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110279",
+      "reference": "110279",
+      "name": "Bocinas JBL PARTYBOX ENCORE 2,, NEGRO",
+      "spec": "BOCINA JBL PARTYBOX ENCORE 2, BLUETOOTH 5.1, 100W DE POTENCIA, 10H DE DURACION, IPX4, LUCES, INCLUYE DOS MICROFONOS., NEGRO",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 24700.0,
+      "stock": true,
+      "image": "img/catalogo/a5c18c1acc6ec4db2d23.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/8d73446b-4e0e-4d50-a06d-0b72f47ceecc.png",
+      "description": "Bocina JBL partybox encore 2, Bluetooth 5.1, 100W de potencia, 10h de duracion, IPX4, luces, incluye dos microfonos., negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLPBENCORE2PL2MAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "100 W"
+        }
+      ],
+      "features": [
+        "Incluye dos microfonos."
+      ],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110279"
+      ],
+      "collections": [],
+      "model": "JBLPBENCORE2PL2MAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110285",
+      "reference": "110285",
+      "name": "Audífonos Corsair CON MICROFONO HS55 SURROUND V2, GAMING, STEREO , DOLBY ATMOS EN PC, CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MIC, ALMOHADILLAS ACOLCHADAS PARA LARGAS HORAS DE JUEGO, COMPATIBLE CON XBOX ONE / X, PS4 / 5, COLOR CARBON",
+      "spec": "AUDIFONO CON MICROFONO CORSAIR HS55 SURROUND V2, GAMING, STEREO , DOLBY ATMOS EN PC, CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MI",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Corsair",
+      "price": 4200.0,
+      "stock": true,
+      "image": "img/catalogo/396bb19d6fa26c8db72d.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/55b287fc-e326-48fe-a3f2-71e25168f067.png",
+      "description": "Audifono con microfono Corsair HS55 surround V2, gaming, stereo , dolby atmos en pc, conector 3.5\", banda ajustable, control de volumen y mic, almohadillas acolchadas para largas horas de juego, compatible con xbox one / x, PS4 / 5, color carbon, (CA-9011389-NA).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Corsair"
+        },
+        {
+          "label": "Número de parte",
+          "value": "CA-9011389-WW"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110285"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "CA-9011389-WW",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110286",
+      "reference": "110286",
+      "name": "Audífonos Corsair CON MICROFONO HS55 SURROUND V2, GAMING, STEREO , DOLBY ATMOS EN PC, CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MIC, ALMOHADILLAS ACOLCHADAS PARA LARGAS HORAS DE JUEGO, COMPATIBLE CON XBOX ONE / X, PS4 / 5, COLOR WHITE",
+      "spec": "AUDIFONO CON MICROFONO CORSAIR HS55 SURROUND V2, GAMING, STEREO , DOLBY ATMOS EN PC, CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MI",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Corsair",
+      "price": 4200.0,
+      "stock": true,
+      "image": "img/catalogo/c90cc895b89e81ed80db.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/97270926-3005-4414-a8f9-0fdcab9e28de.png",
+      "description": "Audifono con microfono Corsair HS55 surround V2, gaming, stereo , dolby atmos en pc, conector 3.5\", banda ajustable, control de volumen y mic, almohadillas acolchadas para largas horas de juego, compatible con xbox one / x, PS4 / 5, color white, (CA-9011390-NA).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Corsair"
+        },
+        {
+          "label": "Número de parte",
+          "value": "CA-9011390-WW"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110286"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "CA-9011390-WW",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110706",
+      "reference": "110706",
+      "name": "Audífonos JBL TUNE 530 BT NEGRO",
+      "spec": "AUDIFONO JBL TUNE 530, BLUETOOTH 5.0, 57 HORAS PARA JUEGO, USB-C.ON- EAR, JBL PURE BASS, CONNEXION MULTIPUNTO, HANDFREE, MICROFONO INTEGRADO",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 2900.0,
+      "stock": true,
+      "image": "img/catalogo/a210bca3d80011ede5bb.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/441b8965-4030-455c-b1d9-755fea00d875.png",
+      "description": "Audifono JBL tune 530, Bluetooth 5.0, 57 horas para juego, USB-C.on- ear, JBL pure bass, connexion multipunto, handfree, microfono integrado, 30 ohms, color negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT530BTBLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.0"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110706"
+      ],
+      "collections": [],
+      "model": "JBLT530BTBLKAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110859",
+      "reference": "110859",
+      "name": "Bocinas JBL GO5, NEGRO",
+      "spec": "BOCINA JBL GO5 BLUETOOTH 6.0, A PRUEBA DE AGUA (IP67), 10 HRS DE REPRODUCCION, BATERIA RECARGABLE, NEGRO",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 3300.0,
+      "stock": true,
+      "image": "img/catalogo/a982bf1a230fc9935d85.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/d5affbcc-39e5-4bcb-b7b5-a878c168c0bd.png",
+      "description": "Bocina JBL GO5 Bluetooth 6.0, a prueba de agua (IP67), 10 hrs de reproduccion, bateria recargable, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLGO5BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "6.0"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110859"
+      ],
+      "collections": [],
+      "model": "JBLGO5BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110860",
+      "reference": "110860",
+      "name": "Bocinas JBL GO5, CAMUFLAJE",
+      "spec": "BOCINA JBL GO5 BLUETOOTH 6.0, A PRUEBA DE AGUA (IP67), 10 HRS DE REPRODUCCION, BATERIA RECARGABLE, CAMUFLAJE",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 3300.0,
+      "stock": true,
+      "image": "img/catalogo/6c9cdea7f3f61e037b9d.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/a6433c72-9d0d-40e3-8c0f-d3a11c9af2a6.png",
+      "description": "Bocina JBL GO5 Bluetooth 6.0, a prueba de agua (IP67), 10 hrs de reproduccion, bateria recargable, camuflaje.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLGO5SQUADAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "6.0"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110860"
+      ],
+      "collections": [],
+      "model": "JBLGO5SQUADAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000110861",
+      "reference": "110861",
+      "name": "Bocinas JBL PARTYBOX STAGE 320, NEGRO",
+      "spec": "BOCINA JBL PARTYBOX 130 BLUETOOTH 6.0, A PRUEBA DE AGUA, IPX4, 200W, PARTYBOOST, SHOW DE LUCES, ENTRADAS PARA MICROFONO Y GUITARRA, HASTA 18",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 24600.0,
+      "stock": true,
+      "image": "img/catalogo/610bc0eddb08abeb6ce8.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/a8fc31e3-7e92-4dd8-8b67-4e21ac519fbe.png",
+      "description": "Bocina JBL partybox 130 Bluetooth 6.0, a prueba de agua, IPX4, 200W, partyboost, show de luces, entradas para microfono y guitarra, hasta 18 hrs autonomia, negro.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLPB130BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "6.0"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "200 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110861"
+      ],
+      "collections": [],
+      "model": "JBLPB130BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111233",
+      "reference": "111233",
+      "name": "Audífonos JBL TUNE 530 BT AZUL",
+      "spec": "AUDIFONO JBL TUNE 530, BLUETOOTH, 5.0, 57 HORAS PARA JUEGO, USB-C.ON- EAR, JBL PURE BASS, CONNEXION MULTIPUNTO, HANDFREE, MICROFONO INTEGRAD",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 2900.0,
+      "stock": true,
+      "image": "img/catalogo/0463eca50ad2f3654e04.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/pna.png",
+      "description": "Audifono JBL tune 530, Bluetooth, 5.0, 57 horas para juego, USB-C.on- ear, JBL pure bass, connexion multipunto, handfree, microfono integrado, 30 ohms, color azul.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT530BTBLUAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111233"
+      ],
+      "collections": [],
+      "model": "JBLT530BTBLUAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111234",
+      "reference": "111234",
+      "name": "Audífonos JBL TUNE 730 BT BLANCO",
+      "spec": "AUDIFONO JBL TUNE 730, BLUETOOTH 5.3, CONEXION MULTIPUNTO, CARGA RAPIDA, LLAMADAS CON MANOS LIBRES, PLEGABLE, HASTA 76 HORAS DE PURO PLACER ",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 3600.0,
+      "stock": true,
+      "image": "img/catalogo/0463eca50ad2f3654e04.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/pna.png",
+      "description": "Audifono JBL tune 730, Bluetooth 5.3, conexion multipunto, carga rapida, llamadas con manos libres, plegable, hasta 76 horas de puro placer auditivo y 3 horas adicionales de batería, color blanco.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT730BTWHTAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.3"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111234"
+      ],
+      "collections": [],
+      "model": "JBLT730BTWHTAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111264",
+      "reference": "111264",
+      "name": "Mouse Logitech M850 LARGE",
+      "spec": "MOUSE LOGITECH M850 LARGE, BLUETOOTH, AMORTIGUACION,SILENTTOUCH. SMARTWHEEL, BLUETOOTH, LOGI BOLT USB RECEIVER,COLOR GRAFITO.",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 3300.0,
+      "stock": true,
+      "image": "img/catalogo/766c9631b2bfef04f850.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/71fcfe04-2704-4192-b7ba-47af42fb591c.png",
+      "description": "Mouse Logitech M850 large, Bluetooth, amortiguacion,silenttouch. Smartwheel, Bluetooth, logi bolt USB receiver,color grafito.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007733"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111264"
+      ],
+      "collections": [],
+      "model": "910-007733",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111265",
+      "reference": "111265",
+      "name": "Mouse Logitech MOBI FOLD",
+      "spec": "MOUSE LOGITECH MOBI FOLD INALAMBRICO, BLUETOOTH, PLEGABLE Y ULTRAPORTÁTIL, CLICS SILENCIOSOS, DESPLAZAMIENTO ADAPTATIVO TOUCH SCROLL, MULTID",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 5400.0,
+      "stock": true,
+      "image": "img/catalogo/eba5282d5b3a84cb5138.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/56c4b333-56d3-4169-8106-18187e755f4b.png",
+      "description": "Mouse Logitech mobi fold inalambrico, Bluetooth, plegable y ultraportátil, clics silenciosos, desplazamiento adaptativo touch scroll, multidispositivo (hasta 3 equipos), recargable por USB-C, carga completa (30 dias) negro grafito.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007601"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111265"
+      ],
+      "collections": [],
+      "model": "910-007601",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111267",
+      "reference": "111267",
+      "name": "Mouse Logitech G305 X",
+      "spec": "MOUSE LOGITECH G305 X, GAMING SUPERLIGHT LIGHTSPEED Y BLUETOOTH, SENSOR HERO 44K HASTA 44,000 DPI, ULTRALIGERO 59 G, RGB LIGHTSYNC, 6 BOTONE",
+      "category": "Periféricos",
+      "subcategory": "Mouse",
+      "brand": "Logitech",
+      "price": 5200.0,
+      "stock": true,
+      "image": "img/catalogo/8a39f408a952c2a5727c.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/bfb078d1-38a2-441a-90c9-9e7045aff8af.png",
+      "description": "Mouse Logitech G305 x, gaming superlight lightspeed y Bluetooth, sensor hero 44k hasta 44,000 DPI, ultraligero 59 g, RGB lightsync, 6 botones programables, recargable USB-C, 3.5 horas de juego con 2 minutos de carga, color blanco.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "910-007746"
+        },
+        {
+          "label": "Tipo",
+          "value": "Mouse"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB-C"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        },
+        {
+          "label": "Resolución del sensor",
+          "value": "000 DPI"
+        },
+        {
+          "label": "Botones",
+          "value": "6"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111267"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "910-007746",
+      "sourceCategory": "Perifericos>pc",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111403",
+      "reference": "111403",
+      "name": "Audífonos JBL GAMING QUANTUM 100M2, SUPRAAURALES (ON EAR)",
+      "spec": "AUDIFONO JBL QUANTUM 100M2, SUPRAAURALES (ON EAR) CON CABLE 1.2MM PARA JUEGOS CON MICROFONO OMNIDIRECCIONAL, CONECTOR DE 3.5 MM PARA PC, PLA",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "JBL",
+      "price": 2400.0,
+      "stock": true,
+      "image": "img/catalogo/0463eca50ad2f3654e04.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/pna.png",
+      "description": "Audifono JBL quantum 100m2, supraaurales (on ear) con cable 1.2mm para juegos con microfono omnidireccional, conector de 3.5 mm para pc, playstation*, xbox**, nintendo switch, color cyan.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLQTUM100M2CYNAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111403"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "JBLQTUM100M2CYNAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111429",
+      "reference": "111429",
+      "name": "Teclado Logitech MX KEYS S",
+      "spec": "TECLADO LOGITECH MX KEYS S – INALÁMBRICO, GRAPHITE, ESPAÑOL.",
+      "category": "Periféricos",
+      "subcategory": "Teclados",
+      "brand": "Logitech",
+      "price": 8200.0,
+      "stock": true,
+      "image": "img/catalogo/0463eca50ad2f3654e04.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/pna.png",
+      "description": "Teclado Logitech mx keys s – inalámbrico, graphite, español.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "920-011561"
+        },
+        {
+          "label": "Tipo",
+          "value": "Teclados"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111429"
+      ],
+      "collections": [],
+      "model": "920-011561",
+      "sourceCategory": "Teclados",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111517",
+      "reference": "111517",
+      "name": "Audífonos Logitech CON MICROFONO ZONE VIBE 100",
+      "spec": "AUDÍFONOS INALÁMBRICOS LOGITECH ZONE VIBE 100, BLUETOOTH, COLOR GRAFITO.",
+      "category": "Audio y Video",
+      "subcategory": "Audífonos",
+      "brand": "Logitech",
+      "price": 8500.0,
+      "stock": true,
+      "image": "img/catalogo/71aa3edcbee0517ba4e7.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/f871a717-d18e-4932-99de-a1f5ddaa62f1.png",
+      "description": "Audífonos inalámbricos Logitech zone vibe 100, Bluetooth, color grafito.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Logitech"
+        },
+        {
+          "label": "Número de parte",
+          "value": "981-001214"
+        },
+        {
+          "label": "Tipo",
+          "value": "Audífonos"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111517"
+      ],
+      "collections": [],
+      "model": "981-001214",
+      "sourceCategory": "Gaming",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111580",
+      "reference": "111580",
+      "name": "Audífonos JBL INALAMBRICO TUNE 520BT, BLUETOOTH 5.3",
+      "spec": "Características Audífonos inalámbricos JBL Tune 530BT, con 5 minutos de carga rendimiento de 3 horas y con 2 horas de carga rendimiento de 5",
+      "category": "Audio y Video",
+      "subcategory": "Accesorios de audio",
+      "brand": "JBL",
+      "price": 3100.0,
+      "stock": true,
+      "image": "img/catalogo/826849b1ecd709da9d9e.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/340a9e76-24ce-4dd7-b5f0-b6bf1bd4115b.png",
+      "description": "Características Audífonos inalámbricos JBL Tune 530BT, con 5 minutos de carga rendimiento de 3 horas y con 2 horas de carga rendimiento de 57 horas. Voice Aware On-ear Plegable Speed charge Micrófono integrado Llamadas con manos libres Sonido JBL Pure Bass Conexión Multipunto Inalámbrico Cable de carga rápida Batería recargable Bluetooth JBL Headphone App Versión Bluetooth 5.3 Rango de frecuencia de transmisión Bluetooth 2.4 GHz – 2.4835 GHz Perfiles Bluetooth HFP 1.7.2, AVRCP 1.6.2, A2DP 1.3.2 Transmisión de modulación GFSK vía BluetoothGFSK, π/4-DQPSK, 8-DPSK Potencia de transmisión Bluetooth 6 dBm (E.I.R.P).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLT530BTWHTAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Accesorios de audio"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Indicado por el proveedor"
+        }
+      ],
+      "features": [
+        "Audífonos inalámbricos JBL Tune 530BT, con 5 minutos de carga rendimiento de 3 horas y con 2 horas de carga rendimiento de 57 horas.",
+        "Voice Aware.",
+        "Speed charge.",
+        "Micrófono integrado.",
+        "Llamadas con manos libres.",
+        "Sonido JBL Pure Bass.",
+        "Conexión Multipunto.",
+        "Inalámbrico.",
+        "Cable de carga rápida.",
+        "Batería recargable.",
+        "JBL Headphone App.",
+        "Versión Bluetooth 5.3.",
+        "Rango de frecuencia de transmisión Bluetooth 2.4 GHz – 2.4835 GHz.",
+        "Perfiles Bluetooth HFP 1.7.2, AVRCP 1.6.2, A2DP 1.3.2.",
+        "Transmisión de modulación GFSK vía BluetoothGFSK, π/4-DQPSK, 8-DPSK.",
+        "Potencia de transmisión Bluetooth 6 dBm (E.I.R.P)."
+      ],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111580"
+      ],
+      "collections": [],
+      "model": "JBLT530BTWHTAM",
+      "sourceCategory": "Audifono Con Microfono",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
+    },
+    {
+      "id": "900000111581",
+      "reference": "111581",
+      "name": "Bocinas JBL XTREME5 NEGRO",
+      "spec": "BOCINA JBL XTREME 5 BLUETOOTH 5.1, A PRUEBA DE AGUA (IP67), 2X 25W RMS WOOFER + 2 X 25W RMS TWEETER, 3.5 MM IMPUT, POWER BANK INCLUIDO, 12DB",
+      "category": "Audio y Video",
+      "subcategory": "Bocinas",
+      "brand": "JBL",
+      "price": 19000.0,
+      "stock": true,
+      "image": "img/catalogo/1a542e4661f6aca164d0.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/c0f86f39-7aca-40a3-9ede-85c335ae798c.png",
+      "description": "Bocina JBL xtreme 5 Bluetooth 5.1, a prueba de agua (IP67), 2x 25W rms woofer + 2 x 25W rms tweeter, 3.5 mm imput, power bank incluido, 12dbm, partyboost, 15 hrs autonomia, color negro (JBLxtreme4blkam) .",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "JBL"
+        },
+        {
+          "label": "Número de parte",
+          "value": "JBLXTREME5BLKAM"
+        },
+        {
+          "label": "Tipo",
+          "value": "Bocinas"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "5.1"
+        },
+        {
+          "label": "Potencia indicada",
+          "value": "25 W"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/111581"
+      ],
+      "collections": [],
+      "model": "JBLXTREME5BLKAM",
+      "sourceCategory": "Bocina",
+      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     }
   ],
-  "updated": "2026-10-12T15:19:59+00:00"
+  "updated": "2026-10-12T17:08:02+00:00"
 }

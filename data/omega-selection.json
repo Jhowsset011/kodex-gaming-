@@ -3341,9 +3341,9 @@
       "brand": "Klip Xtreme",
       "category": "Periféricos",
       "id": "28075",
-      "name": "BULTO PARA LAPTOP Klip Xtreme NOVA 14\" TIPO SLEEVE, SILVER (KNS-425SV)",
+      "name": "Mochila PARA LAPTOP Klip Xtreme NOVA 14\" TIPO SLEEVE, SILVER (KNS-425SV)",
       "reference": "110927",
-      "subcategory": "Accesorios para laptop"
+      "subcategory": "Bultos y mochilas"
     },
     {
       "brand": "HP",
@@ -5480,6 +5480,862 @@
       "name": "Celular Samsung SMARTPHONE GALAXY A57 5G 8GB+256GB, PANTALLA 6.7\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 50MP+12MP+2MP+10MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, COLOR AWESOME NAVY",
       "reference": "111795",
       "subcategory": "Celulares"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "90000066967",
+      "name": "Audífonos Logitech CON MICROFONO H390 PC",
+      "reference": "66967",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000067388",
+      "name": "Teclado Logitech MOUSE MK320 WIRELESS COMBO INGLES",
+      "reference": "67388",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000072213",
+      "name": "Teclado Logitech MOUSE MK270 WIRELESS COMO ESPAÑO",
+      "reference": "72213",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "90000077312",
+      "name": "Adaptador Bluetooth Logitech AUX/RL PARA BOCINAS.",
+      "reference": "77312",
+      "subcategory": "Accesorios de audio"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000078539",
+      "name": "Cámara web Logitech C270",
+      "reference": "78539",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "90000079309",
+      "name": "Audífonos Logitech CON MICROFONO H111 STEREO",
+      "reference": "79309",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "90000079454",
+      "name": "Bocinas Logitech Z625 THX",
+      "reference": "79454",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000085084",
+      "name": "Mouse Logitech M187 INALAMBRICO MINI OPTICO, BRIGHT TEAL",
+      "reference": "85084",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000085478",
+      "name": "Receptor USB Logitech UNIFYING",
+      "reference": "85478",
+      "subcategory": "Receptores USB"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000088187",
+      "name": "Bocinas JBL (ALTAVOZ DE TECHO), CONTROL 26CT",
+      "reference": "88187",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "90000088407",
+      "name": "Pasta térmica Corsair TM30, JERINGA 2.5G.",
+      "reference": "88407",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000089545",
+      "name": "Mouse Logitech M190 INALAMBRICO AZUL",
+      "reference": "89545",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000089851",
+      "name": "Mouse Logitech G203 LIGHTSYNC GAMING AZUL",
+      "reference": "89851",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000089854",
+      "name": "Teclado Logitech MOUSE MK540 WIRELESS COMBO INGLES",
+      "reference": "89854",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "90000090945",
+      "name": "Bocinas Logitech Z407 2.1 BT BLUETOOH CON SUBWOOFER Y CONTROL WIRELESS",
+      "reference": "90945",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000092080",
+      "name": "Mouse Logitech M650 MEDIUM BLUETOOTH NEGRO GRAFITO.",
+      "reference": "92080",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000092083",
+      "name": "Mouse Logitech M650 LARGE BLUETOOTH NEGRO GRAFITO PARA DERECHOS",
+      "reference": "92083",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000093349",
+      "name": "Cámara web Logitech BRIO 500 ROSADO",
+      "reference": "93349",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000093350",
+      "name": "Cámara web Logitech BRIO 500 BLANCO",
+      "reference": "93350",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Audio y Video",
+      "id": "90000093606",
+      "name": "Audífonos CON MICROFONO Corsair HS55, GAMING, STEREO , CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MIC, ALMOHADILLAS ACOLCHADAS PARA LARGAS HORAS DE JUEGO, COMPATIBLE CON XBOX ONE / X, PS4 / 5, COLOR CARBON, (CA-9011260-NA)",
+      "reference": "93606",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Audio y Video",
+      "id": "90000093607",
+      "name": "Audífonos CON MICROFONO Corsair HS55, GAMING, STEREO , CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MIC, ALMOHADILLAS ACOLCHADAS PARA LARGAS HORAS DE JUEGO, COMPATIBLE CON XBOX ONE / X, PS4 / 5, COLOR BLANCO, (CA-9011261-NA)",
+      "reference": "93607",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000093736",
+      "name": "Mouse Logitech POP MOUSE WITH EMOJI COLOR BLAST YELLOW (AMARILLO)",
+      "reference": "93736",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000093743",
+      "name": "Teclado Logitech MOUSE MK850 PERFORMANCE WIRELESS COMBO INGLES (ENG)",
+      "reference": "93743",
+      "subcategory": "Combos de teclado y mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000093958",
+      "name": "Cámara web Logitech BRIO 300 NEGRO",
+      "reference": "93958",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000094178",
+      "name": "Bocinas JBL CLIP 4, VERDE",
+      "reference": "94178",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000094180",
+      "name": "Bocinas JBL FLIP 6, AZUL",
+      "reference": "94180",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000094181",
+      "name": "Bocinas JBL FLIP 6, CAMUFLAJE",
+      "reference": "94181",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000094202",
+      "name": "Audífonos JBL TUNE 520 BT NEGRO",
+      "reference": "94202",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000094453",
+      "name": "Audífonos JBL INALAMBRICO TUNE 520BT, BLUETOOTH 5.3",
+      "reference": "94453",
+      "subcategory": "Accesorios de audio"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000094457",
+      "name": "Audífonos JBL TUNE 520 BT AZUL",
+      "reference": "94457",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "90000094643",
+      "name": "Bocinas Logitech PORTABLE WONDERBOOM 3, AZUL",
+      "reference": "94643",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000094644",
+      "name": "Cámara web Logitech BRIO 300 BLANCO",
+      "reference": "94644",
+      "subcategory": "Cámaras web"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "90000094645",
+      "name": "Audífonos Logitech CON MICROFONO H390 PC ROSADO",
+      "reference": "94645",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000095067",
+      "name": "Bocinas JBL FLIP 6, VERDE",
+      "reference": "95067",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000095069",
+      "name": "Bocinas JBL PULSE 5 NEGRO",
+      "reference": "95069",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "90000095563",
+      "name": "Gabinete Corsair 3000D RGB AIRFLOW, MID TOWER, WHITE, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, INCLUYE 3 ABANICOS AR120 120MM FRONTAL, 2 120MM EN EL TOPE, 2 120MM ABAJO, 1 120MM ATRAS, PUERTOS 2X USB 3.2 GEN1, HEADPHONE/MIC COMBO 3.5\" (CC-9011256-WW)",
+      "reference": "95563",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "90000096039",
+      "name": "Teclado Logitech WAVE KEYS,WIRELESS ESPAÑOL",
+      "reference": "96039",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "90000096461",
+      "name": "Gabinete Corsair 2500D AIRFLOW MID TOWER DUAL CHAMBER, SOPORTA MOTHERBOARD MATX & MITX, BLANCO, USB-A 3.2 GEN 1 X2, USB-C GEN 2 AUDIO IN / OUT, 2X 2.5\" SSDS - 2X 3.5\" HDDS, PANEL LATERAL CRISTAL TEMPLADO, SOPORTA POWER SUPPLY ATX",
+      "reference": "96461",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "90000096470",
+      "name": "Gabinete Corsair 480T RGB, MID TOWER, NEGRO, USB 3.0 X2, AUDIO IN / OUT, 7 EXPANSION SLOT, 3X 2.5\", 2X 3.5\", PANEL LATERAL CRISTAL TEMPLADO - INCLUYE 3 ABANICOS AR120 RGB",
+      "reference": "96470",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000096997",
+      "name": "Bocinas JBL GO4 CAMO",
+      "reference": "96997",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000096998",
+      "name": "Bocinas JBL AUTHENTICS 200, NEGRO",
+      "reference": "96998",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097004",
+      "name": "Audífonos JBL TOUR PRO 2 NEGRO",
+      "reference": "97004",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097005",
+      "name": "Audífonos JBL TOUR PRO 2 CHAMPAGNE",
+      "reference": "97005",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097006",
+      "name": "Bocinas JBL CLIP 5, NEGRO",
+      "reference": "97006",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097007",
+      "name": "Bocinas JBL CLIP 5, AZUL",
+      "reference": "97007",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097009",
+      "name": "Bocinas JBL 510 CHANNEL, NEGRO",
+      "reference": "97009",
+      "subcategory": "Equipos de sonido"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097014",
+      "name": "Audífonos JBL TUNE 310C",
+      "reference": "97014",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097015",
+      "name": "Audífonos JBL TUNE 310C BLANCO",
+      "reference": "97015",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097016",
+      "name": "Audífonos JBL QUANTUM 360 P",
+      "reference": "97016",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097023",
+      "name": "Audífonos JBL LIVE BUDS 3 NEGRO",
+      "reference": "97023",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "90000097024",
+      "name": "Audífonos JBL LIVE FLEX 3 SILVER",
+      "reference": "97024",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "900000104582",
+      "name": "Audífonos Logitech INALAMBRICOS CON MICROFONO ZONE 300 PC GRAPHITE",
+      "reference": "104582",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000106116",
+      "name": "Audífonos JBL ENDURANCE PEAK ROJO",
+      "reference": "106116",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000106117",
+      "name": "Audífonos JBL ENDURANCE RACE TWS",
+      "reference": "106117",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000106119",
+      "name": "Audífonos JBL CON MICROFONO ENDURANCE RUN INALAMBRICOS",
+      "reference": "106119",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Primus",
+      "category": "Mobiliario",
+      "id": "900000106529",
+      "name": "Silla GAMING Primus THRONO, DE PVC TIPO PIEL, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ESPALDA Y CABEZA, ALTURA AJUSTABLE Y BASE CON RUEDAS ROBUSTAS, NEGRO/AZUL (PCH-103BL)",
+      "reference": "106529",
+      "subcategory": "Sillas"
+    },
+    {
+      "brand": "Primus",
+      "category": "Mobiliario",
+      "id": "900000106530",
+      "name": "Silla GAMING Primus THRONO, DE PVC TIPO PIEL, ESPALDAR ALTO AJUSTABLE, REPOSO DE BRAZOS, ESPALDA Y CABEZA, ALTURA AJUSTABLE Y BASE CON RUEDAS ROBUSTAS, VERDE / MARRON",
+      "reference": "106530",
+      "subcategory": "Sillas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000106556",
+      "name": "Bocinas JBL XTREME4 NEGRO",
+      "reference": "106556",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000106709",
+      "name": "Mouse Logitech M196 BLUETOOTH GRAPHITE",
+      "reference": "106709",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000106710",
+      "name": "Mouse Logitech M196 BLUETOOTH BLANCO",
+      "reference": "106710",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000106711",
+      "name": "Mouse Logitech M196 BLUETOOTH ROSADO",
+      "reference": "106711",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000107002",
+      "name": "Audífonos JBL VIBE BUDS 2 BLANCO",
+      "reference": "107002",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000107299",
+      "name": "Bocinas JBL CHARGE 6, AZUL",
+      "reference": "107299",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000107300",
+      "name": "Bocinas JBL CHARGE 6, NEGRO",
+      "reference": "107300",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000107301",
+      "name": "Bocinas JBL FLIP 7, NEGRO",
+      "reference": "107301",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000107303",
+      "name": "Audífonos JBL TUNE 720 BT BLANCO",
+      "reference": "107303",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Primus",
+      "category": "Periféricos",
+      "id": "900000107599",
+      "name": "Control de juego Primus PMC-01BT VICTOR01BT – INALÁMBRICO BLUETOOTH, COMPATIBLE CON PS4/NINTENDO SWITCH/PC/ANDROID/IOS, BATERÍA 600MAH, RETROILUMINACIÓN RGB, EFECTO HALL 3D",
+      "reference": "107599",
+      "subcategory": "Controles de juego"
+    },
+    {
+      "brand": "Primus",
+      "category": "Audio y Video",
+      "id": "900000107604",
+      "name": "Micrófono INALÁMBRICO Primus – JUEGO DE SOLAPA CON ESTUCHE DE CARGA, COMPATIBLE CON ANDROID E IOS, USB-C, 2.4GHZ, HASTA 16H DE USO",
+      "reference": "107604",
+      "subcategory": "Accesorios de audio"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000107661",
+      "name": "Audífonos JBL INALAMBRICOS VIBE BEAM 2, AZUL",
+      "reference": "107661",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000107663",
+      "name": "Audífonos CON MICROFONO JBL ENDURANCE PEAK 3",
+      "reference": "107663",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "900000108132",
+      "name": "Gabinete Corsair 3500X, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA Y FRENTE DE CRISTAL TEMPLADO, NO INCLUYE ABANICOS, PUERTOS 2X USB 3.2 GEN1, 1X USB-C 3.2 GEN2 , HEADPHONE/MIC COMBO 3.5\" AUDIO JACK",
+      "reference": "108132",
+      "subcategory": "Gabinetes / Case"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "900000108142",
+      "name": "Pasta térmica Corsair TM60 DE ALTA CONDUCTIVIDAD, JERINGA 3G. (3 GRAMOS)",
+      "reference": "108142",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Componentes",
+      "id": "900000108149",
+      "name": "Ventilador Corsair PARA CPU NAUTILUS 360 RS ARGB (LIQUID COOLING) 360MM, 3X 120MM FAN COOLER, RGB LED, DEISY CHAIN CONECTOR, COMPATIBLE CON LOS SOCKET INTEL 1700, 1851, SOCKET AMD AM5, AM4 - NEGRO",
+      "reference": "108149",
+      "subcategory": "Refrigeración"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000108297",
+      "name": "Bocinas JBL FLIP 7, AZUL",
+      "reference": "108297",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "900000108917",
+      "name": "Audífonos CON MICRÓFONO Logitech H390 USB-C",
+      "reference": "108917",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000108918",
+      "name": "Mouse INALÁMBRICO Logitech MX MASTER 3S - SENSOR ÓPTICO 8K",
+      "reference": "108918",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000108921",
+      "name": "Mouse INALÁMBRICO Logitech MX MASTER 4 PERFORMANCE GRAPHITE",
+      "reference": "108921",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000108922",
+      "name": "Mouse INALÁMBRICO Logitech MX MASTER 4 PERFORMANCE OFF-WHITE – Nº DE PARTE 910-007566",
+      "reference": "108922",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000108978",
+      "name": "Bocinas JBL PARTYBOX ENCORE ESSENTIAL 2, NEGRO",
+      "reference": "108978",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000109116",
+      "name": "Bocinas JBL FLIP 7, ROJO",
+      "reference": "109116",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000109581",
+      "name": "Bocinas JBL GRIP, AZUL",
+      "reference": "109581",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000109648",
+      "name": "Audífonos JBL TUNE BEAM 2 NEGRO",
+      "reference": "109648",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000109778",
+      "name": "Bocinas JBL GRIP, NEGRO",
+      "reference": "109778",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000109779",
+      "name": "Bocinas JBL GRIP, NARANJA",
+      "reference": "109779",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000109780",
+      "name": "Bocinas ALTAVOZ JBL GRIP PORTÁTIL IMPERMEABLE BLUETOOTH – ROSADO",
+      "reference": "109780",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000109781",
+      "name": "Bocinas JBL GRIP, MORADO",
+      "reference": "109781",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Primus",
+      "category": "Periféricos",
+      "id": "900000109923",
+      "name": "Mochila PARA LAPTOP Primus VIATORGB1 PARA GAMERS 17\", TIPO MOCHILA, BOLSILLO DE SEGURIDAD, 2X USB (1X USB-C / 1X USB-A) PARA RESPALDO DE BATERIA (NO INCLUIDO), RESISTENTE AL AGUA, CANDADO DE COMBINACION, SOPORTE DE PESO HASTA 15 KG (31 LIBRAS - UTILIZANDO AMBOS TIRANTES) COLOR NEGRO",
+      "reference": "109923",
+      "subcategory": "Bultos y mochilas"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000110252",
+      "name": "Mouse Logitech MX ANYWHERE 3S NEGRO USB 910-006932",
+      "reference": "110252",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000110279",
+      "name": "Bocinas JBL PARTYBOX ENCORE 2,, NEGRO",
+      "reference": "110279",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Audio y Video",
+      "id": "900000110285",
+      "name": "Audífonos Corsair CON MICROFONO HS55 SURROUND V2, GAMING, STEREO , DOLBY ATMOS EN PC, CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MIC, ALMOHADILLAS ACOLCHADAS PARA LARGAS HORAS DE JUEGO, COMPATIBLE CON XBOX ONE / X, PS4 / 5, COLOR CARBON",
+      "reference": "110285",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Corsair",
+      "category": "Audio y Video",
+      "id": "900000110286",
+      "name": "Audífonos Corsair CON MICROFONO HS55 SURROUND V2, GAMING, STEREO , DOLBY ATMOS EN PC, CONECTOR 3.5\", BANDA AJUSTABLE, CONTROL DE VOLUMEN Y MIC, ALMOHADILLAS ACOLCHADAS PARA LARGAS HORAS DE JUEGO, COMPATIBLE CON XBOX ONE / X, PS4 / 5, COLOR WHITE",
+      "reference": "110286",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "900000110391",
+      "name": "Micrófono DE EXPANSION Logitech",
+      "reference": "110391",
+      "subcategory": "Micrófonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000110644",
+      "name": "Bocinas JBL XTREME 5 PORTATIL CON BLUETOOTH IMPERMEABLE – CAMUFLAJE",
+      "reference": "110644",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000110706",
+      "name": "Audífonos JBL TUNE 530 BT NEGRO",
+      "reference": "110706",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000110859",
+      "name": "Bocinas JBL GO5, NEGRO",
+      "reference": "110859",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000110860",
+      "name": "Bocinas JBL GO5, CAMUFLAJE",
+      "reference": "110860",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000110861",
+      "name": "Bocinas JBL PARTYBOX STAGE 320, NEGRO",
+      "reference": "110861",
+      "subcategory": "Bocinas"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000111233",
+      "name": "Audífonos JBL TUNE 530 BT AZUL",
+      "reference": "111233",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000111234",
+      "name": "Audífonos JBL TUNE 730 BT BLANCO",
+      "reference": "111234",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000111264",
+      "name": "Mouse Logitech M850 LARGE",
+      "reference": "111264",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000111265",
+      "name": "Mouse Logitech MOBI FOLD",
+      "reference": "111265",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000111267",
+      "name": "Mouse Logitech G305 X",
+      "reference": "111267",
+      "subcategory": "Mouse"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000111403",
+      "name": "Audífonos JBL GAMING QUANTUM 100M2, SUPRAAURALES (ON EAR)",
+      "reference": "111403",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Periféricos",
+      "id": "900000111429",
+      "name": "Teclado Logitech MX KEYS S",
+      "reference": "111429",
+      "subcategory": "Teclados"
+    },
+    {
+      "brand": "Logitech",
+      "category": "Audio y Video",
+      "id": "900000111517",
+      "name": "Audífonos Logitech CON MICROFONO ZONE VIBE 100",
+      "reference": "111517",
+      "subcategory": "Audífonos"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000111580",
+      "name": "Audífonos JBL INALAMBRICO TUNE 520BT, BLUETOOTH 5.3",
+      "reference": "111580",
+      "subcategory": "Accesorios de audio"
+    },
+    {
+      "brand": "JBL",
+      "category": "Audio y Video",
+      "id": "900000111581",
+      "name": "Bocinas JBL XTREME5 NEGRO",
+      "reference": "111581",
+      "subcategory": "Bocinas"
     }
   ]
 }
