@@ -85,4 +85,8 @@ Los botones «Hacer pedido» preparan un mensaje al negocio **+1 809 879 6463** 
 
 ## Publicación
 
+El píxel de Meta `2319748675459306` se inicializa desde `js/meta-pixel.js` en las dos páginas. Registra `PageView` una vez por carga, `ViewContent` al encontrar la ficha y `AddToCart` solo cuando se añade una cantidad válida. Los IDs son los internos del catálogo de Kodex; los valores son precios públicos de venta en DOP. Incrementar cantidades en el carrito mide únicamente las unidades adicionales. Los clics de producto, carrito y asesoría al WhatsApp del negocio registran `Contact`, sin registrar una venta confirmada. No se envían costes, reglas privadas, contenido del mensaje ni datos personales añadidos manualmente. La configuración automática de formularios está desactivada y un fallo del SDK no interrumpe la tienda.
+
+Verificar recepción en Meta Events Manager → KODEX GAMING → Probar eventos o con Meta Pixel Helper. Las pruebas locales y de CI interceptan la medición o simulan `fbq`; nunca deben enviar eventos de prueba al píxel real. Ejecutar `node --test tests/test_meta_pixel.cjs`. Las descripciones y precios del catálogo de Meta deben usar los mismos IDs para asociar eventos con productos; instalar el píxel por sí solo no crea ni sincroniza un catálogo de Meta.
+
 La dirección pública es **https://kodexgaming.com/**. Conservar `CNAME`, DNS y Settings → Pages → Deploy from a branch → main → / (root). Comprobar el catálogo realmente servido después de cada publicación; un push o un artefacto creado no demuestra que el dominio haya recibido la nueva versión.

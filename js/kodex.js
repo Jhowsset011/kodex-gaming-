@@ -114,7 +114,7 @@ function orderURL(items) {
 }
 function productActions(p, detail = false) {
   if (!canOrder(p)) return '<button class="order-product" disabled>No disponible</button>';
-  return `<div class="product-actions ${detail ? 'detail-actions' : ''}"><a class="order-product" href="${escapeHTML(orderURL([{product:p, quantity:1}]))}" target="_blank" rel="noopener noreferrer" aria-label="Hacer pedido de ${escapeHTML(p.name)} por WhatsApp">Hacer pedido ${arrowIcon}</a><button class="add" data-add="${p.id}" aria-label="Añadir ${escapeHTML(p.name)} al carrito" title="Añadir al carrito">${cartIcon}${detail ? '<span>Añadir al carrito</span>' : ''}</button></div>`;
+  return `<div class="product-actions ${detail ? 'detail-actions' : ''}"><a class="order-product" data-order-product="${escapeHTML(p.id)}" href="${escapeHTML(orderURL([{product:p, quantity:1}]))}" target="_blank" rel="noopener noreferrer" aria-label="Hacer pedido de ${escapeHTML(p.name)} por WhatsApp">Hacer pedido ${arrowIcon}</a><button class="add" data-add="${p.id}" aria-label="Añadir ${escapeHTML(p.name)} al carrito" title="Añadir al carrito">${cartIcon}${detail ? '<span>Añadir al carrito</span>' : ''}</button></div>`;
 }
 function productCard(p) {
     const badge = badgeFor(p);
@@ -209,6 +209,7 @@ function renderCart() {
 function updateQuantity(id, quantity) {
   const product = products.find(p => p.id === id && canOrder(p));
   if (!product || !cart[id] || !Number.isInteger(quantity) || quantity < 1 || quantity > 99) return;
+  const previousQuantity = cart[id];
   cart[id] = quantity;
   const line = document.querySelector(`[data-cart-product="${id}"]`);
   if (line) {
@@ -219,6 +220,7 @@ function updateQuantity(id, quantity) {
   }
   updateCartSummary();
   try { localStorage.setItem('kodex-cart', JSON.stringify(cart)); } catch {}
+  if (quantity > previousQuantity) window.KodexPixel?.addToCart(product, quantity - previousQuantity);
 }
 let toastTimer;
 function hideToast() {
@@ -232,6 +234,7 @@ function addProduct(id) {
   if (cart[id] >= 99) return;
   cart[id] = (cart[id] || 0) + 1;
   renderCart();
+  window.KodexPixel?.addToCart(p, 1);
   $('#toast-message').textContent = 'Añadido a tu carrito';
   $('#toast').hidden = false;
   $('#toast').classList.add('show');
@@ -316,6 +319,23 @@ if (isProductPage) {
   });
 }
 function openCart() { if (catalogLoading) return; hideToast(); renderCart(); cartDialog.showModal(); }
+document.addEventListener('click', event => {
+  const link = event.target.closest('a[href]');
+  if (!link) return;
+  try {
+    const url = new URL(link.href);
+    if (url.protocol !== 'https:' || url.hostname !== 'wa.me' || url.pathname !== `/${WHATSAPP_NUMBER}`) return;
+  } catch (_) { return; }
+  if (link.id === 'cart-order') {
+    const items = products.filter(p => canOrder(p) && cart[p.id]).map(product => ({product, quantity: cart[product.id]}));
+    if (items.length) window.KodexPixel?.contact(items, 'cart');
+  } else if (link.dataset.orderProduct) {
+    const product = products.find(p => p.id === link.dataset.orderProduct && canOrder(p));
+    if (product) window.KodexPixel?.contact([{product, quantity: 1}], 'product');
+  } else {
+    window.KodexPixel?.contact([], 'advisory');
+  }
+});
 $('#open-cart').addEventListener('click', openCart);
 $('#footer-cart').addEventListener('click', openCart);
 $('#toast-cart').addEventListener('click', openCart);

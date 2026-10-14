@@ -81,4 +81,5 @@ function renderProductPage() {
   const related = products.filter(item => item.category === product.category && item.id !== product.id).slice(0, 3);
   $('#related-products').innerHTML = related.map(productCard).join('');
   $('#related-section').hidden = !related.length;
+  window.KodexPixel?.viewProduct(product);
 }

@@ -39,6 +39,8 @@ jobs:
           python-version: '3.12'
       - name: Probar sincronización y clasificación
         run: python3 -m unittest discover -s tests -v
+      - name: Probar eventos del píxel sin enviar datos a Meta
+        run: node --test tests/test_meta_pixel.cjs
       - name: Comprobar reglas privadas de venta
         id: pricing
         env:
