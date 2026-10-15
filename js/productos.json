@@ -1,6 +1,6 @@
 {
   "source": "Omega Tech — catálogo público",
-  "count": 552,
+  "count": 547,
   "products": [
     {
       "id": "19182",
@@ -6848,91 +6848,6 @@
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
     {
-      "id": "17144",
-      "reference": "89510",
-      "name": "Bocinas Xtech 2.0, USB, XTS-115BK NEGRO(MM221XTK12)",
-      "spec": "BOCINAS 2.0, USB, XTECH XTS-115BK NEGRO (MM221XTK12)",
-      "category": "Audio y Video",
-      "subcategory": "Bocinas",
-      "brand": "Xtech",
-      "price": 800.0,
-      "stock": true,
-      "image": "img/catalogo/79fe68ad653cdb9d2af6.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/56427680-7e63-4c10-8697-d2821ad6b2a8.png",
-      "description": "Conveniente perilla para el control del volumen ubicada al frente para ajustar la intensidad del sonido del computador reproductores de DVD, CD o audio digital.\n\nBocinas 2.0, USB, Xtech XTS-115BK negro (MM221XTK12).",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Xtech"
-        },
-        {
-          "label": "Número de parte",
-          "value": "XTS-115BK"
-        },
-        {
-          "label": "Tipo",
-          "value": "Parlantes estéreo multimedia de 2.0 canales"
-        },
-        {
-          "label": "Conectividad",
-          "value": "USB"
-        },
-        {
-          "label": "Máxima potencia de salida (RMS)",
-          "value": "6W"
-        },
-        {
-          "label": "Entrada de CC",
-          "value": "USB de 5V"
-        },
-        {
-          "label": "Botones",
-          "value": "Perilla para el control del volumen"
-        },
-        {
-          "label": "Unidad del parlante",
-          "value": "2 pulgadas cada una"
-        },
-        {
-          "label": "Frecuencia",
-          "value": "120Hz-18KHz"
-        },
-        {
-          "label": "Impedancia",
-          "value": "4Ω"
-        },
-        {
-          "label": "Relación de señal a ruido",
-          "value": "60dB"
-        },
-        {
-          "label": "Tipo de conexión",
-          "value": "3,5mm para audio y USB para alimentación"
-        },
-        {
-          "label": "Dimensiones",
-          "value": "80x96x96mm"
-        },
-        {
-          "label": "Colores",
-          "value": "Negro, azul y rojo"
-        }
-      ],
-      "features": [
-        "Parlantes estéreo de 2.0 canales con diseño contemporáneo",
-        "Potencia de salida de 6 watts RMS para un sonido nítido y sin distorsión",
-        "Conveniente perilla para el control del volumen ubicada al frente para ajustar la intensidad del sonido del computador, reproductores de DVD, CD o audio digital"
-      ],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/89510",
-        "https://api.xtechamericas.com/api/products/search/slug/xts-115-es"
-      ],
-      "collections": [],
-      "model": "XTS-115BK",
-      "sourceCategory": "Bocina",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "16373",
       "reference": "79657",
       "name": "Mouse Klip Xtreme INALAMBRICO VORTEX, 6 BOTONES, 2.4 GHZ, ERGONÓMICO, NEGRO, (KMW-355BK)",
@@ -8528,7 +8443,7 @@
       "category": "Monitores",
       "subcategory": "De escritorio",
       "brand": "Samsung",
-      "price": 18300.0,
+      "price": 18000.0,
       "stock": true,
       "image": "img/catalogo/7b5ea6f839ad47f4e72f.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/b460f6e2-1933-454d-a00b-f56e7c03b67a.png",
@@ -8873,111 +8788,6 @@
       "collections": [],
       "model": "910-007113",
       "sourceCategory": "Mouse",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
-      "id": "29337",
-      "reference": "111269",
-      "name": "Teclado Logitech G316 X 98",
-      "spec": "TECLADO LOGITECH G316 X 98, COMPATO, TECLADO NUMERICO, HASTA 8.000 HZ (8K), PANTALLA LED DE MATRIZ DE PUNTOS, COLOR BLANCO.",
-      "category": "Periféricos",
-      "subcategory": "Teclados",
-      "brand": "Logitech",
-      "price": 7800.0,
-      "stock": true,
-      "image": "img/catalogo/be6b84ed444e8628a907.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/6af19158-e710-4424-b4ca-505165fceb90.png",
-      "description": "Teclado Logitech con número de parte 920-014226. Tipo de conexión: USB-C en el teclado. Cable USB-C a USB-A incluido. Tipo de teclado: Mecánico. Tipo de interruptor: Táctil. Retroiluminación: Iluminación RGB por tecla.\n\nTeclado Logitech G316 x 98, compato, teclado numerico, hasta 8.000 Hz (8k), pantalla LED de matriz de puntos, color blanco.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Logitech"
-        },
-        {
-          "label": "Número de parte",
-          "value": "920-014226"
-        },
-        {
-          "label": "Tipo",
-          "value": "Teclados"
-        },
-        {
-          "label": "Altura",
-          "value": "40 mm"
-        },
-        {
-          "label": "Anchura",
-          "value": "140 mm"
-        },
-        {
-          "label": "Profundidad",
-          "value": "384 mm"
-        },
-        {
-          "label": "Peso",
-          "value": "880 g"
-        },
-        {
-          "label": "Longitud",
-          "value": "1.8 m"
-        },
-        {
-          "label": "Tipo de teclado",
-          "value": "Mecánico"
-        },
-        {
-          "label": "Retroiluminación",
-          "value": "Iluminación RGB por tecla"
-        },
-        {
-          "label": "Teclas programables",
-          "value": "Sí"
-        },
-        {
-          "label": "Botones/Teclas especiales",
-          "value": "Sí"
-        },
-        {
-          "label": "Tipo de conexión",
-          "value": "USB-C en el teclado. Cable USB-C a USB-A incluido."
-        },
-        {
-          "label": "Protocolo USB",
-          "value": "USB 2.0"
-        },
-        {
-          "label": "Indicadores luminosos (LED)",
-          "value": "Sí"
-        },
-        {
-          "label": "Tipo de interruptor",
-          "value": "Táctil"
-        },
-        {
-          "label": "Distancia de actuación del interruptor",
-          "value": "2,2 mm"
-        },
-        {
-          "label": "Fuerza de actuación del interruptor",
-          "value": "55 g"
-        },
-        {
-          "label": "Recorrido total del interruptor",
-          "value": "3,3 mm"
-        },
-        {
-          "label": "Compatibilidad",
-          "value": "Windows 10 o superior, macOS 12 o posterior. (Opcional) Acceso a Internet para el software Logitech G HUB."
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/111269",
-        "https://www.logitechg.com/es-mx/shop/p/g316-x-98-gaming-keyboard.920-014226"
-      ],
-      "collections": [],
-      "model": "920-014226",
-      "sourceCategory": "Teclados",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
@@ -14183,75 +13993,6 @@
       "specificationsUpdated": "2026-10-11T02:04:03+00:00"
     },
     {
-      "id": "21774",
-      "reference": "108705",
-      "name": "Monitor Samsung 37\" VIEWFINITY S7 S70D",
-      "spec": "MONITOR SAMSUNG 37\" VIEWFINITY S7 S70D, PLANO (3,840 × 2,160) (4K UHD), 5MS GTG, 60HZ, 1 HDMI 2.0, 1 DISPLAYPORT 1.2, SALIDA DE AURICULARES,",
-      "category": "Monitores",
-      "subcategory": "De escritorio",
-      "brand": "Samsung",
-      "price": 28800.0,
-      "stock": true,
-      "image": "img/catalogo/937542937367f6e33a89.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/c17d2117-ddf3-41df-a6fc-1d91c8400b7b.png",
-      "description": "Monitor Samsung LS37D700EANXZA con pantalla de 37 pulgadas y resolución 3840 x 2160 (4K UHD). Es compatible con HDR10.\n\nMonitor Samsung 37\" viewfinity S7 S70D, plano (3,840 × 2,160) (4k UHD), 5ms gtg, 60Hz, 1 HDMI 2.0, 1 DisplayPort 1.2, salida de auriculares, HDR10, panel VA, 1.07 mil millones de colores, 100 srgb, antirreflejo, modos PIP/PBP, inclinación -5° a +25°, montaje vesa 100×100 mm, negro.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Samsung"
-        },
-        {
-          "label": "Número de parte",
-          "value": "LS37D700EANXZA"
-        },
-        {
-          "label": "Tipo",
-          "value": "De escritorio"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "37 pulgadas"
-        },
-        {
-          "label": "Resolución",
-          "value": "3840 x 2160 (4K UHD)"
-        },
-        {
-          "label": "Panel",
-          "value": "VA"
-        },
-        {
-          "label": "Diseño",
-          "value": "Plano"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "60 Hz"
-        },
-        {
-          "label": "Tiempo de respuesta",
-          "value": "5 ms"
-        },
-        {
-          "label": "Conectividad",
-          "value": "1 × HDMI 2.0; 1 × DisplayPort 1.2"
-        },
-        {
-          "label": "HDR",
-          "value": "HDR10"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/108705",
-        "https://www.samsung.com/us/monitors/flat/37-inch-viewfinity-s7-s70d-4k-uhd-hdr10-high-resolution-monitor-sku-ls37d700eanxza/"
-      ],
-      "collections": [],
-      "model": "LS37D700EANXZA",
-      "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "29191",
       "reference": "109745",
       "name": "Gabinete GAMING Antec VCX300 ARGB BLACK MID-TOWER (0-761345-10024-3)",
@@ -15659,99 +15400,6 @@
       ],
       "collections": [],
       "model": "910-006756",
-      "sourceCategory": "Mouse",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
-      "id": "17155",
-      "reference": "89546",
-      "name": "Mouse Logitech M190 INALAMBRICO ROJO",
-      "spec": "MOUSE LOGITECH M190 INALAMBRICO OPTICO, RECEPTOR USB, SENSOR 1000 DPI, ROJO.",
-      "category": "Periféricos",
-      "subcategory": "Mouse",
-      "brand": "Logitech",
-      "price": 1000.0,
-      "stock": true,
-      "image": "img/catalogo/011f57a8811cb230ce9a.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/b284bbe0-7727-4d07-bdab-164e70ff24f0.png",
-      "description": "Mouse Logitech con número de parte 910-005904. Tecnología del sensor: Seguimiento óptico uniforme. Número de botones: 3.\n\nMouse Logitech M190 inalambrico optico, receptor USB, sensor 1000 DPI, rojo.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Logitech"
-        },
-        {
-          "label": "Número de parte",
-          "value": "910-005904"
-        },
-        {
-          "label": "Tipo",
-          "value": "Mouse"
-        },
-        {
-          "label": "Conectividad",
-          "value": "USB"
-        },
-        {
-          "label": "Resolución de sensor",
-          "value": "1000 DPI"
-        },
-        {
-          "label": "Tecnología del sensor",
-          "value": "Seguimiento óptico uniforme"
-        },
-        {
-          "label": "Número de botones",
-          "value": "3"
-        },
-        {
-          "label": "Rueda de desplazamiento",
-          "value": "Precisión línea a línea"
-        },
-        {
-          "label": "Mouse apto para Unifying",
-          "value": "No"
-        },
-        {
-          "label": "Receptor apto para Unifying",
-          "value": "No"
-        },
-        {
-          "label": "Batería",
-          "value": "18 meses"
-        },
-        {
-          "label": "Tecnología inalámbrica",
-          "value": "Nano receptor Logitech"
-        },
-        {
-          "label": "Distancia de funcionamiento inalámbrico",
-          "value": "10 metros"
-        },
-        {
-          "label": "Altura",
-          "value": "115.4 mm"
-        },
-        {
-          "label": "Anchura",
-          "value": "66.1 mm"
-        },
-        {
-          "label": "Profundidad",
-          "value": "40.3 mm"
-        },
-        {
-          "label": "Peso",
-          "value": "89.9 g"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/89546",
-        "https://www.logitech.com/es-mx/shop/p/m190-wireless-mouse.910-005904"
-      ],
-      "collections": [],
-      "model": "910-005904",
       "sourceCategory": "Mouse",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
@@ -19061,135 +18709,6 @@
       "model": "C5-CURVE-ARGB-WHITE",
       "sourceCategory": "Cases",
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
-    },
-    {
-      "id": "8027",
-      "reference": "95542",
-      "name": "Gabinete Corsair 3000D AIRFLOW, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, SOPORTA 3 ABANICOS 120MM FRONTAL, 2 120MM EN EL TOPE, 2 120MM ABAJO, 1 120MM ATRAS, PUERTOS 2X USB 3.2 GEN1, HEADPHONE/MIC COMBO 3.5\" (CC-9011251-WW)",
-      "spec": "CASE CORSAIR 3000D AIRFLOW, MID TOWER, BLACK, 7 EXPANSION SLOT, 2X 2.5\", 2X 3.5\", TAPA DE CRISTAL TEMPLADO, SOPORTA 3 ABANICOS 120MM FRONTAL",
-      "category": "Componentes",
-      "subcategory": "Gabinetes / Case",
-      "brand": "Corsair",
-      "price": 4900.0,
-      "stock": true,
-      "image": "img/catalogo/ca1c84700d0db60cd1d2.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/438149c7-2e5c-41dd-895f-5bd0a762d77c.png",
-      "description": "Gabinete Corsair con número de parte CC-9011251-WW. Formato: Mid-Tower.\n\nCase Corsair 3000D airflow, mid tower, black, 7 expansion slot, 2x 2.5\", 2x 3.5\", tapa de cristal templado, soporta 3 abanicos 120MM frontal, 2 120MM en el tope, 2 120MM abajo, 1 120MM atras, puertos 2x USB 3.2 GEN1, HEADPHONE/MIC combo 3.5\" (CC-9011251-WW).",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Corsair"
-        },
-        {
-          "label": "Número de parte",
-          "value": "CC-9011251-WW"
-        },
-        {
-          "label": "Tipo",
-          "value": "Gabinetes / Case"
-        },
-        {
-          "label": "Conectividad",
-          "value": "2 × USB 3.2 GEN1"
-        },
-        {
-          "label": "Formato",
-          "value": "Mid-Tower"
-        },
-        {
-          "label": "Altura",
-          "value": "466"
-        },
-        {
-          "label": "Largo",
-          "value": "462"
-        },
-        {
-          "label": "Ancho",
-          "value": "230"
-        },
-        {
-          "label": "Color",
-          "value": "Negro"
-        },
-        {
-          "label": "Radiadores compatibles",
-          "value": "120mm,140mm,240mm,280mm,360mm"
-        },
-        {
-          "label": "Panel lateral",
-          "value": "Vidrio templado"
-        },
-        {
-          "label": "Refrigeración líquida compatible",
-          "value": "H55,H60,H100,H115,H150"
-        },
-        {
-          "label": "Altura máxima del disipador",
-          "value": "170mm"
-        },
-        {
-          "label": "Longitud máxima de la fuente",
-          "value": "220mm"
-        },
-        {
-          "label": "Conexiones frontales",
-          "value": "2x USB 3.2 Gen 1 Type-A, Headphone/Mic Combo Jack"
-        },
-        {
-          "label": "Longitud máxima de GPU",
-          "value": "360mm"
-        },
-        {
-          "label": "Peso",
-          "value": "8kg"
-        },
-        {
-          "label": "Ranuras de expansión",
-          "value": "7 Horizontal"
-        },
-        {
-          "label": "Formato de fuente compatible",
-          "value": "ATX"
-        },
-        {
-          "label": "Radiadores admitidos al frente",
-          "value": "360mm, 280mm, 240mm"
-        },
-        {
-          "label": "Radiadores admitidos abajo",
-          "value": "Sin compatibilidad"
-        },
-        {
-          "label": "Radiadores admitidos al costado",
-          "value": "Sin compatibilidad"
-        },
-        {
-          "label": "Radiadores admitidos atrás",
-          "value": "120 mm"
-        },
-        {
-          "label": "Ventiladores admitidos arriba",
-          "value": "2x 120mm, 2x 140mm"
-        },
-        {
-          "label": "Ventiladores admitidos al frente",
-          "value": "3x 120mm; 2x 140mm"
-        },
-        {
-          "label": "Ventiladores admitidos abajo",
-          "value": "2x 120mm"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/95542",
-        "https://www.corsair.com/us/en/p/pc-cases/cc-9011251-ww/cc-9011251-ww"
-      ],
-      "collections": [],
-      "model": "CC-9011251-WW",
-      "sourceCategory": "Cases",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
       "id": "29173",
@@ -22790,87 +22309,6 @@
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
     {
-      "id": "19688",
-      "reference": "107390",
-      "name": "Barra de sonido (BARRA DE SONIDO MINI) WIRELESS Sonos RAY B NEGRO",
-      "spec": "SOUND BAR (BARRA DE SONIDO MINI) WIRELESS SONOS RAY B NEGRO, CON PUERTO ETHERNET, WIFI, HDMI, SONIDO SURROUND, COMPATIBLE CON APPLE AIRPLAY ",
-      "category": "Audio y Video",
-      "subcategory": "Equipos de sonido",
-      "brand": "Sonos",
-      "price": 13800.0,
-      "stock": true,
-      "image": "img/catalogo/9859bdfc742b2950fb22.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/71888020-275c-4e8f-817a-e44b98f0e842.png",
-      "description": "Barra de sonido Sonos Ray con cuatro amplificadores digitales de clase D, dos tweeters y dos altavoces de medios. Recibe audio del televisor por conexión óptica y permite reproducción en red mediante Wi-Fi y Apple AirPlay 2.\n\nSound bar (barra de sonido mini) wireless Sonos RAY B negro, con puerto ethernet, wifi, HDMI, sonido surround, compatible con apple airplay 2, spotify connect sonido nocturno, mejora del habla.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Sonos"
-        },
-        {
-          "label": "Número de parte",
-          "value": "RAY B"
-        },
-        {
-          "label": "Tipo",
-          "value": "Equipos de sonido"
-        },
-        {
-          "label": "Conectividad",
-          "value": "ETHERNET; HDMI"
-        },
-        {
-          "label": "Wi-Fi",
-          "value": "Indicado por el proveedor"
-        },
-        {
-          "label": "Modelo",
-          "value": "Ray"
-        },
-        {
-          "label": "Amplificación",
-          "value": "4 amplificadores digitales de clase D"
-        },
-        {
-          "label": "Altavoces",
-          "value": "2 tweeters y 2 midwoofers"
-        },
-        {
-          "label": "Conexión al televisor",
-          "value": "Óptica"
-        },
-        {
-          "label": "Red",
-          "value": "Wi-Fi de 2.4 GHz y Ethernet 10/100"
-        },
-        {
-          "label": "Streaming",
-          "value": "Apple AirPlay 2"
-        },
-        {
-          "label": "Funciones de audio",
-          "value": "Mejora de diálogos, sonido nocturno y ecualizador ajustable"
-        },
-        {
-          "label": "Dimensiones",
-          "value": "557 × 70 × 93 mm"
-        },
-        {
-          "label": "Peso",
-          "value": "1.9 kg"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/107390",
-        "https://www.sonos.com/en-us/shop/ray"
-      ],
-      "collections": [],
-      "model": "RAY B***",
-      "sourceCategory": "Bocina",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "6799",
       "reference": "94580",
       "name": "Fuente de poder MSI MAG A550BN",
@@ -24619,8 +24057,8 @@
     {
       "id": "29424",
       "reference": "111165",
-      "name": "Laptop Dell 15.6\" FHD TOUCH DISPLAY, CORE I7-1355U, 16GB DDR4, 512GB SSD, WINDOWS 11 HOME",
-      "spec": "LAPTOP DELL 15.6\" FHD TOUCH DISPLAY, CORE I7-1355U, 16GB DDR4, 512GB SSD, WINDOWS 11 HOME",
+      "name": "Laptop Dell 15.6\" FHD TOUCH DISPLAY, CORE I7-1355U, 16GB DDR5, 512GB SSD, WINDOWS 11 HOME",
+      "spec": "LAPTOP DELL 15.6\" FHD TOUCH DISPLAY, CORE I7-1355U, 16GB DDR5, 512GB SSD, WINDOWS 11 HOME",
       "category": "Laptops",
       "subcategory": "Portátiles",
       "brand": "Dell",
@@ -24628,7 +24066,7 @@
       "stock": true,
       "image": "img/catalogo/bb2a6185dd1d92f6edf2.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/c99e1d9f-663a-47f5-bf4b-2ad50e86ac63.png",
-      "description": "Laptop Dell 15.6\" FHD touch display, core I7-1355U, 16GB DDR4, 512GB SSD, Windows 11 home.",
+      "description": "Laptop Dell 15.6\" FHD touch display, core I7-1355U, 16GB DDR5, 512GB SSD, Windows 11 home.",
       "specifications": [
         {
           "label": "Marca",
@@ -24668,7 +24106,7 @@
         },
         {
           "label": "Tipo de memoria",
-          "value": "DDR4"
+          "value": "DDR5"
         }
       ],
       "features": [],
@@ -24678,7 +24116,7 @@
       "collections": [],
       "model": "LDC15250-7427BLK-PUS",
       "sourceCategory": "Laptop",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
     },
     {
       "id": "28075",
@@ -26261,46 +25699,6 @@
       "model": "MAG COREFROZR AA13",
       "sourceCategory": "Abanico Para Cpu",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
-      "id": "29516",
-      "reference": "111414",
-      "name": "Laptop Lenovo THINKPAD T14 G4",
-      "spec": "LAPTOP LENOVO THINKPAD T14 G4 I5 1335U, 16GB 512SSD, WINDOWS 11 PRO, 3 AÑOS DE GARANTIA. TECLADO ESPAÑOL.",
-      "category": "Laptops",
-      "subcategory": "Portátiles",
-      "brand": "Lenovo",
-      "price": 69200.0,
-      "stock": true,
-      "image": "img/catalogo/33f6fcaaf6c4a32d70d4.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/a1389fe5-9099-4fdf-aa47-3ccae44818b3.png",
-      "description": "Laptop Lenovo thinkpad T14 G4 I5 1335U, 16GB 512SSD, Windows 11 pro, 3 años de garantia. Teclado español.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Lenovo"
-        },
-        {
-          "label": "Número de parte",
-          "value": "21HESHJU00"
-        },
-        {
-          "label": "Tipo",
-          "value": "Portátiles"
-        },
-        {
-          "label": "Sistema operativo",
-          "value": "Windows 11 PRO"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/111414"
-      ],
-      "collections": [],
-      "model": "21HESHJU00 CANAL",
-      "sourceCategory": "Laptop",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
     {
       "id": "29518",
@@ -29270,6 +28668,64 @@
       "specificationNote": "Modelo pendiente de confirmación."
     },
     {
+      "id": "20298",
+      "reference": "109109",
+      "name": "Monitor Samsung 32\" SMART M7, 4K (3840 × 2160), 4 MS (GTG), 60 HZ.",
+      "spec": "MONITOR SAMSUNG 32\" SMART M7, PLANO, 4K (3840 × 2160), 4 MS (GTG), 16:9, 60 HZ. VISION AI, GAMING HUB.",
+      "category": "Monitores",
+      "subcategory": "De escritorio",
+      "brand": "Samsung",
+      "price": 23300.0,
+      "stock": true,
+      "image": "img/catalogo/a2feb23c6638c7fdd939.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/9e4b2838-4ee9-4580-8a64-ee2f013dad4f.png",
+      "description": "Monitor Samsung 32\" smart M7, plano, 4k (3840 × 2160), 4 ms (gtg), 16:9, 60 Hz. Vision ai, gaming hub.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Samsung"
+        },
+        {
+          "label": "Número de parte",
+          "value": "LS32FM700UNXZA"
+        },
+        {
+          "label": "Tipo",
+          "value": "De escritorio"
+        },
+        {
+          "label": "Tamaño de pantalla",
+          "value": "32\""
+        },
+        {
+          "label": "Resolución",
+          "value": "3840 × 2160"
+        },
+        {
+          "label": "Diseño",
+          "value": "Plano"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "60 Hz"
+        },
+        {
+          "label": "Tiempo de respuesta",
+          "value": "4 ms"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/109109"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "LS32FM700UNXZA",
+      "sourceCategory": "Gaming",
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
+    },
+    {
       "id": "12109",
       "reference": "107246",
       "name": "Monitor MSI MAG 244F",
@@ -31175,66 +30631,6 @@
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
-      "id": "13521",
-      "reference": "110067",
-      "name": "Monitor MSI PRO MP273W E14A, 27\", 144 HZ, IPS FLAT, HD",
-      "spec": "MONITOR MSI, 27\", PRO MP273W E14A, 1920 X 1080, FHD, 144 HZ, FLAT, IPS, TECNOLOGIA EYESERGO. AMD FREESYNC 1X HDMI, 1X DISPLAYPORT 1.2A, 1X D",
-      "category": "Monitores",
-      "subcategory": "De escritorio",
-      "brand": "MSI",
-      "price": 8800.0,
-      "stock": true,
-      "image": "img/catalogo/51f5b6da2b61a02e6d5e.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/2770c208-a4d0-4e97-b428-5f203eb06511.png",
-      "description": "Monitor MSI, 27\", PRO MP273W E14A, 1920 x 1080, FHD, 144 Hz, flat, IPS, tecnologia eyesergo. AMD freesync 1x HDMI, 1x DisplayPort 1.2a, 1x dc jack, 1x VGA, color blanco.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "MSI"
-        },
-        {
-          "label": "Número de parte",
-          "value": "PRO MP273W E14A"
-        },
-        {
-          "label": "Tipo",
-          "value": "De escritorio"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "27\""
-        },
-        {
-          "label": "Resolución",
-          "value": "1920 × 1080"
-        },
-        {
-          "label": "Panel",
-          "value": "IPS"
-        },
-        {
-          "label": "Diseño",
-          "value": "Plano"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "144 Hz"
-        },
-        {
-          "label": "Conectividad",
-          "value": "1 × HDMI; 1 × DisplayPort 1.2A; 1 × VGA"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/110067"
-      ],
-      "collections": [],
-      "model": "PRO MP273W E14A",
-      "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
-    },
-    {
       "id": "20490",
       "reference": "109653",
       "name": "Monitor MSI PRO MP275PG",
@@ -32303,6 +31699,64 @@
       "specificationsUpdated": "2026-10-12T15:19:59+00:00"
     },
     {
+      "id": "90000097027",
+      "reference": "97027",
+      "name": "Monitor Samsung 27\" GAMING ODYSSEY",
+      "spec": "MONITOR SAMSUNG 27\" GAMING (2.560 X 1.440) ODYSSEY CURVO 1000R, 144 HZ, 1MS, 1 MPRT, HDR10, DISPLAY PORT, HDMI, AMD FREESYNC PREMIUN (LS27CG",
+      "category": "Monitores",
+      "subcategory": "Curvos",
+      "brand": "Samsung",
+      "price": 14300.0,
+      "stock": true,
+      "image": "img/catalogo/c7d0107672ef178e6474.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/2bff1aa4-0326-4876-8a19-9f0b461fae4b.png",
+      "description": "Monitor Samsung 27\" gaming (2.560 x 1.440) odyssey curvo 1000R, 144 Hz, 1ms, 1 mprt, HDR10, display port, HDMI, AMD freesync premiun (LS27CG552ENXZA).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Samsung"
+        },
+        {
+          "label": "Número de parte",
+          "value": "LS27CG552ENXZA"
+        },
+        {
+          "label": "Tipo",
+          "value": "Curvos"
+        },
+        {
+          "label": "Tamaño de pantalla",
+          "value": "27\""
+        },
+        {
+          "label": "Diseño",
+          "value": "Curvo 1000r"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "144 Hz"
+        },
+        {
+          "label": "Tiempo de respuesta",
+          "value": "1 ms"
+        },
+        {
+          "label": "Conectividad",
+          "value": "HDMI"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/97027"
+      ],
+      "collections": [
+        "Zona Gamer"
+      ],
+      "model": "LS27CG552ENXZA",
+      "sourceCategory": "Gaming",
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
+    },
+    {
       "id": "900000104842",
       "reference": "104842",
       "name": "Tarjeta madre MSI PRO B760M-E",
@@ -32546,7 +32000,7 @@
       "category": "Monitores",
       "subcategory": "Curvos",
       "brand": "Samsung",
-      "price": 7700.0,
+      "price": 7200.0,
       "stock": true,
       "image": "img/catalogo/d20a6f68f4985ccc2503.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/4b61812e-3569-425e-97e2-0661391cce2e.png",
@@ -33847,7 +33301,7 @@
       "category": "Celulares y tablets",
       "subcategory": "Tablets",
       "brand": "Samsung",
-      "price": 11900.0,
+      "price": 11800.0,
       "stock": true,
       "image": "img/catalogo/4032ea9b78c20b698323.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/a81c6f96-f178-4bbc-93d9-c875cfdb2c68.png",
@@ -34148,6 +33602,70 @@
       "model": "SM-X135G",
       "sourceCategory": "Tablet Y Accesorios",
       "specificationsUpdated": "2026-10-12T15:19:59+00:00"
+    },
+    {
+      "id": "900000110189",
+      "reference": "110189",
+      "name": "Monitor Samsung 27\" ODYSSEY G5",
+      "spec": "MONITOR SAMSUNG 27\" ODYSSEY G5, PLANO,QHD (2,560 X 1,440), 16:9, MAX 180HZ, 1MS(GTG), IPS, DISPLAY PORT, HDMI,PIVOT. (LS27FG500ENXZA).",
+      "category": "Monitores",
+      "subcategory": "De escritorio",
+      "brand": "Samsung",
+      "price": 15200.0,
+      "stock": true,
+      "image": "img/catalogo/892d2d94d1ecc1ea42ee.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/f024beda-179f-455e-8bc2-58dc0f098547.png",
+      "description": "Monitor Samsung 27\" odyssey G5, plano,QHD (2,560 x 1,440), 16:9, max 180Hz, 1ms(gtg), IPS, display port, HDMI,pivot. (LS27FG500ENXZA).",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Samsung"
+        },
+        {
+          "label": "Número de parte",
+          "value": "LS27FG500ENXZA"
+        },
+        {
+          "label": "Tipo",
+          "value": "De escritorio"
+        },
+        {
+          "label": "Tamaño de pantalla",
+          "value": "27\""
+        },
+        {
+          "label": "Resolución",
+          "value": "2560 × 1440"
+        },
+        {
+          "label": "Panel",
+          "value": "IPS"
+        },
+        {
+          "label": "Diseño",
+          "value": "Plano"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "180 Hz"
+        },
+        {
+          "label": "Tiempo de respuesta",
+          "value": "1 ms"
+        },
+        {
+          "label": "Conectividad",
+          "value": "HDMI"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110189"
+      ],
+      "collections": [],
+      "model": "LS27FG500ENXZA",
+      "sourceCategory": "Gaming",
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
     },
     {
       "id": "900000110196",
@@ -34525,7 +34043,7 @@
       "id": "900000111767",
       "reference": "111767",
       "name": "Celular GALAXY A16 4GB+128GB LTE BLACK",
-      "spec": "CELULAR SMARTPHONE SAMSUNG GALAXY A16 4GB+128GB LTE BLACK",
+      "spec": "CELULAR SAMSUNG GALAXY A16 4GB+128GB LTE BLACK",
       "category": "Celulares y tablets",
       "subcategory": "Celulares",
       "brand": "Samsung",
@@ -34533,7 +34051,7 @@
       "stock": true,
       "image": "img/catalogo/b44058954374ae4528a0.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/c6aa2935-3ff4-4355-a938-2a110b59cfd7.png",
-      "description": "Celular smartphone Samsung galaxy A16 4GB+128GB lte black.",
+      "description": "Celular Samsung galaxy A16 4GB+128GB lte black.",
       "specifications": [
         {
           "label": "Marca",
@@ -34555,13 +34073,13 @@
       "collections": [],
       "model": "SM-A165M/DS-BK",
       "sourceCategory": "Celulares Y Accesorios",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
     },
     {
       "id": "900000111768",
       "reference": "111768",
       "name": "Celular Samsung SMARTPHONE GALAXY A27 5G 8GB +256GB",
-      "spec": "CELULAR SMARTPHONE SAMSUNG GALAXY A27 5G 8GB +256GB BLUE.",
+      "spec": "CELULAR SAMSUNG GALAXY A27 5G 8GB +256GB BLUE.",
       "category": "Celulares y tablets",
       "subcategory": "Celulares",
       "brand": "Samsung",
@@ -34569,7 +34087,7 @@
       "stock": true,
       "image": "img/catalogo/27f1c57502e9e1638c54.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/9734631e-7fe9-4ded-a1af-b838e1561348.png",
-      "description": "Celular smartphone Samsung galaxy A27 5g 8GB +256GB blue.",
+      "description": "Celular Samsung galaxy A27 5g 8GB +256GB blue.",
       "specifications": [
         {
           "label": "Marca",
@@ -34591,13 +34109,13 @@
       "collections": [],
       "model": "SM-A276B/DS BLUE",
       "sourceCategory": "Celulares Y Accesorios",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
     },
     {
       "id": "900000111770",
       "reference": "111770",
       "name": "Celular Samsung SMARTPHONE GALAXY A27 5G 8GB +256GB",
-      "spec": "CELULAR SMARTPHONE SAMSUNG GALAXY A27 5G 8GB +256GB BLACK.",
+      "spec": "CELULAR SAMSUNG GALAXY A27 5G 8GB +256GB BLACK.",
       "category": "Celulares y tablets",
       "subcategory": "Celulares",
       "brand": "Samsung",
@@ -34605,7 +34123,7 @@
       "stock": true,
       "image": "img/catalogo/5c6fb7cb11de61a10cd8.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/284a1f38-30fd-48e1-8fee-820ba2498fcd.png",
-      "description": "Celular smartphone Samsung galaxy A27 5g 8GB +256GB black.",
+      "description": "Celular Samsung galaxy A27 5g 8GB +256GB black.",
       "specifications": [
         {
           "label": "Marca",
@@ -34627,13 +34145,13 @@
       "collections": [],
       "model": "SM-A276B/DS BLACK",
       "sourceCategory": "Celulares Y Accesorios",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
     },
     {
       "id": "900000111774",
       "reference": "111774",
       "name": "Celular GALAXY A16 4GB+128GB LTE GRIS",
-      "spec": "CELULAR SMARTPHONE SAMSUNG GALAXY A16 4GB+128GB LTE GRIS",
+      "spec": "CELULAR SAMSUNG GALAXY A16 4GB+128GB LTE GRIS",
       "category": "Celulares y tablets",
       "subcategory": "Celulares",
       "brand": "Samsung",
@@ -34641,7 +34159,7 @@
       "stock": true,
       "image": "img/catalogo/dca31087d36d7c2678dc.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/d2e14d76-dfc6-4788-aa03-21b426958dfd.png",
-      "description": "Celular smartphone Samsung galaxy A16 4GB+128GB lte gris.",
+      "description": "Celular Samsung galaxy A16 4GB+128GB lte gris.",
       "specifications": [
         {
           "label": "Marca",
@@ -34663,13 +34181,13 @@
       "collections": [],
       "model": "SM-A165M/DS-GR",
       "sourceCategory": "Celulares Y Accesorios",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
     },
     {
       "id": "900000111794",
       "reference": "111794",
       "name": "Celular Samsung SMARTPHONE GALAXY A57 5G 8GB+256GB, PANTALLA 6.7\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 50MP+12MP+2MP+10MP (CAMARA TRASERA) 12MP (CAMARA DELANTERA), PUERTO USB-C, BATERIA 5000 MAH, DESBLOQUEADOS DE FABRICA (FACTORY UNLOCK), DUAL SIM, COLOR AWESOME GRAY",
-      "spec": "CELULAR SMARTPHONE SAMSUNG GALAXY A57 5G 8GB+256GB, PANTALLA 6.7\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 50MP+12",
+      "spec": "CELULAR SAMSUNG GALAXY A57 5G 8GB+256GB, PANTALLA 6.7\" DYNAMIC AMOLED 2X QHD+ (3120X1440), 120HZ, CPU SNAPDRAGON 8 ELITE, 50MP+12MP+2MP+10MP",
       "category": "Celulares y tablets",
       "subcategory": "Celulares",
       "brand": "Samsung",
@@ -34677,7 +34195,7 @@
       "stock": true,
       "image": "img/catalogo/890adb1a66a15df9cdfa.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/ca4f3178-601c-498f-990f-ce203d6822ca.png",
-      "description": "Celular smartphone Samsung galaxy A57 5g 8GB+256GB, pantalla 6.7\" dynamic amoled 2x QHD+ (3120x1440), 120Hz, CPU snapdragon 8 elite, 50mp+12mp+2mp+10mp (camara trasera) 12mp (camara delantera), puerto USB-C, bateria 5000 mAh, desbloqueados de fabrica (factory unlock), dual sim, color awesome gray.",
+      "description": "Celular Samsung galaxy A57 5g 8GB+256GB, pantalla 6.7\" dynamic amoled 2x QHD+ (3120x1440), 120Hz, CPU snapdragon 8 elite, 50mp+12mp+2mp+10mp (camara trasera) 12mp (camara delantera), puerto USB-C, bateria 5000 mAh, desbloqueados de fabrica (factory unlock), dual sim, color awesome gray.",
       "specifications": [
         {
           "label": "Marca",
@@ -34719,7 +34237,7 @@
       "collections": [],
       "model": "SM-A576B/DS - GRIS",
       "sourceCategory": "Celulares Y Accesorios",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
+      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
     },
     {
       "id": "90000066967",
@@ -37989,8 +37507,8 @@
       "brand": "Logitech",
       "price": 8200.0,
       "stock": true,
-      "image": "img/catalogo/0463eca50ad2f3654e04.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/pna.png",
+      "image": "img/catalogo/42e6a137f35c7b96b59b.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/37192685-c2c3-451b-b992-751556e40d0e.png",
       "description": "Teclado Logitech mx keys s – inalámbrico, graphite, español.",
       "specifications": [
         {
@@ -38157,5 +37675,5 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     }
   ],
-  "updated": "2026-10-12T17:08:02+00:00"
+  "updated": "2026-10-15T15:23:03+00:00"
 }
