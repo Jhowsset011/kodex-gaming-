@@ -1,6 +1,6 @@
 {
   "source": "Omega Tech — catálogo público",
-  "count": 547,
+  "count": 537,
   "products": [
     {
       "id": "19182",
@@ -541,50 +541,6 @@
         "Zona Gamer"
       ],
       "model": "VX510-ARGB",
-      "sourceCategory": "Cases",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
-    },
-    {
-      "id": "29138",
-      "reference": "111325",
-      "name": "Gabinete MSI PRO PANO M120L WHITE, MINI TOWER",
-      "spec": "CASE MSI PRO PANO M120L WHITE, MINI TOWER, 2 X USB 1.0 (TYPE-A), 1 X USB 5GBPS (TYPE-C) , 1X AUDIO,",
-      "category": "Componentes",
-      "subcategory": "Gabinetes / Case",
-      "brand": "MSI",
-      "price": 3800.0,
-      "stock": true,
-      "image": "img/catalogo/0463eca50ad2f3654e04.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/pna.png",
-      "description": "Case MSI PRO PANO M120L WHITE, mini tower, 2 x USB 1.0 (TYPE-A), 1 x USB 5Gbps (TYPE-C) , 1x audio,.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "MSI"
-        },
-        {
-          "label": "Número de parte",
-          "value": "PRO PANO M120L WHITE"
-        },
-        {
-          "label": "Tipo",
-          "value": "Gabinetes / Case"
-        },
-        {
-          "label": "Conectividad",
-          "value": "2 × USB 1.0; 1 × USB; TYPE-C"
-        },
-        {
-          "label": "Formato indicado",
-          "value": "MINI TOWER"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/111325"
-      ],
-      "collections": [],
-      "model": "PRO PANO M120L WHITE",
       "sourceCategory": "Cases",
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
@@ -3481,58 +3437,6 @@
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
-      "id": "19186",
-      "reference": "106021",
-      "name": "Mouse pad Xtech GAMING STRATEGA, SUPERFICIE POLIESTER Y BASE DE GOMA",
-      "spec": "MOUSE PAD XTECH GAMING STRATEGA, SUPERFICIE POLIESTER Y BASE DE GOMA (XTA-183)",
-      "category": "Periféricos",
-      "subcategory": "Mouse pads",
-      "brand": "Xtech",
-      "price": 200.0,
-      "stock": true,
-      "image": "img/catalogo/ef66af36349e13efba20.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/ecdbc0ab-9309-4854-b535-9765da998e0a.png",
-      "description": "Superficie de tela que ofrece mínima fricción para deslizar el mouse con máxima precisión y velocidad\n\nMouse pad Xtech gaming stratega, superficie poliester y base de goma (XTA-183).",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Xtech"
-        },
-        {
-          "label": "Número de parte",
-          "value": "XTA-183"
-        },
-        {
-          "label": "Tipo",
-          "value": "Alfombrilla flexible para mouse con diseño impreso"
-        },
-        {
-          "label": "Base",
-          "value": "Goma natural"
-        }
-      ],
-      "features": [
-        "Diseño impreso a color con imagen alusiva para videojuegos",
-        "Superficie de tela que ofrece mínima fricción para deslizar el ratón con máxima precisión y velocidad",
-        "Base de goma antideslizante mantiene fija la alfombrilla en su lugar",
-        "Bordes con costuras que evitan el deterioro",
-        "Material: Superficie 100% poliéster",
-        "Color: Diseño Xtech para videojuegos",
-        "Dimensiones: 287x 244x2mm",
-        "Peso: 76,8g"
-      ],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/106021",
-        "https://api.xtechamericas.com/api/products/search/slug/alfombrilla-para-mouse-de-videojuegos-XTA-183-es"
-      ],
-      "collections": [
-        "Zona Gamer"
-      ],
-      "model": "XTA-183",
-      "sourceCategory": "Mouse",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "19453",
       "reference": "106861",
       "name": "Mouse Xtech DISNEY STICH, USB, OPTICAL, SCROLL, 3 BOTONES, 1200 DPI, YELLOW",
@@ -5934,8 +5838,8 @@
     {
       "id": "17402",
       "reference": "91109",
-      "name": "Fuente de poder Grandstream (FUENTE) 5V/0.6A",
-      "spec": "POWER SUPPLY(FUENTE) 5V/0.6A PARA LOS TELEFONOS GRANDSTREAM GRP260X/2612/ETC (IMPUT AC 100-240V 50/60HZ 0.24AMAX (DCT06W05060US-DO)",
+      "name": "Fuente de poder Grandstream 5V/0.6A",
+      "spec": "FUENTE 5V/0.6A PARA LOS TELEFONOS GRANDSTREAM GRP260X/2612/ETC (IMPUT AC 100-240V 50/60HZ 0.24AMAX (DCT06W05060US-DO)",
       "category": "Componentes",
       "subcategory": "Fuentes de poder",
       "brand": "Grandstream",
@@ -5943,7 +5847,7 @@
       "stock": true,
       "image": "img/catalogo/0d850903e09b1380ca4e.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/a5e4631c-9c39-481d-96df-405c811c8d42.png",
-      "description": "Power supply(fuente) 5v/0.6a para los telefonos Grandstream GRP260X/2612/ETC (imput ac 100-240V 50/60Hz 0.24amax (DCT06W05060US-DO).",
+      "description": "Fuente 5v/0.6a para los telefonos Grandstream GRP260X/2612/ETC (imput ac 100-240V 50/60Hz 0.24amax (DCT06W05060US-DO).",
       "specifications": [
         {
           "label": "Marca",
@@ -5965,7 +5869,7 @@
       "collections": [],
       "model": "5V/600MAPSU",
       "sourceCategory": "Power Supply",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
+      "specificationsUpdated": "2026-10-16T14:42:28+00:00"
     },
     {
       "id": "18398",
@@ -21499,93 +21403,6 @@
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
     {
-      "id": "24584",
-      "reference": "79310",
-      "name": "Teclado Logitech GAMING G213 (ENG LAYOUT/ SPA PACKAGE)",
-      "spec": "TECLADO LOGITECH GAMING G213, USB 2.0 LED BACKLIGHT RGB PERSONALIZADAS, INGLES, MULTIMEDIA BOTON, SCROLL, ANTIDERRAME, (ENG LAYOUT/ SPA PACK",
-      "category": "Periféricos",
-      "subcategory": "Teclados",
-      "brand": "Logitech",
-      "price": 4000.0,
-      "stock": true,
-      "image": "img/catalogo/369457d0acfa9b014a05.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/622b91ab-303b-4503-b102-27558ced1865.png",
-      "description": "Teclado Logitech con número de parte 920-008084. Tipo de conexión: USB 2.0. Retroiluminación: RGB (5 zonas).\n\nTeclado Logitech gaming G213, USB 2.0 LED backlight RGB personalizadas, ingles, multimedia boton, scroll, antiderrame, (eng layout/ spa package). 920-008084.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Logitech"
-        },
-        {
-          "label": "Número de parte",
-          "value": "920-008084"
-        },
-        {
-          "label": "Tipo",
-          "value": "Teclados"
-        },
-        {
-          "label": "Conectividad",
-          "value": "USB 2.0"
-        },
-        {
-          "label": "Altura",
-          "value": "33 mm"
-        },
-        {
-          "label": "Anchura",
-          "value": "452 mm"
-        },
-        {
-          "label": "Profundidad",
-          "value": "218 mm"
-        },
-        {
-          "label": "Peso",
-          "value": "1000 g"
-        },
-        {
-          "label": "Longitud",
-          "value": "1.8 m"
-        },
-        {
-          "label": "Retroiluminación",
-          "value": "RGB (5 zonas)"
-        },
-        {
-          "label": "Tipo de conexión",
-          "value": "USB 2.0"
-        },
-        {
-          "label": "Protocolo USB",
-          "value": "USB 2.0"
-        },
-        {
-          "label": "Velocidad USB",
-          "value": "Velocidad máxima"
-        },
-        {
-          "label": "Indicadores luminosos (LED)",
-          "value": "Sí"
-        },
-        {
-          "label": "Compatibilidad",
-          "value": "Windows 7 o posteriores"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/79310",
-        "https://www.logitechg.com/es-mx/shop/p/g213-rgb-gaming-keyboard.920-008084"
-      ],
-      "collections": [
-        "Zona Gamer"
-      ],
-      "model": "920-008084",
-      "sourceCategory": "Gaming",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "19202",
       "reference": "106040",
       "name": "Mouse Klip Xtreme WIRELESS ERGOLAST, 6 BOTONES, 2.4 GHZ, SEMI VERTICAL, ADAPATDOR USB",
@@ -24055,70 +23872,6 @@
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
-      "id": "29424",
-      "reference": "111165",
-      "name": "Laptop Dell 15.6\" FHD TOUCH DISPLAY, CORE I7-1355U, 16GB DDR5, 512GB SSD, WINDOWS 11 HOME",
-      "spec": "LAPTOP DELL 15.6\" FHD TOUCH DISPLAY, CORE I7-1355U, 16GB DDR5, 512GB SSD, WINDOWS 11 HOME",
-      "category": "Laptops",
-      "subcategory": "Portátiles",
-      "brand": "Dell",
-      "price": 65000.0,
-      "stock": true,
-      "image": "img/catalogo/bb2a6185dd1d92f6edf2.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/c99e1d9f-663a-47f5-bf4b-2ad50e86ac63.png",
-      "description": "Laptop Dell 15.6\" FHD touch display, core I7-1355U, 16GB DDR5, 512GB SSD, Windows 11 home.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Dell"
-        },
-        {
-          "label": "Número de parte",
-          "value": "LDC15250-7427BLK-PUS"
-        },
-        {
-          "label": "Tipo",
-          "value": "Portátiles"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "15.6\""
-        },
-        {
-          "label": "Resolución indicada",
-          "value": "FHD"
-        },
-        {
-          "label": "Procesador",
-          "value": "CORE I7-1355U"
-        },
-        {
-          "label": "Memoria RAM",
-          "value": "16 GB"
-        },
-        {
-          "label": "Almacenamiento",
-          "value": "512 GB"
-        },
-        {
-          "label": "Sistema operativo",
-          "value": "Windows 11 HOME"
-        },
-        {
-          "label": "Tipo de memoria",
-          "value": "DDR5"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/111165"
-      ],
-      "collections": [],
-      "model": "LDC15250-7427BLK-PUS",
-      "sourceCategory": "Laptop",
-      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
-    },
-    {
       "id": "28075",
       "reference": "110927",
       "name": "Mochila PARA LAPTOP Klip Xtreme NOVA 14\" TIPO SLEEVE, SILVER (KNS-425SV)",
@@ -25165,87 +24918,6 @@
       ],
       "collections": [],
       "model": "B760M PROJECT ZERO",
-      "sourceCategory": "Tarjeta Madre",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
-      "id": "19804",
-      "reference": "107662",
-      "name": "Tarjeta madre MSI PRO H810M-B",
-      "spec": "MB MSI PRO H810M-B DDR5 LGA 1851 INTEL",
-      "category": "Componentes",
-      "subcategory": "Tarjetas madre",
-      "brand": "MSI",
-      "price": 9600.0,
-      "stock": true,
-      "image": "img/catalogo/145997633292d4d1ec2a.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/8e8d1c16-50fb-4f3a-ac1a-b23ced3b0869.png",
-      "description": "La placa madre MSI PRO H810M-B utiliza el chipset INTEL H810. Procesadores compatibles: Supports Intel® Core™ Ultra procesadores (Series 2); LGA 1851. Memoria RAM: 2x DDR5 UDIMM, capacidad máxima 128GB.\n\nMB MSI PRO H810M-B DDR5 lga 1851 intel.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "MSI"
-        },
-        {
-          "label": "Número de parte",
-          "value": "PRO H810M-B"
-        },
-        {
-          "label": "Tipo",
-          "value": "Tarjetas madre"
-        },
-        {
-          "label": "Tipo de memoria",
-          "value": "DDR5"
-        },
-        {
-          "label": "Chipset",
-          "value": "INTEL H810"
-        },
-        {
-          "label": "Procesadores compatibles",
-          "value": "Supports Intel® Core™ Ultra Processors (Series 2); LGA 1851"
-        },
-        {
-          "label": "Memoria RAM compatible",
-          "value": "2x DDR5 UDIMM, Maximum Memory Capacity 128GB; Memory Support DDR5 7200 - 4800 (JEDEC) MT/s; Max. overclocking:; • 1DPC 1R Max speed up to 7200 MT/s; • 1DPC 2R Max speed up to 6400 MT/s; ; Supports Intel® POR Speed and JEDEC Speed; Supports Intel® XMP 3.0; Supports Dual-Controller Dual-Channel mode; Supports Non-ECC, Un-buffered memory; Supports CUDIMM; ; • The DIMM slots on this motherboard have double-sided latches.; • Memory compatibility and supported speeds can vary depending on the CPU and memory configuration. For detailed information, please refer to the Memory Compatibility List available on the product’s Support page or visit https://www.msi.com/support/."
-        },
-        {
-          "label": "Salidas de video integradas",
-          "value": "1x HDMI™; Support HDMI™ 2.1, maximum resolution of 4K 60Hz*; 1x DisplayPort; Support DisplayPort 1.4, maximum resolution of 4K 60Hz*; *Available only on processors featuring integrated graphics. Graphics specifications may vary depending on the CPU installed."
-        },
-        {
-          "label": "Ranuras de expansión",
-          "value": "1x PCI-E x16 slot; 2x PCI-E x1 slot; PCI_E1 Gen PCIe 5.0 supports up to x16 (From CPU) ; PCI_E2 Gen PCIe 4.0 supports up to x1 (From Chipset) ; PCI_E3 Gen PCIe 4.0 supports up to x1 (From Chipset)"
-        },
-        {
-          "label": "Audio",
-          "value": "Realtek® ALC897 Codec; 7.1-Channel High Definition Audio"
-        },
-        {
-          "label": "Almacenamiento compatible",
-          "value": "1x M.2; M.2_1 Source (From Chipset) supports up to PCIe 4.0 x4 , supports 2280/2260 devices ; 4x SATA 6G; ; *Please refer to the manual for M.2 SSD heatsink restrictions."
-        },
-        {
-          "label": "Puertos USB",
-          "value": "4x USB 2.0 (Rear); 4x USB 2.0 (Front); 2x USB 5Gbps Type A (Rear); 2x USB 5Gbps Type A (Front); 1x USB 10Gbps Type C (Front)"
-        },
-        {
-          "label": "Red Ethernet",
-          "value": "Realtek® 8125 2.5Gbps LAN"
-        },
-        {
-          "label": "Formato de placa",
-          "value": "mATX; 220mmx243.84mm"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/107662",
-        "https://www.msi.com/Motherboard/PRO-H810M-B/Specification"
-      ],
-      "collections": [],
-      "model": "PRO H810M-B",
       "sourceCategory": "Tarjeta Madre",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
@@ -27235,99 +26907,6 @@
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
     {
-      "id": "12813",
-      "reference": "108771",
-      "name": "Gabinete MSI MAG PANO 130R PZ, MID-TOWER, GLASS, COLOR NEGRO, 4 ABANICOS PRE INSTALADOS",
-      "spec": "CASE MSI MAG PANO 130R PZ, MID-TOWER, GLASS, ATX / MICRO-ATX / MINI-ITX, 2 X USB 5GBPS TYPE-A, 1 X USB 20GBPS TYPE-C, 1X AUDIO/MIC, COLOR NE",
-      "category": "Componentes",
-      "subcategory": "Gabinetes / Case",
-      "brand": "MSI",
-      "price": 6200.0,
-      "stock": true,
-      "image": "img/catalogo/1dd721ba4d22578f61f4.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/d1328358-1284-44d2-8e5f-5314950550a4.png",
-      "description": "El gabinete MSI MAG PANO 130R PZ tiene formato torre media. Admite placas madre ATX / Micro-ATX / Mini-ITX; Back-connect: ; ATX / Micro-ATX. Permite tarjetas gráficas de hasta 400 mm / 15.75 inches.\n\nCase MSI MAG PANO 130R PZ, MID-TOWER, glass, ATX / MICRO-ATX / MINI-ITX, 2 x USB 5Gbps TYPE-A, 1 x USB 20Gbps TYPE-C, 1x AUDIO/MIC, color negro, 4 abanicos pre instalados.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "MSI"
-        },
-        {
-          "label": "Número de parte",
-          "value": "MAG PANO 130R PZ"
-        },
-        {
-          "label": "Tipo",
-          "value": "Gabinetes / Case"
-        },
-        {
-          "label": "Conectividad",
-          "value": "2 × USB; 1 × USB; TYPE-C"
-        },
-        {
-          "label": "Formato indicado",
-          "value": "MID-TOWER"
-        },
-        {
-          "label": "Dimensiones",
-          "value": "460 x 235 x 490 mm / 18.11 x 9.25 x 19.29 inches"
-        },
-        {
-          "label": "Radiadores compatibles",
-          "value": "Top: 120 / 140 / 240 / 280 / 360 mm; Front: N/A; Rear: 120 mm; Side: 120 / 240 / 360 mm; Bottom: N/A"
-        },
-        {
-          "label": "Ventiladores instalados",
-          "value": "Rear: 1 x 120 mm ARGB Fan; Side: 3 x 120 mm ARGB Fan (Reverse Blade Fan)"
-        },
-        {
-          "label": "Ventiladores compatibles",
-          "value": "Top: 3 x 120 mm / 2 x 140 mm; Front: N/A; Rear: 1 x 120 mm; Side: 3 x 120 mm; Bottom: 3 x 120 mm (Above the power shroud)"
-        },
-        {
-          "label": "Longitud máxima de fuente",
-          "value": "180 mm / 7.09 inches"
-        },
-        {
-          "label": "Altura máxima de disipador",
-          "value": "165 mm / 6.50 inches"
-        },
-        {
-          "label": "Longitud máxima de tarjeta gráfica",
-          "value": "400 mm / 15.75 inches"
-        },
-        {
-          "label": "Ranuras de expansión",
-          "value": "7"
-        },
-        {
-          "label": "Bahías de almacenamiento",
-          "value": "Up to 3 x 2.5” SSD; Up to 2 x 3.5” HDD; (Maximum of 3 drives can be mounted at once, depending on configuration)"
-        },
-        {
-          "label": "Puertos frontales",
-          "value": "2 x USB 5Gbps (Type-A); 1 x USB 20Gbps (Type-C); 1 x Audio-Out / Mic-in; 1 x Reset Button; 1 x Power Button"
-        },
-        {
-          "label": "Compatibilidad con placa madre",
-          "value": "; ATX / Micro-ATX / Mini-ITX; Back-connect: ; ATX / Micro-ATX"
-        },
-        {
-          "label": "Formato del gabinete",
-          "value": "Mid-Tower"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/108771",
-        "https://www.msi.com/PC-Case/MAG-PANO-130R-PZ/Specification"
-      ],
-      "collections": [],
-      "model": "MAG PANO 130R PZ",
-      "sourceCategory": "Cases",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "27981",
       "reference": "107882",
       "name": "Pantalla interactiva Samsung 13\" TOUCH QBR-T",
@@ -29308,7 +28887,7 @@
       "id": "13310",
       "reference": "109298",
       "name": "Monitor AOC 22\" FHD 1920X 1080 120HZ.",
-      "spec": "MONITOR AOC 22\" (21.5\") 22B35HM23, FHD (1920X1080) 120HZ, PANEL VA, HDMI, VGA, AUDIO OUT, HDR, ADAPTIVE SYNC, VESA. (VER CODIGO 110990)",
+      "spec": "MONITOR AOC 22\" (21.5\") 22B35HM23, FHD (1920X1080) 120HZ, PANEL VA, HDMI, VGA, AUDIO OUT, HDR, ADAPTIVE SYNC, VESA. (REEMPLAZA EL MODELO 22B",
       "category": "Monitores",
       "subcategory": "De escritorio",
       "brand": "AOC",
@@ -29316,7 +28895,7 @@
       "stock": true,
       "image": "img/catalogo/b366387685034e9c40a3.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/6bd95130-a57b-4e9e-b39e-4a7c87495032.png",
-      "description": "Monitor AOC 22B35HM23 con pantalla de 21.45 pulgadas y resolución 1920x1080. Su tasa de refresco máxima es 120 Hz con overclock; 100 Hz nativos.\n\nMonitor AOC 22\" (21.5\") 22B35HM23, FHD (1920x1080) 120Hz, panel VA, HDMI, VGA, audio out, HDR, adaptive sync, vesa. (ver codigo 110990).",
+      "description": "Monitor AOC 22B35HM23 con pantalla de 21.45 pulgadas y resolución 1920x1080. Su tasa de refresco máxima es 120 Hz con overclock; 100 Hz nativos.\n\nMonitor AOC 22\" (21.5\") 22B35HM23, FHD (1920x1080) 120Hz, panel VA, HDMI, VGA, audio out, HDR, adaptive sync, vesa. (reemplaza el modelo 22b30hm2).",
       "specifications": [
         {
           "label": "Marca",
@@ -29399,7 +28978,7 @@
       "collections": [],
       "model": "22B35HM23",
       "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
+      "specificationsUpdated": "2026-10-16T14:42:28+00:00"
     },
     {
       "id": "12316",
@@ -29971,117 +29550,6 @@
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
     {
-      "id": "7800",
-      "reference": "94656",
-      "name": "Monitor Samsung 32\" FHD (1,920 X 1,080) S30B.",
-      "spec": "MONITOR SAMSUNG 32\" S30B FHD (1,920 X 1,080), 75HZ, FLAT, 16:9, 8MS GTG, G-SYNC, FREE SYNC, GAME MODE, FLICKER FREE PUERTOS: 1X HDMI 1.4 Y M",
-      "category": "Monitores",
-      "subcategory": "De escritorio",
-      "brand": "Samsung",
-      "price": 12700.0,
-      "stock": true,
-      "image": "img/catalogo/b63d227353973fe905b3.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/ae4e08ae-3fdf-4507-aae0-9215e9eecd47.png",
-      "description": "Monitor Samsung LS32B300NWNXGO con pantalla de 32 pulgadas y resolución FHD (1,920 x 1,080). Su tasa de refresco máxima es 75Hz.\n\nMonitor Samsung 32\" S30B FHD (1,920 x 1,080), 75Hz, flat, 16:9, 8ms gtg, G-SYNC, free sync, game mode, flicker free puertos: 1x HDMI 1.4 y micro HDMI, 2 USB service, 1x dp y dc 14v. (LS32B300NWNXGO) color negro.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Samsung"
-        },
-        {
-          "label": "Número de parte",
-          "value": "LS32B300NWNXGO"
-        },
-        {
-          "label": "Tipo",
-          "value": "De escritorio"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "32 pulgadas"
-        },
-        {
-          "label": "Resolución",
-          "value": "FHD (1,920 x 1,080)"
-        },
-        {
-          "label": "Diseño",
-          "value": "Plano"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "Hasta 75Hz"
-        },
-        {
-          "label": "Tiempo de respuesta",
-          "value": "8 ms"
-        },
-        {
-          "label": "Conectividad",
-          "value": "1 × HDMI 1.4; HDMI; 2 × USB"
-        },
-        {
-          "label": "Tipo de panel",
-          "value": "VA"
-        },
-        {
-          "label": "Tiempo de respuesta (GtG)",
-          "value": "8 ms (GtG)"
-        },
-        {
-          "label": "Relación de aspecto",
-          "value": "16:9"
-        },
-        {
-          "label": "Brillo típico",
-          "value": "250 cd/m²"
-        },
-        {
-          "label": "Contraste",
-          "value": "4,000:1(Typ.)"
-        },
-        {
-          "label": "Sincronización AMD",
-          "value": "Sí"
-        },
-        {
-          "label": "Montaje VESA",
-          "value": "100 x 100 mm"
-        },
-        {
-          "label": "USB-C",
-          "value": "No"
-        },
-        {
-          "label": "Carga USB-C",
-          "value": "No"
-        },
-        {
-          "label": "Altavoces",
-          "value": "No"
-        },
-        {
-          "label": "HDMI",
-          "value": "1 × HDMI 1.4"
-        },
-        {
-          "label": "DisplayPort",
-          "value": "1 × DisplayPort 1.2"
-        }
-      ],
-      "features": [
-        "Monitor Samsung 32\" S30B FHD (1,920 x 1,080), 75Hz, flat, 16:9, 8ms gtg, G-SYNC, free sync, game mode, flicker free puertos: 1x HDMI 1.4 y micro HDMI, 2 USB service, 1x dp y dc 14v. (LS32B300NWNXGO) color negro."
-      ],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/94656",
-        "https://www.samsung.com/latin_en/monitors/flat/s3-32-inch-ls32b300nwnxgo/"
-      ],
-      "collections": [],
-      "model": "LS32B300NWNXGO",
-      "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "12996",
       "reference": "109069",
       "name": "Monitor Samsung 27\" S3 ESSENTIAL PLANO S32GF",
@@ -30146,74 +29614,6 @@
       ],
       "collections": [],
       "model": "LS27F320GANXZA",
-      "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
-    },
-    {
-      "id": "13012",
-      "reference": "109068",
-      "name": "Monitor Samsung 24\" S3 ESSENTIAL PLANO S32GF",
-      "spec": "MONITOR SAMSUNG 24\" ESSENTIAL S3 PLANO S32GF FULL HD (1920 X 1080), IPS, 250 CD/M², 120HZ, 4MS 5GTG, 2 HDMI EA, MONTAJE VESA. CABLE HDMI 1.5",
-      "category": "Monitores",
-      "subcategory": "De escritorio",
-      "brand": "Samsung",
-      "price": 7400.0,
-      "stock": true,
-      "image": "img/catalogo/28b1d861ddde36ee0989.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/03681dd4-c8fc-46a2-bd18-dc59ebed532f.png",
-      "description": "Monitor Samsung 24\" essential S3 plano S32GF full hd (1920 x 1080), IPS, 250 cd/m², 120Hz, 4ms 5gtg, 2 HDMI ea, montaje vesa. Cable HDMI 1.5 m (LS24F320GANXZA).",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Samsung"
-        },
-        {
-          "label": "Número de parte",
-          "value": "LS24F320GANXZA"
-        },
-        {
-          "label": "Tipo",
-          "value": "De escritorio"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "24\""
-        },
-        {
-          "label": "Resolución",
-          "value": "1920 × 1080"
-        },
-        {
-          "label": "Panel",
-          "value": "IPS"
-        },
-        {
-          "label": "Diseño",
-          "value": "Plano"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "120 Hz"
-        },
-        {
-          "label": "Tiempo de respuesta",
-          "value": "4 ms"
-        },
-        {
-          "label": "Brillo",
-          "value": "250 cd/m²"
-        },
-        {
-          "label": "Conectividad",
-          "value": "2 × HDMI; HDMI 1.5"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/109068"
-      ],
-      "collections": [],
-      "model": "LS24F320GANXZA",
       "sourceCategory": "Monitor",
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
@@ -31798,64 +31198,6 @@
       "collections": [],
       "model": "PRO B760M-E",
       "sourceCategory": "Tarjeta Madre",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
-    },
-    {
-      "id": "900000105816",
-      "reference": "105816",
-      "name": "Monitor AOC PORSCHE 49” GAMING CURVO 1800R QD-OLED 240HZ (PD49)",
-      "spec": "MONITOR AOC PORSCHE 49” GAMING CURVO 1800R QD-OLED 240HZ (PD49),0.03 MS, FREESYNC PREMIUM PRO, HDR (ALTO RANGO DINÁMICO) VESA CERTIFIED DISP",
-      "category": "Monitores",
-      "subcategory": "Curvos",
-      "brand": "AOC",
-      "price": 83800.0,
-      "stock": true,
-      "image": "img/catalogo/e8912045f71dc5fa492e.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/7f180e9d-9007-46a9-a291-3c07fbc8e926.png",
-      "description": "Monitor AOC porsche 49” gaming curvo 1800R QD-OLED 240Hz (PD49),0.03 ms, freesync premium pro, HDR (alto rango dinámico) vesa certified displayhdr™ true black 400, potencia del altavoz 8W x 2 + dts, sin marco en 3 lados (PD49).",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "AOC"
-        },
-        {
-          "label": "Número de parte",
-          "value": "PD49"
-        },
-        {
-          "label": "Tipo",
-          "value": "Curvos"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "49\""
-        },
-        {
-          "label": "Panel",
-          "value": "QD-OLED"
-        },
-        {
-          "label": "Diseño",
-          "value": "Curvo 1800r"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "240 Hz"
-        },
-        {
-          "label": "Tiempo de respuesta",
-          "value": "0.03 ms"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/105816"
-      ],
-      "collections": [
-        "Zona Gamer"
-      ],
-      "model": "PD49***",
-      "sourceCategory": "Monitor",
       "specificationsUpdated": "2026-10-12T15:19:59+00:00"
     },
     {
@@ -34247,7 +33589,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "Logitech",
-      "price": 2200.0,
+      "price": 1900.0,
       "stock": true,
       "image": "img/catalogo/911f3d6021e79f46a038.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/4b34483f-add6-4932-b0d8-587ac6e63f81.png",
@@ -36194,52 +35536,6 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     },
     {
-      "id": "900000107604",
-      "reference": "107604",
-      "name": "Micrófono INALÁMBRICO Primus – JUEGO DE SOLAPA CON ESTUCHE DE CARGA, COMPATIBLE CON ANDROID E IOS, USB-C, 2.4GHZ, HASTA 16H DE USO",
-      "spec": "JUEGO DE MICROFONOS PRIMUS INALAMBRICOS CON CONEXION DE 2.4GHZ, IDEAL PARA SMARTPHONES, TABLETAS Y LAPTOPS CON USB-C. OFRECE UN ALCANCE DE H",
-      "category": "Audio y Video",
-      "subcategory": "Accesorios de audio",
-      "brand": "Primus",
-      "price": 1700.0,
-      "stock": true,
-      "image": "img/catalogo/02f0e3057b4826fe80db.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/afcc926b-180e-4fbb-9be7-26d015aa9ebe.png",
-      "description": "Juego de microfonos Primus inalambricos con conexion de 2.4GHz, ideal para smartphones, tabletas y laptops con USB-C. Ofrece un alcance de hasta 20 metros y una transmisión con retardo mínimo de 30 ms. Cada micrófono cuenta con una batería de 60mAh para hasta 4 horas de uso, mientras que el estuche de carga de 600mAh permite 4 ciclos adicionales, alcanzando hasta 16 horas de funcionamiento total. Tiempo de carga: 1.5 h para los micrófonos y 2.5 h para el estuche. Incluye cable USB-C, compatible con android e ios. Micrófono digital de silicona con sensibilidad de -42db, rango de frecuencia de 20Hz–20khz y relación señal/ruido de 64dbm. Diseño compacto en material abs.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Primus"
-        },
-        {
-          "label": "Número de parte",
-          "value": "PMI-L10BT"
-        },
-        {
-          "label": "Tipo",
-          "value": "Accesorios de audio"
-        },
-        {
-          "label": "Conectividad",
-          "value": "USB-C"
-        },
-        {
-          "label": "Capacidad de batería",
-          "value": "60 mAh"
-        }
-      ],
-      "features": [
-        "Incluye cable USB-C, compatible con android e ios."
-      ],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/107604"
-      ],
-      "collections": [],
-      "model": "PMI-L10BT",
-      "sourceCategory": "Audifono Con Microfono",
-      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
-    },
-    {
       "id": "900000107661",
       "reference": "107661",
       "name": "Audífonos JBL INALAMBRICOS VIBE BEAM 2, AZUL",
@@ -37675,5 +36971,5 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     }
   ],
-  "updated": "2026-10-15T15:23:03+00:00"
+  "updated": "2026-10-16T14:42:28+00:00"
 }
