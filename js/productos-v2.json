@@ -1,6 +1,6 @@
 {
   "source": "Omega Tech — catálogo público",
-  "count": 537,
+  "count": 535,
   "products": [
     {
       "id": "19182",
@@ -4962,107 +4962,6 @@
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
-      "id": "20790",
-      "reference": "78303",
-      "name": "Teclado MOUSE Logitech MK345 USB WIRELESS RECEIVER 2.4GHZ WIRELESS",
-      "spec": "TECLADO MOUSE LOGITECH MK345 USB WIRELESS RECEIVER 2.4GHZ WIRELESS, ESPAÑOL, 10M RANGE, 128BIT AES ENCRYPTION, 15 MONTH KEYBOARD BATTERY LIF",
-      "category": "Periféricos",
-      "subcategory": "Combos de teclado y mouse",
-      "brand": "Logitech",
-      "price": 3100.0,
-      "stock": true,
-      "image": "img/catalogo/205221f243db81d37a7d.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/97f2b8cd-16ec-46d1-9d8f-0c964ddfe606.png",
-      "description": "Teclado Logitech con número de parte 920-007820. Tecnología del sensor: Seguimiento óptico uniforme. Número de botones: 3 (click izquierdo/derecho, click de botón central).\n\nTeclado mouse Logitech MK345 USB wireless receiver 2.4GHz wireless, español, 10m range, 128BIT aes encryption, 15 month keyboard battery life, 5 month mouse battery life, MULTIMEDIA/INSTANT access keys (920-007820).",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Logitech"
-        },
-        {
-          "label": "Número de parte",
-          "value": "920-007820"
-        },
-        {
-          "label": "Tipo",
-          "value": "Combos de teclado y mouse"
-        },
-        {
-          "label": "Conectividad",
-          "value": "45 × USB"
-        },
-        {
-          "label": "Teclado",
-          "value": "Diseño resistente a salpicaduras"
-        },
-        {
-          "label": "Teclas especiales",
-          "value": "Controles de música"
-        },
-        {
-          "label": "Tipo de teclas",
-          "value": "Teclas cóncavas"
-        },
-        {
-          "label": "Duración de baterías",
-          "value": "36 meses"
-        },
-        {
-          "label": "Tecnología del sensor",
-          "value": "Seguimiento óptico uniforme"
-        },
-        {
-          "label": "Número de botones",
-          "value": "3 (click izquierdo/derecho, click de botón central)"
-        },
-        {
-          "label": "Desplazamiento",
-          "value": "línea a línea"
-        },
-        {
-          "label": "Rueda de desplazamiento",
-          "value": "Sí, 2D, mecánico"
-        },
-        {
-          "label": "Conexión/alimentación",
-          "value": "Botón de encendido/apagado"
-        },
-        {
-          "label": "Mouse",
-          "value": "1 pila AA"
-        },
-        {
-          "label": "Radio de acción inalámbrico",
-          "value": "10 metros"
-        },
-        {
-          "label": "Altura",
-          "value": "186.7 mm"
-        },
-        {
-          "label": "Anchura",
-          "value": "447.2 mm"
-        },
-        {
-          "label": "Profundidad",
-          "value": "21.4 mm"
-        },
-        {
-          "label": "Peso",
-          "value": "603 g"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/78303",
-        "https://www.logitech.com/es-mx/shop/p/mk345-keyboard-mouse-wireless.920-007820"
-      ],
-      "collections": [],
-      "model": "920-007820",
-      "sourceCategory": "Teclados",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
       "id": "17124",
       "reference": "89412",
       "name": "Teclado Xtech USB ESTANDAR NEGRO, ESPAÑOL (XTK-092S)",
@@ -5366,55 +5265,6 @@
       "collections": [],
       "model": "KWC-750",
       "sourceCategory": "Camara Web",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
-      "id": "15872",
-      "reference": "75209",
-      "name": "Mouse pad Argom EMERALD VERDE.",
-      "spec": "MOUSE PAD ARGOM EMERALD VERDE.",
-      "category": "Periféricos",
-      "subcategory": "Mouse pads",
-      "brand": "Argom",
-      "price": 100.0,
-      "stock": true,
-      "image": "img/catalogo/baa0981427025a2444d1.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/75209.png",
-      "description": "Mouse pad Argom con superficie de tela sintética y base de goma antideslizante. Su tamaño compacto permite colocarlo en el escritorio para tareas de uso diario.\n\nMouse pad Argom emerald verde.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Argom"
-        },
-        {
-          "label": "Número de parte",
-          "value": "ARG-AC-1233G"
-        },
-        {
-          "label": "Tipo",
-          "value": "Mouse pads"
-        },
-        {
-          "label": "Superficie",
-          "value": "Tela sintética"
-        },
-        {
-          "label": "Base",
-          "value": "Goma antideslizante"
-        },
-        {
-          "label": "Dimensiones",
-          "value": "8.5 × 7 pulgadas"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/75209",
-        "https://www.argomtech.com/products/mouse-pad-emerald-arg-ac-1233"
-      ],
-      "collections": [],
-      "model": "ARG-AC-1233G",
-      "sourceCategory": "Mouse",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
@@ -29613,9 +29463,9 @@
         "https://tienda.omega.com.do/es/product/consul/109069"
       ],
       "collections": [],
-      "model": "LS27F320GANXZA",
+      "model": "LS27F320GANXZA*",
       "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
+      "specificationsUpdated": "2026-10-17T14:34:35+00:00"
     },
     {
       "id": "11273",
@@ -30029,6 +29879,66 @@
       "model": "MAG A750GLS PCIE5",
       "sourceCategory": "Power Supply",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
+    },
+    {
+      "id": "13521",
+      "reference": "110067",
+      "name": "Monitor MSI PRO MP273W E14A, 27\", 144 HZ, IPS FLAT, HD",
+      "spec": "MONITOR MSI, 27\", PRO MP273W E14A, 1920 X 1080, FHD, 144 HZ, FLAT, IPS, TECNOLOGIA EYESERGO. AMD FREESYNC 1X HDMI, 1X DISPLAYPORT 1.2A, 1X D",
+      "category": "Monitores",
+      "subcategory": "De escritorio",
+      "brand": "MSI",
+      "price": 8800.0,
+      "stock": true,
+      "image": "img/catalogo/51f5b6da2b61a02e6d5e.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/2770c208-a4d0-4e97-b428-5f203eb06511.png",
+      "description": "Monitor MSI, 27\", PRO MP273W E14A, 1920 x 1080, FHD, 144 Hz, flat, IPS, tecnologia eyesergo. AMD freesync 1x HDMI, 1x DisplayPort 1.2a, 1x dc jack, 1x VGA, color blanco.",
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "MSI"
+        },
+        {
+          "label": "Número de parte",
+          "value": "PRO MP273W E14A"
+        },
+        {
+          "label": "Tipo",
+          "value": "De escritorio"
+        },
+        {
+          "label": "Tamaño de pantalla",
+          "value": "27\""
+        },
+        {
+          "label": "Resolución",
+          "value": "1920 × 1080"
+        },
+        {
+          "label": "Panel",
+          "value": "IPS"
+        },
+        {
+          "label": "Diseño",
+          "value": "Plano"
+        },
+        {
+          "label": "Tasa de refresco",
+          "value": "144 Hz"
+        },
+        {
+          "label": "Conectividad",
+          "value": "1 × HDMI; 1 × DisplayPort 1.2A; 1 × VGA"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://tienda.omega.com.do/es/product/consul/110067"
+      ],
+      "collections": [],
+      "model": "PRO MP273W E14A",
+      "sourceCategory": "Monitor",
+      "specificationsUpdated": "2026-10-17T14:34:35+00:00"
     },
     {
       "id": "20490",
@@ -35446,46 +35356,6 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     },
     {
-      "id": "900000107303",
-      "reference": "107303",
-      "name": "Audífonos JBL TUNE 720 BT BLANCO",
-      "spec": "AUDIFONO JBL TUNE 720, BLUETOOTH 5.3, CONEXION MULTIPUNTO, CARGA RAPIDA, LLAMADAS CON MANOS LIBRES, PLEGABLE, HASTA 76 HORAS DE PURO PLACER ",
-      "category": "Audio y Video",
-      "subcategory": "Audífonos",
-      "brand": "JBL",
-      "price": 4000.0,
-      "stock": true,
-      "image": "img/catalogo/44e698ff5e19bbd74ab5.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/8d35994d-c65b-4bcb-b9a4-96088f3cb804.png",
-      "description": "Audifono JBL tune 720, Bluetooth 5.3, conexion multipunto, carga rapida, llamadas con manos libres, plegable, hasta 76 horas de puro placer auditivo y 3 horas adicionales de batería, color blanco.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "JBL"
-        },
-        {
-          "label": "Número de parte",
-          "value": "JBLT720BTWHTAM"
-        },
-        {
-          "label": "Tipo",
-          "value": "Audífonos"
-        },
-        {
-          "label": "Bluetooth",
-          "value": "5.3"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/107303"
-      ],
-      "collections": [],
-      "model": "JBLT720BTWHTAM***",
-      "sourceCategory": "Audifono Con Microfono",
-      "specificationsUpdated": "2026-10-12T17:08:02+00:00"
-    },
-    {
       "id": "900000107599",
       "reference": "107599",
       "name": "Control de juego Primus PMC-01BT VICTOR01BT – INALÁMBRICO BLUETOOTH, COMPATIBLE CON PS4/NINTENDO SWITCH/PC/ANDROID/IOS, BATERÍA 600MAH, RETROILUMINACIÓN RGB, EFECTO HALL 3D",
@@ -36971,5 +36841,5 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     }
   ],
-  "updated": "2026-10-16T14:42:28+00:00"
+  "updated": "2026-10-17T14:34:35+00:00"
 }
