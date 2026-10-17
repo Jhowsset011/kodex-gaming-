@@ -1,9 +1,13 @@
 """Keep reviewed supplier/model contradictions pending until Omega corrects them."""
 
 import json
+import logging
 from pathlib import Path
 import re
 
+from product_details import _identity
+
+LOGGER = logging.getLogger(__name__)
 
 def apply_reviewed_conflicts(catalog, path):
     path = Path(path)
@@ -27,8 +31,13 @@ def apply_reviewed_conflicts(catalog, path):
             raise ValueError('El modelo pendiente cambió de identidad')
         if product.get('sourceContentConflict'):
             continue
-        if product.get('model') != entry['model']:
-            raise ValueError('El número de parte pendiente cambió; requiere revisión')
+        if _identity(product.get('model', ''), part=True) != _identity(entry['model'], part=True):
+            # The stable supplier reference still matches. Keep only this item
+            # pending rather than blocking fresh prices for the entire store.
+            LOGGER.warning('Referencia %s: número de parte pendiente cambió de %s a %s; producto no disponible hasta revisión.',
+                           entry['reference'], entry['model'], product.get('model', '(vacío)'))
+            pending.append(product)
+            continue
         text = product['name'] + ' ' + product.get('description', '')
         if re.search(r'(?<!\w)' + re.escape(entry['supplierModel']) + r'(?!\w)', text, re.I):
             pending.append(product)

@@ -91,9 +91,8 @@ jobs:
           path: _site
 
   deploy:
-    # Human pushes use the existing main/root Pages deployment. Scheduled and
-    # manual executions publish their own complete artifact, including CNAME.
-    if: github.event_name != 'push'
+    # Always publish the artifact AFTER synchronization. A catalog commit made
+    # with GITHUB_TOKEN does not trigger the main/root Pages build by itself.
     needs: sync
     runs-on: ubuntu-latest
     timeout-minutes: 10

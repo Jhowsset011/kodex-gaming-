@@ -43,8 +43,8 @@ class ReviewedConflictTests(unittest.TestCase):
         self.assertTrue(self.product['stock'])
         self.assertNotIn('sourceContentConflict', self.product)
 
-    def test_changed_part_or_brand_requires_review_instead_of_attaching_old_conflict(self):
-        for field in ['reference', 'brand', 'model']:
+    def test_changed_reference_or_brand_still_requires_identity_review(self):
+        for field in ['reference', 'brand']:
             with self.subTest(field=field):
                 original = self.product[field]
                 self.product[field] = 'Otro'
@@ -52,6 +52,28 @@ class ReviewedConflictTests(unittest.TestCase):
                     apply_reviewed_conflicts(self.catalog, self.path)
                 self.assertTrue(self.product['stock'])
                 self.product[field] = original
+
+    def test_changed_part_quarantines_only_affected_product(self):
+        self.product.update(model='DISPLAY-X-OTHER', name='Monitor NewModel', description='NewModel')
+        other = dict(self.product, id='2', reference='900002', price=2600)
+        self.catalog['products'].append(other)
+        with self.assertLogs('product_conflicts', level='WARNING') as logs:
+            self.assertIs(apply_reviewed_conflicts(self.catalog, self.path), self.catalog)
+        self.assertIn('900001', logs.output[0])
+        self.assertFalse(self.product['stock'])
+        self.assertTrue(self.product['sourceContentConflict'])
+        self.assertEqual(self.product['price'], 1900)
+        self.assertNotIn('model', self.product)
+        self.assertEqual(self.product['specifications'], [])
+        self.assertTrue(other['stock'])
+        self.assertEqual(other['price'], 2600)
+        self.assertEqual(other['model'], 'DISPLAY-X-OTHER')
+
+    def test_supplier_annotations_allow_corrected_model_to_return(self):
+        self.product.update(model='display-x CANAL***', name='Monitor NewModel', description='NewModel')
+        apply_reviewed_conflicts(self.catalog, self.path)
+        self.assertTrue(self.product['stock'])
+        self.assertNotIn('sourceContentConflict', self.product)
 
 
 if __name__ == '__main__':
