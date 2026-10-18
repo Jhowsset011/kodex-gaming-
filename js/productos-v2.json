@@ -1,6 +1,6 @@
 {
   "source": "Omega Tech — catálogo público",
-  "count": 535,
+  "count": 534,
   "products": [
     {
       "id": "19182",
@@ -10406,7 +10406,7 @@
       "id": "21347",
       "reference": "108491",
       "name": "Monitor Agiler TOUCH SCREEN 15.6\" AGI-TMP1550",
-      "spec": "MONITOR AGILER TOUCH SCREEN 15.6\" PULGADAS. DISEÑO CON BASE DE PLÁSTICO. INTERFAZ VGA Y USB PARA FUNCIÓN TÁCTIL - COMPATIBLE CON MONTAJE VES",
+      "spec": "MONITOR AGILER TOUCH SCREEN 15.6\" PULGADAS. DISEÑO CON BASE DE PLÁSTICO. INTERFAZ VGA,HDMI Y USB PARA FUNCIÓN TÁCTIL - COMPATIBLE CON MONTAJ",
       "category": "Monitores",
       "subcategory": "Táctiles",
       "brand": "Agiler",
@@ -10414,7 +10414,7 @@
       "stock": true,
       "image": "img/catalogo/cfcba303be4d69aac1a9.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/3a239a20-b342-4e43-b614-37053278029c.png",
-      "description": "Monitor Agiler touch screen 15.6\" pulgadas. Diseño con base de plástico. Interfaz VGA y USB para función táctil - compatible con montaje vesa 75x75mm - incluye adaptador de corriente, cable USB y cable HDMI. AGI-TMP1550.",
+      "description": "Monitor Agiler touch screen 15.6\" pulgadas. Diseño con base de plástico. Interfaz VGA,HDMI y USB para función táctil - compatible con montaje vesa 75x75mm - incluye adaptador de corriente, cable USB y cable VGA. AGI-TMP1550.",
       "specifications": [
         {
           "label": "Marca",
@@ -10434,11 +10434,11 @@
         },
         {
           "label": "Conectividad",
-          "value": "VGA; USB; HDMI"
+          "value": "VGA; HDMI; USB"
         }
       ],
       "features": [
-        "Incluye adaptador de corriente, cable USB y cable HDMI."
+        "Incluye adaptador de corriente, cable USB y cable VGA."
       ],
       "specificationSources": [
         "https://tienda.omega.com.do/es/product/consul/108491"
@@ -10446,7 +10446,7 @@
       "collections": [],
       "model": "AGI-TMP1550",
       "sourceCategory": "Punto De Venta",
-      "specificationsUpdated": "2026-10-10T22:55:08+00:00"
+      "specificationsUpdated": "2026-10-18T13:54:18+00:00"
     },
     {
       "id": "18362",
@@ -29881,66 +29881,6 @@
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
-      "id": "13521",
-      "reference": "110067",
-      "name": "Monitor MSI PRO MP273W E14A, 27\", 144 HZ, IPS FLAT, HD",
-      "spec": "MONITOR MSI, 27\", PRO MP273W E14A, 1920 X 1080, FHD, 144 HZ, FLAT, IPS, TECNOLOGIA EYESERGO. AMD FREESYNC 1X HDMI, 1X DISPLAYPORT 1.2A, 1X D",
-      "category": "Monitores",
-      "subcategory": "De escritorio",
-      "brand": "MSI",
-      "price": 8800.0,
-      "stock": true,
-      "image": "img/catalogo/51f5b6da2b61a02e6d5e.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/2770c208-a4d0-4e97-b428-5f203eb06511.png",
-      "description": "Monitor MSI, 27\", PRO MP273W E14A, 1920 x 1080, FHD, 144 Hz, flat, IPS, tecnologia eyesergo. AMD freesync 1x HDMI, 1x DisplayPort 1.2a, 1x dc jack, 1x VGA, color blanco.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "MSI"
-        },
-        {
-          "label": "Número de parte",
-          "value": "PRO MP273W E14A"
-        },
-        {
-          "label": "Tipo",
-          "value": "De escritorio"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "27\""
-        },
-        {
-          "label": "Resolución",
-          "value": "1920 × 1080"
-        },
-        {
-          "label": "Panel",
-          "value": "IPS"
-        },
-        {
-          "label": "Diseño",
-          "value": "Plano"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "144 Hz"
-        },
-        {
-          "label": "Conectividad",
-          "value": "1 × HDMI; 1 × DisplayPort 1.2A; 1 × VGA"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/110067"
-      ],
-      "collections": [],
-      "model": "PRO MP273W E14A",
-      "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-17T14:34:35+00:00"
-    },
-    {
       "id": "20490",
       "reference": "109653",
       "name": "Monitor MSI PRO MP275PG",
@@ -36841,5 +36781,5 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     }
   ],
-  "updated": "2026-10-17T14:34:35+00:00"
+  "updated": "2026-10-18T13:54:18+00:00"
 }
