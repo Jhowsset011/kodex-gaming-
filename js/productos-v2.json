@@ -22148,7 +22148,7 @@
       "category": "Periféricos",
       "subcategory": "Cámaras web",
       "brand": "Logitech",
-      "price": 3300.0,
+      "price": 3000.0,
       "stock": true,
       "image": "img/catalogo/6ae691b4b0def18362d7.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/0b666625-4f08-4ec9-95b8-e2c5b0f17fb1.png",
@@ -33235,15 +33235,15 @@
       "id": "900000111767",
       "reference": "111767",
       "name": "Celular GALAXY A16 4GB+128GB LTE BLACK",
-      "spec": "CELULAR SAMSUNG GALAXY A16 4GB+128GB LTE BLACK",
+      "spec": "CELULAR SAMSUNG GALAXY A16 4GB+128GB LTE DUAL SIM BLACK.",
       "category": "Celulares y tablets",
       "subcategory": "Celulares",
       "brand": "Samsung",
-      "price": 10000.0,
+      "price": 11400.0,
       "stock": true,
       "image": "img/catalogo/b44058954374ae4528a0.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/c6aa2935-3ff4-4355-a938-2a110b59cfd7.png",
-      "description": "Celular Samsung galaxy A16 4GB+128GB lte black.",
+      "description": "Celular Samsung galaxy A16 4GB+128GB lte dual sim black.",
       "specifications": [
         {
           "label": "Marca",
@@ -33265,7 +33265,7 @@
       "collections": [],
       "model": "SM-A165M/DS-BK",
       "sourceCategory": "Celulares Y Accesorios",
-      "specificationsUpdated": "2026-10-15T15:23:03+00:00"
+      "specificationsUpdated": "2026-10-19T16:56:32+00:00"
     },
     {
       "id": "900000111768",
@@ -36781,5 +36781,5 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     }
   ],
-  "updated": "2026-10-18T13:54:18+00:00"
+  "updated": "2026-10-19T16:56:32+00:00"
 }
