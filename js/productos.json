@@ -1,6 +1,6 @@
 {
   "source": "Omega Tech — catálogo público",
-  "count": 534,
+  "count": 532,
   "products": [
     {
       "id": "19182",
@@ -5972,57 +5972,6 @@
       "collections": [],
       "model": "CC-9011313-WW",
       "sourceCategory": "Cases",
-      "specificationsUpdated": "2026-10-11T02:11:07+00:00"
-    },
-    {
-      "id": "16427",
-      "reference": "81258",
-      "name": "Mouse pad Argom GAMING COMBAT, NEGRO.",
-      "spec": "MOUSE PAD ARGOM, GAMING COMBAT, NEGRO.",
-      "category": "Periféricos",
-      "subcategory": "Mouse pads",
-      "brand": "Argom",
-      "price": 200.0,
-      "stock": true,
-      "image": "img/catalogo/7f2402a2e29ff88ab39e.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/5c6cc915-9a2b-400f-a8dc-1affc36e3707.png",
-      "description": "Mouse pad Argom Combat con superficie de tela sintética y base de goma antideslizante. Ofrece una superficie amplia para los movimientos del mouse durante el juego.\n\nMouse pad Argom, gaming combat, negro.",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "Argom"
-        },
-        {
-          "label": "Número de parte",
-          "value": "ARG-AC-1225BK"
-        },
-        {
-          "label": "Tipo",
-          "value": "Mouse pads"
-        },
-        {
-          "label": "Superficie",
-          "value": "Tela sintética"
-        },
-        {
-          "label": "Base",
-          "value": "Goma antideslizante"
-        },
-        {
-          "label": "Dimensiones",
-          "value": "12.6 × 10.6 pulgadas"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/81258",
-        "https://www.argomtech.com/products/combat-mouse-pad"
-      ],
-      "collections": [
-        "Zona Gamer"
-      ],
-      "model": "ARG-AC-1225BK",
-      "sourceCategory": "Mouse",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00"
     },
     {
@@ -29400,18 +29349,18 @@
       "specificationsUpdated": "2026-10-10T22:55:08+00:00"
     },
     {
-      "id": "12996",
-      "reference": "109069",
-      "name": "Monitor Samsung 27\" S3 ESSENTIAL PLANO S32GF",
-      "spec": "MONITOR SAMSUNG 27\" S3 ESSENTIAL PLANO S32GF FHD (1920 X 1080), IPS, 16.7M, 250 CD/M², 120HZ, 4MS, 5GTG, 1800R, 2 HDMI, MONTAJE VESA. EYE SA",
+      "id": "7800",
+      "reference": "94656",
+      "name": "Monitor Samsung 32\" FHD (1,920 X 1,080) S30B.",
+      "spec": "MONITOR SAMSUNG 32\" S30B FHD (1,920 X 1,080), 75HZ, FLAT, 16:9, 8MS GTG, G-SYNC, FREE SYNC, GAME MODE, FLICKER FREE PUERTOS: 1X HDMI 1.4 Y M",
       "category": "Monitores",
       "subcategory": "De escritorio",
       "brand": "Samsung",
-      "price": 7700.0,
+      "price": 12700.0,
       "stock": true,
-      "image": "img/catalogo/28b1d861ddde36ee0989.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/c690681b-2309-414d-b586-3f3d1e77c037.png",
-      "description": "Monitor Samsung 27\" S3 essential plano S32GF FHD (1920 x 1080), IPS, 16.7m, 250 cd/m², 120Hz, 4ms, 5gtg, 1800R, 2 HDMI, montaje vesa. Eye saver mode.(LS27F320GANXZA).",
+      "image": "img/catalogo/b63d227353973fe905b3.png",
+      "sourceImage": "https://sis.omega.com.do/ProductImages/ae4e08ae-3fdf-4507-aae0-9215e9eecd47.png",
+      "description": "Monitor Samsung LS32B300NWNXGO con pantalla de 32 pulgadas y resolución FHD (1,920 x 1,080). Su tasa de refresco máxima es 75Hz.\n\nMonitor Samsung 32\" S30B FHD (1,920 x 1,080), 75Hz, flat, 16:9, 8ms gtg, G-SYNC, free sync, game mode, flicker free puertos: 1x HDMI 1.4 y micro HDMI, 2 USB service, 1x dp y dc 14v. (LS32B300NWNXGO) color negro.",
       "specifications": [
         {
           "label": "Marca",
@@ -29419,7 +29368,7 @@
         },
         {
           "label": "Número de parte",
-          "value": "LS27F320GANXZA"
+          "value": "LS32B300NWNXGO"
         },
         {
           "label": "Tipo",
@@ -29427,15 +29376,11 @@
         },
         {
           "label": "Tamaño de pantalla",
-          "value": "27\""
+          "value": "32 pulgadas"
         },
         {
           "label": "Resolución",
-          "value": "1920 × 1080"
-        },
-        {
-          "label": "Panel",
-          "value": "IPS"
+          "value": "FHD (1,920 x 1,080)"
         },
         {
           "label": "Diseño",
@@ -29443,29 +29388,76 @@
         },
         {
           "label": "Tasa de refresco",
-          "value": "120 Hz"
+          "value": "Hasta 75Hz"
         },
         {
           "label": "Tiempo de respuesta",
-          "value": "4 ms"
-        },
-        {
-          "label": "Brillo",
-          "value": "250 cd/m²"
+          "value": "8 ms"
         },
         {
           "label": "Conectividad",
-          "value": "2 × HDMI"
+          "value": "1 × HDMI 1.4; HDMI; 2 × USB"
+        },
+        {
+          "label": "Tipo de panel",
+          "value": "VA"
+        },
+        {
+          "label": "Tiempo de respuesta (GtG)",
+          "value": "8 ms (GtG)"
+        },
+        {
+          "label": "Relación de aspecto",
+          "value": "16:9"
+        },
+        {
+          "label": "Brillo típico",
+          "value": "250 cd/m²"
+        },
+        {
+          "label": "Contraste",
+          "value": "4,000:1(Typ.)"
+        },
+        {
+          "label": "Sincronización AMD",
+          "value": "Sí"
+        },
+        {
+          "label": "Montaje VESA",
+          "value": "100 x 100 mm"
+        },
+        {
+          "label": "USB-C",
+          "value": "No"
+        },
+        {
+          "label": "Carga USB-C",
+          "value": "No"
+        },
+        {
+          "label": "Altavoces",
+          "value": "No"
+        },
+        {
+          "label": "HDMI",
+          "value": "1 × HDMI 1.4"
+        },
+        {
+          "label": "DisplayPort",
+          "value": "1 × DisplayPort 1.2"
         }
       ],
-      "features": [],
+      "features": [
+        "Monitor Samsung 32\" S30B FHD (1,920 x 1,080), 75Hz, flat, 16:9, 8ms gtg, G-SYNC, free sync, game mode, flicker free puertos: 1x HDMI 1.4 y micro HDMI, 2 USB service, 1x dp y dc 14v. (LS32B300NWNXGO) color negro."
+      ],
       "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/109069"
+        "https://tienda.omega.com.do/es/product/consul/94656",
+        "https://www.samsung.com/latin_en/monitors/flat/s3-32-inch-ls32b300nwnxgo/"
       ],
       "collections": [],
-      "model": "LS27F320GANXZA*",
+      "model": "LS32B300NWNXGO",
       "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-17T14:34:35+00:00"
+      "specificationsUpdated": "2026-10-20T14:51:22+00:00"
     },
     {
       "id": "11273",
@@ -32583,60 +32575,6 @@
       "collections": [],
       "model": "SM-X133NZSEGTO",
       "sourceCategory": "Tablet Y Accesorios",
-      "specificationsUpdated": "2026-10-12T15:19:59+00:00"
-    },
-    {
-      "id": "900000109613",
-      "reference": "109613",
-      "name": "Monitor AOC 27\" GAMING 27G50Z LCD , 1920X1080 FULL HD, G-SYNC/FREESYNC, 260HZ, HDMI/DISPLAYPORT, NEGRO(HIGH DYNAMIC RANGE) (27G50Z)",
-      "spec": "MONITOR AOC 27\" 27G50Z GAMING FHD (1920X1080) 260HZ, G-SYNC/FREESYNC, HDMI/DISPLAYPORT, NEGRO(HIGH DYNAMIC RANGE)",
-      "category": "Monitores",
-      "subcategory": "De escritorio",
-      "brand": "AOC",
-      "price": 10300.0,
-      "stock": true,
-      "image": "img/catalogo/b3858a617d9f0fbee4b7.png",
-      "sourceImage": "https://sis.omega.com.do/ProductImages/bd654487-38bc-448f-a8f5-4abd4ea32bf8.png",
-      "description": "Monitor AOC 27\" 27G50Z gaming FHD (1920x1080) 260Hz, G-SYNC/FREESYNC, HDMI/DisplayPort, negro(high dynamic range).",
-      "specifications": [
-        {
-          "label": "Marca",
-          "value": "AOC"
-        },
-        {
-          "label": "Número de parte",
-          "value": "27G50Z"
-        },
-        {
-          "label": "Tipo",
-          "value": "De escritorio"
-        },
-        {
-          "label": "Tamaño de pantalla",
-          "value": "27\""
-        },
-        {
-          "label": "Resolución",
-          "value": "1920 × 1080"
-        },
-        {
-          "label": "Tasa de refresco",
-          "value": "260 Hz"
-        },
-        {
-          "label": "Conectividad",
-          "value": "HDMI; DisplayPort"
-        }
-      ],
-      "features": [],
-      "specificationSources": [
-        "https://tienda.omega.com.do/es/product/consul/109613"
-      ],
-      "collections": [
-        "Zona Gamer"
-      ],
-      "model": "27G50Z",
-      "sourceCategory": "Monitor",
       "specificationsUpdated": "2026-10-12T15:19:59+00:00"
     },
     {
@@ -36781,5 +36719,5 @@
       "specificationsUpdated": "2026-10-12T17:08:02+00:00"
     }
   ],
-  "updated": "2026-10-19T16:56:32+00:00"
+  "updated": "2026-10-20T14:51:22+00:00"
 }
