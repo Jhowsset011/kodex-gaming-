@@ -11,7 +11,11 @@ const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;'
 const $ = selector => document.querySelector(selector);
 const grid = $('#products'), cartDialog = $('#cart');
 const isProductPage = Boolean($('#product-page'));
-const productURL = product => `producto.html?id=${encodeURIComponent(product.id)}`;
+const productURL = product => {
+  let slug = product.name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'producto';
+  if (slug.length > 200) slug = slug.slice(0, 200).replace(/-[^-]*$/, '');
+  return `/producto/${slug}-${encodeURIComponent(product.reference)}/`;
+};
 let filter = 'Todos', cart = {};
 let subcategory = '';
 try {

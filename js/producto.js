@@ -33,7 +33,7 @@ function manufacturerLinks(sources) {
 }
 
 function renderProductPage() {
-  const id = new URLSearchParams(location.search).get('id');
+  const id = $('#product-page').dataset.productId || new URLSearchParams(location.search).get('id');
   const product = products.find(item => item.id === id);
   const view = $('#product-view');
   if (!product) {
@@ -41,6 +41,13 @@ function renderProductPage() {
     $('#product-breadcrumb').textContent = 'Producto no encontrado';
     view.innerHTML = '<div class="empty"><strong>No encontramos este producto.</strong><p>Explora la tienda para encontrar tu próximo upgrade.</p><a class="button" href="index.html#catalogo">Volver a la tienda</a></div>';
     $('#related-section').hidden = true;
+    return;
+  }
+  if (view.dataset.prerendered === product.id) {
+    const related = products.filter(item => item.category === product.category && item.id !== product.id).slice(0, 3);
+    $('#related-products').innerHTML = related.map(productCard).join('');
+    $('#related-section').hidden = !related.length;
+    window.KodexPixel?.viewProduct(product);
     return;
   }
   document.title = `${product.name} | Kodex Gaming`;
