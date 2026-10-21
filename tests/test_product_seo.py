@@ -89,8 +89,19 @@ class ProductSEOTests(unittest.TestCase):
         self.assertNotIn('data-order-product=', page)
         self.assertNotIn('data-add=', page)
         self.assertNotIn('Consultar por WhatsApp', page)
-        self.assertIn('<p>Panel <strong>IPS</strong></p>', page)
+        self.assertIn('<dl class="specifications-list">', page)
         self.assertNotIn('data-start', page)
+
+    def test_nexcom_description_is_presented_in_original_kodex_grid_without_duplicate_emoji_list(self):
+        p = dict(product(), description='<p>🖥️ <strong>Tamaño de pantalla:</strong> 27 pulgadas</p>',
+                 specifications=[{'label':'Tamaño de pantalla','value':'27 pulgadas'}])
+        page = render_page(p,self.template)
+        details = page.split('<section class="specifications-section"',1)[1].split('</section>',1)[0]
+        self.assertIn('specifications-list',details)
+        self.assertIn('spec-icon',details)
+        self.assertIn('27 pulgadas',details)
+        self.assertNotIn('🖥',details)
+        self.assertNotIn('product-description-full',details)
 
     def test_supplier_markup_cannot_inject_html_or_close_json_ld(self):
         name = '</script><img src=x onerror=alert(1)> & "Monitor"'

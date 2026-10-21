@@ -14,7 +14,7 @@ from urllib.parse import quote, urlencode, urljoin
 import xml.etree.ElementTree as ET
 
 from manufacturer_sources import validate_manufacturer_url
-from catalog_markup import clean_description, description_text
+from catalog_markup import description_text
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://kodexgaming.com'
@@ -72,9 +72,10 @@ def render_content(p):
     summary = description_text(p.get('spec', '')) or (description.splitlines()[0] if description else '')
     if len(summary) > 240: summary = summary[:240].rsplit(' ', 1)[0] + '…'
     paragraphs = ''.join(f'<p>{e(line)}</p>' for line in description.splitlines() if line.strip()) if normalize(description) not in (normalize(p['name']), normalize(summary)) else ''
-    if re.search(r'<(?:p|strong|br)\b', raw_description, re.I):
-        paragraphs = clean_description(raw_description)
     rows = [row for row in p.get('specifications', []) if not (normalize(row['label']) == 'información del producto' and normalize(row['value']) == normalize(description))]
+    if rows:
+        # Render specifications once, in Kodex's original grid with SVG icons.
+        paragraphs = ''
     if p.get('brand') and not p.get('sourceContentConflict') and not any(row['label'].casefold() in ('marca', 'fabricante') for row in rows):
         rows.insert(0, {'label': 'Marca', 'value': p['brand']})
     specifications = ''.join(f'<div class="spec-row"><dt>{specification_icon(row["label"])}<span>{e(row["label"])}</span></dt><dd>{e(row["value"])}</dd></div>' for row in rows)
