@@ -7,6 +7,7 @@ let catalogLoading = true;
 const money = value => Number.isFinite(value) ? 'RD$' + value.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2}) : 'Consultar precio';
 const hasPrice = product => Number.isFinite(product.price) && product.price > 0;
 const canOrder = product => product.stock && !product.proximamente && hasPrice(product);
+const stockLabel = product => product.proximamente ? 'Próximamente' : !product.stock ? 'Agotado' : product.stockText || (Number.isInteger(product.stockQuantity) ? `${product.stockQuantity} ${product.stockQuantity === 1 ? 'disponible' : 'disponibles'}` : 'Disponible');
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function descriptionMarkup(value) {
   const template = document.createElement('template');
@@ -146,7 +147,7 @@ function productCard(p) {
     const art = p.image ? `<img src="${escapeHTML(p.image)}" alt="${escapeHTML(p.name)}" loading="lazy">` : '';
     return `<article class="product" data-product="${p.id}">
     <div class="product-art">${badge ? `<span class="badge ${p.old && p.stock ? 'sale' : ''}">${escapeHTML(badge)}</span>` : ''}<a class="product-image-button" href="${productURL(p)}" data-detail="${p.id}" aria-label="Ver detalles de ${escapeHTML(p.name)}">${art}</a><span class="view-product">Ver detalles ${arrowIcon}</span></div>
-    <div class="product-copy"><span class="product-type"><span>${escapeHTML(p.brand || '')}</span> ${escapeHTML(p.category || '')}</span>${p.reference ? `<span class="product-reference-card">Ref. ${escapeHTML(p.reference)}</span>` : ''}<h3><a class="product-title" href="${productURL(p)}" data-detail="${p.id}">${escapeHTML(p.name)}</a></h3><div class="product-price"><strong>${money(p.price)}</strong>${hasPrice(p) && p.old > p.price ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p)}</div></article>`;
+    <div class="product-copy"><span class="product-type"><span>${escapeHTML(p.brand || '')}</span> ${escapeHTML(p.category || '')}</span>${p.reference ? `<span class="product-reference-card">Ref. ${escapeHTML(p.reference)}</span>` : ''}<span class="product-stock-card">Stock: ${escapeHTML(stockLabel(p))}</span><h3><a class="product-title" href="${productURL(p)}" data-detail="${p.id}">${escapeHTML(p.name)}</a></h3><div class="product-price"><strong>${money(p.price)}</strong>${hasPrice(p) && p.old > p.price ? `<del>${money(p.old)}</del>` : ''}</div>${productActions(p)}</div></article>`;
 }
 
 function renderProducts(resetPage = true) {
@@ -415,6 +416,8 @@ function validateCatalog(data) {
     if (p.old !== undefined && (!hasPrice(p) || !Number.isFinite(p.old) || p.old <= p.price)) throw new Error('Oferta inválida');
     if (typeof p.subcategory !== 'string' || !p.subcategory.trim()) throw new Error('Subcategoría inválida');
     if (p.proximamente !== undefined && (p.proximamente !== true || p.stock)) throw new Error('Próximamente inválido');
+    if (p.stockQuantity != null && (!Number.isSafeInteger(p.stockQuantity) || p.stockQuantity < 0 || (p.stock && p.stockQuantity === 0) || (!p.stock && p.stockQuantity > 0))) throw new Error('Inventario inválido');
+    if (p.stockText !== undefined && (typeof p.stockText !== 'string' || !p.stockText.trim())) throw new Error('Texto de inventario inválido');
     ids.add(p.id);
   }
   return data.products;

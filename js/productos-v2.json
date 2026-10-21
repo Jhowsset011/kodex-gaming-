@@ -1,6 +1,6 @@
 {
   "source": "Nexcom — API pública (sku = referencia)",
-  "count": 538,
+  "count": 542,
   "products": [
     {
       "id": "19182",
@@ -43,6 +43,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -90,6 +92,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -145,6 +149,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 19,
+      "stockText": "19 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -202,6 +208,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -263,6 +271,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 218,
+      "stockText": "218 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -324,6 +334,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 203,
+      "stockText": "203 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -391,6 +403,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -485,7 +499,9 @@
       "model": "MAG PANO 130R PZ WHITE",
       "sourceCategory": "Cases",
       "specificationsUpdated": "2026-10-11T02:11:07+00:00",
-      "sourceUnavailable": true
+      "sourceUnavailable": true,
+      "stockQuantity": 0,
+      "stockText": "Agotado"
     },
     {
       "id": "29139",
@@ -536,6 +552,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "model": "PRO FORGE M051A",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -608,6 +626,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -651,6 +671,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -698,6 +720,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 393,
+      "stockText": "393 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -745,6 +769,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "model": "SA400S37/960G",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -789,6 +815,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -854,6 +882,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "P6 Neo ARGB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -924,6 +954,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -985,6 +1017,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1028,6 +1062,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memorias Genericas",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "TRM19BDJ20D",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1064,6 +1100,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memorias Genericas",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1103,6 +1141,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 140,
+      "stockText": "140 disponibles",
       "model": "DTXG2/128GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1147,6 +1187,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 178,
+      "stockText": "178 disponibles",
       "model": "DTXG2/256GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1191,6 +1233,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 1892,
+      "stockText": "1892 disponibles",
       "model": "DTXG2/64GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1235,6 +1279,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "Data Traveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1279,6 +1325,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 827,
+      "stockText": "827 disponibles",
       "model": "Data Traveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1323,6 +1371,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "Data Traveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1367,6 +1417,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 46,
+      "stockText": "46 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1411,6 +1463,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1455,6 +1509,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 282,
+      "stockText": "282 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1499,6 +1555,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 164,
+      "stockText": "164 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1543,6 +1601,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 1598,
+      "stockText": "1598 disponibles",
       "model": "DataTraveler Exodia M",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1599,6 +1659,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1650,6 +1712,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 68,
+      "stockText": "68 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1701,6 +1765,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 87,
+      "stockText": "87 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1772,6 +1838,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "model": "LS32H804UANXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1816,6 +1884,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1851,6 +1921,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1902,6 +1974,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 134,
+      "stockText": "134 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1953,6 +2027,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 196,
+      "stockText": "196 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1998,6 +2074,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "CH-930C011-NA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2052,6 +2130,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2117,6 +2197,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2178,6 +2260,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 79,
+      "stockText": "79 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2221,6 +2305,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2264,6 +2350,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 62,
+      "stockText": "62 disponibles",
       "model": "M100",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2308,6 +2396,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "M650 Large",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2352,6 +2442,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "model": "Myo-3005 Blue",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2396,6 +2488,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 930,
+      "stockText": "930 disponibles",
       "model": "ARGOM 360",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2440,6 +2534,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 53,
+      "stockText": "53 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2483,6 +2579,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2530,6 +2628,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 79,
+      "stockText": "79 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2577,6 +2677,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 72,
+      "stockText": "72 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2620,6 +2722,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "XTM-M520SG",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2670,6 +2774,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 62,
+      "stockText": "62 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2713,6 +2819,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 73,
+      "stockText": "73 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2758,6 +2866,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "model": "B760M Gaming Plus",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2802,6 +2912,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 28,
+      "stockText": "28 disponibles",
       "model": "CS850XTK09",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2838,6 +2950,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 130,
+      "stockText": "130 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2881,6 +2995,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "model": "CS850XTK11",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2917,6 +3033,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "CS850XTK08",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2969,6 +3087,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3024,6 +3144,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3079,6 +3201,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3122,6 +3246,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 271,
+      "stockText": "271 disponibles",
       "model": "Ax-Home",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3166,6 +3292,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3209,6 +3337,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 30,
+      "stockText": "30 disponibles",
       "model": "KCK-265E",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3253,6 +3383,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 120,
+      "stockText": "120 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3296,6 +3428,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 99,
+      "stockText": "99 disponibles",
       "model": "XTK-092S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3340,6 +3474,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 99,
+      "stockText": "99 disponibles",
       "model": "xtk-160e",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3384,6 +3520,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 429,
+      "stockText": "429 disponibles",
       "model": "xtk-160s",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3428,6 +3566,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 93,
+      "stockText": "93 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3467,6 +3607,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2792,
+      "stockText": "2792 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3510,6 +3652,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3557,6 +3701,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3600,6 +3746,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3647,6 +3795,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3690,6 +3840,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 92,
+      "stockText": "92 disponibles",
       "model": "Mk370",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3738,6 +3890,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 423,
+      "stockText": "423 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3781,6 +3935,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 73,
+      "stockText": "73 disponibles",
       "model": "Mk370",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3825,6 +3981,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2225,
+      "stockText": "2225 disponibles",
       "model": "ARG-AC-1233R",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3881,6 +4039,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3934,6 +4094,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3981,6 +4143,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 84,
+      "stockText": "84 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4024,6 +4188,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 133,
+      "stockText": "133 disponibles",
       "model": "Expansion",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4068,6 +4234,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 107,
+      "stockText": "107 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4115,6 +4283,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 183,
+      "stockText": "183 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4158,6 +4328,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 62,
+      "stockText": "62 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4201,6 +4373,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 499,
+      "stockText": "499 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4248,6 +4422,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "model": "PRO Forge M050A",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4312,6 +4488,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 53,
+      "stockText": "53 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4355,6 +4533,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4410,6 +4590,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4457,6 +4639,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "M650 Large",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4501,6 +4685,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 41,
+      "stockText": "41 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4548,6 +4734,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "Nautilus 240 RS",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4596,6 +4784,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4647,6 +4837,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 89,
+      "stockText": "89 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4694,6 +4886,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 88,
+      "stockText": "88 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4741,6 +4935,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 56,
+      "stockText": "56 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4784,6 +4980,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4855,6 +5053,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 198,
+      "stockText": "198 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4906,6 +5106,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "G316 X 98",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4950,6 +5152,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 42,
+      "stockText": "42 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4993,6 +5197,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 118,
+      "stockText": "118 disponibles",
       "model": "KCK-265S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -5045,6 +5251,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 38,
+      "stockText": "38 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5088,6 +5296,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5137,6 +5347,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5184,6 +5396,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5251,6 +5465,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 253,
+      "stockText": "253 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5318,6 +5534,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "LS32H704EANXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -5374,6 +5592,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 109,
+      "stockText": "109 disponibles",
       "model": "WD44PURZ",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -5418,6 +5638,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 88,
+      "stockText": "88 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5465,6 +5687,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5512,6 +5736,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 57,
+      "stockText": "57 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5567,6 +5793,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5618,6 +5846,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 83,
+      "stockText": "83 disponibles",
       "model": "AGI-9895",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -5680,6 +5910,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5739,6 +5971,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 49,
+      "stockText": "49 disponibles",
       "model": "AGI-PS700",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -5799,6 +6033,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 69,
+      "stockText": "69 disponibles",
       "model": "AGI-PS800",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -5855,6 +6091,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5910,6 +6148,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 193,
+      "stockText": "193 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5957,6 +6197,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 126,
+      "stockText": "126 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6000,6 +6242,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 165,
+      "stockText": "165 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6063,6 +6307,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6118,6 +6364,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6161,6 +6409,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 268,
+      "stockText": "268 disponibles",
       "model": "xta-526",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -6213,6 +6463,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6256,6 +6508,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6303,6 +6557,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6348,6 +6604,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6391,6 +6649,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 84,
+      "stockText": "84 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6434,6 +6694,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6495,6 +6757,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6550,6 +6814,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6593,6 +6859,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 126,
+      "stockText": "126 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6638,6 +6906,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6685,6 +6955,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6728,6 +7000,8 @@
       ],
       "collections": [],
       "sourceCategory": "Punto De Venta",
+      "stockQuantity": 92,
+      "stockText": "92 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6771,6 +7045,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6814,6 +7090,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6863,6 +7141,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6910,6 +7190,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6965,6 +7247,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 320,
+      "stockText": "320 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7026,6 +7310,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Joystick Y Game Pad",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7069,6 +7355,8 @@
       ],
       "collections": [],
       "sourceCategory": "",
+      "stockQuantity": 311,
+      "stockText": "311 disponibles",
       "model": "Exodia DTXM",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7133,6 +7421,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 73,
+      "stockText": "73 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7208,6 +7498,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 25,
+      "stockText": "25 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7253,6 +7545,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 25,
+      "stockText": "25 disponibles",
       "model": "Voyager XTA-180",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7297,6 +7591,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 24,
+      "stockText": "24 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7362,6 +7658,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 79,
+      "stockText": "79 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7413,6 +7711,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 337,
+      "stockText": "337 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7456,6 +7756,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7507,6 +7809,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7550,6 +7854,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 114,
+      "stockText": "114 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7594,6 +7900,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 28,
+      "stockText": "28 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7638,6 +7946,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7681,6 +7991,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 87,
+      "stockText": "87 disponibles",
       "model": "Traveler 70",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7725,6 +8037,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7782,6 +8096,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Teclados",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7859,6 +8175,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7906,6 +8224,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7975,6 +8295,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8030,6 +8352,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8073,6 +8397,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 290,
+      "stockText": "290 disponibles",
       "model": "AC260KLX01",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8117,6 +8443,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8164,6 +8492,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "Pebble M350S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8212,6 +8542,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "Pebble M350s",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8270,6 +8602,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "CH-9413641-WW",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8314,6 +8648,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8365,6 +8701,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8420,6 +8758,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8463,6 +8803,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 40,
+      "stockText": "40 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8506,6 +8848,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8549,6 +8893,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 66,
+      "stockText": "66 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8594,6 +8940,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 100,
+      "stockText": "100 disponibles",
       "model": "combat",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8646,6 +8994,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 73,
+      "stockText": "73 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8697,6 +9047,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 294,
+      "stockText": "294 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8750,6 +9102,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8807,6 +9161,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 135,
+      "stockText": "135 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8854,6 +9210,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "model": "SXS2000/1000G",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8898,6 +9256,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 248,
+      "stockText": "248 disponibles",
       "model": "XTM-185",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8942,6 +9302,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 492,
+      "stockText": "492 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9009,6 +9371,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9067,6 +9431,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 59,
+      "stockText": "59 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9138,6 +9504,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9201,6 +9569,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 239,
+      "stockText": "239 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9244,6 +9614,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9287,6 +9659,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 49,
+      "stockText": "49 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9330,6 +9704,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 47,
+      "stockText": "47 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9373,6 +9749,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 127,
+      "stockText": "127 disponibles",
       "model": "DataTraveler 70",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9417,6 +9795,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9468,6 +9848,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 32,
+      "stockText": "32 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9511,6 +9893,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 298,
+      "stockText": "298 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9555,6 +9939,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9602,6 +9988,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9649,6 +10037,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "Pebble M350s",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9693,6 +10083,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 520,
+      "stockText": "520 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9744,6 +10136,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 117,
+      "stockText": "117 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9803,6 +10197,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta De Video",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "model": "GeForce RTX 5070 Ti Frieren Edition OC",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9867,6 +10263,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 425,
+      "stockText": "425 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9960,6 +10358,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10011,6 +10411,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 24,
+      "stockText": "24 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10054,6 +10456,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "Imperium15T",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10110,6 +10514,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10153,6 +10559,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10220,6 +10628,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10263,6 +10673,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 43,
+      "stockText": "43 disponibles",
       "model": "920-007901",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10315,6 +10727,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 50,
+      "stockText": "50 disponibles",
       "model": "AGI-PS1000",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10389,6 +10803,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Teclados",
+      "stockQuantity": 92,
+      "stockText": "92 disponibles",
       "model": "Forge GK110",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10451,6 +10867,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10494,6 +10912,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "model": "XTK-140S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10556,6 +10976,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10623,6 +11045,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10670,6 +11094,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 24,
+      "stockText": "24 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10725,6 +11151,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 75,
+      "stockText": "75 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10771,6 +11199,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "model": "KCK-300S (KeyRoll Wireless)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10831,6 +11261,8 @@
       ],
       "collections": [],
       "sourceCategory": "Punto De Venta",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10886,6 +11318,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
       "model": "CW-9060092-WW",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10954,6 +11388,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10999,6 +11435,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 560,
+      "stockText": "560 disponibles",
       "model": "AGI-C015",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11051,6 +11489,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11120,6 +11560,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11191,6 +11633,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 102,
+      "stockText": "102 disponibles",
       "model": "Luna 360 ARGB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11251,6 +11695,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11314,6 +11760,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cpu / Procesadores",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11365,6 +11813,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 85,
+      "stockText": "85 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11410,6 +11860,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11465,6 +11917,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11508,6 +11962,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "Myo-WKM90",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11556,6 +12012,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 48,
+      "stockText": "48 disponibles",
       "model": "K250",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11604,6 +12062,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11647,6 +12107,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 135,
+      "stockText": "135 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11690,6 +12152,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 155,
+      "stockText": "155 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11733,6 +12197,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11786,6 +12252,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 44,
+      "stockText": "44 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11833,6 +12301,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11884,6 +12354,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11935,6 +12407,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 19,
+      "stockText": "19 disponibles",
       "model": "CW-9060088-WW",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11983,6 +12457,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12042,6 +12518,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12091,6 +12569,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12150,6 +12630,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12195,6 +12677,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12252,7 +12736,9 @@
       "model": "UN32H5000FPXPA",
       "sourceCategory": "Television",
       "specificationsUpdated": "2026-10-10T22:55:08+00:00",
-      "sourceUnavailable": true
+      "sourceUnavailable": true,
+      "stockQuantity": 0,
+      "stockText": "Agotado"
     },
     {
       "id": "16860",
@@ -12297,6 +12783,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 157,
+      "stockText": "157 disponibles",
       "model": "Arg-ms-2042bk",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -12341,6 +12829,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12387,6 +12877,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12430,6 +12922,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 276,
+      "stockText": "276 disponibles",
       "model": "M190",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -12494,6 +12988,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 62,
+      "stockText": "62 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12541,6 +13037,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 94,
+      "stockText": "94 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12596,6 +13094,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 138,
+      "stockText": "138 disponibles",
       "model": "SkyHawk ST2000VX017",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -12640,6 +13140,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12683,6 +13185,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
+      "stockQuantity": 197,
+      "stockText": "197 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12746,6 +13250,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 68,
+      "stockText": "68 disponibles",
       "model": "Skeleton-240 ARGB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -12814,6 +13320,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 213,
+      "stockText": "213 disponibles",
       "model": "Skeleton-360 ARGB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -12854,6 +13362,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12915,6 +13425,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "LS27HG610SNXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13003,6 +13515,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13090,6 +13604,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 36,
+      "stockText": "36 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13133,6 +13649,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13176,6 +13694,8 @@
       ],
       "collections": [],
       "sourceCategory": "Punto De Venta",
+      "stockQuantity": 122,
+      "stockText": "122 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13227,6 +13747,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 70,
+      "stockText": "70 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13284,6 +13806,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13327,6 +13851,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta De Video",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "GeForce RTX 3050 6G OC",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13401,6 +13927,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
+      "stockQuantity": 29,
+      "stockText": "29 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13412,7 +13940,7 @@
       "subcategory": "De escritorio",
       "brand": "MSI",
       "price": 7500.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/6020f8d2ecec9eab668c.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/1f1cb7ae-2c7e-4e80-b812-abe1f8db5897.png",
       "description": "<p>📺 <strong>Pantalla:</strong> 24 pulgadas IPS</p>\n<p>🖥️ <strong>Resolución:</strong> Full HD</p>\n<p>⚡ <strong>Frecuencia:</strong> 144Hz</p>\n<p>🔌 <strong>Entradas:</strong> 1x HDMI 2.0b, 1x DisplayPort 1.2a, 1x D-Sub (VGA)</p>\n<p>⏱️ <strong>Tiempo de respuesta:</strong> 1ms (MPRT) / 4ms (GTG)</p>\n<p>🎨 <strong>Características:</strong> Adaptive-Sync, HDR Ready, Anti-Glare</p>\n<p>🔊 <strong>Audio:</strong> Altavoces integrados</p>\n<p>🎨 <strong>Color:</strong> Negro</p>",
@@ -13456,7 +13984,10 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true,
+      "stockQuantity": 0,
+      "stockText": "Agotado"
     },
     {
       "id": "29274",
@@ -13507,6 +14038,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cpu / Procesadores",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "Core i3-12100",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13559,6 +14092,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13658,6 +14193,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 102,
+      "stockText": "102 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13709,6 +14246,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13756,6 +14295,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13799,6 +14340,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "model": "Z313",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13843,6 +14386,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
+      "stockQuantity": 709,
+      "stockText": "709 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13905,6 +14450,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13950,6 +14497,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13997,6 +14546,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14040,6 +14591,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 28,
+      "stockText": "28 disponibles",
       "model": "KMW-760",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -14084,6 +14637,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "3920R",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -14144,6 +14699,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14205,6 +14762,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Teclados",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14248,6 +14807,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
+      "stockQuantity": 179,
+      "stockText": "179 disponibles",
       "model": "Data Traveler Kyson G1",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -14296,6 +14857,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memorias Genericas",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14391,6 +14954,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14439,6 +15004,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14484,6 +15051,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 176,
+      "stockText": "176 disponibles",
       "model": "AGI-C017",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -14528,6 +15097,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14597,6 +15168,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14666,6 +15239,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14733,6 +15308,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 87,
+      "stockText": "87 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14800,6 +15377,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 33,
+      "stockText": "33 disponibles",
       "model": "MAG A550BN",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -14844,6 +15423,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
+      "stockQuantity": 565,
+      "stockText": "565 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14911,6 +15492,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14954,6 +15537,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 253,
+      "stockText": "253 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14997,6 +15582,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 96,
+      "stockText": "96 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15044,6 +15631,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15095,6 +15684,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15138,6 +15729,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 143,
+      "stockText": "143 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15209,6 +15802,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15262,6 +15857,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15305,6 +15902,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15356,6 +15955,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15399,6 +16000,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15450,6 +16053,8 @@
       ],
       "collections": [],
       "sourceCategory": "Soportes",
+      "stockQuantity": 86,
+      "stockText": "86 disponibles",
       "model": "XTA-475",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -15493,6 +16098,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 36,
+      "stockText": "36 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15536,6 +16143,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 34,
+      "stockText": "34 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15597,6 +16206,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15648,6 +16259,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "model": "Imperium6T",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -15728,6 +16341,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15779,6 +16394,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 19,
+      "stockText": "19 disponibles",
       "model": "XTK-312ST",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -15827,6 +16444,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15878,6 +16497,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15943,6 +16564,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Bocina",
+      "stockQuantity": 86,
+      "stockText": "86 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15986,6 +16609,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bultos Y Mochilas",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "Nova (KNS-425SV)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16046,6 +16671,8 @@
       ],
       "collections": [],
       "sourceCategory": "Laptop",
+      "stockQuantity": 38,
+      "stockText": "38 disponibles",
       "model": "HP ProBook 4 G2i",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16104,6 +16731,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16163,6 +16792,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 130,
+      "stockText": "130 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16206,6 +16837,8 @@
       ],
       "collections": [],
       "sourceCategory": "Accesorios De Computadoras",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16265,6 +16898,8 @@
       ],
       "collections": [],
       "sourceCategory": "Laptop",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16320,6 +16955,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 101,
+      "stockText": "101 disponibles",
       "model": "Corsair CX750 (CP-9020279-NA)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16382,6 +17019,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 46,
+      "stockText": "46 disponibles",
       "model": "MAG 245C X24",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16450,6 +17089,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 67,
+      "stockText": "67 disponibles",
       "model": "PRO MP273L E14",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16518,6 +17159,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 58,
+      "stockText": "58 disponibles",
       "model": "PRO MP243L E14",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16588,6 +17231,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 47,
+      "stockText": "47 disponibles",
       "model": "MAG 245F X24",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16650,6 +17295,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16717,6 +17364,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16784,6 +17433,8 @@
       ],
       "collections": [],
       "sourceCategory": "Computadora",
+      "stockQuantity": 42,
+      "stockText": "42 disponibles",
       "model": "83HDA06AUS",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16828,6 +17479,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16879,6 +17532,8 @@
       ],
       "collections": [],
       "sourceCategory": "Laptop",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16930,6 +17585,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "model": "MAG CORELIQUID A12 360",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17014,6 +17671,8 @@
       ],
       "collections": [],
       "sourceCategory": "Laptop",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "21JK0053US",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17078,6 +17737,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 51,
+      "stockText": "51 disponibles",
       "model": "MAG COREFROZR AA13",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17126,6 +17787,8 @@
       ],
       "collections": [],
       "sourceCategory": "Laptop",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "model": "ThinkPad T14 G5",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17214,6 +17877,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 220,
+      "stockText": "220 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17277,6 +17942,8 @@
       ],
       "collections": [],
       "sourceCategory": "Computadora",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "Lenovo V14 G4 IRU (83A000PDUS)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17321,6 +17988,8 @@
       ],
       "collections": [],
       "sourceCategory": "Accesorios De Computadoras",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17388,6 +18057,8 @@
       ],
       "collections": [],
       "sourceCategory": "Computadora",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "15-FD0183 (B4GZ5UA#ABA)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17440,6 +18111,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 49,
+      "stockText": "49 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17483,6 +18156,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "Pro B760M-E",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17529,6 +18204,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17598,6 +18275,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 115,
+      "stockText": "115 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17645,6 +18324,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17688,6 +18369,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 181,
+      "stockText": "181 disponibles",
       "model": "MAG PANO M110A",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17756,6 +18439,8 @@
       ],
       "collections": [],
       "sourceCategory": "Accesorios De Computadoras",
+      "stockQuantity": 66,
+      "stockText": "66 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17807,6 +18492,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "model": "RS120",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17855,6 +18542,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17898,6 +18587,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 151,
+      "stockText": "151 disponibles",
       "model": "AGI-8055",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17952,6 +18643,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 132,
+      "stockText": "132 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18011,6 +18704,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 30,
+      "stockText": "30 disponibles",
       "model": "MSI MAG A650B",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18055,6 +18750,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 48,
+      "stockText": "48 disponibles",
       "model": "MYO-1200W",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18099,6 +18796,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "SP140 RGB Elite Performance",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18161,6 +18860,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 148,
+      "stockText": "148 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18208,6 +18909,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 108,
+      "stockText": "108 disponibles",
       "model": "MHC201",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18260,6 +18963,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "LH13QBRTMGCXZA (QBR-T)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18310,6 +19015,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 128,
+      "stockText": "128 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18361,6 +19068,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18408,6 +19117,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18451,6 +19162,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18498,6 +19211,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18549,6 +19264,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "model": "RS140",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18597,6 +19314,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 42,
+      "stockText": "42 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18640,6 +19359,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18683,6 +19404,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18730,6 +19453,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18781,6 +19506,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "model": "RS140",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18853,6 +19580,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 22,
+      "stockText": "22 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18904,6 +19633,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
+      "stockQuantity": 74,
+      "stockText": "74 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18951,6 +19682,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 122,
+      "stockText": "122 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19006,6 +19739,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 187,
+      "stockText": "187 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19061,6 +19796,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 97,
+      "stockText": "97 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19104,6 +19841,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19153,6 +19892,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19198,6 +19939,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19249,6 +19992,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 839,
+      "stockText": "839 disponibles",
       "model": "AGI-6845",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -19302,6 +20047,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 85,
+      "stockText": "85 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19367,6 +20114,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19420,6 +20169,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 70,
+      "stockText": "70 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19477,6 +20228,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "model": "AGON PRO AG276QZD",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -19545,6 +20298,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 447,
+      "stockText": "447 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19591,6 +20346,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19655,6 +20412,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19720,6 +20479,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19771,6 +20532,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19836,6 +20599,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 19,
+      "stockText": "19 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19883,6 +20648,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 217,
+      "stockText": "217 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19930,6 +20697,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 239,
+      "stockText": "239 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20042,7 +20811,9 @@
       "model": "LS32B300NWNXGO",
       "sourceCategory": "Monitor",
       "specificationsUpdated": "2026-10-20T14:51:22+00:00",
-      "sourceUnavailable": true
+      "sourceUnavailable": true,
+      "stockQuantity": 0,
+      "stockText": "Agotado"
     },
     {
       "id": "11273",
@@ -20095,6 +20866,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 80,
+      "stockText": "80 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20236,6 +21009,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 46,
+      "stockText": "46 disponibles",
       "model": "C32G3E",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20279,6 +21054,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 54,
+      "stockText": "54 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20354,6 +21131,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 86,
+      "stockText": "86 disponibles",
       "model": "Forge GK320 Combo Red US",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20398,6 +21177,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 34,
+      "stockText": "34 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20461,6 +21242,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 62,
+      "stockText": "62 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20522,6 +21305,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Tarjeta De Video",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20565,6 +21350,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 34,
+      "stockText": "34 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20612,6 +21399,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 174,
+      "stockText": "174 disponibles",
       "model": "MAG A650GN II",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20670,6 +21459,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 35,
+      "stockText": "35 disponibles",
       "model": "CU34G4H",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20718,6 +21509,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
+      "stockQuantity": 209,
+      "stockText": "209 disponibles",
       "model": "MAG A600DN II",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20776,6 +21569,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 62,
+      "stockText": "62 disponibles",
       "model": "C27G2",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20842,6 +21637,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 34,
+      "stockText": "34 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20899,6 +21696,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 35,
+      "stockText": "35 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20948,6 +21747,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 39,
+      "stockText": "39 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20991,6 +21792,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta De Video",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21034,6 +21837,8 @@
       ],
       "collections": [],
       "sourceCategory": "Accesorios De Celular",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21085,6 +21890,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta De Video",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21162,6 +21969,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21205,6 +22014,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "model": "Pro B760M-E",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21281,6 +22092,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21354,6 +22167,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Tarjeta Madre",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21397,6 +22212,8 @@
       ],
       "collections": [],
       "sourceCategory": "Misc.",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "MAG MT201D",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21479,6 +22296,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 267,
+      "stockText": "267 disponibles",
       "model": "LS24D366GANXZ",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21557,6 +22376,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 142,
+      "stockText": "142 disponibles",
       "model": "LS27D366GANXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21611,6 +22432,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21654,6 +22477,8 @@
       ],
       "collections": [],
       "sourceCategory": "Misc.",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "model": "Pro MT81D",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21698,6 +22523,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21741,6 +22568,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21792,6 +22621,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21853,6 +22684,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "G242L E14",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21923,6 +22756,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21988,6 +22823,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22053,6 +22890,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22134,6 +22973,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22180,6 +23021,8 @@
       ],
       "collections": [],
       "sourceCategory": "Adaptadores",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22231,6 +23074,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22278,6 +23123,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22329,6 +23176,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22388,6 +23237,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22439,6 +23290,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22496,6 +23349,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Joystick Y Game Pad",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22551,6 +23406,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 93,
+      "stockText": "93 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22624,6 +23481,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Teclados",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "model": "Forge GK600 TKL W Sky US",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -22692,6 +23551,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 125,
+      "stockText": "125 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22759,6 +23620,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 145,
+      "stockText": "145 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22814,6 +23677,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22873,6 +23738,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
+      "stockQuantity": 156,
+      "stockText": "156 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22928,6 +23795,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
+      "stockQuantity": 194,
+      "stockText": "194 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22987,6 +23856,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
+      "stockQuantity": 60,
+      "stockText": "60 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23040,6 +23911,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23119,6 +23992,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 90,
+      "stockText": "90 disponibles",
       "model": "Forge GK110 Combo US",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23175,6 +24050,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23230,6 +24107,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23285,6 +24164,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23332,6 +24213,8 @@
       ],
       "collections": [],
       "sourceCategory": "Misc.",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "model": "MAG MT101DG",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23380,6 +24263,8 @@
       ],
       "collections": [],
       "sourceCategory": "Misc.",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "MAG MT101G",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23446,6 +24331,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 61,
+      "stockText": "61 disponibles",
       "model": "CQ27G4H",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23498,6 +24385,8 @@
       ],
       "collections": [],
       "sourceCategory": "Misc.",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "model": "MAG MT201DW",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23572,6 +24461,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23635,6 +24526,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23698,6 +24591,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 87,
+      "stockText": "87 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23749,6 +24644,8 @@
       ],
       "collections": [],
       "sourceCategory": "Celulares Y Accesorios",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "model": "Galaxy A16",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23797,6 +24694,8 @@
       ],
       "collections": [],
       "sourceCategory": "Celulares Y Accesorios",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "Galaxy A27 5G",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23845,6 +24744,8 @@
       ],
       "collections": [],
       "sourceCategory": "Celulares Y Accesorios",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "Galaxy A27 5G",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23893,6 +24794,8 @@
       ],
       "collections": [],
       "sourceCategory": "Celulares Y Accesorios",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "model": "Galaxy A16",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23957,6 +24860,8 @@
       ],
       "collections": [],
       "sourceCategory": "Celulares Y Accesorios",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24024,6 +24929,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3001,
+      "stockText": "3001 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24075,6 +24982,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 218,
+      "stockText": "218 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24146,6 +25055,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "model": "980-000910",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24214,6 +25125,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 80,
+      "stockText": "80 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24293,6 +25206,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 63,
+      "stockText": "63 disponibles",
       "model": "H111",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24337,6 +25252,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24380,6 +25297,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "model": "910-005235",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24424,6 +25343,8 @@
       ],
       "collections": [],
       "sourceCategory": "Electros",
+      "stockQuantity": 267,
+      "stockText": "267 disponibles",
       "model": "TM30",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24468,6 +25389,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24519,6 +25442,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24566,6 +25491,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 67,
+      "stockText": "67 disponibles",
       "model": "M650 Medium",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24614,6 +25541,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 48,
+      "stockText": "48 disponibles",
       "model": "M650 Large",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24658,6 +25587,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24713,6 +25644,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "Brio 500",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24773,6 +25706,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24824,6 +25759,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24887,6 +25824,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "JBL Tune 520",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24959,6 +25898,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "Tune 520",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -25003,6 +25944,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "Wonderboom 3",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -25055,6 +25998,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25102,6 +26047,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 19,
+      "stockText": "19 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25153,6 +26100,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25196,6 +26145,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25243,6 +26194,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25294,6 +26247,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25349,6 +26304,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25392,6 +26349,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25439,6 +26398,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25490,6 +26451,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25533,6 +26496,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 19,
+      "stockText": "19 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25576,6 +26541,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 35,
+      "stockText": "35 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25631,6 +26598,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25690,6 +26659,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25741,6 +26712,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "model": "Zone 300",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -25793,6 +26766,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25855,6 +26830,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25911,6 +26888,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25970,6 +26949,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26013,6 +26994,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "M196",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -26057,6 +27040,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 25,
+      "stockText": "25 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26100,6 +27085,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26155,6 +27142,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26206,6 +27195,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26257,6 +27248,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26304,6 +27297,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26365,6 +27360,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Joystick Y Game Pad",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26424,6 +27421,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "model": "JBL Vibe Beam 2",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -26488,6 +27487,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26543,6 +27544,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26586,6 +27589,8 @@
       ],
       "collections": [],
       "sourceCategory": "Electros",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26633,6 +27638,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26680,6 +27687,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 88,
+      "stockText": "88 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26723,6 +27732,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26766,6 +27777,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26813,6 +27826,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26860,6 +27875,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 24,
+      "stockText": "24 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26911,6 +27928,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26974,6 +27993,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "model": "Tune Beam (JBLTBEAM2GBLKAM)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27030,6 +28051,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27085,6 +28108,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27136,6 +28161,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27189,6 +28216,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Bultos Y Mochilas",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27236,6 +28265,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "MX Anywhere 3S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27284,6 +28315,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27345,6 +28378,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27406,6 +28441,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27469,6 +28506,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27520,6 +28559,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "model": "GO5",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27572,6 +28613,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 33,
+      "stockText": "33 disponibles",
       "model": "JBL Go 5",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27636,6 +28679,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "model": "PartyBox 130",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27700,6 +28745,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27759,6 +28806,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "model": "Tune 730",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27819,6 +28868,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "model": "M850 Large",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27875,6 +28926,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27948,6 +29001,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Perifericos>pc",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "model": "G305 X",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27998,6 +29053,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28049,6 +29106,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "model": "MX Keys S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -28097,6 +29156,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "model": "Zone Vibe 100",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -28149,6 +29210,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28220,6 +29283,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "Xtreme 5 (JBLXTREME4BLKAM)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -28229,7 +29294,7 @@
       "name": "Teléfono Ip Grandstream Gxp-2170 Poe Gigabit",
       "spec": "Teléfono IP con soporte para 12 líneas, 6 cuentas SIP, pantalla a color de 4.3 pulgadas, conectividad dual Gigabit y PoE integrado.",
       "price": 8200.0,
-      "stock": true,
+      "stock": false,
       "specifications": [
         {
           "label": "Líneas",
@@ -28280,7 +29345,10 @@
       "subcategory": "Otros accesorios",
       "description": "<p>📞 <strong>Líneas:</strong> Admite hasta 12 líneas</p>\n<p>🆔 <strong>Cuentas SIP:</strong> 6 cuentas SIP</p>\n<p>🔊 <strong>Conferencia de voz:</strong> Capacidad de 5 vías</p>\n<p>🖥️ <strong>Pantalla:</strong> LCD a color de 4.3 pulgadas (480 x 272)</p>\n<p>⌨️ <strong>Teclas:</strong> 5 teclas programables y 48 teclas de marcación rápida/BLF digital</p>\n<p>🔌 <strong>Puertos de red:</strong> Puertos Gigabit duales</p>\n<p>⚡ <strong>Alimentación:</strong> PoE integrado (Power over Ethernet)</p>\n<p>📶 <strong>Bluetooth:</strong> Integrado para conectividad con dispositivos y auriculares</p>\n<p>⚙️ <strong>Extensibilidad:</strong> Compatible con hasta 4 módulos de extensión GXP2200EXT para 160 contactos</p>",
       "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/23d43c60-608d-4988-9660-208dc4d625e4.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/23d43c60-608d-4988-9660-208dc4d625e4.png",
+      "sourceUnavailable": true,
+      "stockQuantity": 0,
+      "stockText": "Agotado"
     },
     {
       "id": "80000093743",
@@ -28334,8 +29402,10 @@
       "collections": [],
       "subcategory": "Combos de teclado y mouse",
       "description": "<p>🔌 <strong>Conectividad:</strong> Bluetooth y receptor inalámbrico USB 2.4GHz</p>\n<p>📶 <strong>Alcance inalámbrico:</strong> 10 metros</p>\n<p>🔒 <strong>Seguridad:</strong> Encriptación inalámbrica</p>\n<p>⌨️ <strong>Duración batería teclado:</strong> 36 meses</p>\n<p>🖱️ <strong>Duración batería mouse:</strong> 18 meses</p>\n<p>🎯 <strong>Resolución mouse:</strong> 1000 DPI</p>\n<p>🔘 <strong>Botones mouse:</strong> 8 botones</p>\n<p>🛋️ <strong>Característica adicional:</strong> Reposa muñecas</p>",
-      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/7d7d96b5-05f6-4078-89f1-8f79fd1cfd5d.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/7d7d96b5-05f6-4078-89f1-8f79fd1cfd5d.png",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00"
     },
     {
       "id": "80000095542",
@@ -28403,8 +29473,10 @@
       ],
       "subcategory": "Gabinetes / Case",
       "description": "<p>📐 <strong>Dimensiones:</strong> 466 mm x 462 mm x 230 mm</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>⚖️ <strong>Peso:</strong> 8.6 kg</p>\n<p>🖥️ <strong>Tamaño:</strong> Torre intermedia</p>\n<p>🔌 <strong>Fuente de alimentación:</strong> ATX (longitud máxima de 220 mm)</p>\n<p>🧊 <strong>Compatibilidad de radiador:</strong> 120 mm, 140 mm, 240 mm, 280 mm, 360 mm</p>\n<p>🎮 <strong>Longitud máxima de GPU:</strong> 360 mm</p>\n<p>🌡️ <strong>Altura máxima de enfriador de CPU:</strong> 170 mm</p>\n<p>🚪 <strong>Bahías de unidades:</strong> 2x 3.5 pulgadas o 2x 2.5 pulgadas</p>\n<p>🔌 <strong>E/S frontal:</strong> 2x USB 3.2 Gen 1 Tipo-A y conector combinado para auriculares/micrófono</p>\n<p>🖼️ <strong>Ventana:</strong> Vidrio templado</p>\n<p>🛡️ <strong>Garantía:</strong> 30 días</p>",
-      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/438149c7-2e5c-41dd-895f-5bd0a762d77c.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/438149c7-2e5c-41dd-895f-5bd0a762d77c.png",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00"
     },
     {
       "id": "800000104739",
@@ -28450,8 +29522,10 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Cámara de vigilancia domo</p>\n<p>💡 <strong>Tecnología:</strong> Smart Hybrid Light</p>\n<p>🌐 <strong>Conectividad:</strong> IP Network</p>\n<p>🔊 <strong>Audio:</strong> Micrófono integrado</p>\n<p>📏 <strong>Resolución:</strong> 2MP</p>\n<p>🔒 <strong>Protección:</strong> IP67</p>",
-      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/8b2b3afa-c443-474f-b65d-f2c167b3b640.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/8b2b3afa-c443-474f-b65d-f2c167b3b640.png",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00"
     },
     {
       "id": "800000106722",
@@ -28493,8 +29567,10 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>⚙️ <strong>Núcleos:</strong> 20 P.Core</p>\n<p>⏱️ <strong>Frecuencia P.Core:</strong> 3.9 GHz</p>\n<p>⏱️ <strong>Frecuencia E.Core:</strong> 3.3 GHz</p>\n<p>💾 <strong>Memoria Caché:</strong> 30 MB</p>\n<p>🔌 <strong>Socket:</strong> LGA1851</p>",
-      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0a0ffe11-1a22-4c54-9d0a-2cfa36e8f5b9.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0a0ffe11-1a22-4c54-9d0a-2cfa36e8f5b9.png",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00"
     },
     {
       "id": "800000109613",
@@ -28550,9 +29626,248 @@
       ],
       "subcategory": "De escritorio",
       "description": "<p>🖥️ <strong>Tamaño de pantalla:</strong> 27 pulgadas</p>\n<p>📺 <strong>Tipo de pantalla:</strong> LCD</p>\n<p>🎯 <strong>Resolución:</strong> 1920 x 1080 Full HD</p>\n<p>⚡ <strong>Frecuencia de actualización:</strong> 260 Hz</p>\n<p>🔄 <strong>Tecnologías:</strong> G-Sync, FreeSync</p>\n<p>🔌 <strong>Entradas:</strong> HDMI, DisplayPort</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>🌈 <strong>HDR:</strong> High Dynamic Range</p>",
-      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/bd654487-38bc-448f-a8f5-4abd4ea32bf8.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/bd654487-38bc-448f-a8f5-4abd4ea32bf8.png",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00"
+    },
+    {
+      "id": "80000088700",
+      "reference": "88700",
+      "name": "UPS Forza XG-1501LCD Interactiva 1500VA 900W LCD USB",
+      "spec": "Protege tus equipos críticos con energía estable, monitoreo en tiempo real y respaldo confiable para apagados seguros ante cortes eléctricos. Asegura continuidad y adquiere este UPS hoy mismo.",
+      "price": 18600.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Capacidad",
+          "value": "1500 VA / 900 W"
+        },
+        {
+          "label": "Tipo de UPS",
+          "value": "Interactiva"
+        },
+        {
+          "label": "Regulación de Voltaje",
+          "value": "AVR automático"
+        },
+        {
+          "label": "Pantalla",
+          "value": "LCD informativa"
+        },
+        {
+          "label": "Monitoreo LCD",
+          "value": "Estado de energía, carga, autonomía y alertas"
+        },
+        {
+          "label": "Salidas",
+          "value": "Múltiples tomas protegidas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Puerto USB para monitoreo por software"
+        },
+        {
+          "label": "Compatibilidad de Software",
+          "value": "Windows y Linux"
+        },
+        {
+          "label": "Protecciones",
+          "value": "Sobrecarga, cortocircuito, picos y descargas eléctricas"
+        },
+        {
+          "label": "Filtro",
+          "value": "EMI/RFI"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Generadores eléctricos"
+        },
+        {
+          "label": "Alertas",
+          "value": "Visuales y sonoras"
+        },
+        {
+          "label": "Aplicación",
+          "value": "Hogar, oficina y centros de datos pequeños"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/88700/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/a9ec698aed20eacbd7fb.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Forza",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>⚡ <strong>Capacidad:</strong> 1500 VA / 900 W<br>🔋 <strong>Tipo de UPS:</strong> Interactiva<br>🔄 <strong>Regulación de Voltaje:</strong> AVR automático<br>🖥️ <strong>Pantalla:</strong> LCD informativa<br>📊 <strong>Monitoreo LCD:</strong> Estado de energía, carga, autonomía y alertas<br>🔌 <strong>Salidas:</strong> Múltiples tomas protegidas<br>🔗 <strong>Conectividad:</strong> Puerto USB para monitoreo por software<br>💻 <strong>Compatibilidad de Software:</strong> Windows y Linux<br>⚠️ <strong>Protecciones:</strong> Sobrecarga, cortocircuito, picos y descargas eléctricas<br>🔇 <strong>Filtro:</strong> EMI/RFI<br>🔌 <strong>Compatibilidad:</strong> Generadores eléctricos<br>🔔 <strong>Alertas:</strong> Visuales y sonoras<br>🏠 <strong>Aplicación:</strong> Hogar, oficina y centros de datos pequeños</p>",
+      "specificationsUpdated": "2026-10-21T16:51:34+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/3420cae8-619c-40fd-b041-3ec1414704e5.png"
+    },
+    {
+      "id": "80000094945",
+      "reference": "94945",
+      "name": "Bocina Bluetooth Argom Radyon X30 10W Ipx5 Negra",
+      "spec": "Bocina inalámbrica portátil Argom Radyon X30 de 10W con resistencia al agua IPX5, sonido de 2 canales, batería de 2000 mAh, luces RGB y tecnología TWS para emparejamiento estéreo.",
+      "price": 1800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Potencia",
+          "value": "10W"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Bluetooth y TWS"
+        },
+        {
+          "label": "Canales",
+          "value": "2 canales"
+        },
+        {
+          "label": "Protección",
+          "value": "IPX5 resistente al agua"
+        },
+        {
+          "label": "Puertos",
+          "value": "Entrada de 3.5mm, USB (soporta hasta 128GB) y USB Tipo C"
+        },
+        {
+          "label": "Batería",
+          "value": "2000 mAh"
+        },
+        {
+          "label": "Respuesta de frecuencia",
+          "value": "Desde 80 Hz"
+        },
+        {
+          "label": "Iluminación",
+          "value": "Luces RGB"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/94945/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/741176215464f28359b7.png",
+      "sourceCategory": "",
+      "category": "Audio y Video",
+      "brand": "Argom",
+      "collections": [],
+      "subcategory": "Bocinas",
+      "description": "<p>🔊 <strong>Potencia:</strong> 10W</p>\n<p>📶 <strong>Conectividad:</strong> Bluetooth y TWS</p>\n<p>🎧 <strong>Canales:</strong> 2 canales</p>\n<p>🛡️ <strong>Protección:</strong> IPX5 resistente al agua</p>\n<p>🔌 <strong>Puertos:</strong> Entrada de 3.5mm, USB (soporta hasta 128GB) y USB Tipo C</p>\n<p>🔋 <strong>Batería:</strong> 2000 mAh</p>\n<p>🎵 <strong>Respuesta de frecuencia:</strong> Desde 80 Hz</p>\n<p>💡 <strong>Iluminación:</strong> Luces RGB</p>\n<p>🎨 <strong>Color:</strong> Negro</p>",
+      "specificationsUpdated": "2026-10-21T16:51:34+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/a200d876-265e-4482-97be-b03ba8328243.png"
+    },
+    {
+      "id": "80000095436",
+      "reference": "95436",
+      "name": "Disco SSD Externo Hiksemi 2TB USB-C 3.1 Negro",
+      "spec": "Disco SSD externo Hiksemi 2TB con velocidad de transferencia de hasta 540 MB/s y conexión USB 3.1 Tipo C para un almacenamiento portátil rápido y eficiente. Ideal para respaldos, trabajo profesional y transporte seguro de datos, cómpralo ahora.",
+      "price": 24500.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Capacidad",
+          "value": "2 TB"
+        },
+        {
+          "label": "Velocidad de transmisión",
+          "value": "540 MB/s"
+        },
+        {
+          "label": "Interfase",
+          "value": "USB 3.1 Tipo C"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        },
+        {
+          "label": "Tipo de producto",
+          "value": "Disco externo sólido (SSD)"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/95436/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/caa441cc3526ccb56d83.jpg",
+      "sourceCategory": "",
+      "category": "Almacenamiento",
+      "brand": "Hiksemi",
+      "collections": [],
+      "subcategory": "Discos SSD",
+      "description": "<p>💾 <strong>Capacidad:</strong> 2 TB<br>⚡ <strong>Velocidad de transmisión:</strong> 540 MB/s<br>🔌 <strong>Interfase:</strong> USB 3.1 Tipo C<br>🎨 <strong>Color:</strong> Negro<br>📦 <strong>Tipo de producto:</strong> Disco externo sólido (SSD)</p>",
+      "specificationsUpdated": "2026-10-21T16:51:34+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/7f379005-e728-4cea-8c08-0ec7022d7501.png"
+    },
+    {
+      "id": "80000095839",
+      "reference": "95839",
+      "name": "Proyector Portátil Epson Flex Co-W01 3Lcd Wxga 3000 Lúmenes",
+      "spec": "Proyector portátil Epson con tecnología 3LCD, resolución nativa WXGA de 1280 x 800, brillo de 3,000 lúmenes y puertos de conexión HDMI y USB.",
+      "price": 41600.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Epson"
+        },
+        {
+          "label": "Modelo",
+          "value": "CO-W01 (V11HA86020)"
+        },
+        {
+          "label": "Tecnología de proyección",
+          "value": "3LCD"
+        },
+        {
+          "label": "Brillo",
+          "value": "3,000 Lúmenes"
+        },
+        {
+          "label": "Resolución nativa",
+          "value": "WXGA (1280 x 800)"
+        },
+        {
+          "label": "Conexión HDMI",
+          "value": "1x HDMI (HDCP 1.4)"
+        },
+        {
+          "label": "Conexión USB",
+          "value": "1x USB Tipo A (PC Free, Módulo inalámbrico) / 1x USB Tipo B (Servicio)"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/95839/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/67ef1b37dc687fb6468b.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Epson",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏷️ <strong>Marca:</strong> Epson</p>\n<p>📦 <strong>Modelo:</strong> CO-W01 (V11HA86020)</p>\n<p>🖼️ <strong>Tecnología de proyección:</strong> 3LCD</p>\n<p>💡 <strong>Brillo:</strong> 3,000 Lúmenes</p>\n<p>🎯 <strong>Resolución nativa:</strong> WXGA (1280 x 800)</p>\n<p>🔌 <strong>Conexión HDMI:</strong> 1x HDMI (HDCP 1.4)</p>\n<p>🔌 <strong>Conexión USB:</strong> 1x USB Tipo A (PC Free, Módulo inalámbrico) / 1x USB Tipo B (Servicio)</p>",
+      "model": "CO-W01 (V11HA86020)",
+      "specificationsUpdated": "2026-10-21T16:51:34+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/96235ea0-df85-4b2e-adeb-0aadb9235f57.png"
     }
   ],
-  "updated": "2026-10-21T14:55:09+00:00"
+  "updated": "2026-10-21T16:51:34+00:00"
 }

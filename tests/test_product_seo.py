@@ -82,6 +82,14 @@ class ProductSEOTests(unittest.TestCase):
         self.assertNotIn('data-add=', page)
         self.assertIn('Consultar por WhatsApp', page)
 
+    def test_stock_quantity_is_visible_in_static_source_and_sold_out_fallback_is_honest(self):
+        page=render_page(dict(product(),stockQuantity=62,stockText='62 disponibles'),self.template)
+        self.assertIn('<p class="product-stock"><strong>Stock:</strong> <span>62 disponibles</span></p>',page)
+        soldout=render_page(dict(product(),stock=False),self.template)
+        self.assertIn('<span>Agotado</span>',soldout)
+        unknown=render_page(product(),self.template)
+        self.assertIn('<span>Disponible</span>',unknown)
+
     def test_coming_soon_has_visible_status_without_product_order_or_cart_buttons(self):
         page = render_page(dict(product(), stock=False, proximamente=True,
                                 description='<p data-start="3">Panel <strong>IPS</strong></p>'), self.template)

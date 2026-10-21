@@ -26,6 +26,8 @@ El precio publicado es el de Nexcom en centavos dividido entre 100, sin márgene
 
 Las descripciones conservan solamente `p`, `strong` y `br`, sin atributos, scripts ni estilos. Las filas `div` se convierten en párrafos. Se conserva la imagen local existente de Omega; Nexcom se descarga con HTTPS verificado solo como respaldo de una imagen ausente.
 
+El inventario visible usa `stockText` de Nexcom y `stockQuantity` cuando el texto indica una cantidad exacta (por ejemplo, «62 disponibles»). Un texto genérico no se convierte en una cantidad ni se usa `low_stock_remaining` como inventario total. Si desaparece un SKU se limpia su cantidad anterior y se muestra agotado. Tarjetas, fichas estáticas y la ficha antigua muestran el mismo estado, con prioridad para «Próximamente».
+
 Cada SKU deja en el log precio anterior, propuesto, retenido/publicado y fuente. Una diferencia superior a RD$500 retiene el precio anterior para revisión. Si más del 20% de los productos existentes propone un precio diferente, **se detiene toda la publicación**, incluso si se retienen individualmente algunos precios. Los productos nuevos no inflan el denominador de este control.
 
 El propietario aprobó una excepción al límite global únicamente para la migración inicial, conservando el límite de RD$500. El argumento manual `--initial-price-migration` solo funciona sobre el catálogo anterior identificado como Omega y se rechaza una vez que la fuente ya es Nexcom. El workflow no utiliza ese argumento: ambas protecciones siguen activas en todas las corridas diarias.

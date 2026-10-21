@@ -43,6 +43,15 @@ def money(price):
     return f'RD${Decimal(str(price)):,.2f}' if price is not None else 'Consultar precio'
 
 
+def stock_label(product):
+    if product.get('proximamente'): return 'Próximamente'
+    if not product['stock']: return 'Agotado'
+    if product.get('stockText'): return product['stockText']
+    quantity = product.get('stockQuantity')
+    if quantity is not None: return f'{quantity} ' + ('disponible' if quantity == 1 else 'disponibles')
+    return 'Disponible'
+
+
 def json_script(document):
     # A supplier string must never be able to close the JSON-LD script tag.
     return json.dumps(document, ensure_ascii=False, allow_nan=False).replace('&', '\\u0026').replace('<', '\\u003c').replace('>', '\\u003e')
@@ -109,6 +118,7 @@ def render_content(p):
       <nav class="product-category-path" aria-label="Categoría del producto">{breadcrumb}</nav>
       <h1>{e(p['name'])}</h1>
       <p class="product-reference">Referencia: <span>{e(p['reference'])}</span>{model}</p>
+      <p class="product-stock"><strong>Stock:</strong> <span>{e(stock_label(p))}</span></p>
       <div class="product-description"><p>{e(summary)}</p></div>
       <a class="text-link specifications-link" href="{product_path(p)}#caracteristicas">Ver características principales <span aria-hidden="true">↓</span></a>
       <div class="page-pricing"><strong>{money(p['price'])}</strong>{old}</div>

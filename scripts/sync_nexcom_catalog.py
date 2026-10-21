@@ -64,6 +64,12 @@ def sale_price(source):
     return float(amount)
 
 
+def source_quantity(source):
+    text = description_text((source.get('stock_availability') or {}).get('text', '')).strip()
+    match = re.fullmatch(r'(\d+|[1-9]\d{0,2}(?:[.,]\d{3})+)\s+disponibles?', text, re.I)
+    return int(re.sub(r'[.,]', '', match[1])) if match else None
+
+
 def source_stock(source):
     if type(source.get('is_in_stock')) is not bool:
         raise ValueError(f'Stock inválido para SKU {source.get("sku")}')
@@ -71,6 +77,7 @@ def source_stock(source):
     if not isinstance(availability, dict) or not isinstance(availability.get('class'), str):
         raise ValueError(f'Disponibilidad incompleta para SKU {source.get("sku")}')
     if availability['class'] in ('out-of-stock', 'available-on-backorder') or source.get('is_on_backorder') is True: return False
+    if source_quantity(source) == 0: return False
     return source['is_in_stock']
 
 
@@ -97,7 +104,7 @@ def excluded(source):
 
 def validate_public(products):
     validate(products)
-    allowed = set(PUBLIC_PRODUCT_FIELDS) | {'proximamente'}
+    allowed = set(PUBLIC_PRODUCT_FIELDS) | {'proximamente', 'stockQuantity', 'stockText'}
     for p in products:
         if set(p) - allowed: raise ValueError('Campo no público en catálogo Nexcom')
         if not isinstance(p.get('reference'), str) or not re.fullmatch(r'[1-9]\d{0,11}', p['reference']):
@@ -106,6 +113,11 @@ def validate_public(products):
             raise ValueError('Subcategoría pública vacía')
         if p.get('proximamente') is not None and (p['proximamente'] is not True or p['stock']):
             raise ValueError('Próximamente requiere stock falso')
+        quantity = p.get('stockQuantity')
+        if quantity is not None and (type(quantity) is not int or not 0 <= quantity <= 2**53 - 1 or (p['stock'] and quantity == 0) or (not p['stock'] and quantity > 0)):
+            raise ValueError('Cantidad de inventario inválida')
+        if 'stockText' in p and (not isinstance(p['stockText'], str) or not p['stockText'].strip()):
+            raise ValueError('Texto de inventario inválido')
         if not isinstance(p.get('image'), str) or not re.fullmatch(r'img/catalogo/[a-zA-Z0-9_-]+\.(?:avif|webp|png|jpe?g|gif|svg)', p['image']):
             raise ValueError('Ruta de imagen pública inválida')
 
@@ -122,6 +134,8 @@ def import_product(old, source, manual=False):
                    spec=description_text(source.get('short_description', '')),
                    price=sale_price(source), stock=source_stock(source),
                    specifications=[], features=[], specificationSources=[])
+    product['stockQuantity'] = source_quantity(source) if product['stock'] else 0
+    product['stockText'] = (description_text(source['stock_availability'].get('text', '')).strip() or 'Disponible') if product['stock'] else 'Agotado'
     product.setdefault('image', 'img/catalogo/sin-imagen.svg')
     product = classify(product)
     product = enrich(product, source)
@@ -161,7 +175,7 @@ def plan_catalog(current, items, seen, manual):
         old, source = previous.get(reference), sources.get(reference)
         if source is None:
             p = deepcopy(old)
-            p.update(stock=False, sourceUnavailable=True)
+            p.update(stock=False, sourceUnavailable=True, stockQuantity=0, stockText='Agotado')
             output.append(p)
             missing.append(reference)
             audit.append({'reference': reference, 'previousPrice': old['price'], 'newPrice': None,

@@ -44,6 +44,8 @@ function renderProductPage() {
     return;
   }
   if (view.dataset.prerendered === product.id) {
+    const stockValue = $('#product-view .product-stock span');
+    if (stockValue) stockValue.textContent = stockLabel(product);
     const related = products.filter(item => item.category === product.category && item.id !== product.id).slice(0, 3);
     $('#related-products').innerHTML = related.map(productCard).join('');
     $('#related-section').hidden = !related.length;
@@ -76,6 +78,7 @@ function renderProductPage() {
       <nav class="product-category-path" aria-label="Subcategoría del producto">${categoryPath}</nav>
       <h1>${escapeHTML(product.name)}</h1>
       <p class="product-reference">Referencia: <span>${escapeHTML(product.reference || product.id)}</span>${product.model ? ` · Modelo: <span>${escapeHTML(product.model)}</span>` : ''}</p>
+      <p class="product-stock"><strong>Stock:</strong> <span>${escapeHTML(stockLabel(product))}</span></p>
       ${summaryHTML ? `<div class="product-description">${summaryHTML}</div>` : ''}
       <a class="text-link specifications-link" href="#caracteristicas">Ver características principales <span aria-hidden="true">↓</span></a>
       <div class="page-pricing"><strong>${money(product.price)}</strong>${hasPrice(product) && product.old > product.price ? `<del>${money(product.old)}</del>` : ''}</div>

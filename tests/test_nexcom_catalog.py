@@ -147,6 +147,29 @@ class NexcomCatalogTests(unittest.TestCase):
     def test_unknown_stock_or_missing_currency_rejects_catalog(self):
         s=source();s['is_in_stock']='yes'
         with self.assertRaises(ValueError):sync.source_stock(s)
+
+    def test_exact_stock_quantity_and_safe_text_are_imported_from_nexcom(self):
+        incoming=source();incoming['stock_availability']['text']='<span>62 disponibles</span>'
+        out=sync.import_product(old(),incoming)
+        self.assertEqual(out['stockQuantity'],62)
+        self.assertEqual(out['stockText'],'62 disponibles')
+        sync.validate_public([out])
+
+    def test_unknown_stock_count_is_not_inferred_from_low_stock_threshold(self):
+        incoming=source();incoming['stock_availability']['text']='Hay existencias';incoming['low_stock_remaining']=2
+        out=sync.import_product(old(),incoming)
+        self.assertIsNone(out['stockQuantity'])
+        self.assertEqual(out['stockText'],'Hay existencias')
+
+    def test_zero_quantity_and_missing_source_clear_availability_and_old_count(self):
+        incoming=source();incoming['stock_availability']['text']='0 disponibles'
+        self.assertFalse(sync.source_stock(incoming))
+        out=sync.import_product(old(),incoming)
+        self.assertEqual(out['stockQuantity'],0)
+        previous=dict(old(),stockQuantity=62,stockText='62 disponibles')
+        result,_,_=sync.plan_catalog(catalog([previous]),[source('100002')],{'100001','100002'},set())
+        self.assertEqual(result['products'][0]['stockQuantity'],0)
+        self.assertEqual(result['products'][0]['stockText'],'Agotado')
         s=source();s['stock_availability']={}
         with self.assertRaises(ValueError):sync.source_stock(s)
 
