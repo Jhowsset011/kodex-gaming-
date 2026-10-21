@@ -125,6 +125,12 @@ def import_product(old, source, manual=False):
     product.setdefault('image', 'img/catalogo/sin-imagen.svg')
     product = classify(product)
     product = enrich(product, source)
+    # The historical importer has two owner-specific hardware caveats. A
+    # single-source import keeps the API value instead of those legacy edits.
+    for row in product['specifications']:
+        if 'sourceValue' in row:
+            row['value'] = row.pop('sourceValue')
+    product.pop('specificationNote', None)
     product['description'] = clean_description(source.get('description', ''))
     product['specificationSources'] = [source['permalink']]
     if not product['stock'] and (not old or manual or old.get('proximamente')):

@@ -54,6 +54,14 @@ class NexcomCatalogTests(unittest.TestCase):
         self.assertEqual(len(result['products']), 1)
         self.assertEqual(set(baseline['skus']), {'100001', '100002'})
 
+    def test_legacy_hardware_caveats_do_not_replace_nexcom_specifications(self):
+        previous=dict(old(),id='19296')
+        incoming=source();incoming['description']='<p>Puertos: HDMI 2.0</p>'
+        result,_,_=sync.plan_catalog(catalog([previous]),[incoming],{'100001'},set())
+        product=result['products'][0]
+        self.assertEqual(next(r['value'] for r in product['specifications'] if r['label']=='Puertos'),'HDMI 2.0')
+        self.assertNotIn('specificationNote',product)
+
     def test_new_unavailable_product_is_imported_then_released_and_not_relabelled_later(self):
         rows = [source(), source('100002', stock=False)]
         result, baseline, report = sync.plan_catalog(catalog(), rows, {'100001'}, set())
