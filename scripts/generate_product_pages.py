@@ -128,7 +128,7 @@ def render_page(product, template):
               'sku': p['reference'], 'category': categories}
     if p['price'] is not None:
         schema['offers'] = {'@type': 'Offer', 'url': url, 'priceCurrency': 'DOP',
-                            'price': format(Decimal(str(p['price'])), '.2f'),
+                            'price': p['price'],
                             'availability': 'https://schema.org/' + ('InStock' if p['stock'] else 'OutOfStock'),
                             'itemCondition': 'https://schema.org/NewCondition'}
     metadata = f'''<link rel="canonical" href="{e(url)}">
