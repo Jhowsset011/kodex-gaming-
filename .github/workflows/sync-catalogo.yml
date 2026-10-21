@@ -1,4 +1,4 @@
-name: Sincronizar catálogo Omega
+name: Sincronizar catálogo Nexcom
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       refresh_catalog:
-        description: Consultar Omega antes de regenerar SEO (desactivar para publicar el último catálogo válido)
+        description: Consultar Nexcom antes de regenerar SEO (desactivar para publicar el último catálogo válido)
         type: boolean
         default: true
         required: true
@@ -47,32 +47,9 @@ jobs:
         run: python3 -m unittest discover -s tests -v
       - name: Probar eventos del píxel sin enviar datos a Meta
         run: node --test tests/test_meta_pixel.cjs
-      - name: Comprobar reglas privadas de venta
-        id: pricing
-        env:
-          OMEGA_PRICING_RULES: ${{ secrets.OMEGA_PRICING_RULES }}
-        run: |
-          if [ -z "${OMEGA_PRICING_RULES:-}" ]; then
-            echo 'enabled=false' >> "$GITHUB_OUTPUT"
-            echo '::notice::Falta OMEGA_PRICING_RULES en los secrets de Actions. El catálogo publicado se conserva; la actualización automática queda pendiente.'
-          else
-            python3 - <<'PY'
-          import os
-          import sys
-          sys.path.insert(0, 'scripts')
-          from omega_pricing import PricingPolicy
-          policy = PricingPolicy.from_env()
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
-              print('enabled=' + str(policy.rounding_enabled).lower(), file=output)
-          if not policy.rounding_enabled:
-              print('::notice::Las reglas privadas requieren rounding. Se conservan los precios redondeados publicados hasta actualizar OMEGA_PRICING_RULES.')
-          PY
-          fi
       - name: Actualizar precios, disponibilidad, fichas e imágenes
-        if: steps.pricing.outputs.enabled == 'true' && (github.event_name != 'workflow_dispatch' || inputs.refresh_catalog)
-        env:
-          OMEGA_PRICING_RULES: ${{ secrets.OMEGA_PRICING_RULES }}
-        run: python3 scripts/sync_omega.py --require-rounding
+        if: github.event_name != 'workflow_dispatch' || inputs.refresh_catalog
+        run: python3 scripts/sync_nexcom_catalog.py --report-file "$RUNNER_TEMP/nexcom-reporte.json" --cost-output "$RUNNER_TEMP/nexcom-costos-estimados.json"
       - name: Generar SEO y guardar catálogo
         # SEO uses the validated public catalog, even when pricing is unchanged.
         # Removing a catalog item removes its generated directory in this step.
@@ -82,11 +59,12 @@ jobs:
           python3 scripts/generate_product_pages.py --lastmod "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git add js/productos-v2.json js/productos.json scripts/omega_ids.txt img/catalogo
           git add -A producto sitemap.xml robots.txt
+          git add scripts/nexcom_seen_skus.json
           if [ -f data/omega-selection.json ]; then git add data/omega-selection.json; fi
           if git diff --cached --quiet; then
             echo 'Sin cambios en el catálogo.'
           else
-            git commit -m 'Actualizar catálogo seleccionado desde Omega'
+            git commit -m 'Actualizar catálogo y SEO desde Nexcom'
             git push origin HEAD:main
           fi
       - name: Preparar sitio actualizado

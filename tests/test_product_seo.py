@@ -82,6 +82,16 @@ class ProductSEOTests(unittest.TestCase):
         self.assertNotIn('data-add=', page)
         self.assertIn('Consultar por WhatsApp', page)
 
+    def test_coming_soon_has_visible_status_without_product_order_or_cart_buttons(self):
+        page = render_page(dict(product(), stock=False, proximamente=True,
+                                description='<p data-start="3">Panel <strong>IPS</strong></p>'), self.template)
+        self.assertIn('Próximamente', page)
+        self.assertNotIn('data-order-product=', page)
+        self.assertNotIn('data-add=', page)
+        self.assertNotIn('Consultar por WhatsApp', page)
+        self.assertIn('<p>Panel <strong>IPS</strong></p>', page)
+        self.assertNotIn('data-start', page)
+
     def test_supplier_markup_cannot_inject_html_or_close_json_ld(self):
         name = '</script><img src=x onerror=alert(1)> & "Monitor"'
         page = render_page(dict(product(), name=name, description=name), self.template)

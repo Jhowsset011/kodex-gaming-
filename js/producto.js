@@ -51,18 +51,19 @@ function renderProductPage() {
     return;
   }
   document.title = `${product.name} | Kodex Gaming`;
-  document.querySelector('meta[name="description"]').content = `${product.name}. ${product.description || product.spec || ''}`;
+  document.querySelector('meta[name="description"]').content = `${product.name}. ${descriptionText(product.description || product.spec || '')}`;
   $('#product-breadcrumb').textContent = product.name;
-  const description = String(product.description || product.spec || '').trim();
+  const rawDescription = String(product.description || product.spec || '').trim();
+  const description = descriptionText(rawDescription);
   const normalizeText = text => String(text).replace(/\s+/g, ' ').trim().toLocaleLowerCase('es');
   const specifications = (Array.isArray(product.specifications) ? product.specifications : []).filter(row => row && row.label && row.value && !(normalizeText(row.label) === 'información del producto' && normalizeText(row.value) === normalizeText(description)));
   if (!product.sourceUnavailable && !product.sourceContentConflict && product.brand && !specifications.some(row => /^(marca|fabricante)$/i.test(row.label))) specifications.unshift({label:'Marca', value:product.brand});
   const features = [...new Set((Array.isArray(product.features) ? product.features : []).filter(feature => feature && normalizeText(feature) !== normalizeText(description)))];
-  const firstParagraph = description.split(/\n+/).find(Boolean) || '';
+  const firstParagraph = descriptionText(product.spec || '').trim() || description.split(/\n+/).find(Boolean) || '';
   const summary = firstParagraph.length > 240 ? `${firstParagraph.slice(0, 240).replace(/\s+\S*$/, '').replace(/[ ,;:]+$/, '')}…` : firstParagraph;
   const summaryHTML = summary && normalizeText(summary) !== normalizeText(product.name) ? `<p>${escapeHTML(summary)}</p>` : '';
   const descriptionAddsDetail = normalizeText(description) !== normalizeText(product.name) && normalizeText(description) !== normalizeText(summary);
-  const paragraphs = descriptionAddsDetail ? description.split(/\n+/).filter(Boolean).map(text => `<p>${escapeHTML(text)}</p>`).join('') : '';
+  const paragraphs = /<(?:p|strong|br)\b/i.test(rawDescription) ? descriptionMarkup(rawDescription) : descriptionAddsDetail ? description.split(/\n+/).filter(Boolean).map(text => `<p>${escapeHTML(text)}</p>`).join('') : '';
   const rows = specifications.map(row => `<div class="spec-row"><dt>${specificationIcon(row.label)}<span>${escapeHTML(row.label)}</span></dt><dd>${escapeHTML(row.value)}</dd></div>`).join('');
   const sources = manufacturerLinks(product.specificationSources);
   const categoryParams = new URLSearchParams({categoria:product.category, subcategoria:product.subcategory});
@@ -78,7 +79,7 @@ function renderProductPage() {
       <a class="text-link specifications-link" href="#caracteristicas">Ver características principales <span aria-hidden="true">↓</span></a>
       <div class="page-pricing"><strong>${money(product.price)}</strong>${hasPrice(product) && product.old > product.price ? `<del>${money(product.old)}</del>` : ''}</div>
       ${productActions(product, true)}
-      <p class="purchase-hint">${canOrder(product) ? 'Pedidos y asesoría por WhatsApp.' : 'Consulta alternativas con nuestro equipo por WhatsApp.'}</p>
+      <p class="purchase-hint">${product.proximamente ? 'Próximamente' : canOrder(product) ? 'Pedidos y asesoría por WhatsApp.' : 'Consulta alternativas con nuestro equipo por WhatsApp.'}</p>
     </div>
   </div>
   <section class="specifications-section" id="caracteristicas" aria-labelledby="specifications-title">

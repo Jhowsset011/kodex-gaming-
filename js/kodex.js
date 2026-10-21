@@ -6,8 +6,27 @@ let catalogLoading = true;
 
 const money = value => Number.isFinite(value) ? 'RD$' + value.toLocaleString('en-US', {minimumFractionDigits:2, maximumFractionDigits:2}) : 'Consultar precio';
 const hasPrice = product => Number.isFinite(product.price) && product.price > 0;
-const canOrder = product => product.stock && hasPrice(product);
+const canOrder = product => product.stock && !product.proximamente && hasPrice(product);
 const escapeHTML = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function descriptionMarkup(value) {
+  const template = document.createElement('template');
+  template.innerHTML = String(value || '');
+  const render = node => {
+    if (node.nodeType === 3) return escapeHTML(node.textContent);
+    if (node.nodeType !== 1) return '';
+    const tag = node.tagName.toLowerCase();
+    if (['script', 'style', 'iframe', 'object', 'template'].includes(tag)) return '';
+    if (tag === 'br') return '<br>';
+    const content = [...node.childNodes].map(render).join('');
+    return ['p', 'strong'].includes(tag) ? `<${tag}>${content}</${tag}>` : content;
+  };
+  return [...template.content.childNodes].map(render).join('');
+}
+function descriptionText(value) {
+  const template = document.createElement('template');
+  template.innerHTML = descriptionMarkup(value).replace(/<br>/g, '\n').replace(/<\/p>/g, '\n');
+  return template.content.textContent.trim();
+}
 const $ = selector => document.querySelector(selector);
 const grid = $('#products'), cartDialog = $('#cart');
 const isProductPage = Boolean($('#product-page'));
@@ -103,6 +122,7 @@ function renderFilterUI() {
   }
 }
 function badgeFor(p) {
+  if (p.proximamente) return 'Próximamente';
   if (!canOrder(p)) return 'No disponible';
   if (p.old && p.old > p.price) return `−${Math.round((1 - p.price / p.old) * 100)}%`;
   return '';
@@ -117,6 +137,7 @@ function orderURL(items) {
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 }
 function productActions(p, detail = false) {
+  if (p.proximamente) return '';
   if (!canOrder(p)) return '<button class="order-product" disabled>No disponible</button>';
   return `<div class="product-actions ${detail ? 'detail-actions' : ''}"><a class="order-product" data-order-product="${escapeHTML(p.id)}" href="${escapeHTML(orderURL([{product:p, quantity:1}]))}" target="_blank" rel="noopener noreferrer" aria-label="Hacer pedido de ${escapeHTML(p.name)} por WhatsApp">Hacer pedido ${arrowIcon}</a><button class="add" data-add="${p.id}" aria-label="Añadir ${escapeHTML(p.name)} al carrito" title="Añadir al carrito">${cartIcon}${detail ? '<span>Añadir al carrito</span>' : ''}</button></div>`;
 }
@@ -393,6 +414,7 @@ function validateCatalog(data) {
     if (p.image && !/^img\/catalogo\/[a-zA-Z0-9_-]+\.(?:avif|webp|png|jpe?g|gif|svg)$/.test(p.image)) throw new Error('Imagen inválida');
     if (p.old !== undefined && (!hasPrice(p) || !Number.isFinite(p.old) || p.old <= p.price)) throw new Error('Oferta inválida');
     if (typeof p.subcategory !== 'string' || !p.subcategory.trim()) throw new Error('Subcategoría inválida');
+    if (p.proximamente !== undefined && (p.proximamente !== true || p.stock)) throw new Error('Próximamente inválido');
     ids.add(p.id);
   }
   return data.products;
