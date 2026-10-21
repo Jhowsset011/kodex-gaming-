@@ -14,6 +14,7 @@ from urllib.parse import quote, urlencode, urljoin
 import xml.etree.ElementTree as ET
 
 from manufacturer_sources import validate_manufacturer_url
+from catalog_markup import clean_description, description_text
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://kodexgaming.com'
@@ -65,11 +66,14 @@ def specification_icon(label):
 
 def render_content(p):
     e = escape
-    description = str(p.get('description') or p.get('spec') or '').strip()
+    raw_description = str(p.get('description') or p.get('spec') or '').strip()
+    description = description_text(raw_description)
     normalize = lambda text: ' '.join(text.split()).casefold()
-    summary = description.splitlines()[0] if description else ''
+    summary = description_text(p.get('spec', '')) or (description.splitlines()[0] if description else '')
     if len(summary) > 240: summary = summary[:240].rsplit(' ', 1)[0] + '…'
     paragraphs = ''.join(f'<p>{e(line)}</p>' for line in description.splitlines() if line.strip()) if normalize(description) not in (normalize(p['name']), normalize(summary)) else ''
+    if re.search(r'<(?:p|strong|br)\b', raw_description, re.I):
+        paragraphs = clean_description(raw_description)
     rows = [row for row in p.get('specifications', []) if not (normalize(row['label']) == 'información del producto' and normalize(row['value']) == normalize(description))]
     if p.get('brand') and not p.get('sourceContentConflict') and not any(row['label'].casefold() in ('marca', 'fabricante') for row in rows):
         rows.insert(0, {'label': 'Marca', 'value': p['brand']})
@@ -92,8 +96,9 @@ def render_content(p):
     breadcrumb = ' <span aria-hidden="true">›</span> '.join(categories)
     text = f'Hola, me interesa {p["name"]} (REF {p["reference"]})'
     whatsapp = f'https://wa.me/18098796463?text={quote(text, safe="")}'
-    available = p.get('stock') and p.get('price') is not None and p['price'] > 0
+    available = p.get('stock') and not p.get('proximamente') and p.get('price') is not None and p['price'] > 0
     actions = f'<div class="product-actions detail-actions"><a class="order-product" data-order-product="{e(p["id"])}" href="{e(whatsapp)}" target="_blank" rel="noopener noreferrer">Hacer pedido {ARROW}</a><button class="add" data-add="{e(p["id"])}" aria-label="Añadir {e(p["name"])} al carrito" title="Añadir al carrito">{CART}<span>Añadir al carrito</span></button></div>' if available else f'<button class="order-product" disabled>No disponible</button><a class="text-link" href="{e(whatsapp)}" target="_blank" rel="noopener noreferrer">Consultar por WhatsApp</a>'
+    if p.get('proximamente'): actions = ''
     old = f'<del>{money(p["old"])}</del>' if p.get('old') and p['price'] is not None and p['old'] > p['price'] else ''
     model = f' · Modelo: <span>{e(p["model"])}</span>' if p.get('model') else ''
     return f'''<div class="product-overview">
@@ -107,7 +112,7 @@ def render_content(p):
       <a class="text-link specifications-link" href="{product_path(p)}#caracteristicas">Ver características principales <span aria-hidden="true">↓</span></a>
       <div class="page-pricing"><strong>{money(p['price'])}</strong>{old}</div>
       {actions}
-      <p class="purchase-hint">{'Pedidos y asesoría por WhatsApp.' if available else 'Consulta alternativas con nuestro equipo por WhatsApp.'}</p>
+      <p class="purchase-hint">{'Próximamente' if p.get('proximamente') else 'Pedidos y asesoría por WhatsApp.' if available else 'Consulta alternativas con nuestro equipo por WhatsApp.'}</p>
     </div>
   </div>
   <section class="specifications-section" id="caracteristicas" aria-labelledby="specifications-title">
@@ -124,7 +129,7 @@ def render_page(product, template):
     description = f'{p["name"]} a {money(p["price"])} en KODEX GAMING, Santo Domingo. {categories}. Escríbenos por WhatsApp.'
     image = urljoin(SITE + '/', p.get('image') or 'img/catalogo/sin-imagen.svg')
     schema = {'@context': 'https://schema.org', '@type': 'Product', 'name': p['name'],
-              'image': image, 'description': p.get('description') or p.get('spec') or p['name'],
+              'image': image, 'description': description_text(p.get('description') or p.get('spec') or p['name']),
               'sku': p['reference'], 'category': categories}
     if p['price'] is not None:
         schema['offers'] = {'@type': 'Offer', 'url': url, 'priceCurrency': 'DOP',
