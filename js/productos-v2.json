@@ -1,6 +1,6 @@
 {
   "source": "Nexcom — API pública (sku = referencia)",
-  "count": 532,
+  "count": 538,
   "products": [
     {
       "id": "19182",
@@ -28222,7 +28222,337 @@
       "sourceCategory": "Bocina",
       "model": "Xtreme 5 (JBLXTREME4BLKAM)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+    },
+    {
+      "id": "80000085842",
+      "reference": "85842",
+      "name": "Teléfono Ip Grandstream Gxp-2170 Poe Gigabit",
+      "spec": "Teléfono IP con soporte para 12 líneas, 6 cuentas SIP, pantalla a color de 4.3 pulgadas, conectividad dual Gigabit y PoE integrado.",
+      "price": 8200.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Líneas",
+          "value": "Admite hasta 12 líneas"
+        },
+        {
+          "label": "Cuentas SIP",
+          "value": "6 cuentas SIP"
+        },
+        {
+          "label": "Conferencia de voz",
+          "value": "Capacidad de 5 vías"
+        },
+        {
+          "label": "Pantalla",
+          "value": "LCD a color de 4.3 pulgadas (480 x 272)"
+        },
+        {
+          "label": "Teclas",
+          "value": "5 teclas programables y 48 teclas de marcación rápida/BLF digital"
+        },
+        {
+          "label": "Puertos de red",
+          "value": "Puertos Gigabit duales"
+        },
+        {
+          "label": "Alimentación",
+          "value": "PoE integrado (Power over Ethernet)"
+        },
+        {
+          "label": "Bluetooth",
+          "value": "Integrado para conectividad con dispositivos y auriculares"
+        },
+        {
+          "label": "Extensibilidad",
+          "value": "Compatible con hasta 4 módulos de extensión GXP2200EXT para 160 contactos"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/85842/"
+      ],
+      "image": "img/catalogo/b0161c72bd27220079c8.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Grandstream",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📞 <strong>Líneas:</strong> Admite hasta 12 líneas</p>\n<p>🆔 <strong>Cuentas SIP:</strong> 6 cuentas SIP</p>\n<p>🔊 <strong>Conferencia de voz:</strong> Capacidad de 5 vías</p>\n<p>🖥️ <strong>Pantalla:</strong> LCD a color de 4.3 pulgadas (480 x 272)</p>\n<p>⌨️ <strong>Teclas:</strong> 5 teclas programables y 48 teclas de marcación rápida/BLF digital</p>\n<p>🔌 <strong>Puertos de red:</strong> Puertos Gigabit duales</p>\n<p>⚡ <strong>Alimentación:</strong> PoE integrado (Power over Ethernet)</p>\n<p>📶 <strong>Bluetooth:</strong> Integrado para conectividad con dispositivos y auriculares</p>\n<p>⚙️ <strong>Extensibilidad:</strong> Compatible con hasta 4 módulos de extensión GXP2200EXT para 160 contactos</p>",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/23d43c60-608d-4988-9660-208dc4d625e4.png"
+    },
+    {
+      "id": "80000093743",
+      "reference": "93743",
+      "name": "Teclado Mouse Logitech Mk850 Performance Wireless Combo Bluetooth USB",
+      "spec": "Teclado Y Mouse Inalámbricos Con Bluetooth Usb Y Reposa Muñecas",
+      "price": 6600.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Conectividad",
+          "value": "Bluetooth y receptor inalámbrico USB 2.4GHz"
+        },
+        {
+          "label": "Alcance inalámbrico",
+          "value": "10 metros"
+        },
+        {
+          "label": "Seguridad",
+          "value": "Encriptación inalámbrica"
+        },
+        {
+          "label": "Duración batería teclado",
+          "value": "36 meses"
+        },
+        {
+          "label": "Duración batería mouse",
+          "value": "18 meses"
+        },
+        {
+          "label": "Resolución mouse",
+          "value": "1000 DPI"
+        },
+        {
+          "label": "Botones mouse",
+          "value": "8 botones"
+        },
+        {
+          "label": "Característica adicional",
+          "value": "Reposa muñecas"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/93743/"
+      ],
+      "image": "img/catalogo/309f30a1b1220e95f76d.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Logitech",
+      "collections": [],
+      "subcategory": "Combos de teclado y mouse",
+      "description": "<p>🔌 <strong>Conectividad:</strong> Bluetooth y receptor inalámbrico USB 2.4GHz</p>\n<p>📶 <strong>Alcance inalámbrico:</strong> 10 metros</p>\n<p>🔒 <strong>Seguridad:</strong> Encriptación inalámbrica</p>\n<p>⌨️ <strong>Duración batería teclado:</strong> 36 meses</p>\n<p>🖱️ <strong>Duración batería mouse:</strong> 18 meses</p>\n<p>🎯 <strong>Resolución mouse:</strong> 1000 DPI</p>\n<p>🔘 <strong>Botones mouse:</strong> 8 botones</p>\n<p>🛋️ <strong>Característica adicional:</strong> Reposa muñecas</p>",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/7d7d96b5-05f6-4078-89f1-8f79fd1cfd5d.png"
+    },
+    {
+      "id": "80000095542",
+      "reference": "95542",
+      "name": "Case Gamer Corsair 3000D Airflow Negro",
+      "spec": "Chasis de PC tipo torre intermedia en color negro con lateral de vidrio templado. Soporta radiadores de hasta 360 mm, GPUs de hasta 360 mm y cuenta con conectividad frontal USB 3.2 Gen 1.",
+      "price": 5000.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Dimensiones",
+          "value": "466 mm x 462 mm x 230 mm"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        },
+        {
+          "label": "Peso",
+          "value": "8.6 kg"
+        },
+        {
+          "label": "Tamaño",
+          "value": "Torre intermedia"
+        },
+        {
+          "label": "Fuente de alimentación",
+          "value": "ATX (longitud máxima de 220 mm)"
+        },
+        {
+          "label": "Compatibilidad de radiador",
+          "value": "120 mm, 140 mm, 240 mm, 280 mm, 360 mm"
+        },
+        {
+          "label": "Longitud máxima de GPU",
+          "value": "360 mm"
+        },
+        {
+          "label": "Altura máxima de enfriador de CPU",
+          "value": "170 mm"
+        },
+        {
+          "label": "Bahías de unidades",
+          "value": "2x 3.5 pulgadas o 2x 2.5 pulgadas"
+        },
+        {
+          "label": "E/S frontal",
+          "value": "2x USB 3.2 Gen 1 Tipo-A y conector combinado para auriculares/micrófono"
+        },
+        {
+          "label": "Ventana",
+          "value": "Vidrio templado"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/95542/"
+      ],
+      "image": "img/catalogo/a808bc581e315047f5b8.jpg",
+      "sourceCategory": "",
+      "category": "Componentes",
+      "brand": "Corsair",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "Gabinetes / Case",
+      "description": "<p>📐 <strong>Dimensiones:</strong> 466 mm x 462 mm x 230 mm</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>⚖️ <strong>Peso:</strong> 8.6 kg</p>\n<p>🖥️ <strong>Tamaño:</strong> Torre intermedia</p>\n<p>🔌 <strong>Fuente de alimentación:</strong> ATX (longitud máxima de 220 mm)</p>\n<p>🧊 <strong>Compatibilidad de radiador:</strong> 120 mm, 140 mm, 240 mm, 280 mm, 360 mm</p>\n<p>🎮 <strong>Longitud máxima de GPU:</strong> 360 mm</p>\n<p>🌡️ <strong>Altura máxima de enfriador de CPU:</strong> 170 mm</p>\n<p>🚪 <strong>Bahías de unidades:</strong> 2x 3.5 pulgadas o 2x 2.5 pulgadas</p>\n<p>🔌 <strong>E/S frontal:</strong> 2x USB 3.2 Gen 1 Tipo-A y conector combinado para auriculares/micrófono</p>\n<p>🖼️ <strong>Ventana:</strong> Vidrio templado</p>\n<p>🛡️ <strong>Garantía:</strong> 30 días</p>",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/438149c7-2e5c-41dd-895f-5bd0a762d77c.png"
+    },
+    {
+      "id": "800000104739",
+      "reference": "104739",
+      "name": "Cámara De Vigilancia Domo Ip Hikvision Smart Hybrid Light 2Mp Ip67",
+      "spec": "Cámara domo IP Hikvision con tecnología Smart Hybrid Light y micrófono integrado. Resolución 2MP y protección IP67.",
+      "price": 2800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo",
+          "value": "Cámara de vigilancia domo"
+        },
+        {
+          "label": "Tecnología",
+          "value": "Smart Hybrid Light"
+        },
+        {
+          "label": "Conectividad",
+          "value": "IP Network"
+        },
+        {
+          "label": "Audio",
+          "value": "Micrófono integrado"
+        },
+        {
+          "label": "Resolución",
+          "value": "2MP"
+        },
+        {
+          "label": "Protección",
+          "value": "IP67"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/104739/"
+      ],
+      "image": "img/catalogo/833b3135fb3efa128602.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Tipo:</strong> Cámara de vigilancia domo</p>\n<p>💡 <strong>Tecnología:</strong> Smart Hybrid Light</p>\n<p>🌐 <strong>Conectividad:</strong> IP Network</p>\n<p>🔊 <strong>Audio:</strong> Micrófono integrado</p>\n<p>📏 <strong>Resolución:</strong> 2MP</p>\n<p>🔒 <strong>Protección:</strong> IP67</p>",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/8b2b3afa-c443-474f-b65d-f2c167b3b640.png"
+    },
+    {
+      "id": "800000106722",
+      "reference": "106722",
+      "name": "Cpu Intel Core Ultra 7 265K 20 P.core 3.9Ghz E.core 3.3Ghz 30MB Lga1851",
+      "spec": "Cpu Intel Core Ultra 7 265K Con 20 Núcleos Y 30MB Caché",
+      "price": 35200.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Núcleos",
+          "value": "20 P.Core"
+        },
+        {
+          "label": "Frecuencia P.Core",
+          "value": "3.9 GHz"
+        },
+        {
+          "label": "Frecuencia E.Core",
+          "value": "3.3 GHz"
+        },
+        {
+          "label": "Memoria Caché",
+          "value": "30 MB"
+        },
+        {
+          "label": "Socket",
+          "value": "LGA1851"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/106722/"
+      ],
+      "image": "img/catalogo/c6614e8a2842b4cb8996.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Intel",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>⚙️ <strong>Núcleos:</strong> 20 P.Core</p>\n<p>⏱️ <strong>Frecuencia P.Core:</strong> 3.9 GHz</p>\n<p>⏱️ <strong>Frecuencia E.Core:</strong> 3.3 GHz</p>\n<p>💾 <strong>Memoria Caché:</strong> 30 MB</p>\n<p>🔌 <strong>Socket:</strong> LGA1851</p>",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0a0ffe11-1a22-4c54-9d0a-2cfa36e8f5b9.png"
+    },
+    {
+      "id": "800000109613",
+      "reference": "109613",
+      "name": "Monitor Gamer 27″ AOC 27G50F Full HD 260Hz G-Sync Freesync",
+      "spec": "Monitor gamer AOC 27G50F con pantalla LCD de 27″ y resolución Full HD. Soporta G-Sync y FreeSync con frecuencia de 260Hz.",
+      "price": 10500.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tamaño de pantalla",
+          "value": "27 pulgadas"
+        },
+        {
+          "label": "Tipo de pantalla",
+          "value": "LCD"
+        },
+        {
+          "label": "Resolución",
+          "value": "1920 x 1080 Full HD"
+        },
+        {
+          "label": "Frecuencia de actualización",
+          "value": "260 Hz"
+        },
+        {
+          "label": "Tecnologías",
+          "value": "G-Sync, FreeSync"
+        },
+        {
+          "label": "Entradas",
+          "value": "HDMI, DisplayPort"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        },
+        {
+          "label": "HDR",
+          "value": "High Dynamic Range"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/109613/"
+      ],
+      "image": "img/catalogo/7fdc7d81eea48944e2ec.jpg",
+      "sourceCategory": "",
+      "category": "Monitores",
+      "brand": "AOC",
+      "collections": [
+        "Zona Gamer"
+      ],
+      "subcategory": "De escritorio",
+      "description": "<p>🖥️ <strong>Tamaño de pantalla:</strong> 27 pulgadas</p>\n<p>📺 <strong>Tipo de pantalla:</strong> LCD</p>\n<p>🎯 <strong>Resolución:</strong> 1920 x 1080 Full HD</p>\n<p>⚡ <strong>Frecuencia de actualización:</strong> 260 Hz</p>\n<p>🔄 <strong>Tecnologías:</strong> G-Sync, FreeSync</p>\n<p>🔌 <strong>Entradas:</strong> HDMI, DisplayPort</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>🌈 <strong>HDR:</strong> High Dynamic Range</p>",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/bd654487-38bc-448f-a8f5-4abd4ea32bf8.png"
     }
   ],
-  "updated": "2026-10-21T02:14:31+00:00"
+  "updated": "2026-10-21T14:55:09+00:00"
 }
