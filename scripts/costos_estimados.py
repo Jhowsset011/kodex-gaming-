@@ -1,5 +1,6 @@
 """Derived estimates only: never update verified VIP costs or public catalogs."""
 import argparse
+from datetime import datetime, timezone
 from decimal import Decimal, ROUND_HALF_UP
 import json
 import os
@@ -23,10 +24,17 @@ def estimate_cost(price, reference, table):
     return (Decimal(str(price)) * factor).quantize(Decimal('0.01'), rounding=ROUND_HALF_UP)
 
 
-def cost_document(catalog, table):
-    return {'updated': catalog['updated'], 'kind': 'estimate', 'source': 'Nexcom',
-            'products': [{'reference': p['reference'], 'estimatedCost': str(estimate_cost(p['price'], p['reference'], table))}
-                         for p in catalog['products']]}
+def cost_document(catalog, table, source_prices=None):
+    products = []
+    for product in catalog['products']:
+        reference = product['reference']
+        price = product['price'] if source_prices is None else source_prices.get(reference)
+        products.append({'reference': reference, 'nexcomPublicPrice': price,
+                         'estimatedCost': str(estimate_cost(price, reference, table)) if price is not None else None,
+                         'status': 'estimated' if price is not None else 'source_unavailable'})
+    return {'updated': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+            'catalogUpdated': catalog['updated'], 'kind': 'estimate', 'source': 'Nexcom',
+            'products': products}
 
 
 if __name__ == '__main__':
@@ -37,6 +45,13 @@ if __name__ == '__main__':
     if args.output.resolve().is_relative_to(ROOT.resolve()):
         parser.error('Los costos estimados no se guardan dentro del repositorio público')
     # An existing destination may contain official financial data. Never replace it.
-    document = cost_document(json.loads(args.catalog.read_text()), load_factors())
+    if args.output.exists(): parser.error('El destino ya existe; no se reemplazan archivos financieros')
+    from nexcom_feed import fetch_catalog, index_sources
+    from sync_nexcom_catalog import sale_price
+    catalog = json.loads(args.catalog.read_text())
+    sources = index_sources(fetch_catalog())
+    prices = {p['reference']: sale_price(sources[p['reference']])
+              for p in catalog['products'] if p['reference'] in sources}
+    document = cost_document(catalog, load_factors(), prices)
     with os.fdopen(os.open(args.output, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600), 'w', encoding='utf-8') as handle:
         json.dump(document, handle, ensure_ascii=False, indent=2)

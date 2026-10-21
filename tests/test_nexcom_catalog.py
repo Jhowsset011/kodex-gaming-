@@ -108,6 +108,23 @@ class NexcomCatalogTests(unittest.TestCase):
         self.assertEqual(report['retainedPrices'], ['100001'])
         with self.assertRaises(sync.PriceGuardError): sync.enforce_guards(report)
 
+    def test_initial_exception_keeps_individual_500_guard(self):
+        result,_,report=sync.plan_catalog(catalog(),[source(price=160000)],{'100001'},set())
+        sync.enforce_guards(report,initial_migration=True)
+        self.assertEqual(result['products'][0]['price'],1000)
+        self.assertEqual(report['retainedPrices'],['100001'])
+        with self.assertRaises(sync.PriceGuardError):sync.enforce_guards(report)
+
+    def test_initial_exception_is_rejected_once_source_is_nexcom(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);(root/'js').mkdir()
+            current=dict(catalog(),source='Nexcom — API pública')
+            path=root/'js/productos-v2.json';path.write_text(json.dumps(current));before=path.read_bytes()
+            with patch.object(sync,'ROOT',root),patch.object(sys,'argv',['sync','--initial-price-migration']),patch.object(sync,'fetch_catalog') as fetch:
+                with self.assertRaisesRegex(ValueError,'nunca sobre Nexcom'):sync.main()
+                fetch.assert_not_called()
+            self.assertEqual(path.read_bytes(),before)
+
     def test_exact_20_percent_allowed_and_over_20_rejected(self):
         products = [old(str(100001+i)) for i in range(5)]
         rows = [source(str(100001+i), price=110000 if i == 0 else 100000) for i in range(5)]
@@ -168,6 +185,14 @@ class NexcomCatalogTests(unittest.TestCase):
         self.assertEqual(document['kind'],'estimate')
         self.assertEqual(current,before)
         self.assertNotIn('estimatedCost',json.dumps(current))
+
+    def test_estimates_use_fresh_nexcom_price_even_when_sale_price_is_held(self):
+        current=catalog()
+        document=cost_document(current,load_factors(),{'100001':1600})
+        self.assertEqual(document['products'][0]['estimatedCost'],'1129.92')
+        self.assertEqual(current['products'][0]['price'],1000)
+        missing=cost_document(current,load_factors(),{})
+        self.assertIsNone(missing['products'][0]['estimatedCost'])
 
     def test_cost_export_refuses_to_replace_any_existing_financial_file(self):
         with tempfile.TemporaryDirectory() as directory:

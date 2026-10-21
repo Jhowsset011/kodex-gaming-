@@ -26,7 +26,9 @@ El precio publicado es el de Nexcom en centavos dividido entre 100, sin márgene
 
 Las descripciones conservan solamente `p`, `strong` y `br`, sin atributos, scripts ni estilos. Las filas `div` se convierten en párrafos. Se conserva la imagen local existente de Omega; Nexcom se descarga con HTTPS verificado solo como respaldo de una imagen ausente.
 
-Cada SKU deja en el log precio anterior, propuesto, retenido/publicado y fuente. Una diferencia superior a RD$500 retiene el precio anterior para revisión. Si más del 20% de los productos existentes propone un precio diferente, **se detiene toda la publicación**, incluso si se retienen individualmente algunos precios. Los productos nuevos no inflan el denominador de este control. No hay una excepción automática para la primera migración.
+Cada SKU deja en el log precio anterior, propuesto, retenido/publicado y fuente. Una diferencia superior a RD$500 retiene el precio anterior para revisión. Si más del 20% de los productos existentes propone un precio diferente, **se detiene toda la publicación**, incluso si se retienen individualmente algunos precios. Los productos nuevos no inflan el denominador de este control.
+
+El propietario aprobó una excepción al límite global únicamente para la migración inicial, conservando el límite de RD$500. El argumento manual `--initial-price-migration` solo funciona sobre el catálogo anterior identificado como Omega y se rechaza una vez que la fuente ya es Nexcom. El workflow no utiliza ese argumento: ambas protecciones siguen activas en todas las corridas diarias.
 
 Una respuesta incompleta, SKU ambiguo, precio inválido o fallo de red deja intacto el catálogo publicado. Tres SKU existentes ausentes se conservan con su precio anterior y sin disponibilidad; ausencias masivas detienen la publicación. El reporte completo también se puede guardar con `--report-file`.
 
@@ -40,4 +42,4 @@ El workflow calcula el archivo interno en `$RUNNER_TEMP`: **no se sube como arte
 python3 scripts/costos_estimados.py --catalog js/productos-v2.json --output /ruta/privada/nuevo-estimado.json
 ```
 
-El destino debe ser nuevo y estar fuera del repositorio público. Tiene permisos de archivo privados. La utilidad nunca reemplaza un archivo existente ni un costo VIP. Conectar estos estimados a una aplicación financiera externa requiere su backend; esta migración no presume una conexión que aún no se ha configurado.
+El destino debe ser nuevo y estar fuera del repositorio público. Tiene permisos de archivo privados. La utilidad consulta el precio actual de Nexcom: si el candado retuvo un precio de venta anterior en Kodex, el costo se estima igualmente desde el precio actual de Nexcom, no desde el precio retenido. Las referencias ausentes quedan sin estimado. La utilidad nunca reemplaza un archivo existente ni un costo VIP. Conectar estos estimados a una aplicación financiera externa requiere su backend; esta migración no presume una conexión que aún no se ha configurado.

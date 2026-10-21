@@ -193,8 +193,8 @@ def plan_catalog(current, items, seen, manual):
     return catalog, baseline, report
 
 
-def enforce_guards(report):
-    if report['priceGuardBlocked']:
+def enforce_guards(report, initial_migration=False):
+    if report['priceGuardBlocked'] and not initial_migration:
         raise PriceGuardError(f"Candado 20%: {report['proposedPriceChanges']}/{report['existingCount']} precios propuestos cambian. No se publica el catálogo ni el registro de vistos.")
     if len(report['missingExisting']) > max(3, report['existingCount'] // 20):
         raise ValueError('Nexcom no contiene demasiadas referencias existentes; se conserva el catálogo')
@@ -251,6 +251,8 @@ def print_report(report):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--dry-run', action='store_true')
+    parser.add_argument('--initial-price-migration', action='store_true',
+                        help='Excepción aprobada por el propietario solo para pasar de Omega a Nexcom; mantiene el límite de RD$500')
     parser.add_argument('--source-file', type=Path, help='Captura completa verificada para revisión puntual; nunca caché automática')
     parser.add_argument('--report-file', type=Path)
     parser.add_argument('--cost-output', type=Path, help='Archivo interno de estimados fuera del repositorio; no sustituye costos VIP')
@@ -258,13 +260,17 @@ def main():
     if args.cost_output and (args.cost_output.resolve().is_relative_to(ROOT.resolve()) or args.cost_output.exists()):
         parser.error('El archivo de costos debe ser nuevo y externo al repositorio público')
     current = json.loads((ROOT / 'js/productos-v2.json').read_text(encoding='utf-8'))
+    if args.initial_price_migration and ('omega' not in current.get('source', '').lower() or 'nexcom' in current.get('source', '').lower()):
+        raise ValueError('La excepción inicial solo se admite sobre el catálogo anterior de Omega, nunca sobre Nexcom')
     items = json.loads(args.source_file.read_text()) if args.source_file else fetch_catalog()
     seen = read_seen(ROOT / 'scripts/nexcom_seen_skus.json')
     manual = read_manual(ROOT / 'scripts/altas-manuales.json')
     catalog, baseline, report = plan_catalog(current, items, seen, manual)
+    if args.initial_price_migration:
+        report['initialMigrationException'] = 'Aprobada por el propietario; solo límite global, se conserva el candado RD$500'
     print_report(report)
     if args.report_file: write_json(args.report_file, report)
-    enforce_guards(report)
+    enforce_guards(report, initial_migration=args.initial_price_migration)
     if args.dry_run:
         print('Validado sin modificar catálogo, imágenes, costos ni registro de SKUs.')
         return
@@ -276,8 +282,10 @@ def main():
     validate_public(catalog['products'])
     if args.cost_output:
         # Exclusive creation: this cannot overwrite a verified financial record.
+        source_prices = {p['reference']: sale_price(sources[p['reference']])
+                         for p in catalog['products'] if p['reference'] in sources}
         with os.fdopen(os.open(args.cost_output, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o600), 'w', encoding='utf-8') as handle:
-            json.dump(cost_document(catalog, load_factors()), handle, ensure_ascii=False, indent=2)
+            json.dump(cost_document(catalog, load_factors(), source_prices), handle, ensure_ascii=False, indent=2)
     for name in ('productos-v2.json', 'productos.json'):
         write_json(ROOT / 'js' / name, catalog)
     write_json(ROOT / 'scripts/nexcom_seen_skus.json', baseline)
