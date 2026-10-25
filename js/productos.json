@@ -1,6 +1,6 @@
 {
   "source": "Nexcom — API pública (sku = referencia)",
-  "count": 545,
+  "count": 549,
   "products": [
     {
       "id": "19182",
@@ -149,8 +149,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 19,
-      "stockText": "19 disponibles",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -271,8 +271,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 217,
-      "stockText": "217 disponibles",
+      "stockQuantity": 216,
+      "stockText": "216 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -720,8 +720,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 338,
-      "stockText": "338 disponibles",
+      "stockQuantity": 333,
+      "stockText": "333 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1233,8 +1233,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 1741,
-      "stockText": "1741 disponibles",
+      "stockQuantity": 1736,
+      "stockText": "1736 disponibles",
       "model": "DTXG2/64GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1555,8 +1555,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 162,
-      "stockText": "162 disponibles",
+      "stockQuantity": 161,
+      "stockText": "161 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1712,8 +1712,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 66,
-      "stockText": "66 disponibles",
+      "stockQuantity": 65,
+      "stockText": "65 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1765,8 +1765,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 56,
-      "stockText": "56 disponibles",
+      "stockQuantity": 81,
+      "stockText": "81 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2260,8 +2260,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 79,
-      "stockText": "79 disponibles",
+      "stockQuantity": 76,
+      "stockText": "76 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2866,8 +2866,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Tarjeta Madre",
-      "stockQuantity": 18,
-      "stockText": "18 disponibles",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "B760M Gaming Plus",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3383,8 +3383,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 114,
-      "stockText": "114 disponibles",
+      "stockQuantity": 113,
+      "stockText": "113 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3428,8 +3428,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 78,
-      "stockText": "78 disponibles",
+      "stockQuantity": 68,
+      "stockText": "68 disponibles",
       "model": "XTK-092S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3474,8 +3474,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 72,
-      "stockText": "72 disponibles",
+      "stockQuantity": 51,
+      "stockText": "51 disponibles",
       "model": "xtk-160e",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3520,8 +3520,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 338,
-      "stockText": "338 disponibles",
+      "stockQuantity": 337,
+      "stockText": "337 disponibles",
       "model": "xtk-160s",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3607,8 +3607,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 2532,
-      "stockText": "2532 disponibles",
+      "stockQuantity": 2531,
+      "stockText": "2531 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4935,8 +4935,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 55,
-      "stockText": "55 disponibles",
+      "stockQuantity": 54,
+      "stockText": "54 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5152,8 +5152,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 39,
-      "stockText": "39 disponibles",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5638,8 +5638,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 84,
-      "stockText": "84 disponibles",
+      "stockQuantity": 82,
+      "stockText": "82 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5910,8 +5910,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 13,
-      "stockText": "13 disponibles",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6649,8 +6649,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 81,
-      "stockText": "81 disponibles",
+      "stockQuantity": 79,
+      "stockText": "79 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7247,8 +7247,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 305,
-      "stockText": "305 disponibles",
+      "stockQuantity": 296,
+      "stockText": "296 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8893,8 +8893,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 30,
+      "stockText": "30 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9047,8 +9047,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 288,
-      "stockText": "288 disponibles",
+      "stockQuantity": 228,
+      "stockText": "228 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9210,8 +9210,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 17,
-      "stockText": "17 disponibles",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "SXS2000/1000G",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9256,8 +9256,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 243,
-      "stockText": "243 disponibles",
+      "stockQuantity": 228,
+      "stockText": "228 disponibles",
       "model": "XTM-185",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9302,8 +9302,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 492,
-      "stockText": "492 disponibles",
+      "stockQuantity": 442,
+      "stockText": "442 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9893,8 +9893,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 246,
-      "stockText": "246 disponibles",
+      "stockQuantity": 188,
+      "stockText": "188 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10083,8 +10083,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 495,
-      "stockText": "495 disponibles",
+      "stockQuantity": 279,
+      "stockText": "279 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10149,7 +10149,7 @@
       "subcategory": "Tarjetas gráficas",
       "brand": "MSI",
       "price": 116200.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/a9ecdeb8b68d3ea326a1.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/792aac08-6daf-43c7-8ebb-bd9f7528d429.png",
       "description": "<p>🏷️ <strong>Marca:</strong> MSI</p>\n<p>🎮 <strong>Modelo:</strong> GeForce RTX 5070 Ti Frieren Edition OC</p>\n<p>🧠 <strong>Memoria:</strong> 16GB GDDR7</p>\n<p>🔌 <strong>Interfaz:</strong> PCI Express 5.0 x16</p>\n<p>⚙️ <strong>Arquitectura:</strong> NVIDIA Blackwell</p>\n<p>❄️ <strong>Enfriamiento:</strong> Tri Frozr 4</p>\n<p>💡 <strong>Iluminacion:</strong> RGB</p>\n<p>📺 <strong>Puertos:</strong> 3x DisplayPort + 1x HDMI</p>\n<p>📏 <strong>Factor de forma:</strong> ATX</p>",
@@ -10197,10 +10197,11 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta De Video",
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 0,
+      "stockText": "Agotado",
       "model": "GeForce RTX 5070 Ti Frieren Edition OC",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "13313",
@@ -10263,8 +10264,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 428,
-      "stockText": "428 disponibles",
+      "stockQuantity": 422,
+      "stockText": "422 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10514,8 +10515,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 16,
-      "stockText": "16 disponibles",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11435,8 +11436,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 560,
-      "stockText": "560 disponibles",
+      "stockQuantity": 559,
+      "stockText": "559 disponibles",
       "model": "AGI-C015",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -12252,8 +12253,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 49,
-      "stockText": "49 disponibles",
+      "stockQuantity": 48,
+      "stockText": "48 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12922,8 +12923,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 253,
-      "stockText": "253 disponibles",
+      "stockQuantity": 200,
+      "stockText": "200 disponibles",
       "model": "M190",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13037,8 +13038,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 92,
-      "stockText": "92 disponibles",
+      "stockQuantity": 91,
+      "stockText": "91 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13094,8 +13095,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 132,
-      "stockText": "132 disponibles",
+      "stockQuantity": 129,
+      "stockText": "129 disponibles",
       "model": "SkyHawk ST2000VX017",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13425,8 +13426,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 3,
-      "stockText": "3 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "LS27HG610SNXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -15308,8 +15309,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 133,
-      "stockText": "133 disponibles",
+      "stockQuantity": 126,
+      "stockText": "126 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15537,8 +15538,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 240,
-      "stockText": "240 disponibles",
+      "stockQuantity": 232,
+      "stockText": "232 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15955,8 +15956,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 20,
-      "stockText": "20 disponibles",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16053,8 +16054,8 @@
       ],
       "collections": [],
       "sourceCategory": "Soportes",
-      "stockQuantity": 79,
-      "stockText": "79 disponibles",
+      "stockQuantity": 78,
+      "stockText": "78 disponibles",
       "model": "XTA-475",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16731,8 +16732,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17089,8 +17090,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 107,
-      "stockText": "107 disponibles",
+      "stockQuantity": 106,
+      "stockText": "106 disponibles",
       "model": "PRO MP273L E14",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17159,8 +17160,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 67,
-      "stockText": "67 disponibles",
+      "stockQuantity": 66,
+      "stockText": "66 disponibles",
       "model": "PRO MP243L E14",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17586,8 +17587,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
-      "stockQuantity": 26,
-      "stockText": "26 disponibles",
+      "stockQuantity": 24,
+      "stockText": "24 disponibles",
       "model": "MAG CORELIQUID A12 360",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18206,8 +18207,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 26,
-      "stockText": "26 disponibles",
+      "stockQuantity": 25,
+      "stockText": "25 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18277,8 +18278,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 114,
-      "stockText": "114 disponibles",
+      "stockQuantity": 112,
+      "stockText": "112 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18441,8 +18442,8 @@
       ],
       "collections": [],
       "sourceCategory": "Accesorios De Computadoras",
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 57,
+      "stockText": "57 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19684,8 +19685,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 99,
-      "stockText": "99 disponibles",
+      "stockQuantity": 119,
+      "stockText": "119 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19741,8 +19742,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 186,
-      "stockText": "186 disponibles",
+      "stockQuantity": 185,
+      "stockText": "185 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19894,8 +19895,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20534,8 +20535,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 3,
-      "stockText": "3 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20832,8 +20833,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 75,
-      "stockText": "75 disponibles",
+      "stockQuantity": 73,
+      "stockText": "73 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21935,8 +21936,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23586,8 +23587,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 139,
-      "stockText": "139 disponibles",
+      "stockQuantity": 137,
+      "stockText": "137 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23704,8 +23705,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 164,
-      "stockText": "164 disponibles",
+      "stockQuantity": 163,
+      "stockText": "163 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24073,8 +24074,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24193,7 +24194,7 @@
       "subcategory": "Otros accesorios",
       "brand": "MSI",
       "price": 2800.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/c13e0f13b68607c16858.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/da3e7b05-ed74-4e54-8058-0f7bf89f9e92.png",
       "description": "<p>🔢 <strong>SKU:</strong> 110856</p>\n<p>🏷️ <strong>Marca:</strong> MSI</p>\n<p>📦 <strong>Modelo:</strong> MAG MT101G</p>\n<p>🖥️ <strong>Compatibilidad de tamaño:</strong> De 17 a 32 pulgadas</p>\n<p>⚙️ <strong>Tipo de movimiento:</strong> Articulado</p>\n<p>🔧 <strong>Tipo de montaje:</strong> Anclaje al escritorio</p>",
@@ -24229,11 +24230,10 @@
       ],
       "collections": [],
       "sourceCategory": "Misc.",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "model": "MAG MT101G",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "900000110893",
@@ -24950,8 +24950,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
-      "stockQuantity": 197,
-      "stockText": "197 disponibles",
+      "stockQuantity": 189,
+      "stockText": "189 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25093,8 +25093,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 78,
-      "stockText": "78 disponibles",
+      "stockQuantity": 76,
+      "stockText": "76 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25311,8 +25311,8 @@
       ],
       "collections": [],
       "sourceCategory": "Electros",
-      "stockQuantity": 268,
-      "stockText": "268 disponibles",
+      "stockQuantity": 258,
+      "stockText": "258 disponibles",
       "model": "TM30",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27700,8 +27700,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28184,8 +28184,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Bultos Y Mochilas",
-      "stockQuantity": 12,
-      "stockText": "12 disponibles",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28409,8 +28409,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Audifono Con Microfono",
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -29882,9 +29882,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🖨️ <strong>Modelo:</strong> 58A – CF258A</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>📄 <strong>Capacidad:</strong> 3000 páginas</p>\n<p>🖥️ <strong>Compatibilidad:</strong> Impresoras LaserJet M404n, M404dw, M428fdw, M428dw, M430f</p>\n<p>⚙️ <strong>Tipo:</strong> Toner para impresora láser</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/0805d108-3623-409a-8486-b8fd3ebe844a.png",
       "model": "58A – CF258A",
-      "specificationsUpdated": "2026-10-24T13:52:59+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/0805d108-3623-409a-8486-b8fd3ebe844a.png"
+      "specificationsUpdated": "2026-10-24T13:52:59+00:00"
     },
     {
       "id": "800000104704",
@@ -29928,8 +29928,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Compatibilidad:</strong> Cámara DS-PDCM15PF-IR</p>\n<p>🌧️ <strong>Protección:</strong> Ip65</p>\n<p>📏 <strong>Rango De Detección:</strong> 15 metros</p>\n<p>🔄 <strong>Movilidad De Lente:</strong> Eje de 180°</p>\n<p>🐕 <strong>Inmunidad A Mascotas:</strong> Hasta 40 kg</p>",
-      "specificationsUpdated": "2026-10-24T13:52:59+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/329e8057-2ed3-45f3-8d13-4c40985e76bd.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/329e8057-2ed3-45f3-8d13-4c40985e76bd.png",
+      "specificationsUpdated": "2026-10-24T13:52:59+00:00"
     },
     {
       "id": "800000109477",
@@ -29973,10 +29973,205 @@
       "collections": [],
       "subcategory": "Mouse pads",
       "description": "<p>🖱️ <strong>Marca:</strong> Xtech</p>\n<p>🎨 <strong>Temática:</strong> Marvel Fantastic 4</p>\n<p>🧵 <strong>Material:</strong> Tela</p>\n<p>📏 <strong>Modelo:</strong> XTA-M190F4-XL</p>\n<p>🔢 <strong>SKU:</strong> 109477</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/mouse-pad-xtech-edicion-fantastic4-blue-xta-m19f4-xl.webp",
       "model": "XTA-M190F4-XL",
-      "specificationsUpdated": "2026-10-24T13:52:59+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/mouse-pad-xtech-edicion-fantastic4-blue-xta-m19f4-xl.webp"
+      "specificationsUpdated": "2026-10-24T13:52:59+00:00"
+    },
+    {
+      "id": "80000066034",
+      "reference": "66034",
+      "name": "Toner Hp 55A – Ce255A – Negro – 6,000 Paginas – Para Impresora Laserjet P3011 P3015, M521Dn",
+      "spec": "Tóner negro CE255A compatible con impresoras LaserJet P3011, P3015 y M521dn. Rendimiento de 6,000 páginas.",
+      "price": 15800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Modelo",
+          "value": "CE255A"
+        },
+        {
+          "label": "Color",
+          "value": "Negro"
+        },
+        {
+          "label": "Rendimiento",
+          "value": "6,000 páginas"
+        },
+        {
+          "label": "Compatibilidad",
+          "value": "Impresora LaserJet P3011, P3015, M521dn"
+        },
+        {
+          "label": "Tipo",
+          "value": "Tóner láser"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/66034/"
+      ],
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
+      "image": "img/catalogo/3cbd80b7dce3d939346a.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "HP",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🖨️ <strong>Modelo:</strong> CE255A</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>📄 <strong>Rendimiento:</strong> 6,000 páginas</p>\n<p>🖥️ <strong>Compatibilidad:</strong> Impresora LaserJet P3011, P3015, M521dn</p>\n<p>🧴 <strong>Tipo:</strong> Tóner láser</p>",
+      "model": "CE255A",
+      "specificationsUpdated": "2026-10-25T14:09:03+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/66034.png"
+    },
+    {
+      "id": "800000104834",
+      "reference": "104834",
+      "name": "Regleta Agiler 120V 15Amp 6 Salidas Cable 1.8M 1800W Power On Off",
+      "spec": "Regleta 6 Salidas 120v 15amp 1800w Con Cable 1.8m Y Proteccion Sobrecarga",
+      "price": 1200.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Voltaje",
+          "value": "120V"
+        },
+        {
+          "label": "Corriente",
+          "value": "15AMP"
+        },
+        {
+          "label": "Potencia",
+          "value": "1800W"
+        },
+        {
+          "label": "Salidas",
+          "value": "6"
+        },
+        {
+          "label": "Longitud Cable",
+          "value": "1.8 metros (6 pies)"
+        },
+        {
+          "label": "Interruptor",
+          "value": "Power On/Off"
+        },
+        {
+          "label": "Protección",
+          "value": "Sobrecarga"
+        },
+        {
+          "label": "Calibre Cable",
+          "value": "16AWG"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/104834/"
+      ],
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
+      "image": "img/catalogo/6237c0f1832ae7380967.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Agiler",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🔌 <strong>Voltaje:</strong> 120V</p>\n<p>⚡ <strong>Corriente:</strong> 15AMP</p>\n<p>🔋 <strong>Potencia:</strong> 1800W</p>\n<p>🔌 <strong>Salidas:</strong> 6</p>\n<p>📏 <strong>Longitud Cable:</strong> 1.8 metros (6 pies)</p>\n<p>🔄 <strong>Interruptor:</strong> Power On/Off</p>\n<p>🛡️ <strong>Protección:</strong> Sobrecarga</p>\n<p>🔌 <strong>Calibre Cable:</strong> 16AWG</p>",
+      "specificationsUpdated": "2026-10-25T14:09:03+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/674cd1e4-8135-4678-8b93-27baa51c87ac.png"
+    },
+    {
+      "id": "800000106199",
+      "reference": "106199",
+      "name": "Cartucho Hp 938 Yellow 800 Paginas Officejet Wide Format Mfp 9730",
+      "spec": "Cartucho amarillo hp 938 para impresora officejet wide format mfp 9730 con 800 paginas",
+      "price": 2200.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Modelo",
+          "value": "938"
+        },
+        {
+          "label": "Color",
+          "value": "Yellow"
+        },
+        {
+          "label": "Capacidad",
+          "value": "800 paginas"
+        },
+        {
+          "label": "Compatible Con",
+          "value": "Officejet Wide Format MFP 9730"
+        },
+        {
+          "label": "SKU",
+          "value": "106199"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/106199/"
+      ],
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
+      "image": "img/catalogo/9cf20fff0e0a8ceff8c2.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "HP",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🖨️ <strong>Modelo:</strong> 938</p>\n<p>🎨 <strong>Color:</strong> Yellow</p>\n<p>📄 <strong>Capacidad:</strong> 800 paginas</p>\n<p>🖥️ <strong>Compatible Con:</strong> Officejet Wide Format MFP 9730</p>\n<p>🔢 <strong>SKU:</strong> 106199</p>",
+      "model": "938",
+      "specificationsUpdated": "2026-10-25T14:09:03+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/61e3d69b-f496-47b7-9cc4-6ecb5e4f913f.png"
+    },
+    {
+      "id": "800000106200",
+      "reference": "106200",
+      "name": "Cartucho Magenta Hp 938 4S6X6Pl 800 Páginas Officejet Wide Format 9730",
+      "spec": "Cartucho de tinta magenta HP 938 con capacidad para 800 páginas. Compatible con impresora OfficeJet Wide Format MFP 9730.",
+      "price": 2200.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Modelo",
+          "value": "938"
+        },
+        {
+          "label": "Color",
+          "value": "Magenta"
+        },
+        {
+          "label": "Capacidad",
+          "value": "800 páginas"
+        },
+        {
+          "label": "Compatible con",
+          "value": "OfficeJet Wide Format MFP 9730"
+        },
+        {
+          "label": "SKU",
+          "value": "106200"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/106200/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/7b0c2b6e293ec00b4ab5.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "HP",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🖨️ <strong>Modelo:</strong> 938</p>\n<p>🎨 <strong>Color:</strong> Magenta</p>\n<p>📄 <strong>Capacidad:</strong> 800 páginas</p>\n<p>🖥️ <strong>Compatible con:</strong> OfficeJet Wide Format MFP 9730</p>\n<p>🔢 <strong>SKU:</strong> 106200</p>",
+      "model": "938",
+      "specificationsUpdated": "2026-10-25T14:09:03+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/19a9fe2b-2e21-43c0-8e15-ebe6112dfcad.png"
     }
   ],
-  "updated": "2026-10-24T13:52:59+00:00"
+  "updated": "2026-10-25T14:09:03+00:00"
 }
