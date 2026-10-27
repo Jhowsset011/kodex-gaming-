@@ -1,6 +1,6 @@
 {
   "source": "Nexcom — API pública (sku = referencia)",
-  "count": 622,
+  "count": 649,
   "products": [
     {
       "id": "19182",
@@ -334,8 +334,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 203,
-      "stockText": "203 disponibles",
+      "stockQuantity": 202,
+      "stockText": "202 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -671,8 +671,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 7,
-      "stockText": "7 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1187,8 +1187,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 166,
-      "stockText": "166 disponibles",
+      "stockQuantity": 164,
+      "stockText": "164 disponibles",
       "model": "DTXG2/256GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1233,8 +1233,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 1725,
-      "stockText": "1725 disponibles",
+      "stockQuantity": 1636,
+      "stockText": "1636 disponibles",
       "model": "DTXG2/64GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1279,8 +1279,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 26,
-      "stockText": "26 disponibles",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "Data Traveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1325,8 +1325,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 770,
-      "stockText": "770 disponibles",
+      "stockQuantity": 750,
+      "stockText": "750 disponibles",
       "model": "Data Traveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1555,8 +1555,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 161,
-      "stockText": "161 disponibles",
+      "stockQuantity": 156,
+      "stockText": "156 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1601,8 +1601,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 1588,
-      "stockText": "1588 disponibles",
+      "stockQuantity": 1585,
+      "stockText": "1585 disponibles",
       "model": "DataTraveler Exodia M",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1765,8 +1765,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 81,
-      "stockText": "81 disponibles",
+      "stockQuantity": 80,
+      "stockText": "80 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2260,8 +2260,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 76,
-      "stockText": "76 disponibles",
+      "stockQuantity": 58,
+      "stockText": "58 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2350,8 +2350,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 50,
-      "stockText": "50 disponibles",
+      "stockQuantity": 48,
+      "stockText": "48 disponibles",
       "model": "M100",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2488,8 +2488,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 928,
-      "stockText": "928 disponibles",
+      "stockQuantity": 908,
+      "stockText": "908 disponibles",
       "model": "ARGOM 360",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2774,8 +2774,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
-      "stockQuantity": 41,
-      "stockText": "41 disponibles",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2819,8 +2819,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 44,
-      "stockText": "44 disponibles",
+      "stockQuantity": 41,
+      "stockText": "41 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3428,8 +3428,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 78,
-      "stockText": "78 disponibles",
+      "stockQuantity": 75,
+      "stockText": "75 disponibles",
       "model": "XTK-092S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3474,8 +3474,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 66,
-      "stockText": "66 disponibles",
+      "stockQuantity": 61,
+      "stockText": "61 disponibles",
       "model": "xtk-160e",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3520,8 +3520,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 337,
-      "stockText": "337 disponibles",
+      "stockQuantity": 331,
+      "stockText": "331 disponibles",
       "model": "xtk-160s",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3607,8 +3607,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 2529,
-      "stockText": "2529 disponibles",
+      "stockQuantity": 2469,
+      "stockText": "2469 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3701,8 +3701,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3935,8 +3935,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 68,
-      "stockText": "68 disponibles",
+      "stockQuantity": 66,
+      "stockText": "66 disponibles",
       "model": "Mk370",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3981,8 +3981,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 2092,
-      "stockText": "2092 disponibles",
+      "stockQuantity": 2055,
+      "stockText": "2055 disponibles",
       "model": "ARG-AC-1233R",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4188,8 +4188,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 129,
-      "stockText": "129 disponibles",
+      "stockQuantity": 128,
+      "stockText": "128 disponibles",
       "model": "Expansion",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4283,8 +4283,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 164,
-      "stockText": "164 disponibles",
+      "stockQuantity": 162,
+      "stockText": "162 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4328,8 +4328,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 53,
-      "stockText": "53 disponibles",
+      "stockQuantity": 52,
+      "stockText": "52 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5053,8 +5053,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 184,
-      "stockText": "184 disponibles",
+      "stockQuantity": 178,
+      "stockText": "178 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5251,8 +5251,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 33,
-      "stockText": "33 disponibles",
+      "stockQuantity": 32,
+      "stockText": "32 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5465,8 +5465,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 242,
-      "stockText": "242 disponibles",
+      "stockQuantity": 236,
+      "stockText": "236 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5736,8 +5736,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 53,
-      "stockText": "53 disponibles",
+      "stockQuantity": 52,
+      "stockText": "52 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5846,8 +5846,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 72,
-      "stockText": "72 disponibles",
+      "stockQuantity": 54,
+      "stockText": "54 disponibles",
       "model": "AGI-9895",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -6148,8 +6148,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 151,
-      "stockText": "151 disponibles",
+      "stockQuantity": 147,
+      "stockText": "147 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6242,8 +6242,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 161,
-      "stockText": "161 disponibles",
+      "stockQuantity": 154,
+      "stockText": "154 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6409,8 +6409,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 257,
-      "stockText": "257 disponibles",
+      "stockQuantity": 247,
+      "stockText": "247 disponibles",
       "model": "xta-526",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -6649,8 +6649,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 79,
-      "stockText": "79 disponibles",
+      "stockQuantity": 77,
+      "stockText": "77 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6859,8 +6859,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 121,
-      "stockText": "121 disponibles",
+      "stockQuantity": 115,
+      "stockText": "115 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7000,8 +7000,8 @@
       ],
       "collections": [],
       "sourceCategory": "Punto De Venta",
-      "stockQuantity": 77,
-      "stockText": "77 disponibles",
+      "stockQuantity": 76,
+      "stockText": "76 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7247,8 +7247,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 295,
-      "stockText": "295 disponibles",
+      "stockQuantity": 291,
+      "stockText": "291 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7421,8 +7421,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 73,
-      "stockText": "73 disponibles",
+      "stockQuantity": 69,
+      "stockText": "69 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7545,8 +7545,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
-      "stockQuantity": 23,
-      "stockText": "23 disponibles",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "Voyager XTA-180",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7711,8 +7711,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 336,
-      "stockText": "336 disponibles",
+      "stockQuantity": 334,
+      "stockText": "334 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7854,8 +7854,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 105,
-      "stockText": "105 disponibles",
+      "stockQuantity": 99,
+      "stockText": "99 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7946,8 +7946,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8308,7 +8308,7 @@
       "subcategory": "Fuentes de poder",
       "brand": "Antec",
       "price": 16900.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/304dd8e75b58089608e9.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/91e7b272-2847-44c8-9a28-7003d68007c2.png",
       "description": "<p>⚡ <strong>Potencia:</strong> 1000W</p>\n<p>🔋 <strong>Certificación:</strong> 80 Plus Platinum</p>\n<p>🔌 <strong>Compatibilidad:</strong> ATX 3.1, PCIe 5.1</p>\n<p>🧩 <strong>Conectores:</strong> 1x MB 24-pin, 2x CPU 8-pin, 1x 16-pin PCIe 5.1, 3x PCIe 8-pin, 14x SATA, 3x Molex</p>\n<p>🌀 <strong>Ventilador:</strong> 135mm FDB con modo Zero RPM</p>\n<p>🛡️ <strong>Protecciones:</strong> OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO</p>\n<p>🔧 <strong>Diseño:</strong> 100% modular con capacitores japoneses</p>\n<p>⚙️ <strong>Tecnología:</strong> PhaseWave™ LLC puente completo</p>",
@@ -8352,9 +8352,10 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "stockQuantity": 0,
+      "stockText": "Agotado",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "15291",
@@ -8397,8 +8398,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 273,
-      "stockText": "273 disponibles",
+      "stockQuantity": 268,
+      "stockText": "268 disponibles",
       "model": "AC260KLX01",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8443,8 +8444,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 7,
-      "stockText": "7 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8492,8 +8493,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 3,
-      "stockText": "3 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "Pebble M350S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8893,8 +8894,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 42,
-      "stockText": "42 disponibles",
+      "stockQuantity": 39,
+      "stockText": "39 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8994,8 +8995,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 62,
-      "stockText": "62 disponibles",
+      "stockQuantity": 61,
+      "stockText": "61 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9047,8 +9048,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 288,
-      "stockText": "288 disponibles",
+      "stockQuantity": 285,
+      "stockText": "285 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9102,8 +9103,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 22,
-      "stockText": "22 disponibles",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9161,8 +9162,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 122,
-      "stockText": "122 disponibles",
+      "stockQuantity": 117,
+      "stockText": "117 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9256,8 +9257,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 243,
-      "stockText": "243 disponibles",
+      "stockQuantity": 242,
+      "stockText": "242 disponibles",
       "model": "XTM-185",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9893,8 +9894,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 238,
-      "stockText": "238 disponibles",
+      "stockQuantity": 206,
+      "stockText": "206 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10083,8 +10084,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 482,
-      "stockText": "482 disponibles",
+      "stockQuantity": 441,
+      "stockText": "441 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10136,8 +10137,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 116,
-      "stockText": "116 disponibles",
+      "stockQuantity": 104,
+      "stockText": "104 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10264,8 +10265,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 416,
-      "stockText": "416 disponibles",
+      "stockQuantity": 389,
+      "stockText": "389 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10359,8 +10360,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
-      "stockQuantity": 27,
-      "stockText": "27 disponibles",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10674,8 +10675,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 32,
-      "stockText": "32 disponibles",
+      "stockQuantity": 31,
+      "stockText": "31 disponibles",
       "model": "920-007901",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10804,8 +10805,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Teclados",
-      "stockQuantity": 77,
-      "stockText": "77 disponibles",
+      "stockQuantity": 76,
+      "stockText": "76 disponibles",
       "model": "Forge GK110",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10913,8 +10914,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "XTK-140S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11095,8 +11096,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 22,
-      "stockText": "22 disponibles",
+      "stockQuantity": 19,
+      "stockText": "19 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11152,8 +11153,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
-      "stockQuantity": 73,
-      "stockText": "73 disponibles",
+      "stockQuantity": 72,
+      "stockText": "72 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11200,8 +11201,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 13,
-      "stockText": "13 disponibles",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "model": "KCK-300S (KeyRoll Wireless)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11436,8 +11437,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 556,
-      "stockText": "556 disponibles",
+      "stockQuantity": 555,
+      "stockText": "555 disponibles",
       "model": "AGI-C015",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11696,8 +11697,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tarjeta Madre",
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12108,8 +12109,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 109,
-      "stockText": "109 disponibles",
+      "stockQuantity": 98,
+      "stockText": "98 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12153,8 +12154,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 143,
-      "stockText": "143 disponibles",
+      "stockQuantity": 136,
+      "stockText": "136 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12784,8 +12785,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
-      "stockQuantity": 137,
-      "stockText": "137 disponibles",
+      "stockQuantity": 120,
+      "stockText": "120 disponibles",
       "model": "Arg-ms-2042bk",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -12923,8 +12924,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 250,
-      "stockText": "250 disponibles",
+      "stockQuantity": 222,
+      "stockText": "222 disponibles",
       "model": "M190",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13095,8 +13096,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 129,
-      "stockText": "129 disponibles",
+      "stockQuantity": 127,
+      "stockText": "127 disponibles",
       "model": "SkyHawk ST2000VX017",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13363,8 +13364,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 36,
-      "stockText": "36 disponibles",
+      "stockQuantity": 35,
+      "stockText": "35 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -13748,8 +13749,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 70,
-      "stockText": "70 disponibles",
+      "stockQuantity": 68,
+      "stockText": "68 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14341,8 +14342,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 17,
-      "stockText": "17 disponibles",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "model": "Z313",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -14451,8 +14452,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 12,
-      "stockText": "12 disponibles",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14700,8 +14701,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14808,8 +14809,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 179,
-      "stockText": "179 disponibles",
+      "stockQuantity": 169,
+      "stockText": "169 disponibles",
       "model": "Data Traveler Kyson G1",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -15052,8 +15053,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 176,
-      "stockText": "176 disponibles",
+      "stockQuantity": 175,
+      "stockText": "175 disponibles",
       "model": "AGI-C017",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -15309,8 +15310,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 126,
-      "stockText": "126 disponibles",
+      "stockQuantity": 118,
+      "stockText": "118 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15538,8 +15539,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 227,
-      "stockText": "227 disponibles",
+      "stockQuantity": 207,
+      "stockText": "207 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15583,8 +15584,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 96,
-      "stockText": "96 disponibles",
+      "stockQuantity": 94,
+      "stockText": "94 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15730,8 +15731,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 140,
-      "stockText": "140 disponibles",
+      "stockQuantity": 112,
+      "stockText": "112 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16054,8 +16055,8 @@
       ],
       "collections": [],
       "sourceCategory": "Soportes",
-      "stockQuantity": 78,
-      "stockText": "78 disponibles",
+      "stockQuantity": 75,
+      "stockText": "75 disponibles",
       "model": "XTA-475",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16260,8 +16261,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
-      "stockQuantity": 9,
-      "stockText": "9 disponibles",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "model": "Imperium6T",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16565,8 +16566,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Bocina",
-      "stockQuantity": 68,
-      "stockText": "68 disponibles",
+      "stockQuantity": 64,
+      "stockText": "64 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16732,8 +16733,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 9,
-      "stockText": "9 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16793,8 +16794,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 157,
-      "stockText": "157 disponibles",
+      "stockQuantity": 156,
+      "stockText": "156 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17246,7 +17247,7 @@
       "subcategory": "Curvos",
       "brand": "MSI",
       "price": 19300.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/50cabb81cbe98d842df7.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/e4109500-6fc7-4080-8818-8c6298fbd67c.png",
       "description": "<p>🖥️ <strong>Tamaño de pantalla:</strong> 27″</p>\n<p>📐 <strong>Resolución:</strong> 2560 x 1440 (WQHD)</p>\n<p>⚡ <strong>Tasa de refresco:</strong> 320 Hz</p>\n<p>🌀 <strong>Curvatura:</strong> 1500R</p>\n<p>🔲 <strong>Tipo de panel:</strong> Rapid VA</p>\n<p>🔌 <strong>Conectividad:</strong> 1 x DisplayPort 1.4a, 2 x HDMI 2.1</p>\n<p>🎧 <strong>Salida de audio:</strong> 1 x Headphone Out</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>🎯 <strong>Segmento:</strong> Gamer</p>",
@@ -17296,10 +17297,9 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "9650",
@@ -17435,8 +17435,8 @@
       ],
       "collections": [],
       "sourceCategory": "Computadora",
-      "stockQuantity": 39,
-      "stockText": "39 disponibles",
+      "stockQuantity": 29,
+      "stockText": "29 disponibles",
       "model": "83HDA06AUS",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17739,8 +17739,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
-      "stockQuantity": 48,
-      "stockText": "48 disponibles",
+      "stockQuantity": 47,
+      "stockText": "47 disponibles",
       "model": "MAG COREFROZR AA13",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18059,8 +18059,8 @@
       ],
       "collections": [],
       "sourceCategory": "Computadora",
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "model": "15-FD0183 (B4GZ5UA#ABA)",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18278,8 +18278,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 112,
-      "stockText": "112 disponibles",
+      "stockQuantity": 110,
+      "stockText": "110 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18372,8 +18372,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 179,
-      "stockText": "179 disponibles",
+      "stockQuantity": 177,
+      "stockText": "177 disponibles",
       "model": "MAG PANO M110A",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -18863,8 +18863,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 141,
-      "stockText": "141 disponibles",
+      "stockQuantity": 139,
+      "stockText": "139 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19018,8 +19018,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 128,
-      "stockText": "128 disponibles",
+      "stockQuantity": 127,
+      "stockText": "127 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19799,8 +19799,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 93,
-      "stockText": "93 disponibles",
+      "stockQuantity": 80,
+      "stockText": "80 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19942,8 +19942,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19995,8 +19995,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
-      "stockQuantity": 833,
-      "stockText": "833 disponibles",
+      "stockQuantity": 731,
+      "stockText": "731 disponibles",
       "model": "AGI-6845",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20301,8 +20301,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 415,
-      "stockText": "415 disponibles",
+      "stockQuantity": 393,
+      "stockText": "393 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20651,8 +20651,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 216,
-      "stockText": "216 disponibles",
+      "stockQuantity": 215,
+      "stockText": "215 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20976,8 +20976,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 43,
-      "stockText": "43 disponibles",
+      "stockQuantity": 42,
+      "stockText": "42 disponibles",
       "model": "C32G3E",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21021,8 +21021,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 49,
-      "stockText": "49 disponibles",
+      "stockQuantity": 39,
+      "stockText": "39 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21209,8 +21209,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 68,
-      "stockText": "68 disponibles",
+      "stockQuantity": 55,
+      "stockText": "55 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21317,8 +21317,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 32,
-      "stockText": "32 disponibles",
+      "stockQuantity": 30,
+      "stockText": "30 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21366,8 +21366,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 168,
-      "stockText": "168 disponibles",
+      "stockQuantity": 126,
+      "stockText": "126 disponibles",
       "model": "MAG A650GN II",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21476,8 +21476,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 205,
-      "stockText": "205 disponibles",
+      "stockQuantity": 203,
+      "stockText": "203 disponibles",
       "model": "MAG A600DN II",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21536,8 +21536,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 61,
-      "stockText": "61 disponibles",
+      "stockQuantity": 60,
+      "stockText": "60 disponibles",
       "model": "C27G2",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21663,8 +21663,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 31,
-      "stockText": "31 disponibles",
+      "stockQuantity": 29,
+      "stockText": "29 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21714,8 +21714,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 39,
-      "stockText": "39 disponibles",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22263,8 +22263,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 259,
-      "stockText": "259 disponibles",
+      "stockQuantity": 250,
+      "stockText": "250 disponibles",
       "model": "LS24D366GANXZ",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -22343,8 +22343,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 94,
-      "stockText": "94 disponibles",
+      "stockQuantity": 82,
+      "stockText": "82 disponibles",
       "model": "LS27D366GANXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23257,8 +23257,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
-      "stockQuantity": 26,
-      "stockText": "26 disponibles",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23587,8 +23587,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 135,
-      "stockText": "135 disponibles",
+      "stockQuantity": 132,
+      "stockText": "132 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23705,8 +23705,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 160,
-      "stockText": "160 disponibles",
+      "stockQuantity": 146,
+      "stockText": "146 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23762,8 +23762,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
-      "stockQuantity": 129,
-      "stockText": "129 disponibles",
+      "stockQuantity": 132,
+      "stockText": "132 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23823,8 +23823,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
-      "stockQuantity": 58,
-      "stockText": "58 disponibles",
+      "stockQuantity": 57,
+      "stockText": "57 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23836,7 +23836,7 @@
       "subcategory": "De escritorio",
       "brand": "AOC",
       "price": 8700.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/451085bf00c71f551916.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/13c4b8b3-c956-4d10-907f-07a068c6d035.png",
       "description": "<p>🖥️ <strong>Pantalla:</strong> 23.8 pulgadas panel IPS</p>\n<p>🎯 <strong>Resolución:</strong> Full HD 1920 x 1080</p>\n<p>⚡ <strong>Frecuencia:</strong> 180 Hz</p>\n<p>⏱️ <strong>Tiempo de respuesta:</strong> 1 ms</p>\n<p>🔌 <strong>Entradas:</strong> 1 HDMI 2.0, 1 Display Port</p>\n<p>🔄 <strong>Sincronización:</strong> Adaptativa</p>\n<p>🎧 <strong>Salida de audio:</strong> Salida para auriculares</p>",
@@ -23878,9 +23878,10 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "stockQuantity": 0,
+      "stockText": "Agotado",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "900000109656",
@@ -23959,8 +23960,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 81,
-      "stockText": "81 disponibles",
+      "stockQuantity": 80,
+      "stockText": "80 disponibles",
       "model": "Forge GK110 Combo US",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24017,8 +24018,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
-      "stockQuantity": 4,
-      "stockText": "4 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24131,8 +24132,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24897,8 +24898,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
-      "stockQuantity": 2823,
-      "stockText": "2823 disponibles",
+      "stockQuantity": 2767,
+      "stockText": "2767 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25311,8 +25312,8 @@
       ],
       "collections": [],
       "sourceCategory": "Electros",
-      "stockQuantity": 268,
-      "stockText": "268 disponibles",
+      "stockQuantity": 264,
+      "stockText": "264 disponibles",
       "model": "TM30",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -25357,8 +25358,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25410,8 +25411,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 12,
-      "stockText": "12 disponibles",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25459,8 +25460,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 67,
-      "stockText": "67 disponibles",
+      "stockQuantity": 65,
+      "stockText": "65 disponibles",
       "model": "M650 Medium",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -25509,8 +25510,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 47,
-      "stockText": "47 disponibles",
+      "stockQuantity": 44,
+      "stockText": "44 disponibles",
       "model": "M650 Large",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -26798,8 +26799,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26811,7 +26812,7 @@
       "subcategory": "Sillas",
       "brand": "Primus",
       "price": 11800.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/cac50761d0fdb810aaf8.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/db7d7f19-4087-4938-a7be-7e65bba7a7ca.png",
       "description": "<p><strong>🪑 Diseño y estructura:</strong><br>🧱 Marco metálico resistente con acabado gamer<br>🪞 Forro de PVC premium y espuma moldeada de alta densidad<br>🛞 Base metálica con ruedas dobles de nylon giratorias 360°</p>\n<p><strong>📐 Capacidad y dimensiones:</strong><br>⚖️ Soporta hasta 120 kg de peso<br>📏 Altura del asiento: 47 cm – 57 cm<br>🪑 Tamaño del asiento: 54 x 53,5 cm<br>📏 Respaldo: 81,5 cm de alto x 53 cm de ancho (hombros)</p>\n<p><strong>🛠️ Ajustes y confort:</strong><br>🪂 Ángulo del respaldo: ajustable entre 90° y 135°<br>🔄 Inclinación del asiento: 90° – 130° con control de tensión<br>📍 Reposabrazos ajustables en 2 direcciones (vertical y horizontal)<br>🛋️ Incluye cojín lumbar para soporte adicional<br>🪶 Aletas laterales contorneadas para postura ergonómica</p>",
@@ -26856,10 +26857,9 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "900000106556",
@@ -26963,8 +26963,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "model": "M196",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -27009,8 +27009,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 25,
-      "stockText": "25 disponibles",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27456,8 +27456,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27513,8 +27513,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 14,
-      "stockText": "14 disponibles",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -27701,8 +27701,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
-      "stockQuantity": 4,
-      "stockText": "4 disponibles",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28284,8 +28284,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28837,8 +28837,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
-      "stockQuantity": 14,
-      "stockText": "14 disponibles",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "model": "M850 Large",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -29325,7 +29325,7 @@
       "name": "Teclado Mouse Logitech Mk850 Performance Wireless Combo Bluetooth USB",
       "spec": "Teclado Y Mouse Inalámbricos Con Bluetooth Usb Y Reposa Muñecas",
       "price": 6600.0,
-      "stock": false,
+      "stock": true,
       "specifications": [
         {
           "label": "Conectividad",
@@ -29372,10 +29372,9 @@
       "subcategory": "Combos de teclado y mouse",
       "description": "<p>🔌 <strong>Conectividad:</strong> Bluetooth y receptor inalámbrico USB 2.4GHz</p>\n<p>📶 <strong>Alcance inalámbrico:</strong> 10 metros</p>\n<p>🔒 <strong>Seguridad:</strong> Encriptación inalámbrica</p>\n<p>⌨️ <strong>Duración batería teclado:</strong> 36 meses</p>\n<p>🖱️ <strong>Duración batería mouse:</strong> 18 meses</p>\n<p>🎯 <strong>Resolución mouse:</strong> 1000 DPI</p>\n<p>🔘 <strong>Botones mouse:</strong> 8 botones</p>\n<p>🛋️ <strong>Característica adicional:</strong> Reposa muñecas</p>",
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/7d7d96b5-05f6-4078-89f1-8f79fd1cfd5d.png",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00"
     },
     {
       "id": "80000095542",
@@ -29454,7 +29453,7 @@
       "name": "Cámara De Vigilancia Domo Ip Hikvision Smart Hybrid Light 2Mp Ip67",
       "spec": "Cámara domo IP Hikvision con tecnología Smart Hybrid Light y micrófono integrado. Resolución 2MP y protección IP67.",
       "price": 2800.0,
-      "stock": false,
+      "stock": true,
       "specifications": [
         {
           "label": "Tipo",
@@ -29493,10 +29492,9 @@
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Cámara de vigilancia domo</p>\n<p>💡 <strong>Tecnología:</strong> Smart Hybrid Light</p>\n<p>🌐 <strong>Conectividad:</strong> IP Network</p>\n<p>🔊 <strong>Audio:</strong> Micrófono integrado</p>\n<p>📏 <strong>Resolución:</strong> 2MP</p>\n<p>🔒 <strong>Protección:</strong> IP67</p>",
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/8b2b3afa-c443-474f-b65d-f2c167b3b640.png",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T14:55:09+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 241,
+      "stockText": "241 disponibles",
+      "specificationsUpdated": "2026-10-21T14:55:09+00:00"
     },
     {
       "id": "800000106722",
@@ -29874,8 +29872,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/87676/"
       ],
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/28da9d9cac465c6f1cfe.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30069,8 +30067,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104834/"
       ],
-      "stockQuantity": 20,
-      "stockText": "20 disponibles",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "image": "img/catalogo/6237c0f1832ae7380967.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30114,8 +30112,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106199/"
       ],
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/9cf20fff0e0a8ceff8c2.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30206,8 +30204,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/86287/"
       ],
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/dc85957341089ea91266.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30215,8 +30213,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📦 <strong>Contenido:</strong> 100 piezas</p>\n<p>📄 <strong>Material:</strong> papel blanco</p>\n<p>💿 <strong>Tipo:</strong> cover para CD</p>\n<p>🔖 <strong>Presentación:</strong> paquete</p>\n<p>🔢 <strong>SKU:</strong> 86287</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/98f06caf-29a8-439a-81f2-55478a02f470.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/98f06caf-29a8-439a-81f2-55478a02f470.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000088445",
@@ -30255,8 +30253,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/88445/"
       ],
-      "stockQuantity": 59,
-      "stockText": "59 disponibles",
+      "stockQuantity": 34,
+      "stockText": "34 disponibles",
       "image": "img/catalogo/bd9fcbb5101333b92b9f.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30264,8 +30262,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📹 <strong>Canales:</strong> 8</p>\n<p>🖥️ <strong>Resolución:</strong> 3840 × 2160 (4K)</p>\n<p>💾 <strong>Almacenamiento:</strong> 2 SATA hasta 6TB</p>\n<p>🔌 <strong>Puertos PoE:</strong> 8</p>\n<p>🎞️ <strong>Formatos de video:</strong> H.265 / H.265+ / H.264 / H.264+ / MPEG4</p>\n<p>📏 <strong>Factor de forma:</strong> 1U</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/d5aa6992-84df-45c6-a838-7f8ea0f304b9.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/d5aa6992-84df-45c6-a838-7f8ea0f304b9.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000092640",
@@ -30300,8 +30298,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/92640/"
       ],
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "image": "img/catalogo/091eefce7a26d4c63e49.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30309,8 +30307,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Tipo:</strong> Detector Inalambrico</p>\n<p>📡 <strong>Marca:</strong> Hikvision</p>\n<p>🔍 <strong>Funcion:</strong> Deteccion De Rotura De Vidrio</p>\n<p>🔧 <strong>Instalacion:</strong> Sin Cable</p>\n<p>📦 <strong>SKU:</strong> 92640</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5922f721-46dc-4705-85b6-1cb1fc58dd35.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5922f721-46dc-4705-85b6-1cb1fc58dd35.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000092641",
@@ -30345,8 +30343,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/92641/"
       ],
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "image": "img/catalogo/aa690c364222218b3330.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30354,8 +30352,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Marca:</strong> Hikvision</p>\n<p>📦 <strong>SKU:</strong> 92641</p>\n<p>🔔 <strong>Tipo:</strong> Boton Inalambrico De Emergencia</p>\n<p>📡 <strong>Conectividad:</strong> Inalambrica</p>\n<p>⚙️ <strong>Funcion:</strong> Activacion De Emergencia</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/4018a3fb-f357-4f40-a09b-45f00db5a82a.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/4018a3fb-f357-4f40-a09b-45f00db5a82a.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000092642",
@@ -30390,8 +30388,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/92642/"
       ],
-      "stockQuantity": 30,
-      "stockText": "30 disponibles",
+      "stockQuantity": 55,
+      "stockText": "55 disponibles",
       "image": "img/catalogo/06f4ef75870e4d3302a0.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30399,9 +30397,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Tipo:</strong> Contacto magnético</p>\n<p>📶 <strong>Conectividad:</strong> Inalámbrico</p>\n<p>🛠️ <strong>Modelo:</strong> Ax Pro</p>\n<p>📏 <strong>Diseño:</strong> Delgado</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/de895ec1-acc1-473e-85d5-85cd7b1c8cdd.png",
       "model": "Ax Pro",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/de895ec1-acc1-473e-85d5-85cd7b1c8cdd.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000092657",
@@ -30441,9 +30439,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision<br>🔢 <strong>Modelo:</strong> DS-K1T804MF<br>🔐 <strong>Tipo de producto:</strong> Kit de control de acceso para 1 puerta<br>🚪 <strong>Aplicación:</strong> Control de acceso para una puerta</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/07156357-7981-4d83-9038-e80999374231.png",
       "model": "DS-K1T804MF",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/07156357-7981-4d83-9038-e80999374231.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000093087",
@@ -30495,8 +30493,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🔢 <strong>Número de puertos:</strong> 8</p>\n<p>⚙️ <strong>Administración:</strong> No administrable</p>\n<p>⚡ <strong>Tecnología:</strong> PoE</p>\n<p>📊 <strong>Velocidad:</strong> 10/100 Mbps</p>\n<p>📹 <strong>Aplicación:</strong> CCTV</p>\n<p>🆔 <strong>SKU:</strong> 93087</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/952ff600-3749-4c31-a0ad-1b0928d0c59d-2.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/952ff600-3749-4c31-a0ad-1b0928d0c59d-2.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000093772",
@@ -30539,8 +30537,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/93772/"
       ],
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/24ed5eae6e7bd9434bb0.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30548,9 +30546,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Tipo:</strong> Lector De Tarjetas</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🔢 <strong>Modelo:</strong> Value 1802</p>\n<p>💧 <strong>Protección:</strong> Ip65</p>\n<p>🔗 <strong>Interfaz:</strong> Wiegand</p>\n<p>📇 <strong>Compatibilidad:</strong> Em Card Reader</p>\n<p>🔐 <strong>Uso:</strong> Control De Acceso</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/80f19f11-de94-453c-aeb5-4ea80526c12b.png",
       "model": "Value 1802",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/80f19f11-de94-453c-aeb5-4ea80526c12b.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000094422",
@@ -30558,7 +30556,7 @@
       "name": "Detector De Humo Hikvision Fotoelectrico No Direccionable 4 Hilos",
       "spec": "Detector De Humo Fotoelectrico No Direccionable 4 Hilos Compatible Paneles Cableados",
       "price": 800.0,
-      "stock": true,
+      "stock": false,
       "specifications": [
         {
           "label": "Tipo",
@@ -30585,8 +30583,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/94422/"
       ],
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
+      "stockQuantity": 0,
+      "stockText": "Agotado",
       "image": "img/catalogo/55a92737c03a4117ebdc.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30596,7 +30594,8 @@
       "description": "<p>🔍 <strong>Tipo:</strong> Detector de humo fotoeléctrico</p>\n<p>🔗 <strong>Conexión:</strong> 4 hilos</p>\n<p>⚙️ <strong>Compatibilidad:</strong> Paneles de alarma cableados</p>\n<p>🔧 <strong>Modelo:</strong> Compatible con paneles AX Hybrid Pro</p>\n<p>📡 <strong>Función:</strong> No direccionable</p>",
       "model": "Compatible con paneles AX Hybrid Pro",
       "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/87ab9eba-8dd5-4937-8843-e485b3e2ffa0.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/87ab9eba-8dd5-4937-8843-e485b3e2ffa0.png",
+      "sourceUnavailable": true
     },
     {
       "id": "80000094699",
@@ -30643,8 +30642,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/94699/"
       ],
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 125,
+      "stockText": "125 disponibles",
       "image": "img/catalogo/ebff96e8258b38560909.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30652,9 +30651,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Modelo:</strong> AcuSense</p>\n<p>🔍 <strong>Resolución:</strong> 4MP</p>\n<p>🌐 <strong>Tipo:</strong> IP</p>\n<p>💡 <strong>Alcance IR:</strong> 40 metros</p>\n<p>💧 <strong>Protección:</strong> IP67</p>\n<p>🎚️ <strong>WDR:</strong> 120dB</p>\n<p>🎤 <strong>Audio:</strong> Micrófono integrado</p>\n<p>🏠 <strong>Diseño:</strong> Domo</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/10e304af-4db7-48de-b595-3b13da0b2403.png",
       "model": "AcuSense",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/10e304af-4db7-48de-b595-3b13da0b2403.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000094773",
@@ -30698,8 +30697,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔌 <strong>Tipo:</strong> Patch Cable UTP</p>\n<p>📶 <strong>Categoría:</strong> Cat6</p>\n<p>📏 <strong>Longitud:</strong> 7 pies</p>\n<p>🎨 <strong>Color:</strong> Gris</p>\n<p>🔧 <strong>Material:</strong> CCA</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/d408177c-5ad9-4797-b31d-669ff8c9cd61.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/d408177c-5ad9-4797-b31d-669ff8c9cd61.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000095029",
@@ -30719,8 +30718,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95029/"
       ],
-      "stockQuantity": 14,
-      "stockText": "14 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "image": "img/catalogo/d007515bdcff8e2e2e95.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30728,8 +30727,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>Hasta 32 entradas de cámara IP, plug &amp; play con 16 interfaces de alimentación a través de Ethernet (PoE)</p>\n<p>Formatos de vídeo H.265+/H.265/H.264+/H.264</p>\n<p>Capacidad de decodificación de hasta 2 canales, 12 MP o 3 canales, 8 MP o 6 canales, 4 MP o 12 canales 1080p</p>\n<p>Hasta 256 Mbps de ancho de banda entrante</p>\n<p>Adopte la tecnología Hikvision Acusense para minimizar el esfuerzo manual y los costos de seguridad.</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/39f4c15a-6fc6-403a-8314-87ffe12b5d50.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/39f4c15a-6fc6-403a-8314-87ffe12b5d50.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000095032",
@@ -30764,8 +30763,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95032/"
       ],
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 66,
+      "stockText": "66 disponibles",
       "image": "img/catalogo/22bca6b0ff259569e518.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30773,9 +30772,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔊 <strong>Tipo:</strong> Sirena Inalámbrica</p>\n<p>🌐 <strong>Marca:</strong> Hikvision</p>\n<p>🏷️ <strong>Modelo:</strong> Ax Pro</p>\n<p>🌦️ <strong>Protección:</strong> Ip65</p>\n<p>🎨 <strong>Color:</strong> Roja</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5417049d-f932-4abf-acdb-6c346db6d62d.png",
       "model": "Ax Pro",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5417049d-f932-4abf-acdb-6c346db6d62d.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000095035",
@@ -30819,8 +30818,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Tipo:</strong> Tarjeta inteligente de proximidad</p>\n<p>📡 <strong>Frecuencia:</strong> Doble frecuencia Mifare1 y EM</p>\n<p>🛡️ <strong>Compatibilidad:</strong> Sistemas de control de acceso Hikvision</p>\n<p>🔑 <strong>Función:</strong> Identificación y autenticación segura</p>\n<p>📏 <strong>Formato:</strong> Tarjeta estándar de proximidad</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/54113f02-eb7d-4d87-8168-ef06edd03e00.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/54113f02-eb7d-4d87-8168-ef06edd03e00.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000095477",
@@ -30859,8 +30858,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95477/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/4ddc15dfac77ce6e1fc5.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30868,8 +30867,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🆔 <strong>Serie:</strong> AX Pro</p>\n<p>📡 <strong>Conectividad:</strong> Inalámbrica</p>\n<p>🔌 <strong>Zonas cableadas:</strong> Soporta 2 zonas para sensores adicionales</p>\n<p>⚙️ <strong>Funcionalidad:</strong> Dispositivo 3 en 1</p>\n<p>🔢 <strong>SKU:</strong> 95477</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/552703eb-5880-4712-9b84-75f904c1f21a-1.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/552703eb-5880-4712-9b84-75f904c1f21a-1.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000095746",
@@ -30904,8 +30903,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95746/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 49,
+      "stockText": "49 disponibles",
       "image": "img/catalogo/b01eae7d0a918e0bc71d.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30913,9 +30912,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔌 <strong>Puertos:</strong> 8</p>\n<p>⚡ <strong>PoE+:</strong> Soportado</p>\n<p>🖥️ <strong>Monitoreable:</strong> Sí</p>\n<p>🔧 <strong>Modelo:</strong> Hik-Partner Pro</p>\n<p>🔒 <strong>Marca:</strong> Hikvision</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/97d102ee-2030-4067-bc6f-f75a81110db4.png",
       "model": "Hik-Partner Pro",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/97d102ee-2030-4067-bc6f-f75a81110db4.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000096687",
@@ -30963,8 +30962,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 6MP</p>\n<p>🌈 <strong>Tecnologia:</strong> Colorvu With Smart Hybrid Light</p>\n<p>🔒 <strong>Tipo:</strong> Domo Turret</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 30M</p>\n<p>💧 <strong>Proteccion:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Microfono Integrado</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/8e78b2d9-4976-462b-b783-abf798ae4f57.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/8e78b2d9-4976-462b-b783-abf798ae4f57.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "80000096688",
@@ -31007,8 +31006,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/96688/"
       ],
-      "stockQuantity": 47,
-      "stockText": "47 disponibles",
+      "stockQuantity": 35,
+      "stockText": "35 disponibles",
       "image": "img/catalogo/46e5127a34232bb633b3.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31016,8 +31015,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 6MP</p>\n<p>💡 <strong>Tecnologia:</strong> ColorVu With Smart Hybrid Light</p>\n<p>🔒 <strong>Tipo:</strong> Domo Turret</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 30M</p>\n<p>🌧️ <strong>Proteccion:</strong> IP67</p>\n<p>🛡️ <strong>Resistencia:</strong> IK08</p>\n<p>🎤 <strong>Audio:</strong> Microfono Integrado</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/3c87c518-9e9f-44ac-b447-ef330a99d380.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/3c87c518-9e9f-44ac-b447-ef330a99d380.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104627",
@@ -31060,8 +31059,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104627/"
       ],
-      "stockQuantity": 39,
-      "stockText": "39 disponibles",
+      "stockQuantity": 89,
+      "stockText": "89 disponibles",
       "image": "img/catalogo/c2c5e67f66aba80986aa.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31069,8 +31068,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 6MP</p>\n<p>💡 <strong>Iluminacion:</strong> Dual Light Smart Hybrid</p>\n<p>🏠 <strong>Tipo:</strong> Domo Turret</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 30M</p>\n<p>🌧️ <strong>Proteccion:</strong> IP67</p>\n<p>🛡️ <strong>Resistencia:</strong> IK08</p>\n<p>🎤 <strong>Audio:</strong> Microfono integrado</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/4b8fcdb3-c284-4d88-91f3-fa3b5d67de7a.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/4b8fcdb3-c284-4d88-91f3-fa3b5d67de7a.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104632",
@@ -31105,8 +31104,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104632/"
       ],
-      "stockQuantity": 21,
-      "stockText": "21 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "image": "img/catalogo/949f120530f6049944d3.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31114,8 +31113,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔌 <strong>Puertos:</strong> 4 x 10/100 Mbps PoE, 1 x 10/100 Mbps RJ45</p>\n<p>🛡️ <strong>Carcasa:</strong> Metal</p>\n<p>⚡ <strong>Velocidad:</strong> 10/100 Mbps</p>\n<p>🔧 <strong>Tipo:</strong> Switch PoE</p>\n<p>📦 <strong>SKU:</strong> 104632</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/86e9bd9c-ff13-49e9-a632-c7a2c95dcf79.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/86e9bd9c-ff13-49e9-a632-c7a2c95dcf79.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104638",
@@ -31162,8 +31161,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104638/"
       ],
-      "stockQuantity": 4,
-      "stockText": "4 disponibles",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "image": "img/catalogo/7386b9506b34cc6dd6c9.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31171,9 +31170,9 @@
       "collections": [],
       "subcategory": "Controles de juego",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision<br>🔢 <strong>Modelo:</strong> K1T805MBFWX<br>🔐 <strong>Tipo de producto:</strong> Control de acceso y tiempo de asistencia<br>👆 <strong>Capacidad de huellas:</strong> 3,000 huellas<br>🆔 <strong>Capacidad de tarjetas:</strong> 10,000 tarjetas EM<br>📂 <strong>Capacidad de eventos:</strong> 100,000 registros<br>💧 <strong>Protección:</strong> IP65<br>🛡️ <strong>Resistencia:</strong> IK08</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/3ceb3bf7-2a02-4b09-ab3c-6efd5e38efcd.png",
       "model": "K1T805MBFWX",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/3ceb3bf7-2a02-4b09-ab3c-6efd5e38efcd.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104662",
@@ -31216,8 +31215,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104662/"
       ],
-      "stockQuantity": 193,
-      "stockText": "193 disponibles",
+      "stockQuantity": 188,
+      "stockText": "188 disponibles",
       "image": "img/catalogo/c80a07cf78e30db29b5d.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31225,8 +31224,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Camara de vigilancia bullet</p>\n<p>🔆 <strong>Tecnologia:</strong> Colorvu Hybrid Light</p>\n<p>📶 <strong>Resolucion:</strong> 4MP</p>\n<p>🌙 <strong>Alcance nocturno:</strong> 30 metros</p>\n<p>🛡️ <strong>Proteccion:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Microfono integrado</p>\n<p>🤖 <strong>Funciones inteligentes:</strong> Acusense Lite</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0eecc196-fcaa-4060-8348-a402e68ed09b.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0eecc196-fcaa-4060-8348-a402e68ed09b.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104665",
@@ -31265,8 +31264,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104665/"
       ],
-      "stockQuantity": 138,
-      "stockText": "138 disponibles",
+      "stockQuantity": 130,
+      "stockText": "130 disponibles",
       "image": "img/catalogo/c80a07cf78e30db29b5d.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31274,8 +31273,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Bullet</p>\n<p>🌈 <strong>Tecnología:</strong> Colorvu Hybrid Light</p>\n<p>📡 <strong>Resolución:</strong> 2MP</p>\n<p>🌙 <strong>Alcance:</strong> 30 metros</p>\n<p>💧 <strong>Protección:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Micrófono integrado</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/cfb96972-3a53-48cb-a7cb-ae42e0907319.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/cfb96972-3a53-48cb-a7cb-ae42e0907319.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104737",
@@ -31314,8 +31313,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104737/"
       ],
-      "stockQuantity": 75,
-      "stockText": "75 disponibles",
+      "stockQuantity": 122,
+      "stockText": "122 disponibles",
       "image": "img/catalogo/c2c5e67f66aba80986aa.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31323,8 +31322,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Cámara de vigilancia domo</p>\n<p>💡 <strong>Tecnología:</strong> Smart Hybrid Light</p>\n<p>🌐 <strong>Conectividad:</strong> IP Network</p>\n<p>🔍 <strong>Resolución:</strong> 4MP</p>\n<p>🎤 <strong>Audio:</strong> Micrófono integrado</p>\n<p>💧 <strong>Protección:</strong> IP67</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/cbc6f0a5-948a-4fbb-bf0a-e28c83094db2.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/cbc6f0a5-948a-4fbb-bf0a-e28c83094db2.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104740",
@@ -31363,8 +31362,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104740/"
       ],
-      "stockQuantity": 21,
-      "stockText": "21 disponibles",
+      "stockQuantity": 146,
+      "stockText": "146 disponibles",
       "image": "img/catalogo/833b3135fb3efa128602.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31372,8 +31371,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Domo (Torreta)</p>\n<p>🌐 <strong>Conectividad:</strong> IP Network</p>\n<p>🔆 <strong>Iluminacion:</strong> Smart Hybrid Light</p>\n<p>🎥 <strong>Resolucion:</strong> 4MP</p>\n<p>🎤 <strong>Audio:</strong> Microfono integrado</p>\n<p>💧 <strong>Proteccion:</strong> IP67</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/7e54d5a6-7a58-4b22-a138-c931c22cb854.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/7e54d5a6-7a58-4b22-a138-c931c22cb854.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104747",
@@ -31408,8 +31407,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104747/"
       ],
-      "stockQuantity": 100,
-      "stockText": "100 disponibles",
+      "stockQuantity": 64,
+      "stockText": "64 disponibles",
       "image": "img/catalogo/349c06f5c023e7895bdb.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31417,9 +31416,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Analoga Bullet</p>\n<p>🔍 <strong>Resolucion:</strong> 5MP</p>\n<p>🌈 <strong>Tecnologia:</strong> Colorvu</p>\n<p>🔊 <strong>Audio:</strong> Integrado</p>\n<p>📦 <strong>Modelo:</strong> 3K</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/2f52c234-1608-430e-9957-1c2ef2b60e35.png",
       "model": "3K",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/2f52c234-1608-430e-9957-1c2ef2b60e35.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104748",
@@ -31454,8 +31453,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104748/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 24,
+      "stockText": "24 disponibles",
       "image": "img/catalogo/4e8cd43f33525487cb9a.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31463,9 +31462,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Camara de vigilancia analogica</p>\n<p>🔵 <strong>Modelo:</strong> Domo Turret</p>\n<p>🌈 <strong>Resolucion:</strong> 3K Colorvu</p>\n<p>🎤 <strong>Audio:</strong> Microfono integrado</p>\n<p>🏷️ <strong>SKU:</strong> 104748</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/d89df9d5-adf1-48a7-9962-efb4b5cdfb18.png",
       "model": "Domo Turret",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/d89df9d5-adf1-48a7-9962-efb4b5cdfb18.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104751",
@@ -31509,8 +31508,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔌 <strong>Puertos:</strong> 8 puertos Ethernet 10/100/1000 Mbps</p>\n<p>⚡ <strong>Velocidad:</strong> Gigabit</p>\n<p>🛠️ <strong>Tipo:</strong> No administrable</p>\n<p>🌐 <strong>Conectividad:</strong> Ethernet</p>\n<p>🔧 <strong>Uso:</strong> Red cableada</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/70f81546-7a41-4f5c-8ce6-df7fb700e0e1.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/70f81546-7a41-4f5c-8ce6-df7fb700e0e1.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104912",
@@ -31549,8 +31548,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104912/"
       ],
-      "stockQuantity": 32,
-      "stockText": "32 disponibles",
+      "stockQuantity": 63,
+      "stockText": "63 disponibles",
       "image": "img/catalogo/e634e7aa5fa923d78544.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31558,8 +31557,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 4MP</p>\n<p>🌐 <strong>Tipo:</strong> IP</p>\n<p>💡 <strong>Iluminacion:</strong> Smart Hybrid Light</p>\n<p>🔊 <strong>Audio:</strong> Microfono integrado</p>\n<p>🌧️ <strong>Proteccion:</strong> IP67</p>\n<p>📏 <strong>Alcance IR:</strong> 40 metros</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/bf4f16fb-e857-40bb-b3fc-47f0919d3185.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/bf4f16fb-e857-40bb-b3fc-47f0919d3185.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104937",
@@ -31594,8 +31593,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104937/"
       ],
-      "stockQuantity": 400,
-      "stockText": "400 disponibles",
+      "stockQuantity": 360,
+      "stockText": "360 disponibles",
       "image": "img/catalogo/7c8e09174f51d0df3637.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31603,8 +31602,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📶 <strong>Frecuencia:</strong> 2.4 GHz</p>\n<p>⚡ <strong>Velocidad Inalambrica:</strong> Hasta 300 Mbps</p>\n<p>🔌 <strong>Puertos:</strong> 4 Puertos 10/100 Mbps</p>\n<p>📡 <strong>Antenas:</strong> 2 Antenas Omnidireccionales de 5 dBi</p>\n<p>🏠 <strong>Uso:</strong> Interior</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/fa05d143-0fd9-458b-b1ea-17f6d23e5cda.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/fa05d143-0fd9-458b-b1ea-17f6d23e5cda.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104940",
@@ -31655,8 +31654,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p><strong>Tipo de dispositivo: Router inalámbrico para interiores</strong><br>\n🔄 Doble banda AC para mayor velocidad y estabilidad<br>🏠 Ideal para hogares, oficinas o redes WISP de alto rendimiento</p>\n<p><strong>Velocidad y frecuencia:</strong> Hasta 1200 Mbps (2.4 GHz + 5 GHz)<br>📷 Navegación fluida, streaming y juegos sin interrupciones</p>\n<p><strong>Puertos y conectividad física:</strong><br>💾 3 puertos LAN + 1 puerto WAN (10/100/1000 Mbps)<br>📂 Conexión estable por cable y mayor control de red</p>\n<p><strong>Antenas y cobertura:</strong><br>🚨 4 antenas externas omnidireccionales de 5 dBi<br>📲 Amplia cobertura en múltiples habitaciones</p>\n<p><strong>Compatibilidad y estándares:</strong><br>🤖 Soporte para redes AC y dispositivos modernos<br>🔐 Compatible con configuraciones WISP y conexiones seguras</p>\n<p><strong>Diseño y uso:</strong><br>🧲 Estilo moderno y compacto para interiores<br>🔧 Instalación sencilla y rápida, sin herramientas especiales</p>\n<p><strong>Dimensiones aproximadas:</strong><br>📏 Diseño ligero y discreto<br>⚖️ Peso optimizado para montaje en escritorio o pared</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/05/DS-3WR12GC.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/05/DS-3WR12GC.webp",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104941",
@@ -31691,8 +31690,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104941/"
       ],
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "image": "img/catalogo/11f8c02dcd1980a380ba.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31700,8 +31699,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Tipo:</strong> Detector de humo fotoeléctrico</p>\n<p>📶 <strong>Conectividad:</strong> Inalámbrico</p>\n<p>🏠 <strong>Uso:</strong> Interior</p>\n<p>⚙️ <strong>Funcionalidad:</strong> Soporta funcionamiento autónomo</p>\n<p>🔗 <strong>Compatibilidad:</strong> Sistema AX Pro</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/cfbdc322-1b75-4f17-8146-8c8d309daaf1.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/cfbdc322-1b75-4f17-8146-8c8d309daaf1.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104944",
@@ -31745,9 +31744,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔌 <strong>Puertos:</strong> 24 Gigabit Poe</p>\n<p>📶 <strong>Alcance Poe:</strong> 300 metros para cámaras</p>\n<p>🔗 <strong>Puerto adicional:</strong> 1 puerto SFP</p>\n<p>⚙️ <strong>Modelo:</strong> Hikvision</p>\n<p>🔧 <strong>Tipo:</strong> Switch de red</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/b09a8cf4-fe2b-4173-ba4b-c3b71cd45006.png",
       "model": "Hikvision",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/b09a8cf4-fe2b-4173-ba4b-c3b71cd45006.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000104947",
@@ -31786,8 +31785,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104947/"
       ],
-      "stockQuantity": 80,
-      "stockText": "80 disponibles",
+      "stockQuantity": 49,
+      "stockText": "49 disponibles",
       "image": "img/catalogo/84eac482ef0dab5135c2.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31795,8 +31794,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 8MP</p>\n<p>💡 <strong>Tecnologia:</strong> Colorvu With Smart Hybrid Light</p>\n<p>🔭 <strong>Tipo:</strong> Domo Turret</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 30M</p>\n<p>🌧️ <strong>Proteccion:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Microfono 30M</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/87c7a967-0ddb-4334-930a-303d765a005a.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/87c7a967-0ddb-4334-930a-303d765a005a.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000105754",
@@ -31831,8 +31830,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/105754/"
       ],
-      "stockQuantity": 18,
-      "stockText": "18 disponibles",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "image": "img/catalogo/06c02d6683793df10e79.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31840,8 +31839,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔌 <strong>Puertos:</strong> 5 (4 Gigabit PoE, 1 Uplink)</p>\n<p>⚡ <strong>Alcance PoE:</strong> 300 metros</p>\n<p>🌐 <strong>Tipo:</strong> Switch de red</p>\n<p>🔋 <strong>Funcionalidad PoE:</strong> Suministro de energía a dispositivos conectados</p>\n<p>📦 <strong>Uso:</strong> Conexión y alimentación de cámaras y dispositivos de red</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/821d2b69-9f9d-4d75-a858-a97abb58d6de.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/821d2b69-9f9d-4d75-a858-a97abb58d6de.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000105756",
@@ -31909,9 +31908,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📡 <strong>Marca:</strong> Hikvision<br>📏 <strong>Modelo:</strong> DS-3WR15X<br>🔄 <strong>Tipo:</strong> Router inalámbrico Wi-Fi 6<br>⚡ <strong>Velocidad Inalámbrica:</strong> Hasta 1500 Mbps combinados<br>🌐 <strong>Bandas de Frecuencia:</strong> Doble banda 2.4 GHz y 5 GHz<br>🔗 <strong>Puertos LAN:</strong> 3 × 10/100/1000 Mbps<br>🌍 <strong>Puerto WAN:</strong> 1 × 10/100/1000 Mbps<br>📶 <strong>Antenas:</strong> 4 antenas externas omnidireccionales de 5 dBi<br>🏠 <strong>Cobertura:</strong> Uso en interiores<br>🏢 <strong>Aplicación:</strong> Oficinas y hogares<br>🛠️ <strong>Instalación:</strong> Configuración sencilla</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/05/DS-3WR15X.webp",
       "model": "DS-3WR15X",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/05/DS-3WR15X.webp"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106081",
@@ -31946,8 +31945,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106081/"
       ],
-      "stockQuantity": 35,
-      "stockText": "35 disponibles",
+      "stockQuantity": 49,
+      "stockText": "49 disponibles",
       "image": "img/catalogo/67e61fb9f1b381c1d1db.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31955,8 +31954,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📶 <strong>Conectividad:</strong> WiFi</p>\n<p>👤 <strong>Capacidad facial:</strong> 500 rostros</p>\n<p>🔑 <strong>Lector de tarjetas:</strong> MIFARE</p>\n<p>🆔 <strong>Capacidad huellas y tarjetas:</strong> 3,000</p>\n<p>🔋 <strong>Batería:</strong> de respaldo</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/b13e6b0e-4cdb-44f9-8ec3-320a31583b48.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/b13e6b0e-4cdb-44f9-8ec3-320a31583b48.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106085",
@@ -32003,8 +32002,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106085/"
       ],
-      "stockQuantity": 40,
-      "stockText": "40 disponibles",
+      "stockQuantity": 309,
+      "stockText": "309 disponibles",
       "image": "img/catalogo/742b2b8fb857b3f1ea45.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32012,8 +32011,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo:</strong> Cámara de vigilancia IP Domo (Torre fija)</p>\n<p>💡 <strong>Tecnología:</strong> Hybrid Light</p>\n<p>🎯 <strong>Resolución:</strong> 4MP (1920 × 1080)</p>\n<p>⚙️ <strong>Compresión de video:</strong> H.265+</p>\n<p>🎙️ <strong>Audio:</strong> Bidireccional (Micrófono integrado)</p>\n<p>🌙 <strong>Alcance IR:</strong> 30 metros</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP67</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/90156722-3d41-4e04-a116-e3d86ef0d12d.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/90156722-3d41-4e04-a116-e3d86ef0d12d.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106089",
@@ -32093,9 +32092,9 @@
       "collections": [],
       "subcategory": "Controles de juego",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision<br>🖥️ <strong>Serie:</strong> Value<br>📺 <strong>Pantalla:</strong> LCD táctil de 4.3″<br>⚙️ <strong>Sistema Operativo:</strong> Linux<br>📷 <strong>Cámara:</strong> Video 2MP<br>🧩 <strong>Resolución:</strong> 480 x 272<br>😊 <strong>Reconocimiento Facial:</strong> 1500 rostros<br>💳 <strong>Capacidad De Tarjetas Y Huellas:</strong> 3000<br>🗂️ <strong>Eventos:</strong> 150,000<br>📶 <strong>Conectividad:</strong> WiFi<br>🔗 <strong>Compatibilidad:</strong> ISAPI, ISUP5.0<br>🌧️ <strong>Protección:</strong> IP65<br>⚡ <strong>Alimentación:</strong> PoE<br>🔢 <strong>Modelo:</strong> DS-K1T342EFWX-E1</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/920d8be4-a170-454c-894b-08fef93e93b0.png",
       "model": "DS-K1T342EFWX-E1",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/920d8be4-a170-454c-894b-08fef93e93b0.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106090",
@@ -32130,8 +32129,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106090/"
       ],
-      "stockQuantity": 100,
-      "stockText": "100 disponibles",
+      "stockQuantity": 256,
+      "stockText": "256 disponibles",
       "image": "img/catalogo/3d51cc6fddd901fb5255.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32139,8 +32138,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Camara Analogica Hybrid Light Bullet</p>\n<p>🔍 <strong>Resolucion:</strong> 1920 x 1080 (2MP)</p>\n<p>🌙 <strong>Vision Nocturna:</strong> Exir 2.0 hasta 20 metros</p>\n<p>🎤 <strong>Audio:</strong> Microfono y audio bidireccional</p>\n<p>🔧 <strong>Categoria:</strong> 899</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/654e929e-e4e6-4b36-a76c-659dc22319b0.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/654e929e-e4e6-4b36-a76c-659dc22319b0.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106092",
@@ -32184,8 +32183,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Camara de vigilancia analogica hybrid light</p>\n<p>🔍 <strong>Resolucion:</strong> 2MP (1920 x 1080)</p>\n<p>🌙 <strong>Vision Nocturna:</strong> Exir 2.0 hasta 20 metros</p>\n<p>🎤 <strong>Audio:</strong> Microfono y audio bidireccional</p>\n<p>🏠 <strong>Diseño:</strong> Domo</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/c7129e3e-4891-4d31-a22d-17ce9705206c.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/c7129e3e-4891-4d31-a22d-17ce9705206c.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106630",
@@ -32193,7 +32192,7 @@
       "name": "Cámara Hikvision Análoga Bullet Turbo Hd 2Mp 2.8Mm Ip67",
       "spec": "Cámara de vigilancia análoga tipo bullet Hikvision Turbo HD con resolución de 2 MP (1080p), tecnología Dual Light y ColorVu. Diseñada en estructura metálica con grado de protección IP67 para exterior, lente de 2.8 mm y micrófono integrado.",
       "price": 2000.0,
-      "stock": true,
+      "stock": false,
       "specifications": [
         {
           "label": "Marca",
@@ -32240,8 +32239,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106630/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 0,
+      "stockText": "Agotado",
       "image": "img/catalogo/7c60f9f771613cff6cf3.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32250,7 +32249,8 @@
       "subcategory": "Otros accesorios",
       "description": "<p>🏢 <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo:</strong> Cámara de vigilancia análoga Bullet Turbo HD</p>\n<p>🎯 <strong>Resolución:</strong> 2 MP (1080p)</p>\n<p>💡 <strong>Tecnología:</strong> Dual Light + ColorVu</p>\n<p>🔍 <strong>Lente:</strong> 2.8 mm</p>\n<p>☀️ <strong>Luz blanca:</strong> 20 metros</p>\n<p>🛡️ <strong>Grado de protección:</strong> Exterior IP67</p>\n<p>🏗️ <strong>Material:</strong> Metal</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🔢 <strong>SKU:</strong> 106630</p>",
       "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/bff4f9d5-b1b6-445b-83d3-ca9b47df6030.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/bff4f9d5-b1b6-445b-83d3-ca9b47df6030.png",
+      "sourceUnavailable": true
     },
     {
       "id": "800000106634",
@@ -32293,8 +32293,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106634/"
       ],
-      "stockQuantity": 23,
-      "stockText": "23 disponibles",
+      "stockQuantity": 28,
+      "stockText": "28 disponibles",
       "image": "img/catalogo/84be9951e99c81935b40.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32302,8 +32302,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📹 <strong>Tipo:</strong> DVR</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>⚡ <strong>Línea:</strong> AcuSense</p>\n<p>🔢 <strong>Cantidad de canales:</strong> 16 canales</p>\n<p>🎯 <strong>Resolución:</strong> 4MP</p>\n<p>💾 <strong>Soporte de almacenamiento:</strong> 1 HDD</p>\n<p>🎙️ <strong>Audio:</strong> Audio de dos vías</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/bc0e2c22-3507-4ab0-9add-2a1f52b53e70.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/bc0e2c22-3507-4ab0-9add-2a1f52b53e70.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106638",
@@ -32346,8 +32346,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106638/"
       ],
-      "stockQuantity": 18,
-      "stockText": "18 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "image": "img/catalogo/16831d7119d25d76d142.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32355,8 +32355,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📦 <strong>Tipo de producto:</strong> Rollo de cable UTP</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📊 <strong>Categoría:</strong> Cat5e</p>\n<p>📏 <strong>Longitud:</strong> 305 m (1000 pies)</p>\n<p>📐 <strong>Calibre:</strong> 24 AWG</p>\n<p>🧪 <strong>Material:</strong> 99% Cobre</p>\n<p>🎨 <strong>Color:</strong> Negro</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/b779be9e-2d35-489d-a707-6249e61f687b.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/b779be9e-2d35-489d-a707-6249e61f687b.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106640",
@@ -32428,8 +32428,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo de cámara:</strong> Domo PTZ IP</p>\n<p>🎯 <strong>Resolución:</strong> 4 MP</p>\n<p>🔍 <strong>Zoom:</strong> 25X</p>\n<p>🌙 <strong>Alcance IR:</strong> 100 metros</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP66</p>\n<p>🧠 <strong>Tecnología:</strong> AcuSense</p>\n<p>⚡ <strong>Alimentación:</strong> PoE+</p>\n<p>🎙️ <strong>Audio:</strong> Entrada y salida de audio</p>\n<p>🚨 <strong>Alarma:</strong> Entrada y salida de alarma</p>\n<p>💡 <strong>Sensibilidad:</strong> Ultra baja iluminación</p>\n<p>💾 <strong>Almacenamiento:</strong> Ranura Micro SD</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5ccb9c9b-adfa-43b1-90e1-786159034833.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5ccb9c9b-adfa-43b1-90e1-786159034833.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106643",
@@ -32437,7 +32437,7 @@
       "name": "Switch Hikvision De 24 Puertos Poe+ 10/100 Mbps",
       "spec": "Switch de red Hikvision de 24 puertos con tecnología PoE+ y soporte de transmisión de largo alcance hasta 300 metros.",
       "price": 13000.0,
-      "stock": true,
+      "stock": false,
       "specifications": [
         {
           "label": "Marca",
@@ -32468,8 +32468,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106643/"
       ],
-      "stockQuantity": 3,
-      "stockText": "3 disponibles",
+      "stockQuantity": 0,
+      "stockText": "Agotado",
       "image": "img/catalogo/136eddc750455a2e4700.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32478,7 +32478,8 @@
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🔢 <strong>SKU:</strong> 106643</p>\n<p>🔌 <strong>Puertos:</strong> 24 puertos</p>\n<p>⚡ <strong>Tecnología:</strong> PoE+</p>\n<p>📏 <strong>Alcance PoE:</strong> Hasta 300 metros en 2 puertos</p>\n<p>🚀 <strong>Velocidad:</strong> 10/100 Mbps</p>",
       "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/75eb64f5-604d-41d9-8c4c-b19f134267d5.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/75eb64f5-604d-41d9-8c4c-b19f134267d5.png",
+      "sourceUnavailable": true
     },
     {
       "id": "800000106646",
@@ -32521,8 +32522,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106646/"
       ],
-      "stockQuantity": 38,
-      "stockText": "38 disponibles",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "image": "img/catalogo/c99a90c6d8405b1ac4f6.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32530,8 +32531,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🌐 <strong>Conectividad:</strong> IP</p>\n<p>🔄 <strong>Movimiento:</strong> PT</p>\n<p>🎯 <strong>Resolución:</strong> 4MP</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP66</p>\n<p>💡 <strong>Tecnología:</strong> Smart Hybrid-Light</p>\n<p>🆔 <strong>SKU:</strong> 106646</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/7d8b467b-5e33-44de-b8d6-425bff7c0680.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/7d8b467b-5e33-44de-b8d6-425bff7c0680.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106648",
@@ -32539,7 +32540,7 @@
       "name": "Switch Hikvision 8 Puertos Gigabit Poe Capa 2",
       "spec": "Switch de red Hikvision con 8 puertos Gigabit PoE y gestión de Capa 2. Soporta protocolos STP/RSTP, VLAN, SNMP, QoS y distancia de transmisión de hasta 300 metros para cámaras.",
       "price": 4400.0,
-      "stock": true,
+      "stock": false,
       "specifications": [
         {
           "label": "Marca",
@@ -32566,8 +32567,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106648/"
       ],
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
+      "stockQuantity": 0,
+      "stockText": "Agotado",
       "image": "img/catalogo/17a6948412fe5de930a0.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32576,7 +32577,8 @@
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🌐 <strong>Puertos:</strong> 8 × Gigabit PoE</p>\n<p>📊 <strong>Nivel de gestión:</strong> Capa 2</p>\n<p>📡 <strong>Protocolos de gestión:</strong> STP/RSTP, VLAN, SNMP, QoS</p>\n<p>📏 <strong>Distancia de transmisión:</strong> 300m (Cámara)</p>",
       "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/e888c2db-4ef7-4427-ad09-29525754071a.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/e888c2db-4ef7-4427-ad09-29525754071a.png",
+      "sourceUnavailable": true
     },
     {
       "id": "800000106650",
@@ -32623,8 +32625,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106650/"
       ],
-      "stockQuantity": 44,
-      "stockText": "44 disponibles",
+      "stockQuantity": 71,
+      "stockText": "71 disponibles",
       "image": "img/catalogo/ceb1b2ff14c9b8b51b1d.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32632,8 +32634,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>💡 <strong>Tecnología:</strong> AcuSense Smart Hybrid Light</p>\n<p>📹 <strong>Tipo:</strong> Domo IP</p>\n<p>🎯 <strong>Resolución:</strong> 8 MP (3840 × 2160)</p>\n<p>🛡️ <strong>Protección:</strong> IP67 / IK10</p>\n<p>🎤 <strong>Audio:</strong> Micrófono integrado</p>\n<p>🌙 <strong>Alcance IR:</strong> 30 metros</p>\n<p>🔢 <strong>SKU:</strong> 106650</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/e07e750f-291a-4d3b-8f3d-12c9ee72a54a.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/e07e750f-291a-4d3b-8f3d-12c9ee72a54a.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000106933",
@@ -32681,8 +32683,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🎒 <strong>Tipo:</strong> Mochila</p>\n<p>💻 <strong>Compatibilidad:</strong> Laptop 15.6″</p>\n<p>📱 <strong>Compartimento:</strong> Para tableta hasta 12″</p>\n<p>💧 <strong>Material:</strong> Resistente al agua</p>\n<p>📦 <strong>Capacidad de carga:</strong> Soporte hasta 33 libras</p>\n<p>🎨 <strong>Color:</strong> Negro</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/cfa3e838-c495-48d2-8c15-0ffed21715e4.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/cfa3e838-c495-48d2-8c15-0ffed21715e4.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000107656",
@@ -32731,8 +32733,8 @@
       "collections": [],
       "subcategory": "Gabinetes / Case",
       "description": "<p>🧱 <strong>Paneles y diseño exterior:</strong><br>🖼️ Diseño panorámico con vidrio templado lateral<br>🎨 Color blanco con acabados premium<br>🖥️ Estilo moderno ideal para setups gamer o profesionales</p>\n<p>💨 <strong>Ventilación y flujo de aire:</strong><br>🌀 Soporta múltiples ventiladores para máxima refrigeración<br>💡 Compatible con sistemas de refrigeración líquida</p>\n<p>🧩 <strong>Compatibilidad de componentes:</strong><br>🧠 Formatos de placa base: ATX / Micro-ATX / Mini-ITX<br>📏 Espacio interior optimizado para GPUs y sistemas robustos</p>\n<p>🔌 <strong>Conectividad y puertos:</strong><br>⚡ 2x USB 5Gbps Type-A<br>⚡ 1x USB 20Gbps Type-C<br>🎧 1x Puerto de audio<br>🎙️ 1x Entrada de micrófono</p>\n<p>🔧 <strong>Instalación y acceso:</strong><br>📥 Sistema de acceso fácil sin herramientas<br>🧼 Gestión de cables eficiente para un montaje limpio</p>\n<p>📏 <strong>Dimensiones aproximadas:</strong><br>📐 Tamaño estándar torre media<br>🧭 Espacio bien distribuido para flujo de aire y cableado</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/07/MAG-PANO-110R-PZ-WHITE-1.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/07/MAG-PANO-110R-PZ-WHITE-1.webp",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000107747",
@@ -32779,8 +32781,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/107747/"
       ],
-      "stockQuantity": 9,
-      "stockText": "9 disponibles",
+      "stockQuantity": 81,
+      "stockText": "81 disponibles",
       "image": "img/catalogo/3931891cfe73c3ab6272.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32788,8 +32790,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 4MP</p>\n<p>🔍 <strong>Zoom:</strong> 4x</p>\n<p>💡 <strong>Iluminacion:</strong> Dual Light (IR 40 mts + Luz Blanca 30 mts)</p>\n<p>🌐 <strong>Protocolo:</strong> IP</p>\n<p>🔒 <strong>Proteccion:</strong> IP66</p>\n<p>⚡ <strong>Alimentacion:</strong> PoE</p>\n<p>🌙 <strong>Funcion:</strong> Darkfighter</p>\n<p>🎯 <strong>Deteccion:</strong> AcuSense</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/11159ba8-460e-44f5-9cc1-c1c461b235c5.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/11159ba8-460e-44f5-9cc1-c1c461b235c5.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108307",
@@ -32837,8 +32839,8 @@
       "collections": [],
       "subcategory": "Pantallas interactivas",
       "description": "<p>🖥️ <strong>Tamaño de pantalla:</strong> 65 pulgadas</p>\n<p>📺 <strong>Resolución:</strong> 4K</p>\n<p>📱 <strong>Sistema operativo:</strong> Android 13</p>\n<p>🔊 <strong>Altavoz:</strong> Incorporado</p>\n<p>📷 <strong>Cámara:</strong> Incorporada</p>\n<p>✅ <strong>Certificación:</strong> EDLA</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/e48437b9-81ed-4cd0-86f0-6dac38fcede5.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/e48437b9-81ed-4cd0-86f0-6dac38fcede5.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108328",
@@ -32877,8 +32879,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/108328/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "image": "img/catalogo/41626e37fead26b8b5ab.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32886,8 +32888,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Camara de vigilancia analogica</p>\n<p>💡 <strong>Tecnologia:</strong> Hybrid Light</p>\n<p>🔎 <strong>Resolucion:</strong> 3K</p>\n<p>🌙 <strong>Alcance IR:</strong> 40 metros</p>\n<p>🎤 <strong>Audio:</strong> Microfono y audio bidireccional</p>\n<p>🌧️ <strong>Proteccion:</strong> IP67</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/b372e3b7-283e-4641-af80-5a56b4794192.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/b372e3b7-283e-4641-af80-5a56b4794192.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108335",
@@ -32895,7 +32897,7 @@
       "name": "Cámara Ip Hikvision Bullet Dual Lens Smart Hybrid Light 6Mp Ip67",
       "spec": "Cámara de vigilancia IP Hikvision tipo Bullet de 6 MP con tecnología Dual Lens, Smart Hybrid Light, alcance de 30 metros, micrófono integrado y protección IP67.",
       "price": 9400.0,
-      "stock": true,
+      "stock": false,
       "specifications": [
         {
           "label": "Marca",
@@ -32934,8 +32936,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/108335/"
       ],
-      "stockQuantity": 33,
-      "stockText": "33 disponibles",
+      "stockQuantity": 0,
+      "stockText": "Agotado",
       "image": "img/catalogo/535bb76508a8193e66d2.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32944,7 +32946,8 @@
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo:</strong> Cámara IP Bullet</p>\n<p>🎯 <strong>Resolución:</strong> 6 MP</p>\n<p>👁️ <strong>Lente:</strong> Dual Lens Stitched Wide Angle</p>\n<p>💡 <strong>Iluminación:</strong> Smart Hybrid Light</p>\n<p>📏 <strong>Alcance:</strong> 30 m</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🛡️ <strong>Protección:</strong> IP67</p>",
       "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/89f9ac2d-2bf4-47bb-a876-2296ec3bcb45.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/89f9ac2d-2bf4-47bb-a876-2296ec3bcb45.png",
+      "sourceUnavailable": true
     },
     {
       "id": "800000108352",
@@ -32996,8 +32999,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📦 <strong>Tipo de producto:</strong> Kit de cámaras de seguridad</p>\n<p>📹 <strong>Cámara Bullet:</strong> 1 unidad de 2 MP</p>\n<p>📹 <strong>Cámara Domo Turret:</strong> 1 unidad de 4 MP</p>\n<p>📻 <strong>Grabadora:</strong> Wi-Fi</p>\n<p>💾 <strong>Almacenamiento:</strong> Hasta 512 GB (no incluye memoria SD)</p>\n<p>🔢 <strong>SKU:</strong> 108352</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/4b79228c-8b22-4cb5-a820-5c7be6203ec2.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/4b79228c-8b22-4cb5-a820-5c7be6203ec2.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108395",
@@ -33045,8 +33048,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📹 <strong>Tipo de dispositivo:</strong> DVR AcuSense</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🔢 <strong>Número de canales:</strong> 32 canales</p>\n<p>🎬 <strong>Compresión de video:</strong> H.264+</p>\n<p>💾 <strong>Almacenamiento:</strong> 2 HDD hasta 12 TB</p>\n<p>🎙️ <strong>Audio:</strong> Bidireccional vía cable coaxial</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/d998af9a-f4b6-499e-9a05-44e34e6b3e9f.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/d998af9a-f4b6-499e-9a05-44e34e6b3e9f.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108404",
@@ -33098,8 +33101,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📷 <strong>Tipo de cámara:</strong> Análoga</p>\n<p>📐 <strong>Formato:</strong> Bullet</p>\n<p>🎯 <strong>Resolución:</strong> 3K</p>\n<p>💡 <strong>Iluminación:</strong> Dual Light</p>\n<p>🎙️ <strong>Audio:</strong> Integrado (Bidireccional)</p>\n<p>📏 <strong>Alcance nocturno:</strong> 25 metros</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/25dc6f26-7d0c-4069-ba16-4b720f611faf.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/25dc6f26-7d0c-4069-ba16-4b720f611faf.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108624",
@@ -33134,8 +33137,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/108624/"
       ],
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "image": "img/catalogo/e1da6a43902733b75d10.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33143,8 +33146,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📺 <strong>Pantalla:</strong> LCD a color de 4,3 pulgadas</p>\n<p>🔍 <strong>Resolucion:</strong> 800 × 480</p>\n<p>💧 <strong>Proteccion:</strong> IP65</p>\n<p>🔑 <strong>Metodos De Desbloqueo:</strong> Reconocimiento facial, tarjetas M1, código PIN</p>\n<p>📇 <strong>Tarjetas:</strong> M1</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0f6a66c8-ef3f-4a58-bf77-c9e1e7b68f51.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0f6a66c8-ef3f-4a58-bf77-c9e1e7b68f51.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108626",
@@ -33183,8 +33186,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/108626/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 83,
+      "stockText": "83 disponibles",
       "image": "img/catalogo/beacd84b332a668c2df7.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33192,8 +33195,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolución:</strong> 6 MP</p>\n<p>🎥 <strong>Lente:</strong> Dual lens stitched wide angle</p>\n<p>🌐 <strong>Tipo:</strong> Smart Hybrid Light Turret</p>\n<p>💧 <strong>Protección:</strong> IP67</p>\n<p>🔊 <strong>Micrófono integrado:</strong> Sí</p>\n<p>🌙 <strong>Alcance nocturno:</strong> 30 metros</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/28132b4f-c1cf-4455-aa1f-58b755bec766.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/28132b4f-c1cf-4455-aa1f-58b755bec766.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000108785",
@@ -33248,8 +33251,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/108785/"
       ],
-      "stockQuantity": 39,
-      "stockText": "39 disponibles",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "image": "img/catalogo/d36f3901edb4ec7be292.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33257,9 +33260,9 @@
       "collections": [],
       "subcategory": "Controles de juego",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🔢 <strong>Modelo:</strong> HIK-IA</p>\n<p>🚪 <strong>Tipo:</strong> Control de acceso frontal</p>\n<p>👤 <strong>Reconocimiento facial:</strong> 3000 rostros</p>\n<p>💳 <strong>Lector de tarjetas:</strong> Mifare</p>\n<p>📱 <strong>Lector QR:</strong> QR físico ultra rápido</p>\n<p>📶 <strong>Conectividad:</strong> Wi-Fi</p>\n<p>🔌 <strong>Alimentación:</strong> PoE</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP65</p>\n<p>⚙️ <strong>Soporte de protocolos:</strong> ISAPI, ISUP5.0</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/3e1d692b-e2fc-4f6e-a5bd-65859c0407aa.png",
       "model": "HIK-IA",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/3e1d692b-e2fc-4f6e-a5bd-65859c0407aa.png"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000109039",
@@ -33294,8 +33297,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109039/"
       ],
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "image": "img/catalogo/33117e459cb3a07da698.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33303,8 +33306,8 @@
       "collections": [],
       "subcategory": "Controles de juego",
       "description": "<p>🔒 <strong>Tipo:</strong> Controlador de acceso</p>\n<p>🚪 <strong>Capacidad:</strong> 4 puertas</p>\n<p>🌐 <strong>Protocolos soportados:</strong> IPv4, IPv6</p>\n<p>⚙️ <strong>Configuración de red:</strong> DHCP</p>\n<p>🔧 <strong>Uso:</strong> Proyecto</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/8ab6637e-1984-4918-9272-91a7fcc5e217.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/8ab6637e-1984-4918-9272-91a7fcc5e217.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000109363",
@@ -33352,8 +33355,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 4MP</p>\n<p>🔄 <strong>Funcion Ptz:</strong> Pan, Tilt, Zoom</p>\n<p>🔍 <strong>Zoom Optico:</strong> 4x</p>\n<p>🔎 <strong>Zoom Digital:</strong> 16x</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 40 metros</p>\n<p>🧑‍🤝‍🧑 <strong>Soporte:</strong> Captura de rostros</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/aefde5bc-b4a0-4825-97b1-bc81416ba812.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/aefde5bc-b4a0-4825-97b1-bc81416ba812.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000109390",
@@ -33405,8 +33408,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📶 <strong>WiFi:</strong> 6</p>\n<p>⚡ <strong>Velocidad máxima:</strong> 1800 Mbps</p>\n<p>🌐 <strong>Doble banda:</strong> 2.4 GHz y 5 GHz</p>\n<p>🔌 <strong>Puertos LAN:</strong> 3 x 10/100/1000 Mbps</p>\n<p>🔌 <strong>Puerto WAN:</strong> 1 x 10/100/1000 Mbps</p>\n<p>📡 <strong>Antenas:</strong> 5 externas omnidireccionales de 5 dBi</p>\n<p>🏠 <strong>Uso:</strong> Interior</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/75b65536-ec97-467b-ad18-e4e640a300ac.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/75b65536-ec97-467b-ad18-e4e640a300ac.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000109402",
@@ -33445,8 +33448,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109402/"
       ],
-      "stockQuantity": 84,
-      "stockText": "84 disponibles",
+      "stockQuantity": 240,
+      "stockText": "240 disponibles",
       "image": "img/catalogo/90d1b1f8060799f0fb28.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33454,8 +33457,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 6 megapixeles</p>\n<p>🌈 <strong>Tecnologia:</strong> Colorvu Smart Hybrid Light Fixed</p>\n<p>🔦 <strong>Tipo:</strong> Bullet</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 30 metros</p>\n<p>💧 <strong>Proteccion:</strong> IP67</p>\n<p>🌐 <strong>Conexion:</strong> IP</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/2cab7011-cd3c-4a7f-a0a1-66343731ebfb.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/2cab7011-cd3c-4a7f-a0a1-66343731ebfb.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000110247",
@@ -33494,8 +33497,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110247/"
       ],
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "image": "img/catalogo/18cf9c57f60f82cdf879.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33503,8 +33506,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📡 <strong>Canales IP:</strong> 32</p>\n<p>🎥 <strong>Resolución:</strong> 4K</p>\n<p>🔌 <strong>Canales PoE físicos:</strong> 16</p>\n<p>🌐 <strong>Canales por red:</strong> 16</p>\n<p>💾 <strong>Bahías de disco duro:</strong> 4</p>\n<p>📀 <strong>Capacidad máxima de almacenamiento:</strong> 16TB</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/8a6a113e-9583-4885-8a45-a12a2179ef60.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/8a6a113e-9583-4885-8a45-a12a2179ef60.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000110251",
@@ -33543,8 +33546,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110251/"
       ],
-      "stockQuantity": 4,
-      "stockText": "4 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "image": "img/catalogo/fc0fea6759ca516105ed.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33552,8 +33555,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📹 <strong>Canales:</strong> 16</p>\n<p>🖥️ <strong>Resolución:</strong> 4K (3840 × 2160)</p>\n<p>🔍 <strong>Sensor:</strong> 8MP</p>\n<p>🔌 <strong>Puertos PoE:</strong> 16</p>\n<p>💾 <strong>Almacenamiento:</strong> 2 SATA hasta 16 TB</p>\n<p>📏 <strong>Formato:</strong> 1U</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/04ec497e-2826-4dcf-a077-f620798fc077.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/04ec497e-2826-4dcf-a077-f620798fc077.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000110448",
@@ -33605,8 +33608,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo de cámara:</strong> Domo (Turret)</p>\n<p>📡 <strong>Tecnología:</strong> Análoga</p>\n<p>🎯 <strong>Resolución:</strong> 3K</p>\n<p>🎨 <strong>Tecnología de imagen:</strong> ColorVu</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🔢 <strong>SKU:</strong> 110448</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/14de05da-9e57-427a-b8d4-e4857465dc4b.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/14de05da-9e57-427a-b8d4-e4857465dc4b.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000110762",
@@ -33645,8 +33648,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110762/"
       ],
-      "stockQuantity": 9,
-      "stockText": "9 disponibles",
+      "stockQuantity": 30,
+      "stockText": "30 disponibles",
       "image": "img/catalogo/ae467fb6499a43c7d469.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33654,8 +33657,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📡 <strong>Conectividad:</strong> 4G</p>\n<p>🔆 <strong>Fuente de energía:</strong> Panel solar</p>\n<p>🎥 <strong>Tipo de cámara:</strong> Domo PT</p>\n<p>🌙 <strong>Visión nocturna:</strong> IR 30 metros</p>\n<p>💧 <strong>Protección:</strong> IP66</p>\n<p>🔊 <strong>Audio:</strong> Incluye micrófono y audio bidireccional</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/4ec7a4a9-1fad-4c9c-800a-191059471ec2.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/4ec7a4a9-1fad-4c9c-800a-191059471ec2.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000110763",
@@ -33694,8 +33697,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110763/"
       ],
-      "stockQuantity": 24,
-      "stockText": "24 disponibles",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "image": "img/catalogo/dabd1a2a016b80301f29.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33703,8 +33706,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📡 <strong>Conectividad:</strong> 4G</p>\n<p>🔆 <strong>Alimentación:</strong> panel solar</p>\n<p>🎥 <strong>Formato:</strong> bullet</p>\n<p>🌙 <strong>Visión nocturna:</strong> IR 30 metros</p>\n<p>🌧️ <strong>Protección:</strong> IP66</p>\n<p>🔊 <strong>Audio:</strong> micrófono integrado</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/ad6e288f-4910-4475-8569-9d078b611c6c.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/ad6e288f-4910-4475-8569-9d078b611c6c.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000110771",
@@ -33756,8 +33759,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏢 <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo de cámara:</strong> Bullet</p>\n<p>📡 <strong>Tecnología:</strong> Análoga</p>\n<p>🎯 <strong>Resolución:</strong> 5 MP (3K)</p>\n<p>🎨 <strong>Tecnología de imagen:</strong> ColorVu</p>\n<p>🎙️ <strong>Audio:</strong> Integrado (S)</p>\n<p>🔢 <strong>SKU:</strong> 110771</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/cf8f21e2-b97f-4e4b-bc23-983f6f0eba23.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/cf8f21e2-b97f-4e4b-bc23-983f6f0eba23.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000110776",
@@ -33800,8 +33803,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110776/"
       ],
-      "stockQuantity": 17,
-      "stockText": "17 disponibles",
+      "stockQuantity": 40,
+      "stockText": "40 disponibles",
       "image": "img/catalogo/b987f2ae2c9fbe323250.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33809,13 +33812,13 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📊 <strong>Canales:</strong> 16 Canales</p>\n<p>🌐 <strong>Conexión:</strong> IP</p>\n<p>⚡ <strong>Alimentación:</strong> PoE</p>\n<p>🎯 <strong>Resolución:</strong> 4K / 1080p hasta 8MP</p>\n<p>🗜️ <strong>Compresión:</strong> H.265</p>\n<p>📦 <strong>Formato:</strong> 1U</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/723f2db6-253a-490f-98c0-9aafc5344a01.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/723f2db6-253a-490f-98c0-9aafc5344a01.png",
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
     },
     {
       "id": "800000111669",
       "reference": "111669",
-      "name": "Soporte Hikvision Para Pantalla Videowall Ds-D2055Lu-Y",
+      "name": "Soporte Hikvision Para Pantalla Videowall DS-D2055LU-Y",
       "spec": "Soporte de montaje Hikvision especificado para pantalla videowall modelo DS-D2055LU-Y.",
       "price": 5900.0,
       "stock": true,
@@ -33847,15 +33850,1477 @@
       ],
       "stockQuantity": 8,
       "stockText": "8 disponibles",
-      "image": "img/catalogo/sin-imagen.svg",
+      "image": "img/catalogo/6b6d0b6de0258aca2740.webp",
       "sourceCategory": "",
       "category": "Periféricos",
       "brand": "Hikvision",
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏢 <strong>Marca:</strong> Hikvision</p>\n<p>📦 <strong>Tipo de producto:</strong> Soporte para pantalla</p>\n<p>📺 <strong>Aplicación:</strong> Videowall</p>\n<p>🎯 <strong>Modelo compatible:</strong> DS-D2055LU-Y</p>\n<p>🔢 <strong>SKU:</strong> 111669</p>",
-      "specificationsUpdated": "2026-10-26T16:35:49+00:00"
+      "specificationsUpdated": "2026-10-26T16:35:49+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/e6ada3e58fb3e8a786e59bbe.webp"
+    },
+    {
+      "id": "80000092631",
+      "reference": "92631",
+      "name": "Control De Acceso Hikvision Serie Value Con Pantalla Táctil 4.3″",
+      "spec": "Control de acceso Hikvision Serie Value con pantalla táctil LCD de 4.3 pulgadas, sistema operativo Linux, reconocimiento facial para 1500 rostros y conectividad Wi-Fi.",
+      "price": 9600.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Serie",
+          "value": "Value"
+        },
+        {
+          "label": "Pantalla",
+          "value": "LCD táctil de 4.3 pulgadas"
+        },
+        {
+          "label": "Sistema operativo",
+          "value": "Linux"
+        },
+        {
+          "label": "Cámara",
+          "value": "2 MP"
+        },
+        {
+          "label": "Resolución",
+          "value": "480 x 272"
+        },
+        {
+          "label": "Capacidad de rostros",
+          "value": "1500"
+        },
+        {
+          "label": "Capacidad de tarjetas",
+          "value": "3000 (EM)"
+        },
+        {
+          "label": "Capacidad de eventos",
+          "value": "150,000"
+        },
+        {
+          "label": "Red cableada",
+          "value": "0M/100M"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi"
+        },
+        {
+          "label": "Protocolos",
+          "value": "ISAPI, ISUP5.0"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/92631/"
+      ],
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
+      "image": "img/catalogo/ca2075e048b75dc391d2.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Controles de juego",
+      "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📦 <strong>Serie:</strong> Value</p>\n<p>🖥️ <strong>Pantalla:</strong> LCD táctil de 4.3 pulgadas</p>\n<p>⚙️ <strong>Sistema operativo:</strong> Linux</p>\n<p>📷 <strong>Cámara:</strong> 2 MP</p>\n<p>🎯 <strong>Resolución:</strong> 480 x 272</p>\n<p>👤 <strong>Capacidad de rostros:</strong> 1500</p>\n<p>💳 <strong>Capacidad de tarjetas:</strong> 3000 (EM)</p>\n<p>📝 <strong>Capacidad de eventos:</strong> 150,000</p>\n<p>🌐 <strong>Red cableada:</strong> 0M/100M</p>\n<p>📶 <strong>Conectividad:</strong> Wi-Fi</p>\n<p>🔌 <strong>Protocolos:</strong> ISAPI, ISUP5.0</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/a4a8cc33-1497-4abc-b76e-0190ae303f0b-1.png"
+    },
+    {
+      "id": "80000094409",
+      "reference": "94409",
+      "name": "Cámara Ip Ptz Hikvision 4Mp Darkfighter Zoom 25X Ir 100M",
+      "spec": "Cámara de vigilancia IP PTZ Hikvision de 4 MP con tecnología DarkFighter, visión nocturna IR de 100 metros, zoom óptico de 25x, digital de 16x y soporte para captura de rostros.",
+      "price": 39800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámara de vigilancia IP PTZ"
+        },
+        {
+          "label": "Resolución",
+          "value": "4 MP"
+        },
+        {
+          "label": "Tecnología",
+          "value": "DarkFighter"
+        },
+        {
+          "label": "Alcance IR",
+          "value": "100 m"
+        },
+        {
+          "label": "Zoom óptico",
+          "value": "25x"
+        },
+        {
+          "label": "Zoom digital",
+          "value": "16x"
+        },
+        {
+          "label": "Funciones",
+          "value": "Soporte de captura de rostros"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/94409/"
+      ],
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
+      "image": "img/catalogo/f86c6385681ef16db66f.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo:</strong> Cámara de vigilancia IP PTZ</p>\n<p>🎯 <strong>Resolución:</strong> 4 MP</p>\n<p>🌙 <strong>Tecnología:</strong> DarkFighter</p>\n<p>🔦 <strong>Alcance IR:</strong> 100 m</p>\n<p>🔍 <strong>Zoom óptico:</strong> 25x</p>\n<p>🔎 <strong>Zoom digital:</strong> 16x</p>\n<p>👤 <strong>Funciones:</strong> Soporte de captura de rostros</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/4718c046-60c0-4bb2-bc9e-d3bb04f45fb8.png"
+    },
+    {
+      "id": "80000094693",
+      "reference": "94693",
+      "name": "Impresora Laser Color Multifunción Hp Laserjet Pro 4303Fdw Duplex",
+      "spec": "Impresora láser color multifunción HP LaserJet Pro 4303fdw con duplex y alta velocidad de impresión. Compatible con toner HP 230A/X.",
+      "price": 47900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo",
+          "value": "Multifunción (Fax, Copiadora, Impresora, Escáner)"
+        },
+        {
+          "label": "Color",
+          "value": "Color"
+        },
+        {
+          "label": "Velocidad de impresión y copiado",
+          "value": "Hasta 35 ppm"
+        },
+        {
+          "label": "Tamaño de papel",
+          "value": "Legal (8.5 x 14 in / 216 x 356 mm)"
+        },
+        {
+          "label": "Capacidad de papel",
+          "value": "350 hojas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB 2.0, LAN, USB Host"
+        },
+        {
+          "label": "Fax",
+          "value": "33.6 kbps"
+        },
+        {
+          "label": "Tecnología de impresión",
+          "value": "Láser"
+        },
+        {
+          "label": "Función duplex",
+          "value": "Sí"
+        },
+        {
+          "label": "Consumibles",
+          "value": "Toner HP 230A/X (W2300A/X, W2301A/X, W2302A/X, W2303A/X)"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/94693/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/f5ed1f838eaeb9f5a82d.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "HP",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🖨️ <strong>Tipo:</strong> Multifunción (Fax, Copiadora, Impresora, Escáner)</p>\n<p>🎨 <strong>Color:</strong> Color</p>\n<p>⚡ <strong>Velocidad de impresión y copiado:</strong> Hasta 35 ppm</p>\n<p>📄 <strong>Tamaño de papel:</strong> Legal (8.5 x 14 in / 216 x 356 mm)</p>\n<p>📥 <strong>Capacidad de papel:</strong> 350 hojas</p>\n<p>🔌 <strong>Conectividad:</strong> USB 2.0, LAN, USB Host</p>\n<p>📠 <strong>Fax:</strong> 33.6 kbps</p>\n<p>🖨️ <strong>Tecnología de impresión:</strong> Láser</p>\n<p>♻️ <strong>Función duplex:</strong> Sí</p>\n<p>🧴 <strong>Consumibles:</strong> Toner HP 230A/X (W2300A/X, W2301A/X, W2302A/X, W2303A/X)</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/7bdd49fc-20cd-4348-9937-cef54196b51c.png"
+    },
+    {
+      "id": "80000095753",
+      "reference": "95753",
+      "name": "Cámara De Vigilancia Hikvision Bullet 2Mp Hybrid Light Colorvu",
+      "spec": "Cámara de vigilancia analógica tipo bullet Hikvision de 2 MP con resolución 1920 x 1080. Cuenta con tecnología Hybrid Light, ColorVu, alcance EXIR 2.0 de 20 metros y micrófono integrado con transmisión de audio vía coaxial.",
+      "price": 1800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámara de vigilancia analógica tipo Bullet"
+        },
+        {
+          "label": "Resolución",
+          "value": "2 MP (1920 x 1080)"
+        },
+        {
+          "label": "Tecnología de iluminación",
+          "value": "Hybrid Light y ColorVu"
+        },
+        {
+          "label": "Alcance nocturno",
+          "value": "EXIR 2.0 (20M) / IR"
+        },
+        {
+          "label": "Audio",
+          "value": "Micrófono integrado con audio vía coaxial"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/95753/"
+      ],
+      "stockQuantity": 612,
+      "stockText": "612 disponibles",
+      "image": "img/catalogo/f051c789613431237a9b.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📷 <strong>Tipo:</strong> Cámara de vigilancia analógica tipo Bullet</p>\n<p>🎯 <strong>Resolución:</strong> 2 MP (1920 x 1080)</p>\n<p>💡 <strong>Tecnología de iluminación:</strong> Hybrid Light y ColorVu</p>\n<p>🌙 <strong>Alcance nocturno:</strong> EXIR 2.0 (20M) / IR</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado con audio vía coaxial</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/ae7b463c-5518-4a7d-bee4-175ba68e621a.png"
+    },
+    {
+      "id": "80000095757",
+      "reference": "95757",
+      "name": "Terminal Facial Y Control De Asistencia Hikvision Minmoe Wi-Fi",
+      "spec": "Terminal de control de asistencia Hikvision MinMoe con biometría facial, huella dactilar y tarjetas EM Card. Incluye conectividad Wi-Fi y capacidad para 500 rostros, 3,000 huellas y 3,000 tarjetas.",
+      "price": 8300.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Serie",
+          "value": "MinMoe"
+        },
+        {
+          "label": "Tipo",
+          "value": "Control de asistencia / Terminal facial"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi"
+        },
+        {
+          "label": "Capacidad de rostros",
+          "value": "500"
+        },
+        {
+          "label": "Capacidad de huellas",
+          "value": "3,000"
+        },
+        {
+          "label": "Capacidad de tarjetas",
+          "value": "3,000"
+        },
+        {
+          "label": "Lector de tarjetas",
+          "value": "EM Card"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/95757/"
+      ],
+      "stockQuantity": 30,
+      "stockText": "30 disponibles",
+      "image": "img/catalogo/2f6d9b157b0642d04bd1.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏢 <strong>Marca:</strong> Hikvision</p>\n<p>📌 <strong>Serie:</strong> MinMoe</p>\n<p>📟 <strong>Tipo:</strong> Control de asistencia / Terminal facial</p>\n<p>📶 <strong>Conectividad:</strong> Wi-Fi</p>\n<p>👤 <strong>Capacidad de rostros:</strong> 500</p>\n<p>👆 <strong>Capacidad de huellas:</strong> 3,000</p>\n<p>💳 <strong>Capacidad de tarjetas:</strong> 3,000</p>\n<p>🎴 <strong>Lector de tarjetas:</strong> EM Card</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/3cd5d578-da60-4a55-9fe6-8410d903d962.png"
+    },
+    {
+      "id": "80000095762",
+      "reference": "95762",
+      "name": "Nvr Hikvision Ds-9664Ni-I8 64 Canales 8K Salidas HDMI Y Vga",
+      "spec": "Nvr 64 Canales 8k Con Salidas Hdmi Y Vga Y Compresion H.264",
+      "price": 215400.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Canales",
+          "value": "64 por red"
+        },
+        {
+          "label": "Resolución",
+          "value": "8K"
+        },
+        {
+          "label": "Compresiones",
+          "value": "H.264, MPEG4, MJPEG"
+        },
+        {
+          "label": "Salidas",
+          "value": "HDMI y VGA"
+        },
+        {
+          "label": "Ancho De Banda",
+          "value": "320 MB/s"
+        },
+        {
+          "label": "Puertos USB",
+          "value": "2 USB 2.0, 2 USB 3.0"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/95762/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/ff5fc92cb51f0a873d43.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📡 <strong>Canales:</strong> 64 por red</p>\n<p>🖥️ <strong>Resolución:</strong> 8K</p>\n<p>💾 <strong>Compresiones:</strong> H.264, MPEG4, MJPEG</p>\n<p>🔌 <strong>Salidas:</strong> HDMI y VGA</p>\n<p>📶 <strong>Ancho De Banda:</strong> 320 MB/s</p>\n<p>🔌 <strong>Puertos USB:</strong> 2 USB 2.0, 2 USB 3.0</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/7ed55383-5dca-4bea-b00f-31d6fef2b358.png"
+    },
+    {
+      "id": "80000096723",
+      "reference": "96723",
+      "name": "UPS Hikvision 1000VA 600W 120V 6 Tomas NEMA 5-15R Protección Sobrecarga",
+      "spec": "El UPS Hikvision de 1000VA ofrece respaldo estable de energía con 6 tomas NEMA y protección avanzada contra sobrecarga y descarga. Mantén tus equipos seguros y funcionando sin interrupciones. ¡Adquiérelo ahora!",
+      "price": 3400.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Capacidad",
+          "value": "1000VA / 600W"
+        },
+        {
+          "label": "Voltaje de Entrada/Salida",
+          "value": "120V"
+        },
+        {
+          "label": "Tipo de Conexión",
+          "value": "6 tomas NEMA 5-15R (4 con respaldo y 2 sin respaldo)"
+        },
+        {
+          "label": "Protección",
+          "value": "Contra sobrecarga y descarga"
+        },
+        {
+          "label": "Función",
+          "value": "Respaldo de energía y regulación automática de voltaje"
+        },
+        {
+          "label": "Aplicación",
+          "value": "Equipos de cómputo, CCTV, redes y dispositivos electrónicos"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/96723/"
+      ],
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
+      "image": "img/catalogo/116d46555565e172d58e.webp",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏷️ <strong>Marca:</strong> Hikvision<br>⚡ <strong>Capacidad:</strong> 1000VA / 600W<br>🔌 <strong>Voltaje de Entrada/Salida:</strong> 120V<br>🔋 <strong>Tipo de Conexión:</strong> 6 tomas NEMA 5-15R (4 con respaldo y 2 sin respaldo)<br>🛡️ <strong>Protección:</strong> Contra sobrecarga y descarga<br>⚙️ <strong>Función:</strong> Respaldo de energía y regulación automática de voltaje<br>💻 <strong>Aplicación:</strong> Equipos de cómputo, CCTV, redes y dispositivos electrónicos</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/10/DS-UPS1000-X.webp"
+    },
+    {
+      "id": "800000104746",
+      "reference": "104746",
+      "name": "Cámara Análoga Hikvision Domo Turret 3K Smart Hybrid Light",
+      "spec": "Cámara de vigilancia análoga Hikvision formato domo (Turret) con resolución 3K, tecnología Smart Hybrid Light y micrófono integrado.",
+      "price": 2000.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de cámara",
+          "value": "Análoga"
+        },
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Factor de forma",
+          "value": "Domo (Turret)"
+        },
+        {
+          "label": "Resolución",
+          "value": "3K"
+        },
+        {
+          "label": "Tecnología de iluminación",
+          "value": "Smart Hybrid Light"
+        },
+        {
+          "label": "Audio",
+          "value": "Micrófono integrado"
+        },
+        {
+          "label": "SKU",
+          "value": "104746"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/104746/"
+      ],
+      "stockQuantity": 72,
+      "stockText": "72 disponibles",
+      "image": "img/catalogo/387c1cd204ed0b7f4772.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Tipo de cámara:</strong> Análoga</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📐 <strong>Factor de forma:</strong> Domo (Turret)</p>\n<p>🎯 <strong>Resolución:</strong> 3K</p>\n<p>💡 <strong>Tecnología de iluminación:</strong> Smart Hybrid Light</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🔢 <strong>SKU:</strong> 104746</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/964ee986-7ab6-46fb-bcc8-8d8be8317d5f.png"
+    },
+    {
+      "id": "800000104951",
+      "reference": "104951",
+      "name": "Camara Hikvision Smart Hybrid Light 6Mp Domo Ip67 Microfono",
+      "spec": "Camara domo ip 6mp con microfono y proteccion ip67",
+      "price": 5900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Resolucion",
+          "value": "6MP"
+        },
+        {
+          "label": "Tipo",
+          "value": "Domo (torreta)"
+        },
+        {
+          "label": "Conexion",
+          "value": "IP Network"
+        },
+        {
+          "label": "Proteccion",
+          "value": "IP67"
+        },
+        {
+          "label": "Audio",
+          "value": "Microfono integrado"
+        },
+        {
+          "label": "Almacenamiento",
+          "value": "Soporta memoria micro"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/104951/"
+      ],
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
+      "image": "img/catalogo/7f734bd09c1e441b8d20.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Resolucion:</strong> 6MP</p>\n<p>🔒 <strong>Tipo:</strong> Domo (torreta)</p>\n<p>🌐 <strong>Conexion:</strong> IP Network</p>\n<p>💧 <strong>Proteccion:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Microfono integrado</p>\n<p>💾 <strong>Almacenamiento:</strong> Soporta memoria micro</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/d90a341d-49be-4518-92f8-b5afe0dc4bc4.png"
+    },
+    {
+      "id": "800000106649",
+      "reference": "106649",
+      "name": "Cámara Bullet Ip Acusense Hikvision 8Mp 40M Ir Smart Hybrid",
+      "spec": "Cámara bullet IP Hikvision con tecnología AcuSense y micrófono integrado. Resolución 8MP y visión nocturna IR 40m.",
+      "price": 11900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo",
+          "value": "Cámara de vigilancia bullet"
+        },
+        {
+          "label": "Tecnología",
+          "value": "AcuSense Smart Hybrid"
+        },
+        {
+          "label": "Conectividad",
+          "value": "IP"
+        },
+        {
+          "label": "Audio",
+          "value": "Micrófono integrado"
+        },
+        {
+          "label": "Visión nocturna",
+          "value": "IR hasta 40 metros"
+        },
+        {
+          "label": "Resolución",
+          "value": "8MP (3840 × 2160)"
+        },
+        {
+          "label": "Protección",
+          "value": "IP67"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/106649/"
+      ],
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
+      "image": "img/catalogo/86538fdca8faf9f99cbc.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Tipo:</strong> Cámara de vigilancia bullet</p>\n<p>💡 <strong>Tecnología:</strong> AcuSense Smart Hybrid</p>\n<p>📶 <strong>Conectividad:</strong> IP</p>\n<p>🔊 <strong>Audio:</strong> Micrófono integrado</p>\n<p>🌙 <strong>Visión nocturna:</strong> IR hasta 40 metros</p>\n<p>🖼️ <strong>Resolución:</strong> 8MP (3840 × 2160)</p>\n<p>🌧️ <strong>Protección:</strong> IP67</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/406deda9-703b-4fdf-bc8d-9b6b28f57974.png"
+    },
+    {
+      "id": "800000107286",
+      "reference": "107286",
+      "name": "Cámara Bullet Ip 4Mp Hikvision Smart Hybrid Light",
+      "spec": "Cámara bullet IP de 4MP con iluminación híbrida y micrófono integrado. Protección IP67 para uso exterior.",
+      "price": 4900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo",
+          "value": "Cámara de vigilancia bullet"
+        },
+        {
+          "label": "Resolución",
+          "value": "4MP"
+        },
+        {
+          "label": "Iluminación",
+          "value": "30 mts IR + 30 mts luz blanca"
+        },
+        {
+          "label": "Audio",
+          "value": "Micrófono integrado"
+        },
+        {
+          "label": "Protección",
+          "value": "IP67"
+        },
+        {
+          "label": "Conectividad",
+          "value": "IP"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/107286/"
+      ],
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
+      "image": "img/catalogo/eb36910b21287f115b40.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Tipo:</strong> Cámara de vigilancia bullet</p>\n<p>🔍 <strong>Resolución:</strong> 4MP</p>\n<p>💡 <strong>Iluminación:</strong> 30 mts IR + 30 mts luz blanca</p>\n<p>🎤 <strong>Audio:</strong> Micrófono integrado</p>\n<p>🌧️ <strong>Protección:</strong> IP67</p>\n<p>🌐 <strong>Conectividad:</strong> IP</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/8e51724f-bf74-4d0a-835f-08aa7d2ed7cc.png"
+    },
+    {
+      "id": "800000108944",
+      "reference": "108944",
+      "name": "Laptop Dell Latitude 5450 14″ FHD Touch Intel Core Ultra 5 135U",
+      "spec": "Laptop 14″ FHD Touch Con Intel Core Ultra 5 16GB RAM Y 256GB SSD",
+      "price": 76600.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Pantalla",
+          "value": "14″ FHD Touch"
+        },
+        {
+          "label": "Procesador",
+          "value": "Intel Core Ultra 5 135U vPro"
+        },
+        {
+          "label": "Memoria RAM",
+          "value": "16GB"
+        },
+        {
+          "label": "Almacenamiento",
+          "value": "256GB SSD"
+        },
+        {
+          "label": "Sistema Operativo",
+          "value": "Windows 11 Pro Inglés"
+        },
+        {
+          "label": "Teclado",
+          "value": "Retroiluminado"
+        },
+        {
+          "label": "Seguridad",
+          "value": "Lector de huellas"
+        },
+        {
+          "label": "Puertos USB",
+          "value": "2x USB-A 3.2, 2x USB-C"
+        },
+        {
+          "label": "Salida de video",
+          "value": "1x HDMI 2.11"
+        },
+        {
+          "label": "Color",
+          "value": "Titan Gray"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/108944/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/65c45da677e0d9a561a7.jpg",
+      "sourceCategory": "",
+      "category": "Laptops",
+      "brand": "Dell",
+      "collections": [],
+      "subcategory": "Portátiles",
+      "description": "<p>💻 <strong>Pantalla:</strong> 14″ FHD Touch</p>\n<p>⚙️ <strong>Procesador:</strong> Intel Core Ultra 5 135U vPro</p>\n<p>🧠 <strong>Memoria RAM:</strong> 16GB</p>\n<p>💾 <strong>Almacenamiento:</strong> 256GB SSD</p>\n<p>🔐 <strong>Sistema Operativo:</strong> Windows 11 Pro Inglés</p>\n<p>⌨️ <strong>Teclado:</strong> Retroiluminado</p>\n<p>🔒 <strong>Seguridad:</strong> Lector de huellas</p>\n<p>🔌 <strong>Puertos USB:</strong> 2x USB-A 3.2, 2x USB-C</p>\n<p>📺 <strong>Salida de video:</strong> 1x HDMI 2.11</p>\n<p>🎨 <strong>Color:</strong> Titan Gray</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/ec64026f-6f9f-49a9-8ea1-f7d180e6424a.png"
+    },
+    {
+      "id": "800000109400",
+      "reference": "109400",
+      "name": "Camara De Vigilancia Hikvision Colorvu Hybrid Light Bullet 2Mp 30 Mts Ip67 Microfono",
+      "spec": "Camara Bullet IP 2MP Colorvu Hybrid Light Con Microfono Y Proteccion IP67",
+      "price": 3900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo",
+          "value": "Bullet"
+        },
+        {
+          "label": "Resolucion",
+          "value": "2MP"
+        },
+        {
+          "label": "Tecnologia",
+          "value": "Colorvu Hybrid Light"
+        },
+        {
+          "label": "Alcance",
+          "value": "30 metros"
+        },
+        {
+          "label": "Proteccion",
+          "value": "IP67"
+        },
+        {
+          "label": "Audio",
+          "value": "Microfono integrado"
+        },
+        {
+          "label": "Conexion",
+          "value": "IP"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/109400/"
+      ],
+      "stockQuantity": 200,
+      "stockText": "200 disponibles",
+      "image": "img/catalogo/a26a36303c3aa86452e3.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Tipo:</strong> Bullet</p>\n<p>🔍 <strong>Resolucion:</strong> 2MP</p>\n<p>🌈 <strong>Tecnologia:</strong> Colorvu Hybrid Light</p>\n<p>📡 <strong>Alcance:</strong> 30 metros</p>\n<p>💧 <strong>Proteccion:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Microfono integrado</p>\n<p>🌐 <strong>Conexion:</strong> IP</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/6f0a6826-1c4c-4d64-aa52-afd005b088ed.png"
+    },
+    {
+      "id": "800000109403",
+      "reference": "109403",
+      "name": "Camara De Vigilancia Hikvision Colorvu 2Mp Smart Hybrid Light Domo Turret",
+      "spec": "Camara De Vigilancia Ip 2mp Colorvu Con Microfono Y Proteccion Ip67",
+      "price": 3900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Resolucion",
+          "value": "2MP"
+        },
+        {
+          "label": "Tecnologia",
+          "value": "Colorvu With Smart Hybrid Light"
+        },
+        {
+          "label": "Tipo",
+          "value": "Domo Turret"
+        },
+        {
+          "label": "Vision Nocturna",
+          "value": "IR 30M"
+        },
+        {
+          "label": "Proteccion",
+          "value": "IP67"
+        },
+        {
+          "label": "Audio",
+          "value": "Microfono Integrado"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/109403/"
+      ],
+      "stockQuantity": 108,
+      "stockText": "108 disponibles",
+      "image": "img/catalogo/a5db07a28a0539f1ba7e.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Resolucion:</strong> 2MP</p>\n<p>🌈 <strong>Tecnologia:</strong> Colorvu With Smart Hybrid Light</p>\n<p>🔒 <strong>Tipo:</strong> Domo Turret</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 30M</p>\n<p>💧 <strong>Proteccion:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Microfono Integrado</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/3d065b45-f7bd-440b-b9a6-8deaa39372ed.png"
+    },
+    {
+      "id": "800000109431",
+      "reference": "109431",
+      "name": "Router Inalámbrico Hikvision Ac1200 Gigabit Wisp Doble Banda",
+      "spec": "Router inalámbrico Hikvision AC1200 Gigabit con tecnología de doble banda (2.4 GHz y 5 GHz), 3 puertos LAN Gigabit, 1 puerto WAN y 4 antenas externas de 5 dBi diseñadas para uso en interior.",
+      "price": 1600.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de dispositivo",
+          "value": "Router Inalámbrico WISP"
+        },
+        {
+          "label": "Velocidad de transferencia",
+          "value": "Hasta 1200 Mbps"
+        },
+        {
+          "label": "Frecuencia de banda",
+          "value": "Doble banda AC (2.4 GHz y 5 GHz)"
+        },
+        {
+          "label": "Puertos LAN",
+          "value": "3 puertos 10/100/1000 Mbps"
+        },
+        {
+          "label": "Puerto WAN",
+          "value": "1 puerto 10/100 Mbps"
+        },
+        {
+          "label": "Antenas",
+          "value": "4 antenas externas omnidireccionales de 5 dBi"
+        },
+        {
+          "label": "Entorno de uso",
+          "value": "Interior"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/109431/"
+      ],
+      "stockQuantity": 140,
+      "stockText": "140 disponibles",
+      "image": "img/catalogo/a02fafc3fd839430ea1c.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📶 <strong>Tipo de dispositivo:</strong> Router Inalámbrico WISP</p>\n<p>⚡ <strong>Velocidad de transferencia:</strong> Hasta 1200 Mbps</p>\n<p>🌐 <strong>Frecuencia de banda:</strong> Doble banda AC (2.4 GHz y 5 GHz)</p>\n<p>🔌 <strong>Puertos LAN:</strong> 3 puertos 10/100/1000 Mbps</p>\n<p>🌐 <strong>Puerto WAN:</strong> 1 puerto 10/100 Mbps</p>\n<p>📡 <strong>Antenas:</strong> 4 antenas externas omnidireccionales de 5 dBi</p>\n<p>🏠 <strong>Entorno de uso:</strong> Interior</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/1bcdbce6-919b-4dbe-8ad4-75bd1124aa51.png"
+    },
+    {
+      "id": "800000109517",
+      "reference": "109517",
+      "name": "Control de Acceso Hikvision DS-K1T344MBWX-E1 Facial QR Bluetooth WiFi IP65",
+      "spec": "El control de acceso Hikvision DS-K1T344MBWX-E1 ofrece autenticación avanzada mediante reconocimiento facial, tarjetas y códigos QR, ideal para empresas y entornos de alta seguridad. Su conectividad WiFi, Bluetooth y protección IP65 garantizan un funcionamiento confiable y eficiente en interiores y exteriores. ¡Moderniza la seguridad de tus accesos con tecnología inteligente hoy mismo!",
+      "price": 15500.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Modelo",
+          "value": "DS-K1T344MBWX-E1"
+        },
+        {
+          "label": "Tipo de producto",
+          "value": "Control de acceso frontal"
+        },
+        {
+          "label": "Pantalla",
+          "value": "4.5″"
+        },
+        {
+          "label": "Protección",
+          "value": "IP65"
+        },
+        {
+          "label": "Capacidad de usuarios",
+          "value": "3,000 usuarios"
+        },
+        {
+          "label": "Capacidad facial",
+          "value": "3,000 rostros"
+        },
+        {
+          "label": "Capacidad de tarjetas",
+          "value": "3,000 tarjetas"
+        },
+        {
+          "label": "Capacidad de eventos",
+          "value": "15,000 registros"
+        },
+        {
+          "label": "Tecnología adicional",
+          "value": "Códigos QR"
+        },
+        {
+          "label": "Conectividad",
+          "value": "WiFi"
+        },
+        {
+          "label": "Conectividad inalámbrica",
+          "value": "Bluetooth"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/109517/"
+      ],
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
+      "image": "img/catalogo/a68c0fce0351389779e1.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Controles de juego",
+      "description": "<p>🏷️ <strong>Marca:</strong> Hikvision<br>🔢 <strong>Modelo:</strong> DS-K1T344MBWX-E1<br>🔐 <strong>Tipo de producto:</strong> Control de acceso frontal<br>🖥️ <strong>Pantalla:</strong> 4.5″<br>💧 <strong>Protección:</strong> IP65<br>👤 <strong>Capacidad de usuarios:</strong> 3,000 usuarios<br>😊 <strong>Capacidad facial:</strong> 3,000 rostros<br>🆔 <strong>Capacidad de tarjetas:</strong> 3,000 tarjetas<br>📂 <strong>Capacidad de eventos:</strong> 15,000 registros<br>🔳 <strong>Tecnología adicional:</strong> Códigos QR<br>📶 <strong>Conectividad:</strong> WiFi<br>📡 <strong>Conectividad inalámbrica:</strong> Bluetooth</p>",
+      "model": "DS-K1T344MBWX-E1",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/6d0987d7-06af-43dd-9469-f88bfb30877f.png"
+    },
+    {
+      "id": "800000110439",
+      "reference": "110439",
+      "name": "Camara De Seguridad Hikvision Kit 4Mp Bullet Y Domo Pt WiFi",
+      "spec": "Kit De Camaras De Seguridad Hikvision 4MP Bullet Y Domo PT Con Grabadora WiFi",
+      "price": 9300.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Camara Bullet",
+          "value": "4MP"
+        },
+        {
+          "label": "Camara Domo PT",
+          "value": "4MP"
+        },
+        {
+          "label": "Conectividad",
+          "value": "WiFi"
+        },
+        {
+          "label": "Grabadora",
+          "value": "Incluida"
+        },
+        {
+          "label": "Kit",
+          "value": "1 Bullet, 1 Domo PT, 1 Grabadora"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/110439/"
+      ],
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
+      "image": "img/catalogo/6d546fc9d3d342fa5e5a.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Camara Bullet:</strong> 4MP</p>\n<p>📷 <strong>Camara Domo PT:</strong> 4MP</p>\n<p>📡 <strong>Conectividad:</strong> WiFi</p>\n<p>🎥 <strong>Grabadora:</strong> Incluida</p>\n<p>🔧 <strong>Kit:</strong> 1 Bullet, 1 Domo PT, 1 Grabadora</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/08949398-67ff-44aa-9e2d-49471b5dc81b.png"
+    },
+    {
+      "id": "800000110684",
+      "reference": "110684",
+      "name": "UPS 1000Va 600W Hikvision 6 Tomas Nema 5-15R Protección Sobrecarga",
+      "spec": "UPS Hikvision de 1000VA y 600W con protección contra sobrecarga y descarga. Cuenta con 6 tomas NEMA 5-15R, 4 con respaldo y 2 sin respaldo.",
+      "price": 3500.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Capacidad",
+          "value": "1000VA / 600W"
+        },
+        {
+          "label": "Protección",
+          "value": "contra sobrecarga y descarga"
+        },
+        {
+          "label": "Entrada y salida",
+          "value": "120V"
+        },
+        {
+          "label": "Tomas",
+          "value": "6 NEMA 5-15R (4 con respaldo, 2 sin respaldo)"
+        },
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/110684/"
+      ],
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
+      "image": "img/catalogo/66a46f029bd7e3956043.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🔋 <strong>Capacidad:</strong> 1000VA / 600W</p>\n<p>⚡ <strong>Protección:</strong> contra sobrecarga y descarga</p>\n<p>🔌 <strong>Entrada y salida:</strong> 120V</p>\n<p>🔌 <strong>Tomas:</strong> 6 NEMA 5-15R (4 con respaldo, 2 sin respaldo)</p>\n<p>🛡️ <strong>Marca:</strong> Hikvision</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/11f62e7b-fd10-495b-ab1a-49ab4855f5c6.png"
+    },
+    {
+      "id": "800000110979",
+      "reference": "110979",
+      "name": "Batería Lifepo4 16 Kwh 51.2V 314Ah",
+      "spec": "Batería de litio ferrofosfato (LiFePO4) con capacidad de almacenamiento de 16 kWh, voltaje nominal de 51.2 V y 314 Ah.",
+      "price": 150100.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tecnología",
+          "value": "LiFePO4"
+        },
+        {
+          "label": "Capacidad de energía",
+          "value": "16 kWh"
+        },
+        {
+          "label": "Voltaje nominal",
+          "value": "51.2 V"
+        },
+        {
+          "label": "Capacidad de corriente",
+          "value": "314 Ah"
+        },
+        {
+          "label": "SKU",
+          "value": "110979"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/110979/"
+      ],
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "image": "img/catalogo/edd2febec192e8595ad2.webp",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Genérico",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🔋 <strong>Tecnología:</strong> LiFePO4</p>\n<p>⚡ <strong>Capacidad de energía:</strong> 16 kWh</p>\n<p>🔌 <strong>Voltaje nominal:</strong> 51.2 V</p>\n<p>🔋 <strong>Capacidad de corriente:</strong> 314 Ah</p>\n<p>🏷️ <strong>SKU:</strong> 110979</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/bateria-lifepo4-16-kwh-51-2v-314ah.webp"
+    },
+    {
+      "id": "800000111094",
+      "reference": "111094",
+      "name": "Cámara Ip Domo Hikvision 6Mp Colorvu Smart Hybrid Light",
+      "spec": "Cámara de vigilancia IP tipo domo Hikvision de 6 MP con tecnología ColorVu Smart Hybrid Light. Cuenta con visión nocturna IR de 30 m, micrófono integrado y protecciones IP67 e IK08.",
+      "price": 7600.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Tipo",
+          "value": "Cámara IP Domo"
+        },
+        {
+          "label": "Resolución",
+          "value": "6 MP"
+        },
+        {
+          "label": "Tecnología",
+          "value": "ColorVu con Smart Hybrid Light"
+        },
+        {
+          "label": "Lente",
+          "value": "Fijo (Fixed)"
+        },
+        {
+          "label": "Alcance IR",
+          "value": "30 m"
+        },
+        {
+          "label": "Grado de protección",
+          "value": "IP67"
+        },
+        {
+          "label": "Resistencia a impactos",
+          "value": "IK08"
+        },
+        {
+          "label": "Audio",
+          "value": "Micrófono integrado"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111094/"
+      ],
+      "stockQuantity": 100,
+      "stockText": "100 disponibles",
+      "image": "img/catalogo/2a8975d2a12d67128821.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📷 <strong>Tipo:</strong> Cámara IP Domo</p>\n<p>🎯 <strong>Resolución:</strong> 6 MP</p>\n<p>💡 <strong>Tecnología:</strong> ColorVu con Smart Hybrid Light</p>\n<p>🔍 <strong>Lente:</strong> Fijo (Fixed)</p>\n<p>🌙 <strong>Alcance IR:</strong> 30 m</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP67</p>\n<p>🔨 <strong>Resistencia a impactos:</strong> IK08</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/08/226befba-11d7-4d4b-aa17-603a09046ad5.png"
+    },
+    {
+      "id": "800000111193",
+      "reference": "111193",
+      "name": "Video Balun Hikvision Turbohd 720P-5Mp Hd-Tvi/Ahd/Cvi/Cvbs",
+      "spec": "Video balun Hikvision TurboHD compatible con resoluciones de 720p a 5MP y tecnologías de señal HD-TVI, AHD, HD-CVI y CVBS.",
+      "price": 200.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Serie",
+          "value": "TurboHD"
+        },
+        {
+          "label": "Tipo",
+          "value": "Video Balun"
+        },
+        {
+          "label": "Resoluciones soportadas",
+          "value": "720p / 1080p / 3MP / 4MP / 5MP"
+        },
+        {
+          "label": "Tecnologías soportadas",
+          "value": "HD-TVI, AHD, HD-CVI, CVBS"
+        },
+        {
+          "label": "SKU",
+          "value": "111193"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111193/"
+      ],
+      "stockQuantity": 1979,
+      "stockText": "1979 disponibles",
+      "image": "img/catalogo/45d743bcce5fb9ac4bba.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Serie:</strong> TurboHD</p>\n<p>🔌 <strong>Tipo:</strong> Video Balun</p>\n<p>🎯 <strong>Resoluciones soportadas:</strong> 720p / 1080p / 3MP / 4MP / 5MP</p>\n<p>⚡ <strong>Tecnologías soportadas:</strong> HD-TVI, AHD, HD-CVI, CVBS</p>\n<p>🔢 <strong>SKU:</strong> 111193</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/c591db94-b3f7-4def-aab6-bf9976e22bc2.png"
+    },
+    {
+      "id": "800000111197",
+      "reference": "111197",
+      "name": "UPS Hikvision 1200Va / 720W 6 Tomas Nema 5-15R",
+      "spec": "Sistema de alimentación ininterrumpida Hikvision de 1200VA y 720W con 6 tomas NEMA 5-15R y protección integrada contra sobrecarga y descarga.",
+      "price": 5800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Capacidad",
+          "value": "1200VA / 720W"
+        },
+        {
+          "label": "Voltaje de entrada/salida",
+          "value": "120V"
+        },
+        {
+          "label": "Tomas de salida",
+          "value": "6 NEMA 5-15R (4 con respaldo y 2 sin respaldo)"
+        },
+        {
+          "label": "Protección",
+          "value": "Sobrecarga y descarga"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111197/"
+      ],
+      "stockQuantity": 28,
+      "stockText": "28 disponibles",
+      "image": "img/catalogo/7e83add27d8bfd46dba5.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏢 <strong>Marca:</strong> Hikvision</p>\n<p>⚡ <strong>Capacidad:</strong> 1200VA / 720W</p>\n<p>🔌 <strong>Voltaje de entrada/salida:</strong> 120V</p>\n<p>🔌 <strong>Tomas de salida:</strong> 6 NEMA 5-15R (4 con respaldo y 2 sin respaldo)</p>\n<p>🛡️ <strong>Protección:</strong> Sobrecarga y descarga</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/6496a0e8-bedf-4324-97fd-a1cc5dd58243.png"
+    },
+    {
+      "id": "800000111622",
+      "reference": "111622",
+      "name": "Computadora Dell Optiplex 7060 Sff I5-8500 8Gb 500Gb SSD W10P",
+      "spec": "Computadora de escritorio formato SFF Dell OptiPlex 7060 reacondicionada, equipada con procesador Intel Core i5-8500, 8 GB de memoria RAM, 500 GB de almacenamiento SSD y sistema operativo Windows 10 Pro.",
+      "price": 21300.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Dell"
+        },
+        {
+          "label": "Modelo",
+          "value": "OptiPlex 7060 SFF"
+        },
+        {
+          "label": "Condición",
+          "value": "Reacondicionado"
+        },
+        {
+          "label": "Procesador",
+          "value": "Intel Core i5-8500"
+        },
+        {
+          "label": "Memoria RAM",
+          "value": "8 GB"
+        },
+        {
+          "label": "Almacenamiento",
+          "value": "500 GB SSD"
+        },
+        {
+          "label": "Sistema Operativo",
+          "value": "Windows 10 Pro"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111622/"
+      ],
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
+      "image": "img/catalogo/1f7437513a3ded91405c.png",
+      "sourceCategory": "",
+      "category": "Computadoras",
+      "brand": "Dell",
+      "collections": [],
+      "subcategory": "De escritorio",
+      "description": "<p>🏢 <strong>Marca:</strong> Dell</p>\n<p>🖥️ <strong>Modelo:</strong> OptiPlex 7060 SFF</p>\n<p>🔄 <strong>Condición:</strong> Reacondicionado</p>\n<p>🧠 <strong>Procesador:</strong> Intel Core i5-8500</p>\n<p>💾 <strong>Memoria RAM:</strong> 8 GB</p>\n<p>💽 <strong>Almacenamiento:</strong> 500 GB SSD</p>\n<p>💻 <strong>Sistema Operativo:</strong> Windows 10 Pro</p>",
+      "model": "OptiPlex 7060 SFF",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/cc69377a-84c8-4f87-bd6d-f263f839e4a1.png"
+    },
+    {
+      "id": "800000111666",
+      "reference": "111666",
+      "name": "Kit de Videovigilancia Hikvision Wi-Fi 6 con Cámaras 4K UHD",
+      "spec": "El kit de videovigilancia Hikvision con Wi-Fi 6 ofrece una conexión estable, monitoreo en resolución 4K UHD y detección inteligente de personas y vehículos. Administra tus cámaras, visualiza imágenes en tiempo real y reproduce grabaciones desde la aplicación Hik-Connect. ¡Mejora la seguridad de tu espacio con Hikvision!",
+      "price": 7800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de producto",
+          "value": "Kit de videovigilancia Hikvision"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 6 para transmisión de datos de baja latencia y conexión estable con las cámaras"
+        },
+        {
+          "label": "Salida de video",
+          "value": "HDMI 4K UHD para monitoreo local en pantallas de gran tamaño"
+        },
+        {
+          "label": "Detección inteligente",
+          "value": "Detección de movimiento con clasificación de personas y vehículos"
+        },
+        {
+          "label": "Antenas",
+          "value": "Diseño de antenas de alta ganancia para una cobertura Wi-Fi más amplia"
+        },
+        {
+          "label": "Instalación",
+          "value": "Conexión automática de cámaras y configuración sencilla"
+        },
+        {
+          "label": "Acceso remoto",
+          "value": "Vista en directo, reproducción de grabaciones y administración mediante la aplicación Hik-Connect"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111666/"
+      ],
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
+      "image": "img/catalogo/831d384a9417d637ac66.webp",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📹 Tipo de producto: Kit de videovigilancia Hikvision</p>\n<p>📶 Conectividad: Wi-Fi 6 para transmisión de datos de baja latencia y conexión estable con las cámaras</p>\n<p>🖥️ Salida de video: HDMI 4K UHD para monitoreo local en pantallas de gran tamaño</p>\n<p>🎯 Detección inteligente: Detección de movimiento con clasificación de personas y vehículos</p>\n<p>📡 Antenas: Diseño de antenas de alta ganancia para una cobertura Wi-Fi más amplia</p>\n<p>⚙️ Instalación: Conexión automática de cámaras y configuración sencilla</p>\n<p>📱 Acceso remoto: Vista en directo, reproducción de grabaciones y administración mediante la aplicación Hik-Connect</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/kit-lateral-up.webp"
+    },
+    {
+      "id": "800000111670",
+      "reference": "111670",
+      "name": "Terminal Facial Hikvision Min Moe Wi-Fi 7″ 6000 Rostros Ip65",
+      "spec": "Terminal facial Hikvision Min Moe con conectividad Wi-Fi, pantalla de 7 pulgadas, capacidad para 6,000 rostros, lector QR físico de alta velocidad y protección IP65 para exterior.",
+      "price": 27400.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Marca",
+          "value": "Hikvision"
+        },
+        {
+          "label": "Línea",
+          "value": "Min Moe"
+        },
+        {
+          "label": "Capacidad de rostros",
+          "value": "6,000"
+        },
+        {
+          "label": "Pantalla",
+          "value": "7 pulgadas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi"
+        },
+        {
+          "label": "Lector",
+          "value": "Código QR físico de alta velocidad"
+        },
+        {
+          "label": "Protección",
+          "value": "IP65 (Exterior)"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111670/"
+      ],
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
+      "image": "img/catalogo/3a85cc87da2e39f96ae7.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>🏭 <strong>Marca:</strong> Hikvision</p>\n<p>🏷️ <strong>Línea:</strong> Min Moe</p>\n<p>👤 <strong>Capacidad de rostros:</strong> 6,000</p>\n<p>🖥️ <strong>Pantalla:</strong> 7 pulgadas</p>\n<p>📶 <strong>Conectividad:</strong> Wi-Fi</p>\n<p>📷 <strong>Lector:</strong> Código QR físico de alta velocidad</p>\n<p>🛡️ <strong>Protección:</strong> IP65 (Exterior)</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/269a8830-94f8-404e-b79f-b708b81f00b7.png"
+    },
+    {
+      "id": "800000111671",
+      "reference": "111671",
+      "name": "Cámara Ip Hikvision Acusense Domo Ptrz 6Mp Darkfighter",
+      "spec": "Cámara de vigilancia IP formato domo PTRZ Hikvision AcuSense de 6 MP con tecnología DarkFighter. Cuenta con iluminación IR de 40 metros y protección IP66 e IK10.",
+      "price": 20800.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de cámara",
+          "value": "Vigilancia IP"
+        },
+        {
+          "label": "Serie",
+          "value": "Hikvision AcuSense"
+        },
+        {
+          "label": "Formato",
+          "value": "Domo PTRZ"
+        },
+        {
+          "label": "Resolución",
+          "value": "6 MP"
+        },
+        {
+          "label": "Tecnología",
+          "value": "DarkFighter"
+        },
+        {
+          "label": "Alcance IR",
+          "value": "40 m"
+        },
+        {
+          "label": "Protección",
+          "value": "IP66 / IK10"
+        },
+        {
+          "label": "SKU",
+          "value": "111671"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111671/"
+      ],
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
+      "image": "img/catalogo/f219f5f8f1b146514650.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📹 <strong>Tipo de cámara:</strong> Vigilancia IP</p>\n<p>🏷️ <strong>Serie:</strong> Hikvision AcuSense</p>\n<p>📐 <strong>Formato:</strong> Domo PTRZ</p>\n<p>🎯 <strong>Resolución:</strong> 6 MP</p>\n<p>🌙 <strong>Tecnología:</strong> DarkFighter</p>\n<p>💡 <strong>Alcance IR:</strong> 40 m</p>\n<p>🛡️ <strong>Protección:</strong> IP66 / IK10</p>\n<p>🔢 <strong>SKU:</strong> 111671</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/76b837b3-8038-4172-ba3f-a52622f1b1eb.png"
+    },
+    {
+      "id": "800000111713",
+      "reference": "111713",
+      "name": "Cámara Ip Bullet Hikvision 6Mp Panorámica Wi-Fi 6 Ip67 Ir 30M",
+      "spec": "Cámara de vigilancia Bullet IP Hikvision de 6 MP con visión panorámica, conectividad Wi-Fi 6, audio bidireccional, protección IP67 e iluminación infrarroja de 30 metros.",
+      "price": 5900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de cámara",
+          "value": "Bullet IP"
+        },
+        {
+          "label": "Resolución",
+          "value": "6 MP"
+        },
+        {
+          "label": "Vista",
+          "value": "Panorámica"
+        },
+        {
+          "label": "Conectividad",
+          "value": "Wi-Fi 6"
+        },
+        {
+          "label": "Grado de protección",
+          "value": "IP67"
+        },
+        {
+          "label": "Audio",
+          "value": "Bidireccional"
+        },
+        {
+          "label": "Alcance IR",
+          "value": "30 m"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/111713/"
+      ],
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
+      "image": "img/catalogo/360288a2285928644554.png",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Hikvision",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p>📷 <strong>Tipo de cámara:</strong> Bullet IP</p>\n<p>🎯 <strong>Resolución:</strong> 6 MP</p>\n<p>👁️ <strong>Vista:</strong> Panorámica</p>\n<p>📶 <strong>Conectividad:</strong> Wi-Fi 6</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP67</p>\n<p>🎙️ <strong>Audio:</strong> Bidireccional</p>\n<p>🌙 <strong>Alcance IR:</strong> 30 m</p>",
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/10/680918f6-c35e-4353-92bd-6e6a971bb961.png"
     }
   ],
-  "updated": "2026-10-26T16:35:49+00:00"
+  "updated": "2026-10-27T15:46:52+00:00"
 }
