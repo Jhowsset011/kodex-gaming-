@@ -17,7 +17,7 @@ from manufacturer_sources import validate_manufacturer_url
 from catalog_markup import description_text
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = 'https://kodexgaming.com'
+SITE = 'https://gaming.kodex.com.do'
 ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg>'
 CART = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l3 12h11l2-8H6M10 20h.01M18 20h.01"/></svg>'
 
