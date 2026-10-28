@@ -197,6 +197,30 @@ def render_category_card(product):
     <div class="product-copy"><span class="product-type"><span>{e(p.get('brand', ''))}</span> {e(p['category'])}</span><span class="product-reference-card">Ref. {e(p['reference'])}</span><span class="product-stock-card">Stock: {e(stock_label(p))}</span><h3><a class="product-title" href="{e(url)}">{e(p['name'])}</a></h3><div class="product-price"><strong>{money(p['price'])}</strong></div><a class="order-product" href="{e(url)}">Ver detalles {ARROW}</a></div></article>'''
 
 
+def render_category_sidebar(parts, groups):
+    e = escape
+    total = len({p['reference'] for key, items in groups.items() if len(key) == 1 for p in items})
+    items = [f'<a class="category-all" href="/#catalogo"><span class="category-name">Todos los productos</span><span class="category-count">{total}</span></a>']
+    for key in sorted(key for key in groups if len(key) == 1):
+        active = parts[0] == key[0]
+        children = []
+        for child in sorted(child for child in groups if len(child) == 2 and child[:1] == key):
+            current = child == parts
+            children.append(f'<li><a class="{"active" if current else ""}" href="{e(category_path(child))}"' +
+                            (' aria-current="page"' if current else '') +
+                            f'><span class="category-name">{e(child[-1])}</span><span class="category-count">{len(groups[child])}</span></a></li>')
+        items.append(f'<details class="category-group" data-category-menu="{e(key[0])}"' + (' open' if active else '') +
+                     f'><summary class="category-parent {"active" if active else ""}"><a href="{e(category_path(key))}"' +
+                     (' aria-current="page"' if key == parts else '') +
+                     f'><span class="category-name">{e(key[0])}</span><span class="category-count">{len(groups[key])}</span></a><span class="category-chevron" aria-hidden="true">›</span></summary>' +
+                     f'<ul class="category-children" aria-label="Subcategorías de {e(key[0])}">{"".join(children)}</ul></details>')
+    return f'''<aside class="sidebar" aria-label="Navegar por categorías"><details id="filter-panel" open>
+      <summary>Categorías <span aria-hidden="true">＋</span></summary><div class="filter-content">
+      <div class="filter-heading"><h2>Categorías</h2></div><div class="category-filters">
+      <nav id="category-buttons" aria-label="Categorías y subcategorías">{''.join(items)}</nav></div>
+      </div></details></aside>'''
+
+
 def render_category(parts, products, groups, template):
     e = escape
     url, label = SITE + category_path(parts), parts[-1]
@@ -206,8 +230,9 @@ def render_category(parts, products, groups, template):
                     for key in sorted(groups) if len(key) == len(parts) + 1 and key[:-1] == parts)
     breadcrumbs = ''.join(f'<span aria-hidden="true">/</span><a href="{e(category_path(parts[:depth]))}">{e(parts[depth-1])}</a>'
                           for depth in range(1, len(parts)))
-    main = f'''<main class="container product-page" id="category-page">
+    main = f'''<main class="container product-page" id="category-page" data-category-current="{e(parts[0])}" data-subcategory-current="{e(parts[1] if len(parts) > 1 else '')}">
     <nav class="breadcrumb" style="flex-wrap:wrap" aria-label="Ubicación"><a href="/">Inicio</a>{breadcrumbs}<span aria-hidden="true">/</span><a href="{e(category_path(parts))}" aria-current="page">{e(label)}</a></nav>
+    <div class="store-layout">{render_category_sidebar(parts, groups)}<div class="catalog-main">
     <div class="catalog-title" style="flex-wrap:wrap;gap:16px"><div><span class="eyebrow">EXPLORA LA CATEGORÍA</span><h1>{e(label)}</h1></div><a class="text-link" href="/#catalogo">Volver a la tienda {ARROW}</a></div>
     <div class="catalog-toolbar"><p>{len(products)} productos</p></div>
     {'<nav class="product-category-path" aria-label="Subcategorías">' + links + '</nav>' if links else ''}
@@ -215,6 +240,7 @@ def render_category(parts, products, groups, template):
     <div id="catalog-error" class="empty" hidden><strong>No se pudo cargar el carrito.</strong><p>Puedes seguir consultando los productos y sus fichas.</p><button class="button" id="retry-catalog">Reintentar</button></div>
     <div class="product-grid">{''.join(render_category_card(p) for p in products)}</div>
     <p class="catalog-note">Precios en pesos dominicanos. Confirma disponibilidad al hacer tu pedido.</p>
+    </div></div>
     </main>'''
     page = re.sub(r'<main\b.*?</main>', lambda _: main, template, count=1, flags=re.S)
     if page == template:

@@ -15,11 +15,17 @@ class Links(HTMLParser):
     def __init__(self, html):
         super().__init__()
         self.links = []
+        self.open_menus = []
+        self.current = []
         self.feed(html)
 
     def handle_starttag(self, tag, attributes):
+        attrs = dict(attributes)
         if tag == 'a':
-            self.links.append(dict(attributes).get('href'))
+            self.links.append(attrs.get('href'))
+            if attrs.get('aria-current') == 'page': self.current.append(attrs.get('href'))
+        if tag == 'details' and 'open' in attrs:
+            self.open_menus.append(attrs.get('data-category-menu', attrs.get('id')))
 
 
 class CategoryMenuTests(unittest.TestCase):
@@ -79,6 +85,18 @@ const $ = () => box;
             self.assertEqual(Links(breadcrumb).links,
                              ['/'] + [category_path(parts[:depth]) for depth in range(1, len(parts) + 1)])
             self.assertIn('aria-current="page"', breadcrumb)
+
+    def test_every_category_page_has_complete_static_sidebar_with_current_parent_open(self):
+        template = (ROOT / 'producto.html').read_text()
+        for parts, items in self.groups.items():
+            html = render_category(parts, items, self.groups, template)
+            sidebar = html.split('<aside class="sidebar"',1)[1].split('</aside>',1)[0]
+            parsed = Links(sidebar)
+            self.assertIn('filter-panel',parsed.open_menus)
+            self.assertIn(parts[0],parsed.open_menus)
+            self.assertIn(category_path(parts),parsed.current)
+            self.assertEqual(set(parsed.links),{'/#catalogo'} | {category_path(key) for key in self.groups})
+            self.assertIn('class="category-filters"',sidebar)
 
 
 if __name__ == '__main__':

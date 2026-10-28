@@ -96,13 +96,25 @@ function selectSubcategory(value) {
   renderCategoryUI();
   renderProducts();
 }
+function savedCategoryMenus() {
+  try {
+    const values = JSON.parse(sessionStorage.getItem('kodex-category-menus') || '[]');
+    return new Set(Array.isArray(values) ? values.filter(value => typeof value === 'string') : []);
+  } catch { return new Set(); }
+}
+function rememberCategoryMenus() {
+  const box = $('#category-buttons');
+  if (!box) return;
+  try { sessionStorage.setItem('kodex-category-menus', JSON.stringify([...box.querySelectorAll('details[open]')].map(item => item.dataset.categoryMenu))); } catch {}
+}
 function renderCategoryUI() {
   const catBox = $('#category-buttons');
   if (catBox) {
     const focused = catBox.contains(document.activeElement) ? document.activeElement : null;
     const focusedCategory = focused?.dataset.filter;
     const focusedSubcategory = focused?.dataset.subcategory;
-    const openCategories = new Set([...catBox.querySelectorAll('details[open]')].map(item => item.dataset.categoryMenu));
+    const openCategories = savedCategoryMenus();
+    catBox.querySelectorAll('details[open]').forEach(item => openCategories.add(item.dataset.categoryMenu));
     const counts = new Map();
     if (filter !== 'Todos') for (const p of products) {
       if (matchesCategory(p)) {
@@ -115,8 +127,8 @@ function renderCategoryUI() {
       if (products.some(p => p.category === category)) {
         const children = new Map();
         products.filter(p => p.category === category).forEach(p => children.set(p.subcategory, (children.get(p.subcategory) || 0) + 1));
-        const links = [...children].sort((a,b) => a[0].localeCompare(b[0], 'es')).map(([name,number]) => `<li><a class="${expanded && subcategory === name ? 'active' : ''}" href="${categoryURL([category,name])}"><span class="category-name">${escapeHTML(name)}</span><span class="category-count">${number}</span></a></li>`).join('');
-        return `<details class="category-group" data-category-menu="${escapeHTML(category)}"${expanded || openCategories.has(category) ? ' open' : ''}><summary class="category-parent ${expanded ? 'active' : ''}"><a href="${categoryURL([category])}"><span class="category-name">${escapeHTML(label)}</span><span class="category-count">${count}</span></a><span class="category-chevron" aria-hidden="true">›</span></summary><ul class="category-children" aria-label="Subcategorías de ${escapeHTML(label)}">${links}</ul></details>`;
+        const links = [...children].sort((a,b) => a[0].localeCompare(b[0], 'es')).map(([name,number]) => `<li><a class="${expanded && subcategory === name ? 'active' : ''}" href="${categoryURL([category,name])}"${expanded && subcategory === name ? ' aria-current="page"' : ''}><span class="category-name">${escapeHTML(name)}</span><span class="category-count">${number}</span></a></li>`).join('');
+        return `<details class="category-group" data-category-menu="${escapeHTML(category)}"${expanded || openCategories.has(category) ? ' open' : ''}><summary class="category-parent ${expanded ? 'active' : ''}"><a href="${categoryURL([category])}"${expanded && !subcategory ? ' aria-current="page"' : ''}><span class="category-name">${escapeHTML(label)}</span><span class="category-count">${count}</span></a><span class="category-chevron" aria-hidden="true">›</span></summary><ul class="category-children" aria-label="Subcategorías de ${escapeHTML(label)}">${links}</ul></details>`;
       }
       const children = expanded && counts.size ? `<ul class="category-children" id="category-children" aria-label="Subcategorías de ${escapeHTML(label)}">${[...counts].sort((a,b)=>a[0].localeCompare(b[0],'es')).map(([name,number]) => `<li><button type="button" class="${subcategory === name ? 'active' : ''}" data-subcategory="${escapeHTML(name)}" aria-pressed="${subcategory === name}"><span class="category-name">${escapeHTML(name)}</span><span class="category-count">${number}</span></button></li>`).join('')}</ul>` : '';
       return `<div class="category-group"><button type="button" class="category-parent ${expanded ? 'active' : ''}" data-filter="${escapeHTML(category)}" aria-pressed="${expanded}" aria-expanded="${expanded}"${expanded && counts.size ? ' aria-controls="category-children"' : ''}><span class="category-name">${escapeHTML(label)}</span><span class="category-count">${count}</span><span class="category-chevron" aria-hidden="true">›</span></button>${children}</div>`;
@@ -127,6 +139,7 @@ function renderCategoryUI() {
       button.addEventListener('click', () => selectFilter(button.dataset.filter)));
     catBox.querySelectorAll('[data-subcategory]').forEach(button =>
       button.addEventListener('click', () => selectSubcategory(button.dataset.subcategory)));
+    rememberCategoryMenus();
     if (focused) [...catBox.querySelectorAll('button')].find(button =>
       (focusedCategory && button.dataset.filter === focusedCategory) ||
       (focusedSubcategory && button.dataset.subcategory === focusedSubcategory))?.focus({preventScroll:true});
@@ -417,9 +430,19 @@ $('#cart-items').addEventListener('change', event => {
   updateQuantity(input.dataset.quantity, value);
 });
 const mobileQuery = matchMedia('(max-width: 640px)');
-function adaptFilters() { if ($('#filter-panel')) $('#filter-panel').open = !mobileQuery.matches; }
+function adaptFilters() { if ($('#filter-panel')) $('#filter-panel').open = Boolean($('#category-page')) || !mobileQuery.matches; }
 adaptFilters();
 mobileQuery.addEventListener('change', adaptFilters);
+if ($('#category-page')) {
+  const expanded = savedCategoryMenus();
+  document.querySelectorAll('#category-buttons details[data-category-menu]').forEach(item => {
+    if (expanded.has(item.dataset.categoryMenu)) item.open = true;
+  });
+  rememberCategoryMenus();
+}
+document.addEventListener('toggle', event => {
+  if (event.target.isConnected && event.target.matches?.('#category-buttons details[data-category-menu]')) rememberCategoryMenus();
+}, true);
 $('#year').textContent = new Date().getFullYear();
 
 function validateCatalog(data) {
@@ -459,7 +482,7 @@ async function loadCatalog() {
     sanitizeCart();
     catalogLoading = false;
     if (isProductPage) renderProductPage();
-    else { renderFilterUI(); restoreCatalog(); }
+    else if (!$('#category-page')) { renderFilterUI(); restoreCatalog(); }
     linkCategoryPages();
     renderCart();
     $('#open-cart').disabled = false;
