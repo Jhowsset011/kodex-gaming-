@@ -54,7 +54,7 @@ class ProductSEOTests(unittest.TestCase):
         self.assertEqual(schema['offers']['price'], 9900)
         self.assertIsInstance(schema['offers']['price'], (int, float))
         self.assertEqual(schema['offers']['availability'], 'https://schema.org/InStock')
-        self.assertIn('https://kodexgaming.com/img/catalogo/sin-imagen.svg', page)
+        self.assertIn('https://gaming.kodex.com.do/img/catalogo/sin-imagen.svg', page)
         self.assertIn('<base href="/">', page)
         self.assertLess(page.index('<base href="/">'), page.index('src="js/'))
         self.assertIn('href="/producto/monitor-aoc-27g50f2-109613/#caracteristicas"', page)
@@ -69,12 +69,12 @@ class ProductSEOTests(unittest.TestCase):
         self.assertFalse(removed.exists())
         self.assertFalse(old_name.exists())
         ns = {'s': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
-        tree = ET.parse(self.root / 'sitemap.xml')
+        tree = ET.parse(self.root / 'producto-sitemap.xml')
         self.assertEqual([e.text for e in tree.findall('.//s:loc', ns)],
-                         ['https://kodexgaming.com/', 'https://kodexgaming.com' + product_path(self.products[0])])
-        self.assertEqual({e.text for e in tree.findall('.//s:lastmod', ns)}, {'2026-10-21T10:00:00Z'})
+                         ['https://gaming.kodex.com.do' + product_path(self.products[0])])
+        self.assertEqual(tree.findall('.//s:lastmod', ns), [])
         self.assertEqual((self.root / 'robots.txt').read_text(),
-                         'User-agent: *\nAllow: /\nSitemap: https://kodexgaming.com/sitemap.xml\n')
+                         'User-agent: *\nAllow: /\nSitemap: https://gaming.kodex.com.do/sitemap.xml\n')
 
     def test_unavailable_product_is_not_advertised_in_stock(self):
         page = render_page(dict(product(), stock=False), self.template)

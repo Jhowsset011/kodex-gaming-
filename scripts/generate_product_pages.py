@@ -166,6 +166,94 @@ def render_page(product, template):
     return page
 
 
+def category_path(parts):
+    # Include ancestors so identically named subcategories keep distinct URLs.
+    slug = '-'.join(re.sub(r'[^a-z0-9]+', '-',
+                         unicodedata.normalize('NFD', part).encode('ascii', 'ignore').decode().lower()).strip('-')
+                    for part in parts)
+    if not slug or len(slug) > 240:
+        raise ValueError('Categoría inválida para la URL')
+    return f'/categoria/{slug}/'
+
+
+def category_groups(products):
+    groups = {}
+    for product in products:
+        parts = category_parts(product)
+        for depth in range(1, len(parts) + 1):
+            groups.setdefault(tuple(parts[:depth]), []).append(product)
+    paths = [category_path(parts) for parts in groups]
+    if len(paths) != len(set(paths)):
+        raise ValueError('URL de categoría duplicada')
+    return groups
+
+
+def render_category_card(product):
+    p, e = product, escape
+    url = product_path(p)
+    image = e(p.get('image') or 'img/catalogo/sin-imagen.svg')
+    return f'''<article class="product" data-product="{e(p['id'])}">
+    <div class="product-art"><a class="product-image-button" href="{e(url)}" aria-label="Ver detalles de {e(p['name'])}"><img src="{image}" alt="{e(p['name'])}" loading="lazy"></a><span class="view-product">Ver detalles {ARROW}</span></div>
+    <div class="product-copy"><span class="product-type"><span>{e(p.get('brand', ''))}</span> {e(p['category'])}</span><span class="product-reference-card">Ref. {e(p['reference'])}</span><span class="product-stock-card">Stock: {e(stock_label(p))}</span><h3><a class="product-title" href="{e(url)}">{e(p['name'])}</a></h3><div class="product-price"><strong>{money(p['price'])}</strong></div><a class="order-product" href="{e(url)}">Ver detalles {ARROW}</a></div></article>'''
+
+
+def render_category(parts, products, groups, template):
+    e = escape
+    url, label = SITE + category_path(parts), parts[-1]
+    context = ' › '.join(parts)
+    description = f'{context} en KODEX GAMING. Consulta productos, precios en RD$ y sus fichas.'
+    links = ''.join(f'<a href="{e(category_path(key))}">{e(key[-1])}</a>'
+                    for key in sorted(groups) if len(key) == len(parts) + 1 and key[:-1] == parts)
+    breadcrumbs = ''.join(f'<span aria-hidden="true">/</span><a href="{e(category_path(parts[:depth]))}">{e(parts[depth-1])}</a>'
+                          for depth in range(1, len(parts)))
+    main = f'''<main class="container product-page" id="category-page">
+    <nav class="breadcrumb" style="flex-wrap:wrap" aria-label="Ubicación"><a href="/">Inicio</a>{breadcrumbs}<span aria-hidden="true">/</span><span>{e(label)}</span></nav>
+    <div class="catalog-title" style="flex-wrap:wrap;gap:16px"><div><span class="eyebrow">EXPLORA LA CATEGORÍA</span><h1>{e(label)}</h1></div><a class="text-link" href="/#catalogo">Volver a la tienda {ARROW}</a></div>
+    <div class="catalog-toolbar"><p>{len(products)} productos</p></div>
+    {'<nav class="product-category-path" aria-label="Subcategorías">' + links + '</nav>' if links else ''}
+    <p id="catalog-loading" class="catalog-loading" role="status" hidden>Cargando carrito…</p>
+    <div id="catalog-error" class="empty" hidden><strong>No se pudo cargar el carrito.</strong><p>Puedes seguir consultando los productos y sus fichas.</p><button class="button" id="retry-catalog">Reintentar</button></div>
+    <div class="product-grid">{''.join(render_category_card(p) for p in products)}</div>
+    <p class="catalog-note">Precios en pesos dominicanos. Confirma disponibilidad al hacer tu pedido.</p>
+    </main>'''
+    page = re.sub(r'<main\b.*?</main>', lambda _: main, template, count=1, flags=re.S)
+    if page == template:
+        raise ValueError('Cambió la plantilla; no se encontró el contenido de categoría')
+    page = page.replace('<head>', '<head>\n  <base href="/">', 1)
+    page = re.sub(r'<title>.*?</title>', lambda _: f'<title>{e(context)} | KODEX GAMING</title>', page, count=1)
+    page = re.sub(r'<meta name="description" content="[^"]*">', lambda _: f'<meta name="description" content="{e(description)}">', page, count=1)
+    # Keep the existing shared cart/theme; category cards are already in HTML.
+    page = re.sub(r'\s*<script src="js/producto\.js[^"\n]*" defer></script>', '', page, count=1)
+    page = page.replace('<form class="search"', '<form action="/" class="search"', 1)
+    page = page.replace('id="search" type="search"', 'id="search" name="buscar" type="search"', 1)
+    metadata = f'''<link rel="canonical" href="{e(url)}">
+  <meta property="og:title" content="{e(context)} | KODEX GAMING">
+  <meta property="og:description" content="{e(description)}">
+  <meta property="og:url" content="{e(url)}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{e(urljoin(SITE + '/', products[0].get('image') or 'img/logo/kodex-gaming.png'))}">'''
+    return page.replace('</head>', metadata + '\n</head>', 1)
+
+
+def write_sitemaps(root, product_paths, category_paths):
+    namespace = 'http://www.sitemaps.org/schemas/sitemap/0.9'
+    ET.register_namespace('', namespace)
+    names = ('producto-sitemap.xml', 'categoria-sitemap.xml', 'pagina-sitemap.xml')
+    for name, paths in zip(names, (product_paths, category_paths, ['/'])):
+        document = ET.Element(f'{{{namespace}}}urlset')
+        for path in paths:
+            entry = ET.SubElement(document, f'{{{namespace}}}url')
+            ET.SubElement(entry, f'{{{namespace}}}loc').text = SITE + path
+        ET.indent(document)
+        ET.ElementTree(document).write(root / name, encoding='utf-8', xml_declaration=True)
+    index = ET.Element(f'{{{namespace}}}sitemapindex')
+    for name in names:
+        entry = ET.SubElement(index, f'{{{namespace}}}sitemap')
+        ET.SubElement(entry, f'{{{namespace}}}loc').text = SITE + '/' + name
+    ET.indent(index)
+    ET.ElementTree(index).write(root / 'sitemap.xml', encoding='utf-8', xml_declaration=True)
+
+
 def generate(root=ROOT, lastmod=None):
     root = Path(root)
     path = root / 'js/productos-v2.json'
@@ -183,6 +271,9 @@ def generate(root=ROOT, lastmod=None):
     # pages from the previously valid catalog.
     rendered = {product_path(p): render_page(p, template) for p in products}
     if len(rendered) != len(products): raise ValueError('URL de producto duplicada')
+    groups = category_groups(products)
+    categories = {category_path(parts): render_category(parts, items, groups, template)
+                  for parts, items in groups.items()}
     destination = root / 'producto'
     destination.mkdir(exist_ok=True)
     for url, page in rendered.items():
@@ -194,15 +285,18 @@ def generate(root=ROOT, lastmod=None):
         if folder.name not in expected:
             if folder.is_dir(): shutil.rmtree(folder)
             else: folder.unlink()
-    namespace = 'http://www.sitemaps.org/schemas/sitemap/0.9'
-    ET.register_namespace('', namespace)
-    sitemap = ET.Element(f'{{{namespace}}}urlset')
-    for path in ['/', *rendered]:
-        entry = ET.SubElement(sitemap, f'{{{namespace}}}url')
-        ET.SubElement(entry, f'{{{namespace}}}loc').text = SITE + path
-        ET.SubElement(entry, f'{{{namespace}}}lastmod').text = lastmod
-    ET.indent(sitemap)
-    ET.ElementTree(sitemap).write(root / 'sitemap.xml', encoding='utf-8', xml_declaration=True)
+    destination = root / 'categoria'
+    destination.mkdir(exist_ok=True)
+    for url, page in categories.items():
+        folder = destination / url.split('/')[2]
+        folder.mkdir(exist_ok=True)
+        (folder / 'index.html').write_text(page, encoding='utf-8')
+    expected = {url.split('/')[2] for url in categories}
+    for folder in destination.iterdir():
+        if folder.name not in expected:
+            if folder.is_dir(): shutil.rmtree(folder)
+            else: folder.unlink()
+    write_sitemaps(root, list(rendered), list(categories))
     (root / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n', encoding='utf-8')
     return len(rendered)
 

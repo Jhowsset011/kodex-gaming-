@@ -58,7 +58,7 @@ jobs:
           git config user.email 'kodex-sync@users.noreply.github.com'
           python3 scripts/generate_product_pages.py --lastmod "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git add js/productos-v2.json js/productos.json scripts/omega_ids.txt img/catalogo
-          git add -A producto sitemap.xml robots.txt
+          git add -A producto categoria sitemap.xml producto-sitemap.xml categoria-sitemap.xml pagina-sitemap.xml robots.txt
           git add scripts/nexcom_seen_skus.json
           if [ -f data/omega-selection.json ]; then git add data/omega-selection.json; fi
           if git diff --cached --quiet; then
@@ -72,8 +72,8 @@ jobs:
           mkdir _site
           cp index.html producto.html _site/
           cp -R css js img _site/
-          cp -R producto _site/
-          cp sitemap.xml robots.txt _site/
+          cp -R producto categoria _site/
+          cp sitemap.xml producto-sitemap.xml categoria-sitemap.xml pagina-sitemap.xml robots.txt _site/
           if [ -f CNAME ]; then cp CNAME _site/; fi
       - uses: actions/upload-pages-artifact@v3
         with:
