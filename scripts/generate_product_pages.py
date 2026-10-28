@@ -207,7 +207,7 @@ def render_category(parts, products, groups, template):
     breadcrumbs = ''.join(f'<span aria-hidden="true">/</span><a href="{e(category_path(parts[:depth]))}">{e(parts[depth-1])}</a>'
                           for depth in range(1, len(parts)))
     main = f'''<main class="container product-page" id="category-page">
-    <nav class="breadcrumb" style="flex-wrap:wrap" aria-label="Ubicación"><a href="/">Inicio</a>{breadcrumbs}<span aria-hidden="true">/</span><span>{e(label)}</span></nav>
+    <nav class="breadcrumb" style="flex-wrap:wrap" aria-label="Ubicación"><a href="/">Inicio</a>{breadcrumbs}<span aria-hidden="true">/</span><a href="{e(category_path(parts))}" aria-current="page">{e(label)}</a></nav>
     <div class="catalog-title" style="flex-wrap:wrap;gap:16px"><div><span class="eyebrow">EXPLORA LA CATEGORÍA</span><h1>{e(label)}</h1></div><a class="text-link" href="/#catalogo">Volver a la tienda {ARROW}</a></div>
     <div class="catalog-toolbar"><p>{len(products)} productos</p></div>
     {'<nav class="product-category-path" aria-label="Subcategorías">' + links + '</nav>' if links else ''}

@@ -36,6 +36,19 @@ const productURL = product => {
   if (slug.length > 200) slug = slug.slice(0, 200).replace(/-[^-]*$/, '');
   return `/producto/${slug}-${encodeURIComponent(product.reference)}/`;
 };
+const categoryURL = parts => '/categoria/' + parts.map(part => part.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')).join('-') + '/';
+function linkCategoryPages() {
+  // Existing generated product pages can retain legacy category query links.
+  document.querySelectorAll('a[href]').forEach(link => {
+    let url;
+    try { url = new URL(link.href, location.href); } catch { return; }
+    if (url.origin !== location.origin) return;
+    const category = url.searchParams.get('categoria');
+    const sub = url.searchParams.get('subcategoria') || url.searchParams.get('sub1');
+    if (!products.some(p => p.category === category && (!sub || p.subcategory === sub))) return;
+    link.href = categoryURL(sub ? [category, sub] : [category]);
+  });
+}
 let filter = 'Todos', cart = {};
 let subcategory = '';
 try {
@@ -89,6 +102,7 @@ function renderCategoryUI() {
     const focused = catBox.contains(document.activeElement) ? document.activeElement : null;
     const focusedCategory = focused?.dataset.filter;
     const focusedSubcategory = focused?.dataset.subcategory;
+    const openCategories = new Set([...catBox.querySelectorAll('details[open]')].map(item => item.dataset.categoryMenu));
     const counts = new Map();
     if (filter !== 'Todos') for (const p of products) {
       if (matchesCategory(p)) {
@@ -98,6 +112,12 @@ function renderCategoryUI() {
     }
     const categoryItem = (category, count, label = category) => {
       const expanded = filter === category;
+      if (products.some(p => p.category === category)) {
+        const children = new Map();
+        products.filter(p => p.category === category).forEach(p => children.set(p.subcategory, (children.get(p.subcategory) || 0) + 1));
+        const links = [...children].sort((a,b) => a[0].localeCompare(b[0], 'es')).map(([name,number]) => `<li><a class="${expanded && subcategory === name ? 'active' : ''}" href="${categoryURL([category,name])}"><span class="category-name">${escapeHTML(name)}</span><span class="category-count">${number}</span></a></li>`).join('');
+        return `<details class="category-group" data-category-menu="${escapeHTML(category)}"${expanded || openCategories.has(category) ? ' open' : ''}><summary class="category-parent ${expanded ? 'active' : ''}"><a href="${categoryURL([category])}"><span class="category-name">${escapeHTML(label)}</span><span class="category-count">${count}</span></a><span class="category-chevron" aria-hidden="true">›</span></summary><ul class="category-children" aria-label="Subcategorías de ${escapeHTML(label)}">${links}</ul></details>`;
+      }
       const children = expanded && counts.size ? `<ul class="category-children" id="category-children" aria-label="Subcategorías de ${escapeHTML(label)}">${[...counts].sort((a,b)=>a[0].localeCompare(b[0],'es')).map(([name,number]) => `<li><button type="button" class="${subcategory === name ? 'active' : ''}" data-subcategory="${escapeHTML(name)}" aria-pressed="${subcategory === name}"><span class="category-name">${escapeHTML(name)}</span><span class="category-count">${number}</span></button></li>`).join('')}</ul>` : '';
       return `<div class="category-group"><button type="button" class="category-parent ${expanded ? 'active' : ''}" data-filter="${escapeHTML(category)}" aria-pressed="${expanded}" aria-expanded="${expanded}"${expanded && counts.size ? ' aria-controls="category-children"' : ''}><span class="category-name">${escapeHTML(label)}</span><span class="category-count">${count}</span><span class="category-chevron" aria-hidden="true">›</span></button>${children}</div>`;
     };
@@ -440,6 +460,7 @@ async function loadCatalog() {
     catalogLoading = false;
     if (isProductPage) renderProductPage();
     else { renderFilterUI(); restoreCatalog(); }
+    linkCategoryPages();
     renderCart();
     $('#open-cart').disabled = false;
     $('#footer-cart').disabled = false;
