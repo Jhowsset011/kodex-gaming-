@@ -162,6 +162,8 @@ def plan_catalog(current, items, seen, manual):
     sources = index_sources(items)
     previous = {p['reference']: p for p in current['products']}
     if len(previous) != len(current['products']): raise ValueError('Referencias existentes repetidas')
+    known_missing = {ref for ref, product in previous.items()
+                     if product.get('sourceUnavailable') is True and product.get('stock') is False}
     brands = {normalized(p['brand']) for p in current['products']} - {'generico', 'otros', 'sin marca'}
     # Empty/missing baseline seeds all current Nexcom SKUs without adding old stock.
     new = set(sources) - seen - set(previous) if seen else set()
@@ -199,6 +201,8 @@ def plan_catalog(current, items, seen, manual):
               'updated': len(previous) - len(missing), 'existingCount': len(previous),
               'proposedPriceChanges': changed, 'priceGuardBlocked': changed > len(previous) * Decimal('0.20'),
               'retainedPrices': retained, 'newProducts': new_products, 'missingExisting': missing,
+              'knownMissingExisting': sorted(known_missing),
+              'newlyMissingExisting': [ref for ref in missing if ref not in known_missing],
               'manualApplied': sorted(manual & set(sources)), 'manualMissing': sorted(manual - set(sources)),
               'releasedComingSoon': released, 'prices': audit}
     catalog = {'source': 'Nexcom — API pública (sku = referencia)', 'count': len(output),
@@ -210,8 +214,14 @@ def plan_catalog(current, items, seen, manual):
 def enforce_guards(report, initial_migration=False):
     if report['priceGuardBlocked'] and not initial_migration:
         raise PriceGuardError(f"Candado 20%: {report['proposedPriceChanges']}/{report['existingCount']} precios propuestos cambian. No se publica el catálogo ni el registro de vistos.")
-    if len(report['missingExisting']) > max(3, report['existingCount'] // 20):
-        raise ValueError('Nexcom no contiene demasiadas referencias existentes; se conserva el catálogo')
+    # Only a new disappearance is an anomaly. Previously validated absences
+    # remain unavailable without permanently blocking otherwise complete syncs.
+    newly_missing = report.get('newlyMissingExisting', report['missingExisting'])
+    available_baseline = report['existingCount'] - len(report.get('knownMissingExisting', []))
+    limit = max(3, available_baseline // 20)
+    if len(newly_missing) > limit:
+        raise ValueError(f'Nexcom dejó de devolver {len(newly_missing)} referencias nuevas '
+                         f'(límite {limit}); se conserva el catálogo')
 
 
 def write_json(path, value):

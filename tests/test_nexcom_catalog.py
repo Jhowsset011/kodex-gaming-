@@ -178,6 +178,36 @@ class NexcomCatalogTests(unittest.TestCase):
         with patch('nexcom_feed.read_page', side_effect=[([source()],101,2),([source('100002')],102,2)]), patch('nexcom_feed.time.sleep'):
             with self.assertRaises(ValueError):fetch_catalog()
 
+    def test_known_absences_do_not_permanently_block_complete_syncs(self):
+        previous = [old(str(100001+i)) for i in range(20)]
+        for product in previous[:6]:
+            product.update(sourceUnavailable=True, stock=False)
+        rows = [source(p['reference']) for p in previous[8:]]
+        result, _, report = sync.plan_catalog(catalog(previous), rows, {p['reference'] for p in previous}, set())
+        self.assertEqual(len(report['missingExisting']), 8)
+        self.assertEqual(len(report['newlyMissingExisting']), 2)
+        sync.enforce_guards(report)
+        for product in result['products'][:8]:
+            self.assertFalse(product['stock'])
+            self.assertEqual(product['stockQuantity'], 0)
+
+    def test_new_mass_disappearance_still_blocks_with_known_absences(self):
+        previous = [old(str(100001+i)) for i in range(20)]
+        for product in previous[:6]:
+            product.update(sourceUnavailable=True, stock=False)
+        rows = [source(p['reference']) for p in previous[10:]]
+        _, _, report = sync.plan_catalog(catalog(previous), rows, {p['reference'] for p in previous}, set())
+        with self.assertRaisesRegex(ValueError, '4 referencias nuevas'):
+            sync.enforce_guards(report)
+
+    def test_reappearing_reference_loses_missing_baseline(self):
+        previous = dict(old(), sourceUnavailable=True, stock=False)
+        restored, _, _ = sync.plan_catalog(catalog([previous]), [source()], {'100001'}, set())
+        self.assertNotIn('sourceUnavailable', restored['products'][0])
+        _, _, report = sync.plan_catalog(restored, [], {'100001'}, set())
+        self.assertEqual(report['knownMissingExisting'], [])
+        self.assertEqual(report['newlyMissingExisting'], ['100001'])
+
     def test_all_pages_are_collected_without_dropping_products(self):
         page1=[source(str(100001+i)) for i in range(100)]
         with patch('nexcom_feed.read_page', side_effect=[(page1,101,2),([source('100101')],101,2)]), patch('nexcom_feed.time.sleep'):

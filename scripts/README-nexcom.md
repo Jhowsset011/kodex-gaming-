@@ -32,7 +32,7 @@ Cada SKU deja en el log precio anterior, propuesto, retenido/publicado y fuente.
 
 El propietario aprobó una excepción al límite global únicamente para la migración inicial, conservando el límite de RD$500. El argumento manual `--initial-price-migration` solo funciona sobre el catálogo anterior identificado como Omega y se rechaza una vez que la fuente ya es Nexcom. El workflow no utiliza ese argumento: ambas protecciones siguen activas en todas las corridas diarias.
 
-Una respuesta incompleta, SKU ambiguo, precio inválido o fallo de red deja intacto el catálogo publicado. Tres SKU existentes ausentes se conservan con su precio anterior y sin disponibilidad; ausencias masivas detienen la publicación. El reporte completo también se puede guardar con `--report-file`.
+Una respuesta incompleta, SKU ambiguo, precio inválido o fallo de red deja intacto el catálogo publicado. Los SKU ausentes se conservan con su precio anterior y sin disponibilidad. Se detiene la publicación si las referencias que desaparecieron desde la última sincronización validada superan el mayor de tres SKU o el 5% de las referencias que no estaban marcadas como ausentes. Las ausencias conocidas (`sourceUnavailable: true` y `stock: false`) se siguen informando, pero no vuelven a contar como desapariciones nuevas. Si un SKU reaparece pierde esa marca; si desaparece después vuelve a contar como nuevo. El reporte distingue `missingExisting`, `knownMissingExisting` y `newlyMissingExisting` y se puede guardar con `--report-file`.
 
 ## Costos internos
 
