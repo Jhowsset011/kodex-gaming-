@@ -1,6 +1,6 @@
 {
   "source": "Nexcom — API pública (sku = referencia)",
-  "count": 750,
+  "count": 753,
   "products": [
     {
       "id": "19182",
@@ -40702,7 +40702,157 @@
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/9c8d4bdc-c81d-4d16-a7f3-a19acad622ea-1.png",
       "model": "Throno (PCH-103BB)",
       "specificationsUpdated": "2026-11-07T16:09:02+00:00"
+    },
+    {
+      "id": "800000310119",
+      "reference": "310119",
+      "name": "Teclado Mecánico Maxpower II MK894 USB RGB de 104 Teclas con Botón Multimedia",
+      "spec": "El teclado mecánico Maxpower II MK894 cuenta con 104 teclas, conectividad USB e iluminación RGB personalizable para una experiencia de escritura y juego más dinámica. Incorpora un botón multimedia que facilita el control de funciones durante su uso. ¡Adquiere el tuyo y mejora tu espacio de trabajo o entretenimiento!",
+      "price": 3500.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de producto",
+          "value": "Teclado mecánico"
+        },
+        {
+          "label": "Modelo",
+          "value": "Maxpower II MK894"
+        },
+        {
+          "label": "Cantidad de teclas",
+          "value": "104 teclas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        },
+        {
+          "label": "Iluminación",
+          "value": "RGB personalizable"
+        },
+        {
+          "label": "Control multimedia",
+          "value": "Botón multimedia integrado"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/310119/"
+      ],
+      "stockQuantity": null,
+      "stockText": "Disponible",
+      "image": "img/catalogo/436df5325ba9fdda63c5.webp",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Genérico",
+      "collections": [],
+      "subcategory": "Teclados",
+      "description": "<p>\n<p>\n<p>⌨️ Tipo de producto: Teclado mecánico</p>\n</p>\n</p>\n<p>\n<p>\n<p>🏷️ Modelo: Maxpower II MK894</p>\n</p>\n</p>\n<p>\n<p>\n<p>🔢 Cantidad de teclas: 104 teclas</p>\n</p>\n</p>\n<p>\n<p>\n<p>🔌 Conectividad: USB</p>\n</p>\n</p>\n<p>\n<p>\n<p>🌈 Iluminación: RGB personalizable</p>\n</p>\n</p>\n<p>\n<p>\n<p>🎛️ Control multimedia: Botón multimedia integrado</p>\n</p>\n</p>",
+      "model": "Maxpower II MK894",
+      "specificationsUpdated": "2026-11-09T20:29:31+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/teclado-fantech-rgb-con-reposamunecas.webp"
+    },
+    {
+      "id": "800000310120",
+      "reference": "310120",
+      "name": "Teclado Mecánico Maxpower II MK894 USB RGB de 104 Teclas con Botón Multimedia",
+      "spec": "El teclado mecánico Maxpower II MK894 cuenta con 104 teclas, conectividad USB e iluminación RGB personalizable para una experiencia de escritura y juego más dinámica. Incorpora un botón multimedia que facilita el control de funciones durante su uso. ¡Adquiere el tuyo y mejora tu espacio de trabajo o entretenimiento!",
+      "price": 3500.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de producto",
+          "value": "Teclado mecánico"
+        },
+        {
+          "label": "Modelo",
+          "value": "Maxpower II MK894"
+        },
+        {
+          "label": "Cantidad de teclas",
+          "value": "104 teclas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        },
+        {
+          "label": "Iluminación",
+          "value": "RGB personalizable"
+        },
+        {
+          "label": "Control multimedia",
+          "value": "Botón multimedia integrado"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/310120/"
+      ],
+      "stockQuantity": null,
+      "stockText": "Disponible",
+      "image": "img/catalogo/53462e8869035c8cee9c.webp",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Genérico",
+      "collections": [],
+      "subcategory": "Teclados",
+      "description": "<p>\n<p>\n<p>⌨️ Tipo de producto: Teclado mecánico</p>\n</p>\n</p>\n<p>\n<p>\n<p>🏷️ Modelo: Maxpower II MK894</p>\n</p>\n</p>\n<p>\n<p>\n<p>🔢 Cantidad de teclas: 104 teclas</p>\n</p>\n</p>\n<p>\n<p>\n<p>🔌 Conectividad: USB</p>\n</p>\n</p>\n<p>\n<p>\n<p>🌈 Iluminación: RGB personalizable</p>\n</p>\n</p>\n<p>\n<p>\n<p>🎛️ Control multimedia: Botón multimedia integrado</p>\n</p>\n</p>",
+      "model": "Maxpower II MK894",
+      "specificationsUpdated": "2026-11-09T20:29:31+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/8f6662db-87dd-453c-9336-90dbf4087439.webp"
+    },
+    {
+      "id": "800000310123",
+      "reference": "310123",
+      "name": "Teclado Mecánico Maxpower II MK894 USB RGB de 104 Teclas con Botón Multimedia",
+      "spec": "El teclado mecánico Maxpower II MK894 cuenta con 104 teclas, conectividad USB e iluminación RGB personalizable para una experiencia de escritura y juego más dinámica. Incorpora un botón multimedia que facilita el control de funciones durante su uso. ¡Adquiere el tuyo y mejora tu espacio de trabajo o entretenimiento!",
+      "price": 3500.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Tipo de producto",
+          "value": "Teclado mecánico"
+        },
+        {
+          "label": "Modelo",
+          "value": "Maxpower II MK894"
+        },
+        {
+          "label": "Cantidad de teclas",
+          "value": "104 teclas"
+        },
+        {
+          "label": "Conectividad",
+          "value": "USB"
+        },
+        {
+          "label": "Iluminación",
+          "value": "RGB personalizable"
+        },
+        {
+          "label": "Control multimedia",
+          "value": "Botón multimedia integrado"
+        }
+      ],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/310123/"
+      ],
+      "stockQuantity": null,
+      "stockText": "Disponible",
+      "image": "img/catalogo/587e924aafbe2bbec777.webp",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Genérico",
+      "collections": [],
+      "subcategory": "Teclados",
+      "description": "<p>\n<p>\n<p>⌨️ Tipo de producto: Teclado mecánico</p>\n</p>\n</p>\n<p>\n<p>\n<p>🏷️ Modelo: Maxpower II MK894</p>\n</p>\n</p>\n<p>\n<p>\n<p>🔢 Cantidad de teclas: 104 teclas</p>\n</p>\n</p>\n<p>\n<p>\n<p>🔌 Conectividad: USB</p>\n</p>\n</p>\n<p>\n<p>\n<p>🌈 Iluminación: RGB personalizable</p>\n</p>\n</p>\n<p>\n<p>\n<p>🎛️ Control multimedia: Botón multimedia integrado</p>\n</p>\n</p>",
+      "model": "Maxpower II MK894",
+      "specificationsUpdated": "2026-11-09T20:29:31+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/teclado-gaming-rosa-fantech-rgb.webp"
     }
   ],
-  "updated": "2026-11-08T16:32:29+00:00"
+  "updated": "2026-11-09T20:29:31+00:00"
 }
