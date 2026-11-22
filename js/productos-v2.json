@@ -1420,8 +1420,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1466,8 +1466,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 34,
-      "stockText": "34 disponibles",
+      "stockQuantity": 32,
+      "stockText": "32 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1512,8 +1512,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 187,
-      "stockText": "187 disponibles",
+      "stockQuantity": 182,
+      "stockText": "182 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1558,8 +1558,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 120,
-      "stockText": "120 disponibles",
+      "stockQuantity": 115,
+      "stockText": "115 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7111,7 +7111,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "Logitech",
-      "price": 3600.0,
+      "price": 3300.0,
       "stock": true,
       "image": "img/catalogo/e7b15330f770f6792a2b.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/463fc39b-3eaf-49b6-8f9c-4f5545e49c5b.png",
@@ -7268,7 +7268,7 @@
       "category": "Periféricos",
       "subcategory": "Controles de juego",
       "brand": "MSI",
-      "price": 3900.0,
+      "price": 3600.0,
       "stock": true,
       "image": "img/catalogo/7c3f6ca64077972a5176.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/d0293208-5781-4b08-98f1-5d5c07c1c353.png",
@@ -7680,7 +7680,7 @@
       "category": "Componentes",
       "subcategory": "Fuentes de poder",
       "brand": "Corsair",
-      "price": 4400.0,
+      "price": 4000.0,
       "stock": true,
       "image": "img/catalogo/524392d8b12cddb8a80c.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/d9a3b872-bf33-4fa6-a674-406996999365.png",
@@ -12663,7 +12663,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "Logitech",
-      "price": 3600.0,
+      "price": 3300.0,
       "stock": true,
       "image": "img/catalogo/5592875c9ae2301e454a.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/6f782165-336b-4e20-9bc9-54dadceba007.png",
@@ -15135,7 +15135,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "MSI",
-      "price": 5700.0,
+      "price": 5200.0,
       "stock": true,
       "image": "img/catalogo/ff403d30b4cec252a731.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/50d214d3-5b8a-432b-814a-caee222b5904.png",
@@ -15206,7 +15206,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "MSI",
-      "price": 5700.0,
+      "price": 5200.0,
       "stock": true,
       "image": "img/catalogo/dcc005137aa2d79213e1.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/1d1f4d06-919e-46b5-8519-d94dd853d23c.png",
@@ -15347,7 +15347,7 @@
       "category": "Componentes",
       "subcategory": "Fuentes de poder",
       "brand": "MSI",
-      "price": 3200.0,
+      "price": 2900.0,
       "stock": true,
       "image": "img/catalogo/1bb68037aede8dffebc1.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/36206b30-531f-4200-b8a4-88e620a2dc8d.png",
@@ -16940,7 +16940,7 @@
       "category": "Componentes",
       "subcategory": "Fuentes de poder",
       "brand": "Corsair",
-      "price": 5700.0,
+      "price": 5200.0,
       "stock": true,
       "image": "img/catalogo/7eac10007040384cc48e.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/6d906fc4-0ef1-4298-bdc4-90c27993aca1.png",
@@ -17833,7 +17833,7 @@
       "category": "Componentes",
       "subcategory": "Fuentes de poder",
       "brand": "Corsair",
-      "price": 4700.0,
+      "price": 4300.0,
       "stock": true,
       "image": "img/catalogo/62e95010950fb22a2e89.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/79ffa750-52be-46d0-84b7-f277f9d2481e.png",
@@ -18692,7 +18692,7 @@
       "category": "Componentes",
       "subcategory": "Fuentes de poder",
       "brand": "MSI",
-      "price": 5300.0,
+      "price": 4800.0,
       "stock": true,
       "image": "img/catalogo/57e83ce9af902acbc15f.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/aa3e919e-7c3b-49fb-a052-2c6db9f577fe.png",
@@ -19790,7 +19790,7 @@
       "category": "Monitores",
       "subcategory": "Curvos",
       "brand": "Samsung",
-      "price": 12500.0,
+      "price": 12600.0,
       "stock": true,
       "image": "img/catalogo/9ad0de006d0569a53240.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/18ddd5fc-a0f6-4059-8cf3-308310127fb4.png",
@@ -21326,7 +21326,7 @@
       "category": "Componentes",
       "subcategory": "Fuentes de poder",
       "brand": "MSI",
-      "price": 4500.0,
+      "price": 4100.0,
       "stock": true,
       "image": "img/catalogo/18b73bae04131acf7290.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/aaf57eba-d215-430c-a91a-a70df2db6279.png",
@@ -23318,7 +23318,7 @@
       "category": "Periféricos",
       "subcategory": "Controles de juego",
       "brand": "MSI",
-      "price": 3900.0,
+      "price": 3600.0,
       "stock": true,
       "image": "img/catalogo/96ac581ae853244dda9c.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/b5caa605-65b0-4a00-ad45-e7daa6c11c4b.png",
@@ -25414,8 +25414,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 76,
-      "stockText": "76 disponibles",
+      "stockQuantity": 75,
+      "stockText": "75 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26805,7 +26805,7 @@
       "category": "Mobiliario",
       "subcategory": "Sillas",
       "brand": "Primus",
-      "price": 10800.0,
+      "price": 10700.0,
       "stock": true,
       "image": "img/catalogo/8c1a5af467b0880fa68a.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/263b7bb6-af46-48e4-84cf-944d3481484e.png",
@@ -26857,8 +26857,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 12,
-      "stockText": "12 disponibles",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28357,7 +28357,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "Corsair",
-      "price": 4300.0,
+      "price": 3900.0,
       "stock": true,
       "image": "img/catalogo/396bb19d6fa26c8db72d.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/55b287fc-e326-48fe-a3f2-71e25168f067.png",
@@ -28420,7 +28420,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "Corsair",
-      "price": 4300.0,
+      "price": 3900.0,
       "stock": true,
       "image": "img/catalogo/c90cc895b89e81ed80db.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/97270926-3005-4414-a8f9-0fdcab9e28de.png",
@@ -29046,7 +29046,7 @@
       "category": "Audio y Video",
       "subcategory": "Audífonos",
       "brand": "JBL",
-      "price": 2200.0,
+      "price": 2000.0,
       "stock": true,
       "image": "img/catalogo/0463eca50ad2f3654e04.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/pna.png",
@@ -41364,8 +41364,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111644/"
       ],
-      "stockQuantity": 121,
-      "stockText": "121 disponibles",
+      "stockQuantity": 120,
+      "stockText": "120 disponibles",
       "image": "img/catalogo/6f8f9ee34150d8ad4701.png",
       "sourceCategory": "",
       "category": "Monitores",
@@ -41898,7 +41898,7 @@
       "reference": "630070",
       "name": "Audifono Gamer Fantech HG30 Carbon 7.1 RGB USB con Micrófono",
       "spec": "El headset gamer Fantech HG30 Carbon ofrece una experiencia de audio envolvente con sonido virtual 7.1 e iluminación RGB para complementar tu configuración gamer. Su conexión USB y micrófono integrado lo convierten en una opción práctica para videojuegos, comunicación en línea y entretenimiento.",
-      "price": 2900.0,
+      "price": 2700.0,
       "stock": true,
       "specifications": [
         {
@@ -42847,7 +42847,7 @@
       "name": "Impresora Epson Ecotank L14150 Multifuncional Inyeccion De Tinta A3+ Color",
       "spec": "Impresora multifuncional inyeccion de tinta formato ancho a3+ color",
       "price": 48300.0,
-      "stock": false,
+      "stock": true,
       "specifications": [
         {
           "label": "Tipo",
@@ -42874,8 +42874,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/90019/"
       ],
-      "stockQuantity": 0,
-      "stockText": "Agotado",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/18327b2f2f95dd084313.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -42884,8 +42884,7 @@
       "subcategory": "Otros accesorios",
       "description": "<p>🖨️ <strong>Tipo:</strong> Impresora multifuncional</p>\n<p>🖨️ <strong>Tecnologia de impresion:</strong> Inyeccion de tinta</p>\n<p>📄 <strong>Formato de impresion:</strong> A3+ ancho</p>\n<p>🌈 <strong>Color:</strong> Impresion a color</p>\n<p>🔌 <strong>Conectividad:</strong> USB, WiFi, Ethernet</p>",
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/00675f7e-d230-4bd1-aedd-b0aadd1f8d2a.png",
-      "specificationsUpdated": "2026-11-19T18:54:39+00:00",
-      "sourceUnavailable": true
+      "specificationsUpdated": "2026-11-19T18:54:39+00:00"
     },
     {
       "id": "80000094624",
@@ -43195,14 +43194,15 @@
       ],
       "stockQuantity": 22,
       "stockText": "22 disponibles",
-      "image": "img/catalogo/sin-imagen.svg",
+      "image": "img/catalogo/d7c6503681d766510d9b.webp",
       "sourceCategory": "",
       "category": "Monitores",
       "brand": "Samsung",
       "collections": [],
       "subcategory": "De escritorio",
       "description": "<p>🖥️ <strong>Tamaño de pantalla:</strong> 27″</p>\n<p>🎯 <strong>Resolución:</strong> 4K UHD (3840 × 2160)</p>\n<p>📐 <strong>Tipo de panel:</strong> IPS plano</p>\n<p>✨ <strong>Alto Rango Dinámico:</strong> HDR10</p>\n<p>⚡ <strong>Frecuencia de actualización:</strong> 60 Hz</p>\n<p>⏱️ <strong>Tiempo de respuesta:</strong> 5 ms</p>\n<p>👁️ <strong>Ángulo de visión:</strong> 178°</p>\n<p>🛡️ <strong>Protección visual:</strong> Eye Saver y Flicker Free</p>\n<p>🔌 <strong>Conectividad:</strong> HDMI 2.0 y DisplayPort 1.2</p>",
-      "specificationsUpdated": "2026-11-19T18:54:39+00:00"
+      "specificationsUpdated": "2026-11-19T18:54:39+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/us-viewfinity-s7-s70h-594057-ls27h70deanxza-553351105.webp"
     },
     {
       "id": "80000094348",
@@ -44417,8 +44417,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔒 <strong>Tipo De Producto:</strong> Lector De Tarjetas</p>\n<p>📡 <strong>Interfaz:</strong> RS-485 Y Wiegand</p>\n<p>💧 <strong>Protección:</strong> Ip65</p>\n<p>🔑 <strong>Compatibilidad:</strong> Mifare</p>\n<p>🔧 <strong>Uso:</strong> Control De Acceso</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/e3ec3084-c032-48da-8909-a842b721ec9c.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/e3ec3084-c032-48da-8909-a842b721ec9c.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "80000095766",
@@ -44462,8 +44462,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📺 <strong>Canales:</strong> 32</p>\n<p>🖥️ <strong>Resolución:</strong> 4K</p>\n<p>💾 <strong>Bahías de disco duro:</strong> 8</p>\n<p>🌐 <strong>Conectividad:</strong> Tarjetas de red</p>\n<p>🛡️ <strong>Soporte:</strong> RAID</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/a5de97a0-282e-4345-baaa-da045897abf5.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/a5de97a0-282e-4345-baaa-da045897abf5.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000104624",
@@ -44519,8 +44519,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 2560 x 1920 (6MP)</p>\n<p>💡 <strong>Iluminacion:</strong> IR Luz Blanca 30 mts</p>\n<p>🌧️ <strong>Proteccion:</strong> IP67</p>\n<p>🔌 <strong>Conexion:</strong> PoE</p>\n<p>🔍 <strong>Optica:</strong> Varifocal</p>\n<p>🔄 <strong>Tipo:</strong> Domo</p>\n<p>🌐 <strong>Protocolo:</strong> IP</p>\n<p>💡 <strong>Caracteristica Principal:</strong> Dual Light</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/607c8d24-78c6-4de1-9de9-dfb2e81191c1.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/607c8d24-78c6-4de1-9de9-dfb2e81191c1.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000107996",
@@ -44562,8 +44562,8 @@
       "collections": [],
       "subcategory": "De escritorio",
       "description": "<p>📷 <strong>Resolución y calidad:</strong><br>🖼️ Pantalla de 27″ con resolución Full HD (1920 x 1080)<br>⚡ Tasa de refresco ultra rápida de 200Hz<br>⏱️ Tiempo de respuesta de 0.5 ms GTG con tecnología Rapid IPS</p>\n<p>🎤 <strong>Audio y comunicación:</strong><br>🎧 Salida de auriculares integrada</p>\n<p>📡 <strong>Conectividad y puertos:</strong><br>🔌 1x HDMI 2.0b<br>🔌 1x DisplayPort 1.2a<br>🎧 1x Headphone-out</p>\n<p>🎨 <strong>Diseño y materiales:</strong><br>🖤 Diseño gamer con marcos delgados para experiencia inmersiva<br>⚔️ Construcción robusta con estilo premium MSI</p>\n<p>📏 <strong>Dimensiones y peso:</strong><br>📐 Formato de 27″ ideal para gaming competitivo y uso multimedia</p>\n<p>🖥️ <strong>Tipo y aplicación:</strong><br>🎮 Monitor gaming de alto rendimiento optimizado para eSports y FPS<br>💻 Compatible con PC y consolas modernas</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/09/MAG-272F.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/09/MAG-272F.webp",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000108782",
@@ -44615,8 +44615,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📦 <strong>SKU:</strong> 108782</p>\n<p>🏢 <strong>Tipo:</strong> Videoportero multiapartamento</p>\n<p>🖥️ <strong>Pantalla:</strong> 4.3″</p>\n<p>👤 <strong>Reconocimiento:</strong> Facial</p>\n<p>🔑 <strong>Métodos de acceso:</strong> Lectora de huella, tarjeta, PIN y facial</p>\n<p>⌨️ <strong>Teclado:</strong> Integrado</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/af449edc-dabb-4c19-8baf-28edade49f0d.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/af449edc-dabb-4c19-8baf-28edade49f0d.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000109360",
@@ -44668,8 +44668,8 @@
       "collections": [],
       "subcategory": "De escritorio",
       "description": "<p>🖥️ <strong>Tamaño:</strong> 55 pulgadas</p>\n<p>💡 <strong>Tipo de pantalla:</strong> E-LED</p>\n<p>📺 <strong>Resolución:</strong> 2160 × 3840</p>\n<p>🔌 <strong>Entradas de video:</strong> HDMI, VGA</p>\n<p>🔊 <strong>Conectividad:</strong> USB, Bluetooth</p>\n<p>📱 <strong>Sistema operativo:</strong> Android 13</p>\n<p>🦶 <strong>Base:</strong> Para piso</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/b69d1117-cd6e-4ea8-bf10-cea400a4e1e8.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/b69d1117-cd6e-4ea8-bf10-cea400a4e1e8.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000109382",
@@ -44737,9 +44737,9 @@
       "collections": [],
       "subcategory": "Controles de juego",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision<br>🔢 <strong>Modelo:</strong> DS-K1T323EBFWX-E1<br>🔐 <strong>Tipo de producto:</strong> Control de acceso facial<br>🖥️ <strong>Pantalla:</strong> 2.4″<br>📶 <strong>Conectividad:</strong> WiFi<br>👤 <strong>Capacidad de usuarios:</strong> 1,000 usuarios<br>😊 <strong>Capacidad facial:</strong> 1,000 rostros<br>🆔 <strong>Capacidad de tarjetas:</strong> 3,000 tarjetas EM<br>👆 <strong>Capacidad de huellas:</strong> 3,000 huellas<br>📂 <strong>Capacidad de eventos:</strong> 150,000 registros<br>📡 <strong>Tecnología de acceso:</strong> Reconocimiento facial, huella y tarjetas EM</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/bc853eb5-d3ce-41ca-95c3-ca298df54944.png",
       "model": "DS-K1T323EBFWX-E1",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/bc853eb5-d3ce-41ca-95c3-ca298df54944.png"
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000109401",
@@ -44791,8 +44791,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo:</strong> Camara de Vigilancia Bullet</p>\n<p>🔍 <strong>Resolucion:</strong> 4MP</p>\n<p>🌈 <strong>Tecnologia:</strong> Colorvu Hybrid Light</p>\n<p>📡 <strong>Conectividad:</strong> IP</p>\n<p>🌧️ <strong>Proteccion:</strong> IP67</p>\n<p>🔊 <strong>Audio:</strong> Microfono Integrado</p>\n<p>💡 <strong>Alcance:</strong> 30 Metros</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0bdeb535-c158-4ae9-8952-fb480905efee.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/0bdeb535-c158-4ae9-8952-fb480905efee.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000110139",
@@ -44836,8 +44836,8 @@
       "collections": [],
       "subcategory": "Pantallas interactivas",
       "description": "<p>🖥️ <strong>Tamaño de pantalla:</strong> 75 pulgadas</p>\n<p>📺 <strong>Resolución:</strong> 4K</p>\n<p>📱 <strong>Sistema operativo:</strong> Android 13</p>\n<p>🔊 <strong>Altavoz:</strong> Incorporado</p>\n<p>📷 <strong>Cámara:</strong> Incorporada</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/b4fac160-c1f2-44e7-84a0-85b7f0e17e43.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/b4fac160-c1f2-44e7-84a0-85b7f0e17e43.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000110434",
@@ -44897,8 +44897,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Canales:</strong> 16 Canales</p>\n<p>📺 <strong>Resolucion:</strong> 8K</p>\n<p>📏 <strong>Formato:</strong> 1U</p>\n<p>🔌 <strong>Puertos PoE:</strong> 16 PoE</p>\n<p>💾 <strong>Almacenamiento:</strong> 2 SATA</p>\n<p>👤 <strong>Analitica:</strong> Reconocimiento Facial</p>\n<p>🚗 <strong>Lectura de placas:</strong> ANPR</p>\n<p>🔍 <strong>Tecnologia:</strong> AcuSeek / AcuSearch</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/37fd086b-933f-4590-b726-c2f5b03ba248.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/37fd086b-933f-4590-b726-c2f5b03ba248.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000110435",
@@ -44946,8 +44946,8 @@
       "collections": [],
       "subcategory": "De escritorio",
       "description": "<p>📺 <strong>Tamaño:</strong> 55 pulgadas</p>\n<p>🖥️ <strong>Resolución:</strong> 4K</p>\n<p>💾 <strong>Memoria RAM:</strong> 4GB</p>\n<p>📦 <strong>Almacenamiento:</strong> 32GB eMMC</p>\n<p>📱 <strong>Sistema Operativo:</strong> Android 12</p>\n<p>🖥️ <strong>Tipo:</strong> Digital Signage</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/ff2f1a9e-23a5-48b8-9eeb-119eb61ab66d.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/ff2f1a9e-23a5-48b8-9eeb-119eb61ab66d.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000110764",
@@ -45007,9 +45007,9 @@
       "collections": [],
       "subcategory": "De escritorio",
       "description": "<p>📱 <strong>Modelo:</strong> MDT202</p>\n<p>📱 <strong>Sistema operativo:</strong> Android 14</p>\n<p>📺 <strong>Pantalla:</strong> 5 pulgadas</p>\n<p>📸 <strong>Cámara frontal:</strong> 5 MP</p>\n<p>📷 <strong>Cámara trasera:</strong> 13 MP</p>\n<p>💾 <strong>Memoria RAM:</strong> 4 GB</p>\n<p>💽 <strong>Almacenamiento:</strong> 64 GB</p>\n<p>🔊 <strong>Bluetooth:</strong> 5.0</p>\n<p>🌐 <strong>Compatibilidad:</strong> Servidor GMS de Google</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/1819fad9-8ad5-4c07-a8c1-dbdcdcab204b.png",
       "model": "MDT202",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/06/1819fad9-8ad5-4c07-a8c1-dbdcdcab204b.png"
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000110778",
@@ -45061,8 +45061,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📟 <strong>Tipo de dispositivo:</strong> Lector de tarjetas</p>\n<p>📋 <strong>Aplicación:</strong> Control de acceso</p>\n<p>🔌 <strong>Interfaces:</strong> RS-485 y Wiegand</p>\n<p>🌐 <strong>Protocolo:</strong> OSDP</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP66</p>\n<p>💳 <strong>Tecnología de tarjetas:</strong> M1 y EM</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/3a00a618-fea1-4afb-ba70-2220143bb877.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/3a00a618-fea1-4afb-ba70-2220143bb877.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000111664",
@@ -45106,8 +45106,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>🔊 <strong>Tipo de producto:</strong> Parlantes</p>\n<p>⚡ <strong>Potencia:</strong> 6W</p>\n<p>📊 <strong>Máximo SPL:</strong> 98 dB</p>\n<p>🎵 <strong>Respuesta de frecuencia:</strong> 90 Hz ~ 20 kHz</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/hikvision-ds-qae0206g1-v-blanco-frontal.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/hikvision-ds-qae0206g1-v-blanco-frontal.webp",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000111940",
@@ -45163,8 +45163,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Tipo de cámara:</strong> IP Bullet</p>\n<p>🎯 <strong>Resolución:</strong> 2 MP</p>\n<p>💡 <strong>Tecnología de iluminación:</strong> Smart Hybrid Light 3.0</p>\n<p>🌙 <strong>Alcance IR:</strong> 30 metros</p>\n<p>☀️ <strong>Alcance luz blanca:</strong> 20 metros</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP67</p>\n<p>📹 <strong>Compresión de video:</strong> H.265</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/fe9450a2-940b-4816-a4d7-82f4dfb70474.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/fe9450a2-940b-4816-a4d7-82f4dfb70474.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000111941",
@@ -45216,8 +45216,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>📹 <strong>Tipo:</strong> Cámara de vigilancia IP Bullet</p>\n<p>🎯 <strong>Resolución:</strong> 4 MP</p>\n<p>💡 <strong>Tecnología de iluminación:</strong> Smart Hybrid Light 3.0</p>\n<p>🌙 <strong>Alcance de luz:</strong> 30 m IR + 20 m Luz Blanca</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP67</p>\n<p>📦 <strong>Formato de compresión:</strong> H.265</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/images-1.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/images-1.webp",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000111942",
@@ -45269,9 +45269,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo:</strong> Cámara de vigilancia IP Domo</p>\n<p>🎯 <strong>Resolución:</strong> 4 MP</p>\n<p>💡 <strong>Tecnología:</strong> Smart Hybrid Light 3.0</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP67</p>\n<p>🔢 <strong>Modelo:</strong> K08</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/313c2865-f8d6-4063-9c72-6196d52d0ab3.png",
       "model": "K08",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/313c2865-f8d6-4063-9c72-6196d52d0ab3.png"
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000112067",
@@ -45323,8 +45323,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏢 <strong>Marca:</strong> Hikvision</p>\n<p>📷 <strong>Tipo de cámara:</strong> IP Domo Network</p>\n<p>🎯 <strong>Resolución:</strong> 2 MP</p>\n<p>💡 <strong>Tecnología:</strong> Smart Hybrid Light 3.0</p>\n<p>🛡️ <strong>Grado de protección:</strong> IP67</p>\n<p>🔨 <strong>Resistencia a impactos:</strong> K10</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/c7934ddb-fe56-46ee-bb98-338d30eac3c9.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/c7934ddb-fe56-46ee-bb98-338d30eac3c9.png",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000112068",
@@ -45384,8 +45384,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🎥 <strong>Tipo:</strong> Cámara IP Bullet</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>⚙️ <strong>Serie:</strong> AcuSense Lite</p>\n<p>📐 <strong>Lente:</strong> Varifocal</p>\n<p>🎯 <strong>Resolución:</strong> 4 MP</p>\n<p>💡 <strong>Tecnología:</strong> Dual Light</p>\n<p>🌙 <strong>Alcance IR:</strong> 50 metros</p>\n<p>🎙️ <strong>Audio:</strong> Micrófono integrado</p>\n<p>🛡️ <strong>Protección:</strong> IP67</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e7ad92e69cba92-e99d9ee5a3b0e58589e68aa5e8ada6-e59fbae7babf-e6b5b7e5bab7e799bd-e58fb3e4bea7.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e7ad92e69cba92-e99d9ee5a3b0e58589e68aa5e8ada6-e59fbae7babf-e6b5b7e5bab7e799bd-e58fb3e4bea7.webp",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000112069",
@@ -45445,8 +45445,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📷 <strong>Tipo:</strong> Cámara Bullet IP All in One</p>\n<p>🎨 <strong>Tecnología:</strong> ColorVu</p>\n<p>🎯 <strong>Resolución:</strong> 4 MP</p>\n<p>🔍 <strong>Lente:</strong> 4 mm</p>\n<p>☀️ <strong>Alimentación:</strong> Panel solar</p>\n<p>🔋 <strong>Batería de respaldo:</strong> Litio 23.2 Ah (hasta 24 días)</p>\n<p>📶 <strong>Conectividad:</strong> 4G</p>\n<p>📦 <strong>Incluye:</strong> Accesorios de instalación</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e7ad92e69cba89-e10e5b9b3e58fb0-e58fb3e4bea7.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e7ad92e69cba89-e10e5b9b3e58fb0-e58fb3e4bea7.webp",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     },
     {
       "id": "800000112070",
@@ -45494,9 +45494,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🔊 <strong>Tipo de producto:</strong> Altavoz tipo columna</p>\n<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>⚡ <strong>Potencia:</strong> 20 Watts</p>\n<p>🎨 <strong>Color:</strong> Blanco</p>\n<p>🛠️ <strong>Montaje:</strong> En L</p>\n<p>🛡️ <strong>Grado de protección:</strong> Exterior IP66</p>",
-      "specificationsUpdated": "2026-11-21T17:10:12+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/5fa58c20-25c2-43ed-b190-b62f83b321d7.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/5fa58c20-25c2-43ed-b190-b62f83b321d7.webp",
+      "specificationsUpdated": "2026-11-21T17:10:12+00:00"
     }
   ],
-  "updated": "2026-11-21T17:10:12+00:00"
+  "updated": "2026-11-22T17:39:44+00:00"
 }
