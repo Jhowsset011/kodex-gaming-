@@ -1,6 +1,6 @@
 {
   "source": "Nexcom — API pública (sku = referencia)",
-  "count": 839,
+  "count": 843,
   "products": [
     {
       "id": "19182",
@@ -272,8 +272,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 181,
-      "stockText": "181 disponibles",
+      "stockQuantity": 180,
+      "stockText": "180 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -335,8 +335,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 145,
-      "stockText": "145 disponibles",
+      "stockQuantity": 141,
+      "stockText": "141 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -627,8 +627,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 27,
-      "stockText": "27 disponibles",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -721,8 +721,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 275,
-      "stockText": "275 disponibles",
+      "stockQuantity": 274,
+      "stockText": "274 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -830,7 +830,7 @@
       "subcategory": "Gabinetes / Case",
       "brand": "Antec",
       "price": 3200.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/cae66fdc6127ce375f88.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/dcac5ad5-5115-40b7-8765-dc7cb77173fe.png",
       "description": "<p>🏷️ <strong>Marca:</strong> Antec</p>\n<p>📦 <strong>Modelo:</strong> P6 Neo ARGB</p>\n<p>📐 <strong>Factor de forma:</strong> Mid-Tower</p>\n<p>🖥️ <strong>Placas base soportadas:</strong> ATX, Micro-ATX, ITX</p>\n<p>🌀 <strong>Ventiladores incluidos:</strong> 4 ARGB (3 de 120mm frontales, 1 de 120mm trasero)</p>\n<p>🔌 <strong>Conectividad frontal:</strong> 1x USB Type-C 3.2 Gen 2 (10Gbps), 2x USB 3.0, Audio HD</p>\n<p>📏 <strong>Altura máxima disipador CPU:</strong> 175 mm</p>\n<p>🎮 <strong>Longitud máxima GPU:</strong> 325 mm</p>\n<p>🔲 <strong>Ranuras PCIe:</strong> 7 reutilizables</p>\n<p>🛡️ <strong>Características de diseño:</strong> Panel frontal de malla con protección antipolvo, toma de aire inferior para GPU, paneles tool-free y filtros magnéticos removibles</p>",
@@ -884,11 +884,10 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "model": "P6 Neo ARGB",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "29197",
@@ -1144,8 +1143,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "DTXG2/128GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1236,8 +1235,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 25,
-      "stockText": "25 disponibles",
+      "stockQuantity": 23,
+      "stockText": "23 disponibles",
       "model": "DTXG2/64GB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1282,8 +1281,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 16,
-      "stockText": "16 disponibles",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "model": "Data Traveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1328,8 +1327,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 46,
-      "stockText": "46 disponibles",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "model": "Data Traveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1420,8 +1419,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 7,
-      "stockText": "7 disponibles",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1512,8 +1511,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 179,
-      "stockText": "179 disponibles",
+      "stockQuantity": 171,
+      "stockText": "171 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1558,8 +1557,8 @@
       ],
       "collections": [],
       "sourceCategory": "Memoria Usb",
-      "stockQuantity": 106,
-      "stockText": "106 disponibles",
+      "stockQuantity": 88,
+      "stockText": "88 disponibles",
       "model": "DataTraveler Exodia",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -1715,8 +1714,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 47,
-      "stockText": "47 disponibles",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1768,8 +1767,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 23,
-      "stockText": "23 disponibles",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -1841,8 +1840,8 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
-      "stockQuantity": 7,
-      "stockText": "7 disponibles",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "LS32H804UANXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2263,8 +2262,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 164,
-      "stockText": "164 disponibles",
+      "stockQuantity": 160,
+      "stockText": "160 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -2353,8 +2352,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 185,
-      "stockText": "185 disponibles",
+      "stockQuantity": 178,
+      "stockText": "178 disponibles",
       "model": "M100",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2491,8 +2490,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 641,
-      "stockText": "641 disponibles",
+      "stockQuantity": 634,
+      "stockText": "634 disponibles",
       "model": "ARGOM 360",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2915,8 +2914,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "model": "CS850XTK09",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -2998,8 +2997,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "model": "CS850XTK11",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3147,8 +3146,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
+      "stockQuantity": 7,
+      "stockText": "7 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3386,8 +3385,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 122,
-      "stockText": "122 disponibles",
+      "stockQuantity": 120,
+      "stockText": "120 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3431,8 +3430,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "model": "XTK-092S",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3523,8 +3522,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "model": "xtk-160s",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -3569,8 +3568,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 59,
-      "stockText": "59 disponibles",
+      "stockQuantity": 43,
+      "stockText": "43 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3610,8 +3609,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 871,
-      "stockText": "871 disponibles",
+      "stockQuantity": 1439,
+      "stockText": "1439 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3894,8 +3893,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 323,
-      "stockText": "323 disponibles",
+      "stockQuantity": 318,
+      "stockText": "318 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -3985,8 +3984,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 1136,
-      "stockText": "1136 disponibles",
+      "stockQuantity": 1323,
+      "stockText": "1323 disponibles",
       "model": "ARG-AC-1233R",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4192,8 +4191,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 82,
-      "stockText": "82 disponibles",
+      "stockQuantity": 79,
+      "stockText": "79 disponibles",
       "model": "Expansion",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -4238,8 +4237,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 42,
-      "stockText": "42 disponibles",
+      "stockQuantity": 41,
+      "stockText": "41 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -4985,8 +4984,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 3,
-      "stockText": "3 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5302,8 +5301,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 164,
-      "stockText": "164 disponibles",
+      "stockQuantity": 163,
+      "stockText": "163 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5598,8 +5597,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 62,
-      "stockText": "62 disponibles",
+      "stockQuantity": 60,
+      "stockText": "60 disponibles",
       "model": "WD44PURZ",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -5743,8 +5742,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -5867,7 +5866,7 @@
       "subcategory": "Gabinetes / Case",
       "brand": "Antec",
       "price": 4900.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/60d76aa99a0e72bbb68d.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/c7e6394b-e78b-4f5d-8c06-215f02f5e8c2.png",
       "description": "<p>🎨 <strong>Color:</strong> Negro</p>\n<p>🔲 <strong>Diseño:</strong> Panel frontal en malla diamante para flujo de aire</p>\n<p>🖼️ <strong>Panel lateral:</strong> Vidrio templado abisagrado</p>\n<p>💨 <strong>Ventiladores:</strong> Cuatro ARGB de 120mm preinstalados (tres frontales, uno trasero)</p>\n<p>🔌 <strong>Conectividad frontal:</strong> Dos USB 2.0, un USB 3.0, audio HD y botón control LED</p>\n<p>🖥️ <strong>Compatibilidad placas base:</strong> ATX, Micro-ATX, ITX</p>\n<p>❄️ <strong>Soporte disipadores CPU:</strong> Hasta 170mm</p>\n<p>🎮 <strong>Soporte tarjetas gráficas:</strong> Hasta 300mm</p>\n<p>💾 <strong>Almacenamiento:</strong> Soporta unidades de 3.5″ y 2.5″</p>",
@@ -5917,9 +5916,10 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 3,
-      "stockText": "3 disponibles",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "stockQuantity": 0,
+      "stockText": "Agotado",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "12718",
@@ -6204,8 +6204,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 81,
-      "stockText": "81 disponibles",
+      "stockQuantity": 71,
+      "stockText": "71 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6249,8 +6249,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 32,
-      "stockText": "32 disponibles",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6657,8 +6657,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 9,
-      "stockText": "9 disponibles",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6702,8 +6702,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 18,
-      "stockText": "18 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -6777,7 +6777,7 @@
       "category": "Componentes",
       "subcategory": "Gabinetes / Case",
       "brand": "MSI",
-      "price": 4200.0,
+      "price": 4300.0,
       "stock": true,
       "image": "img/catalogo/3d64cc99cc342cebd6ad.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/da69d701-113c-4684-84f4-3b67cdd29be8.png",
@@ -6867,8 +6867,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 12,
+      "stockText": "12 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7257,8 +7257,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 306,
-      "stockText": "306 disponibles",
+      "stockQuantity": 344,
+      "stockText": "344 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7365,8 +7365,8 @@
       ],
       "collections": [],
       "sourceCategory": "",
-      "stockQuantity": 258,
-      "stockText": "258 disponibles",
+      "stockQuantity": 247,
+      "stockText": "247 disponibles",
       "model": "Exodia DTXM",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -7431,8 +7431,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 33,
-      "stockText": "33 disponibles",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -7865,8 +7865,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 19,
-      "stockText": "19 disponibles",
+      "stockQuantity": 18,
+      "stockText": "18 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8411,8 +8411,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 167,
-      "stockText": "167 disponibles",
+      "stockQuantity": 148,
+      "stockText": "148 disponibles",
       "model": "AC260KLX01",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -8909,8 +8909,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 191,
-      "stockText": "191 disponibles",
+      "stockQuantity": 188,
+      "stockText": "188 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -8956,8 +8956,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Mouse",
-      "stockQuantity": 46,
-      "stockText": "46 disponibles",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "model": "combat",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -9010,8 +9010,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 128,
-      "stockText": "128 disponibles",
+      "stockQuantity": 145,
+      "stockText": "145 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9318,8 +9318,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 420,
-      "stockText": "420 disponibles",
+      "stockQuantity": 417,
+      "stockText": "417 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9585,8 +9585,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 196,
-      "stockText": "196 disponibles",
+      "stockQuantity": 195,
+      "stockText": "195 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9720,8 +9720,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 32,
-      "stockText": "32 disponibles",
+      "stockQuantity": 31,
+      "stockText": "31 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -9909,8 +9909,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 712,
-      "stockText": "712 disponibles",
+      "stockQuantity": 694,
+      "stockText": "694 disponibles",
       "model": "M170",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -10004,8 +10004,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 12,
-      "stockText": "12 disponibles",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10100,8 +10100,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 42,
-      "stockText": "42 disponibles",
+      "stockQuantity": 31,
+      "stockText": "31 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -10229,7 +10229,7 @@
       "subcategory": "De escritorio",
       "brand": "AOC",
       "price": 6500.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/ffd16eb44e0ddc460c0c.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/1287b791-b1b4-4a97-8de6-cc4e5d2e1fd6.png",
       "description": "<p>🖥️ <strong>Tamaño de Pantalla:</strong> 24″ (23.8”)<br>📺 <strong>Resolución:</strong> FHD 1920 x 1080<br>⚡ <strong>Frecuencia de Actualización:</strong> 120Hz<br>⏱️ <strong>Tiempo de Respuesta:</strong> 4ms<br>🔌 <strong>Entradas de Video:</strong> HDMI 1.4 x1, VGA x1<br>🔊 <strong>Entrada de Audio:</strong> 3.5mm<br>💡 <strong>Brillo:</strong> 250 cd/m²<br>🧩 <strong>Montaje VESA:</strong> Sí<br>👁️ <strong>Tecnología Flicker-Free:</strong> Sí<br>🌙 <strong>Modo Low Blue Light:</strong> Sí</p>",
@@ -10281,9 +10281,10 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "stockQuantity": 0,
+      "stockText": "Agotado",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "1209",
@@ -10691,8 +10692,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 157,
-      "stockText": "157 disponibles",
+      "stockQuantity": 104,
+      "stockText": "104 disponibles",
       "model": "920-007901",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11063,8 +11064,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 27,
-      "stockText": "27 disponibles",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11454,8 +11455,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 486,
-      "stockText": "486 disponibles",
+      "stockQuantity": 485,
+      "stockText": "485 disponibles",
       "model": "AGI-C015",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11508,8 +11509,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 11,
+      "stockText": "11 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -11652,8 +11653,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
-      "stockQuantity": 81,
-      "stockText": "81 disponibles",
+      "stockQuantity": 80,
+      "stockText": "80 disponibles",
       "model": "Luna 360 ARGB",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -11832,8 +11833,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 56,
-      "stockText": "56 disponibles",
+      "stockQuantity": 58,
+      "stockText": "58 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12230,7 +12231,7 @@
       "subcategory": "De escritorio",
       "brand": "AOC",
       "price": 13900.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/620d776379973b4f7cd4.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/c648b08e-7f58-4023-9881-553f3c7ae134.png",
       "description": "<p>🖥️ <strong>Tamaño:</strong> 27 pulgadas</p>\n<p>🎯 <strong>Resolución:</strong> 2560 x 1440 QHD</p>\n<p>⚡ <strong>Frecuencia de actualización:</strong> 180Hz</p>\n<p>🔄 <strong>Tecnologías:</strong> G-Sync y FreeSync</p>\n<p>🔌 <strong>Entradas:</strong> HDMI y DisplayPort</p>\n<p>🎨 <strong>Tipo de pantalla:</strong> LCD</p>\n<p>🎨 <strong>Color:</strong> Negro</p>",
@@ -12272,10 +12273,9 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "18561",
@@ -12899,8 +12899,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 23,
-      "stockText": "23 disponibles",
+      "stockQuantity": 22,
+      "stockText": "22 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -12944,8 +12944,8 @@
       ],
       "collections": [],
       "sourceCategory": "Mouse",
-      "stockQuantity": 80,
-      "stockText": "80 disponibles",
+      "stockQuantity": 136,
+      "stockText": "136 disponibles",
       "model": "M190",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13116,8 +13116,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 107,
-      "stockText": "107 disponibles",
+      "stockQuantity": 110,
+      "stockText": "110 disponibles",
       "model": "SkyHawk ST2000VX017",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -13207,8 +13207,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
-      "stockQuantity": 130,
-      "stockText": "130 disponibles",
+      "stockQuantity": 128,
+      "stockText": "128 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14218,8 +14218,8 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 96,
-      "stockText": "96 disponibles",
+      "stockQuantity": 93,
+      "stockText": "93 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14285,7 +14285,7 @@
       "subcategory": "Gabinetes / Case",
       "brand": "Antec",
       "price": 8500.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/7dc50b29bd306c29fa3f.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/1ff7738d-90d9-48ca-9cff-28afb4fb8b88.png",
       "description": "<p>🖥️ <strong>Tipo y aplicación:</strong><br>🎮 Gabinete gamer Mid-Tower de la serie Constellation<br>🖥️ Compatible con placas base E-ATX, ATX, Micro-ATX e ITX</p>\n<p>🎨 <strong>Diseño y materiales:</strong><br>⚪ Acabado blanco elegante y moderno<br>🪟 Paneles frontal y lateral en vidrio templado con vista panorámica de 270°<br>🧩 Diseño de doble cámara para gestión de cables y refrigeración optimizada</p>\n<p>🌀 <strong>Ventilación y refrigeración:</strong><br>🌬️ 2 ventiladores ARGB de 140 mm preinstalados en el costado<br>❄️ Soporta disipador de CPU de hasta 175 mm<br>🎮 Espacio para GPU de hasta 440 mm<br>🔄 Filtros de polvo removibles en la parte superior, inferior y lateral</p>\n<p>📡 <strong>Conectividad y puertos:</strong><br>🔌 2 × USB 3.0 frontales<br>⚡ 1 × USB Tipo-C<br>🎧 1 × puerto de audio HD</p>\n<p>🧩 <strong>Acceso y mantenimiento:</strong><br>📦 Gestión de cables con 90 mm en cámara trasera<br>📀 Espacio para 4 unidades de 3.5″ y 5 de 2.5″<br>⚡ Compatible con fuente de poder ATX de hasta 240 mm</p>\n<p>📏 <strong>Dimensiones y peso:</strong><br>📐 Chasis Mid-Tower espacioso y bien estructurado</p>",
@@ -14321,10 +14321,9 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "1434",
@@ -14413,8 +14412,8 @@
       ],
       "collections": [],
       "sourceCategory": "Media Cd & Dvd",
-      "stockQuantity": 603,
-      "stockText": "603 disponibles",
+      "stockQuantity": 593,
+      "stockText": "593 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -14726,8 +14725,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 38,
-      "stockText": "38 disponibles",
+      "stockQuantity": 66,
+      "stockText": "66 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -15565,8 +15564,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 101,
-      "stockText": "101 disponibles",
+      "stockQuantity": 59,
+      "stockText": "59 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16173,8 +16172,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 17,
-      "stockText": "17 disponibles",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -16701,8 +16700,8 @@
       ],
       "collections": [],
       "sourceCategory": "Laptop",
-      "stockQuantity": 34,
-      "stockText": "34 disponibles",
+      "stockQuantity": 32,
+      "stockText": "32 disponibles",
       "model": "HP ProBook 4 G2i",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -16823,8 +16822,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 34,
-      "stockText": "34 disponibles",
+      "stockQuantity": 50,
+      "stockText": "50 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -17120,8 +17119,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 40,
-      "stockText": "40 disponibles",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "model": "PRO MP273L E14",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17134,7 +17133,7 @@
       "subcategory": "De escritorio",
       "brand": "MSI",
       "price": 7600.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/607126116271010e97b2.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/66e656c5-908c-441b-b9c7-9047a8713a36.png",
       "description": "<p>🖥️ <strong>Modelo:</strong> PRO MP243L E14<br>📏 <strong>Tamaño de pantalla:</strong> 23.8 pulgadas<br>💡 <strong>Resolución:</strong> FHD (1920 x 1080)<br>🧭 <strong>Tipo de pantalla:</strong> Flat (plana)<br>🌈 <strong>Tipo de panel:</strong> IPS<br>⚡ <strong>Frecuencia de actualización:</strong> 144 Hz<br>💥 <strong>Tecnología:</strong> HDR para imágenes más nítidas y realistas<br>🧿 <strong>Función especial:</strong> Tecnología EyesErgo para reducir la fatiga visual<br>🔌 <strong>Conectividad:</strong> 1 x HDMI 2.0b, 1 x VGA<br>🎨 <strong>Color:</strong> Negro<br>🏢 <strong>Uso recomendado:</strong> Oficina, diseño, estudio y entretenimiento</p>",
@@ -17190,10 +17189,11 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
+      "stockQuantity": 0,
+      "stockText": "Agotado",
       "model": "PRO MP243L E14",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "12828",
@@ -17262,8 +17262,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 31,
-      "stockText": "31 disponibles",
+      "stockQuantity": 41,
+      "stockText": "41 disponibles",
       "model": "MAG 245F X24",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17465,8 +17465,8 @@
       ],
       "collections": [],
       "sourceCategory": "Computadora",
-      "stockQuantity": 78,
-      "stockText": "78 disponibles",
+      "stockQuantity": 67,
+      "stockText": "67 disponibles",
       "model": "83HDA06AUS",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17771,8 +17771,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
-      "stockQuantity": 7,
-      "stockText": "7 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "model": "MAG COREFROZR AA13",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -17924,7 +17924,7 @@
       "subcategory": "Portátiles",
       "brand": "Lenovo",
       "price": 50100.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/8e34ab35849cb1107a01.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/20d4c45e-ab96-4a7e-829b-1d83cb01aa1b.png",
       "description": "<p>💻 <strong>Modelo:</strong> Lenovo V14 G4 IRU (83A000PDUS)</p>\n<p>🖥️ <strong>Pantalla:</strong> 14″ FHD</p>\n<p>🧠 <strong>Procesador:</strong> Intel Core i7-13620H</p>\n<p>🐏 <strong>Memoria RAM:</strong> 8GB DDR4</p>\n<p>💾 <strong>Almacenamiento:</strong> 256GB M.2 SSD</p>\n<p>💿 <strong>Sistema operativo:</strong> Windows 11 Home</p>\n<p>🌐 <strong>Conectividad:</strong> Wi-Fi 6 y Bluetooth 5.0</p>\n<p>🔌 <strong>Puertos:</strong> 1 x HDMI 1.4, 1 x USB 2.0, 2 x USB 3.2, 1 x Gigabit LAN</p>\n<p>🗂️ <strong>Lector de tarjetas:</strong> Sí</p>\n<p>🎨 <strong>Color:</strong> Negro (Black)</p>",
@@ -17976,11 +17976,10 @@
       ],
       "collections": [],
       "sourceCategory": "Computadora",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "model": "Lenovo V14 G4 IRU (83A000PDUS)",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "16052",
@@ -18147,8 +18146,8 @@
       ],
       "collections": [],
       "sourceCategory": "Abanico Para Cpu",
-      "stockQuantity": 32,
-      "stockText": "32 disponibles",
+      "stockQuantity": 36,
+      "stockText": "36 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18241,8 +18240,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 19,
-      "stockText": "19 disponibles",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -18947,8 +18946,8 @@
       ],
       "collections": [],
       "sourceCategory": "Disco Duro & Ssd",
-      "stockQuantity": 78,
-      "stockText": "78 disponibles",
+      "stockQuantity": 77,
+      "stockText": "77 disponibles",
       "model": "MHC201",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -19054,8 +19053,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 91,
-      "stockText": "91 disponibles",
+      "stockQuantity": 88,
+      "stockText": "88 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -19836,8 +19835,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 83,
-      "stockText": "83 disponibles",
+      "stockQuantity": 86,
+      "stockText": "86 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20033,8 +20032,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
-      "stockQuantity": 756,
-      "stockText": "756 disponibles",
+      "stockQuantity": 754,
+      "stockText": "754 disponibles",
       "model": "AGI-6845",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -20088,8 +20087,8 @@
       ],
       "collections": [],
       "sourceCategory": "Cases",
-      "stockQuantity": 57,
-      "stockText": "57 disponibles",
+      "stockQuantity": 56,
+      "stockText": "56 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20210,8 +20209,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 40,
-      "stockText": "40 disponibles",
+      "stockQuantity": 41,
+      "stockText": "41 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20401,7 +20400,7 @@
       "subcategory": "Gabinetes / Case",
       "brand": "Antec",
       "price": 2800.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/4a73f0c499003d5fdaf8.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/08ebc599-2471-4ca9-8d9f-0fcd538ba47a.png",
       "description": "<p>🖥️ <strong>Tipo y aplicación:</strong><br>🔄 Gabinete gaming Mid-Tower compatible con ATX, Micro-ATX e ITX<br>🏠 Diseñado para alto rendimiento y sistemas con refrigeración avanzada</p>\n<p>🚪 <strong>Puerta y visibilidad:</strong><br>🪟 Panel lateral de vidrio templado para exhibición del hardware<br>🌬️ Panel frontal de malla para alto flujo de aire y ventilación óptima</p>\n<p>🌀 <strong>Ventilación y refrigeración:</strong><br>💨 Incluye 4 ventiladores ARGB de 120 mm preinstalados, sincronizables con la placa base<br>🌬️ Capacidad para instalar hasta 8 ventiladores de 120 mm simultáneamente<br>💧 Compatible con radiadores frontales de hasta 360 mm</p>\n<p>📡 <strong>Conectividad y puertos:</strong><br>🔌 2 × USB 2.0, 1 × USB 3.0, audio HD<br>🎛️ Botón dedicado para control de iluminación LED</p>\n<p>🧩 <strong>Capacidad interna:</strong><br>💾 Soporte para 2 unidades de 3.5″ y 3 unidades de 2.5″<br>📦 Gestión de cables: 24 mm (izquierda) / 13 mm (derecha)</p>\n<p>📏 <strong>Dimensiones y compatibilidad:</strong><br>🖱️ Altura máxima disipador CPU: 160 mm<br>🎮 Longitud máxima GPU:<br>✔️ 345 mm (con ventilador frontal)<br>✔️ 320 mm (con ventilador trasero)<br>✔️ 290 mm (con radiador frontal de 360 mm)<br>🔌 Fuente ATX compatible:<br>✔️ Hasta 165 mm con HDD<br>✔️ Hasta 205 mm con HDD movido a la izquierda<br>✔️ Hasta 345 mm sin HDD</p>\n<p>🎨 <strong>Diseño y materiales:</strong><br>⚫ Color negro con estilo gamer sobrio y elegante<br>🦾 Estructura reforzada para mayor durabilidad</p>\n<p>🛡️ <strong>Estándares y certificaciones:</strong><br>✅ Cumple con estándares de calidad internacional<br>🌍 Materiales resistentes y confiables para hardware moderno</p>",
@@ -20454,10 +20453,9 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "23771",
@@ -20643,8 +20641,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Cases",
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -20818,8 +20816,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 50,
-      "stockText": "50 disponibles",
+      "stockQuantity": 55,
+      "stockText": "55 disponibles",
       "model": "S30B (LS32B300NWNXGO)",
       "specificationsUpdated": "2026-10-24T13:52:58+00:00"
     },
@@ -20874,8 +20872,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 59,
-      "stockText": "59 disponibles",
+      "stockQuantity": 58,
+      "stockText": "58 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21140,8 +21138,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 48,
-      "stockText": "48 disponibles",
+      "stockQuantity": 47,
+      "stockText": "47 disponibles",
       "model": "Forge GK320 Combo Red US",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21251,8 +21249,8 @@
       ],
       "collections": [],
       "sourceCategory": "Monitor",
-      "stockQuantity": 17,
-      "stockText": "17 disponibles",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21264,7 +21262,7 @@
       "subcategory": "Tarjetas gráficas",
       "brand": "MSI",
       "price": 42200.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/5007e9cf68346d89c116.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/a0474728-2b41-430a-bda5-e5171c5def95.png",
       "description": "<p>🎮 <strong>Marca y modelo:</strong> MSI GeForce RTX 5060 Shadow 2X OC</p>\n<p>🖥️ <strong>Memoria:</strong> 8GB GDDR7</p>\n<p>⚡ <strong>Frecuencia:</strong> 2535 MHz</p>\n<p>🔌 <strong>Interfaz:</strong> PCI Express Gen 5</p>\n<p>🔗 <strong>Bus de memoria:</strong> 128-bit</p>\n<p>🔋 <strong>Conector de energía:</strong> 8 pin</p>\n<p>📺 <strong>Salidas de video:</strong> 3x DisplayPort v2.1b, 1x HDMI</p>\n<p>🖥️ <strong>Resolución soportada:</strong> 4K @ 480Hz, 8K @ 120Hz DSC</p>\n<p>🎯 <strong>Funciones:</strong> VRR gamer, HDR</p>",
@@ -21314,9 +21312,10 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Tarjeta De Video",
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "stockQuantity": 0,
+      "stockText": "Agotado",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "21380",
@@ -21359,8 +21358,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21520,8 +21519,8 @@
       ],
       "collections": [],
       "sourceCategory": "Power Supply",
-      "stockQuantity": 42,
-      "stockText": "42 disponibles",
+      "stockQuantity": 39,
+      "stockText": "39 disponibles",
       "model": "MAG A600DN II",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21580,8 +21579,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 41,
-      "stockText": "41 disponibles",
+      "stockQuantity": 43,
+      "stockText": "43 disponibles",
       "model": "C27G2",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -21648,8 +21647,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 20,
-      "stockText": "20 disponibles",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -21982,8 +21981,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -22309,8 +22308,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 178,
-      "stockText": "178 disponibles",
+      "stockQuantity": 169,
+      "stockText": "169 disponibles",
       "model": "LS24D366GANXZ",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -22389,8 +22388,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 63,
-      "stockText": "63 disponibles",
+      "stockQuantity": 59,
+      "stockText": "59 disponibles",
       "model": "LS27D366GANXZA",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -22697,8 +22696,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 18,
-      "stockText": "18 disponibles",
+      "stockQuantity": 26,
+      "stockText": "26 disponibles",
       "model": "G242L E14",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -23138,8 +23137,8 @@
       ],
       "collections": [],
       "sourceCategory": "Television",
-      "stockQuantity": 38,
-      "stockText": "38 disponibles",
+      "stockQuantity": 37,
+      "stockText": "37 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23305,8 +23304,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -23768,7 +23767,7 @@
       "subcategory": "Otros productos",
       "brand": "Samsung",
       "price": 11600.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/4032ea9b78c20b698323.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/a81c6f96-f178-4bbc-93d9-c875cfdb2c68.png",
       "description": "<p>📱 <strong>Pantalla:</strong> 8.7 pulgadas</p>\n<p>💾 <strong>Memoria RAM:</strong> 4GB</p>\n<p>💽 <strong>Almacenamiento:</strong> 64GB</p>\n<p>📷 <strong>Cámara:</strong> 8.0 MP</p>\n<p>📡 <strong>Conectividad:</strong> Wi-Fi, Bluetooth</p>\n<p>🔋 <strong>Peso:</strong> 337 gramos</p>\n<p>🔌 <strong>Incluye:</strong> Cable tipo C</p>\n<p>⚠️ <strong>Nota:</strong> No incluye cargador de pared</p>",
@@ -23812,9 +23811,10 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
-      "stockQuantity": 9,
-      "stockText": "9 disponibles",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "stockQuantity": 0,
+      "stockText": "Agotado",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "900000109419",
@@ -23873,8 +23873,8 @@
       ],
       "collections": [],
       "sourceCategory": "Tablet Y Accesorios",
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -24010,8 +24010,8 @@
       ],
       "collections": [],
       "sourceCategory": "Teclados",
-      "stockQuantity": 47,
-      "stockText": "47 disponibles",
+      "stockQuantity": 46,
+      "stockText": "46 disponibles",
       "model": "Forge GK110 Combo US",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24082,7 +24082,7 @@
       "subcategory": "De escritorio",
       "brand": "Samsung",
       "price": 16800.0,
-      "stock": true,
+      "stock": false,
       "image": "img/catalogo/892d2d94d1ecc1ea42ee.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/f024beda-179f-455e-8bc2-58dc0f098547.png",
       "description": "<p>🖥️ <strong>Tamaño:</strong> 27 pulgadas</p>\n<p>🎯 <strong>Resolución:</strong> 2560 x 1440 (QHD)</p>\n<p>⚡ <strong>Frecuencia de actualización:</strong> 180Hz</p>\n<p>⏱️ <strong>Tiempo de respuesta:</strong> 1ms (GTG)</p>\n<p>🖼️ <strong>Panel:</strong> IPS</p>\n<p>🔌 <strong>Entradas:</strong> Display Port, HDMI</p>\n<p>🔄 <strong>Función:</strong> Pivot</p>\n<p>📐 <strong>Relación de aspecto:</strong> 16:9</p>",
@@ -24126,9 +24126,10 @@
       ],
       "collections": [],
       "sourceCategory": "Gaming",
-      "stockQuantity": 8,
-      "stockText": "8 disponibles",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
+      "stockQuantity": 0,
+      "stockText": "Agotado",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
+      "sourceUnavailable": true
     },
     {
       "id": "900000110196",
@@ -24353,8 +24354,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Monitor",
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "model": "CQ27G4H",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24667,8 +24668,8 @@
       ],
       "collections": [],
       "sourceCategory": "Celulares Y Accesorios",
-      "stockQuantity": 9,
-      "stockText": "9 disponibles",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "model": "Galaxy A16",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -24954,8 +24955,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
-      "stockQuantity": 1353,
-      "stockText": "1353 disponibles",
+      "stockQuantity": 1336,
+      "stockText": "1336 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25007,8 +25008,8 @@
       ],
       "collections": [],
       "sourceCategory": "Perifericos>pc",
-      "stockQuantity": 375,
-      "stockText": "375 disponibles",
+      "stockQuantity": 374,
+      "stockText": "374 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25150,8 +25151,8 @@
       ],
       "collections": [],
       "sourceCategory": "Camara Web",
-      "stockQuantity": 420,
-      "stockText": "420 disponibles",
+      "stockQuantity": 414,
+      "stockText": "414 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -25231,8 +25232,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 58,
+      "stockText": "58 disponibles",
       "model": "H111",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -25368,8 +25369,8 @@
       ],
       "collections": [],
       "sourceCategory": "Electros",
-      "stockQuantity": 65,
-      "stockText": "65 disponibles",
+      "stockQuantity": 50,
+      "stockText": "50 disponibles",
       "model": "TM30",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
@@ -25798,7 +25799,7 @@
       "subcategory": "Audífonos",
       "brand": "JBL",
       "price": 3000.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/2c0546be316a76571fe9.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/6f98144c-fe70-436e-aa61-8a943cc6f7ae.png",
       "description": "<p>🎧 <strong>Modelo:</strong> JBL Tune 520</p>\n<p>📶 <strong>Conectividad:</strong> Bluetooth 5.0</p>\n<p>🎧 <strong>Tipo:</strong> On-Ear</p>\n<p>🔊 <strong>Tecnología de sonido:</strong> JBL Pure Bass</p>\n<p>🔋 <strong>Autonomía:</strong> 57 horas</p>\n<p>🔌 <strong>Puerto de carga:</strong> USB-C</p>\n<p>🎙️ <strong>Micrófono:</strong> Integrado con función manos libres</p>\n<p>🔄 <strong>Conexión:</strong> Multipunto</p>\n<p>⚡ <strong>Impedancia:</strong> 30 Ohms</p>\n<p>🎨 <strong>Color:</strong> Negro</p>",
@@ -25850,11 +25851,10 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "model": "JBL Tune 520",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "90000094457",
@@ -26523,8 +26523,8 @@
       ],
       "collections": [],
       "sourceCategory": "Audifono Con Microfono",
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26858,8 +26858,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 10,
-      "stockText": "10 disponibles",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -26916,8 +26916,8 @@
         "Zona Gamer"
       ],
       "sourceCategory": "Gaming",
-      "stockQuantity": 16,
-      "stockText": "16 disponibles",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
@@ -28309,7 +28309,7 @@
       "subcategory": "Bocinas",
       "brand": "JBL",
       "price": 25000.0,
-      "stock": false,
+      "stock": true,
       "image": "img/catalogo/a5c18c1acc6ec4db2d23.png",
       "sourceImage": "https://sis.omega.com.do/ProductImages/8d73446b-4e0e-4d50-a06d-0b72f47ceecc.png",
       "description": "<p>🔊 <strong>Potencia:</strong> 100W</p>\n<p>🎤 <strong>Micrófonos incluidos:</strong> 2</p>\n<p>🔋 <strong>Duración de batería:</strong> 10 horas</p>\n<p>🌐 <strong>Conectividad:</strong> Bluetooth 5.1</p>\n<p>💧 <strong>Resistencia:</strong> IPX4</p>\n<p>🎇 <strong>Iluminación:</strong> luces integradas</p>",
@@ -28345,10 +28345,9 @@
       ],
       "collections": [],
       "sourceCategory": "Bocina",
-      "stockQuantity": 0,
-      "stockText": "Agotado",
-      "specificationsUpdated": "2026-10-21T01:49:02+00:00",
-      "sourceUnavailable": true
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
+      "specificationsUpdated": "2026-10-21T01:49:02+00:00"
     },
     {
       "id": "900000110285",
@@ -30030,8 +30029,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109477/"
       ],
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "image": "img/catalogo/3ddad41c05895d8d2935.webp",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30180,8 +30179,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106199/"
       ],
-      "stockQuantity": 53,
-      "stockText": "53 disponibles",
+      "stockQuantity": 168,
+      "stockText": "168 disponibles",
       "image": "img/catalogo/9cf20fff0e0a8ceff8c2.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30226,8 +30225,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106200/"
       ],
-      "stockQuantity": 46,
-      "stockText": "46 disponibles",
+      "stockQuantity": 166,
+      "stockText": "166 disponibles",
       "image": "img/catalogo/7b0c2b6e293ec00b4ab5.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30833,8 +30832,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95032/"
       ],
-      "stockQuantity": 170,
-      "stockText": "170 disponibles",
+      "stockQuantity": 169,
+      "stockText": "169 disponibles",
       "image": "img/catalogo/22bca6b0ff259569e518.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -30928,8 +30927,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95477/"
       ],
-      "stockQuantity": 17,
-      "stockText": "17 disponibles",
+      "stockQuantity": 15,
+      "stockText": "15 disponibles",
       "image": "img/catalogo/4ddc15dfac77ce6e1fc5.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31129,8 +31128,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104627/"
       ],
-      "stockQuantity": 152,
-      "stockText": "152 disponibles",
+      "stockQuantity": 122,
+      "stockText": "122 disponibles",
       "image": "img/catalogo/c2c5e67f66aba80986aa.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31285,8 +31284,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104662/"
       ],
-      "stockQuantity": 115,
-      "stockText": "115 disponibles",
+      "stockQuantity": 114,
+      "stockText": "114 disponibles",
       "image": "img/catalogo/c80a07cf78e30db29b5d.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31334,8 +31333,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104665/"
       ],
-      "stockQuantity": 66,
-      "stockText": "66 disponibles",
+      "stockQuantity": 51,
+      "stockText": "51 disponibles",
       "image": "img/catalogo/c80a07cf78e30db29b5d.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31383,8 +31382,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104737/"
       ],
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 10,
+      "stockText": "10 disponibles",
       "image": "img/catalogo/c2c5e67f66aba80986aa.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31619,8 +31618,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104912/"
       ],
-      "stockQuantity": 49,
-      "stockText": "49 disponibles",
+      "stockQuantity": 48,
+      "stockText": "48 disponibles",
       "image": "img/catalogo/e634e7aa5fa923d78544.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -31973,8 +31972,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/105756/"
       ],
-      "stockQuantity": 6,
-      "stockText": "6 disponibles",
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
       "image": "img/catalogo/faf298a6fe6940cd7349.webp",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -32249,8 +32248,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/106092/"
       ],
-      "stockQuantity": 30,
-      "stockText": "30 disponibles",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "image": "img/catalogo/41626e37fead26b8b5ab.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33725,8 +33724,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110762/"
       ],
-      "stockQuantity": 21,
-      "stockText": "21 disponibles",
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
       "image": "img/catalogo/ae467fb6499a43c7d469.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33827,8 +33826,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110771/"
       ],
-      "stockQuantity": 432,
-      "stockText": "432 disponibles",
+      "stockQuantity": 372,
+      "stockText": "372 disponibles",
       "image": "img/catalogo/ebde8cabe56c43c3563c.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -33998,8 +33997,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/92631/"
       ],
-      "stockQuantity": 24,
-      "stockText": "24 disponibles",
+      "stockQuantity": 22,
+      "stockText": "22 disponibles",
       "image": "img/catalogo/ca2075e048b75dc391d2.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -34170,8 +34169,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95753/"
       ],
-      "stockQuantity": 2020,
-      "stockText": "2020 disponibles",
+      "stockQuantity": 1950,
+      "stockText": "1950 disponibles",
       "image": "img/catalogo/f051c789613431237a9b.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -34382,8 +34381,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104746/"
       ],
-      "stockQuantity": 38,
-      "stockText": "38 disponibles",
+      "stockQuantity": 35,
+      "stockText": "35 disponibles",
       "image": "img/catalogo/387c1cd204ed0b7f4772.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -34431,8 +34430,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104951/"
       ],
-      "stockQuantity": 52,
-      "stockText": "52 disponibles",
+      "stockQuantity": 42,
+      "stockText": "42 disponibles",
       "image": "img/catalogo/7f734bd09c1e441b8d20.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -34533,8 +34532,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/107286/"
       ],
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 17,
+      "stockText": "17 disponibles",
       "image": "img/catalogo/eb36910b21287f115b40.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -34670,7 +34669,7 @@
       "name": "Camara De Vigilancia Hikvision Colorvu 2Mp Smart Hybrid Light Domo Turret",
       "spec": "Camara De Vigilancia Ip 2mp Colorvu Con Microfono Y Proteccion Ip67",
       "price": 3900.0,
-      "stock": false,
+      "stock": true,
       "specifications": [
         {
           "label": "Resolucion",
@@ -34701,8 +34700,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109403/"
       ],
-      "stockQuantity": 0,
-      "stockText": "Agotado",
+      "stockQuantity": 27,
+      "stockText": "27 disponibles",
       "image": "img/catalogo/a5db07a28a0539f1ba7e.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -34711,8 +34710,7 @@
       "subcategory": "Otros accesorios",
       "description": "<p>📷 <strong>Resolucion:</strong> 2MP</p>\n<p>🌈 <strong>Tecnologia:</strong> Colorvu With Smart Hybrid Light</p>\n<p>🔒 <strong>Tipo:</strong> Domo Turret</p>\n<p>🌙 <strong>Vision Nocturna:</strong> IR 30M</p>\n<p>💧 <strong>Proteccion:</strong> IP67</p>\n<p>🎤 <strong>Audio:</strong> Microfono Integrado</p>",
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/3d065b45-f7bd-440b-b9a6-8deaa39372ed.png",
-      "specificationsUpdated": "2026-10-27T15:46:52+00:00",
-      "sourceUnavailable": true
+      "specificationsUpdated": "2026-10-27T15:46:52+00:00"
     },
     {
       "id": "800000109431",
@@ -34755,8 +34753,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109431/"
       ],
-      "stockQuantity": 31,
-      "stockText": "31 disponibles",
+      "stockQuantity": 29,
+      "stockText": "29 disponibles",
       "image": "img/catalogo/a02fafc3fd839430ea1c.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -34919,8 +34917,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110684/"
       ],
-      "stockQuantity": 399,
-      "stockText": "399 disponibles",
+      "stockQuantity": 313,
+      "stockText": "313 disponibles",
       "image": "img/catalogo/66a46f029bd7e3956043.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -35694,8 +35692,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/87677/"
       ],
-      "stockQuantity": 14,
-      "stockText": "14 disponibles",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "image": "img/catalogo/853d36b1893b9a134dee.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -35740,8 +35738,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/93053/"
       ],
-      "stockQuantity": 5,
-      "stockText": "5 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "image": "img/catalogo/91737c24628d2c0b75b1.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -36141,8 +36139,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/89200/"
       ],
-      "stockQuantity": 67,
-      "stockText": "67 disponibles",
+      "stockQuantity": 65,
+      "stockText": "65 disponibles",
       "image": "img/catalogo/b60967ef1c1d49506cc5.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -36362,8 +36360,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/94293/"
       ],
-      "stockQuantity": 91,
-      "stockText": "91 disponibles",
+      "stockQuantity": 128,
+      "stockText": "128 disponibles",
       "image": "img/catalogo/a7e5e8fb9a88b1f2cf7b.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -36460,8 +36458,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95271/"
       ],
-      "stockQuantity": 16,
-      "stockText": "16 disponibles",
+      "stockQuantity": 13,
+      "stockText": "13 disponibles",
       "image": "img/catalogo/7cbb7b8f7814b752dbcb.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -36506,8 +36504,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/95441/"
       ],
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "image": "img/catalogo/66335aba28510f14fc42.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -36564,8 +36562,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/110388/"
       ],
-      "stockQuantity": 44,
-      "stockText": "44 disponibles",
+      "stockQuantity": 43,
+      "stockText": "43 disponibles",
       "image": "img/catalogo/e3e529a08227ee8eeb8e.jpg",
       "sourceCategory": "",
       "category": "Computadoras",
@@ -36675,8 +36673,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111235/"
       ],
-      "stockQuantity": 62,
-      "stockText": "62 disponibles",
+      "stockQuantity": 61,
+      "stockText": "61 disponibles",
       "image": "img/catalogo/6dda65cfaaf70e22b86b.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -36801,8 +36799,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111690/"
       ],
-      "stockQuantity": 81,
-      "stockText": "81 disponibles",
+      "stockQuantity": 75,
+      "stockText": "75 disponibles",
       "image": "img/catalogo/d4ff8661a67bfc35ab0e.png",
       "sourceCategory": "",
       "category": "Laptops",
@@ -36978,8 +36976,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111877/"
       ],
-      "stockQuantity": 7,
-      "stockText": "7 disponibles",
+      "stockQuantity": 5,
+      "stockText": "5 disponibles",
       "image": "img/catalogo/d236fe2a8924a7c0f53c.png",
       "sourceCategory": "",
       "category": "Audio y Video",
@@ -37281,8 +37279,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/88697/"
       ],
-      "stockQuantity": 4,
-      "stockText": "4 disponibles",
+      "stockQuantity": 3,
+      "stockText": "3 disponibles",
       "image": "img/catalogo/828e6f0c483423567484.png",
       "sourceCategory": "",
       "category": "Almacenamiento",
@@ -38445,8 +38443,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/107285/"
       ],
-      "stockQuantity": 142,
-      "stockText": "142 disponibles",
+      "stockQuantity": 112,
+      "stockText": "112 disponibles",
       "image": "img/catalogo/a9e5d2a374836b466420.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -38502,8 +38500,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/107471/"
       ],
-      "stockQuantity": 45,
-      "stockText": "45 disponibles",
+      "stockQuantity": 48,
+      "stockText": "48 disponibles",
       "image": "img/catalogo/0891ffb9a9ccb681f18c.webp",
       "sourceCategory": "",
       "category": "Monitores",
@@ -38602,8 +38600,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/107702/"
       ],
-      "stockQuantity": 14,
-      "stockText": "14 disponibles",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "image": "img/catalogo/8f78563cdd6359e8d33f.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -38723,8 +38721,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/107918/"
       ],
-      "stockQuantity": 2,
-      "stockText": "2 disponibles",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/edf1909a006838046d19.webp",
       "sourceCategory": "",
       "category": "Componentes",
@@ -39268,8 +39266,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111095/"
       ],
-      "stockQuantity": 24,
-      "stockText": "24 disponibles",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "image": "img/catalogo/9fd512f49e9124b54c07.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -39317,8 +39315,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111100/"
       ],
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 4,
+      "stockText": "4 disponibles",
       "image": "img/catalogo/e5c2be5f9990e7b3aa03.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -40046,8 +40044,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/96984/"
       ],
-      "stockQuantity": 15,
-      "stockText": "15 disponibles",
+      "stockQuantity": 14,
+      "stockText": "14 disponibles",
       "image": "img/catalogo/7b829574dafa00711aa0.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -40345,8 +40343,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109487/"
       ],
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "image": "img/catalogo/46d11bd481a5ed55fc2c.jpg",
       "sourceCategory": "",
       "category": "Laptops",
@@ -40409,7 +40407,7 @@
       "name": "Monitor Dell Pro P2726H 27″ Fhd IPS 120Hz",
       "spec": "Monitor Dell Pro P2726H de 27 pulgadas con panel IPS Full HD (1920 x 1080), tasa de refresco de 120 Hz, puertos HDMI, DisplayPort, USB y soporte pivotante.",
       "price": 14600.0,
-      "stock": false,
+      "stock": true,
       "specifications": [
         {
           "label": "Pantalla",
@@ -40448,8 +40446,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111366/"
       ],
-      "stockQuantity": 0,
-      "stockText": "Agotado",
+      "stockQuantity": 1,
+      "stockText": "1 disponibles",
       "image": "img/catalogo/e536064aa73c49bcb29e.png",
       "sourceCategory": "",
       "category": "Monitores",
@@ -40459,8 +40457,7 @@
       "description": "<p>🖥️ <strong>Pantalla:</strong> 27″ Plana</p>\n<p>🎯 <strong>Resolución:</strong> 1920 x 1080</p>\n<p>🎨 <strong>Tipo de panel:</strong> IPS</p>\n<p>⚡ <strong>Tasa de refresco:</strong> 120 Hz</p>\n<p>🔌 <strong>Entradas de video:</strong> 1x HDMI, 1x DisplayPort</p>\n<p>🔌 <strong>Puertos USB:</strong> 2x USB</p>\n<p>📐 <strong>Ergonomía:</strong> Ajuste pivotante</p>\n<p>🏷️ <strong>Modelo:</strong> Dell Pro P2726H</p>\n<p>🛡️ <strong>Garantía:</strong> 3 años</p>",
       "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/09/05b57bf3-0388-4fbb-990b-915a8f4fce81.png",
       "model": "Dell Pro P2726H",
-      "specificationsUpdated": "2026-11-07T16:09:02+00:00",
-      "sourceUnavailable": true
+      "specificationsUpdated": "2026-11-07T16:09:02+00:00"
     },
     {
       "id": "800000111480",
@@ -40519,8 +40516,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111480/"
       ],
-      "stockQuantity": 16,
-      "stockText": "16 disponibles",
+      "stockQuantity": 24,
+      "stockText": "24 disponibles",
       "image": "img/catalogo/925f7f2ef6cfb60bed94.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -40747,8 +40744,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/112004/"
       ],
-      "stockQuantity": 7,
-      "stockText": "7 disponibles",
+      "stockQuantity": 6,
+      "stockText": "6 disponibles",
       "image": "img/catalogo/86734aadfbbb0f2d31de.png",
       "sourceCategory": "",
       "category": "Mobiliario",
@@ -41091,8 +41088,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/96956/"
       ],
-      "stockQuantity": 40,
-      "stockText": "40 disponibles",
+      "stockQuantity": 30,
+      "stockText": "30 disponibles",
       "image": "img/catalogo/b68aee52728b3f4a759f.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -41366,8 +41363,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111644/"
       ],
-      "stockQuantity": 115,
-      "stockText": "115 disponibles",
+      "stockQuantity": 113,
+      "stockText": "113 disponibles",
       "image": "img/catalogo/6f8f9ee34150d8ad4701.png",
       "sourceCategory": "",
       "category": "Monitores",
@@ -41435,8 +41432,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111689/"
       ],
-      "stockQuantity": 42,
-      "stockText": "42 disponibles",
+      "stockQuantity": 39,
+      "stockText": "39 disponibles",
       "image": "img/catalogo/a1ce13fefc32750f55cb.png",
       "sourceCategory": "",
       "category": "Laptops",
@@ -41598,8 +41595,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109354/"
       ],
-      "stockQuantity": 62,
-      "stockText": "62 disponibles",
+      "stockQuantity": 53,
+      "stockText": "53 disponibles",
       "image": "img/catalogo/c3ed855883ff4551e1d6.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -41683,8 +41680,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/91621/"
       ],
-      "stockQuantity": 23,
-      "stockText": "23 disponibles",
+      "stockQuantity": 21,
+      "stockText": "21 disponibles",
       "image": "img/catalogo/1faeb49387e3d075a73c.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -42366,8 +42363,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111959/"
       ],
-      "stockQuantity": 1,
-      "stockText": "1 disponibles",
+      "stockQuantity": 2,
+      "stockText": "2 disponibles",
       "image": "img/catalogo/4ca77248730c972eae93.png",
       "sourceCategory": "",
       "category": "Laptops",
@@ -42831,8 +42828,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/74631/"
       ],
-      "stockQuantity": 99,
-      "stockText": "99 disponibles",
+      "stockQuantity": 97,
+      "stockText": "97 disponibles",
       "image": "img/catalogo/4dcf093ad21136e6ff55.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -43194,8 +43191,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111990/"
       ],
-      "stockQuantity": 22,
-      "stockText": "22 disponibles",
+      "stockQuantity": 20,
+      "stockText": "20 disponibles",
       "image": "img/catalogo/d7c6503681d766510d9b.webp",
       "sourceCategory": "",
       "category": "Monitores",
@@ -44011,9 +44008,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>🔢 <strong>Modelo:</strong> 212A (W2121A)</p>\n<p>🎨 <strong>Color:</strong> Cyan</p>\n<p>📄 <strong>Rendimiento:</strong> 4,500 páginas</p>\n<p>🖨️ <strong>Tecnología de impresión:</strong> Láser</p>\n<p>🖥️ <strong>Compatibilidad:</strong> HP LaserJet Color M554dn, M555dn, M578dn</p>\n<p>📦 <strong>Estado del empaque:</strong> Caja deteriorada</p>\n<p>🆔 <strong>SKU:</strong> 112171</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e61d9797-bc72-445d-aefc-7566a5e3690e.webp",
       "model": "212A (W2121A)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e61d9797-bc72-445d-aefc-7566a5e3690e.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "800000112172",
@@ -44061,9 +44058,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>📦 <strong>Modelo:</strong> 230A (W2302A)</p>\n<p>🎨 <strong>Color:</strong> Amarillo</p>\n<p>📄 <strong>Rendimiento:</strong> 1,800 páginas</p>\n<p>🖨️ <strong>Compatibilidad:</strong> HP LaserJet 4201, 4202, 4203, 4301, 4302, 4303</p>\n<p>⚠️ <strong>Observación:</strong> Caja deteriorada</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/6437121771972946.webp",
       "model": "230A (W2302A)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/6437121771972946.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "800000112173",
@@ -44111,9 +44108,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>📌 <strong>Modelo:</strong> 230A (W2303A)</p>\n<p>🎨 <strong>Color de impresión:</strong> Magenta</p>\n<p>📄 <strong>Rendimiento:</strong> 1,800 páginas</p>\n<p>🖨️ <strong>Compatibilidad:</strong> HP LaserJet 4201, 4202, 4203, 4301, 4302, 4303</p>\n<p>📦 <strong>Condición del empaque:</strong> Caja deteriorada</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/3754861772205739.webp",
       "model": "230A (W2303A)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/3754861772205739.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "800000112177",
@@ -44161,9 +44158,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>📦 <strong>Modelo:</strong> 150A (W1500A)</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>📄 <strong>Rendimiento:</strong> 975 páginas</p>\n<p>🖨️ <strong>Compatibilidad:</strong> LaserJet M141w, M111w</p>\n<p>⚠️ <strong>Estado del empaque:</strong> Caja deteriorada</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e20c4beb3a8240d7956a8e85f3feb84b.webp",
       "model": "150A (W1500A)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/e20c4beb3a8240d7956a8e85f3feb84b.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "800000112178",
@@ -44215,9 +44212,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>📦 <strong>Modelo:</strong> 151X (W1510X)</p>\n<p>🎨 <strong>Color de consumo:</strong> Negro</p>\n<p>📄 <strong>Rendimiento:</strong> 9,700 páginas</p>\n<p>🖨️ <strong>Tecnología de impresión:</strong> Láser</p>\n<p>🔍 <strong>Compatibilidad:</strong> HP LaserJet 4003, 4102, 4103</p>\n<p>⚠️ <strong>Estado del producto:</strong> Caja deteriorada</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/ed71314a-d362-4558-83eb-638c8f45fbb5.webp",
       "model": "151X (W1510X)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/ed71314a-d362-4558-83eb-638c8f45fbb5.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "800000112179",
@@ -44269,9 +44266,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>🖨️ <strong>Modelo:</strong> 206X (W2110X)</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>⚡ <strong>Rendimiento:</strong> Alto rendimiento (3,150 páginas)</p>\n<p>🔄 <strong>Compatibilidad:</strong> HP Color LaserJet M255dw, M255nw, M282fdw, M282nw, M283nw, M283fdw</p>\n<p>📦 <strong>Condición del empaque:</strong> Caja deteriorada</p>\n<p>🔢 <strong>SKU:</strong> 112179</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/53d6e714-c7b1-47f4-a8fd-d64af5b61a02.webp",
       "model": "206X (W2110X)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/53d6e714-c7b1-47f4-a8fd-d64af5b61a02.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "800000112180",
@@ -44323,9 +44320,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>📦 <strong>Modelo:</strong> 222A (W2222A)</p>\n<p>🎨 <strong>Color:</strong> Amarillo (Yellow)</p>\n<p>📄 <strong>Rendimiento:</strong> 1.200 páginas</p>\n<p>🖨️ <strong>Compatibilidad:</strong> HP Color LaserJet 3303sdw, 3303fdw</p>\n<p>⚠️ <strong>Estado del empaque:</strong> Caja deteriorada</p>\n<p>🔢 <strong>SKU:</strong> 112180</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/hp-222a-yellow-toner-cartridge-w2222a-w2222-00001b-em_m1548299.webp",
       "model": "222A (W2222A)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/hp-222a-yellow-toner-cartridge-w2222a-w2222-00001b-em_m1548299.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "800000112182",
@@ -44373,9 +44370,9 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> HP</p>\n<p>🔢 <strong>Modelo:</strong> 105A (W1105A)</p>\n<p>🎨 <strong>Color:</strong> Negro</p>\n<p>📄 <strong>Rendimiento:</strong> 1,000 páginas</p>\n<p>🖨️ <strong>Compatibilidad:</strong> LaserJet 103A, 107A, 107R, 107W, 108A, 108W, 131A, 133PN, 135AG, 135R, 135W, 135WG, M137FNW</p>\n<p>📦 <strong>Estado del empaque:</strong> Caja deteriorada</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/hp-w1105a-105a-black-toner-58-98.webp",
       "model": "105A (W1105A)",
-      "specificationsUpdated": "2026-11-20T18:23:22+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/hp-w1105a-105a-black-toner-58-98.webp"
+      "specificationsUpdated": "2026-11-20T18:23:22+00:00"
     },
     {
       "id": "80000093783",
@@ -44512,8 +44509,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/104624/"
       ],
-      "stockQuantity": 40,
-      "stockText": "40 disponibles",
+      "stockQuantity": 25,
+      "stockText": "25 disponibles",
       "image": "img/catalogo/0d35ebec60d94832a8f0.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -44730,8 +44727,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109382/"
       ],
-      "stockQuantity": 24,
-      "stockText": "24 disponibles",
+      "stockQuantity": 25,
+      "stockText": "25 disponibles",
       "image": "img/catalogo/8eb624d7fd019cd99e7c.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -44784,8 +44781,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/109401/"
       ],
-      "stockQuantity": 200,
-      "stockText": "200 disponibles",
+      "stockQuantity": 140,
+      "stockText": "140 disponibles",
       "image": "img/catalogo/00009fa11e8b02b33c0d.jpg",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -45156,8 +45153,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111940/"
       ],
-      "stockQuantity": 100,
-      "stockText": "100 disponibles",
+      "stockQuantity": 70,
+      "stockText": "70 disponibles",
       "image": "img/catalogo/7c6b6a7d07bc23df0ce3.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -45209,8 +45206,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111941/"
       ],
-      "stockQuantity": 100,
-      "stockText": "100 disponibles",
+      "stockQuantity": 70,
+      "stockText": "70 disponibles",
       "image": "img/catalogo/7629ba0550fa251f336e.webp",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -45262,8 +45259,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/111942/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 44,
+      "stockText": "44 disponibles",
       "image": "img/catalogo/7c39ef976acd84076ad6.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -45316,8 +45313,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/112067/"
       ],
-      "stockQuantity": 60,
-      "stockText": "60 disponibles",
+      "stockQuantity": 45,
+      "stockText": "45 disponibles",
       "image": "img/catalogo/25941936f3c7060c60bd.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -45545,8 +45542,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Hikvision</p>\n<p>📹 <strong>Tipo:</strong> Bullet</p>\n<p>⚙️ <strong>Tecnología:</strong> Análoga</p>\n<p>🔍 <strong>Lente:</strong> Varifocal</p>\n<p>🎯 <strong>Resolución:</strong> 1MP (HD 720p)</p>\n<p>🛡️ <strong>Protección:</strong> IP66</p>",
-      "specificationsUpdated": "2026-11-23T21:56:23+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/64820009-6a7d-499c-a3d0-07ffd9eceb3b.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/64820009-6a7d-499c-a3d0-07ffd9eceb3b.png",
+      "specificationsUpdated": "2026-11-23T21:56:23+00:00"
     },
     {
       "id": "80000087585",
@@ -45594,9 +45591,9 @@
       "collections": [],
       "subcategory": "Discos HDD",
       "description": "<p>💾 <strong>Capacidad:</strong> 2TB<br>🏷️ <strong>Modelo:</strong> Seagate Barracuda<br>🔌 <strong>Interfaz:</strong> SATA 6.0Gb/s<br>📐 <strong>Factor de forma:</strong> 3.5″<br>⚙️ <strong>Velocidad de rotación:</strong> 7200RPM<br>🧠 <strong>Memoria caché:</strong> 256MB</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/ee2e1b87-dd4c-49d8-9eb1-262c5cbc7667.png",
       "model": "Seagate Barracuda",
-      "specificationsUpdated": "2026-11-23T21:56:23+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/ee2e1b87-dd4c-49d8-9eb1-262c5cbc7667.png"
+      "specificationsUpdated": "2026-11-23T21:56:23+00:00"
     },
     {
       "id": "80000090655",
@@ -45640,8 +45637,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>👜 <strong>Tipo:</strong> Sleeve</p>\n<p>💻 <strong>Tamaño Compatible:</strong> 15.6 pulgadas</p>\n<p>🎨 <strong>Color:</strong> Azul</p>\n<p>🔒 <strong>Protección:</strong> Resistente para laptop</p>\n<p>📦 <strong>Marca:</strong> Klip Xtreme</p>",
-      "specificationsUpdated": "2026-11-23T21:56:23+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5d274871-5adf-4101-9b37-306c614410e5-1.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/5d274871-5adf-4101-9b37-306c614410e5-1.png",
+      "specificationsUpdated": "2026-11-23T21:56:23+00:00"
     },
     {
       "id": "80000091823",
@@ -45695,9 +45692,9 @@
       ],
       "subcategory": "Audífonos",
       "description": "<p>🎧 <strong>Tipo:</strong> Audífonos gamer con micrófono</p>\n<p>🏷️ <strong>Marca:</strong> Xtech</p>\n<p>📌 <strong>Modelo:</strong> Ixion (XTH-541)</p>\n<p>🔌 <strong>Conector:</strong> 3.5 mm</p>\n<p>🎨 <strong>Color:</strong> Negro / Rojo</p>\n<p>💡 <strong>Iluminación:</strong> Sí</p>\n<p>🎛️ <strong>Control de volumen:</strong> Integrado</p>",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/18bfb070-6177-4c2b-82c5-a39628759d63.png",
       "model": "Ixion (XTH-541)",
-      "specificationsUpdated": "2026-11-23T21:56:23+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/18bfb070-6177-4c2b-82c5-a39628759d63.png"
+      "specificationsUpdated": "2026-11-23T21:56:23+00:00"
     },
     {
       "id": "800000107925",
@@ -45757,8 +45754,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🖥️ <strong>Tipo y aplicación:</strong> Soporte para montaje vertical de tarjetas gráficas</p>\n<p>🎮 <strong>Compatibilidad:</strong> Compatible con la mayoría de gabinetes ATX estándar</p>\n<p>🔌 <strong>Diseñado para:</strong> Soportar GPUs de gran tamaño y peso</p>\n<p>🧩 <strong>Estructura y materiales:</strong> Fabricado con materiales robustos y resistentes</p>\n<p>⚙️ <strong>Estabilidad:</strong> Asegura estabilidad y evita la deformación de la tarjeta gráfica</p>\n<p>🎨 <strong>Diseño y estética:</strong> Color negro con acabado premium</p>\n<p>✨ <strong>Presentación:</strong> Realza la presentación del hardware en gabinetes con panel lateral de vidrio templado</p>\n<p>🛡️ <strong>Estándares y certificaciones:</strong> Construcción de calidad bajo normas internacionales</p>\n<p>🌍 <strong>Uso:</strong> Diseñado para uso prolongado con máxima seguridad</p>",
-      "specificationsUpdated": "2026-11-23T21:56:23+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/09/0-761345-77803-9.webp"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2025/09/0-761345-77803-9.webp",
+      "specificationsUpdated": "2026-11-23T21:56:23+00:00"
     },
     {
       "id": "800000108460",
@@ -45806,8 +45803,8 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>👜 <strong>Tipo:</strong> Cartera Mano Mujer</p>\n<p>🎒 <strong>Capacidad:</strong> Laptop 13.1″</p>\n<p>🔒 <strong>Cierres:</strong> 4 Zipper, 1 Magnético</p>\n<p>🛡️ <strong>Protección:</strong> 3 Bolsillos Interiores Con Protección</p>\n<p>💧 <strong>Material:</strong> Resistente Al Agua</p>\n<p>🎗️ <strong>Accesorios:</strong> Soporte Para Hombro</p>",
-      "specificationsUpdated": "2026-11-23T21:56:23+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/46634d95-7b30-4682-a353-5ef5f3a73d7c.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/05/46634d95-7b30-4682-a353-5ef5f3a73d7c.png",
+      "specificationsUpdated": "2026-11-23T21:56:23+00:00"
     },
     {
       "id": "800000112066",
@@ -45850,8 +45847,8 @@
       "specificationSources": [
         "https://nexcomtienda.com.do/item/112066/"
       ],
-      "stockQuantity": 11,
-      "stockText": "11 disponibles",
+      "stockQuantity": 9,
+      "stockText": "9 disponibles",
       "image": "img/catalogo/f43332305810d112c8bc.png",
       "sourceCategory": "",
       "category": "Periféricos",
@@ -45859,9 +45856,130 @@
       "collections": [],
       "subcategory": "Otros accesorios",
       "description": "<p>🏷️ <strong>Marca:</strong> Gerutek</p>\n<p>🛡️ <strong>Tipo de producto:</strong> Protector de pantalla</p>\n<p>💎 <strong>Material:</strong> Cristal templado</p>\n<p>📦 <strong>Contenido:</strong> Paquete de 2 unidades</p>\n<p>📱 <strong>Compatibilidad:</strong> Samsung Tab A9 / Tab A11</p>\n<p>📐 <strong>Tamaño de pantalla:</strong> 8.7″</p>\n<p>⚙️ <strong>Modelos compatibles:</strong> X110 / X115 / X133 / X135</p>",
-      "specificationsUpdated": "2026-11-23T21:56:23+00:00",
-      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/7ddb22e0-3f57-4ee2-a73f-2dc1062b753e.png"
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/7ddb22e0-3f57-4ee2-a73f-2dc1062b753e.png",
+      "specificationsUpdated": "2026-11-23T21:56:23+00:00"
+    },
+    {
+      "id": "80000094931",
+      "reference": "94931",
+      "name": "Bolsa Tinta Epson T961 Negro XL 10000 Páginas para WF-M5799/M5299",
+      "spec": "Tinta Epson T961 negra XL en bolsa DURABrite Ultra, compatible con WorkForce WF-M5799 y M5299, rinde hasta 10,000 páginas con alta calidad y eficiencia para impresión monocromática.",
+      "price": 3900.0,
+      "stock": true,
+      "specifications": [
+        {
+          "label": "Código de referencia",
+          "value": "T961 / C13T961100"
+        },
+        {
+          "label": "Formato",
+          "value": "Bolsa individual XL"
+        }
+      ],
+      "features": [
+        "Tipo de consumible",
+        "Bolsa de tinta color negro de alta capacidad (XL)",
+        "Tinta pigmentada DURABrite Ultra",
+        "Diseñada para impresión continua de gran volumen",
+        "Compatibilidad de modelos",
+        "Epson WF-M5799",
+        "Epson WF-M5299",
+        "Rendimiento de impresión",
+        "Hasta 10,000 páginas (según ISO/IEC 24711)",
+        "Óptima para entornos corporativos exigentes",
+        "Calidad de impresión",
+        "Resistencia superior al agua, manchas y desgaste",
+        "Negros intensos y definición constante en texto",
+        "Presentación del producto",
+        "Reemplazo limpio y fácil en impresoras monocromáticas compatibles"
+      ],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/94931/"
+      ],
+      "stockQuantity": 16,
+      "stockText": "16 disponibles",
+      "image": "img/catalogo/3da054b3ee5536a3b734.jpg",
+      "sourceCategory": "",
+      "category": "Periféricos",
+      "brand": "Epson",
+      "collections": [],
+      "subcategory": "Otros accesorios",
+      "description": "<p><strong>🖨️ Tipo de consumible</strong><br>⚫ Bolsa de tinta color negro de alta capacidad (XL)<br>🖋️ Tinta pigmentada DURABrite Ultra<br>🔄 Diseñada para impresión continua de gran volumen</p>\n<p><strong>🔗 Compatibilidad de modelos</strong><br>🖥️ Epson WF-M5799<br>🖥️ Epson WF-M5299<br>🆔 Código de referencia: T961 / C13T961100</p>\n<p><strong>📄 Rendimiento de impresión</strong><br>🧾 Hasta 10,000 páginas (según ISO/IEC 24711)<br>📈 Óptima para entornos corporativos exigentes</p>\n<p><strong>🔒 Calidad de impresión</strong><br>🧪 Resistencia superior al agua, manchas y desgaste<br>🎯 Negros intensos y definición constante en texto</p>\n<p><strong>📦 Presentación del producto</strong><br>📐 Formato: Bolsa individual XL<br>⚖️ Reemplazo limpio y fácil en impresoras monocromáticas compatibles</p>",
+      "specificationsUpdated": "2026-11-24T20:31:32+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/07/f73a8943-ae2f-4a97-bc19-d6b9f20d60a6.png"
+    },
+    {
+      "id": "800000112033",
+      "reference": "112033",
+      "name": "LAPTOP LENOVO IDEAPAD SLIM 3 15AMN8, 15.6″ FHD, AMD RYZEN 5 40, 8GB (INTEGRADA), 256GB SSD, WINDOWS 11 HOME, 1 X HDMI PORT, 1 X USB 2.0 PORT, 1 X USB 3.0 PORT, WIFI 6 / BT 5.2, ABYSS BLUE, INGLES (82XQ012GUS)",
+      "spec": "",
+      "price": 40900.0,
+      "stock": true,
+      "specifications": [],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/112033/"
+      ],
+      "stockQuantity": 196,
+      "stockText": "196 disponibles",
+      "image": "img/catalogo/250be828ee5fba5a3468.png",
+      "sourceCategory": "",
+      "category": "Laptops",
+      "brand": "Lenovo",
+      "collections": [],
+      "subcategory": "Portátiles",
+      "description": "",
+      "specificationsUpdated": "2026-11-24T20:31:32+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/8056851d-1cde-43c3-b115-02550567e3c9.png"
+    },
+    {
+      "id": "800000112034",
+      "reference": "112034",
+      "name": "LAPTOP HP OMNIBOOK 3 16-BU0305, 16″ IPS WUXGA TOUCH, INTEL ULTRA 5 225U, 8GB RAM, 512GB SSD, 2X USB-C, 2X USB-A, 1X HDMI 2.1, WIFI 7 / BT 5.3, NO ETHERNET, WINDOWS 11 HOME INGLES, MICA SILVER (D7NF1UA#ABA)",
+      "spec": "",
+      "price": 54500.0,
+      "stock": true,
+      "specifications": [],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/112034/"
+      ],
+      "stockQuantity": 52,
+      "stockText": "52 disponibles",
+      "image": "img/catalogo/9ebbdbb36f5e43cb6b13.png",
+      "sourceCategory": "",
+      "category": "Laptops",
+      "brand": "HP",
+      "collections": [],
+      "subcategory": "Portátiles",
+      "description": "",
+      "specificationsUpdated": "2026-11-24T20:31:32+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/61624f94-1fef-4906-88e6-27efc4be3213.png"
+    },
+    {
+      "id": "800000112035",
+      "reference": "112035",
+      "name": "LAPTOP LENOVO V14 G5 IRL 14″ FHD, I7-13620H, 16GB, 1TB M.2 SSD, WIN 11 HOME, BT 5.0, WIFI 6, CARD READER, HDMI 1.4, USB 2.0, USB 3.2 X2, GIGABIT LAN, BLACK (83HDA06BUS)",
+      "spec": "",
+      "price": 73400.0,
+      "stock": true,
+      "specifications": [],
+      "features": [],
+      "specificationSources": [
+        "https://nexcomtienda.com.do/item/112035/"
+      ],
+      "stockQuantity": 8,
+      "stockText": "8 disponibles",
+      "image": "img/catalogo/c538c66b5e8bc85ea714.png",
+      "sourceCategory": "",
+      "category": "Laptops",
+      "brand": "Lenovo",
+      "collections": [],
+      "subcategory": "Portátiles",
+      "description": "",
+      "specificationsUpdated": "2026-11-24T20:31:32+00:00",
+      "sourceImage": "https://nexcomtienda.com.do/wp-content/uploads/2026/11/57ee09a2-b1f0-403d-94c6-cad50c32d2fe.png"
     }
   ],
-  "updated": "2026-11-23T21:56:23+00:00"
+  "updated": "2026-11-24T20:31:32+00:00"
 }
